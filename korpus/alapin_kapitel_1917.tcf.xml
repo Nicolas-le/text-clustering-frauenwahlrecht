@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-09</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/alapin_kapitel_1917</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-alapin_kapitel_1917.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/alapin_kapitel_1917</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-alapin_kapitel_1917.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/alapin_kapitel_1917</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-alapin_kapitel_1917.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/alapin_kapitel_1917</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-alapin_kapitel_1917.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/alapin_kapitel_1917</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-alapin_kapitel_1917.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Zum Kapitel Frauen-Wahlrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Alapin</cmdp:surname>
+<cmdp:forename>Simon</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/12757218X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+                    <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+                        <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-12-05T17:48:32Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+<cmdp:respStmt>
+                    <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-12-05T17:48:32Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">18</cmdp:measure>
+        <cmdp:measure type="tokens">3317</cmdp:measure>
+        <cmdp:measure type="types">1416</cmdp:measure>
+        <cmdp:measure type="characters">25997</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-09T14:04:32Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/alapin_kapitel_1917</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/alapin_kapitel_1917</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/alapin_kapitel_1917</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/alapin_kapitel_1917</cmdp:idno>
+          <cmdp:idno type="DTADirName">alapin_kapitel_1917</cmdp:idno>
+          <cmdp:idno type="DTAID">33087</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-33087-2</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Alapin, Simon: Zum Kapitel Frauen-Wahlrecht. Heidelberg, 1917.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Zum Kapitel Frauen-Wahlrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Alapin</cmdp:surname>
+<cmdp:forename>Simon</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/12757218X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Heidelberg</cmdp:pubPlace>
+            <cmdp:date type="publication">1917</cmdp:date><cmdp:publisher><cmdp:name>Buchdruckerei von Carl Pfeffer</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+                        <cmdp:repository>Universitätsbibliothek Mannheim</cmdp:repository>
+                        <cmdp:idno>
+                            <cmdp:idno type="shelfmark">NB 0799</cmdp:idno>
+                        </cmdp:idno>
+                    </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: gekennzeichnet;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: keine Angabe;
+                    Kolumnentitel: keine Angabe;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): als s transkribiert;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+                </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Zum Kapitel
+Frauen-
+Wahlrecht.
+Von S. Alapin.
+Zum Kapitel
+Frauen-
+Wahlrecht.
+Propagandaschrift
+von
+S. Alapin.
+Heidelberg1917,
+Buchdruckerei von Carl Pfeffer.
+Vorwort.
+Der Verfasser dieser kleinen Schrift ist ein russi-
+scher Staatsbürger, der zwar in Deutschland schon seit
+Dezennien domiziliert, aber kein Hehl daraus macht, dass
+er das brave, gewissenhafte und hochherzige Duldervolk,
+welches ihm dereinst Leben und Erziehung geschenkt
+hatte, mit unzerreissbaren Naturbanden liebt und an den
+Geschicken des teuren Heimatlandes mit allen Fibern der
+Seele treu und bis in den Tod ergeben hängt.
+Mein Alter, der Krieg und Privatverhältnisse hindern
+mich, in die Heimat zurückzukehren, um dort in meiner
+Muttersprache das gegenwärtige Schriftchen zu Gunsten
+der Frau im allgemeinen und also auch zu Gunsten der mir
+besonders teuren russischen Frauenwelt erscheinen zu
+lassen.
+Aber jetzt bei der Aufhebung der Zensursperre in
+meinem hoffentlich endgültig befreiten Vaterlande hege ich
+die Zuversicht, dass mein gegenwärtiges schwaches Werk-
+chen auch von Deutschland aus in meine geliebte Heimat
+den Weg finden wird und, der deutschen Sprache dieses
+Werkchens ungeachtet, manchen wohlwollenden Leser an-
+treffen kann; denn ich kenne mein menschenfreundliches
+Volk: es gibt bei ihm für einen Hass gegen das deutsche
+Nachbarvolk keinen Platz!
+S. Alapin.
+Heidelberg, im Juni 1917.
+Der Begriff „Frauenwahlrecht“ bezieht sich im we-
+sentlichen auf das Beteiligungsrecht der weiblichen Hälfte
+einer Bevölkerung an der Ernennung von Mitgliedern
+einer Volksvertretung, die kurzweg „Parlament“ genannt
+wird. Ob das Frauenwahlrecht wünschenswert ist oder
+nicht, hängt also vernünftigerweise hauptsächlich davon
+ab, ob es den wesentlichsten praktischen Zielen und Zwek-
+ken, welche mit dem Begriffe „Parlament“ verbunden wer-
+den, entspricht; bezw. ob es zu diesen Zielen und Zwecken
+notwendig erscheint.
+I.
+Wir haben uns also vor allen Dingen über die wesent-
+lichsten praktischen Ziele und Zwecke der als „Parlament“
+bezeichneten Institution klare Rechenschaft abzulegen und
+zwar am besten ganz im allgemeinen; d. h. von
+der Frage, ganz abgesehen, ob im betreffenden Bevölke-
+rungsverbande das sogen. „parlamentarischeRegime“
+(ein dem Parlamente verantwortliches Ministerium
+als Inhaber der Exekutivgewalt) herrscht oder nicht. Es
+käme auch nicht einmal darauf an, ob das betreffende
+„Parlament“ der alleinausschlaggebende Faktor in der
+Gesetzgebung des betreffenden Gebietes ist. Zur Beurtei-
+lung des Frauenwahlrechtes speziell erscheint es nämlich
+in keiner Weise notwendig, die zuletzt zitierten, leiden-
+schaftlich bestrittenen, politischen Machtfragen überhaupt
+ins Auge zu fassen. Denn „Parlamente“ gibt es auch bei
+solchen Bevölkerungsverbänden, bei denen die Exekutiv-
+gewalt ausschliesslich in den Händen einer anderen Kör-
+perschaft oder in denjenigen einer einzigen Person liegt.
+In verhältnismässig nicht sehr entfernter Zeit gab es viel-
+fach auch „Parlamente“, die keine formal gesetzgebende
+Kompetenz besassen, sondern gesetzes-beratende
+Instanzen vorstellten. Auch diese, keineswegs demokra-
+tisch gedachten Fälle behalten wir im Auge, wenn wir
+speziell in Bezug auf das Frauenwahlrecht den Begriff
+„Parlament“, wie gesagt, ganz im allgemeinen
+auffassen.
+Gleichviel ob das jeweilige politische Regime des be-
+treffenden Bevölkerungsverbandes ein demokratisches, ein
+patrizianisches, ein autokratisches, ein bureaukratisches
+oder sonst welches ist; wenn es nur ein wie immer gearte-
+tes „Parlament“ in der Reihe seiner politischen Institu-
+tionen überhaupt zulässt, muss das letztere min-
+destens mit folgender Funktion bedacht sein; bezw.
+folgenden wesentlichen praktischen Zielen und Zwecken
+dienen, wenn nur irgendwelche staatserhaltende
+Logik obwaltet, d. h. wenn das jeweilig bestehende poli-
+tische Regime wie immer gearteter Natur nicht, durch
+Blindheit geschlagen, auf seinen eigenen Sturz hinaus-
+arbeitet.
+Für diesen Fall eines Mindestmasses an staatserhal-
+tender Logik muss nämlich das Parlament vor allen Din-
+gen wenigstens die in der Bevölkerung jeweilig und tat-
+sächlich vorhandenen, auf die Allgemeinheit Bezug neh-
+menden, geistigen Strömungen, Wünsche, Ideale, Beklem-
+mungen, Befürchtungen, Sympathien, Antipathien, Welt-
+anschauungen, ja selbst Utopien und Kindereien, kurz
+und gut politische Geistesverfassungen und Psychologien
+jeglicher Art, insofern sie nennenswerte Teile der
+Volksseele innerlich oder äusserlich bewegen, in zentralisiert
+kondensierter Ausdrucksweise mindestens zur einfachen
+Kenntnis der jeweiligen Machthaber und ihrer Regie-
+rungen bringen. Denn selbst behufs Bekämpfung oder
+gar behufs gewaltsamer Unterdrückung gewisser oben
+aufgezählter politischer Richtungen muss man mindestens
+von deren Existenz etwas wissen ; bezw. über deren
+quantitative Ausdehnung und deren qualitativen In-
+halt genügend authentisch unterrichtet sein. Diese we-
+sentlichste Funktion des Parlaments, im Registrie-
+ren der sogen. öffentlichen Meinung bestehend, kann
+selbst in demokratisch regierten Ländern und selbst zu
+normalen Friedenszeiten nicht durch die parteipolitisch
+getrennte Presse vollauf ersetzt werden. Denn aus der
+letzteren kann nur der qualitative Inhalt der diversen
+Strömungen im politischen Denken und Fühlen der Bevöl-
+kerung ermittelt werden; nicht aber die genauere Messung
+des quantitativenVerhältnisses jener Strömungen unter-
+einander; indem jede Partei, teilweise aus Verblendung
+und teilweise zu absichtlichen Propaganda- bezw. Re-
+klame-Zwecken, gewöhnlich im Namen des ganzen Volkes
+spricht, welches, als angeblich nur hinter dieser Partei ste-
+hend, absichtlich dargestellt wird. Ohne ein frei ge-
+wähltes und mit wirklich immuner Redefrei-
+heit ausgerüstetes Parlament, das ein mechanisches Ab-
+zählen der Stimmen ermöglicht, würde die quantitative
+Abschätzung der relativen Stärke der diversen Parteiströ-
+mungen nur dem subjektiven Augenmasse der jeweiligen
+Machthaber überlassen sein, wobei die fast unvermeidliche
+Gefahr des Wunsches als Ahnen des Gedankens leicht
+mitspielen könnte.
+Noch viel wichtiger und unerlässlicher für jeweilige
+Machthaber beim objektiven Herausfühlen des politischen
+Pulsschlages der Volksseele, bezw. dessen Wandlungen,
+ist die oben geschilderte Registrierungsrolle des
+Parlamentes bei Regierungsformen mit gewissem auto-
+kratischen oder bureaukratischen Anhauche und zwar ganz
+besonders zu Zeitabschnitten, in welchen gewisse Nöte
+zum Gebrauch von Hypnose, Einschüchterung und Zensur
+zwingen. Da kann auf die so künstlich zugerichtete Presse
+als auf eine angeblich wahrheitsgetreue Abspiegelung der
+Wandlungen der wirklichen öffentlichen Meinung natür-
+lich schon gar kein Verlass mehr sein. Denn in solchen
+Fällen hören die jeweiligen Machthaber in den Pressestim-
+men im wesentlichen eigentlich nur das Echo der von
+ihnen selbst ausgegebenen Direktiven. Wie täuschend
+dieses Echo sein kann, hat man ganz unlängst bei den
+Machthabern des früheren Regimes in Russland gesehen,
+wo man auf Grund des geschilderten selbsttäuschenden
+Echos von der unbedingten Treue der Beamten, der Gene-
+räle, der Offiziere, der Armee, der Geistlichkeit, der Leh-
+rer, Professoren, Journalisten etc. überzeugt war, und wo,
+als es zum Klappen kam, ein ganz anderes Bild der wirk-
+lichen öffentlichen Meinung sich plötzlich heraussstellte,
+so dass die Zauberwandlung der politischen Dekorationen
+sich sogar fast unblutig vollzog und das alte Regime so
+gut wie widerstandslos in die Versenkung der politischen
+Bühne verschwand. Nie könnte es so weit und so uner-
+wartet überraschend für die russischen Machthaber kom-
+men, wenn das russische Parlament, so wenig Machtbefug-
+nisse es auch hatte, wenigstens ohne Druck und Fälschung
+der Wahlen auf Grund eines Wahlrechtes zusammenge-
+stellt sein würde, welches die tatsächlich vorhanden gewe-
+senen politischen Strömungen der russischen Volksseele in
+wahrheitsgetreuen und zur zahlenmässigen Messung ge-
+eigneten Proportionen zum offenen Ausdruck brin-
+gen könnte. Denn dann hätten ja die Goremykins, Goiit-
+zyns, Protopopows et tutti quanti doch gewusst, dass
+alle ihre Rechnungen auf die angebliche Treue der Bajo-
+nette längst hinfällig geworden waren. Sie hätten also we-
+nigstens Gelegenheit gehabt, die üblichen siebenmeter-
+hohen Schlagworte der Vorschriftenmoral, deren Nimbus
+in der Volksseele verschwunden war, durch rechtzei-
+tige Konzessionen oder auch durch entgegengesetzte
+Massnahmen zu ersetzen, die ihnen geeignet erscheinen
+könnten, mindestens bis auf weiteres die Situation für den
+Moment zu retten. Jedenfalls hätten sie keine so leichte
+Möglichkeit gehabt, den, durch eine Wand sich vorbeu-
+gender und schmeichelnder Diener von der Volksseele iso-
+lierten, Zaren durch unzuverlässige Beteuerungen über die
+angeblich zuverlässige Stimmung der Volksseele hinweg-
+zutäuschen.
+Es erhellt aus Obigem, dass jede wie immer gear-
+tete politische Partei, wenn sie nur staatserhaltender Na-
+tur ist, sowohl als jede wie immer geartete Regierung,
+wenn sie nur den wirklichen Wunsch hat, in objek-
+tiver Höhe über den Leidenschaften der Parteien zu
+stehen, den Frevel der Selbsttäuschung an sich selbst be-
+geht, falls sie beim „Wahlrechte“ ins Parlament nicht
+darauf achtet, dass die diversen, in der Volksseele tat-
+sächlich vorhandenen, nennenswerten politischen
+Stimmungen in möglichst wahrheitsgetreuen
+Proportionen im Parlamente tatsächlich erscheinen,
+dort das wirklich immune Wort führen und ge-
+legentlich der Abstimmungen zahlenmässig gemessen wer-
+den könnten. Jede andere, auf parteipolitischen Tenden-
+zen oder Sonderinteressen beruhende Wahlrechtspolitik
+ist, gleichviel bei welcher Regierungsform oder Staats-
+verfassung es auch sei, eine eo ipso mit Verderben
+schwangere Vogelstrausspolitik der unverantwortlichen
+Selbsttäuschung. Der spezielle Gesichtswinkel, unter wel-
+chem wir oben die ganze Angelegenheit betrachten, und
+welcher die innere Frage der Verteilung der
+Macht eigentlich ganz ignoriert, lässt nämlich das
+Wahlrecht ins Parlament nicht ganz als ein Recht des
+Wählers, die ihm gebührende Portion des politischen Ein-
+flusses durchzusetzen, erscheinen. Unser Gesichtswinkel
+fasst vielmehr die andere Fassade der Angelegenheit ins
+Auge und sieht im Wahlrechte fürs Parlament zunächst
+nur das Recht (bezw. die auf Selbsterhaltung basierende
+Pflicht) der jeweiligen Machthaber (wer es
+auch sein mag) über die tatsächlichen Stimmungen, bezw.
+Wandlungen der politischen Volksseele sich rechtzeitig
+und genau zu orientieren!
+Die demokratische Formel des Wahlrechts ist be-
+kanntlich viergliedrig und lautet: „allgemein, gleich, direkt
+und geheim“. Unter dem von uns ins Auge gefassten
+Gesichtswinkel sind die zwei zuletzt genannten Glieder
+der demokratischen Wahlrechts-Formel im Vergleich mit
+den beiden ersten insofern untergeordneter Natur, als sie
+lediglich nur aus den bestehenden Wahlerfahrungen abge-
+leitete praktische Garantien dafür vorstellen, dass der
+freie Wille des einzelnen Wählers durch eventuelle
+Einschüchterungen nicht beeinträchtigt werde. So hoch
+diese Garantien für die Freiheit der Wahlen, bezw. für
+die Vermeidung von Wahlfälschungen, auch geschätzt
+sein mögen, sind sie, vom eben geschilderten Gesichtswin-
+kel aus gesehen, mit der „Allgemeinheit“ und
+Gleichheit des Wahlrechts im Werte nicht vergleichbar.
+Denn was nutzt es zur zahlenmässigen Kennt-
+nis der Stimmung der Volksmassen, dass die tatsäch-
+lichen Wähler frei abstimmen, wenn dafür andere zahl-
+reiche Kreise dieser Volksmassen entweder gar kein
+Wahlrecht besitzen oder nur ein so beschränktes, dass
+hierbei die quantitative Ausdehnung dieser Kreise nicht
+zur evidenzmässigen Kenntnisder leitenden Macht-
+haber gelangen kann? Weit wichtiger für diesen letzte-
+ren Zweck ist also die „Allgemeinheit“ und Gleich-
+heit der Wahlen. Unter „gleichem“ Wahlrecht versteht
+man die Bestimmung, dass kein Wähler mehr Stim-
+men besitze als jeder andere „Wähler“ desselben Bevölke-
+rungsverbandes. Ohne die Streitfragen zu berühren,
+welche über diese eventuelle Bestimmung bekanntlich herr-
+schen, ist indessen augenscheinlich, dass auch die „Gleich-
+heit“ der Wählerstimmen untereinander für den
+von uns ins Auge gefassten Zweck (der im Parlamente zah-
+lenmässig messbaren Volksstimmungen) immerhin nur
+unter der wesentlichsten Vorbedingung dienlich sein kann,
+wenn es kein tatsächliches Mitglied des betreffenden Be-
+völkerungsverbandes gibt, das nicht gleichzeitig „Wähler“
+wäre. Denn was nutzt es zur richtigen Erkenntnis
+der Volksstimmung, dass alle „Wähler“ untereinan-
+der gleich sind, wenn es gleichzeitig zahlreiche Teile der
+Bevölkerung gäbe, die überhaupt nicht „Wähler“ wären?
+Der langen Rede kurzer Sinn ist der, dass, sofern ein wie
+immer geartetes Parlament in Betracht kommt, für unse-
+ren speziellen Gesichtspunkt der Messbarkeit der Volks-
+stimmung (der aber für jede parteipolitische Richtung
+staatserhaltender Natur, für jede Regierung wie immer
+gearteter Tendenzen und für jedes politische Macht-
+regime logisch anwendbar und sogar notwendig ist) als
+allerwichtigste Qualität des Wahlrechts dessen „Allge-
+meinheit“ erscheint. Die anderen drei Glieder der zitier-
+ten Formel, in „gleich, direkt und geheim“ bestehend,
+sind, so hoch man sie auch schätzen möge, im Vergleich
+mit dem ersten Gliede „allgemein“ immerhin nur
+minderwertiger Natur und sollten eigentlich nur in dem
+Masse verwirklicht werden, in welchem sie die „Allge-
+meinheit“ des Wahlrechts ergänzen, mit derselben
+vereinbar erscheinen oder ihr mindestens keinen Abbruch
+tun. Selbstverständlich ist diese „Allgemeinheit“
+des Wahlrechts nur massvoll und ohne doktrinäre Ueber-
+treibungen in dem praktischen Sinne zu verstehen, dass
+nur nennenswert einflussfähige Kreise der Bevölke-
+rung aus dem Wahlrechte nicht ausgeschlossen werden
+dürfen. Dies ist übrigens auch die einzige Einschrän-
+kung, welche im Sinne unseres mehrfach oben erwähnten
+Gesichtswinkels das Prinzip der „Allgemeinheit“
+des Wahlrechts überhaupt logisch noch irgendwie zulässt.
+II.
+Nachdem wir nunmehr über die wesentlichsten Er-
+fordernisse eines gesunden, logisch gedachten und staats-
+erhaltenden Wahlrechts uns klare und handgreiflich nüch-
+terne Rechenschaft oben abgelegt haben, wird die Beurtei-
+lung speziell des Frauenwahlrechts verhältnis-
+mässig einfacher sein; weil nämlich die Frauenwelt, die
+nach dem Kriege sicherlich mehrals die Hälfte der euro-
+päischen Menschheit ausmacht, unzweifelhaft als quantita-
+tiv „nennenswert“ zu betrachten ist. Es bliebe also nur
+noch die qualitative „Einflussfähigkeit“ der Frau im Bau
+der Volksstimmungen zu untersuchen, um zu bestimmen,
+ob ein Wahlrecht noch wirklich als „allgemein “ be-
+zeichnet werden darf, welches die erwähnte grössere
+Hälfte der Menschheit grundsätzlich des Stimm-
+rechtes beraubt?
+„Einflussfähig“ ist man, wenn man über eine
+hierzu ausreichende geistige und physische Kraft verfügt,
+auch willens ist, den Einfluss auszuüben.
+Selbst diejenigen, welche von der angeblichen oder
+wirklichen Minderwertigkeit des weiblichen Intellekts im
+Vergleich zum männlichen überzeugt sind, werden zu-
+geben, dass es sich hierbei höchstens nur um eine Durch-
+schnitts-Taxierung handelt. Es wird in der Tat wohl
+keinen einzigen, auch noch so eingefleischten Frauenver-
+ächter geben, der z. B. behaupten würde, jeder obskure
+Bauernknecht sei intelligenter als jede gebildete
+Dame?! … … Nachdem es sich also bei der ver-
+meintlichen Minderwertigkeit des weiblichen Intellekts
+höchstens nur um den theoretischen Durchschnitt
+handeln kann, wie kommt man dazu, das Frauenwahlrecht
+gar „grundsätzlich“ (!?…)zu verneinen?
+„Durchschnitt“ ist doch nur ein Begriff. (Theore-
+tische Abstraktion.) ln realer, handgreiflicher Wirk-
+lichkeit gibt es ja, praktisch und physisch genommen,
+überhaupt gar keinen„Durchschnitts-Menschen“ und
+zwar, weder Mann noch Weib, sondern nur Individuen ad
+hoc. Auf Grund einer theoretischen Durchschnitts-
+Taxierung über angebliche oder wirkliche Minderwertig-
+keit des weiblichen Intellekts kann man demnach nicht un-
+gestraft die gesamteFrauenwelt, darunter auch die
+also wissentlich intelligenten und hiernach auch wissent-
+lich „einflussfähigen“ Frauen, nach einem Universalrezept,
+d. h. gar grundsätzlich, des Stimmrechtes berau-
+ben. Dies wird sich unvermeidlich mindestens dadurch
+rächen, dass, man im Parlamente die Stimmung beträcht-
+licher Kreise der Bevölkerung nicht zahlenmässig wird
+kennen lernen, welche für den Bau und die Wandlungen
+der öffentlichen Meinung, bezw. der politischen Volkspsy-
+chologie, tatsächlich „einflussfähig“ sind und zwar des-
+halb „einflussfähig“, weil sie hierzu, trotz der theoretischen
+Durchschnittsrechnung, individuell über eine ausrei-
+chende geistige Kraft (Intelligenz) tatsächlich verfügen.
+Folgender Vergleich zur Illustration des Wertes von theore-
+tischen Durchschnitts-Methoden für praktische
+Massnahmen ad hoc sei zitiert. Es ist Tatsache, dass der
+weibliche Besitz an landwirtschaftlichen Betrieben im
+Durchschnitt ein weit geringerer ist als bei Män-
+nern. Wäre es vernünftig, auf Grund dieses Durch-
+schnittes allein bei der behördlichen Bestandsaufnahme von
+Lebensmitteln die weiblichen Besitztümer grundsätzlich zu
+ignorieren? … Was übrigens den inneren Wert des Ge-
+redes über die angeblich angeborene (??…) Minderwer-
+tigkeit des weiblichen Intellekts, im Grunde genommen,
+betrifft, sei hier nur erwähnt, dass es sich im gegebenen
+Falle speziell des Frauenwahlrechts nicht etwa um eine
+wissenschaftliche, sondern nur um die politische In-
+telligenz handelt. Dann aber mögen uns die Frauenver-
+ächter folgende geschichtliche Erscheinung erklä-
+ren. Lässt man nämlich sämtliche Regentinnen der Welt-
+geschichte vor sich geistige Revue passieren, so werden
+sich mindestens vier Fünftel der Gesamtzahl als vielfach
+segensreiche, jedenfalls aber als imposanteste Figuren er-
+weisen, die jedem Manne auch nur oberflächlicher Kennt-
+nisse, wenigstens dem weltberühmten Namen nach, bekannt
+sind. (Semiramis, Katharina II., Maria Theresia etc.)
+Bei den Regenten hingegen sind umgekehrt mindestens
+vier Fünftel der Gesamtzahl in weitesten Kreisen ganz un-
+bekannte Nulltäten gewesen!? … … Um nicht weit in
+die Weltgeschichte zu gehen, stelle man sich übrigens vor,
+die politische Gesinnung sämtlicher heutigen Regenten des
+Erdballs sei derjenigen der Königin Wilhelmine von
+Holland gleich und man beantworte die Frage, ob die
+Welt politisch so aussehen würde, wie sie sich uns leider
+gegenwärtig darstellt? … … Wenn man die Welt wirk-
+lich als „Vorstellung und Wille“ auffasst – und diese
+Schopenhauersche These ist noch nie widerlegt worden –
+so besteht der Intellekt eines lebenden Wesens und also
+auch eines Menschen nicht nur aus seinen Fähigkeiten
+(Fassungsvermögen) allein, sondern auch aus seinem
+Temperament. Man wird aber objektiverweise zugeben
+müssen, dass das weibliche Temperament selbst im Frevel,
+Laster, Leidenschaft, Fanatismus, Hass, Grausamkeit und
+sonstigen Niederträchtigkeiten noch immer über eine ge-
+wisse, und sei es auch nur durch Scham gebotene Grenze
+weniger krass hinausgeht, als es bei Männern leider der
+Fall sein kann. Der natürliche Grund des relativ höheren
+Masses an Milde und menschenfreundlicher Toleranz beim
+Weibe besteht wahrscheinlich darin, dass das Weib, ver-
+möge seins mütterlichen Berufes weit reichlichere
+Gelegenheiten als der Mann zu Uebung und also auch
+zum Anerziehen von Nachsicht, Liebe und Aufopferung
+(den Kindern gegenüber) seit jeher besessen hat. Daher
+das kulturgeschichtlich entwickelte höhere Mass an weich-
+herzigerem gemässigterem Temperament. (Darwinsche
+Theorie der natürlichen Anpassung.) Nun ist aber ge-
+rade auf dem Gebiete der inneren und äusseren Politik un-
+verkennbar, dass im allgemeinen unsere Kultur und
+Zivilisation die unausrottbare Tendenz hat, aus den Zeit-
+altern des Blutes, Eisens und des Faustrechtes herauszu-
+kommen und dem Regime der Menschenliebe, des Frie-
+dens und des moralischen Rechtes zuzustreben. Für diese
+auf die Dauer ganz unvermeidliche Richtung unserer Kul-
+tur wäre das Hineingreifen der hierzu am meisten veran-
+lagten Hälfte der Menschheit in die Politik und Gesetz-
+gebung ein wichtiges vorwärtsbringendes Plus, das geeig-
+net wäre, die Konvulsionen des Ueberganges bedeutend ab-
+zukürzen. So und keineswegs anders ist die auf geistiger
+Kraft der Frau beruhende , „Einflussfähigkeit“ derselben
+in Bezug auf das politische Frauenwahlrecht in realer
+Wirklichkeit aufzufassen!
+Schon etwas richtiger scheint auf den ersten
+Blick diejenige Einwendung gegen die tatsächliche „Ein-
+flussfähigkeit“ der Frau zu sein, welche auf ihrem verhält-
+nismässigen Mangel an physischer Kraft beruht.
+Denn erstens ist dieser wirkliche Mangel nicht wie oben
+bei der geistigen Kraft zu bestreiten und zweitens muss
+man zugeben, dass der Mann vermöge seiner robusteren
+Konstruktion und auch, weil er von den alltäglichen klei-
+nen Sorgen um die Kinder verhältnismässig freier ist, die
+unmittelbar grössere Möglichkeit besitzt, in der Politik
+Einfluss auszuüben, bezw. seinen politischen Willen
+eventuell auch mit Gewalt durchzusetzen. Diese Einwen-
+dung erweist sich jedoch als wenig stichhaltig, wenn man
+auf die Sache näher und psychologisch tiefer eingeht.
+Ueber Musse, physische Kraft und eigensinnigen Wil-
+len verfügt auch z. B. ein Ochse. Deshalb allein ist er
+noch gar nicht im Stande, selbst auf den kleinen, kaum
+mit einer Rute bewaffneten Hirtenknaben der Herde
+irgend einen nennenswerten „Einfluss“ auszuüben. So
+drastisch diese Analogie auch erscheinen mag, sie ist ge-
+eignet, den Kern der Angelegenheit aufzudecken. Der
+Hund liegt nämlich im Begriffe „Wille“ begraben. Wir
+sind gewöhnlich zum Irrtume geneigt, sich den letzteren
+als etwas spontan und von ungefähr sich selbst Erzeugen-
+des aufzufassen. In Wirklichkeit jedoch ist der Inhalt
+des „Willens“ nur eine, wenn auch nicht immer berechen-
+bare oder vorauszusagende, psychologische Resultante
+diverser auf den Geist einwirkenden Kräfte, welche in
+hohem Masse in den durch die Erziehung kul-
+tivierten Veranlagungen und in der geistigen Um-
+gebung des wollenden Subjektes zu suchen sind.
+Nun ist es gewöhnlich nur die Mutter, die in der
+zartesten Jugend ihrer Kinder sich mit deren Er-
+ziehung befasst und ihnen die Keime ihrer künf-
+tigen Veranlagung in die Seele unauswischbar hin-
+einpflanzt. Als Ehefrau oder als Geliebte bildet dann wie-
+derum das Weib diejenige Umgebung des Mannes, die
+in seinem teuersten und heiligsten Heime schaltet und wal-
+tet, wo er zur erholenden Erquickung, vom Kampfe des
+Daseins ermüdet. Zuflucht sucht, um dort als Mensch und
+Vater seinen menschlichen Gefühlen zu leben. Wer kann
+sich also ernstlich erdreisten, zu behaupten, dass die Müt-
+ter, die Ehefrauen und die Geliebten, weil sie physisch
+weniger kräftig sind, den sogenannten freien (?) „Wil-
+Ien“ des Mannes nicht bestimmen und somit auch poli-
+tisch angeblich nicht „einflussfähig“ sind? Der gesunde
+Menschenverstand der Volksweisheit hat nicht umsonst
+das geflügelte Wort geschaffen: die Frauen regieren die
+Welt! („Cherchez la femme“.) Ist es vernünftig und
+staatserhaltend, eine derart einflussreiche Weltmacht durch
+grundsätzliche Beraubung des Wahlrechts nur indirekt
+sich zum Gehör kommen zu lassen? Ist es nicht eine
+mutwillige Vogelstrausspolitik? …
+Die allerstärkste und wirklich gefährliche Einwen-
+dung gegen die das Frauenwahlrecht bedingende politische
+„Einflussfähigkeit“ der Frau ist, glauben wir, die oben er-
+wähnte dritte Vorbedingung dieser „Einflussfähigkeit“.
+Man muss nämlich, wie schon gesagt, „auch willens
+sein, den Einfluss auszuüben!“ Man wird jedoch leider
+gestehen, dass in dieser wichtigsten Beziehung nur eine
+verhältnismässig unzureichende Zahl der Frauen auf der
+Seite der angeblich nur lächerlichen Frauenrechtlerinnen
+steht, während die überwiegende Mehrheit der Frauen-
+welt teilweise aus Leichtsinn, teilweise aus Genussucht,
+meistens aber aus falscher Scham eines durchaus falsch
+verstandenen angeblichen Anstandsgefühls („sich
+von der Nachbarin möglichst nicht zu unterscheiden!“ …)
+in einem weit höheren Masse als die Männerwelt in der
+Anstrebung politischer Rechte einen verwerflichen Indif-
+ferentismus an den Tag legt. Diesem unverkennbaren
+Makel zu steuern, ist vor allen Dingen Sache der Frauen
+selbst. Es ist auch höchste Zeit hierzu, denn den Frauen
+sind jetzt genügend die Augen darüber geöffnet worden,
+was alles in der sog. zivilisierten Welt ohne den mildern-
+den international-politischen Einfluss des weicheren
+Frauentemperaments passieren kann und wie ihre Söhne,
+Ehemänner, Geliebte, Brüder und Väter sich gegenseitig
+hetzen und abschlachten. Zu dem, was jetzt in der Welt
+vorgeht, würde ja selbst der greise Ben Akiba beschämt
+sagen müssen: das ist noch nicht dagewesen!! … …
+Man kann unter solchen Umständen, wenn die weltzer-
+störende Menschenschlächterei einmal für allemal auf-
+hören soll, die politischen Rechte der Frau, bezw. das
+Frauenwahlrecht, gar nicht mehr vermissen! Die Frauen
+müssen aber vor allen Dingen selbst hierfür in ge-
+schlossenen Reihen mit aller Energie und opferfreu-
+dig auftreten!
+Wenn die gegenwärtige kleine Schrift als Anregung
+und als Andeutung des wichtigsten Materials im betreffen-
+den Argumentationskampfe dienlich sein könnte, so wird
+es den besten Lohn vorstellen für den Verfasser.
+Im Selbstverlage des Verfassers, Heidelberg, Märzgasse 22.
+Einzelverkaufspreis 40 Pfg. Bei Mehrabnahme entsprechende Ermäßigung.
+</text>
+  </TextCorpus>
+</D-Spin>
