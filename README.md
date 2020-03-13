@@ -1,4 +1,4 @@
-# Text Clustering Projekt rund um ein Korpus zum Frauenwahlrecht
+# Text Clustering Projekt rund um einen Korpus zum Frauenwahlrecht
 
 --> work in progress
 
@@ -22,20 +22,20 @@ verschiedene Herangehensweisen
 
 1. Einzelne Methoden
 
-  1. Kookkurrenzanalyse
+  * Kookkurrenzanalyse
 
-	Kookkurrenz um Begriffe wie Fraue, Frauenwahlrecht, ...
-	Auf diese Kookkurrenzen - Sentiment-Analyse - Topic Modelling
+Kookkurrenz um Begriffe wie Fraue, Frauenwahlrecht, ...
+Auf diese Kookkurrenzen - Sentiment-Analyse - Topic Modelling
 
-  2. Topic Modelling
+  * Topic Modelling
 
-  3. Netzwerkanalyse von Zeitschrift, Personen, Themen, Sentiments
+  * Netzwerkanalyse von Zeitschrift, Personen, Themen, Sentiments
 
-  4. Zeitliche Verläufe betrachten und Darstellen
+  * Zeitliche Verläufe betrachten und Darstellen
 
-  5. Stilometrisches Feature: Wortlänge
+  * Stilometrisches Feature: Wortlänge
 
-	Bezug zu Bourdieus Klassenbeschreibung
+Bezug zu Bourdieus Klassenbeschreibung
 
 2. Ähnlichkeitsanalyse
 
@@ -43,5 +43,5 @@ Vektorerstellung
 
 Vektor
 
-Sentiment auf Text; Sentiment auf Kook zu Frau, Sentiment auf Kook zu Frauenwahlrecht, TD-IDF Frau, TD-IDF Frauenwahlrecht, Stilo #1 Wörter in Satz, Stilo #2 Wortlänge
+Sentiment auf Text; Sentiment auf Kook zu Frau; Sentiment auf Kook zu Frauenwahlrecht; TD-IDF Frau; TD-IDF Frauenwahlrecht; Stilo #1 Wörter in Satz; Stilo #2 Wortlänge
 
