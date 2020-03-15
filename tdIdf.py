@@ -25,19 +25,18 @@ def getTFIDF(documents):
     N = len(documents)
 
     for doc in documents:
+        docText = documents[doc].text.replace("\n"," ").split(" ")
 
-        doc = doc.text.replace("\n"," ").split(" ")
-        for word in doc:
-            print(word)
+        for word in docText:
 
             word = word.translate(str.maketrans('', '', string.punctuation)) #removes punctuatiopn
-            count = t[word].get(doc,0)
+            count =t[word].get(doc,0)
             t[word][doc] = count + 1
 
     for word in t:
         dk = len(t[word])
         for doc in t[word]:
-            D = len(documents[doc])
+            D = len(documents[doc].text)
             wordFreq = t[word][doc]
             tfidf[doc][word] = calculateTFIDF(N,dk,wordFreq,D)
 
