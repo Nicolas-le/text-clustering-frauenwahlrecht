@@ -5,6 +5,7 @@
       <list>
         <option value="textProcessing" />
         <option value="tdIdf" />
+        <option value="coOccurrence" />
       </list>
     </option>
   </inspection_tool>
