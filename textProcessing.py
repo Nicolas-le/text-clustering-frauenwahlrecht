@@ -44,11 +44,11 @@ def infoExtraction(file):
     return [title,author, year, publisher, text]
 
 def getAllTexts(path):
-    texts = []
+    texts = {}
 
     for filename in glob.glob(os.path.join(path, '*.xml')):
         with open(os.path.join(os.getcwd(), filename), 'r') as f:
-            texts.append(text(f))
+            texts[filename] = text(f)
 
     return texts
 
