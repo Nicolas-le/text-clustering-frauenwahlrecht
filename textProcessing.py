@@ -15,34 +15,40 @@ class text:
         self.title = info[0]
         self.author = info[1]
         self.year = info[2]
-        self.text = info[3]
+        self.publisher = info[3]
+        self.text = info[4]
 
 
 
-def infoExtraction(f):
-    year = 0
+def infoExtraction(file):
+    """
+    Extracts the information out of the given file.
+    :param file:
+    :return:
+    """
 
-    soup = bs(f, 'lxml')
+    soup = bs(file, 'lxml')
+
+    author = str(soup.find('cmdp:surname').text) + ", "+ str(soup.find('cmdp:forename').text)
+    year = soup.find_all('cmdp:date',type="publication")[1].text
+    title = str(soup.find('cmdp:title').text)
+
+    if len(soup.find_all('cmdp:publisher')) > 1:
+        publisher = str(soup.find_all('cmdp:publisher')[1].text)
+    else:
+        publisher = "Nicht bekannt."
 
     text = str(soup.find('text').text)
-    title = str(soup.find('cmdp:title').text)
-    author = str(soup.find('cmdp:surname').text) + ", "+ str(soup.find('cmdp:forename').text)
-
-    #publisher = soup.find('cmdp:publisher')
 
 
-
-    print(author)
-    print(title)
-    #print(publisher)
-    print(year)
-    print()
-
-    return [title,author, year, text]
+    return [title,author, year, publisher, text]
 
 def getAllTexts(path):
+    texts = []
 
     for filename in glob.glob(os.path.join(path, '*.xml')):
         with open(os.path.join(os.getcwd(), filename), 'r') as f:
-            infoExtraction(f)
+            texts.append(text(f))
+
+    return texts
 
