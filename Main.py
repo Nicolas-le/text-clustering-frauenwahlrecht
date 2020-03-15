@@ -6,19 +6,34 @@
 import os
 import textProcessing
 import tdIdf
+import coOccurrence
 
-dataPath = "korpus/"
-documents = textProcessing.getAllTexts(dataPath)
 
-#documents = {filename: object with extracted info}
+if __name__ == '__main__':
 
-td_Idf = tdIdf.getTFIDF(documents)
+    dataPath = "korpus/"
+    documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
+    coOccurrence.printMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"])
+
+    #td_idf = tdIdf.getTFIDF(documents)
+
+
+
+
+
+
+
+
+"""
+printer for ididf
 for file in documents:
-    print(file)
-    print(td_Idf[file]["ist"])
-    #add function if word isn't in file
-
+    print(documents[file].title)
+    print(documents[file].author)
+    print(documents[file].year)
+    print(td_idf[file].get("Frauen")) #get returns None if word is not in file
+    print()
+"""
 
 
 
