@@ -1,3 +1,9 @@
+"""
+@author: Nicolas R.
+(c) 2020
+
+"""
+
 import string
 import numpy as np
 from collections import defaultdict

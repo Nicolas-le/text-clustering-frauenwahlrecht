@@ -1,3 +1,9 @@
+"""
+@author: Nicolas R.
+(c) 2020
+
+"""
+
 import glob
 import os
 from bs4 import BeautifulSoup as bs
