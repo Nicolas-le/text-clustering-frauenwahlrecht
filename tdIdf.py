@@ -35,7 +35,7 @@ def getTFIDF(documents):
 
         for word in docText:
 
-            word = word.translate(str.maketrans('', '', string.punctuation)) #removes punctuatiopn
+            word = word.translate(str.maketrans('', '', string.punctuation)) #removes punctuation
             count =t[word].get(doc,0)
             t[word][doc] = count + 1
 
