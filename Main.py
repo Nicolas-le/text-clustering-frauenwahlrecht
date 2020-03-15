@@ -5,12 +5,16 @@
 """
 import os
 import textProcessing
+import tdIdf
 
 dataPath = "korpus/"
-texts = textProcessing.getAllTexts(dataPath)
+documents = textProcessing.getAllTexts(dataPath)
 
-for t in texts:
-    print(t.author)
+td_Idf = tdIdf.getTFIDF(documents)
+
+
+
+
 
 
 
