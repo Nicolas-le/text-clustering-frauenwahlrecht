@@ -4,6 +4,7 @@
     <option name="ignoredIdentifiers">
       <list>
         <option value="textProcessing" />
+        <option value="tdIdf" />
       </list>
     </option>
   </inspection_tool>
