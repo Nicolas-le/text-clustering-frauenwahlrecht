@@ -14,7 +14,7 @@ if __name__ == '__main__':
     dataPath = "korpus/"
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
-    coOccurrence.printMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"])
+    coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
 
     #td_idf = tdIdf.getTFIDF(documents)
 
