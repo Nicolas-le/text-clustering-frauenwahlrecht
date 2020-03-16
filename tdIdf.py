@@ -31,7 +31,7 @@ def getTFIDF(documents):
     N = len(documents)
 
     for doc in documents:
-        docText = documents[doc].text.replace("\n"," ").split(" ")
+        docText = documents[doc].text.replace("\n"," ").replace("- ","").split(" ")
 
         for word in docText:
 
