@@ -7,6 +7,8 @@ import os
 import textProcessing
 import tdIdf
 import coOccurrence
+import stylometry
+import sentimentAnalysis
 
 
 if __name__ == '__main__':
@@ -14,14 +16,23 @@ if __name__ == '__main__':
     dataPath = "korpus/"
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
-    coOccurrence.printMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"])
+    coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
 
-    #td_idf = tdIdf.getTFIDF(documents)
-
-
+    sentimentAnalysis.sentAnalysis(coOccurences)
 
 
 
+
+
+
+    """
+    coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
+
+    td_idf = tdIdf.getTFIDF(documents)
+
+    for file in documents:
+        print(stylometry.averageWordLength(documents[file]))
+    """
 
 
 
