@@ -6,7 +6,6 @@
 from nltk import ngrams
 
 
-
 def coOccurrenceMatrix(document,word):
 
     text = document.text.replace("\n"," ").replace("- ","").split(" ")
@@ -17,7 +16,7 @@ def coOccurrenceMatrix(document,word):
 
     for gram in ninegrams:
         if gram[4] == word:
-            cooc.append[gram]
+            cooc.append(gram)
 
     return cooc
 
