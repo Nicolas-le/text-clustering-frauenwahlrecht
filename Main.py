@@ -7,6 +7,7 @@ import os
 import textProcessing
 import tdIdf
 import coOccurrence
+import stylometry
 
 
 if __name__ == '__main__':
@@ -14,13 +15,13 @@ if __name__ == '__main__':
     dataPath = "korpus/"
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
-    coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
+    #coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
 
     #td_idf = tdIdf.getTFIDF(documents)
 
-
-
-
+    for file in documents:
+        print(stylometry.averageWordLength(documents[file]))
+        print(stylometry.maxWordLength(documents[file]))
 
 
 
