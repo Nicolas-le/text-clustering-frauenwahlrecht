@@ -6,6 +6,7 @@
         <option value="textProcessing" />
         <option value="tdIdf" />
         <option value="coOccurrence" />
+        <option value="stylometry" />
       </list>
     </option>
   </inspection_tool>
