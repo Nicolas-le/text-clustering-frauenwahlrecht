@@ -23,8 +23,8 @@ if __name__ == '__main__':
     for file in documents:
 
         coOccurences = coOccurrence.coOccurrences(documents[file], "Frauen")
-        print(sentimentAnalysis.sentAnalysisCoOc(documents[file].text,False))
-        print(sentimentAnalysis.sentAnalysisCoOc(coOccurences,True))
+        print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
+        print(sentimentAnalysis.sentAnalysis(coOccurences,True))
 
 
 
