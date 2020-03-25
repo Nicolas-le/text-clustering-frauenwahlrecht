@@ -6,7 +6,7 @@
 from nltk import ngrams
 
 
-def coOccurrenceMatrix(document,word):
+def coOccurrences(document,word):
 
     text = document.text.replace("\n"," ").replace("- ","").split(" ")
 
