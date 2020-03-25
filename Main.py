@@ -11,7 +11,6 @@ from featureExtraction import sentimentAnalysis
 
 
 
-
 def printAllInfo(documents):
     td_idf = tdIdf.getTFIDF(documents)
 
