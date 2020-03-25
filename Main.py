@@ -10,64 +10,58 @@ from featureExtraction import stylometry
 from featureExtraction import sentimentAnalysis
 
 
+
+
+def printAllInfo(documents):
+    td_idf = tdIdf.getTFIDF(documents)
+
+    for file in documents:
+        #print basic info
+        printHelper("Basic Info")
+        print("Title: ")
+        print(documents[file].title)
+        print("Author: ")
+        print(documents[file].author)
+        print("Year of the publication: ")
+        print(documents[file].year)
+
+        #get cooccurences of a specific word
+        printHelper("Cooccurrences of word")
+        word = "Frauen"
+        range = 5
+        print("word: "+ word +" range: "+ str(range))
+        coOccurences = coOccurrence.coOccurrences(documents[file], word, range)
+        print(coOccurences)
+
+        #sentiment analysis
+        printHelper("SentimentAnalysis:")
+        print("Sentiment around cooccurrences: ")
+        print(sentimentAnalysis.sentAnalysis(coOccurences,True))
+        print("Sentiment of whole text: ")
+        print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
+
+        #tdIdf
+        printHelper("TD-IDF of Frauen")
+        print(td_idf[file].get("Frauen")) #get returns None if word is not in file
+
+        #stylometry
+        printHelper("Stylometry")
+        print("Average word length: ")
+        print(stylometry.averageWordLength(documents[file]))
+
+def printHelper(specification):
+    print()
+    print("#"*50)
+    print(specification)
+    print("#"*50)
+    print()
+
 if __name__ == '__main__':
 
     dataPath = "korpus/"
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
-    #coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
-    #sentimentAnalysis.sentAnalysis(coOccurences)
-
-
-    for file in documents:
-
-        coOccurences = coOccurrence.coOccurrences(documents[file], "Frauen",10)
-        print(coOccurences)
-        #print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
-        #print(sentimentAnalysis.sentAnalysis(coOccurences,True))
-
-
-
-    """
-    coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
-
-    td_idf = tdIdf.getTFIDF(documents)
-
-    for file in documents:
-        #print(stylometry.averageWordLength(documents[file]))
-        
-    """
-
-def getAll(documents):
-    td_idf = tdIdf.getTFIDF(documents)
-
-
-    for file in documents:
-        #print basic info
-        print(documents[file].title)
-        print(documents[file].author)
-        print(documents[file].year)
-
-        #get cooccurences of a specific word
-        word = "Frauen"
-        range = 10
-        coOccurences = coOccurrence.coOccurrences(documents[file], word, 5)
-        print(sentimentAnalysis.sentAnalysis(coOccurences,True))
-
-        print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
-
-        #tdIdf
-        print(td_idf[file].get("Frauen"))
-
-
-
-"""
-printer for ididf
-for file in documents:
-
-    print(td_idf[file].get("Frauen")) #get returns None if word is not in file
-    print()
-"""
+    printAllInfo(documents)
 
 
 
