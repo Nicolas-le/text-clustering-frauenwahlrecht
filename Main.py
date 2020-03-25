@@ -4,11 +4,11 @@
 
 """
 import os
-import textProcessing
-import tdIdf
-import coOccurrence
-import stylometry
-import sentimentAnalysis
+from featureExtraction import textProcessing
+from featureExtraction import tdIdf
+from featureExtraction import coOccurrence
+from featureExtraction import stylometry
+from featureExtraction import sentimentAnalysis
 
 
 if __name__ == '__main__':
