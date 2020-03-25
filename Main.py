@@ -24,6 +24,8 @@ def printAllInfo(documents):
         print(documents[file].author)
         print("Year of the publication: ")
         print(documents[file].year)
+        print("Publisher: ")
+        print(documents[file].publisher)
 
         #get cooccurences of a specific word
         printHelper("Cooccurrences of word")
