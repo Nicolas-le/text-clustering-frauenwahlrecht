@@ -16,12 +16,15 @@ if __name__ == '__main__':
     dataPath = "korpus/"
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
-    coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
-
-    sentimentAnalysis.sentAnalysis(coOccurences)
-
+    #coOccurences = coOccurrence.coOccurrenceMatrix(documents["korpus/baader_arbeit_1911.tcf.xml"], "Frauen")
+    #sentimentAnalysis.sentAnalysis(coOccurences)
 
 
+    for file in documents:
+
+        coOccurences = coOccurrence.coOccurrences(documents[file], "Frauen")
+        print(sentimentAnalysis.sentAnalysisCoOc(documents[file].text,False))
+        print(sentimentAnalysis.sentAnalysisCoOc(coOccurences,True))
 
 
 
@@ -31,7 +34,8 @@ if __name__ == '__main__':
     td_idf = tdIdf.getTFIDF(documents)
 
     for file in documents:
-        print(stylometry.averageWordLength(documents[file]))
+        #print(stylometry.averageWordLength(documents[file]))
+        
     """
 
 
