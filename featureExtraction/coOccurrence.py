@@ -10,7 +10,7 @@ def coOccurrences(document,word,range):
     """
     Calculates the ngrams of the input text. Returns all the ngrams where
     the chosen word is in the middle.
-    :param document:    document object. The attribute text is extracted an formated
+    :param document:    document object. The attribute text is extracted and formated
     :param word:        the word the cooccurrence is wanted for
     :param range:       specifies how many words before and after the word should be
                         f.ex. range = 2 --> x,y,word,z,v
