@@ -3,7 +3,6 @@
 (c) 2020
 
 """
-import os
 from featureExtraction import textProcessing
 from featureExtraction import tdIdf
 from featureExtraction import coOccurrence
@@ -22,9 +21,10 @@ if __name__ == '__main__':
 
     for file in documents:
 
-        coOccurences = coOccurrence.coOccurrences(documents[file], "Frauen")
-        print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
-        print(sentimentAnalysis.sentAnalysis(coOccurences,True))
+        coOccurences = coOccurrence.coOccurrences(documents[file], "Frauen",10)
+        print(coOccurences)
+        #print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
+        #print(sentimentAnalysis.sentAnalysis(coOccurences,True))
 
 
 
@@ -38,14 +38,33 @@ if __name__ == '__main__':
         
     """
 
+def getAll(documents):
+    td_idf = tdIdf.getTFIDF(documents)
+
+
+    for file in documents:
+        #print basic info
+        print(documents[file].title)
+        print(documents[file].author)
+        print(documents[file].year)
+
+        #get cooccurences of a specific word
+        word = "Frauen"
+        range = 10
+        coOccurences = coOccurrence.coOccurrences(documents[file], word, 5)
+        print(sentimentAnalysis.sentAnalysis(coOccurences,True))
+
+        print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
+
+        #tdIdf
+        print(td_idf[file].get("Frauen"))
+
 
 
 """
 printer for ididf
 for file in documents:
-    print(documents[file].title)
-    print(documents[file].author)
-    print(documents[file].year)
+
     print(td_idf[file].get("Frauen")) #get returns None if word is not in file
     print()
 """
