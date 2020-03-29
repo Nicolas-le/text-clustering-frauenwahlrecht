@@ -57,6 +57,10 @@ def printAllInfo(documents):
         print("Average word length: ")
         print(documents[document].features["styloWordLength"])
 
+        #vector
+        printHelper("Vector")
+        print(documents[document].vector)
+
 def printHelper(specification):
     """
     Prints a header.
@@ -93,9 +97,11 @@ if __name__ == '__main__':
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
     featureExtraction(documents)
+    vectorAnalysis.createVector(documents)
+    vectorAnalysis.euclideanDistance(documents)
+
     printAllInfo(documents)
 
-    vectorAnalysis.createVector(documents)
 
 
 
