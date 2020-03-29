@@ -90,7 +90,6 @@ def featureExtraction(documents):
 
 
 
-
 if __name__ == '__main__':
 
     dataPath = "korpus/"
