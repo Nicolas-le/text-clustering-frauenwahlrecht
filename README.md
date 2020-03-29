@@ -14,7 +14,12 @@ Wie wird die Einführung des Frauenwahlrechts um die Einführung herum diskutier
 **Daten:**
 
 Textsammlung (deutschestextarchiv) zu Veröffentlichung rund um das Frauenwahlrecht
-1909-1917 (ca. 50-60 Texte)
+1909-1917 (ca. 60-70 Texte)
+
+[Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.](https://creativecommons.org/licenses/by-nc/3.0/de/)
+http://www.deutschestextarchiv.de/search/metadata?corpus=tdef
+
+
 
 **Methodologie:**
 
