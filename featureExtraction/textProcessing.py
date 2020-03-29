@@ -47,6 +47,7 @@ def infoExtraction(file):
     else:
         publisher = "Nicht bekannt."
 
+
     text = str(soup.find('text').text)
 
 

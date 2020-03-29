@@ -1,0 +1,2829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/ichenhaeuser_gleichberechtigung_1898</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-ichenhaeuser_gleichberechtigung_1898.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/ichenhaeuser_gleichberechtigung_1898</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ichenhaeuser_gleichberechtigung_1898.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/ichenhaeuser_gleichberechtigung_1898</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ichenhaeuser_gleichberechtigung_1898.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/ichenhaeuser_gleichberechtigung_1898</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ichenhaeuser_gleichberechtigung_1898.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/ichenhaeuser_gleichberechtigung_1898</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ichenhaeuser_gleichberechtigung_1898.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Die politische Gleichberechtigung der Frau</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Ichenhaeuser</cmdp:surname>
+<cmdp:forename>Eliza</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2017-02-20T18:11:38Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2017-02-20T18:11:38Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">107</cmdp:measure>
+        <cmdp:measure type="tokens">18426</cmdp:measure>
+        <cmdp:measure type="types">4938</cmdp:measure>
+        <cmdp:measure type="characters">132589</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:59:41Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/ichenhaeuser_gleichberechtigung_1898</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/ichenhaeuser_gleichberechtigung_1898</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/ichenhaeuser_gleichberechtigung_1898</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/ichenhaeuser_gleichberechtigung_1898</cmdp:idno>
+          <cmdp:idno type="DTADirName">ichenhaeuser_gleichberechtigung_1898</cmdp:idno>
+          <cmdp:idno type="DTAID">31325</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-31325-0</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Ichenhaeuser, Eliza: Die politische Gleichberechtigung der Frau. Berlin, 1898.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Die politische Gleichberechtigung der Frau</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Ichenhaeuser</cmdp:surname>
+<cmdp:forename>Eliza</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1898</cmdp:date><cmdp:publisher><cmdp:name>Verlag von Carl Duncker</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Google Books</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="URLImages">https://books.google.com/books?id=EZ_kAAAAMAAJ</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: gekennzeichnet;
+    Druckfehler: dokumentiert;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: keine Angabe;
+    Kolumnentitel: gekennzeichnet;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Die
+politische Gleichberechtigung
+der Frau
+Von
+Eliza Ichenhaeuser
+Berlin W. 35.
+Verlag von Carl Duncker.
+1898.
+___
+___
+Meinem lieben Manne und Gesinnungsgenossen
+DR. JUSTUS JCHENHAEUSER
+gewidmet.
+Vorwort. Die politische Gleichberechtigung der Frau ist in
+Deutschland noch ein noli me tangere und ich fürchte,
+dass die Kritik, die meine bisherigen Arbeiten mit
+liebenswürdigem Wohlwollen aufgenommen hat, es mir
+beim Lesen des blossen Titels dieser Schrift entziehen
+wird. Und doch beabsichtigen die nachstehenden Blätter
+nur zu zeigen, dass die politische Gleichberechtigung
+der Frau durchaus nicht die Ungeheuerlichkeit ist, als
+welche sie deutschen Augen vorschwebt, dass sie nicht
+Unweiblichkeit oder Entweiblichung zur Folge hat,
+sondern im Gegentheil die höchste Entwicklung des
+Weibes herbeiführt, dass die geistig und politisch reife
+Frau ganz anders als die unter ständiger Vormundschaft
+Stehende an der Wohlfahrt des Landes, an der Social-
+politik desselben, an seiner Gesetzgebung, auf dass sie
+eine gerechte werde, mitarbeitet. Ich habe es mir be-
+sonders angelegen sein lassen die Resultate derjenigen
+Länder, in denen das Frauenwahlrecht bereits zur That-
+sache geworden ist, an der Hand von unwiderleglichen
+Beweisen vorzuführen und ich hoffe, dass die Leser, die
+mir durch die Blätter hindurch gefolgt sind, zur Ueber-
+zeugung gelangen werden, dass die politische Gleich-
+berechtigung der Frau keine Utopie mehr ist, sondern
+eine Thatsache, und dass die Frauen, die sie fordern,
+keine Kinder sind, die nach dem Wahlrecht wie nach
+einem buntflimmernden Spielzeug greifen, sondern reife,
+ernste Frauen, die die politische Gleichberechtigung nicht
+aus Caprice, nicht aus Tändelei suchen, sondern wegen
+ihrer Rechte, wegen ihrer Pflichten.
+Berlin, den 19. November 1897.
+Wer weiss wie weit die Welt noch zurückstände,
+hätte es kein England gegeben«; dieser halb bewundernde,
+halb neidende Ausspruch Friedrich Lists, den er in erster
+Linie auf die oekonomischen Fortschritte des Inselreiches
+anwandte, gilt auch vollinhaltlich der politischen Gestal-
+tung der Dinge gegenüber. Während das continentale
+Europa durch das ganze Mittelalter hindurch bis tief in
+die Neuzeit hinein jedweden repräsentativen Lebens baar
+war, entwickelte und gliederte sich in England schon im
+dreizehnten Jahrhundert eine vorerst ständische, dann aber
+repräsentative Volksvertretung, die in heftigen Kämpfen,
+in steter Gefahr vernichtet zu werden schwebend, zuerst
+nur eine steuer- und geldbewilligende, dann aber eine
+gesetzgeberische Thätigkeit ausübte und schliesslich durch
+das Cabinetssystem, durch die Uebertragung der Regie-
+rung an die jeweilige Unterhausmehrheit, Anfangs einen
+mehr oder minder directen, jetzt aber einen absoluten
+Einfluss auf die Executive errang.
+Ichenhaeuser, Die politische Gleichberechtigung der Frau. 1
+Eliza Ichenhaeuser.
+Dieses glänzende Vorbild freiheitlicher Entwickelung
+fand in der Mitte des vorigen Jahrhunderts seinen glühend-
+sten Lobredner in Montesqieu, dessen Esprit des lois die
+Kenntniss des englischen Verfassungslebens auf dem Con-
+tinent verbreitete und dies in Verbindung mit den Lehren
+Rousseaus und dem erwachten Freiheitsdrang des fran-
+zösischen Volkes schufen die ersten Repräsentativ-Ver-
+fassungen von 1789 und 1791, die nimmer zu beseitigende
+Idee, dass das Volk einen Antheil an der Regierungsgewalt
+haben müsse, trat ihren Siegeslauf durch Europa an.
+Nach Beendigung der napoleonischen Kriegszeit war
+die constitutionelle Bewegung in vollem Gange, wenn-
+gleich auch in Deutschland wenigstens der Bildung der
+Landtage noch ein ständisches Princip zu Grunde lag,
+Preussen es sogar nicht einmal über Errichtung von
+Provinzialständen hinausbrachte, bis endlich die Bewegung
+des Jahres 1848 als das Ferment wirkte, das in Europa
+und speciell in dem zögernden Norddeutschland auch die
+letzten Reste altständischer und absolutistischer Prä-
+rogativ verzehrte.
+In den Fünfziger Jahren wüthete zwar eine Reaction,
+die theilweise sogar die Volksgerechtsame ohne die ver-
+fassungsmässig nothwendige Mitwirkung der Volks-
+vertretung auf blossem Verordnungsweg und unter Assistenz
+der Bundesversammlung abänderte und beschnitt, aber
+die Sechziger Jahre sprengten auch diese Fesseln und
+die am 1. Juli 1867 in Kraft getretene Norddeutsche
+Verfassung erhielt zum ersten Male und dem Mutterland
+Die politische Gleichberechtigung der Frau.
+der constitutionellen Freiheit England weit vorauseilend
+die grundlegende Bestimmung »every man a voice«.
+Dieses Muster weitgehendster Wahlrechte lautet
+wie folgt:
+§ 1. Wähler für den Reichstag des Norddeutschen
+Bundes ist jeder Norddeutsche, welcher das fünfund-
+zwanzigste Lebensjahr zurückgelegt hat, in dem Bundes-,
+staate wo er seinen Wohnsitz hat.
+§ 2. Für Personen des Soldatenstandes, des Heeres
+und der Marine ruht die Berechtigung zum Wählen so
+lange, als dieselben sich bei der Fahne befinden.
+§ 3. Von der Berechtigung zum Wählen sind aus-
+geschlossen:
+1. Personen, welche unter Vormundschaft oder
+Kuratel stehen;
+2. Personen, über deren Vermögen Konkurs- oder
+Fallitzustand gerichtlich eröffnet worden ist und zwar
+während der Dauer dieses Konkurs- oder Fallit-
+verfahrens;
+3. Personen, welche eine Armenunterstützung aus
+öffentlichen oder Gemeindemitteln beziehen, oder im
+letzten der Wahl vorhergegangenen Jahre bezogen
+haben;
+4. Personen, denen in Folge rechtskräftigen Er-
+kenntnisses der Vollgenuss der staatsbürgerlichen
+Rechte entzogen ist, für die Zeit der Entziehung, so-
+fern sie nicht in diese Rechte wieder eingesetzt sind.
+1*
+Eliza Ichenhaeuser.
+§ 4. Wählbar zum Abgeordneten ist im ganzen
+Bundesgebiete jeder Norddeutsche, welcher das fünf-
+undzwanzigste Lebensjahr zurückgelegt und einem zum
+Bunde gehörigen Staate seit mindestens einem Jahre
+angehört hat, sofern er nicht durch die Bestimmungen
+in dem § 3 von der Berechtigung zum Wählen aus-
+geschlossen ist.
+Abstrahieren wir vorerst von der Frage der Incom-
+patibilität des ruhenden activen und des passiven Wahl-
+rechts, von denen weiter unten die Rede sein wird, so
+finden wir ein gleiches Ausmass von activem Wahlrecht
+nur in Frankreich, Schweiz, Belgien, während die anderen
+Länder in ihren Wahlrechten einen mehr oder minder be-
+schränkenden Census eingeführt haben, wie nachstehende
+Tabelle beweist:
+Länder	Alter	Census
+Schweden	Gross-
+jährigkeit	geschätztes Vermögen von
+800 Kronen
+Norwegen	25	Grundbesitz oder 500 bis
+800 Kronen Vermögen
+Dänemark	30	ausgeschlossen sind Per-
+sonen in privatem Dienst-
+verhältniss
+Italien	21	Schreiben und Lesen oder
+kleines Vermögen
+Spanien	25	– – –
+Die politische Gleichberechtigung der Frau.
+Länder	Alter	Census
+Portugal	Gross-
+jährigkeit	100 Milreis Vermögen oder
+Lesen und Schreiben oder
+Familienvater
+Holland	〃	20-160 Gulden Steuer
+Luxemburg	25	30 Frcs. Steuer
+Belgien	25	kein Census und Pluralwahl-
+system, Doppel- und
+Trippelsystem, 1. 35jähr.
+Verheiratheter oder Witt-
+wer, 2. jeder 25jährige
+mit 3,30 Frcs. Steuer oder
+100 Frcs. Rente, 3. jeder
+25jährige Academiker.
+Maximalstimme 3.
+Frankreich	21	– – –
+Oesterreich	25	Wählerklassen, Census vier
+Gulden
+Schweiz	21	– – –
+Deutsches Reich	21	– – –
+Grossbritannien	21	Wohnungswahlrecht
+Nord-
+amerikanische
+Union
+massgebend die
+Einzelstaaten	Gross-
+jährigkeit	kein Census, ausgenommen
+Delaware, das Zahlung
+einer Grafschaftstaxe und
+Rhode Island, das Grund-
+besitz im Werthe von
+137 Dollars verlangt.
+Eliza Ichenhaeuser.
+In den Wahlrechten aller Länder war bis auf jüngste
+Vorgänge wie in demjenigen des deutschen Reiches der
+Frauen nicht ausdrücklich gedacht, es musste daher zweifel-
+haft erscheinen, ob sie ausgeschlossen oder mitinbegriffen
+sind, ja die Wage neigte sich bei eingehender objectiver
+Betrachtung der Frage sogar zu Gunsten der Frau. Es
+erscheint daher durchaus nicht verwunderlich, dass in
+unserem Jahrhundert, dem Jahrhundert, das bis in die
+fernsten Zeiten hinein strahlen wird durch den Glanz der
+Thatsache, dass es die grössere Hälfte der Menschheit
+aus dunkler Träumerei zu tagfrohem thatkräftigem Handeln
+erhob, die Frauen von dem Recht, in dessen Besitz sie
+sich wähnten, Gebrauch machen und ihr vermeintliches
+Wahlrecht ausüben wollten.
+Es geschah dies zum ersten Male in Grossbritannien
+im Jahre 1867. Frauen, die den Wahlcensus besassen,
+liessen sich in den verschiedensten Städten in die Wähler-
+listen eintragen. Die Wahlaufseher liessen es an einigen
+Orten geschehen, an anderen wieder nicht, sie waren sich
+selbst nicht einig, ob die Frauen in ihrem Rechte waren
+oder nicht, ebenso erging es den controllirenden Beamten
+und die widersprechendsten Entscheidungen wurden von
+ihnen gefällt. Immerhin gelang es über zweihundert Frauen,
+in die endgültigen Wahllisten eingetragen zu werden.
+Da gelangte die ganze Frage zum Austrage durch
+die Klage von mehreren Tausenden von Frauen gegen
+die ihre Eintragung verweigernden Beamten. Ihre Ar-
+gumente lauteten: In früheren Zeiten habe es keinen
+Die politische Gleichberechtigung der Frau.
+Unterschied des Geschlechtes bezüglich der Wahlfähigkeit
+gegeben – im sechzehnten und siebzehnten Jahrhundert
+betheiligten sich Frauen an den Parlamentswahlen – keine
+gesetzliche Verfügung habe es ihnen entzogen. Die Akte
+von 1867, nach der Lord Brougham'schen Akte aus-
+gelegt, die das Wahlrecht erweiterte, habe es ausdrück-
+lich auf die Frauen ausgedehnt, indem sie nicht mehr
+den Ausdruck »männliche Person«, sondern »jedermann«
+gebrauche, und Gesetz 13 und 14 Vict. c. 21, s. 4 ver-,
+füge dass in allen Gesetzen die Worte, die das männ-
+liche Geschlecht bezeichnen, als das weibliche mit ein-
+schliessend verstanden werden sollten, wenn nicht das
+Gegentheil ausdrücklich vorgesehen wäre. Auch ab-
+gesehen von dem Lord Brougham'schen Gesetz habe das
+Wort »man« und das gleichbedeutende lateinische homo
+immer die Bedeutung der Gattungsbezeichnung gehabt
+und begreife sowohl Männer als auch Frauen.
+Das Urtheil fiel für die Frauen ungünstig aus. Die
+Richter erklärten, dass die angeführten historischen Prä-
+cedenzfälle gegenüber der ununterbrochenen gegentheiligen
+Praxis nicht in's Gewicht fielen, die Akte von 1832 in-
+dem sie in Städten das Privileg auf männliche Personen
+beschränkt, im Gegentheil die Ausschliessung der Frauen
+sanktionirt habe, es anderen Gesetzen gegenüber lächer-
+lich erscheinen würde anzunehmen, dass in der Akte
+von 1867 der Ausdruck »man« in einem anderen Sinne
+gebraucht sei, als um Personen des männlichen Geschlechts
+zu bezeichnen, wenn auch zweifelsohne in mehreren
+Eliza Ichenhaeuser.
+anderen Gesetzen das Wort »man« die Frauen mit ein-
+schliesse; auf Grund der Lord Brougham'schen Akte liesse
+sich auf das Gesetz von 1867 eine weitere Bedeutung des
+Wortes »man« nicht annehmen, da dasselbe bestimme,
+dass die durch dasselbe verliehenen Privilegien neben
+die schon bestehenden, nicht an Stelle derselben treten
+sollten und mit den früheren Wahlgesetzen als ein ein-
+heitliches Gesetz aufgefasst werden solle. Wenn der Ge-
+setzgeber von 1867 beabsichtigt hätte, eine so wichtige
+Aenderung, wie die Ausdehnung des Wahlrechts auf die
+Frauen, einzuführen, so hätte er dies wohl nicht vermittelst
+des Wortes »man« gethan. Er habe aber mit dem Worte
+»man« nur männliche Personen bezeichnen wollen und
+dies bedeute, dass das Wahlrecht den Männern allein
+zukomme. Eine zweite Entscheidung vor dem Court of
+Common Pleas entschied in letzter Instanz ebenfalls
+abweisend und so war denn das Frauenstimmrecht als
+in Grossbritannien nicht existirend erklärt.
+Nichtsdestoweniger kann man nicht umhin, die Be-
+gründung des Rechtsspruches als willkürlich und einseitig
+zu bezeichnen.
+Wo es an täglicher Erfahrung und an Praxis gebricht
+und das Gesetz sich nicht deutlich ausspricht, pflegen die
+englischen Gerichte in der Regel als einziges Auskunfts-
+mittel auf Präcedenzfälle zurückzugreifen, unbeschadet
+dessen, ob sie um Jahrhunderte zurückliegen, den Frauen
+jedoch wird gewöhnlich, wenn die logischen Beweisgründe
+ausgehen, die »constante Praxis, die gegen sie sei« ent-
+Die politische Gleichberechtigung der Frau.
+gegengehalten, wie es auch die englischen Richter in
+diesem Falle thaten. Wenn ferner die Reformakte von
+1832 auch feststellte, dass das neue Privileg »Personen
+des männlichen Geschlechtes zustehe«, so bezog sich diese
+Einschränkung nur auf das durch jene Akte eingeführte
+Privileg und nicht auf die alten weiten bestehenden
+Wahlrechte. Ganz widersprechend und widersinnig ist
+jedoch die richterliche Annahme, dass die Lord Broug-
+ham'sche Akte eine weitere Bedeutung des Wortes »man«
+in unserem Sinne nicht enthalte, weil die durch dieses
+Gesetz verliehenen Privilegien neben die schon bestehen-
+den, nicht an Stelle derselben treten sollen, während
+dieselben Richter die Reformakte von 1832, die sich nur
+auf bestimmte Privilegien beziehen, durchaus an Stelle
+und nicht neben die schon bestehenden Gesetze, die den
+Frauen das Wahlrecht nicht vorenthielten, setzen wollen,
+was durchaus falsch ist, da weder die Akte von 1832
+noch die nachfolgenden Reformakte die früheren Wahl-
+gesetze ganz ausser Kraft setzten, sondern mehrere Wahl-
+rechtssysteme neben einander bestanden. Nicht minder
+unlogisch erscheint die Auslegung, dass zweifellos das
+Wort »man« die Frauen in mehreren Gesetzen mit ein-
+schliesse, dass anderen Gesetzen gegenüber jedoch eine
+solche Annahme lächerlich erscheinen würde. Man sollte
+meinen, dass in einer solch klaren Frage nur eine klare
+Antwort möglich sei. Ist man einmal zur Annahme
+gelangt, dass das Wort »man« die Frauen mit einschliesse,
+dann müssen alle Consequenzen aus ihr gezogen werden
+Eliza Ichenhaeuser.
+und alle Gesetze in diesem Sinne ausgelegt werden.
+Wollte man eine so wichtige Frage nur nach den An-
+schauungen der Richter entscheiden, ob ihnen eine solche
+Auslegung mitunter lächerlich erscheint oder nicht, zu
+welch schwankenden Rechtssprüchen müsste man da ge-
+langen? »Lächerlich« ist doch kein feststehender Begriff!
+Was gestern noch lächerlich erschien, erachten wir heute
+vielleicht schon der Ueberlegung werth und erklären
+es möglicherweise morgen für das allein Richtige und
+Vernünftige.
+Während im Jahre 581 auf dem Consilium zu Mâcon
+die Frage aufgeworfen wurde, ob die Frau überhaupt
+eine Seele besässe und ein Mensch wäre, bezweifelte der
+Chief Justice des King's Bench-Gerichts im Jahre 1739
+nur noch das »tiefere Verständniss für die Wahl der
+Parlamentsmitglieder, das man bei Frauen nicht voraus-
+setzen könne«; die Richter des oben wiedergegebenen
+Urtheiles im Jahre 1867 fühlten sich bereits gedrängt zu
+erklären, dass die Ausschliessung der Frauen vom Wahl-
+recht nicht geistiger Inferiorität wegen geschehe, – ein
+Gedanke, dem die heutige Civilisation in England wider-
+spreche – sondern zur Wahrung des Decorums, so dass
+sie vielmehr ein Vorzug und eine Huldigung sei, die
+man dem Geschlechte erweise, ein honestatis privilegium,
+wie schon der grosse Rechtsgelehrte Selden im XVII. Jahr-
+hundert gesagt habe und in unseren Tagen stellen die
+Gouverneure derjenigen Staaten, die den Frauen das
+Wahlrecht verliehen haben, wie wir weiter unten zeigen
+Die politische Gleichberechtigung der Frau.
+werden, fest, dass im Besonderen die Seele, die Güte
+der Frau sie geeignet zur Wählerin mache, dass ihr Ver-
+ständniss sich als ein sehr tiefes gezeigt habe und, last
+not least, dass das Decorum, der öffentliche Anstand
+gerade durch die Theilnahme der Frauen an den Wahlen
+in einer Weise gewahrt werde, wie es ohne sie nie zu
+erreichen war.
+Kann man da noch das Wort »lächerlich« als Be-
+weisgrund in's Feld führen? Sprechen die Thatsachen
+nicht Bände, gegen die der Begriff lächerlich nur ein
+leeres, nichtssagendes Wörtchen ist?
+Waren also auch die Gründe, die den Frauen in
+England entgegengehalten wurden, wohlfeil wie Brom-
+beeren, so entbehrten sie deshalb doch der Beweiskraft,
+es gelang ihnen daher auch nicht, die Frauen zu über-
+zeugen, sondern nur zu zwingen, sich statt an den
+Richter an den Gesetzgeber zu wenden.
+Indessen brach sich das Bewusstsein der Ungerechtig-
+keit der Verweigerung des Frauenstimmrechtes auch in
+anderen Ländern Bahn. Auch die Frauen Nordamerikas
+konnten es nicht fassen, dass sie nicht als Bürger betrachtet
+wurden und ihnen, die ihr gerütteltes Maass an Pflichten
+hatten und ausübten, die vornehmsten Bürgerrechte ver-
+weigert werden sollten, auch sie wollten es auf einen
+Versuch ankommen lassen und das Wahlrecht ausüben.
+Energischer noch als die Engländerinnen verweigerten sie,
+als man sie zurückwies, die Zahlung der Steuern. »No
+taxation without representation« wurde zum Losungs-
+Eliza Ichenhaeuser.
+worte der Verfechter der Frauen-Emancipation, eine der
+ältesten amerikanischen Vorkämpferinnen derselben, Lucy
+Stone, liess, kaum einige Jahre verheirathet, ihre ganzen
+Möbel pfänden und verkaufen und schrieb, ihr Baby auf
+dem Arm, einen leidenschaftlichen Protest gegen die Un-
+gerechtigkeit der Steuerpflicht ohne das Repräsentations-
+recht. Eine Pächterin aus Connecticut, Abby Smith, liess
+sich Jahr aus Jahr ein eine Kuh nach der anderen pfänden
+wegen Verweigerung der Steuern.
+Bei den Präsidentenwahlen im Jahre 1872 stellten
+sich, gestützt auf das Amendement XIV, welches den
+Staaten verbiete, Gesetze zu geben, welche die Privilegien
+und Freiheiten der Bürger der Vereinigten Staaten be-
+schränkten und in Anbetracht dessen, dass das Stimm-
+recht eines von diesen Privilegien sei, mehrere Frauen
+in New-York bei der Wahl ein und ihre Stimmenabgabe
+wurde angenommen. Die Folge davon aber war, dass
+alle vierzehn Frauen, die gestimmt hatten, und mit ihnen
+die Wahlinspectoren, die ihre Stimmzettel angenommen
+hatten, in's Gefängniss wandern mussten. Das Verfahren
+wurde allerdings gegen dreizehn von ihnen sofort ein-
+gestellt, Susan B. Anthony jedoch, die berühmte Vor-
+kämpferin der Frauenbewegung, wurde wegen ihrer
+Agitation zu Gunsten des Frauenstimmrechts vor den
+»District Court of the United States of America in and
+for the northern district of New-York« geführt und mit-
+sammt den Wahlinspectoren für schuldig befunden und
+zu Geldstrafen verurtheilt.
+Die politische Gleichberechtigung der Frau.
+Drei Jahre später entschied der Oberste Gerichtshof
+der Vereinigten Staaten die Frage, ob die Frauen das
+Stimmrecht besässen, für die ganze Union in negativem
+Sinne. Nachdem der Oberste Gerichtshof des Columbia-
+districts bereits vorher in seinem Urtheil erklärt hatte,
+dass er betreffs des XIV. Amendements wohl anerkenne,
+dass die Frauen Bürger sind, insoweit »Bürger« den
+Gegensatz zu Fremden bedeute, auch dass jeder Bürger
+fähig ist, das Wahlrecht zu erlangen, dass dies aber nur
+durch die Autorität der gesetzgebenden Gewalt geschehen
+könne und diese Gewalt den Frauen nicht das Wahlrecht
+verliehen habe, dieselben mithin nicht als in dessen Besitz
+befindlich erachtet werden können, entschied nunmehr
+auch der Oberste Gerichtshof der Vereinigten Staaten,
+dass der Ausdruck Bürger der Vereinigten Staaten nur
+die Zugehörigkeit zur Nation bedeute, dass die Eigen-
+schaft des Bürgers keineswegs den Genuss des Wahlrechts
+in sich schliesse, dass in den Staaten der Union das
+Wahlrecht nicht mit dem Bürgerrecht zusammenfalle und
+das Amendement XIV den Privilegien des Bürgers nichts
+hinzufüge, sondern nur die bestehenden Rechte garantire
+und die Begrenzung des Wahlrechtes auf männliche
+Bürger, daher keine Verletzung der Bundesverfassung sei
+und die Frauen in allen Staaten, wo diese Bestimmung
+bestehe, kein Stimmrecht hätten.
+Trotz der Wortklauberei, die in diesem Urtheil mit
+dem Begriff »Bürger« getrieben wurde – thatsächlich
+unterliegt die Bürgerin genau denselben Verpflichtungen
+Eliza Ichenhaeuser.
+und Voraussetzungen wie der männliche Bürger und
+müssten ihr daher eo ipso dieselben Rechte zustehen
+– und der wenig überzeugenden Beweiskraft war für
+die Vereinigten Staaten die geltende rechtliche Seite
+erledigt.
+Das wenig verlockende Resultat dieser Bemühungen
+in England und den Vereinigten Staaten von Nordamerika
+hinderte nicht die Frauen desjenigen Landes, das den
+Ausgangspunkt der Forderung des Frauenstimmrechts
+bildete, den gleichen Versuch zu wagen. Unter der
+dritten Republik wurden die Forderungen des Frauen-
+stimmrechts in Frankreich wieder laut und die Frauen
+betrachteten das Stimmrecht als ein ihnen gehöriges
+Recht. Im Jahre 1880 verlangten mehrere Frauen in
+den Mairien in die Wahllisten eingetragen zu werden.
+Dasselbe Schauspiel, das England und Amerika gesehen
+hatte, spielte sich auch hier wieder ab, die Behörden
+verweigerten die Eintragung, die Frauen beantworteten
+diese Ungerechtigkeit mit Verweigerung der Steuern und
+als diese Vorgänge sich 1885 wiederholten, kam es auch
+hier zu einem richterlichen Entscheid. Die Beschwerde-
+führerinnen begründeten ihren Anspruch mit der um-
+fassenden Natur des allgemeinen Wahlrechts, indem sie
+erklärten, dass Französinnen ebensogut wie Franzosen
+mit dem Worte »Francais« gemeint seien nach der ehr-
+würdigen lateinischen Formel: pronunciato sermonis in
+sexu masculino ad utrumque sexum plerumque porrigitur.
+Die Verfassung, das Wahlgesetz und der Regierungserlass
+Die politische Gleichberechtigung der Frau.
+vom Jahre 1848 (der Letztere vom 8. März) haben dem
+Worte »Allgemeines Wahlrecht« eine so weite Deutung
+gegeben, dass es vom Gesetzgeber nicht beabsichtigt
+gewesen sein könne, das weibliche Geschlecht davon
+auszuschliessen, da es selbst befreiten Sklaven verliehen
+worden sei.
+Das Urtheil des Cassationshofs lautete hierauf wie
+folgt: »In Erwägung, dass nach den Bestimmungen des
+Artikels 7 des code civil die Ausübung der bürgerlichen
+Rechte unabhängig von der Eigenschaft als Staatsbürger
+ist, welche allein die Ausübung der politischen Rechte
+verleiht und nur in Uebereinstimmung mit den ver-
+fassungsmässigen Gesetzen erworben wird, dass, während
+die Frauen bürgerliche Rechte in der gesetzlich geregelten
+Weise geniessen, je nachdem sie verheirathet oder ledig
+sind, keine Verfassungs- oder Gesetzesbestimmung ihnen
+den Genuss und folglich die Ausübung politischer Rechte
+überträgt, dass aber der Genuss dieser Rechte eine wesent-
+liche Vorbedingung für die Eintragung in die Wahllisten
+ist und dass die Verfassung vom 4. November 1848,
+indem sie an Stelle des beschränkten Wahlrechts, von
+dem Frauen ausgeschlossen waren, das allgemeine ein-
+führte, dieses nur Bürgern des männlichen Geschlechts
+zu verleihen beabsichtigte, die bisher allein das Recht
+genossen hatten, Vertreter des Landes in die ver-
+schiedenen, durch die Gesetze geschaffenen wählbaren
+Körperschaften zu wählen, was deutlich erhellt nicht
+nur aus dem Text der Verfassung von 1848 und den
+Eliza Ichenhaeuser.
+Akten vom 11. März 1849, vom 2. Februar 1852, vom
+7. Juli 1874 und vom 5. April 1884, sondern noch mehr
+aus dem Geist dieser Gesetze, wie er durch die Arbeiten
+und Diskussionen bezeugt wird, die ihrer Einführung
+vorhergingen und auch durch ihre ununterbrochene und
+unbestrittene Anwendung seit der Einführung des all-
+gemeinen Stimmrechts und der ersten Aufstellung oder
+Prüfung der Wählerlisten nach der neuen Erweiterung
+des Wahlrechts, – woraus sich ergiebt, dass durch die
+Entscheidung, dass Frl. S. B. in die Wählerlisten ein-
+getragen werden solle, das angefochtene Urtheil, weit
+entfernt, die von der Beschwerdeführerin angezogenen
+Bestimmungen zu verletzen, sie durchaus richtig an-
+gewendet hat – verwirft das Gericht u. s. w.«
+Der scharfsinnige Jurist M. Ostrogorski äussert sich
+zu diesem Urtheil treffend: *) »Obgleich die Entscheidung
+selbst vollkommen mit dem Gesetz übereinstimmt, kann
+ich doch die Gründe, auf die der Gerichtshof sein Urtheil
+stützt, nicht anerkennen. Das erste Argument des
+Gerichtshofes gegen die Forderungen der Appellantin
+besteht darin, dass keine Bestimmung der Verfassung
+oder der Gesetze den Frauen jemals politische Rechte
+verliehen habe. Aber die Frage geht eben dahin, ob
+ein Gesetz nothwendig ist oder nicht, um die Frauen zu
+verhindern, eine Stimme zu haben. Die Beschwerde-
+führerin hob hervor, dass, weil kein Gesetz sie formell
+*) »Die Frau im öffentlichen Recht« von Ostrogorski, Verlag von
+Otto Wiegand, Leipzig 1897.
+Die politische Gleichberechtigung der Frau.
+vom Wählen ausschliesse, die Frauen berechtigt seien,
+zu wählen. Der Gerichtshof drehte diese Beweisführung
+einfach um, indem er sagte, dass, da kein Gesetz ihnen
+formell zu wählen erlaube, die Frauen von der Wahl
+ausgeschlossen seien – eine Behauptung gegen eine
+andere Behauptung. Der vom Gericht angestellte Ver-
+gleich zwischen der Ausübung der bürgerlichen Rechte
+durch Frauen und dem Genuss der politischen Rechte
+stützt in keiner Weise jene Ausführung des Gerichts,
+zeigt vielmehr deren Schwäche und das Gewicht der
+gegnerischen Behauptung. Während das Gericht auf
+Grund der Abwesenheit ausdrücklicher Bestimmungen
+über die politischen Rechte der Frauen diesen solche
+abspricht, beruft es sich andererseits auf das Vorhanden-
+sein ausdrücklicher Bestimmungen über die bürgerlichen
+Rechte der Frauen im Civilgesetzbuch. Aber in Wirk-
+lichkeit geniessen die Frauen bürgerliche Rechte nicht
+auf Grund besonderer gesetzlicher Bestimmung; das Gesetz
+verleiht ihnen ausdrücklich solche ebensowenig wie poli-
+tische Rechte. Das bürgerliche Gesetz hebt nur die
+Fälle der Unfähigkeit der Frauen als Ausnahme von der
+Regel besonders hervor. Daher gilt überall, wo das
+Gesetz nicht das Gegentheil bestimmt, die Frau für fähig,
+selbst wenn sich Artikel 8, wonach »jeder Franzose«
+bürgerliche Rechte geniesst, sich auf sie erstreckte.
+Wenn man dieselbe Auslegungsregel auf den Genuss
+politischer Rechte anwenden könnte, wie der Vergleich
+des Gerichtshofs annehmen liesse, so würde folgen, dass
+IchenhaeuserDie politische Gleichberechtigung der Frau. 2
+Eliza Ichenhaeuser.
+mangels einschränkender Bestimmungen hinsichtlich ihrer
+politischen Rechte die Frauen für gesetzlich fähig gehalten
+werden müssten, diese in vollem Maasse zu geniessen.
+Das zweite Argument des Cassationshofes kommt
+darauf hinaus, dass die Verfassung von 1848 das all-
+gemeine Wahlrecht nur auf männliche Wähler habe aus-
+dehnen wollen, was klar erhelle nicht nur aus dem Text
+des Gesetzes, sondern mehr noch aus seinem Geiste.
+In Wirklichkeit erhellt dies aus dem Gesetze keines-
+wegs. Das Gesetz über das allgemeine Wahlrecht vom
+5. März 1848 und die späteren Gesetze, welche deren
+Bestimmungen über den Gegenstand wiederholten,
+schliessen die Frauen nicht ausdrücklich aus, so wenig
+als sie die Männer ausdrücklich berufen. Wahlberechtigt
+sind, nach dem gewöhnlichen Ausdruck »tous les Francais
+de l´âge de 21 ans«, was nach der appellirenden Dame
+»beide Geschlechter einschliesst«, nach Ansicht des
+Gerichtshofs aber nur Personen des männlichen Ge-
+schlechts umfasst. Diese Behauptung des Gerichts ist
+indessen eine petitio principii, um so mehr, als in dem
+bürgerlichen Gesetz, welches der Gerichtshof selbst zu
+seiner Unterstützung herangezogen hat, der Ausdruck
+»tout Francais« sich auf beide Geschlechter bezieht.
+Nun bleibt noch der Grund, dass der Geist der
+Wahlgesetze und ihre Anwendung in der Praxis mit der
+Zulassung der Frauen zum politischen Wahlrecht unver-
+einbar sei. Als Thatsache ist dies wahr genug, aber zur
+Begründung ist es nicht verwendbar. Man könnte dem
+Die politische Gleichberechtigung der Frau.
+das Stillschweigen der Gesetzestexte entgegenstellen,
+nach dem Rechtssprichwort: »expressa nocent, non ex-
+pressa non nocent« (um ein ausdrückliches Verbot kommt
+man nicht herum; Stillschweigen des Gesetzes steht nicht
+im Wege). Und wenn diese Regel, die überall, wo es
+sich um die Rechte der Individuen in der Gesellschaft
+handelt, so sehr am Platze ist, einem höheren Princip
+weichen soll, welches ist dieses Princip, das das Urtheil
+des Gerichtshofs zu halten vermöchte?«
+Die grelle Beleuchtung, die der Mangel an Logik
+des gerichtlichen Urtheils durch Ostrogorski erfährt, die
+scharfe Kritik, der er dasselbe unterzieht, sind um so
+objectiver, als der Verfasser des ausgezeichneten Buches
+über »die Frau im öffentlichen Recht« durch einen merk-
+würdigen Irrthum trotz alledem und alledem doch der
+Ansicht ist, dass die Forderungen der französischen
+Frauen, in die Wahllisten eingetragen zu werden, unzu-
+lässig seien. Ostrogorski hält nämlich fälschlicherweise
+die Beziehungen des Individuums zum Staate, der ihm
+einerseits den Genuss seiner persönlichen Rechte, seiner
+individuellen Freiheit sichert und ihn andererseits an
+seiner Regierung theilnehmen lässt, scharf auseinander,
+das erstere Recht erklärt er für ein absolutes und wenn
+die Frau nicht ausdrücklich beschränkend als ein ihr zu-
+kommendes Recht, das letztere nur für ein relatives und
+da ihr nicht ausdrücklich verliehenes Recht so für ein
+ihr eo ipso nicht zukommendes, während thatsächlich
+beide Rechte in einander fliessen; die persönlichen Rechte,
+2*
+Eliza Ichenhaeuser.
+die individuelle Freiheit sind ohne die Theilnahme an
+der Regierung einfach nicht zu erlangen und darum muss,
+wenn ihr das Eine gewährt wird, auch nothgedrungen
+das andere zugestanden werden.
+Aus all diesen Irrthümern und willkürlichen Aus-
+legungen der bestehenden Gesetze ist jedoch nur eines
+ersichtlich: auf dem Wege der Interpretation kommt man
+nicht vorwärts, hier bedarf es legislativer Massregeln.
+Wenn daher in neuester Zeit eine kleine Frauengruppe
+die Absicht hat, auch in Deutschland die »Entdeckung«
+zu machen, dass die Frauen das Wahlrecht schon be-
+sässen, so können wir dies schon heute als ein aussichts-
+loses Unterfangen bezeichnen und ihnen absolute Erfolg-
+losigkeit prophezeien. Nein, auf diesem Wege ist nichts
+zu erreichen, dafür sprechen die Versuche in England,
+Amerika und Frankreich eine nur allzu beredte Sprache.
+Wollen wir den Sieg erringen, so dürfen wir auch einen
+frischen, fröhlichen Kampf nicht scheuen, dürfen wir uns
+nicht die Sache gar so leicht machen wollen und uns
+dem Wahne hingeben, es würde für uns eine Kleinigkeit
+sein, den Feind par surprise zu nehmen und zu besiegen.
+Dazu ist er viel zu zähe, hat er viel zu viele Anhänger,
+ist er in den Herzen viel zu tief eingewurzelt, das Vor-
+urtheil ist es, das mit der Ehrwürdigkeit seiner Jahr-
+tausende, mit der Bequemlichkeit seines Conservatismus,
+mit seiner von Generation zu Generation wachsenden
+Zähigkeit, den hartnäckigsten Feind jeden Fortschritts,
+jeder Reform darstellt. Paart es sich nun wie in der
+Die politische Gleichberechtigung der Frau.
+Frage der Frauen-Emanzipation mit dem Egoismus, der,
+wenn auch numerisch kleiner, so doch durch seine
+physische Stärke und seine Macht prädominirenden Hälfte
+der Menschheit, so bilden sie zusammen einen so gefähr-
+lichen Feind, dass es uns nicht Wunder nehmen kann,
+dass Jahrhunderte zu seiner endlichen und vollständigen
+Besiegung gehören.
+Hat der Egoismus in jenen frühen Zeiten, in denen
+die physische Stärke allein mass- und ausschlaggebend
+war – der berühmte Nationalökonom und Philosoph
+John Stuart Mill sagt darüber: *)»Die Menschen be-
+greifen es gar nicht mehr, wie unumschränkt in früheren
+Jahrhunderten das Gesetz der überlegenen Kraft zugleich
+das Gesetz des Lebens war, und wie offen und unum-
+wunden man sich dazu bekannte – hat also der männliche
+Egoismus durch das Recht des Stärkeren damals die
+Frau vollständig abhängig von sich gemacht und hat er
+in der bewussten oder unbewussten Furcht, sie könne
+diese Abhängigkeit trotz ihrer physischen Schwäche durch
+ihre intellectuelle Kraft abschütteln, systematisch jede
+Entwicklung dieser ihrer möglichen Macht niedergehalten,
+hat er, um einen Zusammenschluss unter den Frauen
+selbst unmöglich zu machen, das Weib zum Geschlechts-
+wesen gestempelt, das nur dem Manne zu Gefallen lebe,
+das nur durch ihn jeden Genuss des Lebens erhalten
+könne und in jedem anderen Weibe die Rivalin zu sehen
+*) »Die Hörigkeit der Frau« von John Stuart Mill, Verlag von
+F. Berggold, Berlin 1891. Pag. 10.
+Eliza Ichenhaeuser.
+habe, hat er, um ihr jede Fühlung mit der Oeffentlich-
+keit, durch die sie dereinst vielleicht Schutz erhalten
+könnte, untersagt, indem er sie in ihre vier Wände fest-
+bannte, durch die kein Schall des Lebens hindurchdrang,
+durch die sie nichts von der Welt und die Welt nichts
+von ihr erfuhr, hat der männliche Egoismus es aber
+glücklich so weit gebracht, jede intellectuelle Kraft, die
+im Weibe schlummert, in einen todtenähnlichen Schlaf
+einzuwiegen, so gesellte sich in späteren Zeiten das Vor-
+urtheil hinzu, das die Erfahrungen gegen die Fähigkeiten
+der Frau in's Treffen führen wollte, jene Erfahrungen,
+die nichts weiter als der Ausfluss einer systematischen
+Niederdrückung des geistigen und damit auch des mensch-
+lichen Niveaus der Frau waren und über das weibliche
+Geschlecht, das man absichtlich nicht erzogen hatte, dessen
+Eigenart man zu studieren sich nie die Mühe genommen
+hatte, von dem man mit einem Worte nichts wusste,
+ergoss sich eine Fluth von Schmähungen, die, in Er-
+mangelung von Widerlegung Seitens der Angegriffenen
+denen zum Theil die Bildung, zum noch grösseren Theil
+die Freiheit dazu fehlte, nach und nach zu eben so
+feststehenden als falschen Urtheilen über die Frauen
+sich verdichteten. Der Sprüchwörterschatz eines jeden
+Volkes bietet eine Fülle von Beispielen für die Wahrheit
+dieser Behauptung. Doch wäre es ein Irrthum zu glauben,
+dass es nicht immer und zu allen Zeiten schon Männer
+gegeben habe, die die Ungerechtigkeit des Egoismus
+ihrer Zeit eingesehen hätten. Wie leuchtende Blitze
+Die politische Gleichberechtigung der Frau.
+zuckten sie aus dem dunkeln Gewölke barbarischer An-
+schauungen hervor und enthüllten in blendender Helle
+die niederen Motive niedriger Denk- und Fühlart.
+Der genialste Philosoph des Alterthums, Plato, war
+es, der zum ersten Male die Superiorität des Mannes
+angriff, der der Idee der Gleichberechtigung der Ge-
+schlechter Worte verlieh. Und zwar waren es nicht
+kleine Concedirungen, wie sie noch heute von gewissen
+sich dabei sehr grossmüthig vorkommenden Reformlern
+in Deutschland den Frauen gemacht werden, die er vor-
+schlug, sondern er ging gleich auf’s Volle, griff das
+Uebel gleich an der Wurzel an, er war sich sofort be-
+wusst, dass die Gleichberechtigung der Geschlechter eine
+vollständige sein müsse, dass nicht vor der wichtigsten
+Frage, der politischen, still gestanden werden dürfe,
+sondern er legte gerade auf die Theilnahme der Frauen
+am öffentlichen Leben das Hauptgewicht. Sein Axiom
+»Es besteht ebenso wenig ein Unterschied zwischen
+Männern und Frauen in der Befähigung für das öffent-
+liche Leben als dass entweder bloss Langhaarige oder
+bloss Kahlköpfige Lederarbeiter sein könnten«, ist so
+treffend, dass er heute nach Jahrtausenden nicht allein
+von seiner überzeugenden Kraft nichts eingebüsst, sondern
+im Gegentheil durch die inzwischen gemachten Er-
+fahrungen vollinhaltlich bestätigt worden ist.
+In seiner »Republik« sagt Plato: »Es giebt keine
+Kunst und kein Amt im Staate, für welche die Frau
+von der Natur nicht genau so befähigt wäre wie der
+Eliza Ichenhaeuser.
+Mann. Es giebt Männer, die den Frauen sehr überlegen
+sind, es giebt aber auch Frauen, die vielen Männern über-
+legen sind. Die Art und die Befähigung schwankt unter
+den Männern ebenso wie unter den Frauen. Frau und Mann
+sind gleichmässig berufen zur Antheilnahme am Staatsleben,
+es giebt keinen Unterschied zwischen ihnen in dieser Be-
+ziehung. Wenn zwischen den Geschlechtern der Unter-
+schied besteht, dass das Männchen zeugt und das Weibchen
+gebiert, so besteht in ihren sonstigen Fähigkeiten kein
+Unterschied und wird mich das nicht hindern zu glauben,
+dass Frauen und Männer dieselben Functionen ausüben
+müssen. Es giebt mithin in keinem Staate Functionen, die
+nur dem Mann oder nur der Frau zukommen, sondern
+beide Geschlechter theilen dieselben Fähigkeiten. Die
+öffentlichen Aemter müssen auch beiden Geschlechtern zu-
+gänglich sein. Diese Institution ist nicht nur möglich, sondern
+auch sehr einträglich, denn es giebt für keinen Staat einen
+grösseren Vortheil als möglichst viele ausgezeichnete
+Bürger sowohl des einen als auch des anderen Geschlechts
+zu besitzen«. Vier Jahrhunderte später folgte den schönen
+Principien des griechischen Philosophen der römische
+Redner und Staatsmann Cicero. Er verurtheilt die nur
+im Interesse der Männer gemachten Gesetze und spricht
+sich gegen die Bevormundung der Frauen aus. *)
+Seneca erklärte, dass die Stellung der Frau die
+Ursache der Rettung oder des Unterganges eines Staates
+sei: Mulier reipublicae damnum est aut salus.
+*) Cicero, De Republica Buch IV, Kapitel VI.
+Die politische Gleichberechtigung der Frau.
+Eine ganze Anzahl berühmter Philosophen, Juristen,
+ja sogar einzelne Kirchenväter, bemühten sich, die Un-
+gerechtigkeit der Gesetze den Frauen gegenüber und ihre
+Motive aufzudecken und zu bekämpfen, allein diese
+werthvollen und edlen Stimmen sanken wie funkelnde
+Tropfen in ein Meer des schmutzigsten, schlammigsten
+Egoismus.
+Nicht allein war es die grosse Masse, die sich zu
+einer edlen, selbstlosen Auffassung noch nicht durch-
+zuringen vermocht hatte, sondern auch Staatsmänner wie
+Cato scheuten sich nicht, mit folgenden Gründen die
+Männer zu warnen, den Frauen die geringsten Rechte
+zu gewähren: »Erinnert Euch an all die Gesetze, durch
+die Eure Väter die Freiheit der Frauen in Ketten
+gelegt und sie unter die Macht des Mannes gebeugt
+haben. Und trotzdem Eure Frauen Euch durch dieselben
+unterworfen sind, könnt Ihr sie kaum zähmen. Duldet
+nicht, dass sie sich Rechte von Euch erpressen und dass
+sie Eure Gleichberechtigten werden, denn wenn sie Euch
+gleichberechtigt sein werden, werden sie Euch über-
+legen sein«.
+Ist es etwas anderes, als die blasse Furcht, die aus
+diesen Worten spricht und schimmert sie nicht durch all
+die Entstellungen, die die Frau erlitten hat, hindurch?
+Wozu wäre der ganze Aufwand an unwahren und un-
+flätigen Schilderungen der Frau nöthig gewesen, wenn
+nicht um das Unrecht der Männer zu verdecken und zu
+entschuldigen?
+Eliza Ichenhaeuser.
+Der Katholicismus benutzte den Mysticismus, der
+ihm innewohnt, um die Frau als das böse Princip hin-
+zustellen, als die Ursache des Sündenfalls der Menschheit,
+als die gefährliche Species, vor der man sich in Acht
+nehmen müsse, mit der Geistliche nicht unter einem Dach
+wohnen dürften, die ohne zwei Zeugen nicht ihr Zimmer
+betreten dürfen. Das Mittelalter stand ganz unter diesem
+Einfluss, der die Frau immer tiefer und tiefer hinabzu-
+drücken versuchte.
+Inzwischen waren den Frauen allerdings auch wieder
+neue Vertheidiger entstanden, die grossen Verdienste, die
+sich Diejenigen errangen, die trotz ihrer Unterdrückung
+durch Zufall oder durch geniale Energie die Barrière,
+hinter die sie verbannt waren, niedergeworfen hatten,
+konnten nicht unbemerkt bleiben. Im Jahre 1588 schrieb
+Baldassare Castiglione *), dass, wenn man in den ver-
+schiedenen Epochen den Werth der Frauen mit dem-
+jenigen der Männer vergleichen wolle, man finden würde,
+dass sie den Männern durchaus nicht inferior sind. Er
+erinnert an all die Frauen, die ihre Königreiche mit weiser
+Vorsicht und grossem Gerechtigkeitssinn regiert haben,
+die Krieg erklärt und Siege errungen haben, die alles
+gethan haben, was Männer nur thun können; er erinnert
+an all die Frauen, die sich in der Philosophie, in der
+Poesie ausgezeichnet haben; an diejenigen, die in
+Prozessen plaidirten und mit Beredsamkeit und Ge-
+*) Baldassare Castiglione, Il cortigiano, Venezia, Imberti 1588.
+Die politische Gleichberechtigung der Frau.
+rechtigkeit das Amt des Klägers oder des Vertheidigers
+ausübten.
+Im siebzehnten Jahrhundert waren es Frauen selbst,
+die die Vertheidigung ihrer Rechte übernahmen, die
+Venetianerin Lucretia Marinelli und die Französin Frl.
+von Gournay veröffentlichten fast gleichzeitig eine Ver-
+theidigung der Frauenrechte, die Aufsehen hervorriefen.
+Aber all dies waren mehr oder weniger vereinzelte
+Erscheinungen, die einen dauernden Einfluss nicht aus-
+übten; der naturrechtlichen Doktrin, jener revolutionären
+Philosophie des vorigen Jahrhunderts war es vorbehalten,
+von Grund aus die politische Stellung der Frau von neu
+zu untersuchen und dies in Verbindung mit dem hehren
+Freiheitsdrang, der das Ende des achtzehnten Jahrhunderts
+characterisirt, der bis zur doktrinären Gleichmacherei jed-
+wede intellectuelle und materielle Fessel zu sprengen
+versuchte, schuf den bahnbrechenden Vertheidiger in
+Condorcet. Der berühmte und edle Philosoph fand so
+treffende und wunderbare Argumente für die Sache, die
+er zu vertheidigen unternahm; er vertheidigte sie so
+mächtig, dass sie in den verschiedensten Ländern
+lauten Widerhall fanden. In seinen »Lettres d'un Bour-
+geois de New-Haven à un Citoyen de Virginie« (1787)
+schrieb er: »Wir wollen eine ausschliesslich auf die
+natürlichen Rechte des Menschen, die älter sind als irgend
+welche socialen Einrichtungen, gegründete Verfassung.
+Als eines von diesen Rechten betrachten wir das Recht,
+über allgemeine Interessen, sei es persönlich oder durch
+Eliza Ichenhaeuser.
+freigewählte Vertreter, abzustimmen…. Liegt es nicht
+in der Natur des Menschen als vernünftiges, mit Gefühl
+und sittlichen Ideen begabtes Wesen, Recht zu haben?
+Daher sollten Frauen ganz die gleichen Rechte haben.
+Entweder hat kein einzelnes Mitglied der menschlichen
+Gesellschaft irgend welche wahren Rechte, oder alle
+haben die gleichen, und wer gegen die Rechte eines
+anderen stimmt, gleichviel welcher Religion, welchem
+Fache oder welchen Geschlechts, hat hinfort seinen
+eigenen Rechten entsagt. Ernstlich werden Sie zweifel-
+los dem Grundsatze der Engländer beipflichten, dass man
+rechtmässig nur den Steuern unterworfen ist, welche man,
+sei es persönlich oder durch Vertreter, bewilligt hat und
+aus diesem Grunde folgt, dass jede Frau berechtigt ist,
+die Zahlung parlamentarischer Steuern zu verweigern.«
+Der grosse Denker findet die Beraubung der politischen
+Rechte der Frau als die Gerechtigkeit beleidigend. Der
+gesunde Menschenverstand und die republikanischen
+Principien schliessen jeden Unterschied zwischen Mann
+und Weib in politischer Hinsicht aus. Eine ernsthafte
+Beschäftigung würde die Frauen ihren häuslichen Func-
+tionen weniger entziehen, als die Vergnügungen und die
+Zeitverschwendung, zu der ihre Beschäftigungslosigkeit
+und ihre schlechte Erziehung sie verurtheilen. Sie würden
+durch dieselbe nur um so geeigneter zur Erziehung ihrer
+Kinder und zur Bildung der Männer werden. Was nun
+den Einwand anbelangt, dass ihre Wirthschaftssorgen den
+Frauen zu wenig Zeit lassen würden, um sich mit den
+Die politische Gleichberechtigung der Frau.
+öffentlichen Angelegenheiten zu befassen, so könnte das
+höchstens ein Grund sein, um ihnen bei einer Wahl nicht
+den Vorzug zu geben, aber nicht zu einer gesetzlichen
+Ausschliessung. *)
+Condorcets hochherzige und vom Geiste der Ge-
+rechtigkeit durchtränkten Ausführungen zu Gunsten der
+Gleichberechtigung der Geschlechter schufen eine neue
+Aera für die Frau. Condorcet ist der Vater der heutigen
+Frauenbewegung, er war es, der edlen Männern aller
+Nationen den Anstoss gab, für die bedrängte und unter-
+drückteste Hälfte der Menschheit einzustehen, er war es,
+der den Unterdrückten selbst die Zunge löste. Eine der
+ersten Folgen war denn auch die berühmte Erklärung
+der Frauenrechte, die Olympia de Gouges der Erklärung
+der Menschenrechte entgegensetzte: »Die Frau ist frei-
+geboren und gesetzlich dem Manne gleich. … Das
+Princip aller Souverainetät ruht wesentlich in der Nation,
+welche nur die Vereinigung von Frau und Mann ist.
+Freiheit und Gerechtigkeit bestehen darin, jedem alles
+zukommen zu lassen, was ihm gebührt. So hat die
+Ausübung der natürlichen Rechte der Frau keine andere
+Schranke, als die beständige Tyrannei des Mannes. …
+Das Gesetz muss für alle gleich sein. Da alle männ-
+lichen und weiblichen Bürger gleich sind in dem Auge
+des Gesetzes, müssen ihnen in gleicher Weise alle Würden,
+*) Condorcet, Essai sur la constitution et les fonctions des assem-
+bleés provinciales Paris 1788.
+Journal de la Société de 1789, Nummer vom 3. Juli 1790.
+Eliza Ichenhaeuser.
+Aemter und öffentlichen Einrichtungen zugänglich sein
+nach ihrer Fähigkeit und ohne eine andere Unterscheidung
+als die ihrer Tugenden und Talente. … Die Frau hat
+das Recht, das Schaffot zu besteigen, sie sollte in gleicher
+Weise das Recht haben, die Tribüne zu betreten. *)
+Es wurden Versammlungen abgehalten, in denen
+Männer wie der Abbé Foucher, die Holländerin Mme.
+Palm Aebler über die Gleichberechtigung der Geschlechter
+redeten, auch Siéyès sprach sich für die politische Be-
+freiung der Frauen aus und bei der constituirenden Ver-
+sammlung der Convention vom 15. Februar 1793 las
+Condorcet im Namen des von der Convention zum
+Zwecke der Verfassung eines Planes für die Constitution
+der französischen Republik ernannten Comités einen Be-
+richt vor, der die Gleichberechtigung sämmtlicher Bürger
+ohne Unterschied des Geschlechts besiegelte. **)
+Aber die von der Convention im Juni 1793 diktirte
+und vom Volk acceptirte Constitution trat niemals in
+Kraft und die Thatsache, dass unter den Auswüchsen
+der Revolution sich auch der weibliche Abschaum der
+Gesellschaft befand, lieferte die erwünschte Ausrede, um
+die einfachsten vornehmsten Principien der Republik mit
+Füssen zu treten und nicht allein die Wünsche der
+politischen Befreiung der Frauen im Keime zu ersticken,
+*) Daniel Sterne »Histoire de la Revolution de 1848« Band II.
+**) Choix de rapports, opinions et discours prononces à la Tribune
+Nationale depuis 1789 jusqu à nos jours. Paris, Erymery, 1820 tome
+XII année 1793.
+Die politische Gleichberechtigung der Frau.
+sondern ihnen auch noch die armseligen Rechte, die
+sie besassen, wie z. B. Clubs und populäre Gesell-
+schaften zu gründen, in politischen Versammlungen zu
+amtiren u. s. w., zu nehmen. Diejenigen Frauen, die
+sich durch edle Begeisterung in diesen Tagen ausgezeichnet
+hatten, wurden der Vergessenheit anheim gegeben, die
+schwungvollen Reden einer Olympia de Gouges, die
+muthige That einer Charlotte Corday wurden nicht er-
+wähnt, aber die Greuelthaten einiger verkommener weib-
+licher Subjecte, die doch immerhin nur einen sehr ge-
+ringen Bruchtheil der männlichen tobenden, raubenden,
+mordenden Subjecte darstellten, wurden dem ganzen
+Geschlechte zur Last gelegt und die Schreckensmänner
+glaubten sich allen Ernstes berufen, dasselbe abzuurtheilen.
+Seltsame Ironie des Schicksals das.
+Aber trotz alledem und alledem, trotzdem die nach-
+herige Herrschaft des grossen Frauenverächters Napoleon
+die schönen von Gleichberechtigung erfüllten Ideen, die
+im ersten Entwurf zu einem Bürgerlichen Gesetzbuch,
+den Cambacérès der Convention überreichte, enthalten
+waren, in einem den Frauen höchst ungünstigen Sinne
+umzugestalten verstanden hatte, war die endlich in Fluss
+gebrachte Bewegung nicht aufzuhalten und fand einen
+lauten Widerhall auch im Auslande. In Deutschland
+war es Hippel, *) der in seinem Buche »Ueber die bürger-
+liche Verbesserung der Frauen« zuerst seiner Enttäuschung
+darüber, dass die Revolution bei der Erklärung der
+*) Hippel, Ueber die bürgerliche Verbesserung der Frauen. Berlin 1792.
+Eliza Ichenhaeuser.
+Menschenrechte die Hälfte der Menschheit vergessen
+habe, Worte verlieh. Er widerlegte alle Behauptungen
+über die Inferiorität der Frauen auf's Glänzendste, er
+deckte rücksichtslos den vollständigen Mangel jeder
+wissenschaftlichen Basis derselben auf und preist die
+Frauen als das Licht, das die ganze Welt erleuchtet, als
+das einzig Schöne auf Erden. Durch ihre vortrefflichen
+Eigenschaften, durch ihre Einfachheit, ihre Güte, ihr
+Gottvertrauen, ihre Gerechtigkeitsliebe könnten sie dem
+Staate neues Leben einflössen. Es müsse ihnen daher
+ihre Freiheit wiedergegeben werden. So lange sie nur
+Privilegien und keine Rechte besitzen, so lange sie nur
+als Parasitinnen auf Kosten der Männer leben werden,
+werden sie ihre wahre Mission als Gefährtinnen des
+Mannes, als Mutter ihrer Kinder, als Bürgerinnen statt
+als Mündel des Staats nie erfüllen können. Der philo-
+sophische Denker verlangt daher volle Freiheit für die
+Frau auf allen Gebieten, er verlangt aber hauptsächlich
+ihre Theilnahme am politischen Leben, er hält sie für
+hervorragend befähigt dazu, weil sie sich nicht so wie die
+Männer vom Parteigeist leiten lassen und besser als diese das
+Richtige zu treffen wissen würden; sie lieben die Freiheit, sind,
+wie sie es in England und Frankreich bewiesen haben, von
+patriotischem Geiste erfüllt und würden die Politik reinigen.
+Zu gleicher Zeit erregte in England eine glühende
+»Vertheidigung der Frauenrechte« *)kolossales Aufsehen.
+*) London 1792 »Vindication of the Rights of Women«, mit einer
+Einleitung von Mrs. Fawcett neu herausgegeben London 1890.
+Die politische Gleichberechtigung der Frau.
+Verfasserin derselben war Mary Wollstonerscraft, deren
+»Vertheidigung der Menschenrechte in einem Briefe an
+den Sehr Ehrenwerthen Edmund Burke«, der die neuen
+französischen Machthaber angeklagt hatte, schon zwei
+Jahre vorher sehr bemerkt worden war und bei den
+Liberalen Englands viel Beifall gefunden hatte. Sie be-
+klagt die künstlich erhaltene Inferiorität der Mutter des
+menschlichen Geschlechts, unter der der Fortschritt der
+Gesammtheit leide. Die männliche Ritterlichkeit und
+Galanterie erscheint ihr wie eine Verhüllung der Sklaverei,
+wie ein Binden mit seidenen Fesseln. Dies könne nur
+anders werden, wenn die Frau zur gleichberechtigten
+Genossin des Mannes erzogen werde.
+Seit dem Erscheinen dieses Buches, das viel An-
+feindungen erfuhr, verschwand die Frage der Gleich-
+berechtigung der Geschlechter in England nicht mehr
+vom Tapet, trotzdem sie zu voller Entwicklung in Folge
+der Reaktion gegen die neuen Ideen erst mehr als ein
+halbes Jahrhundert später gelangte.
+Wieder war es an der Wiege der Frauenbewegung,
+dass dieselbe neue Nahrung erhielt und zwar durch den
+Vorläufer des Socialismus, durch den Fourierismus. Der
+Begründer des nach ihm benannten Systems, Fourier,
+stellt in seiner Theorie des quatre mouvements *) als
+fundamentales Princip die vollständige Gleichberechtigung
+der Geschlechter auf, die Zulassung Aller zu allen Rechten
+und zu allen socialen Functionen.
+*) Lyon 1808.
+Ichenhaeuser, Die politische Gleichberechtigung der Frau. 3
+Eliza Ichenhaeuser.
+Den Fourieristen folgten die Saint-Simonisten, die
+die Forderung der Frauen-Emancipation noch lauter be-
+gehrten und ein Manifest darüber der Deputirtenkammer
+am I. October 1830 überreichten.
+Es ist ganz selbstverständlich, dass der Socialismus
+mit seinen weitgehenden radikalen Gleichheitsansprüchen
+auch die Gleichberechtigung der Geschlechter in sein
+Programm aufnehmen musste und einer der ersten
+socialistischen Deputirten, die im französischen Parlament
+erschienen, Pierre Leroux, verlangte bereits im Jahre 1851
+das politische Wahlrecht für die Frauen.
+Trotzdem aber Frankreich sozusagen das Geburts-
+land der Bewegung für die Gleichberechtigung der Frau
+war, trotzdem in keinem anderen Lande so früh wieder-
+holt die Hauptwurzel des Uebels, die Ursache der Unter-
+drückung der Frau, ihre politische Hörigkeit angegriffen
+wurde, so hat es die Führung in dieser Frage längst
+verloren, ist es thatsächlich erst in dritte und vierte
+Reihe gerückt. Nicht den Frauen der romanischen Völker
+war es vorbehalten, die ersten Erfolge zu erringen, trotz
+wiederholter Anläufe – wie auch die der Italienerinnen
+im Jahre 1877/78 –, dazu waren die Frauen der arbeiten-
+den Klasse zu unterdrückt, die der oberen zu sehr von den
+oberflächlichsten und schädlichsten Interessen beherrscht.
+Die Frauen der Neuen Welt waren es, die durch
+ihre ungeheure Energie und Thatkraft die Theorien, die
+aus der Alten Welt kamen, in der Neuen in die That
+umsetzten. Bei der jungen Geschichte ihres Landes
+Die politische Gleichberechtigung der Frau.
+waren ihre grossen Verdienste um dasselbe nicht so leicht
+zu vergessen, wie es die auf ihre Traditionen so stolzen
+Völker zu thun pflegen. Das Vertrauen, das sie sich
+im Unabhängigkeitskrieg errungen hatten durch ihren
+Heroismus und Muth, durch ihre glühende Vaterlandsliebe
+und ihre Uneigennützigkeit, hat sie zu weiterer ernster
+Arbeit angespornt, hat sie zu energischen, handelnden
+Persönlichkeiten umgewandelt. An allen Fragen der
+Politik und des socialen Lebens nahmen sie lebhaften
+thätigen Antheil und in dem jungen, gährenden, reform-
+bedürftigen Lande ward ihre Hülfe gern entgegen-
+genommen. Als sie nun ihrerseits Rechte begehrten und
+auf taube Ohren stiessen, liessen sie sich dadurch nicht
+abhalten, ihre Kräfte weiter dem allgemeinen Wohle zu
+widmen, gleichzeitig jedoch begannen sie den grossen
+bis auf die Gegenwart an Dimension sowohl als auch an
+imponirender Grösse zunehmenden Kampf um ihre Rechte.
+Die Schottin Frances Wright, die Polin Ernestine Rose,
+sie alle und viele andere fanden in den Amerikanerinnen
+ein dankbares Publikum für ihre zündenden Reden
+über die Emancipation der Frauen. Was ihnen aber in
+ihrem Kampfe hauptsächlich zu Hülfe kam, das war die
+abolitionistische Bewegung. Mit dem den Frauen inne-
+wohnenden Drang, den Unterdrückten beizustehen, hatten
+sie sich gleich zu Beginn dieser Bewegung derselben in
+uneigennützigster Weise gewidmet, hatten sie ihre ganze
+Kraft zu Gunsten der Befreiung der Sklaven eingesetzt.
+Aber während dieses Kampfes selbst lernten sie immer
+3*
+Eliza Ichenhaeuser.
+mehr die Aehnlichkeit ihrer eigenen Lage mit der der
+Sklaven erkennen, wurde ihnen das Abnorme, dass sie
+für die Freiheit einer Menschenrasse kämpften, während
+sie selbst unfrei waren, immer bewusster, und als im
+Jahre 1840 bei der Conferenz zur Abschaffung der
+Sklaverei in London die weiblichen amerikanischen
+Delegirten nicht zugelassen wurden, da entfesselte dieses
+Vorgehen einen solchen Sturm der Entrüstung, dass die
+eigentliche amerikanische Frauenbewegung von diesem
+Jahre an datirt. Im selben Jahre erschien das treffliche
+Buch Margaret Fullers »Women in the nineteenth century«,
+in welchem sie die politische und bürgerliche Gleichheit
+der Frauen fordert, Männer wie Lloyd Garrison, Wendell
+Phillips, O'Connell u. A. betheiligten sich an den Forde-
+rungen der Frauen, so dass aus den Kämpfern für die
+Befreiung der Sklaven allgemach die Kämpfer für die
+Befreiung der Frauen hervorgingen. Lucy Stone, eine
+der ältesten und verdientesten Vorkämpferinnen, erzählt
+ein sehr hübsches darauf bezügliches Vorkommniss aus
+ihrem Leben. Im Auftrage der Antisklaverei-Gesellschaft
+hielt sie eine Reihe von Vorträgen gegen die Sklaverei
+ab. In diese Vorträge mischte sie ausserordentlich viel
+über Frauenrechte. Als ihr an einem Vortragsabend
+das Herz so voll über die Frauenfrage war, dass sie in
+ihrem Vortrage sehr viel über die Frauenrechte und sehr
+wenig über die Abschaffung der Sklaverei gesprochen
+hatte, da sagte ihr Freund, der Prediger May und Agent
+der Antisklaverei-Gesellschaft, der ihre Meetings arrangirte,
+Die politische Gleichberechtigung der Frau.
+zu ihr: »Das geht nicht so weiter.« »Ich weiss wohl,«
+erwiderte sie, »aber ich kann mir nicht helfen, ich war
+Frau, ehe ich Abolitionistin war und ich muss für die
+Frauen sprechen.« Sie legte auch ihr Amt bei der
+Antisklaverei-Gesellschaft nieder und wollte sich hinfort
+nur der Vertheidigung der Frauenrechte widmen, aber
+die Gesellschaft wollte eine so vorzügliche Rednerin nicht
+verlieren und so kämpfte sie weiter für Beide, für die
+schwarzen männlichen und für die schwarzen und weissen
+weiblichen Sklaven.
+Gleich ihr thaten es eine ganze Anzahl anderer Vor-
+kämpferinnen und ihr Bestreben ging nun dahin, die
+Frauenbewegung zu organisiren, so wie sie vorher die
+Antisklavereibewegung organisirt hatten. Dieses Streben
+gelang und am 19. Juli 1848 hielten die Frauen zu
+Seneca Falls im Staate New-York unter der Führung
+von Lucretia Mott, Elisabeth Cady Stanton, Martha
+C. Wright, Mrs. Jane Hunt, Elisabeth und Mary Mc
+Clintock ihren ersten Congress ab, auf welchem eine Er-
+klärung der Gesinnungen *) verfasst wurde, in welchen
+in ebenso massvoller als energischer und geistvoller Weise
+die politische Gleichheit der Frauen gefordert wurde.
+Diesem ersten Congress folgte zwei Jahre später ein
+zweiter in Worcester im Staate Massachusetts und diese
+zwei »Women's Right Conventions« wirkten bahnbrechend.
+In sämmtlichen Staaten der Union bildeten sich Frauen-
+*) »History of Woman Suffrage«, herausgegeben von E. C. Stanton,
+S. B. Anthony und M. J. Gage, New-York 1881.
+Eliza Ichenhaeuser.
+vereine, die für die Gleichberechtigung der Geschlechter
+auf allen Gebieten eine rührige Thätigkeit entfalteten,
+glühende Reden wurden allerorts gehalten, die in ein und
+derselben Forderung gipfelten, kurz, die ganze Frauen-
+bewegung gerieth nun erst in das richtige Fahrwasser.
+Und nicht allein in Amerika selbst war die Wirkung
+der Congresse eine so gewaltige, sondern sie sprang auch
+auf das Mutterland zurück. Der bekannteste Vorkämpfer
+der Bewegung zu Gunsten einer radikalen Aenderung
+der Stellung der Frau, der als Nationalökonom und
+Philosoph gleich geschätzte John Stuart Mill war es, der
+den Ruhm Englands, das Vorbild aller liberalen In-
+stitutionen zu sein, zu wahren unternahm, indem er recht-
+zeitig das Augenmerk auf die so nothwendige Aenderung
+der Gesetzgebung zu Gunsten der Frau hinlenkte.
+Der Congress zu Worcester, die Forderungen, die
+die Amerikanerinnen auf demselben aufstellten und ihr
+Verhalten daselbst hatten einen so tiefen Eindruck auf
+ihn gemacht, dass er durch denselben zu seinem ersten
+Aufsatz über die Zulassung der Frauen zum Wahlrecht
+inspirirt wurde. Er entwickelte später seine darin ge-
+äusserten Ideen immer weiter, bis er in seinem welt-
+bekannten Buche »Die Hörigkeit der Frau« *) ein Werk
+schuf, das ihn unsterblich machte, das seiner grossen und
+selbstlosen Denkweise ein unvergängliches Denkmal setzte,
+das ihm die ewige Dankbarkeit der Frauen aller Zeiten
+*) London 1855, in's Deutsche übersetzt von Jenny Hirsch,
+Berlin, 3. Aufl., 1891.
+Die politische Gleichberechtigung der Frau.
+sicherte. Seit Plato gab es zu allen Epochen vereinzelte
+Denker, die selbstlos genug waren, dem allgemeinen
+männlichen Egoismus ihrer Zeit entgegenzutreten, edlere,
+wahrere Worte als John Stuart Mill hat jedoch kein Mann
+für die Frauen gefunden.
+Es gab keine Seite der Frauenfrage, die er vergessen,
+keinen thatsächlich erfolgten oder möglichen Einwand,
+den er nicht glänzend widerlegt hätte. »In den ge-
+bildeten Staaten ist mit einer Ausnahme die Aus-
+schliessung der Frauen von den meisten Aemtern und
+Berufszweigen noch der einzige Fall, in dem Gesetze und
+Einrichtungen Personen von der Geburt an unter einen
+gewissen Bann stellen und nicht gestatten, dass sie während
+ihres ganzen Lebens nach gewissen Dingen streben.«
+»Die untergeordnete Stellung, zu welcher die Frauen
+lediglich durch ihre Geburt verurtheilt sind, ist ohne
+Beispiel in der neueren Gesetzgebung.« Ueber das
+Stimmrecht zum Parlament sowohl wie für Gemeinde-
+ämter sagt Mill: »Es giebt nicht den Schatten eines
+gerechten Grundes dafür, dass man die Frauen nicht
+unter denselben Bedingungen und innerhalb derselben
+Grenzen, wie man sie für die Männer aufgestellt, zur
+Wahl zulässt. Die Mehrheit der Frauen aus einer Klasse
+würde in ihrer politischen Ansicht höchst wahrscheinlich
+nicht viel von der politischen Ansicht der Männer der-
+selben Klasse abweichen, es sei denn, die Frage beträfe
+Dinge, in welchen die Wohlfahrt der Frauen als solche
+verflochten wäre. Giebt es aber solche Fälle, so bedürfen
+Eliza Ichenhaeuser.
+Frauen um so mehr des Stimmrechts, als der besten
+Gewähr für eine gerechte und unparteiische Vertretung.
+Dies, dächte ich, müsste sogar denen einleuchten, welche
+sonst in keinem andern der von mir vertheidigten Punkte
+übereinstimmen. … Was nun die Fähigkeit der Frauen
+anbetrifft, nicht allein das Wahlrecht auszuüben, sondern
+selbst Aemter zu verwalten, mit denen eine wichtige
+Verantwortung der Oeffentlichkeit gegenüber verbunden
+ist, so habe ich bereits bemerkt, dass diese Erwägung
+für die praktische Behandlung der vorliegenden Frage
+nicht wesentlich ist, da jede Frau, die in einem freien
+Gewerbe etwas leistet, dadurch den besten Beweis liefert,
+dass sie dafür geeignet ist. Hinsichtlich der öffentlichen
+Aemter aber sind zwei Fälle möglich: entweder die Ver-
+fassung des Landes schliesst unfähige Männer von ihnen
+aus, dann wird sie mit unfähigen Frauen dasselbe thun,
+oder sie lässt ohne Prüfung jeden Mann zu, dann wird
+der Umstand, dass die unbefähigte Person eine Frau statt
+eines Mannes ist, das Uebel nicht ärger machen.«
+Der Apostel der Frauen-Emancipation begnügte sich
+jedoch nicht mit der theoretischen Anerkennung der
+Frauenrechte, er wollte sie auch praktisch durchführen.
+Im Mai 1867 reichte er im Parlament sein berühmtes
+Amendement ein, an Stelle des Wortes »man« das Wort
+»person« überall im Gesetz zu setzen, nachdem er sich
+bereits ein Jahr vorher zum Träger einer Petition ge-
+macht hatte, die von 1499 Frauen unterzeichnet war.
+»Es ist wahr,« sagte Mill, »dass die Frauen grosse Macht
+Die politische Gleichberechtigung der Frau.
+haben und gerade darauf lege ich grosses Gewicht, dass
+sie so viel Macht haben. Aber sie haben sie unter den
+schlechtesten Bedingungen, weil sie eine indirekte und
+daher eine unverantwortliche Macht ist. Ich wünsche,
+dass diese grosse Macht eine verantwortliche Macht werde.
+Ich wünsche, dass die Frauen an der rechtschaffenen Aus-
+übung dieser Macht ihr Gewissen betheiligen. Ich wünsche,
+dass die Frau es nicht bloss als Mittel zu persönlicher
+Macht betrachte, ich wünsche, dass ihr Einfluss sich
+durch einen offenen Gedankenaustausch bemerkbar mache,
+und nicht durch Schmeichelei. Ich wünsche in ihr das
+politische Ehrgefühl zu erwecken.«
+Aber die Frauen selbst begannen nunmehr sich zu
+regen. Sie begannen sich in die Wählerlisten eintragen
+zu lassen und unter der Aegide ihrer klugen Führerin,
+Lydia Becker, erzwangen sie sich, wie bereits oben
+gezeigt, einen richterlichen Entscheid. Als dieser un-
+günstig ausfiel, ergriffen sie sofort Massregeln, um eine
+Reform herbeizuführen, eine Schaar edler Männer gesellte
+sich ihnen zu und arbeitete innerhalb und ausserhalb des
+Parlaments für sie und mit ihnen. Versammlungen über
+Versammlungen wurden abgehalten, Petitionen über
+Petitionen abgesandt, Amendements über Amendements
+eingebracht und wenn auch die Stunde der politischen
+Befreiung der Frau noch nicht geschlagen hatte, so doch
+wenigstens die der intellectuellen. Im Wintersemester
+1867/68 wurden zum ersten Male in Edinburgh 265 Frauen
+zum Universitätsstudium zugelassen, eine ganze Reihe
+Eliza Ichenhaeuser.
+anderer folgten diesem ersten Beispiel, wenn auch die
+ersten Grade Frauen erst zehn Jahre später in England
+verliehen wurden. Im Jahre 1869 gelang es Jacob Bright,
+einen Antrag durchzubringen, demzufolge die Frauen
+das Municipalwahlrecht erhielten, 1870 folgte diesem das
+active und passive Schulwahlrecht, 1888 das Recht, sich
+an den Grafschaftswahlen zu betheiligen, 1893 das active
+und passive Kirchenspielwahlrecht.
+Auch ihre gemeinrechtliche Stellung erfuhr grosse
+Verbesserungen, die »Married Women's Property Acts«
+sicherten der Ehefrau die Verfügung über ihr Verdienst
+und verschiedene andere Gesetzesänderungen gestalteten
+ihren einst so schlechten gesetzlichen Status zu einem
+sehr günstigen um.
+Das Endziel allein zu der ganzen grossen Bewegung,
+die Aufhebung ihrer politischen Hörigkeit, fehlt den
+Frauen Englands noch. Aber sie arbeiteten wacker an
+der Erlangung desselben, in den dreissig Jahren, die seit
+dem ersten Antrag Mills verflossen sind, wurden im
+Unterhause Frauenwahlrechtsgesetzentwürfe nicht weniger
+als fünfzehn Mal behandelt, mehrere von ihnen unter
+ganz merkwürdigen Verhältnissen. Als im Jahre 1884
+das den Einwohnern der Städte verliehene Wahlrecht
+auch auf die ländliche Bevölkerung ausgedehnt werden
+sollte, da glaubten alle Anhänger des Frauenwahlrechts,
+die Stunde für dasselbe sei gekommen. Thatsächlich
+war eine Majorität der Anhänger desselben im Parlament
+vorhanden. Da gab Gladstone trotz früherer wiederholter
+Die politische Gleichberechtigung der Frau.
+Erklärungen der Zustimmung plötzlich die Parole aus,
+die Frage des Frauenstimmrechts diesmal nicht auf-
+zuwerfen, angeblich, weil er durch dieselbe die Gefährdung
+der Bill befürchtete und so mussten die Frauen sich
+wieder einmal bescheiden.
+Aehnlich erging es ihnen noch andere Male, aber
+trotzdem ist es ganz unzweifelhaft, dass ihre Anhänger
+von Jahr zu Jahr ganz ungeheuer zunehmen. Sie sind
+ein mächtiger Factor in der Politik geworden. Durch
+die freiwilligen Arbeitsleistungen in politischen Organi-
+sationen, die sie auf sich genommen haben, so bei der
+Primrose League und bei den verschiedenen Frauen-
+vereinigungen, durch ihre gewaltige Arbeit bei den
+Parlamentswahlen hatten sie es so gut verstanden, sich
+die Anerkennung und Dankbarkeit beider Parteien zu
+erringen, dass nicht allein die Sympathien der Liberalen
+ihnen gehören, sondern nunmehr auch der grösste Theil
+der Conservativen geneigt ist, den Frauen das Wahlrecht
+zu geben.
+Allein trotz dieser principiellen Geneigtheit und trotz
+der immer zahlreichere Unterschriften aufweisenden Frauen-
+petitionen – die erste im Jahre 1867 enthielt 1499, die
+von 1873 11 000 und die von 1896 enthielt nicht weniger
+als 257 000 Unterschriften – wurde der entscheidende
+Schritt noch immer verschoben, und die Besprechung der
+Bill von Jahr zu Jahr hinausgeschoben. Da begannen
+die Wahlrechtsvereine eine fieberhafte Thätigkeit zu ent-
+wickeln, am 16. October 1896 fand in Birmingham ein
+Eliza Ichenhaeuser.
+Congress derselben statt, als dessen Resultat »Central
+Committee National Society for Women's Suffrage«,
+»Central National Society for Women's Suffrage«, »Man-
+chester National Society for Women's Suffrage«, »Edin-
+burgh National Society for Women's Suffrage« und
+»Bristol and West of England Branch of the National
+Society for Women's Suffrage« zu einer Special-Commission
+zusammentraten, um concentrirt zu wirken. Dem Ab-
+geordneten Faithful Begg gelang es nun, den 3. Fe-
+bruar 1897 für die Besprechung der Bill zu fixiren.
+Wie erwartet, wurde die Bill in zweiter Lesung an-
+genommen, und zwar mit einer Majorität von 71 Stimmen.
+Eine Ohrenzeugin der Parlamentsverhandlungen, Mrs.
+Ashworth Hallett schrieb im »Bath Chronicle«: »Ich
+sass in der Gallerie und sah Disraeli von der Minister-
+bank aufstehen, von den erleuchtetsten seiner An-
+hänger gefolgt, um – damals nur ein kleines Häuflein –
+zu Gunsten des Frauenstimmrechts zu stimmen. Wieder
+sah ich von dieser selben Gallerie aus Lord Stafford
+Northcote sich von diesem selben Sitz erheben, um als
+Leader des Hauses zu sprechen, das Wahlrecht für die
+Frauen zu fordern und dann im Verein mit einer grossen
+Gefolgschaft seiner Partei für das Frauenwahlrecht zu
+stimmen. Und nun, nachdem ich sechsundzwanzig Jahre
+für diese Sache gearbeitet habe, war es mir vergönnt,
+den gegenwärtigen Leiter der conservativen Partei, ge-
+folgt von einer Majorität aller drei Parteien, der Conser-
+vativen, der Liberal Unionisten und der Liberalen, zu
+Die politische Gleichberechtigung der Frau.
+Gunsten dieser lang verschobenen gerechten Massregel
+stimmen zu sehen. Dass eine Majorität von Liberalen
+trotz ihres Führers diese Stimme abgegeben haben, ist
+eine der bedeutsamsten Thatsachen der Situation«.
+Diese Worte spiegelten die allgemeine Stimmung
+und Ansichten wieder und allgemein erwartete man, dass
+die Annahme der Bill in dritter Lesung erfolgen würde.
+Diese wurde zuerst auf den 23. Juni, dann in Folge der
+Jubiläumsfeierlichkeiten auf den 7. Juli festgesetzt und
+zwar nahm sie an jenem Tage die vierte Reihe der
+Tagesordnung ein. Obgleich wenigstens zwei der voraus-
+gehenden Tagesordnungen unter gewöhnlichen Umständen
+in kürzester Frist ihre Erledigung gefunden hätten, ver-
+stand es die der Massregel feindliche Partei, die Debatte
+derartig auszudehnen, dass die ganze Sitzungsdauer mit
+zwei ziemlich nebensächlichen Gesetzentwürfen ausgefüllt
+wurde und die Frauenstimmrechtsbill an diesem Tage
+nicht mehr zur Discussion gelangte, somit ihr Erfolg für
+diese Session vereitelt war. Dieses an sich bedauerliche
+Vorkommnis entmuthigte jedoch die tapferen englischen
+Vorkämpferinnen nicht. Am 15. Juli desselben Jahres,
+acht Tage nach dem denkwürdigen Ereigniss, hielt die
+National Society for Women's Suffrage in Westminster
+Townhall ihre jährliche Generalversammlung ab, an der
+die Vorsitzende, Lady Frances Balfour, ihre Rede also
+begann: »Wir sind hier wieder, wenn auch in spärlicher
+Zahl, so doch ungebeugt versammelt. Die Ereignisse
+dieses Jahres sind uns Allen bekannt. Wir hatten zu
+Eliza Ichenhaeuser.
+Anfang des Jahres einen grossen Erfolg und die Majori-
+tät, mit der unsere Bill in zweiter Lesung angenommen wurde,
+war so gross, dass das Unterhaus selbst darüber
+erstaunt war. Dieses Parlament hat durch diese Annahme
+das Princip des Frauenwahlrechts anerkannt. Viele
+meinen, dass wir arg enttäuscht sind über die Ereignisse
+der letzten Tage, aber ich fühlte mich niemals so wohl-
+gemuth wie jetzt. Ich glaube, dass die Taktik des
+Unterhauses nicht so beleidigend für die Massregel wie
+für das Haus selbst war, durch die falsche Methode,
+die es einem Gesetz gegenüber anwandte, dessen Princip
+es wenige Monate vorher selbst anerkannt hatte. Ich
+hörte von einem Gegner, dass er sich so angeekelt fühlte
+über das, was in jenen wenigen Stunden am Donnerstag
+vorging, dass er sich entschloss, das nächste Mal, wenn
+es wieder vor das Haus kommt, dafür zu stimmen. Und
+es wird wieder vor das Haus kommen. Unsere besten
+Rathgeber sagen uns, dass wir eine Bill nur ständig ein-
+zubringen brauchen und wenn sie mit solcher Majorität
+angenommen wird wie in diesem Jahr, kann keine Re-
+gierung sie übersehen. Es erfordert nur Zeit.«
+Das ist es, es erfordert nur Zeit, aber es kommt
+gewiss und zwar binnen kurzem, das Frauenstimmrecht
+in England. Sie haben bereits eine gewaltige Majorität
+erreicht, in der die Misserfolge sie nun zu weiterer Arbeit
+anspornen – an der eben erwähnten Generalversammlung
+wurde ein noch engerer Zusammenschluss der einzelnen
+Frauenwahlrechtsvereine, eine noch intensivere Arbeit,
+Die politische Gleichberechtigung der Frau.
+eine noch schärfere Campagne beschlossen – so werden
+wohl bald die letzten Misserfolge sich in einen schönen
+grossen Erfolg verwandeln.
+Vorausgegangen in dieser grossen Gerechtigkeitsfrage
+sind dem Britischen Reiche seine Colonien und die parla-
+mentarisch autonome zwischen Schottland und Irland ge-
+legene Insel Man. Als die Gesetzgebung der Letzteren
+im Jahre 1880 im Begriffe war, seine Wahlgesetzgebung
+dahin abzuändern, dass das Wahlrecht auf alle männ-
+lichen Haushaltungsvorstände ausgedehnt werde, da
+reichte der Abgeordnete Sherwood ein Amendement ein,
+im neuen Gesetz das Wort »männlich« auszulassen und
+das Wahlrecht auf alle Frauen, die den vom Gesetz vor-
+geschriebenen Bedingungen entsprechen, auszudehnen.
+Die Kammer nahm diesen Vorschlag mit grosser Majorität
+an, der Senat weigerte sich, das Wahlrecht auf die
+Frauen, die nur Miether sind, auszudehnen, sondern wollte
+es nur den Besitzerinnen gewähren. Es entstand ein
+Conflict, schliesslich gab die Kammer nach, die Bill
+wurde in dieser Beschränkung von beiden Kammern und
+vom Gouverneur angenommen, im Januar 1881 erhielt
+sie die königliche Bestätigung. Die geringe Anzahl von
+Frauen, die das Wahlrecht erhalten hatte, machte sehr
+eifrigen Gebrauch davon und verstand es, durch die Art
+und Weise, wie sie Gebrauch davon machten, den Senat
+so gut zu bekehren, dass das Frauenwahlrecht im Jahre
+1892 eine Ausdehnung erfuhr und ein Gesetz am 22. März
+angenommen und am 5. Juli in Kraft trat, dessen mass-
+gebender Artikel wie folgt lautet:
+Eliza Ichenhaeuser.
+»Vom Tage der Verkündigung dieses Gesetzes wird
+jede volljährige Person, die keiner gerichtlichen Incapacität
+unterliegt, als Wähler eingeschrieben, und ist alsdann
+berechtigt, das active Wahlrecht auszuüben, vorausgesetzt,
+dass sie folgende Qualification hat:
+Männliche Personen, unverheirathete weibliche
+Personen oder Wittwen, die Grundeigenthümer oder
+Miether, Pächter (Occupiers) innerhalb des Wahldistrikts
+sind, im Werth von mindestens 4 Pfund pro Anno.«
+Von einschneidenderer Wirkung als die politischen
+Errungenschaften auf der nur 60 000 Einwohner zählenden
+Insel Man, sind diejenigen der nicht nur allein parla-
+mentarisch autonomen, sondern überhaupt nur äusserst
+lose mit dem Mutterland verknüpften Colonien Australiens.
+Dort hat die Doppelinsel Neuseeland, diese mächtig auf-
+blühende, siebenhunderttausend Seelen zählende Colonie,
+in der Parlamentssitzung vom 5. August 1890 zuerst die
+Frage des Frauenwahlrechts angeschnitten. Der Antrag
+von Sir Hall, auf alle Frauen das Wahlrecht auszudehnen,
+erregte eine lebhafte Discussion, als deren Resultat das
+Unterhaus den Hall'sehen Vorschlag mit 37 gegen
+11 Stimmen annahm. Das Oberhaus jedoch verwarf den
+Antrag, und dieses Ergebniss wiederholte sich mehrere
+Male, bis endlich am 19. September 1893 ein Wahlgesetz
+zu Stande kam, das mit den Amendirungen vom 6. Octbr.
+des gleichen Jahres unter dem Titel »the Electoral Act
+1893« bahnbrechend für die Frauenwahlrechtsfrage inner-
+halb der englischen Besitzungen wurde. Englischer
+Die politische Gleichberechtigung der Frau.
+juristischer Gepflogenheit entsprechend, bringt das Gesetz
+in seiner Einleitung eine sogenannte authentische Inter-
+pretation sogenannter Stichwörter, es bestimmt nun aus-
+drücklich, dass, wo immer in diesem Gesetz das Wort
+»Person« gebraucht wird, dieser Begriff weibliche Personen
+einschliesse. Im Artikel 6 Theil I ist nun die Qualifi-
+cation zur Ausübung des Stimmrechts wie folgt bestimmt,
+indem wiederum die authentische Interpretation des Ar-
+tikels VI lautet: »Qualificationsbestimmungen für Männer
+oder Frauen.«
+Die Mitglieder des Unterhauses werden in jedem
+Wahldistrict gewählt durch die Stimmen der Einwohner
+von Neuseeland, die innerhalb ihres Wahldistricts die
+folgende Qualification besitzen:
+1. Jede »Person« im Alter von 21 Jahren und mehr,
+die innerhalb ihres Wahlkreises innerhalb der letzten
+sechs Monate Grundbesitz im Werthe von 25 Pfund
+eignet.
+2. Jede »Person« im Alter von 21 Jahren und mehr,
+die mindestens ein Jahr in der Colonie ihren Wohnsitz
+hat und in dem Wahldistrict mindestens drei Monate
+vor Beginn der Wahleinschreibung sich aufgehalten hat.
+3. Keine Person darf mehr als in einem Wahlkreis
+das Wahlrecht ausüben.
+Der fundamentale Unterschied in dem Genuss bürger-
+licher Rechte der Frauen zwischen der Insel Man und
+Neuseeland liegt darin, dass abgesehen davon, dass das
+Wahlrecht in Neuseeland auf breitester demokratischer
+Ichenhaeuser, Die politische Gleichberechtigung der Frau. 4
+Eliza Ichenhaeuser.
+Grundlage aufgebaut ist, woran wie selbstverständlich
+auch die Männer participiren, eben diese weitgehende
+Qualification, nicht nur der Wittwe und unverheiratheten
+Frau sondern jeder weiblichen Person über 21 Jahre,
+also auch den viel zahlreicheren Ehefrauen, eingeräumt
+ist, womit vom Standpunkt des activen Wahlrechts jeder
+Unterschied zwischen Mann und Weib eliminirt ist.
+Characteristisch sogar für die streng logische Auffassung
+der neuseeländischen Gesetzgebung nach dieser Richtung
+hin ist die völlige Gleichstellung des weiblichen Maori
+mit dem männlichen Ureingeborenen, hinsichtlich der
+Ausübung des allerdings hier etwas beschränkten Wahl-
+rechts (dieselben können ingesammt nur vier Maoris in
+das Unterhaus schicken) und ebenso wird auch zwischen
+Halbbürtigen (Mischlingen von Weissen und Maoris) weib-
+lichen und männlichen Geschlechts kein Unterschied
+gemacht.
+Noch weiter als Neuseeland ging Süd-Australien.
+Hier besass nach dem Wahlgesetz vom 25. October 1879
+jeder Bürger oder Naturalisirte im Alter von 21 Jahren,
+das active Wahlrecht für das Unterhaus und jeder Grund-
+besitzer (bei 50 Pfund Grundbesitz) oder Pächter (bei
+20 Pfund) oder Hausmiether (25 Pfund) das active Wahl-
+recht für das südaustralische Oberhaus.
+Die Verfassungsänderung vom 21. December 1894
+bestimmt nun wie folgt:
+1. Das Recht zum Wählen der Personen, die im
+Parlament als Mitglieder des Oberhauses und des Unter-
+Die politische Gleichberechtigung der Frau.
+hauses fungiren sollen, wird hiermit auf weibliche Per-
+sonen ausgedehnt.
+2. Weibliche Personen besitzen und üben die ihnen
+hierin zugesprochenen Rechte unter denselben Quali-
+ficationen und in der gleichen Weise wie männliche
+Personen.
+3. Alle Verfassungs- und Wahlakte und alle anderen
+Gesetze seien hiermit amendirt, um diesem Gesetz Kraft
+zu geben.
+Die Frage des passiven Frauenwahlrechts ist merk-
+würdigerweise unentschieden geblieben und zwar aus
+folgendem Grunde: Bei der dritten Lesung stimmten von
+vierundzwanzig Stimmen dreizehn für das Frauenwahl-
+recht, nun hiess es vorsichtig sein, um keine Stimme zu
+verlieren. Die Gegner ihrerseits legten der Bill alle mög-
+lichen Hindernisse in den Weg, eines dieser Hindernisse
+nun bildete der Passus, dass es den Frauen verboten sei,
+im Parlament zu sitzen, den sie einzufügen wünschten.
+Da die Vertheidiger des Frauenwahlrechts befürchteten,
+der Erfolg der Bill könne durch die Aufwerfung der
+Frage des passiven Frauenwahlrechts gefährdet werden,
+so begnügten sie sich mit dem Zugeständniss der Gegner,
+den obenerwähnten Passus hinauszuwerfen; das geschah,
+und nunmehr ist die Frage, ob die Frauen das passive
+Wahlrecht in Süd-Australien besitzen, eigentlich unent-
+schieden. Bejaht ist sie in diesem Jahre worden durch
+die Thatsache, dass eine Frau Miss C. H. Spencer bei
+den Wahlen für die zur Föderationsconvention zu ent-
+4*
+Eliza Ichenhaeuser.
+sendenden Delegirten, als Delegirte für Süd-Australien
+gewählt wurde. Ist dieser eine Fall aber zu vereinzelt,
+um eine so wichtige Frage als entschieden zu betrachten,
+und lässt sich aus ihm auch kein Schluss ziehen, ob die
+Frauen sich für das passive Wahlrecht eignen – wollte
+man es thun, so würde man zu einem sehr günstigen
+Schluss gelangen, da Miss Spencer eine ganz hervor-
+ragende Politikerin ist, doch liegt es mir fern, nach
+einem einzigen Fall zu generalisiren – so sind die Er-
+fahrungen über das active Frauenwahlrecht in den beiden
+eben behandelten Colonien um so zahlreicher und nicht
+minder günstig.
+Bei der ersten Wahl im Jahre 1893 machten von
+109 461 eingeschriebenen Frauen 90 290 = 82 Procent
+von ihrem neuen Recht Gebrauch, während von 177 701 ein-
+geschriebenen Männern nur 124 439 = 70 Procent. Die
+Wahlen waren in Neuseeland noch nie vorher so ruhig
+und anständig verlaufen, der allgemeine Ton war be-
+deutend besser geworden und wer erwartet hatte, dass
+die Frauen conservativ wählen würden, sah sich gründlich
+getäuscht, die conservative Partei erlitt eine grosse
+Schlappe, die Frauen standen in der Mehrzahl auf Seiten
+der kleinen Farmer und der Arbeiterklasse, sie hatten
+liberal gewählt und ausserdem die Candidaten auf ihren
+moralischen Werth hin geprüft. Aehnlich waren die
+Resultate in Süd-Australien. Der »South Australien Argus«
+sagt über die Allgemeinen Wahlen vom 25. April 1896:
+»Die Frauen waren überall und ihre Anwesenheit in den
+Die politische Gleichberechtigung der Frau.
+Strassen, an den Urnen übte zweifellos einen verfeinern-
+den Einfluss aus – niemals hatten wir noch ein so an-
+ständiges Benehmen der Menge gesehen als dasjenige,
+das die erste Ausübung des Frauenwahlrechts hier aus-
+zeichnete. Sogar die Nonnen übten ihr Wahlrecht aus
+und es war ein malerisches Bild, als durch die bunte
+Menge in North Adelaide die Schwestern des Domini-
+kanerklosters in ihren düsteren Gewändern einherzogen
+unter der Führung ihrer Oberin, ruhig, ernst und gütig.«
+Die Regierungen der beiden Colonien haben sich
+wiederholt wohlwollend und befriedigt über die Resultate
+der politischen Freiheit der Frau ausgedrückt, zuletzt
+gelegentlich der obenerwähnten Generalversammlung der
+»National Society for Women's Suffrage« in Westminster
+Townhall und zwar sowohl der Premierminister von Neu-
+seeland Hon. M. Saddon, als auch der Premierminister
+von Süd-Australien, Mr. Kingston; der letztere schrieb:
+»Ihre Gesellschaft hat meine lebhafteste Sympathie und
+ich beziehe mich mit verzeihlichem Stolz auf die That-
+sache, dass die gegenwärtige südaustralische Regierung
+durch den guten Willen des Parlaments in der Lage war,
+allen Grossjährigen Süd-Australiens das Wahlrecht zu
+gewähren. Unsere Frauen schätzen dieses Privilegium
+ebenfalls und üben es intelligent und fleissig aus.«
+Bei solch vorzüglichen und einwandsfreien Zeugnissen
+über die Resultate des Frauenstimmrechts in Neuseeland
+und Südaustralien muthet es sonderbar an, wenn deutsche
+Zeitungen, wie jüngst die Münchener Allgemeine Zeitung,
+Eliza Ichenhaeuser.
+aus der Thatsache, dass bei den Verhandlungen der
+Föderationsconvention die Anträge mehrerer Mitglieder
+zu Gunsten der Einführung des Frauen-Stimmrechts für
+die Wahlen zum künftigen australischen Bundesparlament
+abgelehnt worden sind, den Schluss ziehen wollen, dass
+dies ein Zeichen sei, dass man nach den bisher in
+Australien gemachten Erfahrungen sich keine besonderen
+Vortheile von der Zulassung der Frauen zur Wahlurne
+verspreche. Diese Schlussfolgerung ist ebenso unlogisch
+als leichtsinnig, unlogisch, weil, da nur zwei von den
+sieben australischen Colonien das Frauenwahlrecht be-
+sitzen, die Vertreter derselben in der Minorität waren;
+da aber nur diese von Erfahrungen sprechen konnten
+und gerade sie es waren, die die betreffenden Anträge
+einbrachten, so spricht dies im Gegentheil für gute Er-
+fahrungen; leichtsinnig, weil, wenn der Referent kein
+anderes Material über diese Frage besass, er sich hätte
+hüten müssen, sein Urtheil auf einen Trugschluss aufzu-
+bauen. Wenn er dann aber noch boshaft hinzufügt, in
+Süd-Australien haben die Frauen das politische Wahl-
+recht, sie können zu allen Aemtern erwählt werden, es
+denkt aber kein Mensch daran, es zu thun, so schlägt
+das den Thatsachen in's Gesicht. Wie ich oben gezeigt
+habe, besitzen die Frauen in Süd-Australien nicht das
+passive Wahlrecht, resp. ist diese Frage unentschieden,
+und trotzdem hat nicht nur ein, sondern über sieben-
+tausend Menschen haben daran gedacht und es auch
+ausgeführt, Miss Spencer als Delegirte zur Föderations-
+Die politische Gleichberechtigung der Frau.
+convention zu wählen. Die weiteren Bemerkungen der
+M. A. Z. stimmen mit den von mir berichteten That-
+sachen überein, nämlich dass die vielfach gehegte Ver-
+muthung, die weiblichen Wähler würden die conservative
+Partei verstärken, sich nicht bestätigt habe, dass der
+Klerus in seinen Erwartungen getäuscht war und dass
+die Frauen den als Don Juans bekannten Politikern scharf
+zu Leibe gingen. Ich denke, dass all das dem oben
+citirten Urtheil der M. A. Z. vollständig widerspricht;
+denn das allgemeine Niveau heben, besonders den
+moralischen Standard der Candidirenden, liberal wählen,
+den Bedrängten und Arbeitenden beistehen, das sind alles
+so vorzügliche Resultate, dass sie alle Erwartungen weit
+übertroffen haben, sind doch alle Frauen sozusagen
+politische Autodidakten.
+Dass die Mehrzahl der Mitglieder der Föderations-
+convention sich nicht entschliessen konnte, den Frauen
+das Stimmrecht für die Wahlen zum künftigen australischen
+Bundesparlament zu gewähren, ist nicht verwunderlich,
+da sie es, wie bereits bemerkt, in den anderen fünf
+Colonien noch nicht besitzen, doch ist es zweifellos, dass
+es daselbst nicht mehr lange auf sich warten lassen wird.
+In Victoria ist ein bezügliches Amendement bereits 1873
+vom Unterhaus angenommen worden, ein Telegramm vom
+23. September ds. macht bekannt, dass der Premier, Sir
+George Turner, in der Ansprache an seine Wähler denselben
+ankündigte, dass er eine Wahlreform einbringen
+wolle, derzufolge jeder Erwachsene wahlberechtigt
+Eliza Ichenhaeuser.
+sein solle. In Westaustralien ist das Frauenwahlrecht im
+Jahre 1893 nur mit einer Stimme verworfen worden. In
+Tasmanien wurde es vom Unterhaus wiederholt an-
+genommen; zuletzt am 22. September 1896. In Neu-
+Süd-Wales wurde es vom Unterhaus mit einer Majorität
+von fünfunddreissig Stimmen am 12. August 1897 an-
+genommen.
+Ist auch das Oberhaus in all diesen Colonien stets
+das Hinderniss, an dem die Durchführung der politischen
+Gleichberechtigung von Mann und Weib scheitert, so ist
+sie, wie das Beispiel von Neuseeland und Süd-Australien
+gezeigt hat, doch nur eine Festung, zu der zwar ver-
+schiedene wiederholte Anläufe nöthig sind, die alsdann
+aber um so sicherer genommen wird.
+So wie die australische Föderationsconvention sich
+nicht entschliessen konnte, das Frauenwahlrecht der
+künftigen Verfassung einzuverleiben, weil es in der
+Majorität der staatenbildenden Colonien noch nicht Fuss
+gefasst hatte, also war der Gang der Dinge in Nord-
+amerika. Dort traten dem Anstürmen der Frauenrecht-
+lerinnen, im Bundesstaat Sitz und Stimme zu erhalten,
+zwei wichtige Factoren entgegen. Die blosse authentische
+Interpretation des berühmten 14. Amendements, mit denen
+die Frauen operiren wollten, wurde vom obersten Bundes-
+gericht mittelst Entscheidung vom Jahre 1874 als un-
+richtig zurückgewiesen und an eine Verfassungsänderung,
+derzufolge weibliche Personen den männlichen gleich-
+gestellt werden sollten, wagte man sich nicht, da eine
+Die politische Gleichberechtigung der Frau.
+Verfassungsänderung – die letzte geschah nach dem
+Secessionskrieg – in Nordamerika nur unter den denk-
+bar grössten Schwierigkeiten möglich ist; die Agitation
+verlegte sich deshalb von selbst in die Einzelstaaten.
+Und sie wurde in denselben, wie bereits oben ge-
+zeigt, in rührigster Weise entfaltet. Sonderbarer Weise
+waren jedoch die ersten politischen Erfolge im ersten
+amerikanischen Staate, oder vielmehr damals noch Terri-
+torium, nicht dem directen Einfluss der frauenrecht-
+lerischen Bestrebungen zuzuschreiben. Es existiren
+mehrere Versionen über die Ursachen dieses weltgeschicht-
+lichen Ereignisses, das dem damals gänzlich unbekannten,
+eben erst der Wildniss abgerungenen Territorium Wyoming
+einen dauernden ehrenvollen Platz in der Geschichte zu-
+weist. Daran ändert auch die Thatsache nichts, dass
+die überwiegende Mehrzahl der Wyominger Gesetzgeber
+sich der weittragenden Bedeutung ihres Entschlusses an-
+scheinend durchaus nicht bewusst waren. Nach der
+Darstellung von Dr. Louis Frank *) war es einerseits
+nichts als Reklame-Interesse, das die ersten Gesetzgeber
+von Wyoming veranlasste, den Frauen die politische
+Mündigkeit zu gewähren, der Wunsch, durch die originelle
+Gesetzesneuerung die Blicke der Welt auf den verlorenen
+Erdenwinkel Wyoming hinzulenken, andererseits die Hoff-
+nung, dadurch mehr Frauen heranzuziehen, die damals
+dort noch in grosser Minderheit waren. Noch im Jahre
+1880 wurden auf hundert Männer nur 47 Frauen gezählt.
+*) Essai sur la Condition Politique de la Femme, Paris 1892.
+Eliza Ichenhaeuser.
+Bryce *) hingegen giebt einer anderen, vom späteren
+Wyominger Gouverneur Hoyt vertretenen Ansicht Raum.
+Derselbe berichtet: »Ein grossherziger Gesetzgeber von
+Wyoming ging und sprach mit anderen Mitgliedern der
+Legislatur. Sie lächelten. Aber er fand einen Juristen,
+der ihm half, einen kurzen Gesetzentwurf zu formuliren,
+den er einbrachte. Derselbe wurde in Erwägung gezogen
+und diskutirt. Die Leute lächelten alle. Man erwartete
+nicht, dass dergleichen angenommen werden würde, aber
+der Urheber des Gesetzentwurfes war schlau und er ver-
+legte sich auf folgendes Mittel, um die Majorität zu
+erreichen. Er wandte sich an die Demokraten und sagte:
+Wir haben einen republikanischen Gouverneur und eine
+demokratische Versammlung. Wenn wir uns zusammen-
+thäten, damit die Versammlung das Gesetz annähme
+und, wenn der Gouverneur sein Veto einlegte, so würden
+wir, Sie verstehen mich, uns eine gute Position verschafft
+haben; wir würden unseren Liberalismus bewiesen und
+doch nichts dabei verloren haben. Aber verrathen Sie
+nichts davon. Die Demokraten versprachen es. Er ging
+darauf zu den Republikanern und sagte ihnen, dass die
+Demokraten bereit seien, für seinen Vorschlag zu stimmen,
+und dass sie, wenn sie nicht ihren politischen Einfluss
+verlieren wollten, besser thäten, auch dafür zu stimmen;
+zwar glaube er auch dann nicht, dass das Gesetz durch-
+gehen werde, aber ihr Votum würde bemerkt werden
+und das Spiel der anderen Partei durchkreuzen. So
+*) The American Commonwealth, London and New-York 1891.
+Die politische Gleichberechtigung der Frau.
+liessen sich die Republikaner gleichfalls überreden. Als
+die Bill zur Abstimmung kam, wurde sie richtig an-
+genommen. Die Mitglieder sahen sich erstaunt an, denn
+sie hatten keineswegs beabsichtigt, das Gesetz wirklich
+durchzubringen. Dann lachte man und dachte, es wäre
+ein Streich, den man dem Gouverneur spielen wollte.
+Die Bill wurde ihm vorgelegt und er zögerte nicht, sie
+zu unterzeichnen. Sein Herz war gerecht.«
+Die auf diese Weise Gesetzeskraft erlangenden, auf
+das Frauenwahlrecht Bezug habenden Paragraphen der
+Constitution von Wyoming lauten wie folgt:
+Artikel VI.
+Wahlrecht.
+Abtheilung I. Das Recht der Bürger von Wyoming,
+zu wählen oder Staatsstellungen einzunehmen, soll ihnen
+nicht aus Geschlechtsrücksichten entzogen oder gekürzt
+werden. Sowohl die männlichen als auch die weiblichen
+Bürger dieses Staates sollen gleichmässig alle bürger-
+lichen, politischen und religiösen Rechte und Privilegien
+gemessen.
+Abtheilung II. Jeder Bürger in den Vereinigten
+Staaten im Alter von 21 Jahren und mehr, der im Staate
+oder Territorium ein Jahr wohnte und in seiner Graf-
+schaft sich sechzig Tage vor dem Tag der Wahl auf-
+gehalten hat, ist berechtigt zu wählen. . . . . .
+Abtheilung V. Niemand soll in seinem Staat als
+wahlberechtigt erscheinen, ohne Bürger der Vereinigten
+Staaten zu sein.
+Eliza Ichenhaeuser.
+Abtheilung VI. Geisteskranke, Schwachsinnige, oder
+durch Aberkennung bürgerlicher Rechte Bestrafte, sind
+von der Befähigung zum Wählen ausgeschlossen. . . . . .
+Abtheilung IX. Niemand hat das Recht zu wählen,
+der nicht fähig ist, die Constitution dieses Staates
+zu lesen.«
+Gleichviel welchen Umständen nun die Frauen Wyo-
+mings ihre politische Freiheit verdanken, der indirecte
+Einfluss, den die Frauenbewegung in den Vereinigten
+Staaten auf die Männer, denen dieselbe zu verdanken
+ist, ausübte, ist nicht zu verkennen; Thatsache ist, dass
+sie sie erhalten haben, und zwar in weitgehendster Weise,
+indem ihnen nicht allein das active, sondern auch das
+passive Wahlrecht ohne jede Einschränkung gewährt
+wurde.
+Für die Vertheidiger der Frauenrechte aber war es
+von höchstem Interesse, dass es endlich ein Fleckchen
+Erde gab, das sich bereit erklärte, die Probe auf das
+Exempel zu machen. Und sie gelang ausgezeichnet.
+Nach achtjähriger Erfahrung gab der General Thayer,
+früherer Senator der Vereinigten Staaten, Gouverneur
+von Wyoming, folgende Erklärung ab: »Das Frauen-
+wahlrecht ist seit acht Jahren auf unserem Territorium
+in Function und hat nicht verfehlt, sich in steigendem
+Maasse Vertrauen und Popularität zu sichern. Meiner
+Ansicht nach sind die Resultate sehr wohlthuend und
+sein Einfluss ist ein günstiger für die werthvollsten
+Interessen der Allgemeinheit.«
+Die politische Gleichberechtigung der Frau.
+Der bereits citirte Gouverneur John W. Hoyt schil-
+dert in seiner Botschaft vom 12. Januar 1882, fünf Jahre
+später, den Einfluss des Frauenrechts in Wyoming, als
+einen höchst dankenswerthen. »Unter dem Scepter dieser
+gleichberechtigenden Legislatur haben wir bessere Gesetze,
+bessere Magistrate, bessere Institutionen und das Niveau
+unseres socialen Lebens ist ein höheres als irgendwo
+anders. Keines der Uebel, die man uns prophezeite, als
+da sind Verlust der Weiblichkeit, Gefährdung des häus-
+lichen Friedens, sind eingetroffen. Die grosse Mehrzahl
+der Frauen, und die besten, haben das Wahlrecht als
+Wohlthat angenommen und üben es wie eine patriotische
+Pflicht aus.« In ähnlichem Sinne haben sich alle anderen
+Gouverneure Wyomings ausgesprochen und die Beobach-
+tungen von Reisenden bestätigten diese Bekundungen.
+Ein englischer Reisender und Publicist, Horace Plunkett *)
+constatirt, dass in Wyoming die Zahl der Analphabeten
+geringer ist als in irgend einem anderen Staate Nord-
+americas. 80 Procent aller Frauen machen von ihrem
+Wahlrecht Gebrauch. Das Familienleben habe absolut
+nicht darunter gelitten, ebensowenig die Verehrung, die
+alle Amerikaner den Frauen erweisen. Bei der Wahl der
+Candidaten sehen sie sehr auf die Moralität derselben.
+Das Frauenwahlrecht hat in Wyoming das Hazardspiel
+verboten und die Prostitution abgeschafft, ebenso hat es
+*) The working of woman suffrage in Wyoming »The Fortnigthly
+Review« Mai 1890.
+Eliza Ichenhaeuser.
+die Sonntagsruhe eingeführt und die Arbeitsbedingungen
+in den Minen verbessert, die Anwesenheit der Frauen
+an der Urne haben den Wahlen eine Ordnung und Ruhe
+verliehen, die in den Vereinigten Staaten bis dahin un-
+genannt waren. Alles zusammenfassend, sagt Plunkett:
+»Niemals ist einer socialen Reform so viel Misstrauen be-
+gegnet, als wie die Zulassung der Frauen zum Wahlrecht,
+und niemals hat eine sociale Reform – wenigstens in
+Wyoming – eine moralischere und glücklichere Wirkung
+ausgeübt als diese.«
+Als im Jahre 1889 die Unterhandlungen eingeleitet
+wurden, das Territorium Wyoming in einen Unionsstaat
+zu verwandeln, da wurde auch die Frage erörtert, ob
+das Frauenwahlrecht aufzugeben oder beizubehalten sei.
+Eines der Kammermitglieder erklärte: »Es sei besser ein
+bescheidenes Territorium mit dem Frauenwahlrecht zu
+bleiben, als ein Staat ohne Frauenwahlrecht zu werden.«
+Diese Erklärung ist um so charakteristischer für das Ver-
+trauen, das das Frauenwahlrecht sich errungen hat, als
+die Erhebung eines Territoriums zum Range eines Staates
+gleichbedeutend mit der Mündigsprechung desselben ist.
+Und dieser heissersehnten Mündigsprechung verlustig zu
+gehen, riskirte die grosse constituirende Versammlung,
+indem sie einstimmig sich für Beibehaltung des Gleich-
+berechtigungsprincips erklärte. Am 10. Juli 1890 ward
+Wyoming trotz seines oben citirten Paragraph VI in
+den Staatenbund der Nordamerikanischen Republik auf-
+genommen.
+Die politische Gleichberechtigung der Frau.
+Ein Jahr, nachdem Wyoming den ersten Schritt auf
+dem Wege der politischen Gleichberechtigung der Frauen
+gethan hatte, folgte ihm das benachbarte Territorium
+Utah. Hatten die Mormonen das Frauenwahlrecht durch-
+gesetzt, um die Vielweiberei zu erhalten, so gelang ihnen
+dies mit Hülfe der Mormonenweiber so gut, dass der
+Congress sich genöthigt sah, im Jahre 1882 sämmtlichen
+Polygamen und Bigamen und ihren Frauen das Wahl-
+recht zu entziehen, und als die Feststellung der Letzteren
+zu Schwierigkeiten Anlass gab, entzog im Jahr 1887 die
+sogenannte Edmundsbill, die gleichzeitig alle Güter und
+Kirchen der Mormonen mit Beschlag belegte, sämmtlichen
+Frauen Utahs das Wahlrecht.
+Die Bevölkerung von Utah, die nicht zu den Mor-
+monen gehörte, war jedoch mit dieser Verfügung durch-
+aus nicht einverstanden, ihr Gerechtigkeitsgefühl lehnte
+sich dagegen auf, alle Frauen die Missbräuche der Mor-
+monen entgelten zu lassen und als der Purificationsprocess
+sich in Utah vollzogen hatte, als die Vielweiberei endlich
+aufgehört hatte, und als das Territorium im Begriffe war,
+die Bevormundung des Bundescongresses abzuschütteln
+und sich in einen Staat zu verwandeln, da vergass das
+aufblühende Land seine Frauen nicht, sondern nahm das
+Frauenwahlrecht in die Verfassung auf. Die Constitution
+vom 8. Mai 1885 lautet in ihrem für uns massgebenden Theil:
+Artikel IV. Abtheilung I. Die Rechte der Bürger des
+Staates Utah, zu wählen oder eine Staatsstellung einzu-
+nehmen, dürfen ihnen wegen ihres Geschlechtes weder ver-
+Eliza Ichenhaeuser.
+neint noch verkürzt werden. Die männlichen und weib-
+lichen Bürger dieses Staates geniessen gleichmässig alle
+bürgerlichen und politischen Rechte und Privilegien.
+Artikel VI, Abtheilung V bestimmt, dass die passive
+Wahlfähigkeit für Senat und Repräsentantenhaus nur ab-
+hängig ist vom Vereinigten Staatsbürgerrecht, Alter von
+25 Jahren und activem Wahlbereehtigtsein.
+Wie in Wyoming haben die Frauen Utahs mithin
+das volle active und passive politische Stimmrecht. Ueber
+die kurzen Erfolge desselben schreibt mir der Gouverneur
+von Utah, H. Wells, in einem Brief von diesem Jahre:
+»Ich versichere Sie, dass das Gesetz sehr erfolgreich
+functionirt und dass die Frauen in unserem Staate jetzt
+ein mächtiger Factor sind. Ihr Einfluss bewegt sich in
+den richtigen Bahnen und sie stehen den besten Elementen
+der männlichen Bürger bei in Verhinderung corrupter
+Vorgänge bei den Wahlen und im Fernhalten schlechter
+Elemente von den Staatsämtern.«
+Aber der Congress, der den beiden Territorien
+Wyoming und Utah nicht das Recht bestritten hatte,
+das Frauenwahlrecht ihrer Constitution einzuverleiben,
+that es einem dritten Territorium Washington gegenüber,
+indem er daselbst die Akte, die am 22. November 1883
+den Frauen das Stimmrecht verliehen hatte, im Jahre 1886
+für null und nichtig erklärte, angeblich weil sie nicht der
+Vorschrift entspreche, wonach der Inhalt jedes Gesetzes
+in einer Ueberschrift über dem Texte angegeben sein
+müsse. Als die Gesetzgebung von Washington sich be-
+Die politische Gleichberechtigung der Frau.
+eilte ein neues Gesetz vorzulegen, das einen voll-
+ständigeren Titel trug, erklärte der Gerichtshof auch das
+neue Gesetz für null und nichtig, weil die Gesetzgebung
+des Territoriums kein Recht hatte, den Frauen das Wahl-
+recht zu verleihen.
+Dieses Vorgehen des Congresses wirkte so ein-
+schüchternd auf das Territorium, dass, als es im Novem-
+ber 1889 zum Rang eines Staates erhoben wurde, es
+nicht wagte, bei Einreichung seiner Verfassung an den
+Congress darin das Frauenstimmrecht aufzustellen.
+Einen um so grösseren Sieg brachte das Jahr 1893
+den Frauen. Das Silberland Colorado, ein zehnmal so
+dicht bevölkertes Land als Wyoming und doppelt so viel
+Einwohner als Utah zählend, erhob im November jenes
+Jahres das Frauenwahlrecht mit einer Majorität von
+7500 Stimmen zum Gesetz, nachdem es dasselbe im
+Jahre 1877 mit einer Mehrheit von 9000 Stimmen ver-
+worfen hatte. Ein vielsagender Umschwung!
+Die massgebende Abtheilung 1 des Gesetzes des
+neunten Congresses lautet: »Jede weibliche Person ist be-
+rechtigt, an allen Wahlen theilzunehmen in der Weise, wie
+die männlichen Personen ihr Wahlrecht ausüben dürfen,
+gemäss der Verfassung und den Gesetzen dieses Landes
+und gemäss der Qualification hinsichtlich Alter, Bürger-
+recht, Aufenthaltszeit innerhalb des Staats und aller anderen
+Qualificationen, die das Gesetz von den männlichen Per-
+sonen zur Ausübung des Wahlrechts verlangt.«
+Ichenhaeuser, Die politische Gleichberechtigung der Frau. 5
+Eliza Ichenhaeuser.
+Die Frauen griffen nunmehr energisch in die zer-
+fahrenen politischen Verhältnisse des Landes ein und
+wendeten sich hauptsächlich gegen die Corruption. Die
+von ihnen geschlagene Partei versuchte sich zu rächen,
+indem sie das Frauenwahlrecht als verderblich hinstellen
+wollte. Um diesen böswilligen Erfindungen ein Ende zu
+machen, wurde am 18. December 1896 nach dreijähriger
+practischer Bestätigung des Frauenwahlrechts folgende
+Erklärung verkündet:
+»Wir, Bürger des Staates des Colorado, wünschen
+als Freunde der Wahrheit und Gerechtigkeit unser Zeug-
+niss abzulegen über den Werth des Frauenwahlrechtes.
+Wir glauben, dass die grössten Güter, der Friede
+des Staates und der Nation, gewonnen haben durch die
+Ausübung des gleichberechtigten Wahlrechts. Die
+prophezeiten Uebel sind nicht eingetroffen. Die wohl-
+thuenden Erfolge hingegen, die man sich hiervon ver-
+sprach, sind eingetroffen oder in der Entwicklung be-
+griffen. Ein sehr grosser Procentsatz der Frauen von
+Colorado haben ihre Verantwortlichkeit als Bürger
+gewissenhaftest ausgeübt. 1894 gehörte mehr als die
+Hälfte der Stimmen bei den Wahlen für den Gouverneur
+Frauen an. 85–90 Procent sämmtlicher Frauen von
+Colorado stimmten damals. Die genaue Ziffer der letzten
+Wahlen konnte noch nicht festgestellt werden, aber die
+begründete Annahme geht dahin, dass die Verhältniss-
+zahl der wählenden Frauen ebenso gross war wie in
+früheren Jahren.
+Die politische Gleichberechtigung der Frau.
+Die Stimme guter Frauen wie die guter Männer
+kann sich nicht ganz frei machen von den schlimmen
+Resultaten, die der Missbrauch unseres gegenwärtigen
+politischen Systems mit sich bringt; aber die Stimmen
+der Frauen sind merklich gewissenhafter als die der
+Männer und werden sicherlich einen bedeutsamen Factor
+bilden in der Herbeiführung besserer Zustände.«
+Folgen die Unterschriften des gegenwärtigen Gou-
+verneurs, zweier Ex-Gouverneure, des zukünftigen Gou-
+verneurs, verschiedener Senatoren, Parlamentsmitglieder,
+Mitglieder des Obersten Gerichtshofs, des Apellations-
+gerichtshofs, Universitätsrectoren und Professoren und
+einer grossen Anzahl anderer officieller Persönlichkeiten.
+Mir selbst schrieb der Staatssecretär von Colorado,
+A. B. Mcgaffey: »Unter der gegenwärtigen Constitution
+haben Frauen in Colorado genau dieselben Bürgerrechte
+wie Männer, ohne den geringsten Unterschied. … Die
+Leute von Colorado sind vollständig befriedigt über das
+Experiment. Die Frauen dieses Staates wählen ebenso
+zahlreich wie die Männer und betheiligen sich an allen
+Wahlen und zwar sowohl an den Staats- und Grafschafts-
+als auch an den städtischen Wahlen. … Ein Argument,
+das stets gegen das Frauenwahlrecht gebraucht wurde,
+war dasjenige, dass es die Frau ihrer Würde und Weib-
+lichkeit berauben und dass es sie degradiren würde an
+der Politik und den Wahlen theilzunehmen. Diese Be-
+fürchtung hat sich in Colorado durchaus nicht bestätigt.
+Wenn eine Aenderung stattgefunden hat, so ist es die,
+5*
+Eliza Ichenhaeuser.
+dass der Standard der Conventionen, politischen Ver-
+sammlungen und Wahlen ein höherer geworden ist. …
+Wir können nicht bemerken, dass unsere Frauen irgend
+etwas eingebüsst haben an jenen characteristischen Eigen-
+schaften, die die Menschheit am meisten bewundert und
+es ist im Gegentheil über alle Zweifel erwiesen, dass die
+Frau ihre guten Eigenschaften behalten und gleichzeitig
+Bürgerpflichten ausüben kann. … Im Ganzen kann
+ich getrost und ohne einen Widerspruch von denjenigen,
+die Gelegenheit hatten, die Ausübung des Frauenwahl-
+rechts in unserem Staate zu beobachten, befürchten zu
+müssen, versichern, dass es ein zweifelloser Erfolg war
+und dass es einen noch zunehmenden wohlthuenden Ein-
+fluss ausüben wird, je vertrauter die Frauen mit den ihnen
+auferlegten neuen Pflichten werden.«
+Der vierte Staat der Union, der die Gleich-
+berechtigung der Frau proclamirte, war Idaho. Am
+11. Januar 1895 nahm der Senat, am 17. das Reprä-
+sentantenhaus und am 21. der Gouverneur folgendes
+Verfassungs-Amendement an: Abtheilung I. Die Ab-
+theilung II der Constitution von Idaho sei wie folgt ab-
+geändert: Jeder männliche und weibliche Bürger der
+Vereinigten Staaten im Alter von 21 Jahren, der sich
+im Staat oder Territorium sechs Monate und im Wahl-
+district dreissig Tage vor Beginn der Wahl aufgehalten
+hat und gesetzmässig in den Wahllisten figurirt, sei zum
+activen Wahlrecht berechtigt.« Dieses Amendement ist
+vom Volk von Idaho angenommen worden.
+Die politische Gleichberechtigung der Frau.
+Es ist wohl kaum einem Zufalle zuzuschreiben, dass
+es vier Nachbarstaaten sind, die den Frauen die von ihnen
+begehrten politischen Rechte gewährt haben, sondern es
+spricht dafür, dass gerade das nahe und gute Beispiel
+mit dazu beigetragen hat, alle Vorurtheile zu entkräften
+und ad absurdum zu führen.
+In den älteren Staaten ward der Kampf ein härterer,
+hier stellte sich ähnlich wie in Europa die historische
+Tradition hindernd in den Weg und nur stückweise
+liessen und lassen sie sich ein Recht nach dem anderen
+von den Frauen abringen. Aber die Kämpferinnen für
+Gleichheit und Gerechtigkeit liessen sich davon nicht ab-
+schrecken, sie agitirten, petitionirten, protestirten und
+bombardirten sämmtliche Senate und Repräsentanten-
+häuser der Unionsstaaten und wenn ihnen die Bedingungen
+für eine Verfassungsänderung noch nicht reif genug
+schienen, so begannen sie mit der Forderung geringerer
+Rechte, die die Stellung der Frau verbesserten und
+gleichzeitig den Weg bahnten zur Gewährung der
+Hauptforderung. So verlangten und erhielten sie in
+einigen zwanzig Staaten das Schulwahlrecht, das Recht,
+als Schulräthinnen und Schulcuratorinnen ernannt zu
+werden, gleiche Eigenthumsrechte für Mann und Frau,
+das Vormundschaftsrecht, gleiche elterliche Gewalt für
+Vater und Mutter, das Recht als Fabrikinspectorinnen,
+Hospital-Irrenärztinnen, gerichtliche Verwalterinnen und
+Polizeimatronen ernannt zu werden, die Hinaufsetzung
+des Schutzalters für Mädchen u. a. m.
+Eliza Ichenhaeuser.
+Was diese Errungenschaften im Laufe weniger
+Decennien bedeuten, welch eine Revolution sie in der
+Frauenwelt und in den Ansichten über die Frau hervor-
+gerufen haben, welch immensen Fortschritt sie darstellen,
+das wird Einem erst so recht klar, wenn man die
+Pionierinnen dieser Bewegung über die Anfänge derselben
+hört. Ein wahrhaft rührendes Bild bot die Versammlung
+derselben am vierzigjährigen Jahrestag des ersten Frauen-
+congresses, am International Council of Women, der vom
+25. März bis zum 9. April 1888 in Washington tagte.
+Vierzig Jahre lang hatten diese Vorkämpferinnen treu
+zusammen gearbeitet, die edlen Männer, die den Frauen
+am schwierigen Anfang beigestanden hatten, hatten ebenso
+treu ausgehalten wie die Frauen und wo der Tod eine
+Lücke eingerissen hatte, da wurde sie von der unbe-
+grenzten Dankbarkeit und Liebe, die den Dahin-
+geschiedenen gewidmet wurde, verklärt. Die Ueber-
+lebenden aber zogen Vergleiche zwischen einst und jetzt,
+zwischen dem ersten Frauencongress und diesem, die das
+Herz aller Anwesenden höher schlagen machten.
+Mrs. Elisabeth Cady Stanton, eine der verdientesten
+Frauen, die den ersten Anstoss zum ersten Congress
+gegeben und ihn einberufen hatte, ergriff zuerst das Wort.
+Nachdem sie das Zustandekommen und den Verlauf des
+ersten Congresses geschildert, kam sie zu den Resultaten
+desselben. »Ich versichere Sie, meine Freunde,« sagte
+sie, »ich war entzückt vom Verlaufe. Ich hatte die
+Constitution und die Unabhängigkeitserklärung gelesen
+Die politische Gleichberechtigung der Frau.
+und den Genius unserer Regierung verstanden, ich hatte
+die Meinungen grosser Männer gelesen und ich fand, dass
+sie alle zu Gunsten des Frauenwahlrechts gesinnt sind.
+Nun, sagte ich, wird die Welt unser Argument sofort
+acceptiren. Es ist gerecht, und Jedermann muss das
+sofort einsehen. Denken sie sich nun mein Erstaunen
+nach der Freude, die ich über den Erfolg hatte, denn
+wir hatten ein volles Haus, Lucretia Mott und ihre
+Schwester Martha C. Wright und andere hatten wunder-
+volle Reden gehalten und wir hatten einen brillanten
+Vorsitzenden, James Mott, den Gatten von Lucretia
+Mott, einen stattlichen distinguirten Mann. Da erhielten
+wir nach einigen Tagen die Zeitungen. Ich glaube, jede
+einzelne Zeitung vom Staate Maine bis Louisiana ver-
+öffentlichte unsere Erklärung mit Commentaren und zogen
+die ganze Sache in's Lächerliche. Ich war paff. Es war
+mir nicht eingefallen, dass irgend etwas an der Sache
+lächerlich gemacht werden könne. Mein guter Vater,
+der damals am Obersten Gerichtshof in New-York war,
+nahm, als er davon hörte, den Nachtzug nach Seneca
+Falls, um zu sehen, ob ich verrückt geworden wäre.
+Wenn ich nicht eine besonders gute Constitution und ein
+glückliches Temperament gehabt hätte, ich glaube, ich
+wäre in ein Irrenhaus gesteckt worden. Von allen Seiten
+hörte ich nichts als »lächerlich«. Viele Frauen, die im
+ersten Enthusiasmus ihren Namen unter die Erklärung
+gesetzt hatten, zogen sie nach wenigen Tagen zurück.
+Die Männer waren consternirt über ihre Mütter, Schwestern
+Eliza Ichenhaeuser.
+und Frauen. Die Demüthigung, die ich fühlte, war un-
+beschreiblich.« Die muthige Kämpferin erzählt dann,
+wie sie trotzdem weiter arbeitete, wie sie in der tapferen,
+bereits erwähnten Susan B. Anthony, dem Napoleon der
+amerikanischen Frauenbewegung, wie sie genannt wird,
+eine Mitstreiterin fand, wie sie ihre Köpfe zusammen-
+steckten zu einem Schlachtenplan, wie sie in jedem Jahre
+Petitionen aussandten und zwar in folgender Weise:
+Elisabeth Cady Stanton verfasste alle Petitionen, Reden
+und Resolutionen, und da sie als Mutter von vier Kindern
+ihr Heim nicht immer verlassen mochte, so musste Susan
+B. Anthony sie übermitteln, vortragen u. s. w.
+»Martha C. Wright, Mrs. Seward, Susan B. Anthony
+und ich«, erzählt Mrs. Stanton weiter, »wir consultirten
+oft, wie wir die Agitation aufrecht erhalten könnten.
+Wir quälten und bestürmten unsere Gesetzgeber mit der
+»Woman's Property Bill« in New-York, dem ersten
+Staat, der diese Bill annahm, dem ersten Staat der Welt,
+der den verheiratheten Frauen Eigenthumsrechte gab.
+Bis dahin waren wir unter dem alten englischen Ge-
+meinen Recht, unter dem die Frauen thatsächlich Skla-
+vinnen waren, ohne irgend welche Rechte, die die weissen
+Männer zu respectiren gezwungen gewesen wären. Jahr
+auf Jahr wurden uns neue bürgerliche Rechte gewährt.
+Dann machten wir eine Attaque auf die Schulen und
+Universitäten, trotzdem es eine Zeit gab, in der man in
+keiner Unterrichtsfrage und Versammlung eine Frauen-
+stimme hören wollte, trotzdem sechs- bis siebenhundert
+Die politische Gleichberechtigung der Frau.
+wie die Mauerblümchen ringsherum sassen. … …
+Lächerlich machen war die Hauptwaffe der Presse. Wir
+wurden in allen Blättern so caricirt, bis die Mehrzahl
+der Leute wirklich glaubte, Frauen, die als Rednerinnen
+auftreten, hätten Hörner und Klauen. Und heute! Wie
+hat sich das Bild seither verändert! Trotzdem unsere
+erste Versammlung in einer kleinen Methodistenkirche
+stattfand und viele von den folgenden im Freien, in
+Scheunen, in Hotelzimmern, haben wir heute nach vierzig
+Jahren das schönste Gebäude der Capitale, eine gross-
+artige Zuhörerschaft und die schmeichelhaftesten Notizen
+Seitens der Presse von einem Ende der Welt bis zum
+anderen. Das ist eine grosse Ermuthigung für die an-
+wesenden Frauen und ich möchte eine kleine Lehre daran
+knüpfen. Sobald man eine grosse Wahrheit erkennt,
+spreche man sie aus, wenn sie auch im Anfang lächerlich
+gemacht wird, wenn sie der Zeit widersteht, wenn die
+Jahre schwinden, wird sie doch anerkannt.«
+Und seit dieser Rede ist wieder ein Decenium un-
+gefähr in's Land gezogen und wieder haben die Frauen
+in den Vereinigten Staaten enorme Fortschritte zu ver-
+zeichnen, drei Staaten haben seither, wie oben gezeigt,
+den Frauen die absolute Gleichberechtigung gewährt,
+andere begnügten sich mit einer relativen, aber sie alle,
+alle werden die relative in eine absolute umwandeln.
+In den meisten wird die Forderung alljährlich wiederholt,
+in vielen, und zwar in den aristokratischsten, wie in
+Massachusetts, Rhode-Island, wurde sie bereits vom Senat
+Eliza Ichenhaeuser.
+angenommen und nur von der bei Verfassungsänderungen
+nothwendigen Volksabstimmung verworfen, ein gleiches
+Schicksal hatten auch die jüngeren Staaten Michigan,
+Ohio, Nebraska, Oregon, Indiana, Wisconsin. Es ist
+zweifellos, dass in einem so demokratischen Lande, wie
+die Union es ist, das demokratische Gleichberechtigungs-
+princip immer tiefer in's Volk dringen muss, und dies
+im Verein mit den ausgezeichneten Erfahrungen, die das
+Frauenwahlrecht überall da gezeitigt hat, wo es gewährt
+wurde, wird nicht verfehlen, in absehbarer Zeit die
+ganze Union im Gleichheitslicht erstrahlen zu lassen.
+Ist es zu einer wissenschaftlichen Doctrin geworden,
+dass man an der Stellung, die die Frauen in einem Lande
+einnehmen, den Grad der Cultur desselben messen kann,
+so führt dieselbe bei einem Vergleich zwischen den Ver-
+einigten Staaten von Nordamerika und Deutschland zu
+einem vernichtenden Urtheil über das Letztere. Dort die
+absoluteste Gleichberechtigung im Staat, in der Bildung,
+im Erwerbsleben, eine dominirende Stellung im socialen
+Leben, eine dankbarst angenommene Theilnahme am
+communalen und Staatsleben, hier nach Jahrzehnte langem
+Ringen minimalste Rechtszugeständnisse, Ausschliessung
+jeder höheren Bildung, widerwillig ertheilte Zulassung zu
+den niedrigen und schlecht bezahlten Erwerbsarten, abso-
+lute Ausschliessung von allen staatlichen und städtischen
+Aemtern, von allen academischen Berufsarten: im socialen
+Leben wird den deutschen Frauen die Ueberzeugung ihrer
+geistigen Inferiorität auf Schritt und Tritt gezeigt, und
+Die politische Gleichberechtigung der Frau.
+trotzdem das »Ewig-Weibliche«, die Angst der Gefährdung
+desselben als Schild gegen jedes höhere Streben der
+Frau stetig benutzt wird, beweist man ihm sonst nicht
+all zu viel Hochachtung und Verehrung; ihre Theil-
+nahme am Wohlergehen der Commune wird stets zurück-
+gewiesen und zwar selbst in der ureigensten Domäne
+der Frau, der Wohlthätigkeit, der Armenpflege, wie Be-
+ispiele aus der allerjüngsten Zeit beweisen. Und nun erst
+am Staatsleben, an der Politik! Eine helle Lache schlägt
+Demjenigen, der eine solche Möglichkeit voraussetzt, ent-
+gegen. Die abgedroschensten, tausendmal widerlegten
+Einwendungen scheut man sich nicht, einem solchen An-
+sinnen entgegenzusetzen. Die Möglichkeit der Theil-
+nahme der Frauen am Staatsleben wirkt auf Deutsche
+wie ein rothes Tuch auf einen Stier. Bürgerrechte und
+Unweiblichkeit schweben ihnen als identische Ungeheuer-
+lichkeiten vor. Ob sich das Gros der also Urtheilenden
+bewusst ist, was die Forderung derselben eigentlich be-
+deutet? Was ist denn eigentlich das Object dieses so
+streng verpönten Wahlrechts? Es ist die Erzwingung
+des constitutionellen Systems und des Parlamen-
+tarismus. Es ist die lebendige und innige Antheilnahme
+der ganzen Nation an dem staatlichen Leben mit directer
+Beeinflussung desselben durch den Vertretungskörper,
+Kammer, mit dem Grundgedanken, dass seitens des
+Monarchen oder Regierung keine gesetzgeberische Hand-
+lung vorgenommen werden darf, ohne des Volkes Zu-
+stimmung und keine executive Massregel, ohne dass die
+geldlichen Mittel bewilligt sind.
+Eliza Ichenhaeuser.
+Der Ausbau dieses primären Objects des Wahlrechts
+ist der Parlamentarismus, das Princip, das diejenigen
+politischen Parteien der Volksvertretung, die in der je-
+weiligen Session die Mehrheit besitzen, gewohnheitsmässig
+die Besetzung der Executive mit Männern ihres Ver-
+trauens verlangen und dass die oberste Regierungsgewalt
+(Monarch oder Präsident) diesem Ansinnen einen directen
+Widerstand nicht entgegensetzt. Das System des Parlamen-
+tarismus hat den grossen Vortheil, dass Conflicte zwischen
+dem Monarchen oder dem Präsidenten und der Kammer
+unmöglich sind.
+Diese Conflicte, soweit sie politischer Natur sind,
+denn die blossen Interpretationsconflicte könnten und
+werden auch von den in vielen Staaten bestehenden
+Staatsgerichtshöfen gelöst, wie gesagt, diese Conflicte
+zwischen Regierungsgewalt und Volksvertretung können
+sich, wie die Erfahrung lehrt, bis zum völligen Danieder-
+liegen der Staatsmaschine zuspitzen und deshalb ist der
+Parlamentarismus die Harmonie zwischen Kammermehrheit
+und Regierungsgewalt, der fortgeschrittene Ausbau des
+Objects des Wahlrechts, da er aber weder in den
+deutschen Einzelstaaten, noch im Deutschen Reiche de
+jure oder de facto eingeführt ist, beschränken wir uns
+auf die Aufzählung der Rechte der Volksvertretung im
+einfachen constitutionellen System.
+Primäres Recht der Volksvertreter ist das der Gesetz-
+gebung. Kein Einzelstaatsgesetz ist gültig ohne Zu-
+stimmung des respectiven einzelstaatlichen Landtages,
+Die politische Gleichberechtigung der Frau.
+kein Reichsgesetz kann ohne den Mehrheitsbeschluss des
+Reichstages erlassen werden. Das ist der Kernpunkt des
+Wahlrechts, denn, haben die Vertreter, die im Sinne des
+allgemeinen Stimmrechts den Volkswillen zum Ausdruck
+bringen (während freilich die Wahlsysteme mit Census
+die Stimmen compacter Massen unterdrücken), eine Re-
+gierungsvorlage verworfen, so haben sie sich im Gegen-
+satz zur stumpfen, ohnmächtigen Unterwerfung früherer
+Jahrhunderte die Freiheit bewahrt, oder sie haben Ge-
+setzen, die aus eigener oder fremder Initiative hervor-
+gegangen sind, ihre allein ausschlaggebende Zustimmung
+ertheilt, so haben sie den Willen der Volksmehrheit
+bethätigt und sein Schicksal schafft sich ein Volk selbst.
+Neben diesem Cardinalpunkt der Thätigkeit der
+Volksvertretung betheiligt sie sich ferner bei der Aus-
+übung zahlreicher Verwaltungshandlungen. Hierzu ge-
+hören die Feststellung des Haushalts, die Genehmigung
+zum Verkauf von Staatsgut, die Aufnahme von Geld-
+anleihen, Uebernahme von Garantien, Subventionen, Ge-
+nehmigung von Staatsverträgen und unter gewissen
+Verhältnissen völkerrechtlichen Verträgen. Die Volks-
+vertretung hat das Recht der Controlle über die Ver-
+waltung, dann das Adressen-, Interpellations-, Beschwerde-
+und Petitionsrecht und schliesslich steht speciell dem
+Reichstag das Recht zu, innerhalb der Competenz des
+Reiches Gesetze vorzuschlagen und an ihn gerichtete
+Petitionen dem Bundesrath, sesp. dem Reichskanzler zu
+überweisen.
+Eliza Ichenhaeuser.
+Ist von all diesen, eben aufgezählten Rechten ein
+Einziges, das die Frau nicht ebensogut braucht wie der
+Mann? Giebt es irgend ein Einzelstaats- oder Reichs-
+gesetz, das die Frau nicht entweder als Frau, oder als
+Mutter, als Gattin, als Schwester, als Tochter oder als
+Berufsperson angeht? Ist sie nicht an dem Interesse für
+die Verwaltung des Landes genau so betheiligt wie der
+Mann? Wird sie nicht zu den Staats- und Stadtsteuern
+genau so herangezogen wie er? Leidet sie nicht unter
+schlechten staats- und volkswirthschaftlichen Verträgen
+in eben demselben Maasse wie er? Muss sie sich nicht
+allen Gesetzen genau so unterwerfen wie er? Ja, trägt
+sie nicht bei gleichen Vergehen, sogar oftmals stärkere
+Lasten als der Mann? Es giebt kein Recht, das der
+Mann als Bürger hat, das nicht auch die Frau braucht
+und sie braucht es nothwendig, damit auch ihr Stand-
+punkt, damit auch ihr Interesse seinen Ausdruck findet.
+Helene Lange sagt *) sehr richtig: »Als man das allgemeine
+Stimmrecht einführte, erkannte man damit formell an:
+jeder Stand kann nur allein seine eigenen Interessen ver-
+treten; sollen daher bei der Volksvertretung die Interessen
+aller zur Geltung kommen, so müssen auch alle Stände
+und Berufsklassen zur Vertretung gelangen können. Das
+ganze Parlament wird dann mit derselben Sicherheit wie
+beim Parallelogramm der Kräfte in seinen Beschlüssen die
+Auffassung der stärksten, d. h. durch die zahlreichsten
+Vertreter zur Geltung gekommenen Parteien, d. h. den
+*) »Frauenwahlrecht« von Helene Lange, Berlin.
+Die politische Gleichberechtigung der Frau.
+Willen des Volkes darstellen. Dabei ist vieles fictiv, da
+die Wahlen unter dem Hochdruck der Regierung, der
+Kirche oder anderer Machthaber stehen; das Schema
+aber ist richtig gedacht. Bis auf eine Kleinigkeit. Ob-
+wohl niemand an den oben ausgeführten Wahrheiten
+ernstlich zweifelt, ist eine Fiction doch immer aufrecht
+erhalten worden, die nämlich, dass die Männer zugleich
+die Interessen der Frauen wahren. Musste man auch zu-
+geben, dass die Gesetzgebung in ihren Resultaten die
+Ansicht der stärksten parlamentarischen Parteien repräsen-
+tirte, so verschloss man sich der höchst einfachen Wahr-
+heit, dass alle Gesetzgebungen in ihren Gesammtresultaten
+die Auffassung der Männer repräsentiren und nach dem
+oben erörterten Grundsatz nie die wirklichen Interessen
+der Frauen berücksichtigen, sondern nur auf Nutzen und
+Frommen der Männer berechnet sein konnten.«
+Erscheint dieses Urtheil auch hart, so ist es leider
+doch all zu gerecht und entspricht durchaus den That-
+sachen. Man sehe sich unsere heutige Gesetzgebung an,
+man sehe sich unsere socialen Zustände an, alles ist auf
+den Mann zugeschnitten. Und es berührt förmlich pein-
+lich, beschämend für die deutsche Nation, wenn deutsche
+Männer, Academiker, die Frauenfrage in Deutschland zu
+ihrem Studium machen und statt wie ihre französischen
+und englischen Collegen sich auch wirklich in dasselbe
+weit genug zu vertiefen, um ein objectives Urtheil zu
+gewinnen, mit vorgefasster Meinung an die Arbeit gehen
+und die unmöglichsten logischen Sprünge machen, um
+Eliza Ichenhaeuser.
+ihre kurzsichtige Voreingenommenheit auch ihren Lesern
+beizubringen. Ein Muster dieser Art liefert Dr. Julius
+Duboc. *) Er greift die politische Gleichberechtigungs-
+forderung erst vorsichtig an, indem er die Gleichwerthig-
+keit der Geschlechter annimmt. Er meint Wunder welch
+treffendes Beispiel er ausspricht, indem er die Gesammt-
+summe der Männer und Frauen mit zwei Kaufleuten
+vergleicht, wovon Socius A. den Aussendienst, Socius B.
+den Innendienst verrichtet, Beide sich vortrefflich ergänzen
+und keiner es wagen würde, auf das Gebiet des Andern
+hinüberzugreifen. Seine Nutzanwendung ist zu platt, um
+sie hier zu wiederholen. Die Antwort aber so einfach,
+dass wir sie uns nicht schenken können. Socius A. hat
+den Aussendienst, Socius B. den Innendienst übernommen,
+kraft freier Vereinbarung und weil die Erfahrung jed-
+weden auf seinen richtigen Platz stellte. Der Frauen-
+antheil ist ihnen aber zwangsweise angewiesen und ihre
+Befähigung im Aussendienst ist noch nie erprobt worden.
+Die Hauptsache aber ist, dass A. und B. in der Harmonie
+ihres Geschäfts durchweg solidarische Interessen haben,
+während doch die historische Gestaltung der Dinge es
+mit sich gebracht hat, dass beim männlichen und weib-
+lichen Geschlecht Interessenconflicte unvermeidlich sind.
+Indem Duboc sich weiter den Anschein giebt, als
+ob er die Tauglichkeit der Frau für das politische Hand-
+werk prüft, besteht seine ganze Untersuchung darin, dass
+er einige Behauptungen über die Nervosität der Frauen
+*) »Fünfzig Jahre Frauenfrage in Deutschland.« Leipzig 1896.
+Die politische Gleichberechtigung der Frau.
+aufstellt, über ihre Geneigtheit sich von Gefühlseindrücken
+bestimmen zu lassen und das Persönliche zum Nachtheil
+des Sachlichen zu berücksichtigen, ihre Vorliebe, die
+Ganzheiten in Einzelheiten zu zerlegen, und ihre Unfähig-
+keit, dem grossen zu opfern und nie den Blick für das
+Ganze zu verlieren. Behauptungen dieser Art beweisen
+nichts. Wenn Duboc die Frauen auf ihre politische
+Tauglichkeit hätte prüfen wollen, dann hätte er solche
+Frauen als Beispiel anführen müssen, die in der Lage
+waren, sie auszuüben und sich nicht begnügen dürfen mit
+Hypothesen, denn die obige Behauptung ist nichts weiter
+als eine hypothetische Behauptung. Dr. Duboc hat sich
+einige nervöse Hausfrauen seiner Bekanntschaft angesehen,
+er hat sie vielleicht beim Wäscheauszählen getroffen, hat
+sie mit ihren Dienstboten herumzanken hören (Hausfrauen
+müssen sich in ihrer überschüssigen Zeit doch auch die-
+selbe vertreiben, wenn man sie zu nichts Ernsterem zu-
+lässt), und flugs formulirte er sein Argument, die Frauen
+sind nicht tauglich für Politik, denn u. s. w. u. s. w.
+(siehe oben). Man wird mir vielleicht entgegnen, Bei-
+spiele von Frauen, die das Recht Politik auszuüben be-
+sassen oder besitzen, existiren nicht. Das ist ein Irr-
+thum, in welchen auch der Verfasser von »Fünfzig Jahre
+Frauenfrage« befangen zu sein scheint. Eine ganze Reihe
+von Frauen haben nicht allein politische Rechte gehabt,
+sondern haben Politik gemacht und haben sie glänzend
+gemacht. »Wäre es möglich, ohne psychologische Unter-
+suchung, nur durch Schlüsse, die aus der Erfahrung ge-
+zogen sind, über etwas abzuurtheilen, wir könnten zu
+Ichenhaeuser, Die politische Gleichberechtigung der Frau. 6
+Eliza Ichenhaeuser.
+dem Satz kommen: diejenigen Dinge, welche man den
+Frauen nicht zu thun erlaubt, sind gerade die, zu welchen
+sie die meiste Befähigung besitzen; so ist ohne Zweifel
+ihr Beruf für die Regierungskunst bei den wenigen Ge-
+legenheiten, die ihnen zur Ausübung derselben geboten
+waren, glänzend zu Tage getreten. … Wir wissen,
+welche kleine Zahl regierender Königinnen die Geschichte
+im Vergleich zu den Königen aufzuweisen hat. Von
+dieser kleinen Zahl hat nun aber verhältnissmässig ein
+weit grösserer Theil Talent für die Regierung gezeigt,
+obschon viele davon den Thron zu sehr verschiedenen
+Zeitpunkten, also unter ganz verschiedenen Bedingungen
+eingenommen haben. Merkwürdig ist ausserdem, dass
+die gekrönten Frauen sich, wie sich an vielen Beispielen
+erweisen lässt, häufig durch Vorzüge ausgezeichnet haben,
+die der herkömmlichen Vorstellung vom weiblichen
+Character schnurstracks entgegen sind, nämlich Willens-
+kraft, Festigkeit und hohe Einsicht.« *) Diese auf geschicht-
+licher Basis beruhenden Feststellungen John Stuart Mills
+schlagen die hypothetischen Behauptungen Dubocs voll-
+ständig und Herr D. wird mir doch zugeben, dass zum
+regieren selbst beim Parlamentarismus immer noch etwas
+mehr gehört als einfach seine Stimme an der Wahlurne
+abzugeben. Dass alle vortrefflichen Königinnen, Kaiser-
+innen, Statthalterinnen und Regentinnen Ausnahmenaturen
+waren, ist absolut ausgeschlossen, da sie nicht kraft ihrer
+Persönlichkeit, sondern kraft ihrer Geburt zur Regierung
+gelangten. »Hätten aber Königin Elisabeth oder Königin
+*) »Die Hörigkeit der Frau«, S. a. a. O.
+Die politische Gleichberechtigung der Frau.
+Victoria nicht den Thron geerbt, so würde man ihnen
+auch nicht das kleinste Theilchen einer politischen Wirk-
+samkeit anvertraut haben, in welcher sich doch die erstere
+den bedeutendsten Staatslenkern ebenbürtig gezeigt hat.«
+Und auch an Frauen der Gegenwart, die politische
+Rechte ausüben, hätte Duboc Beispiele gehabt und zwar
+an den Frauen Wyomings, Utahs, Colorados, Idahos, Neu-
+seelands, Südaustraliens und Mans. Aber davon scheint
+Dr. D. nichts bekannt zu sein. Bei Besprechung der
+ausserdeutschen Verhältnisse der Gegenwart citirt er
+als französischen Gewährsmann nur Agenor von Gas-
+parin, der die Schreckensweiber der Revolution, be-
+kanntlich der Abschaum der Menschheit, als Beweis
+dafür erbringt, dass die Frauen kriegerischer als die Männer
+sind, während in der That die Propagirung des Friedens-
+gedankens in unserem Jahrhundert hauptsächlich dem
+Einfluss der Frau zuzuschreiben ist und in Bezug
+auf die Vereinigten Staaten weiss er nur von einem
+Protest einiger New-Yorkerinnen gegen das Frauen-
+wahlrecht zu berichten und dass auch die Frauen Massa-
+chusetts demselben nicht günstig zu sein scheinen, weil
+von 400 000 weiblichen Stimmgebern sich nur 17 000 an
+der Wahlurne eingefunden hatten. Weibliche Proteste
+gegen das Stimmrecht hat es mehr als einen in Amerika
+gegeben, aber die Zahl der Protestlerinnen war stets ver-
+schwindend klein gegen die der Anhängerinnen des
+Wahlrechts. Die weibliche Stimmenabgabe in Massa-
+chusetts jedoch beruht auf einer Mystification des Ver-
+fassers, weder haben die Frauen in Massachusetts das
+6*
+Eliza Ichenhaeuser.
+Wahlrecht, noch haben sie es je gehabt. Die anderen
+vier amerikanischen Staaten jedoch, von denen Herr D.
+anscheinend nichts weiss, wie auch die australischen,
+haben, wie ich bereits bei Behandlung derselben gezeigt
+habe, alle Befürchtungen Dubocs glänzend widerlegt,
+weder haben sie sich von kirchlichen, noch von persön-
+lichen Motiven, noch von der Leidenschaft leiten lassen,
+sondern einzig und allein von ihrer ehrlichen Ueberzeu-
+gung, die hauptsächlich moralische und anständige Ge-
+sinnung bei den Candidaten wünschte, weder haben in
+Folge dessen Familienzwiste stattgefunden – gefährden
+denn die Meinungsunterschiede von Mann und Frau über
+ihre Lieblingsdichter, Künstler u. s. w. bei uns den Ehe-
+frieden? – noch hat die Häuslichkeit darunter gelitten,
+sondern die Resultate waren überall, wie ich bereits
+durch die Erklärungen und Mittheilungen competentester
+Augenzeugen gezeigt habe, vorzügliche und beweisen aufs
+Schlagendste, wie alle gegentheiligen Behauptungen, die
+sich nicht auf Erfahrung begründen, nur Hypothesen sind.
+Wenn Duboc daher von einigen deutschen Pastoren
+in Südaustralien berichtet, dass sie an die weiblichen Mit-
+glieder ihrer Gemeinden ein Rundschreiben gerichtet haben,
+in welchem sie dieselben auffordern, von ihrem Stimm-
+recht Gebrauch zu machen, um dieses »unnütze Gesetz
+aufzuheben«, so giebt das nicht die allgemeine Meinung
+Südaustraliens, sondern nur die des deutschen Philisters
+wieder, der sich nirgends verleugnet. So ganz kann ihn
+auch derjenige deutsche Akademiker, der die deutsche
+Frauenbewegung in letzter Zeit am ausführlichsten be-
+Die politische Gleichberechtigung der Frau.
+handelt hat, trotzdem dem Erstgenannten unendlich über-
+legen, nicht verleugnen. Professor Gustav Cohn *) hat
+sich in den Geist der deutschen Frauenbewegung viel
+mehr versenkt als Duboc, er hat begriffen, dass die Frauen-
+bewegung einen Culturfortschritt bedeutet »in seinem Zu-
+sammenhange mit der internationalen Gemeinschaft der
+Gegenwart, in seiner Begründung für die Verbesserung
+des Lebens. An solchem Massstabe gemessen ist es auch
+nicht die einzelne Seite des Neuen, obgleich an sich
+wichtig und kennzeichnend für das Ganze, keine blinde
+Vorliebe etwa für die Förderung des Frauenstudiums,
+keine Vorliebe, welche die unvermeidlichen Schwierig-
+keiten und Schattenseiten der Einbürgerung des Neuen
+verkennt – es ist der Geist eines neuen Zeitalters, der
+zu Worte gelangt, es ist die Ueberzeugung, dass es un-
+möglich ist, diesem Geiste die Pforten zu verschliessen.
+Das Culturgesetz, dass man nicht zurückbleiben darf,
+wo die ganze Welt vorwärts geht, gilt nicht bloss für
+Panzerschiffe und Schiessgewehre, nicht bloss für Eisen-
+bahnen und Telephone, es gilt auch für das geistige Leben
+und die Entwickelung der geistigen Gaben. Wie immer
+so sind es namentlich in diesem Falle blendende Vor-
+urtheile, welche dem Neuen in den Weg treten, be-
+stechende Schlagworte, welche sich mit sittlicher Ent-
+rüstung waffnen, wo sie eigentlich in sittlicher Beschämung
+verstummen sollen.«
+Trotz dieser Erkenntniss bleibt Professor Cohn auf
+halbem Wege stehen und zwar vor dem Wahlrecht. Er
+*) »Die Deutsche Frauenbewegung.« Berlin 1896.
+Eliza Ichenhaeuser.
+ist klug genug und hat in die Bewegung tief genug hin-
+eingeblickt, um zu wissen, dass die Entziehung desselben
+auf die Dauer nicht möglich ist, also verlangt er sie nur
+für die Gegenwart noch. Seine Gründe erscheinen mir
+nicht logisch. Weil England in politischer Hinsicht stets
+unser Vorbild war, weil es uns auch heute darin über-
+legen ist, kann es diesen Schritt versuchen. »Wir hegen
+als Zuschauer das Vertrauen, dass sie die Staatsweisheit
+in den inneren Reformen, die sie bisher ausgezeichnet,
+auch dabei beweisen werden. Aber alles das, was
+sie uns hier zeigen, lehrt uns gerade, wenn wir nicht
+mechanisch, sondern mit historischem Verständniss ihr Bei-
+spiel befolgen wollen, uns vor ferneren kühnen Sprüngen
+in der Entwickelung unserer Wahlrechte zu hüten.«
+Wenn England stets in politischer Hinsicht ein gutes
+Vorbild war, das man getrost befolgen durfte, dann ist
+es nicht recht ersichtlich, warum wir bloss in dieser
+Frage »Zuschauer« bleiben sollen. Ich glaube, die An-
+schauung Prof. Cohns ist darauf zurückzuführen, dass er
+der Ansicht ist, die deutschen Frauen selbst wünschen
+das Wahlrecht vorläufig nicht, er bezeichnet es als einen
+lobenswerthen Characterzug der deutschen Frauen-
+bewegung, dass sie die staatsrechtliche Seite dieser
+Gleichstellung hintan gesetzt habe. Dieses zweifelhafte
+Lob verdient die deutsche Frauenbewegung nicht, die
+deutsche Frauenbewegung hat von vornherein eine absolute
+Gleichberechtigung des Weibes, mithin auch die politische
+erstrebt, aber sie traute sich nicht, diese wie in dem
+demokratischen England und dem noch demokratischeren
+Die politische Gleichberechtigung der Frau.
+Amerika zu betonen, sie begriff die Gefahr, die in einem
+solchen Vorgehen in einem conservativen Lande wie
+Deutschland gelegen hätte und verschleierte im Anfang
+ihre Ziele. »Wir mussten vorsichtig vorgehen,« berichtet
+die Mutter der deutschen Frauenbewegung, die unendlich
+verdiente Louise Otto Peters, auf jedem Blatte ihrer
+Erinnerungen. *) Aber trotz dieser Vorsicht legte die
+zweite nicht minder verdiente Veteranin der Bewegung,
+Auguste Schmidt, an der ersten deutschen Frauenconferenz
+am 15. October 1865 sehr klar und unverhüllt die Ziele
+der Frauenbewegung auseinander, die unbedingt auf die
+absolute Gleichberechtigung gerichtet waren, mithin auch
+die politische einschloss, ohne dass diese besonders genannt
+zu werden brauchte. Sie entwickelte die natürliche Be-
+rechtigung der Frauen, sich aus der bisherigen Unter-
+ordnung zu der ihnen gebührenden Gleichberech-
+tigungneben dem Manne emporzuheben. »Einen neuen
+Lebensodem werde die Wiedergeburt der Frau in die
+Schöpfung bringen; Menschen werden wollen die Frauen
+und theilnehmen am Kranz der Arbeit und des Sieges.«
+Wenn trotzdem die Frauenfrage in Deutschland im
+Beginne hauptsächlich zu einer Erwerbs- und Bildungs-
+frage gemacht wurde, so lag es eben in den Verhält-
+nissen des Landes, in dem blinden Conservatismus, der
+alles Neue hasste, der jeden Culturfortschritt, besonders
+wenn er die Frau betrifft, verabscheute und dem jede
+Verbesserung nur stückweise abgerungen werden konnte.
+*) »Daserste Vierteljahrhundert des Allgemeinen Deutschen Frauen-
+vereins.« Leipzig 1890.
+Eliza Ichenhaeuser.
+Wenn die Bewegung trotz all dieser Hindernisse auch
+bei uns so anschwellen konnte, so spricht das am besten
+dafür, wie mächtig sie ist, wie sie auch fernerhin alles
+sich ihr Entgegenstemmende wie ein Orkan wegwischen
+wird und sie fühlt sich jetzt auch stark genug, um ihre
+Ziele nicht mehr verschleiern zu brauchen. Auf der
+letzten Generalversammlung des Allgemeinen Deutschen
+Frauenvereins wurde das Frauenwahlrecht laut und feier-
+lich gefordert, Helene Lange, eine der besonnensten
+jüngeren Vorkämpferinnen, hat in ihrer bereits erwähnten
+Abhandlung über das Frauenwahlrecht dasselbe mit aus-
+gezeichneter und unwiderleglicher Motivirung verlangt, die
+Socialdemokratie, die, wollte sie sich nicht der grössten In-
+consequenz zeihen lassen, das Frauenwahlrecht in ihr Pro-
+gramm aufnehmen musste, hat in deutschen Frauenkreisen
+ebenfalls sehr propagirend gewirkt für den politischen
+Gleichheitsgedanken. Kurz, die grosse Masse der Frauen
+selbst steht der Forderung durchaus nicht mehr fern. Sie
+wissen, das Frauenwahlrecht ist unter den gegebenen
+politischen und socialen Verhältnissen das einzige Mittel,
+um der Stimme der Gerechtigkeit, des socialen und ge-
+schlechtlichen Friedens, der Harmonie im Völkerleben
+Geltung zu verschaffen, und die Männer sollten wissen,
+dass es auch ihnen zu Gute kommen wird, wenn eine
+falsche Galanterie nicht mehr von ihnen verlangen wird,
+in der Frau die bessere, sondern die adäquate Hälfte zu
+sehen, die mit ihnen arbeitet, mit ihnen denkt, alle ihre
+Pflichten, aber dafür auch alle ihre Rechte mit ihnen theilt.
+F. E. Haag, Melle I. H.
+</text>
+  </TextCorpus>
+</D-Spin>

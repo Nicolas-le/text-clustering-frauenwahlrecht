@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/walter_frauenstimmrecht_1913</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-walter_frauenstimmrecht_1913.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/walter_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walter_frauenstimmrecht_1913.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/walter_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walter_frauenstimmrecht_1913.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/walter_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walter_frauenstimmrecht_1913.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/walter_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walter_frauenstimmrecht_1913.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Frauenstimmrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Walter</cmdp:surname>
+<cmdp:forename>Marie</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+                    <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+                        <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-04-10T14:18:39Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+<cmdp:respStmt>
+                    <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-04-10T14:18:39Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">24</cmdp:measure>
+        <cmdp:measure type="tokens">8071</cmdp:measure>
+        <cmdp:measure type="types">2998</cmdp:measure>
+        <cmdp:measure type="characters">61064</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:02:45Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/walter_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/walter_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/walter_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/walter_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="DTADirName">walter_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="DTAID">32701</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32701-4</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Walter, Marie: Das Frauenstimmrecht. Zürich, 1913.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Das Frauenstimmrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Walter</cmdp:surname>
+<cmdp:forename>Marie</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Zürich</cmdp:pubPlace>
+            <cmdp:date type="publication">1913</cmdp:date><cmdp:publisher><cmdp:name>Buchhandlung des Schweiz. Grütlivereins</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Staats- und Universitätsbibliothek Bremen</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">02.A,1269</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                            <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: gekennzeichnet;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: wie Vorlage;
+                    Kolumnentitel: keine Angabe;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): als s transkribiert;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+                </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Das Frauenstimmrecht
+Referat
+der
+Genossin Frau Marie Walter
+gehalten am
+Sozialdem. Parteitag in Neuenburg
+(8., 9. und 10. November 1912)
+Verlag:
+Buchhandlung des Schweiz. Grütlivereins, Zürich
+1913.
+Die vorliegende kleine Schrift, Arbeiter, Arbeiterin, ist
+für Dich. Sie will Dir die Wandlungen der Stellung
+der Frau in der menschlichen Gesellschaft, wie sie sich in
+langen Zeiträumen herausentwickelt hat, aufzeigen. Da-
+durch soll in den weitesten Proletarierschichten Jnteresse
+und Verständnis für die moderne Arbeiterinnenbewegung
+und ihre Ziele geweckt und gefördert werden.
+Zürich, 4. Februar 1913.
+Marie Walter.
+Das Frauenstimmrecht.
+Der große Philosoph des Altertums, Plato, der zu Anfang
+des vierten Jahrhunderts vor Christo lebte, dankte den Göttern,
+daß er als Mann und nicht als Frau geboren wurde. Der fromme
+Jude betet noch heute in seiner Morgenandacht: „Gelobt seist du,
+Gott, unser Herr, und Herr der Welt, der mich nicht zu einem
+Weibe gemacht hat“. Die moderne Arbeiterin, die geplagte Fa-
+milienmutter, die weder Lust zum Philosophieren noch Zeit zum
+Beten übrig hat, seufzt unter der Last ihrer doppelten Berufs-
+pflichten. Sie hadert mit dem Schicksal, das sie nicht als Mann,
+sondern als Weib auf die Erde gestellt hat. Sie seufzt und hadert,
+bis das unbestimmte Sehnen in ihrem Jnnern erlischt, bis die Re-
+signation ihr von Natur gefühlsweiches, empfängliches Herz ab-
+stumpft und hart werden läßt. Die denkgeschulte, zur Erkenntnis
+ihrer wirtschaftlichen und sozialen Lage erweckte Proletarierin
+seufzt und hadert nicht. Jm Vollbewußtsein ihres Eigenwertes,
+ihres Menschtums lauscht sie mit gespannter Seele dem Flügel-
+schlag der neuen, der kommenden Zeit und verfolgt mit wachsen-
+dem Jnteresse die großen ökonomischen Umwälzungen, die sich in
+der Vergangenheit ereignet und heute weiterhin vollziehen. Jhr
+Blick, getragen, geweitet und geschärft von der durch den Sozia-
+lismus vermittelten Einsicht in die Wirtschafts- und Gesellschafts-
+ordnung, eilt weg von der bangen, drückenden Gegenwart in die
+verheißungsvolle, lichtverklärte Zukunft, er wendet sich gleichzeitig
+rückwärts, durchmißt Jahrtausende, um an Hand der Geschichte
+der Menschheit, an ihren Entwicklungsstufen, immer klarer und
+bewußter den Weg zu erkennen, der untrüglich vorwärts und
+hinauf ins Licht der Kultur führt.
+Das Streben nach der Ergründung des geschichtlichen Ge-
+schehens, nach der Erfassung der organischen Zusammenhänge im
+Welt- und Menschenleben, lüftet Schleier um Schleier und löst all-
+mählich auch das Dunkel, das über den Uranfängen der Mensch-
+heit gelagert. Aus seltsamen, bis in die Neuzeit unverstandenen
+und unrichtig gedeuteten Erscheinungen in Sitten und Gebräu-
+chen mancher wilden Völkerstämme leuchten blitzende Lichter auf,
+die ungeahnte neue Erkenntniswerte aufzeigen.
+Als erster, welcher eine geschichtliche Entwicklung der Familie
+nachzuweisen versuchte, ist der Schweizer Bachofen zu nennen. Bis
+zum Anfang der Sechzigerjahre des vorigen Jahrhunderts lehnte
+die historische Wissenschaft sich auf diesem Gebiete an die fünf
+Bücher Moses an. Danach galt die patriarchalische Familienform
+als die älteste und allein bestehende, die sich bis in unsere Tage in
+der bürgerlichen Familie forterhalten hat. Bachofens Mutterrecht,
+das 1861 erschien, bedeutete eine vollständige Revolution jener ver-
+knöcherten Anschauung. An Hand von zahllosen, der altklassischen
+Literatur entnommenen Stellen trug er mit Bienenfleiß die Be-
+weise für die Richtigkeit seiner von ihm ausgestellten Leitsätze und
+Behauptungen zusammen. Jndessen – ihn erreichte das Geschick so
+manchen Forschergeistes: er blieb unbekannt.
+Vier Jahre später (1865) trat ohne Kenntnis des Bachofen-
+schen Werkes ein Engländer, Mac Lennan, mit einem Buche an
+die Oeffentlichkeit: „Studies in Ancient History“. Die zum Teil
+auf recht gewagten Kombinationen fußenden theoretischen Er-
+örterungen des nüchternen Juristen fanden in England lebhaften
+Anklang. Er galt hier allgemein als erste Autorität, als der
+eigentliche Begründer der Geschichte der Familie und das noch
+geraume Zeit nach dem entscheidenden Auftreten Morgans.
+Dieser, ein Amerikaner, versuchte in seinem Hauptwerk: „An-
+cient Society“ (Urgesellschaft) 1877, seine 1871 noch unklar erfaßten
+Entdeckungen über die „mutterrechtliche“ Familienform in ihrer
+urgeschichtlichen Bedeutung auseinanderzulegen. Das bei den
+Jrokesen, den amerikanischen Jndianern, noch in Anwendung ste-
+hende eigentümliche Verwandtschaftssystem bildete den Ausgangs-
+punkt zu wertvollen Schlußfolgerungen. Das Studium jener Ver-
+hältnisse und anderer bei verschiedenen asiatischen, vor allem indi-
+schen, Völkerstämmen geltenden Verwandtschaftssysteme, ermöglichte
+ihm die Rekonstruierung der entsprechenden Familienformen. Da-
+mit war für den Forschungsweg eine weite Perspektive in die Vor-
+geschichte der Menschheit eröffnet. Das Hauptverdienst Morgans
+aber liegt darin, daß er jene Familienform entdeckte, jene nach
+Mutterrecht organisierte Geschlechtsgemeinschaft, aus der sich die
+spätere vaterrechtlich organisierte Familiengemeinschaft oder Gens
+der antiken Kulturvölker entwickelte.
+Der große Denker Karl Marx trug sich mit der Absicht, die
+Resultate der Morganschen Entdeckungen in den Rahmen seiner
+materialistischen Geschichtsuntersuchung einzufügen. Der Tod hin-
+derte ihn daran. Der Gedanke gewann aber gleichwohl lebendige
+Gestalt. Sein Freund Engels fühlte sich zur Lösung dieser Auf-
+gabe, als eines Vermächtnisses, geradezu verpflichtet.
+Jn seinem durch Lessingsche Gedankenklarheit und einen leicht
+fließenden, gedrungenen Stil sich auszeichnenden Buch: „Der Ur-
+sprung der Familie, des Privateigentums und des Staates“, erste
+Auflage 1884, hat Engels ein unvergängliches Werk geschaffen.
+Unter Zugrundelegung der von Bachofen und Morgan aufgezeig-
+ten großen Gesichtspunkte reiht er Bild an Bild von der ur-
+sprünglich auf kommunistischer Grundlage sich festigenden mut-
+terrechtlichen Familiengemeinschaft zur vaterrechtlich sich gestal-
+tenden Einzelfamilie.
+Seit dem Erscheinen dieses Buches sind die Forschungsergeb-
+nisse in der Völkerkunde und Vorgeschichte noch weiter gediehen.
+Manche der Engelsschen Ansichten und Ausführungen wurden
+überholt, so von Grosse: „Entwicklung der Wirtschaft und der Fa-
+milie“. Dies veranlaßte auch August Bebel, in der neuesten Auf-
+lage seines bedeutenden Werkes: „Die Frau und der Sozialis-
+mus“, zu einer Neugestaltung und Erweiterung der ersten Ka-
+pitel.
+Eine auf breiter Grundlage fußende systematische Darstellung
+der gewonnenen Resultate vermittelt Dr. F. Müller-Lyer in seiner
+umfassenden Soziologie: Entwicklungsstufen der Menschheit, und
+zwar in Band 3: „Formen der Ehe“, und Band 4: „Die Familie“.
+Die Forschungen des Genossen H. Cunow über die Verwandt-
+schaftsorganisationen der Australneger bildeten für ihn wichtige
+Stützpunkte. Schon dieser leistete den Nachweis, daß auf der
+Stufe des niederen Ackerbaues die Frau den Mann beherrschte.
+Dieser Frauenherrschaft räumt er eine verhältnismäßig nur
+kurze Zeit ein. Sie erreichte ihr Ende mit dem Uebergang des wich-
+tigsten Produktionsmittels, des Ackers, aus dem Besitz der Frau
+in jenen des Mannes.
+Aus dem Endresultat all dieser Forschungen aber tritt als
+bedeutsames Moment zutage: die unumstößliche Tatsache der mit-
+unter durchaus freien wirtschaftlichen und gesellschaftlichen Stel-
+lung des Weibes, der Frau, in der ursprünglich kommunistischen
+Haushaltung der Geschlechtsverbände.
+Bücher, in seiner „Entstehung der Volkswirtschaft“, erscheint
+es zweifellos, daß das uranfängliche Menschengeschlecht unermeß-
+liche Zeiträume hindurch ohne jegliche gesellschaftliche Organisa-
+tion und Arbeit existiert hat. Erst mit dem Uebergang der indivi-
+duellen Nahrungssuche zur materiellen Lebensgemeinschaft ent-
+- standen fester gefügte kleinere Gemeinwesen. Jhre Kraft ruhte in
+einer Demokratie, in welcher die Gleichberechtigung der Frau mit
+dem Manne je nach dem Grade ihrer wirtschaftlichen Bedeutung
+zum Ausdruck kam. Ein primitiver Kommunismus in der Wirt-
+schaft und im Besitz, ein einfaches Zusammenleben und Zusam-
+menarbeiten hielt die Blutsverwandten beieinander. Für Bachofen
+und Engels bildet schon die kommunistische Haushaltung die sach-
+liche Grundlage der Vorherrschaft der Frauen im Hause. Jeden-
+falls ist die aus der Aufklärungszeit des 18. Jahrhunderts her-
+vorgegangene Auffassung eine ganz irrige, das Weib sei im An-
+fang der Gesellschaft durchgehend die Sklavin des Mannes gewe-
+sen. Bei den Wilden und Barbaren der Unter- und Mittelstufe,
+teilweise noch der Oberstufe, war seine Stellung nicht selten eine
+freie und gleichberechtigte. So konnte ein langjähriger Missionar,
+Arthur Wright, noch von den Jrokesen berichten: „Was ihre Fa-
+milien betrifft, zur Zeit, wo sie noch die alten, langen Häuser
+bewohnten, beherrschte gewöhnlich der weibliche Teil das Haus.
+Die Vorräte waren gemeinsam. Wehe aber dem unglücklichen Ehe-
+mann oder Liebhaber, der zu träge und zu ungeschickt war, seinen
+Teil zum gemeinsamen Vorrat beizutragen. Einerlei, wieviel
+Kinder oder wieviel Eigenbesitz er im Hause hatte, jeden Augen-
+blick konnte er des Befehls gewärtig sein, sein Bündel zu schnüren
+und sich zu trollen. Und er durfte nicht versuchen, dem zu wider-
+stehen. Das Haus wurde ihm zu heiß gemacht. Die Frauen waren
+die große Macht in den Geschlechtsverbänden, in den Gentes und
+auch sonst überall. Gelegentlich kam es ihnen nicht darauf an,
+einen Häuptling abzusetzen und zum gemeinen Krieger zu degra-
+dieren.“
+Diese Vorzugsstellung der Frauen, d. h. der Mütter, hatte
+ihre besondere Grundursache. Sie resultiert letzten Endes aus
+dem Gemeinschaftsleben, das wohl die leibliche Mutter untrüglich
+erkennen liest, nicht aber den leiblichen Vater. Diese nur von
+mütterlicher Seite mit voller Gewißheit nachweisbare Abstam-
+mung bewirkte daher in manchen Geschlechtsverbänden einzig die
+Anerkennung der weiblichen Stammeslinie. Wiederum gebührt
+Bachofen das Verdienst, diese Entdeckung gemacht zu haben. Er
+war es auch, der diese ausschließliche Anerkennung der Abstam-
+mungsfolge nach der Mutter und die daraus mit der Zeit sich er-
+gebenden Erbschaftsbeziehungen – die aber nicht etwa in unserem
+juristischen Sinne aufzufassen sind – mit dem allerdings schiefen
+Namen Mutterrecht bezeichnete.
+Kommunismus und Demokratie, diese grundlegenden Formen
+der Sozialwirtschaft aber mußten gesprengt werden, sobald das
+Privateigentum als treibende Macht in die Geschichte eintrat.
+Dies geschah mit der Erfindung neuer gesellschaftlicher Arbeits-
+mittel, dem wachsenden Reichtum an Vieh, allgemein gesprochen,
+mit den veränderten Produktionsverhältnissen.
+Die zunehmende Geschicklichkeit in der Verfertigung von
+Waffen und Werkzeugen veranlaßte eine immer größere Steige-
+rung der Produktion. Hiervon zeugen die an vielen Orten auf-
+gefundenen unzweifelhaften Reste von Werkstätten für Steinwerk-
+zeuge, wo gemeinsam für die Gesamtheit gearbeitet wurde. Nach
+und nach gesellte sich die Verarbeitung der Metalle hinzu, von
+Kupfer und Zinn, der aus beiden zusammengesetzten Bronze und
+von Gold und Silber.
+Jn gleicher Weise erschließen die Zähmung der wilden Büffel-
+kuh und anderer Tiere in Asien, und damit die Züchtung von Her-
+den, neue Quellen des Reichtums. Die Hirtenstämme bilden sich,
+welche das Aufziehen und die Wartung des Viehes zu ihrem
+Hauptarbeitszweig gestalten. Damit vollzieht sich die erste große ge-
+sellschaftliche Teilung der Arbeit. Mit der reichlicheren Milch- und
+Fleischproduktion, der Herstellung anderer Lebensmittel und der
+vermehrten Gewinnung von Rohstoffen wird der Grund gelegt
+zur Warenübertragung, zum Warenaustausch von Stamm zu
+Stamm, der ursprünglich im Auswechseln von Gastgeschenken
+bestand.
+Sobald aber die Herden und die übrigen neuen Reichtümer
+aus dem Gemeinbesitz des Stammes, der Gens, in das Eigentum
+des einzelnen übergingen, bricht eine gewaltige Revolution über
+die Familiengemeinschaft herein.
+Die uranfängliche Arbeitsteilung, die nur zwischen den beiden
+Geschlechtern bestand, nötigte den Mann zur Beschaffung des Roh-
+stoffes der Nahrung und der dazu erforderlichen Werkzeuge. Er
+zieht aus auf die Jagd und den Fischfang, in den Krieg zur Aus-
+übung der Blutrache. Sein Reich, sein Gebiet ist der Wald. Die
+Frau wirkt im Zelt, in der Behausung, auf dem von ihr mit dem
+Grabstock notdürftig zugerichteten Ackergelände. Sie besorgt die
+Zubereitung der Nahrung und Kleidung; sie pflanzt, kocht, webt
+und näht. Jedes, Mann und Frau aber ist Eigentümer der von
+ihm selbst gefertigten und benutzten Werkzeuge. Alles andere,
+was gemeinsam hergestellt und gemeinsam verbraucht wird, ist
+gemeinsames Eigentum, so die Behausung, das Boot, das Pflanz-
+land.
+Nun aber durch die Vervollkommnung der Werkzeuge, durch
+die Erfindung und Gewinnung neuer Arbeitsmittel, durch die
+Aufzucht von Herden, in allen Arbeitszweigen eine immer größere
+Steigerung der Produktion erzielt wurde, war bald ein Ueber-
+schuß an Gütern vorhanden. Die menschliche Arbeitskraft erzielte
+ein größeres Produkt, als zu ihrem Unterhalt erforderlich war.
+Die Gier nach persönlichem, privatem Reichtum, nach Eigenbesitz,
+erwachte. Der von allem Anfang an auf den Erwerb von außen
+angewiesene Mann bemächtigte sich der neuen ausgiebigeren Er-
+werbsmittel, des Ackerlandes und der Herden. Gehörte ihm aber
+das Vieh, dessen Zähmung und Wartung sein Werk war, so auch
+die gegen Vieh eingetauschten Waren und Sklaven. Mit dem Ver-
+fügungsrecht über die neuen Nahrungsquellen erwirbt er sich eine
+wichtigere Stellung in der Familie als die Frau. „Der wilde
+Krieger und Jäger“, sagt Engels, „war im Hause zufrieden ge-
+wesen mit der zweiten Stelle, nach der Frau; der sanftere Hirt,
+auf seinen Reichtum pochend, drängte sich vor an die erste Stelle
+und die Frau zurück an die zweite.“ Damit aber noch nicht genug.
+Dem ersten Schritt zur Alleinherrschaft des Mannes im Hause
+folgte als natürliche Konsequenz der zweite, der Sturz des Mut-
+terrechtes.
+Nach dem Brauch der damaligen Gesellschaft konnten nicht
+immer die Kinder des Mannes von ihm erben, sondern oft nur
+von ihrer Mutter. Bei seinem Tode wären seine Herden vielfach
+übergegangen in den Besitz zunächst seiner Brüder und Schwe-
+stern, oder der Nachkommen der Schwestern seiner Mutter. Jn
+vielen Fällen blieben seine eigenen Kinder enterbt. Was lag daher
+näher, als daß er seine durch den wachsenden Eigenbesitz mehr
+und mehr verstärkte Stellung in der Familie benutzte, um die
+mütterliche Erbfolge aus dem Wege zu räumen? Die Mutter-
+folge wurde umgestoßen, Vaterrecht trat an ihre Stelle. Noch in
+unsern Tagen sehen wir diesen Vorgang in einer Reihe von
+Jndianerstämmen sich vollziehen unter dem Einfluß des sich meh-
+renden Reichtums und der veränderten Wirtschaftsweise.
+Mit dem Umsturz des Mutterrechts, mit seiner Verdrängung
+durch das Vaterrecht war der Zusammenbruch des alten Kom-
+munismus besiegelt. Diese Wandlung bedeutete einen tiefen
+Eingriff ins Frauenleben. Denn die alte kommunistische Haus-
+haltung hatte für die Frauen die Ausübung einer öffentlichen,
+gesellschaftlich notwendigen Funktion bedeutet, welche ihnen
+in der Gemeinschaft eine freie, mit den Männern gleichberechtigte
+Stellung sicherte. Das durch den Privatbesitz geheiligte Herr-
+schaftsmonopol des Mannes formte diesen öffentlichen Dienst um
+in den Privatdienst des Familienhauptes. Mit andern Worten:
+Der Sieg des Privateigentums über das naturwüchsige Gemein-
+eigentum änderte die Familienform. Die Herrschaft des Mannes
+mit dem Hauptzwecke der Erzeugung von Kindern mit unbestrit-
+tener Vaterschaft zwang die Frau im Gegensatz zum Manne zur
+Monogamie, zur Einzelehe. Damit begann die Knechtung und
+Entwürdigung des weiblichen Geschlechts durch das männliche:
+die erste Klassenunterdrückung, wie Engels zutreffend ausführt.
+Denn Mutterschaft und die von Natur gebotene Pflicht des
+Stillens der Kinder bildeten für die Frau von allem Anfang an
+Hemmnisse in ihrer Bewegungs- und Lebensfreiheit. Die zeit-
+weilig hilflose Lage wies sie hin auf den Schutz des Mannes, so-
+bald jener enge Gemeinsinn unter der Blutsverwandtschaft sich
+zu lockern begann. Der an physischer Kraft Ueberlegene gewöhnte
+sich leicht ein in die Rolle des Beschützers und leitete daraus be-
+wußt und unbewußt für sich das Recht ab des Besitzes über sein
+wertvollstes Eigentum, das Weib. Die Unterordnung unter eine
+mächtigere Gewalt, unter einen fremden Willen, wurde von
+diesem erst mehr als eine ihm erwiesene Guttat denn als lästige
+Fessel empfunden.
+Hatte im alten kommunistischen Haushalt für Mann und
+Weib die Pflicht bestanden, Tag um Tag die Nahrung für den
+Lebensunterhalt neu zu beschaffen, so trat mit der Zähmung der
+Haustiere und der Bildung von Herden eine wesentliche Erleich-
+terung ein. Milch und Fleisch waren jetzt reichlich vorhanden.
+Ja, das Vieh vermehrte sich viel rascher als die Familie. Zu
+seiner Wartung wurden immer mehr Leute benötigt. Die mensch-
+liche Arbeitskraft erlangte daher eine zunehmend höhere Wertung.
+Die Menschenfresserei, als eine Folge der andauernden Unsicher-
+heit der Nahrungsquellen, verschwindet. Die Haltung von Sklaven,
+von Unfreien kommt auf. Wiederum ist es der Mann, der sich
+dieses Arbeitsmittels bemächtigt. Damit ist der Grund gelegt zu
+einem neuen gesellschaftlichen Organismus: der patriarchalischen
+Groß-Familie. Jhr Wesenszug ist die Zusammenfassung von
+freien und unfreien Personen, von Weib, Kindern und Sklaven,
+oder Leibeigenen, Hörigen im Mittelalter zu einer wirtschaftlichen
+Einheit, zu einer Familie unter der väterlichen Gewalt des Fa-
+milienhauptes.
+Jn dieser geschlossenen Hauswirtschaft sind Art und Maß
+der Produktion durch den Verbrauchsbedarf der Hausangehörigen
+bestimmt. Gütererzeugung und Güterkonsumtion bilden einen
+einzigen ununterbrochenen und ununterscheidbaren Vorgang.
+Nicht nur dem Boden sind die Gaben abzugewinnen. Alle benö-
+tigten Werkzeuge, Geräte, Bedarfsgegenstände werden von den
+Familienzugehörigen selbsttätig hergestellt, die Rohprodukte um-
+geformt und veredelt, bis sie zum Gebrauche hergerichtet sind.
+Zu höchster Ausbildung gelangte die römische Groß-Familie.
+Weite Strecken des Grundbesitzes wurden im Privatinteresse des
+Familienhauptes durch Scharen von Sklaven bewirtschaftet. Diese
+übten in Abteilungen unter der Aufsicht von Aufsehern alle Be-
+rufe aus.
+Die Frau aber wurde in eine unwürdige Lage herabgedrückt.
+Bei manchen Völkern bewirkten die Nachklänge des alten Mutter-
+rechtes eine verhältnismäßig freiere Stellung des weiblichen Ge-
+schlechtes, so bei den Aegyptern und Spartanern. Dem Mann als
+Familienhaupt fallen alle wichtigen und ehrenvollen Beschäfti-
+gungen zu. Die nunmehr ganz ins Haus gebannte Frau sinkt zur
+Haushälterin, zur Dienerin, zur Sklavin des Mannes herab.
+Dieser ist der Eigentümer alles Reichtums, den er durch die akku-
+mulierte Tätigkeit seiner Untergebenen als Krieger, Kaufmann,
+Handwerker, Geldwucherer oder Bauer erwirbt. Die blutigen
+Kriege, die großen Eroberungen, die zur Stämmevereinigung, zur
+Staatenbildung drängen, die Klassenkämpfe im Jnnern spiegeln
+sich wieder im despotischen Geist, der das Leben der Großfamilie
+durchdringt.
+Jm Altertum war die Gewalt des Mannes als Familien-
+haupt eine unbeschränkte, ein Recht über Tod und Leben aller.
+Von der Frau verlangte der Mann unbedingte Treue zur sicheren
+Feststellung seiner Vaterschaft. Tötet er sie, so hat er nur ein ihm
+zustehendes Recht ausgeübt. „Die unumschränkte und keinem auf
+der Erde verantwortliche Macht des Hausherrn“, sagt Mommsen
+in seiner römischen Geschichte, „ist unabänderlich und unzerstör-
+bar, solange er lebt; nicht das Alter, nicht der Wahnsinn, ja nicht
+einmal sein eigener freier Wille vermag die Macht zu lösen …
+Dem Hausherrn gegenüber war alles, was zur Familie gehört,
+rechtlos, Weib und Kind nicht minder als der Stier und der
+Sklave.“ –
+Mit der Erfindung des wichtigsten Metalls, des Eisens, wuchs
+der Reichtum noch rascher. Die Urbarmachung ausgedehnterer
+Waldstrecken wurde mit Hilfe der eisernen Pflugschar möglich.
+Die zweite große Teilung der Arbeit trat ein: das Handwerk
+sonderte sich vom Ackerbau. Mit dieser Spaltung bereitet sich die
+Produktion direkt für den Austausch vor. Der Handel gewinnt
+große Ausdehnung über die Landesgrenzen hinaus, ja sogar übers
+Meer. Neben den Freien und Sklaven zeigen sich bereits die Un-
+terschiede von Reich und Arm. Der Krieg, früher geführt lediglich
+aus Motiven der Rache, wird zum Raubmittel und damit zu einem
+stehenden Erwerbszweig.
+Die zunehmende Differenzierung, die verschiedenartige Ge-
+staltung der Boden- und übrigen Besitzverhältnisse bewirkt die
+Klassenscheidung. Die Ausbeutung und Entrechtung vieler durch
+wenige wird zum hervorstechendsten Wesenszug aller Gesellschafts-
+gliederungen, die sich hinfort auf das Privateigentum stützen. Die
+Zahl der sozial und wirtschaftlich Enterbten mehrt sich zu un-
+gezählten Massen, die sich in immer mehr anwachsendem Groll
+und Haß aufbäumen gegen die eisernen Ketten der Klassenherr-
+schaft. Zwischen den Bevorrechteten und den Geknechteten kommt
+es zu gewaltigen Kämpfen, die den Fortschritt in der Mensch-
+heitsentwicklung in ihrem gärenden Schoße tragen. Jch erinnere
+hier nur kurz an die Sklavenkriege im Altertum, an die Kämpfe
+der Handwerkerzünfte gegen das Patriziat der Städte im Mittel-
+alter, an die Aufstände der unterdrückten Bauern im 16., die Re-
+ligionskriege im 17., die Revolutionen im 18. und 19. Jahrhundert,
+denen in der Neuzeit die modernen Klassenkämpfe zwischen Pro-
+letariat und Unternehmertum sich anreihen. Die kapitalistische
+Weltordnung erzittert in ihrem vielgestaltigen Gefüge. Kommu-
+nismus und Demokratie, jene soliden Grundvesten ursprünglicher
+Menschengemeinschaft, winken in höher entwickelter Form als Er-
+löser, als Befreier von den Schmerzen und Qualen, welche die
+Klassenherrschaft geboren. Jn diesem Schöpfergang der Geschichte,
+in diesem Menschheitswerden bildet die Befreiung des Weibes
+eine Etappe, eine Stufe von höchster Bedeutung. Wiederum ist es
+die Sozialwirtschaft, sind es die gesellschaftlichen Produktions-
+bedingungen, welche mit ihren dem Weibe aufgebürdeten Pflichten
+ihm das Anrecht auf wirtschaftliche und soziale Gleichberechtigung
+schaffen.
+Mit der Entwicklung der Privatwirtschaft wurde der Weg
+bereitet, der die Frau aus der geschlossenen Hauswirtschaft wieder
+hinausführte in die öffentliche gesellschaftliche Arbeit. Dies ge-
+schah um die Mitte des 16. Jahrhunderts. Der durch die Ent-
+deckungen der überseeischen Länder von Amerika und Australien
+rasch emporblühende Außenhandel hatte zur Wertmessung der
+Güter, der Waren, zur Erfindung eines allgemeinen praktischen
+Tauschmittels, der geprägten Münze, des Metallgeldes, geführt. Der
+über große Kapitalien verfügende Kaufmann, der Händler, wan-
+delte sich, zur sicheren Gewinnung von Mehrwert, um in den kapi-
+talistischen Unternehmer. Er fing an, außerhalb seiner eigenen
+Betriebsstätte regelmäßig eine größere Zahl von Arbeitern und
+Arbeiterinnen zu beschäftigen. Bald übermittelte er diesen den
+Rohstoff selbst und zahlte dann Stücklohn, oder er bediente sich
+ihrer Arbeitskraft, indem sie das Rohmaterial, Flachs und Hanf
+zum Spinnen, Garn zum Weben lieferten. Jm letzteren Falle
+schoß er den Kaufpreis vor.
+Neben dieser einen Form kapitalistischen Betriebes, dem Ver-
+lagssystem, das die gleichartigen Arbeitskräfte nur lose zusammen-
+hält, erstand die Manufaktur, die Fabrik. Diese organisiert den
+ganzen Produktionsprozeß durch eine zweckdienliche Arbeits-
+teilung. Durch diese kapitalistischen Produktionsweisen wurden
+wichtige wirtschaftliche Funktionen der familiären Wirtschafts-
+-gemeinschaft entzogen, was ihre Schwächung und Zersetzung her-
+beiführte. Dieser Auflösungsprozeß setzt sich fort bis in die heu-
+tige Zeit.
+Schon in diesem Vorstadium des Kapitalismus treten männ-
+liche und weibliche Vorkämpfer des revolutionären Bürgertums
+für die wirtschaftliche und politische Gleichstellung der Frau ein.
+Als erste Verfechterin der Frauenrechte ist die im 15. Jahr-
+hundert lebende französische Schriftstellerin Christine de Pisan zu
+nennen. Der Kampf ums Dasein, die Notwendigkeit des eigenen
+Broterwerbes zur Bestreitung des Unterhaltes ihrer Kinder ver-
+anlaßte sie in einer Streitschrift „La cité des dames“ für die
+intellektuelle Gleichberechtigung der Frauen einzutreten. Durch
+ihr Vorgehen angeregt, ging Mademoiselle de Gournay, die Adop-
+tivtochter Montaignes, in ihren Forderungen noch weiter. Sie
+verlangte die volle Gleichberechtigung der Geschlechter mit Aus-
+nahme der Wehrpflicht. Jn England ließ der Kampf um die mit
+Füßen getretenen Grundrechte des Volkes und die declaration of
+rights sowie ihre im Jahre 1689 erfolgte gesetzliche Bestätigung
+die Frauenfrage lebendig werden. Unter anderen war es vor
+allem Anna Clifford, die lebhaft die rechtliche und politische
+Gleichberechtigung der Frauen verteidigte. Noch war aber das
+erlösende Wort für die halt- und ziellos tastende Frauenseele
+nicht gesprochen. Rousseau fand es in der Weisung: Werde Mutter!
+Damit hatte er die verborgene Wunde der Frau des 18. Jahr-
+hunderts aufgedeckt, die Verachtung der Mutterschaft. Und mit
+demselben warm pulsierenden Herzblut verfocht er im Contrat
+social die allgemeinen Menschenrechte: „Der Mensch ist frei ge-
+boren … Stärke gewährt kein Recht … Auf seine Freiheit ver-
+zichten, heißt auf seine Menschheit, seine Menschenrechte, ja selbst
+auf seine Pflichten verzichten … Der Grundvertrag der Gesell-
+schaft muß an Stelle der physischen Ungleichheit eine sittliche und
+gesetzliche Gleichheit setzen …“ 14 Jahre später verkündeten in
+den Vereinigten Staaten die ersten Vorkämpferinnen die Gleich-
+berechtigung des weiblichen Geschlechtes: Mercy Otis Warren,
+welche die Unabhängigkeit Amerikas forderte, bevor Washington
+sich in den Gedanken hineinfinden konnte, und ihre Freundin
+Abigail Smith Adams. Diese schrieb 1776 an ihren Mann:
+„Wenn die künftige Verfassung den Frauen keine gründliche Auf-
+merksamkeit schenkt, so sind wir zur Rebellion entschlossen und
+halten uns nicht für verpflichtet, uns Gesetzen zu unterwerfen, die
+uns keine Stimme und keine Vertretung unserer Jnteressen zu-
+sichern.“ Rebelliert wurde zwar nicht, und wenn auch der Wunsch
+nach politischer Gleichberechtigung für die Gesamtheit der Verei-
+nigten Staaten sich nicht erfüllte, so waren es doch New Jersey
+und Virginia, die als erste Staaten der Welt für ihre weiblichen
+Bürger das Wahlrecht einführten und damit die Blicke des ganzen
+Weltenrundes auf sich lenkten.
+Alle diese Tatsachen wirkten mit, daß in den Revolutions-
+stürmen Frankreichs mit dem Ruf nach Freiheit, Gleichheit und
+Brüderlichkeit auch die Frauenbewegung mächtig gefördert wurde.
+Jhr begeisterter Anwalt Condorcet erhob schon 1787 in seinen
+Briefen eines Bürgers von Newhaven die Forderung nach voller
+Gleichberechtigung der Frauen. Fünf Jahre darauf erschien das
+berühmte Werk der Engländerin Mary Wollstonecraft: „Forde-
+rung der Frauenrechte“, dem die deutsche Schrift Hippels über die
+Gleichberechtigung des weiblichen Geschlechts folgte. Auch in der
+Schweiz hatten sich seit Pestalozzi die Stimmen gemehrt, die nicht
+nur intellektuelle, sondern auch vollständige politische und wirt-
+schaftliche Gleichstellung der Frau forderten.
+Allein weder die große französische Revolution noch die Frei-
+heitserhebungen von 1848 vermochten in den Frauen der untern
+Klassen den zündenden Funken zu einem bewußten organisierten
+Wollen zu entfachen. Die soziale Revolution von 1789 riß wohl
+eine ganze Reihe glänzender Frauengestalten auf die Welten-
+bühne. Die eifrigen Revolutionärinnen Rose Lacombe, Olympe
+de Gouges waren vor allem Kämpferinnen für die Rechte der
+Frau. Madame Noland, deren geistige Bedeutung ein Goethe
+anerkannte, nahm lebhaften Anteil an der Tagespolitik. Aber alle
+jene in den Salons der Girondisten (Vertreter des Großbürger-
+tums) sowie im Klub der Jakobiner (Vertreter der kleinbürger-
+lichen Demokraten) am geistigen Leben der Revolution sich betei-
+ligenden Frauen gehörten den höheren Gesellschaftsschichten an.
+Sie traten in Wort und Schrift, für die Umgestaltung der herr-
+schenden Gesellschaftsordnung ein. Eine nachhaltige Bewegung
+vermochten die bürgerlichen Freiheitskämpfe indessen unter den
+Frauen des Volkes nicht auszulösen. Zwar haben diese in
+den bewegten Tagen der französischen, der deutschen, der Wiener
+Revolution von 1848 auf den Barrikaden gestanden und an allen
+Kämpfen mit der den Frauen eigenen Tapferkeit und Begeiste-
+rung teilgenommen. Sogar die große Revolution kündet eine
+erfolgreiche Frauentat: den berühmten Zug der hungernden
+Frauen vom 5. September zum Versailler Königsschloß, um von
+Ludwig XVI. Brot für sich und die Kinder zu verlangen. Aber das
+alles waren keine von einem bewußten Willen getragene Ak-
+tionen.
+Erst dem Sozialismus fiel die hehre Aufgabe zu, die Gedrück-
+testen, die Bejammernswertesten und die Rechtlosesten der mensch-
+lichen Gesellschaft mit dem Lichte der Erkenntnis des erduldeten
+Unrechts zu erfüllen und sie aufzuwecken aus dem tiefen geistigen
+Schlafe, der sie lange Jahrhunderte umfangen hielt. Nicht Theorie,
+nicht wissenschaftliches Grübeln waren es, das sie wach werden
+ließ und ihnen den Weg ihrer Pflicht vorzeichnete. Die industrielle
+Revolution, die mit der Erfindung der Dampfmaschine 1764 durch
+James Watt einsetzte, der drei Jahre später die wichtigste mecha-
+nische Erfindung des 18. Jahrhunderts folgte, die mit mecha-
+nischem Antrieb in Bewegung gesetzte Spinning Throstle von
+Richard Arkwright, diese industrielle Revolution hatte wohl mit
+leisen Schlägen an Herz und Verstand gepocht. Kaum daß das
+erste schwache Rütteln von den Frauen verspürt wurde. Zu schwer
+lastete der Druck der Vorurteile, der anerzogenen Gedankenlosig-
+keit, wie Bleigewicht auf ihnen. Da auf einmal erklang ein
+scharfer, hell metallener Ton! Die erlösende Botschaft des Sozia-
+lismus, dieses allgewaltigen Schmerzens- und Leidensstillers. Wie
+horchten die Frauen auf! Erst ungläubig die Köpfe schüttelnd,
+bis es sie innerlich zerrte und riß, mit aller Macht auf sie ein-
+stürmte und ihnen allmählich das beglückende und befreiende Pro-
+phetenwort zur unentbehrlichen geistigen Nahrung wurde.
+Mit dem Sieg der Maschinenarbeit über die Handarbeit
+schlug der Kapitalismus der Frau die grausamsten Wunden. Unter
+ihrer Einwirkung vollzog sich die Auflösung der patriarchalischen
+Hausgenossenschaft noch rascher. Zweig um Zweig der produktiven
+Arbeit wurde der bäuerlichen Hausindustrie entrissen und hinein
+in die Fabriken verlegt. Der immer gewaltiger sich entfaltenden
+Großindustrie werden die Arbeiterfrauen und Mädchen von Jahr
+zu Jahr in steigendem Maße als Berufstätige, als Erwerbende
+zugeführt. Karl Moor, Bern, gibt in seiner Broschüre: „Ueber das
+Stimmrecht der Frauen“ ein anschauliches Zahlenbild über den
+Anteil des weiblichen Geschlechts an der modernen wirtschaft-
+lichen Tätigkeit. Jch kann mich daher auf einige wenige Angaben
+beschränken. Nach den zuverlässigsten in Betracht kommenden Be-
+rechnungen war in Ungarn, Rußland, Oesterreich beinahe die
+Hälfte der weiblichen Bevölkerung erwerbstätig, in Jtalien,
+Frankreich, Deutschland etwas mehr als ein Drittel, in der
+Schweiz, Belgien, Dänemark annähernd ein Drittel, während in
+den industriell bedeutend weniger fortgeschrittenen Ländern, wie
+Spanien und Portugal, die erwerbstätigen Weiblichen heute nur
+ungefähr einen Siebentel der weiblichen Gesamtbevölkerung aus-
+machen. Deutschland zum Beispiel zählte 1882 5,541,517 weibliche
+Erwerbstätige; 1895 6,578,550 und 1907 sogar 9,492,881; also nach
+Verlauf von 25 Jahren annähernd das Doppelte. Diese 9 ½ Mill.
+Frauen und Mädchen machen mehr als den vierten Teil der ge-
+samten weiblichen Bevölkerung des deutschen Reiches aus. Aehn-
+liche Zahlenverhältnisse weist die Schweiz auf. Die Volkszählung
+von 1870 registrierte rund 217,500 erwerbende weibliche Personen:
+freie Berufe, Kopfarbeiterinnen 10,000, Jndustrie 186,000 und
+Handel 21,500. Die Volkszählung von 1900 ergab ein Anwachsen
+der weiblichen Erwerbskräfte auf die Zahl 319,500: freie Berufe
+24,000, Jndustrie 234,000 und Handel 61,500. Jn den 30 Jahren
+von 1870 bis 1900 fand demnach eine Vermehrung der erwerbs-
+-
+tätigen Schweizerfrauen um 102,000 statt, rund um 50 Prozent.
+Heute ist die Zahl der weiblichen Erwerbskräfte weit über eine
+halbe Million angewachsen.
+Daß die Frauen- und Jugendlichen-Erwerbsarbeit in stetem
+Steigen begriffen ist, geht auch aus den Berichten der schweize-
+rischen Fabrikinspektoren hervor. Danach ist im Zeitraum von
+1901 bis 1909 im 2. Jnspektionskreise die Zahl der jugendlichen
+Erwerbstätigen um 70,3 Prozent, die der Frauen überhaupt um
+88,1 Prozent gestiegen. Die Zunahme der jugendlichen Frauen
+allein beträgt 82,6 Prozent, während die der männlichen Jugend-
+lichen nur 59,2 Prozent ausmacht. Die Zahl der erwachsenen
+Frauen verzeichnet eine Vermehrung um 80,2 Prozent. Die Ver-
+gleichung mit dem numerischen Stand der männlichen Fabrik-
+arbeiterschaft des betreffenden Kreises ergibt ein verhältnis-
+mäßig stärkeres Anwachsen der weiblichen Fabrikarbeiter als der
+männlichen, bei den Frauen um rund 17 Prozent; bei den jugend-
+lichen Weiblichen um 25 Prozent. Wenn auch diese Verhält-
+nisse nicht ohne weiteres eine Verallgemeinerung zulassen, so ist
+aus den Aeußerungen der Fabrikinspektoren doch untrüglich zu
+erkennen, daß die Zunahme der Verwendung weiblicher Arbeits-
+kräfte in einem steten Fortschreiten begriffen ist.
+Aus all diesen Zahlen redet in nicht zu mißdeutender Sprache
+die Leibes- und Seelennot der modernen Arbeiterin, die erbar-
+mungslos hinausgeworfen wird in den harten Daseinskampf, der
+heute in seiner nackten Brutalität mehr als der Hälfte der heirats-
+fähigen Arbeiterinnen den Eintritt in die Ehe verwehrt. Nicht
+daß der Frauenüberschuß hierbei eine gewichtige Rolle spielt. Nach
+der Volkszählung gab es in Deutschland 1900 27,246,000 Männer
+und 28,284,000 Frauen, und 1907: 30,461,000 Männer und
+31,259,500 Frauen; also 1900 einen Ueberschuß von ungefähr
+1 Million Frauen, und 1907 von 800,000. Dieser macht sich erst
+vom 16. Altersjahre an bemerkbar und erfährt die höchste Steige-
+rung in den höheren Altersstufen. Unter 16 Jahren überwiegt das
+männliche Geschlecht mit 50,000, in der Altersstufe von 16 bis 30
+Jahren wendet sich das Verhältnis, indem sich ein Plus von
+125,000 Frauen ergibt, das von 50 bis 70 Jahren die Höchstziffer
+von 500,000 erreicht, und über die 70 Jahre hinaus wieder zurück-
+sinkt auf 185,000. Die Jungweibernot, wie der Dichter Frenssen
+die Altjungfernschaft nennt, beschränkt sich nicht etwa auf den
+Frauenüberschuß, der im eigentlichen Heiratsalter, also vom 16.
+bis 30. Jahre im obigen Falle 125,000 beträgt. Jn Wirklichkeit
+waren im Jahre 1900 von den 6 ¾ Millionen erwerbstätigen
+Frauen rund 70 Prozent unverheiratet, nämlich etwa 4 ¾ Mill.
+Von 1900 bis 1907 nimmt dieser Prozentsatz sogar noch bedeutend
+zu. Diese Tatsache wirft ein helles Schlaglicht auf das Familie
+und Ehe zerstörende Wirtschaftssystem, unsere kapitalistische
+Weltordnung.
+Jm nachbarlichen Oesterreich ist diese Frauennot noch größer.
+Hier zeigt sich sogar die merkwürdige Erscheinung, daß auf je
+1000 gewerblich tätige Personen noch mehr Frauen als im indu-
+striell hochentwickelten Deutschland kommen. Auf 1000 zum Bei-
+spiel in der Tabakindustrie beschäftigte Personen entfallen in
+Deutschland 513 Frauen und Mädchen, in Oesterreich aber 881;
+in der Glasindustrie in Deutschland 138, in Oesterreich 291. Der-
+gestalt haben moderne Fabrikindustrie und Großhandel dem
+Haushalt die frühere Bedeutung entrissen und ihn seines alten
+Charakters entkleidet.
+Dieses stetig anschwellende Einströmen der Frauen in Handel,
+Jndustrie und Gewerbe hält fortwährend die Triebkräfte der
+Frauenbewegung lebendig, der bürgerlichen sowohl wie der prole-
+tarischen. Beide erstreben mit der Wiedereingliederung in die
+gesellschaftliche Wirtschaft, die sich auf das Geheiß des Kapitalis-
+mus vollzieht, die soziale Gleichberechtigung. Dieses Endziel wird
+die bürgerliche Frauenbewegung niemals völlig erreichen. Wenn
+ihr auch die rechtliche Gleichstellung der Geschlechter gelingt, so
+kann im Schoße der bürgerlichen Gesellschaftsordnung das Pro-
+blem der weitestgehenden Entwicklungs- und Betätigungsmöglich-
+keit der Frauen nicht vollständig gelöst werden. Der charakteri-
+stische Wesenszug des Kapitalismus, die Höchsteinschätzung und
+Heilighaltung des Privateigentums, bildet zur Erreichung jenes
+Zieles ein unübersteigliches Hindernis. Erst der sozialistischen,
+auf Gemeinwirtschaft aufgebauten Zukunftsgesellschaft wird es
+vorbehalten sein, die letzten sozialen Fesseln zu sprengen.
+Jn hohem Maße begünstigt wird die Einbeziehung des weib-
+lichen Proletariats in Jndustrie und Gewerbe durch den tech-
+nischen und wissenschaftlichen Fortschritt. Wahrhaftes Staunen
+erregen die revolutionierten Produktionsmittel und Verfahren
+der Neuzeit. Man vergegenwärtige sich zum Beispiel nur die
+sechsfach ermöglichte Steigerung der Produktion durch den im
+Jahre 1910 von der Maschinenfabrik Rüti konstruierten automa-
+tischen Webstuhl oder den heute schon zahlreich in der Stickerei-
+branche eingeführten Automaten mit seiner achtfachen Pro-
+duktivität. Die maschinellen Vervollkommnungen, die wirtschafts-
+technische Revolution in Jndustrie und Gewerbe lassen die man-
+nigfaltigste Verwendung und Ausnutzung der weiblichen Arbeits-
+kraft zu. Neben dem Manne und in der neueren Zeit an Stelle
+des Mannes tritt die proletarische Arbeiterin mehr und mehr auf
+den Werkplatz des Lebens. Wo findet sich heute ein Arbeitsgebiet
+für Körper und Geist, das den Frauen die Türe verschließt?
+Unter den 10,000 Berufsarten, welche die Statistik nennt, sind
+eine große Anzahl, die sich für die Frau noch besser eignen als für
+den Mann. Sicherlich bleibt nicht zu befürchten, daß die Frauen
+die spezifisch männlichen Berufe, jene des Bahnbeamten, Poli-
+zisten, Packträgers usw. auswählen werden, um dafür den Män-
+nern die weiblichen Berufe, wie Näherei, Blumenmachen, Putz
+usw. zu überlassen. Vielmehr sorgt heute die Arbeitsteilung
+schon dafür, und wird dies in der sozialistischen Gesellschaft noch
+zweckdienlicher geschehen, daß jedes, Mann und Weib, diejenigen
+Kulturwerte schafft, die seiner natürlichen Veranlagung und
+seinem Charakter entsprechen.
+Die gedankenlose Phrase: Die Frau gehört ins Haus, wird
+millionenhaft Lügen gestraft. Kapitalistische Profitsucht und
+proletarische Not treiben die Mutter oft genug vom Säugling
+weg ins qualvolle, auf die Dauer schier unerträgliche Sklavenjoch
+des Erwerbs. Wo findet sich übrigens heute ein Gegenstand, ein
+Kunstprodukt, das ohne das Zutun der Frauen geschaffen
+wird? Harte sehnige Frauenkörper, die allen Liebreiz verloren,
+arbeiten gleich Männern im dunkeln Berginnern. Jch erinnere
+hier nur an die plastischen, monumentalen Darstellungen eines
+Meunier. Frauen sind es, die hinaufsteigen auf die schwankenden
+Gerüste, Frauen, die schaffen am feuerlohenden Gießofen. Ströme
+warmen, lebendigen, lustglühenden Blutes verrauchen in den von
+Dunst und Staub erfüllten Arbeitszwingern. Selbst die Macht
+der Religion weicht zurück vor dem Kommandoruf des Kapitals,
+das gefühllos hinwegschreitet über Legionen in seinem Dienst er-
+töteter Menschenleiber und Menschenseelen. Die von den klas-
+sischen Weltphilosophen gekündete Heiligkeit des Lebens ist in den
+Staub getreten. Denn heilig ist allein der Besitz, heilig ist nur
+das Kapital.
+Allein die drängende Flut des Lebens, das geschichtliche Ver-
+gehen und Werden, wandelt alles Bestehende, schafft neue Formen,
+neue Jdeen, neue Daseinsnormen. Das Dogma von der Heilig-
+keit des Besitzes ist bereits vom wissenschaftlichen Sozialismus,
+durch seine großen Bekenner, Marx und Engels, als ein unrecht-
+mäßiges heuchlerisches Jnstrument in der Hand brutalen Eigen-
+nutzes gebrandmarkt worden. Jn gleicher Weise mußte die bür-
+gerliche Wissenschaft die Lehre von der Minderwertigkeit der
+weiblichen Begabung, dieses Ergebnis allzu kühnen Forschergeistes,
+einer Revision unterziehen. Diese Theorie spuckt zwar bewußt
+und unbewußt noch in manchem Männerkopf. Doch lassen wir
+die Theorie und begnügen wir uns mit der Tatsache, daß die Pro-
+duktion auf die Arbeitskraft und die besonderen Fähigkeiten der
+Frau geradezu angewiesen ist und ihrer nicht mehr entraten kann.
+Aus dem kleinen Haus, der engumgrenzten Häuslichkeit, hat
+der unaufhaltsame Entwicklungsprozeß in der Gesellschaft die
+Frau hinausgeführt in das große weite Haus der Welt. Hier
+waltet und wirkt sie mit ihrer Hände Arbeit und ihres Geistes
+und Gemütes Kraft in Fabrik und Werkstatt, im Bureau und
+Laden, in der Schule, im Krankenhaus, für das Wohl der Gesell-
+schaft, für das Gedeihen der Allgemeinheit. Die Arbeit, die Tätig-
+keit, bildet wie beim Manne die Grundlage ihrer Existenz und
+verschafft ihr mit der Pflicht das Recht zur Verteidigung ihrer
+Lebensinteressen. Erscheint es da nicht selbstverständlich, daß
+gleiche Pflichten gleiche Rechte bedingen? Jst die Frau wie der
+Mann der Arbeit verpflichtet, dann soll sie auch als Gleichberech-
+tigte neben ihm stehen. Soll sie arbeiten, erwerbstätig sein in der
+Gemeinde, im Staat, in der Gesellschaft, dann lasse man sie auch
+mithaushalten in dem großen Weltenhause. Man gebe ihr per-
+sönliche, wirtschaftliche und politische Rechte wie dem Manne.
+Denn dadurch, daß die Frauen in der gesellschaftlichen Produktion
+tätig sind, ist ihre Existenzsicherheit nicht mehr eine wie früher
+durch den Hausfleiß gegebene. Jhr persönliches Dasein hängt von
+der Außenwelt, der Gesellschaft ab; es verknüpft sich mit den so-
+zialen Einrichtungen und Erscheinungen. Der Besitz politischer
+Rechte zur Wahrung der persönlichen Jnteressen wird für die
+Frau eine Lebensnotwendigkeit wie für den Mann.
+Hinzu tritt noch ein weiteres Moment. Die wirtschaftliche
+Gleichberechtigung mit dem Manne verhilft der Frau zur ökono-
+mischen Unabhängigkeit von ihm und der Familie und erweckt in ihr
+die Erkenntnis ihres Eigenwertes, ihrer selbständigen Persönlich-
+keit. Erst jetzt wird sie sich ihrer hohen Naturbestimmung als
+Weib bewußt. Jhre hausfraulichen und mütterlichen Funktionen
+erscheinen ihr nicht mehr als Privatleistungen im Dienste des
+Mannes: Sie wachsen empor zu ihren höchsten Pflichtleistungen
+gegenüber dem Staate, gegenüber der Menschheit. Unter dem Ge-
+sichtswinkel dieser Einwertung empfindet sie die soziale und po-
+litische Vormundschaft des Mannes als ein gewaltiges Unrecht,
+als eine schwer lastende Kette, welche die eigene Rechtlosigkeit ihr
+geschmiedet. Die Forderung des Stimmrechts bedeutet daher die
+mit Hilfe des Gesetzes zu erreichende Mündigkeitserklärung der
+Frauen. Jn unsern Tagen verdichtet sich dieses Verlangen nach
+der politischen Rechtsgleichheit der Geschlechter zu einem bewußten
+Massenwillen, der mit siegreicher Kraft vorwärts stürmt.
+Noch aber haben die Frauen einen Kreuzesweg zu gehen, den
+sie seit mehr als einem Jahrhundert beschreiten und der sein
+Ende bis heute nicht erreicht hat. Tränen und blutiger Schweiß
+erzählen von der zurückgelegten Wegstrecke. Die Hungerlöhne der
+Frauen und Kinder enthüllen ein Elendsbild stumm erlittener
+Leibes- und Seelenqualen, aus dem mit grauenvollen Augen der
+Alkoholismus und die Prostitution hervorglotzen, jene Pesthauch
+ausatmenden Würgengel, die Schönheit, Tugend und Jugend ver-
+nichten. Die leidvollste Kreuzesträgerin aber ist die Mutter. Jhr
+Pfad ist der dornen- und schmerzensreichste! Die Pflichten der
+Mutterschaft und Berufsarbeit schaffen innere Konflikte, Seelen-
+kämpfe, die wehvollsten im Leben des Weibes! Das Dulden dieser
+Mütter ist nicht umsonst! Es hat den Grund gelegt und baut ihn
+weiter fort zu jenem Mut und jener Kampfesausdauer, die Berge
+zu versetzen imstande sind. Die geschichtliche Entwicklung reißt
+die Frauen aus dem harten Muß zum unbeugsamen Wollen und
+sichert ihnen damit den Sieg in der Zukunft.
+Der Kampf der Frauen um ihre Rechte und damit um bessere
+Arbeits- und Lebensbedingungen ist nicht etwa eine vom übrigen
+Weltgeschehen losgetrennte Einzelerscheinung. Er bildet vielmehr
+einen Teil der allgemeinen Umwälzung der sozialen und wirt-
+schaftlichen Verhältnisse. Er bildet eine notwendige Vorstufe im
+Entwicklungsgang der Gesellschaft zu voller Demokratie, dessen
+Endziel gipfelt in der uneingeschränkten politischen Gleichberech-
+tigung des Proletariats. Faßt man dieses in den ökonomischen
+Gesetzen begründete geschichtliche Weiterschreiten der Menschheits-
+entwicklung ins Auge, so wird einem sofort klar, daß nicht die
+bürgerliche Frauenbewegung, daß nicht die bürgerlichen Parteien
+die endgültige politische Befreiung des weiblichen Geschlechtes zu
+vollbringen imstande sein werden. Unter allen Parteien in allen
+Ländern trägt einzig die Sozialdemokratie das Banner mit der
+Losung: Für das allgemeine Frauenstimmrecht! voran.
+Wohl prägte die Bourgeoisie ehemals im Kampfe gegen den
+Feudaladel, gegen die Vorrechts- und Machtstellung der Aristo-
+kratie, mit Flammenschrift das politische Recht der Persönlichkeit
+als ein von der Natur gegebenes und gewolltes ihrer Siegesfahne
+auf. Die Betonung dieses Fundamentalsatzes im wetternden
+Sturme der Völkerbefreiung verschaffte dem Bürgertum die Mit-
+herrschaft im Staate und damit eine ungehinderte, seinen Klassen-
+interessen dienende Entfaltung der kapitalistischen Produktion.
+Der treue Kampfgenosse, das Proletariat, der vierte Stand, ging
+bei dieser Machtaneignung leer aus. Er war noch zu jung, noch
+fehlten ihm die Kräfte zur Geltendmachung seiner Rechte.
+Heute aber ist das Proletariat schon dermaßen erstarkt, daß
+es gebieterisch seinen Teil fordert am öffentlichen politischen Recht.
+Gewaltige Klassenkämpfe erschüttern die Gesellschaft. Mit allen
+Mitteln suchen die besitzenden Klassen ihr Machtgebiet der prole-
+tarischen Ausbeutung sich ungeschmälert zu erhalten. Schritt um
+Schritt muß ihnen der Boden von der kämpfenden Arbeiterschaft
+abgerungen werden. Dabei bedient sich das Proletariat der For-
+derung nach dem allgemeinen Stimmrecht als eines der wirk-
+samsten Mittel zur Sammlung und Schulung der arbeitenden
+noch unorganisierten Männer und Frauen. Mit Bangen und
+Schrecken wird das Bürgertum gewahr, daß mit der Eroberung
+der politischen Macht durch die Arbeiterschaft der bürgerlichen
+Klassenherrschaft ein Ende bereitet und damit freie Bahn geschaf-
+fen wird für die soziale Umgestaltung.
+Daher auch die Lauheit des Bürgertums gegenüber der bür-
+gerlichen Frauenbewegung. Diese ist gezwungen, gegen die soziale
+und rechtliche Vorzugsstellung der Männer Kehrt zu machen, um
+sich ihren gewünschten Anteil an den sozialen Vorteilen und Mo-
+nopolen der besitz- und machthabenden Klassen zu sichern. Heute,
+wo es sich um eine Machteinschränkung im einen wie im andern
+Falle für die Bourgeoisie handelt, vermag sie sich darum nicht
+mehr für die volle politische Gleichberechtigung des Weibes zu er-
+wärmen und zu begeistern wie in ihrer Entwicklungsperiode.
+Wenn der Liberalismus auch hin und wieder Hand bietet zur Er-
+langung eines eingeschränkten, an Besitz und Bildung gebundenen
+Frauenstimmrechts, des Damenwahlrechtes, so geschieht das einzig
+und allein im Hinblick und in Würdigung der Macht des weib-
+lichen Besitzes.
+Ein beschränktes, oder gar an Besitz und Bildung gebundenes
+Zensus-Wahlrecht ist aber für die Schweizerfrauen von vorn-
+herein undenkbar und ausgeschlossen. Jn unserer Demokratie be-
+deutet eine solche Forderung die vollständige Verkennung unserer
+freiheitlichen Jnstitutionen, die Verläugnung der geschichtlichen
+Vergangenheit unseres Landes. Die proletarische wie die bürger-
+liche schweizerische Frauenbewegung kennt daher nur eine Forde-
+rung des Stimmrechts: das allgemeine Stimmrecht, wie es die
+Schweizerbürger schon besitzen, das allgemeine Stimmrecht, das alle
+anderen politischen Bürgerrechte in sich schließt. Jm Kampfe um
+diese Forderung mag darum ein zeitweiliges Zusammengehen der
+proletarischen und bürgerlichen Frauen, die Veranstaltung gemein-
+samer Aktionen in bestimmten Fällen wohl gegeben sein, etwa in
+ähnlicher Art, wie die Genossen bei der Eroberung des Proporzes
+sich der bürgerlichen Mithilfe versichern. Jm übrigen pflichten
+wir in bezug auf die organisatorische Frage den Ausführungen
+der österreichischen Genossin Adelheid Popp bei, die an der
+II. Jnternationalen Frauenkonferenz in Kopenhagen 1910 den
+Standpunkt des weiblichen Proletariats gegenüber den Frauen-
+rechtlerinnen also markierte: „Für Sozialistinnen erscheint uns
+überflüssig zu sagen, daß sie den Kampf nicht mit den bürger-
+lichen Frauenrechtlerinnen, sondern in Gemeinschaft mit den
+Männern ihrer Klasse kämpfen. Das ist für Arbeiterinnen selbst-
+verständlich, und wir würden es für eine Beleidigung halten,
+es anders zu erwarten. Um die bürgerliche Frauenbewegung
+kümmern wir uns nicht, greifen sie auch nicht an, wenn kein Anlaß
+dazu vorliegt.“ Bei dieser Debatte handelte es sich um die von
+Klara Zetkin redigierte Fassung der Resolution über das Frauen-
+stimmrecht, die der internationale Frauenkongreß in Stuttgart
+1907 angenommen. Der zu gleicher Zeit tagende internationale
+Sozialistenkongreß in Stuttgart stimmte den letzten drei Absätzen
+unter Weglassung der am Anfang stehenden allgemeinen Ausein-
+andersetzungen bei. Diese für die verschiedenen Länder als prin-
+zipielle Wegleitung bei der Erkämpfung des allgemeinen Frauen-
+stimmrechts dienende Resolution hat folgenden Wortlaut:
+„Die sozialistischen Parteien aller Länder sind verpflichtet, für
+die Einführung des allgemeinen Frauenwahlrechts energisch zu
+kämpfen. Daher sind insbesondere auch ihre Kämpfe für Demokra-
+tisierung des Wahlrechtes zu den gesetzgebenden Körperschaften in
+Staat und Gemeinde zugunsten des Proletariats als Kämpfe für
+das Frauenwahlrecht zu führen, das energisch zu fordern und in der
+Agitation wie im Parlament mit Nachdruck zu vertreten ist. Jn
+Ländern, wo die Demokratisierung des Männerwahlrechts bereits
+weit fortgeschritten oder vollständig erreicht ist, haben die soziali-
+stischen Parteien den Kampf für die Einführung des allgemeinen
+Frauenwahlrechts aufzunehmen und in Verbindung mit ihm
+selbstverständlich alle die Forderungen zu verfechten, die wir im
+Jnteresse vollen Bürgerrechts für das männliche Proletariat etwa
+noch zu erheben haben. Pflicht der sozialistischen Frauenbewegung
+aller Länder ist es, sich an allen Kämpfen, welche die sozialistischen
+Parteien für die Demokratisierung des Wahlrechts führen, mit
+höchster Kraftentfaltung zu beteiligen, aber auch mit der näm-
+lichen Energie dafür zu wirken, daß in diesen Kämpfen die For-
+derung des allgemeinen Frauenwahlrechts nach ihrer grundsätz-
+lichen Wichtigkeit und praktischen Tragweite ernstlich verfochten
+wird. Der internationale Kongreß erkennt an, daß es nicht ange-
+bracht ist, für jedes Land die genaue Zeit anzugeben, wo ein
+Wahlrechtskampf anzufangen sei, erklärt jedoch, daß, wenn ein
+Kampf für das Wahlrecht geführt wird, er nur nach den soziali-
+stischen Prinzipien geführt werden soll, also mit der Forderung
+des allgemeinen Wahlrechts für Frauen und Männer.“
+Nun erachten wir für unser Land, die Schweiz, den Zeitpunkt
+für gekommen, wo der Kampf um das Stimmrecht der Frauen
+von der Sozialdemokratie auf der gesamten Linie mit aller
+Energie zu beginnen hat. Pflicht der Partei, ihrer Verbände und
+Organe wie ihrer Vertreter in den Behörden soll von nun an
+sein, jede Gelegenheit zu ergreifen zur Agitation für das Frauen-
+stimmrecht, wie zu seiner Einführung für die Behörden, wo es
+zunächst erreichbar ist. Jn diesem Sinne lautet auch ein vorlie-
+gender Antrag des sozialdemokratischen Frauenvereins Bern:
+„Der schweizerische sozialdemokratische Parteitag 1912 in Neuen-
+burg ladet die sozialdemokratischen Vertreter in den kantonalen
+Parlamenten ein, überall da, wo das aktive und passive Wahlrecht
+der Frauen für die Schul- und Armenbehörden noch nicht besteht,
+oder wo diese zeitgemäße Forderung nicht erst kürzlich diskutiert
+wurde, die Gewährung dieses Frauenwahlrechtes zu beantragen.“
+So bleibt die Sozialdemokratie, das Proletariat die einzige
+geschlossene Macht, welche für die volle Gleichberechtigung des
+weiblichen Geschlechtes eintritt. Während der Kampf um diese
+Forderung im bürgerlichen Lager lähmend und Kräfte zersetzend
+wirkt, sammelt er die Ausgebeuteten und vereinigt sie zur mäch-
+tigen gesellschaftlichen Organisation. Je weiter diese fortschreitet,
+um so mehr rückt die Hauptforderung des weiblichen Proletaria-
+tes, das Frauenstimmrecht, in den allgemeinen Jnteressenkreis der
+Arbeiterklasse. Die veralteten Vorurteile gegen das Frauen-
+geschlecht schrumpfen mehr und mehr zusammen. Die Erkenntnis
+ringt sich durch, daß auch die Proletarierin mit der Einsetzung
+ihrer ganzen Kraft mithelfen muß, das mächtige Gebäude der
+kapitalistischen Klassenherrschaft zu stürzen. Die größere Entfal-
+tung der Frauenkräfte wird aber nur ermöglicht durch den Voll-
+besitz politischer Rechte. Denn im Grunde bedeutet jeder Klassen-
+kampf ein Ringen um die politische Macht. Die Forderung nach
+dem uneingeschränkten allgemeinen Stimmrecht kann daher nur
+aufgefaßt werden im Sinne unerläßlicher notwendiger Ergänzung
+des politischen Männerrechtes als Vorbedingung für die volle
+Demokratisierung der menschlichen Gesellschaft.
+Wie steht es nun mit der Verwirklichung des Frauenstimm-
+rechtes in den verschiedenen Ländern? Jn der alten wie in
+der neuen Welt finden sich mehr oder weniger entwickelte An-
+sätze. Jahr für Jahr sind Fortschritte zu verzeichnen. Die bishe-
+rigen Erfahrungen zeigen, daß dort, wo das weibliche Geschlecht
+seinen Einfluß direkt in den städtischen und staatlichen Parla-
+menten zur Geltung bringen kann, es sehr bald die Widerstände
+überwindet, die seiner vollen Mitbetätigung im kulturellen und
+öffentlichen Leben noch im Wege stehen. Fast überall, wo das po-
+litische Frauenstimmrecht erobert wurde, geschah dies erst im An-
+schluß an das städtische, das Gemeinde- oder Kommunalwahlrecht.
+Dieses letztere weist innerhalb eines und desselben Landes infolge
+der verschiedenen Stadt- und Landgemeindeverordnungen die
+komplizierteste Gestaltung auf.
+Es hieße wohl Eulen nach Athen tragen, wollten wir uns
+hier über den Stand der heutigen Frauenstimmrechtsbewegung
+in all den verschiedenen Ländern verbreiten. Genosse Karl Moor
+hat in seiner bereits erwähnten Broschüre, die Sie alle in Händen
+haben, auf mehr als zwanzig Seiten eine ausgezeichnete Orientie-
+rung darüber gegeben.
+An die Eroberung des Frauenstimmrechtes knüpfen sich in-
+dessen nicht nur praktische Momente. Es bringt auch starke geistige,
+ideelle Kräfte zur Auswirkung. Vor allem vermittelt es den Ein-
+blick in den geschichtlichen Entwicklungsgang der menschlichen Ge-
+sellschaft, wobei das Stimmrecht sich zu einem Mittel der sozialen
+Verteidigung und der Anerkennung sozialer Mündigkeit des weib-
+lichen Geschlechtes gestaltet. Der gedrückten Klassenlage der Aus-
+gebeuteten, Minderberechtigten und Unfreien, entsprießt der so-
+ziale Gerechtigkeitssinn, der das gewaltige Unrecht dem Weibe
+gegenüber lebhaft nachfühlen läßt. Mit dem Grade des Fort-
+schreitens der proletarischen Bewegung und damit der Kultur-
+entwicklung wächst der Drang nach Mitarbeit, nach Nutzung der
+Kräfte für die Gemeinschaft, nach Entfaltung der persönlichen
+Eigenart. Daher wird überall, wo der Same des Sozialismus
+in die vollen Aehren schießt, auch die Saat bereitet der Mensch-
+heitsbefreiung des Weibes.
+Wohl liegt die Gewißheit nahe, daß mit der Einführung des
+Frauenstimmrechtes die Macht der Reaktion, des Rückschrittes,
+vorübergehend gestärkt werde. Sei es! Die Sozialdemokratie kennt
+nicht den Ehrgeiz des momentanen Erfolges. Jhr schwebt stets
+vor Augen das leuchtende Ziel der Menschheitsveredlung. Daher
+bedeutet für sie das Frauenstimmrecht ein wertvolles Mittel der
+politischen Sammlung und Schulung der proletarischen Frauen-
+massen.
+Denn die rechtlose Proletarierin wird durch die ihr von
+bürgerlicher Seite erwiesenen Wohltaten geblendet, irregeführt,
+nicht selten von ihren eigenen Todfeinden als Werkzeug gegen die
+Arbeitsbrüder verwendet. Als Vollbürgerin im öffentlichen Leben
+stehend, wird sie zur begeisterten Kampfesgenossin im Dienste des
+Sozialismus, wird sie zur begeisterten Kampfesgenossin in den
+Anstürmen gegen die Ausbeutung und Unterdrückung durch die
+herrschende kapitalistische Klasse. Als Vollbürgerin wird sie als
+verständige, den Blick aufs Große gerichteten Mutter aber auch in
+ihren Kindern ein brauchbares, tüchtiges Geschlecht von Kämpfern
+und Kämpferinnen für den Sozialismus heranziehen. So besehen
+ist der Kampf ums Frauenstimmrecht mehr als eine Forderung
+der Gerechtigkeit und mehr als eine Sache der Frauen. Er
+ist auch Männersache, er ist ein Kampf zur Abschaffung der
+Klassenherrschaft, ein Kampf um Menschenrechte, ein sieghafter
+Kampf, der altersgraue Mauern niederreißt und die gesamte
+befreite Menschheit in die lichten weiten Sonnenhallen des Kom-
+munismus und der Demokratie hineinführen wird, wo beide Ge-
+schlechter, Mann und Weib, erst der Menschwerdung entgegen-
+reifen.
+Thesen betreffend das Frauenstimmrecht.
+(Am Parteitag in Neuenburg bereinigt und angenommen.)
+1. Nach der materialistischen Geschichtsauffassung ist die Stel-
+lung des Weibes bedingt durch die in jeder Epoche herrschenden
+Produktionsverhältnisse. Auf der Stufe des Ackerbaues der kom-
+munistischen Geschlechtsverbände war die Frau mit dem Manne
+gleichberechtigt.
+2. Veränderte Produktionsverhältnisse setzten an Stelle des
+Kommunismus das Privateigentum, die patriarchalische Groß-
+familie mit der Herrschaft des Mannes und der Knechtung der
+Frau.
+3. Die moderne Wirtschaft zieht schon in ihren Anfängen die
+Frau in die Erwerbstätigkeit und erschüttert die Produktions-
+einheit des Familienhaushalts. Bereits in diesem Vorstadium des
+Kapitalismus treten weibliche und männliche Vorkämpfer des
+revolutionären Bürgertums für die wirtschaftliche und politische
+Gleichstellung der Frau ein.
+4. Die Einführung der Maschine in den kapitalistischen Be-
+trieb treibt Massen weiblicher Personen in die Fabriken, Maga-
+zine, Bureaus und zerstört in großen Schichten des Volkes die
+Reste der patriarchalischen Familie. Der Mann ist nicht mehr
+alleiniger Ernährer. Dadurch kommen die Frauen zum Bewußt-
+sein ihrer wirtschaftlichen Gleichberechtigung und verlangen folge-
+richtig auch die Gleichberechtigung zur Anteilnahme an den öffent-
+lichen Angelegenheiten.
+5. Diese Anteilnahme erheischt das gleiche Stimm- und Wahl-
+recht für die Frauen wie für die Männer. Keine bürgerliche Par-
+tei erstrebt und anerkennt die volle Gleichberechtigung der Frau.
+Einzig die sozialdemokratische Partei, die für die wirtschaftliche
+und soziale Befreiung des arbeitenden Volkes und somit für die
+Aufhebung jeder Klassenherrschaft kämpft, tritt auch für die völ-
+lige Gleichstellung der Frau ein.
+6. Die angeblich parteilose bürgerliche Frauenbewegung unter-
+scheidet sich grundsätzlich von dieser Stellungnahme. Jhr Endzweck
+ist die Aufrechterhaltung des auf dem Privateigentum beruhenden
+Wirtschaftssystems. Ein zeitweiliges Zusammenwirken zur Er-
+ringung des Frauenstimmrechts ist zulässig. Die Zugehörigkeit zu
+einer bürgerlichen Frauenorganisation widerspricht jedoch den Jn-
+teressen und den Satzungen der Partei. Hieraus ergibt sich die
+Notwendigkeit, mit ganzer Kraft für die Stärkung der sozialdemo-
+kratischen Frauenbewegung einzutreten.
+7. Der Parteitag in Neuenburg erklärt daher, in Ueberein-
+stimmung mit den Beschlüssen des Jnternationalen Sozialisten-
+kongresses in Stuttgart 1907, als Pflicht der Partei, ihrer Ver-
+bände und Organe wie ihrer Vertreter in den Behörden, jede Ge-
+legenheit zu ergreifen zur Agitation für das Frauenstimmrecht,
+wie zu seiner Einführung in die Behörden, wo es zunächst erreich-
+bar ist.
+8. Das Frauenstimmrecht ist mehr als eine Forderung der
+Gerechtigkeit. Es ist ein wichtiges Mittel im Klassenkampf des
+Proletariats gegen die Ausbeutung und Unterdrückung durch die
+herrschende kapitalistische Klasse. Erst mit dem Eintritt der Pro-
+letarierin in die vollen Bürgerrechte erreicht der Klassenkampf den
+Ernst und die Wucht, die ihn zum Siege führen: Zur Abschaffung
+der Klassenherrschaft und zum Aufbau einer Gesellschaft, welche
+die Menschwerdung beider Geschlechter verbürgt.
+</text>
+  </TextCorpus>
+</D-Spin>

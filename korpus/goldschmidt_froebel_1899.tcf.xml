@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/goldschmidt_froebel_1899</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-goldschmidt_froebel_1899.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/goldschmidt_froebel_1899</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-goldschmidt_froebel_1899.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/goldschmidt_froebel_1899</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-goldschmidt_froebel_1899.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/goldschmidt_froebel_1899</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-goldschmidt_froebel_1899.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/goldschmidt_froebel_1899</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-goldschmidt_froebel_1899.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Erziehungswerk Friedrich Fröbels</cmdp:title>
+        <cmdp:title type="sub">Vortrag von Frau Dr. H. Goldschmidt, Leipzig gehalten am 24. Mai 1899, im Rathaussaale in Blankenburg (Th.) Zum Besten des Friedrich-Fröbel-Hauses</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Goldschmidt</cmdp:surname>
+<cmdp:forename>Henriette</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11675642X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Henß</cmdp:surname>
+<cmdp:forename>Melanie</cmdp:forename></cmdp:persName>
+  <cmdp:persName><cmdp:surname>Gloning</cmdp:surname>
+<cmdp:forename>Thomas</cmdp:forename></cmdp:persName>
+  <cmdp:orgName><cmdp:orgName>Projekt: Texte zur Frauenfrage um 1900 Gießen/Kassel</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Texterfassung und Korrekturen, Konversion nach XML</cmdp:note>
+    <cmdp:date type="importDTA">2013-05-07T06:54:31Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Bibliothek für Bildungsgeschichtliche Forschung (BBF) des Deutschen Instituts für Internationale Pädagogische Forschung (DIPF)</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate.</cmdp:note>
+    <cmdp:ref target="http://bbf.dipf.de/retro-digibuch/2005-1786/2005-1786.pdf"/>
+    <cmdp:date type="importDTA">2013-05-07T06:54:31Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">12</cmdp:measure>
+        <cmdp:measure type="tokens">4975</cmdp:measure>
+        <cmdp:measure type="types">1790</cmdp:measure>
+        <cmdp:measure type="characters">35004</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:58:10Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/goldschmidt_froebel_1899</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/goldschmidt_froebel_1899</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/goldschmidt_froebel_1899</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/goldschmidt_froebel_1899</cmdp:idno>
+          <cmdp:idno type="DTADirName">goldschmidt_froebel_1899</cmdp:idno>
+          <cmdp:idno type="DTAID">30391</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-30391-8</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Goldschmidt, Henriette: Das Erziehungswerk Friedrich Fröbels. Eisenach, 1899.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Das Erziehungswerk Friedrich Fröbels</cmdp:title>
+          <cmdp:title level="m" type="sub">Vortrag von Frau Dr. H. Goldschmidt, Leipzig gehalten am 24. Mai 1899, im Rathaussaale in Blankenburg (Th.) Zum Besten des Friedrich-Fröbel-Hauses</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Goldschmidt</cmdp:surname>
+<cmdp:forename>Henriette</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11675642X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Eisenach</cmdp:pubPlace>
+            <cmdp:date type="publication">1899</cmdp:date><cmdp:publisher><cmdp:name>H. Kahle</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+          </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Anmerkungen zur Transkription:</p>
+<ul>
+  <li>Seiten- und zeilengetreue Texterfassung.</li>
+  <li>Silbentrennung berücksichtigt.</li>
+  <li>Langes als rundes s erfasst.</li>
+  <li>Bogensignaturen, Kustoden und Marginalien sind nicht berücksichtigt.</li>
+</ul>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Das
+Erziehungswerk Friedrich Fröbels.
+Vortrag
+von
+Frau Dr. H. Goldschmidt, Leipzig
+gehalten
+am 24. Mai 1899, im Rathaussaale
+in Blankenburg (Th.)
+Zum Besten des Friedrich-Fröbel-Hauses.
+Preis 30 Pfg.
+Eisenach
+Hofbuchdruckerei, H. Kahle
+1899.
+Wie anders als mit dem Gefühl demütigen Dankes, mit dem Gefühl
+der Ehrfurcht könnte ich hier dieser Stätte mich nähern — hier zu sprechen
+beginnen? Hier hat unser Lehrer und Meister Friedrich Fröbel, hier
+sein begeisterter Jünger Middendorff gestanden, hier haben sie verkündigt,
+was auch sie ein göttlicher Geist zu schauen gewürdigt. Ist es mir doch,
+als vernehme ich das alte, heilige Bibelwort: „Ziehe deine Schuhe aus,
+denn der Ort, auf dem du stehst, ist ein heiliger Ort.“ —
+Hochgeehrte Versammlung! Als ich unserer verehrten Fräul. Heerwart
+zusagte, hier in Blankenburg einen Vortrag zu übernehmen, hatte ich
+nur daran gedacht, den Mitarbeiterinnen am Fröbel'schen Erziehungswerke
+meine Sympathie zu bekunden und auch mein Scherflein dazu beizutragen,
+Fernerstehenden dasselbe näher zu bringen, Sympathie dafür zu erwecken.
+Jetzt aber in diesem Augenblicke ist es mir, als dürfte man sich mit
+dem Ausdrucke des Dankes und der Verehrung genug sein lassen, wenn
+nicht der Mann selber, dem wir huldigen, eine andere Art von Pietäts-
+äußerung vorgezogen — ja gefordert hätte. Des Geistes einen Hauch
+glaube ich zu spüren, der hier vor 60 Jahren bei Gelegenheit des Guttenberg-
+Festes sich geltend machte: „Ist es genug, wenn wir Worte ver-
+breiten?“ Guttenberg selbst würde sagen: „Wandelt das Wort um in
+That!“ Was Fröbel damals Guttenberg in den Mund gelegt, er hat es
+selbst vollbracht: Er wandelte das Wort um in That. Er hat uns
+nicht nur Worte zurückgelassen, sondern Werke, und diesem seinem Werke
+wollen wir uns zuwenden.
+Wir wollen aber dieses sein Werk seinem eigenen Gedanken gemäß
+zu erkennen suchen im Zusammenhange mit unserer Gesamtentwicke-
+lung, als Ausdruck einer Naturnotwendigkeit für unsere fortschreitende
+Kultur. —
+Die beiden großen Mächte, innerhalb deren die Menschheit sich bewegt
+und kämpft, habe ich damit bezeichnet. Seit der Mensch den Naturzustand
+verlassen, den sichern Instinkt der Naturwesen verloren, befindet er sich in
+einem steten Kampfe zwischen den Forderungen seines geistig-sittlichen We-
+sens und den Bedingungen des Seins als „Erdner“, wie Fröbel es so be-
+zeichnend ausdrückt.
+Wir haben aber noch einen andern Kampf zu bestehen, den Kampf
+mit den Irrtümern und Ausschreitungen der Kultur, mit Hyperkultur
+und Unnatur. Ist der Kampf zwischen dem geistig-sittlichen Wesen des
+Menschen mit den Forderungen seiner sinnlichen Natur mehr subjektiver
+Art, bezieht er sich auf den Menschen als „Persönlichkeit“ — so ist der
+Kampf gegen Hyperkultur ein Kampf gegen Zustände, Verhältnisse, wie sie
+im staatlichen, gesellschaftlichen Leben zur Erscheinung kommen, und die
+Schiller „die große Schuld der Zeiten“ nennt.
+Es giebt Zeiten in unserer Gesamtentwickelung, wo die Ausschreitungen
+der Kultur „die Hyperkultur“ so groß, so unerträglich wird, daß wir sie
+mit dem Worte „Unnatur“ bezeichnen. Bekanntlich ist der Mensch ja das
+einzige Wesen, das in Unnatur verfallen kann.
+Ich sage nur Bekanntes, wenn ich darauf hinweise, daß um die 2te
+Hälfte des vorigen Jahrhunderts ein Kampf gegen die überhandgenommene
+Hyperkultur und Unnatur unserer Zustände die besten Geister in Bewegung
+setzte. — Das Land, das Volk, das damals als Kulturvolk maßgebend
+war, Frankreich, hatte auch die größtmögliche Hyperkultur gezeitigt und
+auf die Nachbarstaaten, namentlich auf Deutschland, übertragen.
+Strahlen, wie sie von dem König „Sonne“, Ludwig 16., ausgingen, be-
+leuchten grell viele, wenn auch glücklicher Weise nicht alle deutschen
+Fürstenhöfe. Zustände, wie sie in den verschrobenen gesellschaftlichen For-
+men und Sitten in Kleidung, in Zopf und Perrücke, im Reifrock und Schön-
+pflästerchen bis in die bürgerlichen Kreise drangen, geben uns ein Recht,
+von Hyperkultur und Unnatur zu sprechen.
+War es nicht Notwehr und providentielle Fügung, daß ein Kampf
+gegen solche Unnatur sich geltend machte! Ist es nicht begreiflich, daß die
+geistvollsten Männer, die höchstkultivierten, auf den Urzustand der Natur
+hinwiesen?
+Es lag gewiß eine innere Notwendigkeit in der Erscheinung, daß gegen
+Ende des vorigen Jahrhunderts eine Sehnsucht nach dem Zurückkehren zu
+natürlichen Bedingungen des Lebens, sogar zu dem Naturzustande sich
+geltend machte.
+Unser deutscher Dichter, der leider fast vergessene Seume, findet echte
+Menschlichkeit bei dem „Wilden, der noch Europens übertünchte Höflichkeit
+nicht kennt.“ Bernardin de St. Pierre in der lieblichen Idylle „Paul und
+Virginie“ führt uns in die schlichte Einfalt uranfänglicher Zustände, und
+der kulturfeindliche Groll zeigt sich in desselben Verfassers „Chaumière
+indienne“, wo ein von der Gesellschaft verachteter Paria dem Europäer lehrt,
+daß Anfang und Ende aller Glückseligkeit ein einfaches Herz sei.
+Wir sehen, wie die große, gewaltige Umwälzung, wie sie in der fran-
+zösischen Revolution einem Erdbeben gleich sich geltend machte, das unsere
+gesammte Kultur zu erschüttern drohte, im Zusammenhange stand mit der
+stilleren, weniger sichtbaren Minierarbeit der Denker und Dichter.
+Ein sehr deutliches, anschauliches Beispiel für diese Doppelbewegung
+der Geister in einer Persönlichkeit bietet uns die Erscheinung Jean Jacques
+Rousseaus. — Sein contrat social und sein Emil sind Ausdruck desselben
+gegen die bestehenden Zustände revoltierenden Geistes. — Deshalb spricht
+die Geschichte von ihm, als einem Vorläufer der französischen Revolution,
+und die Pädagogik nennt seinen Emil ein Werk, das der Erziehung „neue
+Bahnen“ wies, Goethe nennt es ein Naturevangelium. Wir sind berech-
+tigt, Rousseau im gewissen Sinne einen Vorläufer Fröbels zu nennen,
+gleichviel ob es diesem bewußt gewesen oder nicht.
+Beiden gemeinsam war das Zurücksehen auf die natürlichen Bedin-
+gungen unseres Seins und Werdens — beiden gemeinsam die Beobachtung
+des ersten Kindheitslebens. Aber welch ein Unterschied zwischen dem Revo-
+lutionär Rousseau, dessen Kampf gegen die Hyperkultur der Zustände ihn
+beinahe blind macht gegen die Kultur überhaupt, der so weit geht, Kunst
+und Wissenschaft vernichten zu wollen, und unsern Meister Fröbel!
+Auch er geht zurück zu den natürlichen Bedingungen unseres Lebens und
+seiner Entwickelung: für ihn ist aber der Kulturzustand der natur-
+gemäße Zustand des Menschen. Er sieht in der „Kultur“ die Erziehung,
+die die Menschheit sich gegeben, und deshalb sind ihm Kulturmittel
+„Erziehungsmittel“. In Kunst und Wissenschaft sieht er des Menschen
+allerhöchste Kraft und in den Dienst der Erziehung des einzelnen
+Menschen, schon in der ersten Kindheit — will er sie gestellt wissen.
+Gleich Rousseau will er das Kind vor schädlichen Einflüssen bewahren,
+aber er isoliert es nicht — er trennt es nicht von den Eltern, von der
+Familie, um es unter den Einfluß eines Erziehers zu stellen. Im Gegen-
+teil soll das Kind die wichtigsten, die segensreichsten Eindrücke in der Familie
+empfangen, zugleich aber knüpft er an den wichtigsten Trieb des Menschen,
+„den Geselligkeitstrieb“ an, „den Trieb, der hinein von den Gefilden trieb den
+ungeselligen Wilden und ihn gewöhnte zu sanfteren Sitten.“ — Fröbel will,
+daß das Kind so früh als möglich mit anderen Kindern in Beziehung trete
+und sich an Verträglichkeit gewöhne. Fröbel sagt wie Rousseau: „Alles ist
+gut, was aus den Händen der Natur kommt“. „Das Kind ist ein Kind der
+Natur“, aber er sagt nicht „Alles verdirbt unter der Hand des Menschen“.
+Im Sinne der Bibel sagt Fröbel: „Die Natur, die Erde ist dem Menschen
+gegeben, daß er sie bewahre und bebaue, daß er seine Kraft an ihr bekunde,
+das aber kann er nur in Gemeinschaft. Das Kind ist ein Kind der Mensch-
+heit.“ Eins aber verbindet ihn mit Rousseau: „das tief religiöse Gefühl“.
+„In Gott ist der erste und letzte Grund aller Dinge, das Kind ist ein
+Kind Gottes.“
+In diese heilige Dreieinigkeit sind wir zunächst hineingeboren, und
+nach diesen drei Richtungen soll auch das Kind zunächst gepflegt und er-
+zogen werden.
+Fröbels religiöse Gesinnung stand im Zusammenhange mit der Lebens-
+anschauung unserer Dichter und Denker der klassischen Periode: Das zeigt
+seine Forderung. „Das Kind solle zunächst als Kind der Natur, der Mensch-
+heit, als Kind Gottes sich fühlen lernen.“ Die Unterschiede der Nationalität,
+der Konfession gehören einer späteren Lebensentwickelung. Feste Wurzeln
+soll die Einheitsidee im Gemüte des Kindes gewinnen, ehe die Teilung, die
+Trennung stattfindet. Die Bibel, dieses Erziehungsbuch der Menschheit,
+spricht auch zunächst von der Erschaffung des Menschen, nicht von dem, für
+eine besondere Nationalität oder Konfession erschaffenen Menschen.
+Mag noch ein Hinweis auf die Aehnlichkeit und die Verschiedenheit der
+reformierenden Geister Frankreichs und Deutschland mir gestattet sein.
+Voltaire und Lessing sind bestrebt, die Auswüchse, die Hyperkultur
+auf religiösem Gebiete zu bekämpfen, die Scheidewände niederzureißen, welche
+eine mißverstandene Religiosität zwischen den Menschen aufgerichtet. Voltaire
+aber bleibt in der Kritik und Verneinung stecken, während Lessings schöpfe-
+rischer Geist in den lebensvollen Gestalten des „Nathan“ zeigt, was wahr-
+hafte Religiosität ist.
+Und wie Nathan fühlt auch Friedrich Fröbel, „daß nicht alle Bäume
+gleiche Rinde tragen können, daß aber der Knorr den Knubben hübsch ver-
+tragen müsse“, und vor allem fühlt er gleich Nathan, daß die Liebe die
+Religion an sich bedeutet, und daß Kinder vor allem der Liebe bedürfen,
+um im rechten Sinne zur Religion zu gelangen.
+Hochv. Anw.! Sie werden heute nicht von mir erwarten, daß ich die
+Fröbelsche Methode und Praxis erkläre, diese hat sich in Tausenden und
+aber Tausenden von Kindergärten selbst erklärt, hier ist sein Wort zur
+That geworden und bedarf keiner Erklärung.
+Im Zusammenhange mit unserer allgemeinen Kulturentwickelung, im
+Zusammenhange mit dem Dichten und Denken der deutschen Volksseele
+habe ich die Erscheinung Friedr. Fröbels erkannt, und wenn auch in den
+knappsten Umrissen, möchte ich diesen Zusammenhang in einzelnen Mo-
+menten zu zeigen versuchen.
+Um die Mitte unseres Jahrhunderts, in den vierziger Jahren, hatten
+wir in Deutschland eine ähnliche Bewegung wie gegen Ende des vorigen
+Jahrhunderts in Frankreich. Ein Sturm und Drang bemächtigte sich der
+Gemüter, unsere staatlichen, gesellschaftlichen, unsere religiösen Verhältnisse
+neu zu gestalten, zu erneuern. In derselben Zeit treten, wenn auch
+sporadisch, diejenigen Bestrebungen auf, die man damals mit dem Worte
+„Frauenemancipation“ — jetzt mit dem Worte „Frauenfrage“ bezeichnet.
+Was enthalten diese Worte, wenn wir sie auf ihren eigentlichen In-
+halt prüfen? Sie enthalten nichts weiter als das aufkeimende Bedürfnis
+im Herzen und im Geiste der Frau, Klarheit über sich und ihr Leben zu
+gewinnen, nicht länger passiv über sich bestimmen zu lassen, zur Selbst-
+bestimmung zu gelangen.
+Es wird zunächst befremdlich klingen, wenn ich sage, Friedrich Fröbel,
+der keine Kenntnis von diesen Bestrebungen hatte, er hat ihnen, der tief-
+sinnende Mann, den besten, den prägnantesten Ausdruck gegeben. Ist er
+nicht ein Seher gewesen, wenn er aus sich selbst, aus seinem innern Schauen
+zu folgendem Ausspruch gelangte: „Es ist das Charakteristische der Zeit,
+das weibliche Geschlecht seines passiven, instinktiven Seins zu entheben
+und es von Seiten seines Wesens und seiner menschheitpflegenden Bestim-
+mung zu ganz gleicher Höhe wie das männliche Geschlecht zu erheben.“
+Wie wenig sind diese seine Worte in den Frauenkreisen gekannt, wie
+wenig beachtet selbst von den am Fröbelwerke arbeitenden Frauen.
+Und doch steht dieses Wort im innigsten Zusammenhange mit dem
+uns Allen so lieb, so vertraut gewordenen Ausspruche: „Kommt, laßt uns
+unsern Kindern leben!“ Nur indem wir jenen Ausspruch als Ergänzung
+des letzteren betrachten, verstehen wir ihn in seiner eigentlichsten Bedeutung.
+Losgelöst von ihm kann die Frage entstehen: „Haben wir Frauen, wir
+Mütter nicht von jeher unsern Kindern gelebt? Bedarf es hierfür einer
+besonderen Aufforderung? „Ein Jeder lebt's, doch Wenigen ist's bekannt.“
+(Goethe).
+Jede Mutter lebt ihren Kindern. Ist es ihr aber bekannt, welche
+Verpflichtung, welche Verantwortlichkeit, welche Kenntnis und Erkenntnis
+diese Lebensaufgabe in sich schließt? Sind die Frauen sich bewußt, daß in
+den ersten Lebensjahren die wichtigste Periode menschlicher Entwickelung
+in körperlicher, geistiger, gemütlicher, sittlicher Beziehung vorhanden und
+daß namentlich die letztere, die sittliche, die Charakterbildung, unerschüt-
+terliche Grundlagen enthält? Unsere Frau Ebner-Eschenbach urteilt ganz
+richtig, wenn sie meint: „Schwache Eltern sagen bei kleinen Fehlern und
+Unarten der Kinder: das giebt sich, ich sage: O nein! das entwickelt sich.“
+Goethe, der große Seelenkundige, spricht sich über die erste Kindheit so aus:
+„Niemand glaube, die ersten Eindrücke seiner Kindheit überwinden zu können.
+Wurden seine Handlungen so geleitet, daß er sich nichts abzugewöhnen braucht,
+hat man ihm das gelehrt, was er wissen muß, um das Uebrige leichter zu
+begreifen, so wird dieser als erwachsener Mensch ein reineres, vollkommeneres,
+göttlicheres Leben führen, als ein anderer, der seine ersten Jugendeindrücke
+im Widerstand und im Irrtum zugebracht. Und Friedrich Fröbel sagt:
+„Von der richtigen Erfassung des Menschen als Kind und von der entspre-
+chenden Behandlung desselben hängt die segensreiche, die zur Vollkommen-
+heit führende Entwickelung der Menschen, die Erringung echter Lebensfreude
+und echten Lebensfriedens ab.
+Dank den unbewußt aufgenommenen Einwirkungen des Pädagogen
+Fröbel ist die Erkenntnis von der Wichtigkeit der ersten, grundlegenden
+Erziehung jetzt doch in viele Kreise gedrungen. Ist es aber auch die Kenntnis
+der Mittel, die diese so überaus wichtige Erziehung erfordert?
+Der jetzt so viel genannte, englische Schriftstelleer Sully sagt in
+seinem Buche „Ueber die psychologischen Erscheinungen im ersten Kindes-
+alter“: „Wer ein dreijähriges Kind mit Verständnis erziehen will, muß
+mit der Entwickelungsgeschichte der Menschheit vertraut sein.“
+Und ein halbes Jahrhundert vor Sully sagt Fröbel: „In der Ent-
+wickelung jedes einzelnen Menschen spricht sich der Entwickelungsgang der
+Gesamt-Menschheit aus.“
+Wer erkennt in solchen Aussprüchen nicht eine Uebereinstimmung mit
+den Resultaten der Forscher auf anthropologischem, auf völkerpsychologischem
+Gebiete? Dieses wissenschaftliche Erkennen hat Fröbel nicht nur in Worten
+ausgesprochen, er wandelte das Wort in That. Er hat die Verbindung
+gefunden, die von dieser Erkenntnis in die Kinderstube führt, er hat die
+Anleitung, den Leitfaden gebracht, er hat ihn den Frauen, den Müttern
+gebracht, der sie befähigt, ihrer Erziehungsaufgabe, ihren Kindern zu leben,
+und ihr instinktives Thun in ein bewußtes zu wandeln.
+Worte über Erziehung, Lehren für dieselbe, ja eine große, in Büchern
+festgelegte Gelehrsamkeit war lange Zeit vor Fröbel vorhanden. Von dem
+griechischen Philosophen Plato bis zu unseren Philosophen und Pädagogen
+ist auf die Wichtigkeit der Erziehung des ersten Kindesalters hingewiesen
+worden. All diese Weisheit und Gelehrsamkeit blieb auf die Wissenden,
+auf die Gelehrten beschränkt, auf den Kreis der Pädagogik studierenden
+Männer. –– Auch die Erziehungswissenschaft war exclusiv aristokratisch. —
+Gewiß muß das die Wissenschaft als solche sein, aber darf es diejenige
+Wissenschaft bleiben, die inniger, umfassender als jede andere in den
+Pflichtenkreis jedes Menschen, namentlich jeder Frau fällt?
+In diesem Sinne sagt Herbert Spencer: „Wenn durch irgend
+einen seltsamen Zufall keine Spur von uns bis auf die ferne Zukunft er-
+halten bliebe, außer einem Haufen unserer Schulbücher oder einigen Prü-
+fungsheften der Schule, so können wir uns ausmalen, in welche Verlegen-
+heit ein Altertumsforscher jener Periode versetzt sein würde, in ihnen kein
+Zeichen zu finden, daß die Schüler jemals möglicherweise Eltern werden
+würden. Wir können uns vorstellen, wie er folgendermaßen schließt:
+„Dies muß der Schulplan für ihre ehelosen Stände gewesen sein. Ich ge-
+wahre hier eine fleißige Vorbereitung auf mancherlei Dinge, im besonderen
+auf die Lektüre von Büchern, aber ich finde nicht die geringste Berücksich-
+tigung der Kindererziehung. Sie konnten nicht so thörigt sein, für diese
+schwerste aller Verantwortlichkeiten jeglichen Unterricht zu unterlassen.
+Offenbar also war dies der Schulkursus eines ihrer Klosterorden.“
+M. V.! Ob es nun nicht ganz nützlich wäre, auch in den höheren
+Lehranstalten für die männliche Jugend, ich meine auch in den Fortbildungs-
+schulen, Unterricht in der Erziehungslehre einzuführen, ob ein solcher Un-
+terricht die jungen Leute nicht vielfach zur Selbsterziehung, Selbstbesin-
+nung führen würde, das gebe ich den Lehrern und Erziehern der männ-
+lichen Jugend zur Erwägung anheim. Das aber wird wohl unbedingt zuzu-
+geben sein: Die Erziehungsaufgabe fällt in den Pflichtenkreis jeder Frau.
+M. V. ! Wenn wir einen Fortschritt selbst in physischer Beziehung deutlich
+erkennen wollen, so müssen wir auf den Standpunkt zurücksehen, von dem
+wir ausgegangen, und so ist es nicht überflüssig, darauf hinzuweisen, daß
+unser großer, vielleicht der größte deutsche Denker Kant es nicht unter
+seiner Würde hielt, „Vorträge über Pflege und Erziehung des ersten Kindes-
+alters“ zu halten. Ist es aber nicht erstaunlich, daß er zu diesen Vorträgen
+nicht die weibliche Jugend rief, die damals noch in größerer Zahl auf
+die spätere Anwendung dieser Lehren rechnen konnte? Daß der so gründliche,
+so konsequente Denker in einem Aufrufe an das „Gemeinwesen“ in Rücksicht
+auf die notwendige Schulreformen ausspricht: „Die Schulen und der wohl-
+gemeinde Fleiß der Lehrer könne nichts nützen, weil bereits der erste Zu-
+schnitt verdorben sei“, sich aber mit diesem Ausspruch begnügt, ohne sich an
+diejenigen zu wenden, in deren Händen dieser erste Zuschnitt sich vollzieht.
+Das, m. V.! ist wohl geeignet, uns den großen Fortschritt zu zeigen, den
+wir Fröbel verdanken. Sie werden mit mir fühlen, daß ich nicht so ver-
+messen bin, die Bedeutung Fröbels als Denker irgendwie in Vergleich zu
+ziehen mit der Kants, aber auf dem Gebiete, auf dem wir uns bewegen,
+ist es ein Gradmesser für des ersteren Bedeutung, daß er besser erkannte,
+wo der erste Zuschnitt der kindlichen Seele sich vollzieht.
+Durch diese Erkenntnis ist er ein Columbus geworden für eine neue
+Welt in der Seele des Weibes, deren sie sich nicht bewußt war. Er hat
+sie entdecken lassen, „welch einen Schatz von Lieb' und Treu' der Busen
+einer Frau bewahren kann.“
+Mit den Worten: „Gott hat das leibliche, wie das geistige Fortleben
+des Menschengeschlechts in das Frauenherz und Gemüt, in den echten
+Frauensinn gelegt, hat er die Mütterlichkeit als das Lebensprinzip des
+weiblichen Geschlechtes anerkannt, auch derjenigen, die nicht Kinder geboren.“
+Und ist nicht sein Wort That geworden? Kommt, laßt uns unsern
+Kindern leben! — Unsern Kindern! Sind nicht die fremden Kinder, welchen
+eine Kindergärtnerin mütterliche Liebe erweist ihr eigen geworden? Wieviel
+Liebe, Hingebung, Selbstlosigkeit bekundet eine Kindergärtnerin diesen Kleinen,
+die sie nicht geboren. Nährt sie sie nicht auch mit ihrem Herzblut?
+Zeigt eine Leiterin 30—40 Kindern gegenüber nicht eine Mütterlichkeit,
+die manche Mutter beschämen könnte? Glauben Sie, daß es das Gefühl
+der Pflicht ist, das solche Hingebung erzeugt? O, nein, nimmermehr erzeugt
+das Pflichtgefühl den warmen Pulsschlag des liebevollen Herzens — eher
+ist es umgekehrt — nimmermehr kann das Pflichtgefühl die frische, fröhliche
+Stimmung schaffen, die die Kindergärtnerin sich und den Kindern er-
+halten muß.
+Meine Verehrten! Nimmermehr hätte ein so schwieriger, so alle Kräfte
+in Anspruch nehmender Beruf ergriffen, noch weniger festgehalten werden
+können, wenn er nicht im Zusammenhange stände mit dem weiblichen Ge-
+mütsleben. Wie tiefe Blicke hat doch unser Fröbel in die Psyche des Weibes
+gethan, wenn trotz aller Unbill der Verhältnisse, trotz der Unterschätzung
+und Mißkennung, mit der die Kindergärtnerin noch bis zum heutigen Tage
+zu kämpfen hat, dieser Beruf mit soviel Begeisterung zu erfüllen vermag.
+Auch hier zeigt sich ein gut Teil von jenem Mut, der früher oder später
+den Widerstand der stumpfen Welt besiegt.
+Mag hier ein Wort von Jean Paul eine Stelle finden, der in seiner
+Lebana so viele Berührungspunkte mit Fröbel hat: „Mit einem Brautschatz
+der Liebe stattete die Natur das Weib aus — nicht etwa wie Männer
+meinen, daß sie von ihnen vom Scheitel bis zur Sohle geliebt würden,
+sondern weil sie Mütter werden, Kinder erziehen sollen, denen nur Opfer
+zu bringen, keine abzugewinnen sind.“ Jean Paul aber hat, wie auch Fröbels
+große Vorgänger, Comenius und Pestalozzi, nur an die leibliche Mutter
+gedacht.
+Das ist aber der große, von seiner Naturforschung umzustoßende Unter-
+schied des Menschen von allen Naturwesen, daß das kreatürliche vergeistigt
+wird, die Mittel zur Vergeistigung enthält.
+Die Hand des Menschen ist nicht nur zum fassen und greifen da, nach
+Preyer's bezeichnenden Worten sind die Hände die Fühlhörner der Seele,
+sie schaffen Werke, die wir erfassen, begreifen.
+Ja, auch das Muttergefühl ist geistiger Natur. Die Empfindungen, die
+jedes weibliche Tier für seine Brut hat, und nur so lange hat, als sie ihrer
+zur Erhaltung der Jungen bedarf, auf diese Empfindungen ist die Frau
+als Mutter des Menschen, als Trägerin des Geschlechts der Zukunft, nicht
+beschränkt. Niemand aber vor Fröbel hat diese impulsive, innerlichste, dieses
+auch schöpferische, keimkräftige Vermögen des Weibes mit ihren geistigen
+Anlagen in Verbindung gesetzt, hat in ihm den Ausgangspunkt gesehen für
+eine intellektuelle Entwickelung, die das weibliche Geschlecht auf dieselbe
+geistige Höhe, welche den jetzigen Kulturstandpunkt des Mannes bezeichnet,
+zu erheben vermag.
+Meine Verehrten! Wer es nicht weiß, daß die Kenntnis der Lehre,
+des Systems, der Methode Fröbels, ein Studium bedeutet, gleichwertig
+jedem Studium einer Wissenschaft, der kennt nichts weiter von ihm als die
+mechanische Aneignung seiner Spiel- und Beschäftigungsmittel.
+Betrachten wir von solchem Standpunkt aus das Fröbelsche Erziehungs-
+werk, so entsteht allerdings die Frage: „Ist es ihm auch hier gelungen, das
+Wort in That zu wandeln?“, haben wir bereits „Schulen“, in denen die
+weibliche Jugend in ihrer Gesammtheit sich für den Erziehungsberuf vor-
+bereitet? Hat hier das instinktive Handeln sich zu einem „bewussten“ erhoben?
+Meine Verehrten! Für die Töchter höherer Stände werden Kurse in
+der Koch- und Schneiderkunst als notwendig erachtet. Noch erscheinen diese
+Künste wichtiger für den Beruf der Frau als die Erziehungskunst. Den
+Zuschnitt des Kleides nicht zu verderben, darauf wird mehr Aufmerksamkeit
+verwendet als — um mit Kant zu reden — auf den Zuschnitt der kind-
+lichen Seele. Es schmerzt mich, sagen zu müssen: „Hier ist sein Wort nicht
+That geworden.“ Doch mein Schmerz ist subjektiver, persönlicher Natur.
+Dreißig Jahre durch Schrift und Wort durch Schaffung einer höheren Lehr-
+anstalt für Töchter höherer Stände neben dem Seminar, vergeblich bemüht,
+Verständnis für diese eigentlichste Bedeutung unseres Meisters zu erwecken,
+darf ich wohl hier an dieser Stelle, wo er sich hoffnungsfreudig an die
+weibliche Jugend gewendet, dieser meiner schmerzlichen Empfindung ein
+Wort gestatten.
+Aber mein Blick richtet sich auf und meine Ueberzeugung von der
+siegenden Kraft der in Erkenntnis fortschreitenden Menschheit ist durch die
+bisherige, langsame Entwickelung auch dieser bahnbrechenden Idee nicht
+erschüttert.
+Ist ja Friedrich Fröbel doch das große, wenigen Sterblichen beschiedene
+Glück zu teil geworden, noch bei Lebzeiten zu erfahren, daß er sich nicht
+getäuscht, wenn er in den Frauen die eigentlichen Träger seiner Mission
+erblickte. War es nicht ein Glück, daß er in seiner eigenen Frau die rechte
+Gehilfin gefunden, die Gehilfin im biblischen Sinne, „die Wesen war von
+seinem Wesen?“
+Hier in Blankenburg arbeitete sie mit ihm an seinen Spiel- und Be-
+schäftigungsmitteln, hier sprach sie ihr volles Verständnis und ihre kluge
+Lebenserfahrung in den Worten aus: „Ein leichter Sinn, der faßt es nicht,
+ein leiser Sinn der haßt es nicht, ein lauter Sinn verspottet's nur, ein
+tiefer folgt allein der Spur.“
+Haben wir doch die Freude, heute noch eine lebendige Zeugin jener
+wunderbaren Zeit aus Blankenburg's Kindergarten, seine bevorzugteste und
+erste Schülerin „die treue Seele“ als Greisin hier zu sehen, sie, die vor-
+bildlich gezeigt, wieviel Lieb' und Treue, wieviel Mütterlichkeit eine Frau
+besitzt, auch wenn sie nicht Kinder geboren.
+Und war es nicht eine Frau, die mit wahrhaft apostolischem Eifer die
+Mission für das neue Erziehungswerk, wie eine frohe Botschaft zuerst im
+Vaterlande, und als sie hier nur ein schwaches Echo fand, dann sogar auf
+höhern Befehl verstummen mußte, in alle Lande trug? Der Name Bertha
+von Marenholtz-Bülow muß in einer Versammlung wie die unsrige
+in dankbarer Verehrung genannt werden. Die Worte auf ihrem Grabstein
+in Dresden: „Der siegreichen Verkünderin der Fröbelschen Erziehungs-
+ideen“. Diese Worte sind ein Merk- und Wahrzeichen für den Beginn
+einer neuen Zeit, für den Eintritt der Frau in die Kulturarbeit unseres Volkes.
+Ohne Ueberhebung dürfen wir sagen: „Der Siegeszug, den die Fröbel-
+sche Lehre dann doch angetreten, ist zum größten Teil auf die Begeisterung
+der Frauen zurückzuführen.“
+Ich sagte: Bertha von Marenholtz-Bülow trug die Fröbellehre in alle
+Lande. Daß sie das konnte, darin zeigt sich wiederum das Charakteristische
+dieser Lehre, sie kann überall verstanden werden, sie ist international,
+kosmopolitisch, human.
+Auch hier ist der Zusammenhang mit den Dichtern und Denkern unserer
+klassischen Periode unverkennbar. Gleich ihnen war Fröbel erfüllt von
+dem Hohen und Heiligen des deutschen Volksgeistes, aber fern waren sie
+von jenem engherzigen Chauvinismus, dem die Grenzen des Vaterlandes,
+die Grenzen des Menschenthums, leider nicht selten, die Grenzen der
+Menschenliebe und Menschenachtung bedeuten.
+Fröbel respektierte die Nationalitäts-, die konfessionellen Unterschiede,
+auch die Standesunterschiede als notwendige Stufen und Formen der Ent-
+wickelung. Nicht Einerleiheit, sondern Einheit ist ihm das Grundprinzip,
+das innerste Gesetz des Seins und Lebens. Hier, an dieser Stelle sagte
+er: „Sein Erziehungswerk sei ein Sproß aus dem innersten Gemüt und
+Streben des Volkes, geboren in der Auferstehung des deutschen Gesamt-
+lebens, aus dem heiligen Kampfe des Vaterlandes,“ aber er sagte auch,
+„Einheit ist des Menschen Kraft, seines Lebens Nerv“ und der Gedanke der
+Einheit „Lebenseinigung“ ist der Nerv seiner Lehre und Methode. Von der
+einheitlichsten Form im Naturleben, der runden Kreisform, ausgehend, ge-
+langt er zu dem einheitlichsten Verhältnis im Menschenleben, zu dem Ver-
+hältnis zwischen Mutter und Kind, und Gott allein ist ihm Grund und
+Ursach alles Seins und Lebens.
+In den schlichten Worten aus den Mutter- und Koseliedern erkennt
+man seine Lebens- und Weltanschauung: „Stört das Kindlein nicht in
+seinem süßen Traume, sich mit Allen eins zu fühlen in den Weltenraume.“
+In erhebender, aber auch in beschämender Weise zeigt der Gang, den
+die Fröbellehre genommen, diese, ihre kosmopolitische Bedeutung; es be-
+währt sich an ihrem Schöpfer auch das Wort: „Der Prophet gilt nichts in
+seinem Lande.“ Es darf nicht verschwiegen werden: Der Pädagoge Fröbel
+gilt im Auslande mehr als im Inlande.
+Mußte ja das erste Hilfsbuch für die Fröbelsche Methode in englischer
+und französischer Sprache: „Manuel pour les petits enfants“ erscheinen. Man lese
+die Anerkennungsschreiben, die Frau von Marenholz-Bülow von den ersten
+Staatsmännern und Schriftstellern Frankreichs, Englands, Belgiens, der
+Schweiz erhalten, und vergleiche damit die Unterschätzung, mit der noch
+heute die Arbeit auf unserem Gebiete zu kämpfen hat. — Und hat nicht
+unsere verehrte Frl. Heerwart aus England und aus ihrer dortigen
+Wirksamkeit sich die Kraft geholt, eine Vereinigung der Kindergärtnerinnen
+in Deutschland zu schaffen. Auch die meisten ihrer Schriften sind zuerst in
+englischer Sprache erschienen und sind in Amerika und in England bekannter,
+als hier; einige von ihnen sind dort in 22. Auflage erschienen.
+Den Verein der Kindergärtnerinnen, den wir ihr verdanken, und der
+gewiß nicht nur für den Stand der Kindergärtnerinnen sich förderlich er-
+weisen wird, dieser Schritt auf „Neuen Bahnen“ steht aber in Zusammen-
+hang mit der schon genannten Bewegung, die die Frauen aller Länder er-
+griffen: ihr Anfang für uns in Deutschland liegt in jener ersten Konferenz
+in Leipzig, am 18. Oktober 1865, wo zum ersten Mal deutsche Frauen in
+öffentlicher Versammlung berieten und zu einem Vereine, dem Allgemeinen
+deutschen Frauenvereine, sich zusammenschlossen. Kaum 20 Mitglieder
+zählte der Verein bei seiner Gründung; indeß ist eine so große umfassende
+Vereinsthätigkeit, vielfach durch diese Anregung entstanden, daß der vor 6
+Jahren gegründete Bund deutscher Frauenvereine 105 Vereine zählt, die
+eine Mitgliederzahl von 60000 Personen in sich schließen, und zu dem ja
+auch unser Kindergärtnerinnenverein gehört.
+Aber wunderbar genug: Dreißig Jahre vor jener ersten Vereinigung
+von Frauen hat Friedrich Fröbel hier an dieser Stelle es ausgesprochen:
+„Die Gemeinsamkeit weiblichen Wirkens soll und muß sein. Lassen Sie
+sich nicht von dem Irrwahn beschleichen, als sei das weibliche Geschlecht
+nicht in Gemeinsamkeit zur Förderung des Menschenwohls berufen.“
+Hochverehrte Versammelten! Ich weiß nicht, ob ein Nachklang jener
+Worte, die vor 60 Jahren hier ertönten, in Ihrem Gedächtnisse lebt.
+Sechzig Jahre sind ein kurzer Zeitraum in der Entwickelung der Gesamtheit,
+für den einzelnen Menschen bedeuten sie einen Wechsel von drei Geschlechtern.
+Und wenn nach den neusten Annahmen das dritte Geschlecht zum ersten
+zurückkehrt, „der Enkel die Züge des Ahnen erhält“, so kann ich die Hoff-
+nung hegen, daß die jetzt lebende Jugend ein freundliches Ohr für Gedanken
+haben wird, die damals ihre Großeltern begeisterten.
+Hier, an dieser Stätte ist der Ruf zur Gründung eines deutschen Kinder-
+gartens nicht nur an die Männer und Väter, sondern auch, und sogar
+vorzugsweise, an Frauen und Jungfrauen ergangen, hier ist auch der erste
+deutsche, der erste Kindergarten überhaupt gegründet worden. Warum ist
+er nicht vorhanden? Hat man unterdeß die Erfahrung gemacht, daß Fröbel
+in einem Wahn befangen gewesen? Sehen Sie sich um, nicht nur im
+Vaterlande — richten Sie Ihren Blick in die Nachbarstaaten — nach den
+verschiedenen Erdteilen, die schwarzen Kinder in Afrika spielen unsere
+Kindergartenspiele. Ueberall wo nur irgend eine Spur von Civilisation
+einzieht, zieht der Kindergarten mit ein.
+Hier in Blankenburg müßte, ganz abgesehen von dem Segen, den wie
+überall ein Kindergarten auf Jung und Alt ausströmmt, diese Stätte schon
+als Denkmal der Pietät vorhanden sein.
+Nicht nur in unserm Namen im Geiste dessen, der Ihre liebe Stadt so
+ausgezeichnet, daß sie einen Markstein bildet für den Aufbau seines Werkes,
+fordern wir Sie auf, seinen Ruf zu hören: „Wandelt das Wort um in That.“
+Zum Ehrenbürger haben die Väter Ihrer Stadt ihn damals, als er
+nach langer Wanderfahrt zu Ihnen zurückkehrte, ernannt.
+Daß diese Tradition festgehalten wird, das zeigte die gütige Bereit-
+willigkeit der verehrten Väter Ihrer Stadt, uns hier gastlich aufzunehmen
+und die Bewilligung dieser altehrwürdigen Stätte für die heutige Versammlung.
+Die Tradition soll aber nicht nur festgehalten werden zum Gedächtnis
+an die Vergangenheit, sie soll eine lebendige sein für die Zukunft. Wie
+können wir die Gründung des ersten Kindergartens vor 60 Jahren besser
+feiern, als wenn wir ihn wieder aufrichten?
+In voller Zuversicht sprach Fröbel damals aus, was jetzt Erfüllung
+geworden: „Sie stehen nicht mehr allein, hochachtbare Jungfrauen, der Ge-
+danke hat schon in vielen weiblichen Gemütern hohen Anklang gefunden
+und lebhafte Begeisterung erweckt.“ Rechtfertigen Sie das Wort, das er
+damals an Blankenburgs Frauen richtete: „Ich lade Sie ein zur Begrün-
+dung einer Erziehungsstätte für die erste Kindheit. Meinen Sie in Ihrer
+Bescheidenheit und Zurückgezogenheit nicht, Sie seien zu einer solchen
+Unternehmung zu wenig, Ihre Stadt zu klein, zu arm an Mitteln. Ver-
+gessen Sie nicht, alles Tüchtige und Große, wenn wir bis auf dessen letzte
+Quelle zurückgehen, geht aus dem Kleinsten und Unscheinbarsten hervor.“
+Daß er, der so bescheidene Mann, die innere Ueberzeugung von der
+umfassenden Bedeutung seines Werkes hatte, zeigte es sich nicht darin, daß
+er seinen Aufruf am Guttenbergfeste an Sie richtete? Und er hatte ein
+Recht dazu. Auch Guttenbergs Erfindung ist eine deutsche That, und eben
+deshalb eine That für die gesammte Menschheit. „Wie die Luft den Samen,
+so trägt sie Empfindungen und Gedanken in die fernste Menschenwelt und
+vermittelt die verheißene Gemeinschaft Aller in einen Geist.“
+Samenkörner deutschen Geistes sind aber auch die Kindergärten, auch
+sie sind berufen, die Gemeinschaft und die Einheit unter den Völkern zu
+vermitteln, sie knüpfen an das allen Menschen gemeinsame Gefühl für die
+Kindheit an und sind die wahrhaften Friedensboten in unserer kampfreichen,
+friedelosen und Friede bedürftigen Zeit.
+Sie aber, meine Verehrten! möchten es nicht unbescheiden finden, wenn
+ich zum Schlusse meiner Betrachtungen die Bitte an Sie richte: „Wandeln
+Sie auch das von mir heute zu Ihnen gesprochene Wort um in That.“
+Errichten Sie hier an der Stätte, wo der erste Kindergarten stand,
+wiederum einen Kindergarten. Lassen Sie die Frage nicht länger unbeant-
+wortet: „Wie haben Sie das Ihnen anvertraute Gut gepflegt?“
+In den Worten Friedrich Fröbels, die er hier vor 60 Jahren gesprochen,
+möge diese Bitte ausklingen:
+„Wer etwas, hat, und sei es noch so wenig, und er dieses Wenige
+achtet, pflegt und ausbildet, dem wird gegeben, daß er die Fülle habe,
+darum Ihr Männer, Ihr Frauen vereinigt Euch für diese echte deutsche,
+echt menschliche Erziehungsstätte. — Du liebe Stadt Blankenburg: „Erhalte,
+was Dir gegeben wurde, laß Dir nicht Deine Krone rauben!!“
+</text>
+  </TextCorpus>
+</D-Spin>

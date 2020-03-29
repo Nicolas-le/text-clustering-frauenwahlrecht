@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/hilty_frauenstimmrecht_1897</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-hilty_frauenstimmrecht_1897.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/hilty_frauenstimmrecht_1897</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-hilty_frauenstimmrecht_1897.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/hilty_frauenstimmrecht_1897</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-hilty_frauenstimmrecht_1897.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/hilty_frauenstimmrecht_1897</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-hilty_frauenstimmrecht_1897.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/hilty_frauenstimmrecht_1897</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-hilty_frauenstimmrecht_1897.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Frauenstimmrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Hilty</cmdp:surname>
+<cmdp:forename>Carl</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118705032</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Projekt: Texte zur Frauenfrage um 1900 Gießen/Kassel</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2013-07-12T09:45:20Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Gloning</cmdp:surname>
+<cmdp:forename>Thomas</cmdp:forename></cmdp:persName>
+  <cmdp:persName><cmdp:surname>Henß</cmdp:surname>
+<cmdp:forename>Melanie</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2013-07-12T09:45:20Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Google Books</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate.</cmdp:note>
+    <cmdp:ref target="http://books.google.com/books?id=luUWAQAAIAAJ"/>
+    <cmdp:date type="importDTA">2013-07-12T09:45:20Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">56</cmdp:measure>
+        <cmdp:measure type="tokens">13694</cmdp:measure>
+        <cmdp:measure type="types">4118</cmdp:measure>
+        <cmdp:measure type="characters">96601</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:58:53Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/hilty_frauenstimmrecht_1897</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/hilty_frauenstimmrecht_1897</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/hilty_frauenstimmrecht_1897</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/hilty_frauenstimmrecht_1897</cmdp:idno>
+          <cmdp:idno type="DTADirName">hilty_frauenstimmrecht_1897</cmdp:idno>
+          <cmdp:idno type="DTAID">30470</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-30470-0</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="DM">Hilty, Carl: Frauenstimmrecht. In: Hilty, Carl (Hg.): Politisches Jahrbuch der Schweizerischen Eidgenossenschaft. Bern, 1897.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Frauenstimmrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Hilty</cmdp:surname>
+<cmdp:forename>Carl</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118705032</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+            <cmdp:editor>
+              <cmdp:persName><cmdp:surname>Hilty</cmdp:surname>
+<cmdp:forename>Carl</cmdp:forename></cmdp:persName>
+            </cmdp:editor>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Bern</cmdp:pubPlace>
+            <cmdp:date type="publication">1897</cmdp:date><cmdp:publisher><cmdp:name>Wyss</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+          </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Anmerkungen zur Transkription:</p>
+<ul>
+  <li>Bogensignaturen: nicht gekennzeichnet</li>
+  <li>Druckfehler: ignoriert</li>
+  <li>fremdsprachliches Material: nicht gekennzeichnet</li>
+  <li>Geminations-/Abkürzungsstriche: expandiert, markiert</li>
+  <li>Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): gekennzeichnet</li>
+  <li>Kolumnentitel: nicht gekennzeichnet</li>
+  <li>Kustoden: nicht gekennzeichnet</li>
+  <li>langes s (ſ): als s transkribiert</li>
+  <li>rundes r (&#xa75b;): als r/et transkribiert</li>
+</ul>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Politisches Jahrbuch
+der
+Schweizerischen Eidgenossenschaft.
+Herausgegeben
+von
+Dr. Carl Hilty,
+Professor des Bundesstaatsrechts an der Universität Bern.
+Elfter Jahrgang. 1897.
+Bern.
+Druck und Verlag von K. J. Wyss.
+1897.
+Elfter Jahrgang 1897.
+Seite
+De Senectute, vom Herausgeber 1
+Vor fünfzig Jahren, vom Herausgeber, mit einem Anhang
+von bisher ungedruckten Briefen schweizerischer Staats-
+männer, mit Einleitung von Prof. Dr. Blösch 27
+Das Tagebuch des schweizerischen Abgesandten Hirzel bei
+seiner Sendung in das Hauptquartier der Alliirten, No-
+vember 1813, von Prof. Dr. Oechsli 181
+Frauenstimmrecht, vom Herausgeber 243
+Jahresbericht 1897. Vom Herausgeber 377
+Beilagen:
+Die Apostolische Konstitution über den Index 765
+Ein Schreiben der Königin Elisabeth an die XIII
+Kantone 778
+Frauenstimmrecht.
+Ueber die sogenannte «Frauenfrage» im Allgemeinen ist,
+in jüngster Zeit namentlich, eher zu viel, als zu wenig, ganz
+besonders von den Frauen selbst, geschrieben worden. Der
+menschliche Geist im einzelnen Individuum und ebenso in der
+Gesammtheit und in einer bestimmten Zeitperiode hat eben nur
+eine begränzte Aufnahmsfähigkeit und manche Fragen ver-
+lieren an aktueller Bedeutung, man möchte sagen an Perkus-
+sionskraft, wenn sie gar zu oft und in unausgesetzter Wieder-
+holung der gleichen Argumente behandelt werden 1).
+Wir fassen daher die Frage enger, und an demjenigen
+Punkte an, auf den es unseres Erachtens, wenigstens in
+unserem Lande, wesentlich ankommt, wenn etwas Reelles
+aus der Diskussion hervorgehen soll, und schicken nur einige
+wenige allgemeinere Bemerkungen voraus, die zur Orientirung
+1) Solche Beispiele sind die Alkoholfrage, die Friedensfrage,
+die christlich-soziale Bewegung. Man muss die besten Dinge, wenn
+sie einmal kräftig angeregt sind, zuweilen auch wieder ein wenig
+ruhen lassen und nicht immer mit den gleichen Worten darauf
+lostrommeln. Das ermüdet die bereits hinreichend überzeugten
+Anhänger einer Sache und macht die Nichtanhänger taub, sie werden
+des beständigen Lärmens endlich gewohnt. Es ist auch bei der
+Selbsterziehung des einzelnen Menschen so, er kann auch an sich
+selbst nicht unausgesetzt und immer nach der gleichen Richtung hin
+arbeiten, sondern muss sich zuweilen Ruhe und besonders Ab-
+wechslung in dieser inneren Arbeit gönnen.
+Frauenstimmrecht.
+und zur Markirung des Standpunktes dienen, auf dem wir
+uns dabei befinden 1).
+I.
+Es ist uns nicht bekannt, dass es ein ganzes, civilisirtes
+Volk des Alterthums, oder der Neuzeit gegeben hat, in welchem
+die beiden Geschlechter für vollkommen rechtsgleich angesehen
+wurden und selten, eigentlich nur nach mehr sagenhaften
+Berichten von Amazonenstaaten und dergleichen, waren die
+Frauen der bevorrechtete Theil. Einzig die oberste Re-
+gierungsgewalt kam zuweilen vorzugsweise Frauen zu, ähn-
+lich wie dies auch in sogenannten «Thierstaaten» mitunter der
+1) Aus der sehr zahlreichen Litteratur führen wir daher auch
+für solche Leser unseres Aufsatzes, die sich erst über die Frage zu
+orientiren wünschen, statt Vielem, nur das nach unserem Dafürhalten
+Beste an. Es sind namentlich folgende Schriften: Secrétan,
+Le droit de la femme, 4. Auflage, 1888; Ostrogorski, La femme
+au point de vue du droit public, Paris 1892; Joel, Die Frauen
+in der Philosophie, 1896; Elisabeth Malo, Das Recht der Frau in
+der christlichen Kirche; Eliza Ichenhäuser, Zur Frauenfrage,
+1896. Andere weniger originale Schriften, sowie eine Reihe von
+Kongressberichten, Vereins- und Aktionsprogrammen, namentlich
+amerikanische, sind leicht zu bekommen, wenn Jemand sich für die
+Frage näher interessiren will, für Andere haben sie keinen be-
+sonderen Werth. Aus der älteren Litteratur interessiert noch
+etwa die revindication of womens rights von Mary Woolstonecraft,
+dieselbe erschien 1792 in London, mit einer Widmung an Talley-
+rand, sie ist 1890 von Mrs. Fawcett neu herausgegeben worden.
+Ferner: Hippel, Ueber die bürgerliche Verbesserung der Weiber, 1792,
+und Legouvé, Histoire morale des femmes. Auch die Schriften von
+Spencer (Sociology Cap. X) und John Stuart Mill enthalten manches
+Bezügliche, ebenso mehr oder weniger alle sozialistischen Schriften, be-
+sonders «Die Frau», von Bebel, die aber den Frauen ausserhalb der
+sozialistischen Kreise nicht genützt hat. Denn Alles, was an das «Eman-
+zipirte» streift, hallen wir nicht für überzeugend, namentlich nicht
+für noch in der Frage Unentschiedene. Die Frauen, welche sich mit der
+Frauenstimmrecht.
+Fall ist, aber ohne dass alle weiblichen Individuen an dieser
+bevorzugten Stellung Theil nehmen 1).
+Die Bibel motivirt die geringere Stellung der Frau
+theils mit einer späteren Erschaffung derselben, theils mit einer
+grösseren Empfänglichkeit für eine Verleitung zu Abirrungen
+von dem rechten Lebenswege 2). Dessenungeachtet enthält
+1)
+1) Bei den Bienen ist die Königin das einzige weibliche Wesen,
+das für die Nachkommenschaft sorgt, weibliche Anführer kommen
+aber unseres Wissens auch bei anderen Thiergattungen vor. Ebenso
+fand Stanley bei den innerafrikanischen Zwergvölkern eine Königin.
+Vergl. auch I. Kön. X.; Ap.-Gesch. VIII, 27.
+2) I. Mose II, 18. 23; III, 16. Die sehr schlagfertige Frau Booth
+antwortet jedoch einem englischen Theologen auf diese Citation mit
+der Gegenbemerkung, die unbestreitbar ist, dass lauter Männer den
+Heiland verrathen, verurtheill und gekreuzigt hätten, während eine
+Frau davor warnte. (Ev. Matth. XXVII, 10.) Sie hätte noch beifügen
+können, was uns schon in unserem geistlosen Jugend-Religionsunter-
+richt auffiel, dass von den beiden Sündern im Paradiese der männ-
+1) Verbesserung ihres Loses ernstlich beschäftigen wollen, müssten
+unseres Erachtens sich vor allen Dingen von allem Naturalismus
+ganz entschieden abwenden, der ihnen nur schaden kann und sie
+in der Achtung der sittlichen Männer herabsetzt. Die anderen
+allerdings lieben das um so mehr, aber aus egoistischen Gründen.
+Die Frauen sind geborne und prädestinirte Idealisten und wenn sie
+davon selber abgehen, verlieren sie leicht den Boden, auf dem sie
+allein mit Erfolg für ihr Recht eintreten können, sowie ganz
+sicher die ihnen vorläufig noch unentbehrliche Bundesgenossenschaft
+der Besten des anderen Geschlechts, die ihnen nicht durch den
+Beifall der Uebrigen ersetzt wird. Eine Frau, die für Zola oder
+Ibsen schwärmt, oder Darwin und Schopenhauer studirt, und davon
+eine Besserung in der Stellung ihres Geschlechts erhofft, verkennt
+die Natur der Frage und ihren Beruf darin und wird niemals das
+wirkliche Ziel einer Frauenbewegung erreichen, oder auch nur
+dessen Erreichung befördern, sondern das Misstrauen gegen diese
+Bestrebungen, das ohnehin in weiten Kreisen besteht, verstärken
+helfen.
+Frauenstimmrecht.
+auch das alte Testament Beispiele von einer sehr gleichartigen
+Stellung der Frau, sobald sich dieselbe durch Geist und Charakter
+auszeichnete, dergestalt, dass zeitweise Frauen, und zwar
+sogar verheirathete, das oberste Richteramt des Volkes Israel
+in Händen hatten, nicht etwa Kraft einer Wahl, sondern Kraft
+einer allgemeinen Anerkennung, dass sie die weisesten und
+tüchtigsten, von Gottes Geist am meisten beseelten Individuen
+des zeitweiligen Volksganzen seien 1).
+Eine höhere Anerkennung der Rechtsgleichheit und des
+göttlichen Willens einer solchen, sobald die individuellen Voraus-
+setzungen dazu vorhanden sind, kann es gar nicht geben 2), und
+bis auf den heutigen Tag ist davon bei der Mehrzahl der civili-
+sirten Völker, da wo die monarchische Staatsform und nicht
+2)
+1) I. Mose XXI, 12; Richter IV, 4—8; V, 7; Nehemia VI, 14;
+Lucas II, 38; Joel III, 1; II. Chron. XXXIV, 22. Bemerkenswerth
+ist auch die Stelle Esther I, 16—20, wo die persischen Grossen
+eine sehr erhebliche Befürchtung für ihr häusliches Regiment beur-
+kunden. Dasselbe soll auch, wie manche Kenner versichern, in den
+heutigen orientalischen Familien weit mehr in den Händen der
+Frauen liegen, als man es bei dem Mangel an Bildung derselben
+und der herunterdrückenden Polygamie für möglich halten sollte.
+Auch in den Anfängen des Islam spielten die Frauen des Pro-
+pheten eine gar nicht unbedeutende Rolle, Ayescha sogar noch
+über die Lebenszeit Mohammeds hinaus. Im neuen Testament
+tritt die Rechtsungleichheit positiv erst in den bekannten Stellen der
+Briefe des Apostels Paulus auf. Christus selbst kennt keinen Unter-
+schied und hat seine tiefsinnigste Rede, an eine einzelne
+Frau gerichtet, — nicht verschwendet. Joh. IV, 8 und folg.
+2) Deborah sagt geradezu dass es «an Regiment fehlte in Israel
+bis ich, Deborah, aufkam, eine Mutter in Israel». Richter V, 7.
+2) liche Theil offenbar der bei weitem kläglichere ist; zuerst übertreibt
+er willkürlich Gottes Verbot bis zum Nichtanrühren des Baumes,
+nachher lässt er sich ohne die geringste Einwendung verführen und
+zuletzt will er noch die Schuld auf Andere schieben. (I. Mos. III, 12.)
+Das zeigt keine besondere Begabung zum Herrschen.
+Frauenstimmrecht.
+zugleich das sogenannte salische Gesetz besteht, die Möglichkeit
+für die Frauen übrig geblieben die höchste Stellung im Staate ein-
+zunehmen, ohne dass daraus jemals sehr erhebliche Nachtheile
+für dessen Wohlergehen ersichtlich geworden sind 1).
+Auch bei den Römern und alten Deutschen galten die
+Frauen im Ganzen viel, und hatten mitunter als Priesterinnen
+oder Prophetinnen sogar eine bevorrechtete Stellung und in Be-
+zug auf das Vermögensrecht bei den ersteren eine bessere, als
+sie sie jetzt durchschnittlich haben. Nur waren eben diese
+Gemeinwesen so sehr auf Krieg und Wehrfähigkeit gegründet,
+dass dem körperlich schwächeren und dazu weniger veran-
+lagten Geschlechte im Ganzen naturgemäss eine untergeordnete
+Stellung zukam. Die geringere Körperkraft, vielleicht auch
+der damit in roheren Zeitaltern unmittelbar verbundene grössere
+Grad von Geduld, Unterwürfigkeit und Idealismus bei dem
+weiblichen Geschlecht erscheint uns als der wahrscheinliche
+historische Hauptgrund der ungleichen Rechtsstellung, der
+theilweise ja noch jetzt in dem Ausschluss des weiblichen Ge-
+schlechts von der allgemeinen Wehrpflicht in allen Staaten
+stattfindet, wo diese besteht 2).
+1) Wir brauchen hier bloss an Elisabeth von England, Maria
+Theresia und an die jetzigen Königinnen von England, Spanien und
+Holland zu erinnern, die ebensogut regieren, als alle ihre dermaligen
+männlichen Kollegen, und bei denen auch die Meinung eines älteren
+Schriftstellers nicht zutrifft, regierende Frauen liessen in Wirklichkeit
+stets Männer regieren und umgekehrt. Im Gegentheil die Königin
+von England wenigstens ist eine «kwaie fru» nach Ansicht des Prä-
+sidenten Krüger, die ihre grosse Stellung stets gehörig zu behaupten
+gewusst hat. In kleineren Staatenverhältnissen und bei vorüber-
+gehenden Vormundschaftsregierungen sind solche Fälle von guter
+weiblicher Staatsregierung noch öfters und auch in neuerer Zeit
+vorgekommen.
+2) Absolut nöthig wäre ein solcher Ausschluss ja auch nicht, es
+haben oft schon Frauen freiwillig im Kriege mitgefochten und nicht
+Frauenstimmrecht.
+Die Geschichte spricht also unseres Erachtens gegen
+eine Möglichkeit einer rechtsgleichen Stellung beider Ge-
+schlechter nicht, sondern nur gegen die Gebräuchlichkeit,
+im höchsten Falle gegen die durchschnittliche Zweckmässigkeit
+einer ganz allgemeinen Rechtsgleichheit und der Beseiti-
+gung aller Ausnahmen davon.
+Es machen daher auf uns auch die physiologischen
+Argumente, die besonders aus einer angeblichen, oder wirk-
+lichen, geringeren Grösse oder Schwere des Gehirns her-
+genommen zu werden pflegen, nur einen sekundären Eindruck.
+Der Beweis einer durchschnittlichen thatsächlichen Inferiorität
+des weiblichen Geschlechtes müsste unseres Erachtens durch
+historische, oder heutige Erfahrungen geführt werden und
+auch diese wären nicht einmal ganz konkludent, denn der
+Besitz eines Rechtes erzieht und befähigt auch zum Gebrauch
+desselben und Niemand kann als in dieser Hinsicht unbefähigt
+erklärt werden, bei welchem man den Versuch noch nicht
+gemacht, vielmehr sehr sorgfältig ausgeschlossen hat. Es ist
+das die ungerechte Argumentation, welche die sogenannten
+«herrschenden» Völker seit jeher gegen die von ihnen Unter-
+drückten angewendet haben; sie liessen es niemals auf die
+Probe ankommen, sondern bestraften jede dahingehende
+Aspiration bereits als ein Majestätsverbrechen. Auf diese
+Weise ist sogar eine Ungleichheit mancher ganz ähnlicher,
+2)
+2) ohne Auszeichnung, Jeanne d'Arc, Leonore Prohasea, unsere brave
+Frau Oberstin Engel sind klassische Beispiele dafür. Sie kommen
+merkwürdigerweise sogar in den ersten Eroberungszügen des Islam
+vor. Vgl. Gibbon, decline and fall, Cap. 51, Episode aus der Schlacht
+am Jernuck 636, unmittelbar vor der Eroberung Jerusalems Es
+wäre auch, abgesehen davon, ganz denkbar Frauen bei der Sanität
+und Verwaltung zu verwenden und sie würden ohne Zweifel einen
+grossen Schritt zur Rechtsgleichheit vorwärts machen, wenn dies
+geschähe.
+Frauenstimmrecht.
+sogar ganz stammverwandter, Völker entstanden, die noch
+heute vor Augen liegt. Die Einen haben eine lange frei-
+heitliche Geschichte hinter sich, die Anderen sind in der Un-
+freiheit, oder sogar in der Unterdrückung erzogen worden,
+und man wirft ihnen nachher, wenn sie plötzlich befreit
+wurden, ungerechter Weise vor, dass sie sich nicht sofort
+selbst regieren können 1). Genau so verhält es sich mit den
+sogenannten natürlichen Beweisen zum Nachtheil der Frauen.
+Wenigstens die Anhänger Darwin's sollten es offen bekennen,
+dass der Nichtgebrauch von Fähigkeiten auch den völligen
+Verlust derselben nach sich ziehen kann und dass umgekehrt
+aus geringen Anfängen unter günstigen Verhältnissen höhere
+Organismen entstehen können.
+Für uns ist das kein Argument. Wir halten dafür,
+es komme bei jedem Menschen, heisse er Mann oder Weib,
+auf die individuelle Begabung seitens Gottes, und in höchster
+Stufe auf die Möglichkeit der Einwohnung eines Geistes an,
+der nicht in jedem Sinne der unserige ist. Dass derselbe nur
+an das männliche Geschlecht sich binde, das ist, trotz der
+1) Das ist die Geschichte der jetzigen Armenier zum Beispiel.
+Es ist wunderbar, dass die türkischen Rajah nicht sämmtlich noch
+viel geringwerthiger sind. Selbst in der Schweiz sind die Unterschiede
+in der Bevölkerung der alten 13 Orte und der ehemaligen Unter-
+thanenländer noch einigermassen bemerkbar. Die Freiheit und das
+Bewusstsein einer würdigen Rechtsstellung ist eben ein sehr grosses
+und sogar unentbehrliches Erziehungsmittel der Völker und thut nach
+Pasquale Paoli grössere Wunder, als selbst der heilige Antonius von
+Padua, bekanntlich einer der am schnellsten Heiliggesprochenen.
+Man müsste also zuerst, um ganz gerecht und aufrichtig urtheilen
+zu können, einmal einen bedeutenderen Staat sehen, in welchem
+die Frauen seit wenigstens einem halben Jahrhundert rechtsgleich
+gewesen wären. Diesen Beweis führt bisher aber, wie wir noch
+sehen werden, nur Amerika und in noch viel zu kleinen Ver-
+hältnissen.
+Frauenstimmrecht.
+öfteren Geringerschätzung, die etwa in den Briefen des Apostels
+Paulus den Frauen zu Theil wird, keineswegs ein ausge-
+sprochenes Weltgesetz und am allerwenigsten etwa eine Vor-
+schrift des Christenthums, soweit dasselbe aus den Worten
+Christi selber ersichtlich ist. Wir sind in dieser Hinsicht der
+Ansicht einer berühmten Vertreterin der Gleichheit, dass die
+Anschauungen des grössten Apostels der ursprünglichen
+Christenheit zum Theil auf damalige Verhältnisse, na-
+mentlich auf eine Beschaffenheit der ersten, besonders der
+griechischen, Proselyten weiblichen Geschlechts zurückzuführen
+sind, die heute nicht mehr alle zutreffen. Wollte man das
+nicht annehmen, so müsste man konsequenterweise auch die
+Aussprüche des Apostels über die Nothwendigkeit langer
+Haare für Frauen und die Unzulässigkeit eines Betens derselben
+mit unbedecktem Kopfe 1) als Gegenstand des unabänderlichen
+Christenglaubens betrachten, während sie, wie Jedermann
+zugiebt, offenbar Sitten und Anschauungen der damaligen
+Zeit betreffen.
+Unter den jetzigen Verhältnissen und in Staaten mit
+alter Civilisation giebt es jedenfalls Frauen genug und sogar
+ganze Klassen von Frauen, die mit Unrecht von der Betheili-
+gung an öffentlichen Angelegenheiten ausgeschlossen erscheinen,
+da sie für dieselben ebensoviel Interesse und Verständniss
+besitzen und mitunter mehr Gerechtigkeitssinn, Idealität und
+Aufopferungsfähigkeit hinzu bringen würden, als viele Männer.
+Es ist an und für sich schon ein Widersinn, dass den
+Frauen von Frauen in den Schulen Verfassungskunde und
+politische Geschichte vorgetragen wird, diese Lehrerinnen
+und Schülerinnen aber niemals in die Lage kommen in
+1) I. Cor. XI, 4—15. Dass die erste Bekehrung in Europa
+die einer Frau war, dürfen wir noch heute dankbar anerkennen.
+(Ap.-Geschichte XVI, 14, 17.)
+Frauenstimmrecht.
+Anwendung dieser Kenntnisse an einer Abstimmung, oder
+Wahl theilzunehmen, an der viel weniger gebildete Klassen
+von Männern oft genug den Ausschlag geben. Und noch
+widersinniger wo möglich ist es, dass Mütter, die oft ganz
+allein in der Familie für die Erziehung der Kinder sich
+interessiren und darin etwelche Erfahrung haben, die Schul-
+behörden und Lehrer nicht wählen und in den Schulbehörden
+nicht vertreten sein dürfen, während oft Männer mit weit
+geringerem Verständnisse für Schulsachen darin sitzen 1).
+Der Staat thut sich selbst einen grossen Schaden, wenn er
+die ganze Hälfte seiner Bürger des Rechtes sich für die
+öffentlichen Interessen zu interessiren und damit nothwendig
+auch der Fähigkeit dazu beraubt, und es ist wunderbar,
+dass dies Söhne von Müttern und Männer von Frauen
+mitthun, die ganz genau wissen, dass das Beste, was sie an
+Geist und Charakter in sich tragen, von diesen Frauen
+herrührt.
+Auf die besonders berühmten oder gelehrten
+Frauen, wie etwa im Alterthum 2) Eudokia, Pamphila, Arete,
+Hipparchia, Leontion, Hypatia, später Hroswitha, Catharina von
+Siena, in neuerer Zeit Novella, Laura Bassi, Madame Dacier,
+Madame du Châtelet, Frau von Staël, George Sand, Sonja
+Kowalewska, Harriet Martineau, Frau Harriet Beecher-Stowe,
+Frau Booth, namentlich auf die etwas zu genialen und emanzi-
+pirten legen wir kein Gewicht; dieselben haben mitunter ihre
+ausgezeichneten Eigenschaften auf Kosten ihres weiblichen
+Wesens erlangt und ausgebildet, und würden uns eher von der
+Gleichstellung der Frauen, wenn alle so wären, wie sie, ab-
+1) Dieselben werden dann im besten Falle von ihren Frauen
+zu Hause instruirt, was geschehen müsse.
+2) Schon der Stoiker Appollonios stellt ein solches Verzeichniss
+im ersten Jahrhundert n. Chr. auf.
+Frauenstimmrecht.
+schrecken. Es ist auch ohne Zweifel der natürliche Widerwille
+gegen diese oft recht unnatürlichen Zwitter, der viele der
+besten Frauen selber noch zur Zeit bewegt, gegen die sogenannte
+«Frauenemanzipation» im Ganzen und Grossen sich auszu-
+sprechen, weil ihnen das Wort und die oft sehr lauten Ver-
+treterinnen dieser Sache gleichmässig zuwider sind. Das
+Alles sind aber Mängel jeder beginnenden Freiheit. Niemals
+sind die ersten Vorkämpfer einer Sache fehlerfrei und
+namentlich nicht übertreibungsfrei; Enthusiasmus, ja Einseitig-
+keit und Leidenschaftlichkeit gehört zu den menschlichen
+Eigenschaften, die bei der Erschütterung eines bestehenden
+Besitzes stark mitzuwirken pflegen, und nirgends mehr als
+bei allen politischen Emanzipationen gilt das hoch originale
+Wort des Evangeliums, dass die Todten die Todten begraben
+müssen und die Ungerechtigkeit in der Welt nicht durch lauter
+mustergültige Gerechte beseitigt werden kann. Das muss
+bei jeder Befreiung zuerst geschehen, dann aber, auf einem
+so geklärten Boden, ist das beste, ja das einzige Erziehungs-
+mittel zum Gebrauch der Freiheit die Freiheit selbst.
+Wir halten daher unsererseits dafür, die Rechtsungleichheit
+der Frauen sei theoretisch und prinzipiell als Forderung
+der menschlichen Vernunft, oder der göttlichen Weltordnung,
+nicht erweisbar, sondern höchstens eine Frage der Zweck-
+mässigkeit und in sehr hohem Grade eine solche, bei welcher
+der «beatus possidens» keine Veränderung wünscht und dage-
+gen immer Gründe finden wird, so lange er allein den Ent-
+scheid in Händen hat.
+Daraus ergiebt sich endlich, dass ohne die Erlangung des
+Stimmrechts, oder in rein repräsentativen Staatsordnungen
+des Wahlrechts, für die Frauen, alles Reden über Frauen-
+Frauenstimmrecht.
+rechte und jede sogenannte Frauenbewegung grösstentheils
+leeres Gerede bleibt. Die bessere Erziehung und Ausbildung
+der Frauen, ihre Zulassung zu den liberalen Berufsarten, die
+Vermehrung ihrer Interessen über die gewöhnliche Dressur
+für die Jagd auf einen Ehemann, oder noch ein wenig
+Litteratur und Kunst hinaus; ja selbst ihre — an sich noch
+so berechtigte — ökonomische Befreiung von einer bisherigen,
+oft unwürdigen Abhängigkeit ist nicht genügend um eine
+gründliche Besserung herbeizuführen. Niemals wird, wie die
+Menschen einmal beschaffen sind, eine bisher bevorrechtete
+Klasse einer anderen gern Rechtsgleichheit gewähren und
+vollends niemals ist ein solches Zugeständniss mehr als ein
+blosses Precarium, wenn es durch Schlussnahme des Einen
+Theils wieder zurückgenommen werden kann.
+Wenn daher die Frauen ihr Recht bloss auf ein Civilgesetz-
+buch gründen wollen, das von einer Versammlung gemacht ist
+und wieder abgeändert werden kann, welche aus Männern
+besteht und nur von Männern gewählt wird, so sind sie nicht
+sicher, dass ein kommendes Jahrhundert alle Errungenschaften
+des jetzigen, oder nächsten, wieder beseitigt 1). Wir haben in
+unserer alten eidgenössischen Geschichte das Beispiel vor
+Augen, wie aus gleichberechtigten Bürgern nach und nach
+Unterthanen von Städten, oder bevorrechteten Klassen ent-
+stehen konnten, und die Herabdrückung des ursprünglich
+freien germanischen Bauers unter die ursprünglich nicht
+einmal immer freie Klasse von Ministerial-Adligen, von
+welcher sich nur die thatkräftigeren Bürger der Städte frei
+1) Im Strafrecht dagegen, wo es sich nicht um Vortheile,
+sondern um Nachtheile handelt, lässt man ihnen durchschnittlich
+unbeanstandet die Rechtsgleichheit, wenigstens grundsätzlich, an-
+gedeihen.
+Frauenstimmrecht.
+hielten, ist ein noch grösseres Exempel. Auch in heutiger
+Zeit wäre der Sozialismus in Deutschland kаum entstanden,
+geschweige denn mächtig geworden ohne das allgemeine Stimm-
+recht, und ohne dasselbe würde er sieh heute noch bald wieder
+verlieren 1). Die Freiheit besteht wesentlich darin, dass man
+an der Gesetzgebung Theil nimmt, alles Andere ist eine Ge-
+währung von Rechten, die auf dem guten Willen eines Dritten
+beruht und desshalb eine sehr zweifelhafte Errungenschaft. Wir
+betrachten also unsererseits das Frauenstimmrecht als
+den praktischen Kern der Frauenfrage.
+II.
+Das Stimmrecht des weiblichen Geschlechts ist in allen
+civilisirten Staaten, in denen überhaupt irgend eine Be-
+theiligung der gesammten Bevölkerung an der Gesetzgebung
+und Verwaltung des Staates stattfindet, die weitaus grösste
+der noch zur Lösung ausstehenden Staatsfragen. Denn damit
+allein wird einerseits das sogenannte «allgemeine Stimm-
+recht» aus einer täuschenden Redensart 2) zu einer Wahrheit,
+indem dann wirklich die gesammte staatsbürgerliche Be-
+völkerung erwachsenen Alters (mit Ausnahme geringer Bruch-
+theile, wie etwa der kriminell Verurtheilten, oder sonst
+nicht ehrenfähigen, oder nicht selbständig handlungsfähigen
+Personen) daran Theil nimmt. Andererseits würde damit die
+1) Das völlige Aufhören der ebenso grossen Chartisten-Bewegung
+der vierziger Jahre in England ist ein praktisches Beispiel dafür. Hätte
+damals ein allgemeines Wahlrecht in England bestanden, das noch
+heute nicht besteht, oder gar ein Abstimmungsrecht über Verfassung
+und Gesetzgebung in der Weise des schweizerischen, so würden sich
+die englischen Verhältnisse ganz anders entwickelt haben.
+2) Jetzt sind, wo «allgemeines» Stimmrecht besteht, dennoch
+von 100 Einwohnern bloss etwa 22 stimmberechtigt.
+Frauenstimmrecht.
+Zahl der Stimmberechtigten in jedem Staate um mehr als die
+Hälfte erhöht und es kann eine solche Masse neuer Stimmender
+und Wühlender einen sehr bedeutenden, ja unter Umständen
+ausschlaggebenden Einfluss auf die politischen Verhält-
+nisse ausüben. Es giebt in unseren modernen Staaten, nachdem
+das politische Majorennitätsalter schon stark herabgedrückt
+worden ist, und andere Ausschlussgründe, sei es ökonomischer
+Art, oder wegen mangelnder nothdürftigster Bildung, im
+Verschwinden begriffen sind, keine Massregel, mit der man
+politisch soviel ausrichten, ja unter Umständen die ganze
+Politik eines Staatswesens ändern kann, wie die Einführung
+des Frauenstimmrechts. Dessenungeachtet (oder vielleicht
+gerade desswegen) besteht die politische Gleichberech-
+tigung der Frauen vorläufig nur in verhältnissmässig
+wenigen Staaten, vorzüglich in kleinen Gebieten der Ver-
+einigten Staaten von Nordamerika.
+Politisch gleichberechtigt sind die Frauen mit den
+Männern in dem früheren Territorium, jetzigen Staate
+Wyoming (westlich von Nebrasca an der Pacificbahn), ur-
+sprünglich nach einem Territorial-Gesetze vom 10. Dezember
+1869, das in den Beilagen abgedruckt ist, jetzt nach dem
+Artikel 3 der interessanten, aber wenig bekannten Staats-
+verfassung vom 30. Sept. 1889, die sich ebenfalls in den Beilagen
+findet. Es war dies der erste Staat in der Welt, welcher den
+Geschlechtsunterschied in Bezug auf bürgerliche Rechte be-
+seitigte; auch dieses Stück moderner Freiheit hat also, wie
+die Glaubens- und Gewissensfreiheit, seine Geburtsstätte in
+Amerika. Die gleiche Bestimmung bestand bereits auch in
+dem früheren Territorium, jetzigen Staate Washington 1).
+1) Nicht zu verwechseln mit dem Bundesgebiet, auf dem die
+Hauptstadt Washington steht und das zu keinem der Gliederstaaten
+der Union gehört. Dort besteht das Frauenstimmrecht nicht.
+Frauenstimmrecht.
+Dort wurde jedoch durch ein obergerichtliches Urtheil
+das Frauenstimmrecht beseitigt und bisher nicht wieder
+hergestellt. In dem ebenfalls neueren, an Wyoming an-
+gränzenden Staaten Colorado enthält die Verfassung den
+Vorbehalt das Frauenstimmrecht einzuführen, der seither
+zur Ausführung gelangt ist 1), ebenso besteht das Frauen-
+stimmrecht in Utah seit 1895 wieder, nachdem es zeit-
+weise beseitigt war und endlich in Idaho seit 1896.
+Das sind jetzt die 4 (oder 5) Staaten (von 45) der nord-
+amerikanischen Union mit politischer Rechtsgleichheit der
+Frauen.
+Zunächst stehen vermuthlich der Einführung einer
+allgemeinen Rechtsgleichheit die amerikanischen Glieder-
+staaten Nevada und Wisconsin. Ein Nachbarstaat von
+Wyoming, Nebrasca, befand sich im November 1882 unmittel-
+bar vor der Frage, lehnte aber damals mit Mehrheit der
+abstimmenden männlichen Bevölkerung, trotz erheblicher
+Agitation dafür, das Frauenstimmrecht ab 2). Ebenso wurde
+1) Die bezügliche briefliche Berichterstattung fügt hinzu: «Les
+finances du Colorado sont administrées, ou du moins l'ont été
+jusqu'à l'année dernière par une demoiselle qui, bien qu'ayant
+du céder pour des raisons de parti sa charge, a été, priée de conti-
+nuer dans une position officieuse ses soins à l'importante admi
+nistration.»
+2) Dieser Misserfolg wurde dort wesentlich den deutschen
+Stimmberechtigten zugeschrieben. Ein diesfälliger Brief an den
+Herausgeber sagt darüber: «Sehr viele unter ihnen betrachten
+sich als die Herren der Schöpfung und schauen auf das zartere
+Geschlecht, nach Art der Wilden, mit Geringschätzung.
+Namentlich sind einige Graubündner wahre Barbaren in dieser
+Beziehung».
+Frauenstimmrecht.
+es seither noch in Dacota 1). Massachusetts, Kansas, Oregon,
+Californien und New-York verworfen.
+In zahlreichen Gliederstaaten der amerikanischen Union
+(28) besitzen die Frauen das Stimmrecht in Schulsachen.
+Zuweilen ist dasselbe an die Bedingung geknüpft, dass sie
+Steuern bezahlen, oder Familienhäupter sind, oder Kinder im
+schulpflichtigen Alter besitzen. Wählbar zu Schulstellen sind
+die Frauen durchwegs, selbst für die Universitätslehrämter,
+wobei übrigens zu bemerken ist, dass die amerikanischen
+Universitäten nicht immer die gleiche Bedeutung haben, wie
+die europäischen, sondern mitunter mehr höheren Gymnasien
+zu vergleichen sind. Ebenso kommt es vor, dass ein
+Stimmrecht der Frauen für die Gemeindewah1en über-
+haupt besteht, so zum Beispiel in Kansas und durch ein im
+Staate Vermont im Jahre 1893 erlassenes Gesetz. In einer
+Stadt von Kansas soll sogar einmal die ganze Stadtverwaltung
+zeitweise aus Frauen bestanden haben.
+Für das Bundesrecht der Vereinigten Staaten selber
+kam das Frauenstimmrecht auch schon ernstlich in Frage. Im
+Jahre 1885 sprach sich ein Senatsausschuss mit Mehrheit dafür
+aus, im Januar 1887 wurde jedoch ein betreffender Zusatzartikel
+zu der Bundesverfassung im Senat mit 34 gegen 16 Stimmen
+abgelehnt und dabei zur Begründung von mehreren Rednern
+ganz besonders angeführt, dass die Mehrheit der Frauen in
+Amerika selber gegen diese Massregel gestimmt sei.
+1) In Süd-Dacota wurde 1890 in einer Volksabstimmung das
+Stimmrecht der Indianer angenommen, das der Frauen aber
+gleichzeitig verworfen, was wirklich nahezu an Barbarei gränzt. Die
+bedeutenden Abolitionisten Amerikas mit Bezug auf Neger, oder
+Indianer waren gewöhnlich auch Befürworter des Frauenstimm-
+rechts, aus den gleichen philosophischen Beweggründen.
+Frauenstimmrecht.
+Immerhin nehmen schon jetzt die Frauen derjenigen
+Staaten, welche das Stimmrecht der Frauen besitzen, an den
+Wahlen der Elektoren für die Präsidentschaft Theil, da das
+Stimmrecht in Bundessachen auch in Amerika, wie bei uns,
+nicht durch ein allgemeines Bundesgesetz, sondern durch die
+Gesetze der Einzelstaaten geregelt wird. Insofern also be-
+steht Frauenstimmrecht bei der amerikanischen Präsidenten-
+wahl. Sie könnten auch selbst Elektoren werden, oder in den
+Senat der Vereinigten Staaten gelangen. 1)
+Ausserhalb Amerikas besteht das Frauenstimmrecht seit
+1893 und 1896 in den englischen Kolonien Neu-Seeland 2)
+und Süd-Australien. In beiden war die Betheiligung
+des weiblichen Geschlechts an den Wahlen sofort eine sehr
+starke. Ferner besteht es schon lange zu Gunsten von Wittwen
+und unverheiratheten selbständigen Frauen für Munizipal-
+1) Im Jahre 1896 wurde dem Senatscomité für Frauenstimmrecht
+neuerdings der folgende Vorschlag eingereicht:
+Joint Resolution, Proposing an amendment to the Constitution
+of the United States.
+Resolved by the Senate and House of Representatives of the
+United States of America in Congress assembled (two-thirds of each
+House concurring therein), That the following article be proposed
+to the legislatures of the several States as an amendment to the
+Constitution of the United States, which, when ratified by three-
+fourths of the said legislatures, shall be valid as part of said Con-
+stitution, namely:
+Article.
+Section 1. The right of citizens of the United States to vote
+shall not be denied or abridged by the United Slates or by any
+State on account of sex.
+Section 2. The Congress shall have power, by appropriate
+legislation, to enforce the provisions of this article.
+2) In einer neuseeländischen Stadt wurde 1894 eine ver-
+heirathete Frau zum Bürgermeister des Ortes gewählt, deren Gatte
+früher das gleiche Amt bekleidet hatte.
+Frauenstimmrecht.
+wahlen in der Kolonie Nova-Scotia an der Ostküste von
+Amerika (mit dem Hafen Halifax). Ebenso besteht seit 1881
+das aktive Wahlrecht zu Gunsten selbständiger, grund-
+besitzender Frauen für die Ständeversammlung (house of keys)
+der Insel Man in der irischen See, die keine Abgeordneten
+in das endliche Parlament schickt. Ein Hauptgrund hiefür
+soll dort der gewesen sein, dass es sehr viele Wittwen auf
+der den Stürmen ausgesetzten Insel giebt.
+In England selbst besteht das Frauenstimmrecht zu
+Gunsten selbständiger Frauen, die Steuern bezahlen, für die
+Wahl der Schulräthe und nunmehr auch der Kirchspielräthe;
+dagegen verwarf das englische Parlament schon mehrmals
+(besonders 1873, 1885, 1888, 1891, 1892) Vorschläge, welche
+das Frauenstimmrecht allgemein einführen, beziehungsweise
+gegenüber den bestehenden Bestimmungen erweitern wollten.
+Einmal jedoch geschah dies im Unterhaus mit der geringen
+Mehrheit von 23 Stimmen 1), ein anderes Mal, 1885, nahm das
+Unterhaus sogar an und fiel die Bill nur im Oberhause durch.
+Jetzt liegt die Frage wieder vor. Es ist dazu zu be-
+merken, dass in England auch das allgemeine Stimmrecht
+im gewöhnlichen,. auf die Männer beschränkten Sinne nicht
+besteht, sondern erhebliche, sogar noch ökonomische Voraus-
+setzungen, auch nach der letzten Reformbill, dazu gehören,
+um in das Parlament zu wählen, oder gewählt zu werden 2).
+1) 1897 wurde die zweite Lesung des Vorschlags mit 228 gegen
+157 Stimmen genehmigt. Immerhin ein Achtungserfolg. John Stuart
+Mill proponirte das Frauenstimmrecht schon 1867 bei der zweiten
+Reformbill, später bildete es das amendment Woodall zu der Glad-
+stone'schen Wahlreform, noch später die bills Stuart, Rollit, Begg.
+2) Aehnlich ist es auch in anderen Staaten, daher ist dort sehr
+begreiflich die Zeit für das Frauenstimmrecht noch nicht gekommen,
+das allgemeine männliche Stimmrecht muss vorausgehen.
+Frauenstimmrecht.
+Es ist daher nicht unwahrscheinlich, dass in England das
+Frauenstimmrecht einen Bestandtheil eines weiteren Reform-
+Wahlgesetzes bilden wird, sobald sich ein solches für den
+Grundsatz des allgemeinen Stimmrechts (a man a vote)
+auszusprechen wagt. Vorgearbeitet ist hiefür durch das
+wichtige Gesetz «married womans property act» von 1883,
+wodurch die englischen verheiratheten Frauen in ihren Ver-
+mögensverhältnissen selbständig geworden sind, während
+früher ihr Vermögen durch die Heirath in des Mannes Eigen-
+thum übergieng 1). Aehnliche vorbereitende Gesetze sind
+in neuerer Zeit in einigen amerikanischen Staaten erlassen worden.
+In anderen Ländern sind unseres Wissens nur erste
+Anfänge eines Frauenstimmrechts, oder hierauf bezügliche
+Anträge vorhanden. So in Dänemark, wo sich das Volks-
+thing im Jahre 1894 mit dieser Frage beschäftigte, und in
+1) Durch dieses Gesetz erhält die englische verheirathete Frau
+den Alleinbesitz und die alleinige Verwaltung ihres Vermögens, so-
+wohl des in die Ehe gebrachten, als des während der Ehe erworbenen,
+und kann darüber allein verfügen; ebenso kann sie ihren ganzen
+Erwerb allein behalten. Der Ehemann hat nur so viel Rechte
+daran, als ihm die Frau jeweilen im Sinne einer Nutzniessung ein-
+räumen will. Früher konnte man nur durch ein sogenanntes
+«settlement», eine sehr kostspielige Prozedur, der heirathenden
+Tochter vor der Ehe das Vermögen sichern, sonst konnte ihr Gatte
+sie sogar durch Testament des Vermögens berauben, das sie in die
+Ehe gebracht hatte. Seit 1870 aber schon konnte sie mit
+Zustimmung des Ehegatten ihr Vermögen behalten.
+Dagegen haben englische Gerichtshöfe im Jahre 1889 die Wahl
+einer Lady Sandhurst in den Londoner Grafschaftsrath kassirt, mit
+der Begründung Seitens des Lord-Oberrichters, dass seit 1869 Frauen
+zwar an den Gemeinderathswahlen Theil nehmen, aber nicht selbst
+gewählt werden können, obwohl faktisch bereits mehrere Damen in
+dieser Behörde sassen, u. A. eine Tochter Cobden's.
+Frauenstimmrecht.
+Frankreich, wo die Handelsfrauen seit 1889 an den Wahlen
+der Handelsrichter Theil nehmen dürfen. In diesem Jahre
+(1897) hat der französische Senat das Recht der Frauen zur
+Zeugnissabgabe, von Strafsachen auf alle bürgerlichen Rechts-
+sachen ausgedehnt. In der ersten Revolution waren die Frauen
+nahe daran die Rechtsgleichheit zu erlangen, in einzelnen
+Sektionen von Paris nahmen sie sogar regelmässig an den
+Verhandlungen Theil und hatten berathende Stimme 1). Im
+Jahre 1885 verlangten, wohl in Erinnerung daran, zwei
+Damen in Paris einfach die Eintragung in die Wähler-
+listen auf Grund der Verfassungsbestimmung «jeder Franzose
+ist Wähler», worüber der Kassationshof am 5. März 1885
+in ablehnendem Sinne entschied 2). Im schwedischen
+Reichstag war 1884 vom Frauenstimmrecht die Rede, und
+unterlag dasselbe mit nicht sehr grosser Mehrheit der Ver-
+werfenden (53 gegen 44 in der zweiten Kammer); ebenso in
+einer Prager Stadtverordneten-Sitzung von 1887. Auch
+in Island, das eine eigene Volksvertretung besitzt (wäh-
+rend die Faroer-Inseln in dem dänischen Volksthing mit-
+vertreten sind), besteht für die Wahlen in dieselbe und die
+1) Taine, Les origines de 1a France contemporaine, III. 292.
+Singulärer Weise wurden die Frauen durch ein Dekret von 10./11.
+Juni 1793 berufen an einer Abstimmung über die Gemeindegüter,
+Theilung, Verkauf, Vermiethung etc. Theil zu nehmen, «tout individu
+de tout sexe ayant droit au partage et âgé de 21 ans aura droit de
+voter». Die Staatsmänner der Revolutionsperiode waren im Uebrigen
+verschiedener Meinung. Condorcet war für das Frauenstimmrecht,
+Mirabeau und Robespierre dagegen. Vergl. die Beilagen. That-
+sächlich war der politische Einfluss der Frauen nicht unbedeutend,
+Madame Roland war sogar der eigentliche leitende Genius der Giron-
+disten-Partei.
+2) Aehnliche Gerichtsentscheidungen sind auch in Amerika mehr-
+fach vorgekommen.
+Frauenstimmrecht.
+Distriktsverwaltungen das Frauenstimmrecht aller selbstän-
+digen Frauen nach einem Gesetze vom 12. Mai 1882.
+Eine historische Erinnerung ist noch, dass eine Ximena
+Blasquez von Avila in Spanien seiner Zeit die Rechte der
+Männer erhalten haben soll, weil sie als Kommandantin der
+Stadt einen Ueberfall der Mauren abgewendet hatte 1).
+Stimmrecht der Frauen, ausgeübt durch männliche
+Stellvertretung, kommt vor: in Oesterreich bei der
+Wählerklasse des grossen Grundbesitzes (Wahlgesetz von 1873)
+für den Reichsrath und auch in den einzelnen Kronländern
+Böhmen, Galizien, Mähren. Ferner partizipiren die Frauen
+in Schweden bei der indirekten Wahl der ersten Reichs-
+tagskammer, ebenso haben sie das Stimmrecht für die Wahlen
+der Gemeinderäthe und zwar persönlich, oder durch Stell-
+vertretung; ebenso in Finnland: in Norwegen haben
+sie das Schulstimmrecht.
+Delegation der Censusbedingungen kommt in
+Italien vor, nach dem Artikel 12 des Wahlgesetzes vom
+24. September 1862. Die direkte Steuer, die eine Frau, sei
+es Wittwe oder verheirathete Frau, entrichtet, kann sie
+einem ihrer Söhne, Enkel oder Grossenkel, den sie auswählt,
+1) Solche Ehren genossen auch schon schweizerische Frauen als
+Gesammtheit wegen ihrer Tapferkeit, so zum Beispiel die Frauen
+von Lugnetz den Vortritt bei dem Kirchgang, die Frauen von
+Hettiswyl, Kriegstetten, Burgdorf etc. Vergl. darüber n. A. Tobler,
+«Kriegsthaten schweizerischer Frauen» in der Zeitschrift für Völker-
+psychologie und Sprachwissenschaft, 1862. In einem afrikanischen
+Territorium, Opoba. das unter englischem Schutze steht, ist eine
+Amerikanerin Premierminister des eingeborenen Königs. Ebenso
+soll auf der Insel Tavolara, nördlich von Sardinien, eine Art von
+Frauenstimmrecht bestehen.
+Frauenstimmrecht.
+anrechnen, so dass er dadurch stimmberechtigt wird. Selbst-
+verständlich ist dies in vielen Staaten gegenüber dem
+Ehemann der Fall; in anderen besteht es bloss für Gemeinde-
+angelegenheiten (Belgien. Rumänien).
+Wählbar sind die Frauen in die Schulbehörden in England,
+Norwegen und einem Theil von Schweden, in die munizipalen
+Behörden in Kansas 1). In Wyoming und Washington waren
+sie längere Zeit selbst in die Schwurgerichte wählbar, bis
+1887 das Obergericht von Washington ein solches Urtheil
+kassirte. Seither ist dies in beiden Staaten, wie es scheint,
+nicht mehr der Fall 2).
+Die Frage ob sie den Advokaturberuf ergreifen
+können, wurde sehen öfters gestellt, in Europa aber unseres
+Wissens bisher stets negativ beantwortet, selbst in der Schweiz
+in einem Kanton, der die freie Advokatur hat (B. Ger. Ent-
+scheidungen XIII, S. 1). Anders in Amerika, wo sie dieses
+Recht besitzen; ebenso können sie dort Notare, Betreibungs-
+beamte, Administratoren von Massen etc. werden. Ob sie
+in der Schweiz vor dem Bundesgerichte plaidiren könnten, ist
+unausgemacht, wir halten dafür ja, weil für diese Praxis auch
+keine anderen Beschränkungen, durch Erfordernisse von
+Prüfungen etc., bestehen.
+Verantwortliche Redakteure, oder Geranten von
+Zeitungen können die Frauen in den meisten Ländern sein,
+1) Auch in Schweden (Upsala) kommt es vor, dass Frauen an
+Universitäten Lehrämter bekleiden.
+2) Ostrogorski citirt aus jener früheren Zeit ein Wiegenliedchen,
+als Spottvers auf diese richterlichen Frauen:
+«Baby, baby don't get in a fury,
+Your mother's gone to sit in the jury».
+Frauenstimmrecht.
+jetzt auch in Frankreich seit 1881, dagegen nicht in Spanien
+und Bulgarien. In der Schweiz wurde diese Frage unseres
+Wissens nie aufgeworfen; es besteht auch wohl keine weib-
+liche verantwortliche Redaktion einer politischen Zeitung,
+an der Berechtigung dazu ist aber nicht zu zweifeln.
+Die Universitäten dürfen die Frauen mit mehr oder
+weniger Freiheit besuchen in Frankreich, Schweden. Norwegen,
+Dänemark, Italien, der Schweiz, Deutschland, Oesterreich; für
+die alten englischen Universitäten Oxford und Cambridge gilt
+dies nicht, in Amerika und den englischen Kolonien ist es
+grösserentheils der Fall. In England, Russland und Italien
+bestehen besondere höhere Schulen für Frauen.
+In der schweizerischen Eidgenossenschaft
+besteht bisher das Frauenstimmrecht nirgends und hat diese
+Idee überhaupt noch nicht rechte Wurzel fassen wollen,
+trotz der schönen Tradition von der «Stauffacherin», welche
+die schweizerische Freiheit zuerst historisch entdeckte und
+praktisch postulirte, und obwohl die schweizerischen Frauen
+ganz ohne Zweifel, was politisches Verständniss und politische
+Bildung, sowie natürliche Begabung für solche Sachen und
+Charakter überhaupt anbetrifft, keinen ihrer Mitschwestern
+nachstehen, vielmehr den meisten überlegen sind. Wenn
+irgendwo dürfte man also hier einen Versuch damit wagen.
+Dennoch ist ein solcher noch nie ernstlich gemacht worden 1),
+1) Einzig in der Gemeinde Bern bestand früher (seit 1886 auch
+nicht mehr) das Stimmrecht selbständig steuerzahlender Frauen,
+aber nur durch männliche, von ihnen zu bezeichnende Vertretung, die
+dann gewöhnlich Angehörige, mitunter aber auch Studenten, Milch-
+träger etc. ausübten. In Basel allein wurde s. Z. bereits eine An-
+regung für das Frauenstimmrecht in Kirchensachen gemacht
+Indirekt haben die Frauen oft grossen Einfluss auf die Politik aus-
+geübt: ohne die Entschlossenheit der adeligen Nonnen von Königs-
+Frauenstimmrecht.
+selbst von solchen Politikern nicht, die sich für viel geringere
+und jedenfalls viel weniger wirksame Stimmrechtsfragen, wie
+zum Beispiel für die Proportional-Vertretung, lebhaft zu be-
+geistern vermögen. Die Mehrzahl huldigte bisher offenbar
+dem alten, so viel bekannt zwar nicht bei uns entstandenen
+Sprichwort:
+«Wo die Landsknecht sieden und braten,
+Pfaffen in weltliehen Dingen rathen
+Und Weiber sitzen im Regiment,
+Da nimmt es selten ein gutes End».
+Dennoch steht die Schweiz dem Frauenstimmrecht näher,
+als die anderen Staaten Europas ausser England. Nicht
+allein der obigen unzweifelhaften Eigenschaften ihrer Frauen
+wegen, die eigentlich nur selbst recht ernstlich dieses Ziel
+anzustreben brauchten, um es bei ihren selten ganz unge-
+fügigen männlichen Angehörigen in den Vordergrund der
+Diskussion zu rücken, sondern auch desshalb, weil sie das
+wichtigere Recht, das passive Wahlrecht, schon vielfach
+gewohnheitsmässig besitzen, ohne dass darüber der Staat im
+Geringsten aus den Fugen gekommen ist. Denn nicht allein
+sind die Frauen nun ziemlich allgemein zur Theilnahme an
+den höheren Studien in Gymnasien und Universitäten zuge-
+lassen, welche die natürliche Vorbedingung und Einleitung
+zu dieser Frage der Gleichberechtigung bilden, sondern sie
+sind auch schon jetzt zu manchen Schul-, Staats-, Gemeinde-
+und Verkehrsbeamtungen wählbar, die sicherlich grössere An-
+forderungen an Kenntnisse und Charakter stellen, als die
+1)
+1) felden wäre vielleicht die Reformation in Bern nicht so rasch vor
+sich gegangen. Ein etwas komisches Beispiel von Frauenstimmrecht
+war das Auftreten der Generalin Reding auf der Schwyzer-Lands-
+gemeinde. («Betsy Schwig!»)
+Frauenstimmrecht.
+jenigen, die für das allgemeine Stimmrecht als genügend er-
+achtet werden. Wo das passive Wahlrecht in so hohem Mass-
+stabe besteht, ist ein eigentlicher Grund, das aktive auszu-
+schliessen, nicht mehr vorhanden und es ist, wie schon Ein-
+gangs gesagt wurde, nicht recht abzusehen, warum eine Lehrerin,
+die in ihrer Schule schweizerische politische Geschichte und
+Verfassungskunde lehren darf, nicht fähig sein sollte an
+einer Referendums- oder Verfassungsabstimmung, oder an
+einer Wahl Theil zu nehmen. Es fehlt hier also die Logik
+in diesen Verhältnissen, wie sie sich meistens ganz that-
+sächlich gebildet haben und erst nachträglich gesetzgeberisch
+gerechtfertigt worden sind 1), und dieselbe wird sich Raum
+verschaffen, wie es ihrer Natur entspricht, sobald einzelne Vor-
+urtheile dagegen, durch die Praxis und das Beispiel anderer
+Länder, abgeschwächt, oder ganz beseitigt worden sind.
+«Jeder Despotismus — sagt uns ein bekannter eng-
+lischer Philosoph — sei er politisch oder sozial, betreffe er Ge-
+schlecht, Kaste, Alter, oder was immer sonst, muss von
+einer wachsenden Civilisation schliesslich hinweggeräumt
+werden».
+III.
+Welches sind die muthmasslichen politischen
+Wirkungen des Frauenstimmrechts?
+Das ist eigentlich die grösste Frage dabei. In den meisten
+Staaten, ganz besonders bei uns, wo man dermalen in weiten
+1) Wir erinnern uns z. B. an einen Fall, wo eine Eisenbahn-
+kassierin zuerst bloss als Stellvertretung ihres erkrankten Vaters
+fungirte und dann später, als die Sache nichts Auffallendes mehr
+besass und sich auch sonst bewährt hatte, selbständig angestellt
+wurde.
+Frauenstimmrecht.
+Kreisen für alles Neue eine fast ebenso grosse Zuneigung
+besitzt, wie weiland die Athener 1), würde die Frage sehr
+an Bedeutung zunehmen und sogar die natürliche Abneigung
+aller herrschenden Klassen, ihre Macht mit anderen zu theilen,
+überwinden können, wenn man mit einiger Sicherheit die poli-
+tischen Folgen einer solchen Neuerung zu ermessen im Stande
+wäre. Bisher bestehen darüber keine bestimmten, oder vielmehr
+ganz entgegengesetzte Ansichten und das wesentlichste Mittel
+sich zu informiren; die Erfahrung in anderen Ländern ist
+entweder gar nicht, oder nur in Gebieten vorhanden, die uns
+einigermassen ferne stehen.
+1. Eine Erfahrung besitzt eigentlich nur Amerika, wo
+das volle Frauenstimmrecht, überhaupt die völlige Gleich-
+berechtigung der Frauen nun seit beinahe 30 Jahren, man
+kann also sagen seit einer Generation, besteht. Thatsächlich
+ist dies jedoch auch nur in einem einzigen Gliederstaate der
+Union, Wyoming, der Fall. Dort wurde das Frauenstimm-
+recht in der ersten Legislatur in Vorschlag gebracht,
+nachdem im Jahre 1868 das Territorium mit bloss ungefähr
+5000 Seelen Bevölkerung in der damaligen «grossen amerika-
+nischen Wüste» entstanden war, und es wird sogar erzählt,
+dass man die Sache von der einen Seite mehr als einen Scherz
+angesehen, von der anderen dagegen als ein Reklamemittel
+für die Kolonisation betrachtet habe, wodurch man das neue
+Staatswesen in der Welt bekannt machen könne. In der That
+votirte die zweite Session der beiden Kammern bereits die
+Abschaffung dieses Stimmrechts, der Gouverneur belegte
+jedoch die Abschaffungsbill mit seinem Veto, und die nöthige
+Zweidrittel-Mehrheit der Kammern zur Aufhebung des Vetos
+kam nicht zu Stande. Das Gesetz blieb bestehen und gieng
+in die Verfassung des Staates über, als derselbe im Jahre
+1) Aр.-Geschichte XVII, 21.
+Frauenstimmrecht.
+1890, als solcher, in die Union aufgenommen wurde, womit
+zugleich der thatsächliche Beweis geleistet war, dass der Ein-
+führung des Frauenstimmrechts kein Artikel der Bundes-
+verfassung entgegenstehe, sondern jeder Staat der Union,
+oder auch diese selbst, es einführen können. Ueber seine
+allgemeinen Wirkungen sprechen sieh offizielle Be-
+richte wie folgt aus:
+«Woman suffrage, although resting on equity, supported
+by reason and confirmed by experience, has hitherto gained
+but partial acceptance as a principle of political philosophy.
+It commands more and more of public attention in many
+portions of our own land and in other countries, whose poli-
+tical institutions look toward freedom of the people. But
+to-day the new territory of Wyoming is the only spot on
+the earth where the political privileges of women are equal
+and identical with those of men. It was a bold and gallant
+stroke on the side of reason and of justice long delayed,
+that act of our first legislative assembly; and what wonder
+that the eyes of the world have been turned on Wyoming
+ever since.
+Elsewhere objectors persist in calling this honorable
+statute of ours «an experiment». We know it is not, — that
+under it we have better laws, better officers, better institu-
+tions, better morals and a higher social condition in general
+than could otherwise exist, — that not one of the predicted
+evils, such as loss of native delicacy and disturbance of
+home relations, has followed in its train, — that the great
+body of our women, and the best of them, have accepted
+the elective franchise as a precious boon and exercise it as
+a patriotic duty, — in a word, that, after twelve years of
+happy experience, woman suffrage is so thoroughly rooted
+and established in the minds and hearts of this people, that
+among them all no voice is ever uplifted in protest against
+Frauenstimmrecht.
+or in question of it. For these reasons, also, there rests on
+us the obligation to so guard and elevate the social order
+as to make of Wyoming an ever-brightening star for the
+guidance of this new grand movement in the interest of
+human freedom.» (Botschaft des Gouverneurs an die Legis-
+lative vom 12. Januar 1882.)
+In zwei frühern Botschaften des Gouverneurs von 1871
+und 1873 kommen folgende Stellen über diesen Gegenstand vor:
+«There is upon our statute book «an act granting to the
+women of Wyoming territory the right of suffrage and to
+hold office», which has now been in force two years. Under
+its liberal provisions women have voted in the territory,
+served on juries and hold office. It is simple justice to say
+that the women entering, for the first time in the history
+of the country, upon these new and untried duties, have
+conducted themselves in every respect with as much tact,
+sound judgment and good sense as men.
+The experiment of granting to women a voice in the
+government, which was inaugurated, for the first time in
+the history of our country, by the first legislative assembly
+of Wyoming, has now been tried for four years. I have
+heretofore taken occasion to express my views in regard to
+the wisdom and justice of this measure and my conviction,
+that its adoption had been attended only by good results.
+Two years more of observation of the practical working of
+the system have only served to deepen my conviction that what
+we, in this territory, have done, has been well done, and
+that our system of impartial suffrage is an unqualified success.»
+In einer englischen Zeitschrift «Fortnightly Review»
+findet sich folgende Betrachtung, nach dem Auszug der
+Berliner «Nation»:
+Dass ein so radikales Gesetz durchgehen konnte, ver-
+dankten die Frauen dem ersten Gouverneur von Wyoming.
+Frauenstimmrecht.
+John A. Campbell. Die Gesetzgeber hatten zum Theil den
+Vorschlag als eine Art «joke» betrachtet, während ein anderer
+Theil die Idee, den Frauen das volle Stimmrecht zu geben,
+als eine vortreffliche Reklame für das neue Territorium
+ansah. Der Gouverneur aber nahm die Sache ernst und
+vertheidigte das Recht der Frauen auch durch sein Veto,
+als zwei Jahre später eine Bill auf Beseitigung des Frauen-
+stimmrechts eingebracht wurde. So geschah es, dass das
+Territorium Wyoming bis heute die absolute politische
+Gleichberechtigung beider Geschlechter geniesst. Man kann
+also dort von einer zwanzigjährigen Erfahrung sprechen.
+Und in dieser Periode hat Wyoming sich allmählich zu einem
+Staatswesen mit mehr als 100000 Einwohnern entwickelt.
+Ferner wird konstatirt, dass das Experiment im Ganzen
+überraschend günstig ausgefallen ist. Der Prozentsatz der
+Frauen, welche ihr Wahlrecht ausüben, ist sehr gross (bis
+zu 80 Proz.). Trotzdem haben sich die Frauen nicht in
+aufdringlicher Weise in die Politik gemischt. In die parla-
+mentarische Vertretung des Territoriums ist bisher keine
+Frau — trotz der gesetzlichen Befähigung — gewählt
+worden. Dagegen haben sie ihr Stimmrecht dazu benutzt,
+um Männer in die gesetzgebenden Körper und in öffentliche
+Aemter zu bringen, welche sich bereit zeigten, gegen Trunk-
+sucht, Spiel, Prostitution, sowie politische Korruption und
+für eine ausgiebige, unentgeltliche öffentliche Schulerziehung
+einzutreten. Thatsächlich soll in Wyoming die Zahl der
+Analphabeten denn auch geringer sein, als in irgend einem
+anderen Staat oder Territorium der Union. Auch ein Gesetz
+über die bessere Ventilation in Bergwerken wird auf die
+Initiative der Frauen von Wyoming zurückgeführt. Die Frage:
+«Hat die politische Gleichberechtigung der Geschlechter auf
+das Familienleben und speziell auf das Verhältniss der Ehe-
+Frauenstimmrecht.
+gatten zu einander einen schädigenden Einfluss ausgeübt?»
+wird kategorisch verneint. Es wird im Gegentheil erzählt,
+dass sie zu einer der letzten Präsidentschaftwahlen von ihren
+männlichen Angehörigen in Kutschen zu den Wahllokalen
+geführt worden seien.
+Dagegen dürfen wir auch nicht verschweigen, dass auf
+eine Lobrede des Bundessenators Carey von Wyoming über
+das Frauenstimmrecht daselbst, ein amerikanisches Blatt, die
+«Omaha Bee», gelegentlich folgenden Schmähartikel enthielt:
+«Weder Senator Carey, noch irgend Jemand anders, der
+mit den Plänen der Frauenstimmrechtler einverstanden ist,
+hat je feststellen können, welche Vortheile das Frauen-
+stimmrecht dem Volke von Wyoming in sittlicher, gesell-
+schaftlicher, oder finanzieller Hinsicht gebracht hat. Was
+hat Wyoming vom moralreformatorischen Standpunkte aus
+aufzuweisen? Ist die Politik dadurch gereinigt worden, dass
+den Frauen das Recht verliehen worden ist, zu stimmen,
+Aemter zu bekleiden und als Geschworne zu dienen? Ganz
+sicherlich nicht! Das politische Getriebe ist, wenn es sich
+überhaupt verändert hat, nur noch schmutziger geworden,
+als es früher war. Der erfolgreiche Kandidat muss nicht
+nur mit den schlechten Männern schachern, sondern auch
+mit den schlechten Weibern. Haben Verbrechen und Laster
+in bemerkbarer Weise abgenommen? Keineswegs. Die Städte
+und Ortschaften von Wyoming sind nicht freier von Ver-
+brechen und Lastern als diejenigen anderer Staaten.»
+Kurze Zeit nachher führten die «Latter-Day Saints» in
+Utah das Frauenstimmrecht ein, um mittelst dieser Stimmen
+der Frauen der starken Einwanderung der «Heiden» in ihren
+Staat besser die Waage zu halten. Das bezügliche Gesetz
+Frauenstimmrecht.
+vom 12. Februar 1870 verlieh jeder im Territorium seit sechs
+Monaten wohnhaften, geborenen oder naturalisirten Ameri-
+kanerin im Alter von 21 Jahren das Stimmrecht. Gegen
+dieses Gesetz, das indirekt der Polygamie diente, richteten
+sich nun aber die auf allmählige Abschaffung derselben zielenden
+Bestrebungen der Union, und der Kongress verbot daher
+schon durch ein Bundesgesetz vom 22. März 1882 den poly-
+gamen Männern und Frauen die Theilnahme an Wahlen
+irgendwo im Gebiet der Union, so dass das Stimmrecht nur
+für die monogamen Frauen erhalten blieb. Ein zweites Bundes-
+gesetz vom Februar 1887, die sogenannnte «Edmunds Tucker-
+Bill», hob dann aber auch diesen Ueberrest auf (mit welchem
+konstitutionellen Recht ist neben der von dem Kongress ge-
+nehmigten Verfassung von Wyoming allerdings schwer er-
+sichtlich) und es ist erst neuerlich in dem jetzigen Staate Utah
+wieder hergestellt worden. Aus der ersten siebzehnjährigen
+Periode des Frauenstimmrechts in Utah lässt sich daher nicht
+sehr viel schliessen, da dort die Frage zu sehr mit dem
+Mormonenthum verbunden war.
+Das dritte, 1853 entstandene Territorium mit Frauen-
+stimmrecht, Washington, führte dasselbe durch ein Gesetz
+vom 22. November 1886 und eine Stimmregister-Verordnung
+von 1886 ein. Das Gesetz wurde dann von dem Territorial-
+Obergericht, wegen eines Formfehlers in der Ueberschrift, für
+nichtig erklärt, jedoch am 18. Januar 1888 neuerdings er-
+lassen. Auch dieses Gesetz erklärte das Obergericht aber
+wieder für nichtig, weil es dem Kongressakt vom 23. März
+1853, durch den das Territorium organisirt worden war,
+widerspreche, was keinesfalls richtig ist. Der Kongress selbst
+hat dies niemals ausgesprochen und die Meinung der Rechts-
+gelehrten scheint die zu sein, dass der oberste Gerichtshof der
+Union die Giltigkeit des Gesetzes von 1888 anerkennen
+Frauenstimmrecht.
+würde. 1) Immerhin ist der Bestand desselben thatsächlich
+aufgehoben, auch in der jetzigen Staatsverfassung nicht aus-
+drücklich aufgeführt, und es lassen sich daher aus diesem
+Staate ebenfalls keine Erfahrungen von den Wirkungen dieser
+Einrichtung registriren. Ebensowenig ist dies der Fall in
+Colorado, wo die Sache noch zu neu ist, oder in den Staaten
+Oregon, Nebrasca, Indiana und Süd-Dacota, wo die Legislaturen
+zwar das Frauenstimmrecht votirt haben, die Volksabstim-
+mung jedoch, soweit sie vorkam, nicht das nämliche Resultat
+ergab. In Nevada ist erst in diesem Februar ein dahin-
+zielender Beschluss, vorläufig vom Senat, angenommen worden.
+Man kann also sagen, in den Vereinigten Staaten von Amerika
+ist das Frauenstimmrecht, überhaupt die Rechtsgleichheit der
+Frauen, eine Frage, die sich muthmasslich in der nächsten Ge-
+neration zu Gunsten der Frauen entscheiden wird. Erfahrungen
+darüber sind jedoch einstweilen einzig in Wyoming vorhanden
+und der gebildetste Staat der Union, Massachusetts, hat das-
+selbe vorläufig abgelehnt. Es wird ganz auf die Qualität der
+Frauen in den Staaten, die dieses Recht ganz oder theilweise
+besitzen, ankommen, ob diese Neuerung dort zum Siege ge-
+langt. Da aber im Allgemeinen die Bildung der Frauen in
+Amerika derjenigen der Männer zum mindesten gleichsteht,
+so ist die Wahrscheinlichkeit dafür vorhanden.
+1) Ob in Washington das Frauenstimmrechl besteht, ist also
+theoretisch einigermassen fraglich. Faktisch ist es nicht der
+Fall, rechtlich aber sagt ein Bericht von 1895: «After consultation
+with some of the best legal talents of Chicago we are of the opinion,
+that all women who were voters in the territory of Washington
+are still voters, … that a case brought and prosecuted to the
+supreme court of the United-States could restore to every woman
+the right of the elective franchise.»
+Frauenstimmrecht.
+Aus den anderen Ländern erfahren wir einstweilen durch
+den Premierminister von Neu-Seeland, Seddon, dass das
+Frauenstimmrecht bisher keine üblen Früchte gezeitigt hat.
+Bei der letzten Wahl haben 90% aller stimmberechtigten
+Frauen von ihrem Rechte Gebrauch gemacht. Die Konser-
+vativen in der Kolonie behaupten, dass das jetzige Parlament
+besser ist, als die letzten vier oder fünf. Die Befürchtung,
+dass den Frauen das «ewig Weibliche» verloren gehen würde,
+wenn sie sich an der Politik betheiligten, und dass sie dann
+keinen Sinn mehr für Häuslichkeit und Familie hätten, hat sich
+bisher nicht erfüllt. Im Gegentheil, es haben die Frauen durch
+ihren politischen Einfluss «die Herren der Schöpfung» gehoben.
+Die Wahlen verlaufen jetzt viel anständiger. Die Leute be-
+nehmen sich besser. Alles geht viel stiller und ehrbarer zu.
+Dessenungeachtet besteht das Frauenstimmrecht einstweilen
+nur in einzelnen Staaten von Australien, in andern nicht.
+In England ist die allgemeine Meinung die, welche
+sogar Gegner theilen, dass dasselbe in Schul- und lokalen
+Angelegenheiten gute Wirkungen gezeigt habe. Es denkt
+daher dort Niemand daran, es wieder zu beseitigen, soweit
+es besteht, wenn auch an eine vollständige Einführung noch
+nicht zu denken ist.
+Es ist anzunehmen, dass das Frauenstimmrecht in
+Amerika, Australien und England einen dauernden Bestandtheil
+der Verfassung, wenigstens in beschränktem Massstab, für ge-
+wisse Gegenstände der Gesetzgebung und Verwaltung, bilden
+wird. Ferner ist gewiss, dass das Frauenstudium und damit
+auch die Zulassung der Frauen zu gelehrten und anderen
+Berufsarten zunehmen wird, womit ihre Fähigkeit über
+öffentliche Angelegenheiten abzustimmen und öffentliche
+Frauenstimmrecht.
+Aemter und Anstellungen zu bekleiden erhöht werden wird und
+eine Minderwerthigkeit in dieser Weise ausgebildeter Frauen
+gegenüber den oft viel weniger gebildeten Männern nicht
+länger behauptet werden kann. Und endlich ist anzunehmen,
+dass mit der zunehmenden selbständigen Erwerbsfähigkeit
+der Frauen, auch ihre Neigung sich mit öffentlichen Dingen
+aktiv zu beschäftigen zunehme, weil sie die Nothwendig-
+keit verspüren werden, ihren selbständigen Erwerb durch
+eine gute Gesetzgebung zu vertheidigen. Eine gute Gesetz-
+gebung in seinem Sinne erlangt nur derjenige sicher, der
+das Recht hat, daran selber Theil zu nehmen, sonst bleibt das
+mehr oder weniger illusorisch. Daher urtheilt ein englischer
+Philosoph völlig richtig, wenn er sagt, das allgemeine Wahlrecht
+sei nicht desshalb so wichtig, weil es den daran Betheiligten
+ein Recht, oder eine Satisfaktion ihres Selbstgefühls ver-
+schaffe, sondern weil es ihnen allein eine Garantie dafür biete,
+nicht schlecht regiert zu werden. Der weitaus grössten Zahl
+von Menschen in einem Staat ist es in der That gleichgültig
+und muss es gleichgültig sein, ob sie an der Regierung
+desselben aktiv Theil nehmen können, oder nicht, aber gut
+regiert werden, das wollen Alle und dafür müssen sie er-
+fahrungsgemäss selbst sorgen, das wird ihnen nicht als Ge-
+schenk der Götter entgegengebracht. Und dieses Interesse
+haben Frauen gerade so gut, wie Männer. Das wird sie
+allmählig in allen Ländern dazu bewegen, diese Garantie
+in ihre eigene Hand nehmen zu wollen.
+2. Was die politische Parteinahme der Frauen
+anbetrifft, so bestehen darüber sehr verschiedene Ansichten,
+und, es ist beinahe anzunehmen, auch verschiedene Ver-
+hältnisse in den einzelnen Ländern. In England und Frank-
+reich neigt man vorzugsweise zu der Ansicht, dass die stim-
+Frauenstimmrecht.
+menden Frauen die liberalen, oder radikalen Parteigrup-
+pen verstärken würden, wenigstens giengen alle Vorschläge
+zur Einführung des Frauenstimmrechts bisher von dieser Seite
+aus und sind namentlich die weiblichen Befürworterinnen in
+der Presse und in Versammlungen meist leidenschaftliche An-
+hängerinnen des politischen, sozialen und religiösen Radikalis-
+mus. Eine ähnliche Meinung scheint in Deutschland zu herr-
+schen, wo bisher bloss die sozialistische Partei 1) und die ihr
+näher stehenden sozialpolitischen Kreise etwas von Frauen-
+stimmrecht wissen wollen. Es ist daher in England bisher
+das Unterhaus der Erweiterung des Frauenstimmrechts ge-
+neigter gewesen, als das Oberhaus und die höheren Gerichtshöfe.
+Immerhin war auch Gladstone 2) im Jahre 1892 dagegen, ebenso
+im Jahre 1897 Harcourt, der leader der Liberalen, der Staats-
+rechtslehrer Bryce, der frühere Handelsminister Mundella und
+sogar der Radikale Labouchère, der es ursprünglich befür-
+wortet hatte. Uebrigens steht in England die Frage nur so,
+1) Das Erfurterprogramm enthält das Frauenstimmrecht; vergl.
+Jahrbuch VI, 699. Ein Votum von Bebel im Deutschen Reichstag
+ist in den Beilagen abgedruckt.
+2) Die Argumente Gladstone's richteten sich in erster Linie gegen
+die Vorschläge dieses besonderen Gesetzentwurfes, welcher sämmt-
+lichen verheiratheten Frauen das Stimmrecht vorenthält, und es nur
+den unverheiratheten verleiht. Müsse doch im Grunde bei Familien-
+müttern das Gefühl der Verantwortlichkeit viel ausgeprägter sein;
+im Allgemeinen aber sei die gesammte Frauenstimmrechtsfrage noch
+nicht vom Volke in dem Grade aufgenommen worden, dass sie für
+das Parlament spruchreif sei. Einstweilen bleibe eine so tief ein-
+greifende Veränderung besser noch Gegenstand der Erörterung.
+Hätten doch selbst viele Frauen sich gegen die ihnen zugedachte
+Ertheilung des Stimmrechts ausgesprochen. Ehe das Parlament eine
+solche beschliesse, müsse festgestellt werden, dass eine überwältigende
+Mehrheit der britischen Frauen diese Rechtswohlthat auch wirklich
+Frauenstimmrecht.
+ob das allgemeine Frauenstimmrecht, namentlich also für
+die Parlamentswahlen, einzuführen sei; es ganz zu beseitigen,
+soweit es schon besteht, davon ist jetzt nicht mehr die Rede,
+während noch 1832, bei Anlass der ersten Reformbill, eine
+einzige alleinstehende Dame es in einer Petition an das
+Unterhaus begehrte und dasselbe darüber in Gelächter aus-
+brach. Am verbreitetsten ist in England die Meinung, dass die
+Frauen selber einstweilen eine Erweiterung des Stimmrechts
+nicht haben wollen, ein Standpunkt, den namentlich Bryce
+und Gladstone vertraten, und der in einem von 100 Damen
+der englischen Aristokratie bei dem letzten Anlasse ver-
+breiteten Aufruf seine theilweise Bestätigung fand. In Amerika
+(Boston) wurde daher, von dem gleichen Standpunkte aus-
+gehend, schon der Vorschlag gemacht, die Frauen selbst über
+diese Vorfrage abstimmen zu lassen.
+Man kann also im Ganzen annehmen, dass man in
+England und Amerika das Frauenstimmrecht für eine Stärkung
+der liberalen, oder radikalen Bestrebungen ansieht.
+2)
+2) verlange. Gewähre man den Frauen aktives und passives Wahlrecht,
+so folge logisch daraus die Berechtigung nur Besetzung jedes Amtes.
+Einzelne Frauen mögen ja allerdings für jedes Amt befähigt sein,
+gerade wie es Männer unter 21 Jahren gebe, die besser zur Er-
+füllung der Bürgerpflichten befähigt seien, als andere ältere.
+Aber die Ausnahme vermöge doch nimmer die allgemeine Regel
+umzustossen. Gladstone hegte keine Befürchtung, dass die Frauen
+den Machtbereich der Männer wesentlich beschränken würden: aber
+die Zartheit, die Reinheit und Feinheit, der Adel der weiblichen
+Natur, welche bisher die Quelle der Macht der Frauen bildeten,
+dürften verloren gehen. Der Umstand, dass man den Frauen den
+Besuch der Universitäten und die Ausübung verschiedener gelehrter
+Berufsarten geöffnet habe, möge den Bestrebungen, weiter nach
+dieser Richtung zu gehen, einen Schatten von Recht verleihen, aber
+es sei nur ein Schatten, und es wäre höchst bedenklich, die Frauen
+in den Wirrwarr männlicher Lebensthätigkeit zu stürzen.
+Frauenstimmrecht.
+In Neuseeland stimmen die Frauen für die liberale
+Partei. Ein bezüglicher Bericht sagt darüber unter Anderem:
+«Die Frauen eilen in Mengen an die Wahlurne. Sie
+nehmen das grösste Interesse an den politischen Käm-
+pfen und tragen bedeutend dazu bei, dass dieselben in
+Ruhe und Frieden abgehen. Den Frauen haben es übrigens
+die Liberalen vor Allem zu danken, dass sie bei den jüngsten
+Wahlen einen so glänzenden Sieg davongetragen. Die Be-
+fürchtung, die weiblichen Wähler möchten sich von der
+Geistlichkeit leiten lassen, hat sich nicht bestätigt; sie traten
+im Gegentheil mit voller Energie für die jetzige freie, welt-
+liche und obligatorische Schule ein. Wahr ist allerdings, dass
+die Frauen in vielen Fällen ihren Eifer für die Mässigkeits-
+sache bezeugten, aber für gänzliches Verbot des Genusses
+geistiger Getränke waren die wenigsten. Im Ganzen zeigten
+sie bei der ersten Wahl, an welcher sie theilnahmen, eher die
+Tendenz, mit ihren männlichen Mitwählern zu harmoniren,
+als denselben Opposition zu machen. Einige Politiker schrieben
+es dem Einfluss der neuseeländischen Frauen zu, dass die
+Legislatur auch die Ernennung von Frauen zu Inspektoren
+von Irrenhäusern gestattet hat, dass ein Gesetz zum Schutz
+der Säuglinge gegeben, dass die Adoption von Kindern ge-
+setzlich besser geregelt worden ist und die Behörden jetzt
+streng gegen Bordelle vorgehen. Eines ist jedenfalls sicher,
+der Trunksucht und deren Förderern hat die weibliche Wähler-
+schaft Neuseelands den Vernichtungskrieg erklärt.»
+In Holland lautet das Programm der neuen «Nieder-
+ländischen Volkspartei» gleich in seinem ersten Artikel:
+«Zweck der Niederländischen Volkspartei ist: a) die
+Erlangung des allgemeinen gleichen Wahlrechts für alle voll-
+jährigen männlichen und weiblichen Niederländer, denen das-
+selbe nicht durch richterliches Urtheil aberkannt ist, oder
+Frauenstimmrecht.
+die nicht durch richterlichen Spruch die Verfügung über ihr
+eigenes Vermögen verloren haben.»
+In dem finnländischen Landtag sprach sich im
+Jahre 1889 der Bischof Alopeus, bei Anlass der Frage über
+Zulassung der Frauen zum akademischen Studium, dahin aus,
+es sei ungerecht, dass man dem Weibe, nachdem die Kirche
+demselben die religiöse Offenbarung zu Theil werden lässt,
+die wissenschaftliche Offenbarung vorenthalte. Die Staats-
+verwaltung ferner dürfte durch die Aufnahme der Frauen in
+den Beamtenstand nur gewinnen, und zwar u. A. auch darum,
+weil die Administration dadurch mehr ruhige Elemente
+besitzen würde; die Frau sei nicht allein fleissiger, sondern
+auch bescheidener, geduldiger und duldsamer. In sozialer
+Beziehung endlich könne die Erweiterung der Erwerbsfähig-
+keit des Weibes, besonders in Rücksicht auf die unverhei-
+rathet Bleibenden, nur vom Guten sein. Aber auch als Gattin
+und Mutter würde eine höher gebildete Frau nicht Zerwürfniss
+in die Familie bringen, sondern im Gegentheil nur Festigung
+und Steigerung der geistigen und sittlichen Bande.
+In Norwegen stimmten über die Einführung des so-
+genannten Gothenburger-Systems der Wirthschaftslizenzen die
+25 Jahre alten Frauen ebenfalls mit und es wird angenom-
+men, dass durch diesen Einfluss Norwegen vor den Ver-
+wüstungen der zunehmenden Trunksucht gerettet worden sei.
+Im Ganzen lässt sich vielleicht die Meinung vertreten,
+dass durch die Einführung des allgemeinen Frauenstimm-
+rechts der konservative Einfluss im besten Sinne
+verstärkt werden würde. Die Frauen sind von Natur kon-
+servativ, sie halten am treusten und am längsten an dem-
+jenigen fest, was sie einmal als wahr und gut erkannt haben;
+sie haben aber dabei auch eine ideale und selbst eine heroische
+Frauenstimmrecht.
+Anlage, wenn dieselbe nicht durch eine schlechte Erziehung,
+oder durch die Männer, mit denen sie umgehen, verdorben
+wird, oder überhaupt, vermöge ihrer untergeordneten Rechts-
+stellung, gar nicht zur Geltung gelangen kann. Ihr Radikalismus
+hat zum grössten Theile diesen edlen Ursprung, nur bei weni-
+gen Emanzipirten beruht er auf einer missverstandenen Philo-
+sophie, oder auf schlechten Sitten. Ohne allen Zweifel würde
+der Staat sittlicher werden, in dem die Frauen das Stimm-
+recht haben, manche Abstimmungen, zum Beispiel eine solche
+in Genf vom vorigen Jahre über die «maisons de tolérance»
+würden unmöglich werden. Denn der Einfluss der Frauen (soviel
+sehen sie meistens ein) beruht in letzter Linie doch auf der
+Achtung vor ihnen und daher auf der Sittlichkeit. Wo
+Unsittlichkeit herrscht und den Ton angiebt, da ist die Frau
+rechtlich Sklavin und wenn sie den Mann faktisch wieder zu
+ihrem Sklaven macht, so ist das die natürliche Nothwehr, die
+ein solches System hervorruft. Die Frauen sind, wie schon
+öfters geäussert wurde, die «letzte Reserve» der Staaten, die
+in's Gefecht kommt und kommen muss, wenn die Männer
+zu sehr in Realismus und Materialismus versunken sind.
+Darauf beruht unseres Erachtens überhaupt diese ganze
+Bewegung und auch ein Theil der Opposition gegen dieselbe.
+Denn es unterliegt keinem Zweifel, dass beides zuerst oft eine Art
+von Krankheitserscheinung ist. Es frägt sich nur, welches dann
+das Bessere ist, Krankheiten der Völker so lange als möglich
+zu verschweigen und durch blossen passiven Widerstand zu be-
+kämpfen, oder Mittel dagegen anzuwenden, die vorhanden sind.
+IV.
+Man darf also schliesslich die Frage wohl so stellen:
+Welches sind die Gründe, die gegen das Stimmrecht der
+Frauen, beziehungsweise gegen ihre Betheiligung an den
+Frauenstimmrecht.
+öffentlichen Angelegenheiten sprechen? Denn als das Natür-
+liche und an und für sich Wünschenswerthe erscheint doch die
+Rechtsgleichheit aller Menschen, die dem gleichen Volke und
+Staate angehören und auf der nämlichen Stufe der Civilisation
+stehen, nicht das Gegentheil. Auch besteht ja diese Rechts-
+gleichheit schon in wesentlichen Theilen des Rechts, ganz
+besonders im Strafrecht, in welchem die Frauen im Allge-
+meinen als voll und gleich verantwortlich, wie die Männer,
+angesehen werden und ihnen nicht eine angebliche Minderwer-
+tigkeit in Bezug auf Anlage, oder Erziehung zu Gute kommt.
+Die Hauptgründe, welche gegen die Frauen angeführt
+zu werden pflegen, sind die folgenden:
+1. Mangelhafte Befähigung, oder Bildung.
+Darüber ist nur zu sagen, dass dieselbe, in unseren Verhält-
+nissen wenigstens, nicht vorhanden ist; die Mädchen erhalten
+eine Schulbildung, die sie durchaus den Knaben ebenbürtig
+macht und es zeigt sich auch in den Schulen keineswegs ein
+Unterschied der Befähigung zu Ungunsten der Mädchen, der von
+ihrem angeblich «kleineren Gehirn», oder dergleichen natürlichen
+Anlagen herrühren würde. 1) Eine höhere Bildung, als die der
+Elementarschule, ist für die Ausübung des Stimmrechts nir-
+gends, wo dasselbe besteht, gefordert und auch selbst darin
+steht den Frauen dermalen entweder keine Schranke mehr ent-
+gegen, oder sie könnte, bei einigermassen gutem Willen, leicht
+weggeräumt werden. Man kann ohne Uebertreibung sagen, die
+1) Zeitweise kann eine gewisse Inferiorität der Frauen,
+oder, besser gesagt, es kann eine zeitweise Behinderung derselben an
+einer intensiven geistigen Beschäftigung vorhanden sein, die aber
+nicht in den Verhältnissen ihres Gehirns ihren Ursprung hat, sondern
+mit andern natürlichen Ursachen zusammenhängt. Darin ist auch
+eine neueste Schrift, «Dr. Max Runge, Das Weib in seiner Geschlechts-
+individualität, 1897» unseres Erachtens wesentlich zu berichtigen.
+Frauenstimmrecht.
+Frauen haben die gleiche Bildung, wie die grosse Masse der
+gegenwärtig Stimmberechtigten, und was das Interesse an
+politischen Dingen, oder das natürliche Gefühl für das Rechte
+und Wahre darin anbetrifft, so sind sie im letzteren den
+Männern mitunter überlegen und das Interesse kommt mit
+der Uebung, wo es noch nicht genügend vorhanden ist.
+Man kann nicht von Jemand verlangen, dass er sich lebhaft
+für ein Gut interessire, das er niemals zu geniessen bekom-
+men kann. Das ist ja der ganze Vorzug der demokratischen
+Staatseinrichtung vor jeder anderen, dass sie die Menschen
+durch Theilnahme am Staatswesen erzieht und auf eine höhere
+Stufe hebt. Wäre das nicht der Fall, so wäre die Frage
+sehr offen, ob sie die Palme verdiente.
+2. Die Unweiblichkeit einer Beschäftigung mit der
+Politik, die ferner angeführt zu werden pflegt, beruht
+wesentlich auf Gewohnheitsanschauungen, oder darauf, dass
+die jetzigen Vertreterinnen der «Frauenrechte» zuweilen einen
+etwas excentrischen Typus haben, wie er allen Vorkämpfern
+für neue Ideen eigen zu sein pflegt, der sich aber verliert, wenn
+dieselben Gemeingut geworden sind. Die Frauen, die stimm-
+berechtigt sind, werden sich so wenig ausschliesslich mit Politik
+beschäftigen, wie die grösste Zahl der Männer, und wenn man
+sie überhaupt von einer Beschäftigung mit solchen Dingen fern
+halten will, damit sie nur ein artiges Spielzeug, oder ein noth-
+wendiges materielles Mittel zur Erhaltung des Menschen-
+geschlechtes bleiben, so ist ihre ganze jetzige Erziehung, die sie
+zu höheren Aspirationen veranlasst, eine verfehlte zu nennen.
+Es ist dann das Beispiel der Athener zu befolgen, die ihre
+Frauen haremartig einsperrten und zu ihrer geistigen Unter-
+haltung Hetären bevorzugten. 1)
+1) Das Beispiel der Aspasia ist bekannt. Darin waren auch
+die gebildetsten Athener nach unseren jetzigen Begriffen etwas roh.
+Frauenstimmrecht.
+Ob es daneben weiblicher, oder «schamhafter» (was hie
+und da auch noch angerufen wird) ist, wenn die Mädchen bloss
+zur Jagd auf Männer destinirt werden, das wollen wir dem
+«weiblichen Gefühl» zur Beurtheilung überlassen, welches an
+diesem Punkte der «Unweiblichkeit» der Frauen — Emanzi-
+pationsbestrebungen den grössten Anstoss nimmt. 1)
+Eigenthümlich ist es auch, dass diejenigen, welche die
+Beschäftigung mit Staatsangelegenheiten für unweiblich halten,
+oder überhaupt von der freieren Stellung der Frauen in
+Bezug auf Berufswahl Unglück für dieselben befürchten
+(was ja in Bezug auf einige Berufsarten richtig sein könnte),
+ihnen gerade diejenigen Berufsarten ungehindert ge-
+statten, die wirklich in den allermeisten Fällen ein Unglück
+für sie sind. Darüber sagt ein sehr berufener Zeuge
+1)
+1) Etwas Unweiblicheres, als die Art wie diese jungen Wesen
+oft von ihren Müttern zu einem Ball, oder einer Hofpräsentation, man
+darf fast nicht mehr sagen angekleidet werden, giebt es überhaupt
+nicht, und die Damen der englischen Aristokratie, welche das Stimm-
+recht unweiblich finden, dürften sich auch das ein wenig über-
+legen. Eine amerikanische Zeitung sagte darüber im letzten Jahre:
+«When the question of woman suffrage was up in Albany last winter,
+there were more women who appeared against it, than in favour of
+it. It was the old cry. that for women to vote would unsex them.
+I am not here to advocate on this platform woman suffrage, hut I
+have seen hundreds of women educating and caring for their children
+and maintaining worthless husbands. The only thing I have known
+those husbands to do was to vote. I know ladies who manage large
+properties, carry on extensive charities, employ great numbers of
+men as superintendents, gardeners and workmen, and yet the super-
+intendents, the gardeners and the workmen enact the laws which
+govern and tax the woman, whose, income, energy, activity and in-
+telligence support them all, and she has no voice in the matter.»
+1) Als die Frau des Sokrates ihn in seinem Gefängniss weinend be-
+suchte, halle dieser weiseste aller Männer für sie nur das eine Ab-
+schiedswort: «Schafft mir das Weib vom Halse».
+Frauenstimmrecht.
+(Alexander Dumas, nach einer Mittheilung des «Figaro»):
+«Madame! Wenn ein den niedrigsten Klassen der Gesellschaft
+entstammendes Mädchen mich bittet, ihr den Eintritt in den
+Bühnenberuf zu erleichtern, so gebe ich ihm die verlangte
+Unterstützung, falls es hübsch und begabt ist. Aber einem
+wohlgeborenen, ehrbaren, und mit Mitteln versehenen Fräulein
+schlage ich das immer ab, in Anbetracht, dass für ein junges,
+in solchen Verhältnissen lebendes Mädchen alles, selbst der
+Tod, einem so abscheulichen Dasein vorzuziehen ist.» Verbiete
+man den Frauen also die theatralische Laufbahn, die jeden-
+falls ihnen, und durch sie Anderen, mehr schadet, als das
+Stimmrecht. Es ist keine geringe Heuchelei bei dieser ganzen
+Prophylaxe vorhanden. Im Uebrigen sind Stimmrecht und
+völlig freie Berufswahl nicht unzertrennlich und die Frauen
+können sich, wenn sie einmal das Stimmrecht besitzen,
+selbst am allerbesten gegen diejenigen Berufe gesetzgeberisch
+aussprechen, die sie für unweiblich, oder schädlich erachten,
+worüber ihnen unseres Erachtens sogar das allein mass-
+gebende Urtheil zusteht.
+3. Manche Schriftsteller besorgen auch lebhaft, die Frauen
+möchten durch die Beschäftigung mit dem Stimmzettel von
+ihren weiblichen Arbeiten (will sagen von der Küche) abge-
+halten werden. Darauf ist abermals zu erwidern, dass dies
+nur der Fall sein könnte, wenn sie sich ausschliesslich mit
+Politik beschäftigen würden, oder in Folge des passiven
+Wahlrechts zu zeitraubenden politischen Stellungen gelangten.
+Das wird stets eine grosse Ausnahme bleiben. Die Ausübung
+der gewöhnlichen bürgerlichen Rechte nimmt selbst bei uns so
+wenig Zeit in Anspruch, dass sogar an Abstimmungstagen die
+Küche, oder die sonstige häusliche Bequemlichkeit der Ehe-
+gatten, Väter und Brüder darunter nicht viel zu leiden haben
+wird.
+Frauenstimmrecht.
+4. Ein beständig wiederkehrendes Argument liefert der
+Apostel Paulus mit seinem «mulier taceat in ecelesia». Man
+darf dabei zugestehen, dass sich das nicht allein auf die
+Kirche im engeren Sinne bezieht, sondern dass überhaupt
+das Auftreten der Frauen in der Oeffentlichkeit verurtheilt
+werden will. 1) Dagegen glauben wir, wie schon einmal gesagt,
+nicht, dass der Apostel über die Verhältnisse der Frauen auf
+alle Zeiten und für alle Völker massgebende Ansichten aus-
+gesprochen habe, sondern solche, welche für die damaligen
+Verhältnisse, namentlich der grossen griechischen Städte und
+für die Art von Bevölkerung, ans der sich das erste Christen-
+thum rekrutirte, am Platze waren. Von Staatsangelegenheiten
+speziell spricht der Apostel ganz und gar nicht, was sich daraus
+erklärt, dass er den damaligen Staat als eine vorübergehende
+Erscheinung von sehr kurzer Dauer ansah, ja sogar selbst noch
+das Aufhören desselben, die Wiederkunft Christi zum Welt-
+gericht und eine ganz andere Weltordnung, zu erleben hoffte. 2)
+Unter solchen Umständen verlieren diese oft citirten Worte
+über das «Schweigen» der Frauen an Bedeutung. Die Lehre
+des Apostels Paulus in Eph. V, 22 und ff. ist zwar ganz an-
+wendbar auch für die heutigen Zeiten, und in jeder Ehe,
+wie sie sein soll; aber nicht jede Frau kann einen Mann
+haben und der Fehler der jetzigen Männer besteht vielfach
+gerade darin, dass sie die Eigenschaften, die dazu ge-
+hören, um «Herr und Haupt, wie Christus in der Gemeinde»
+zu sein, gar nicht besitzen und dann blosse Haustyrannen
+1) Noch vor Kurzem legte dies der Erzbischof von Paris in
+einem konfidentiellen Rundschreiben an die Pfarrer seiner Diöcese
+dahin aus, dass die Frauen bei gottesdienstlichen Handlungen auch
+nicht singen dürfen, was allerdings dem Wortlaut der Vorschrift
+und, so viel wir wissen, auch der korrekten kanonischen Regel
+entspricht.
+2) Vergl. den ersten Brief an die Thessalonicher IV, 16—18.
+Frauenstimmrecht.
+sind, die ihre eigene Unfähigkeit zwar empfinden, aber dennoch
+nicht den Muth haben, den bessern Theil regieren zu
+lassen. Wenn endlich diese Stellen aus den Briefen des
+Apostels heute unbedingt verbindlich sein sollten, so müssten
+vor Allem die Frauen auf dem Throne 1) getroffen werden,
+die dort nicht allein eine Stellung in der Oeffentlichkeit haben,
+welche sich mit der Ansicht des Apostels nicht verträgt,
+sondern sogar in protestantischen Staaten irdisches Haupt
+der Kirche sind. Von Christus selbst ist, wie ebenfalls
+schon gesagt wurde, eine solche Lehre nicht vorhanden. Im
+Gegentheil eine seiner ausführlichsten und tiefsten Reden —
+man könnte auf heutigem Standpunkte sagen Predigten — rich-
+tete er an eine einzelne Frau und hatte auch nicht das Ge-
+ringste dagegen, dass dieselbe dann öffentlich als Verkündigerin
+dieses Evangeliums bei ihren Stadtgenossen auftrat, so dass
+man mit historischem Grund sagen könnte, der erste Prediger des
+Christenthums sei, mit Zustimmung des Herrn, nicht ein Mann,
+sondern eine Frau gewesen. 2) Das Christenthum kennt in seinen
+allerwesentlichsten Vorschriften und Heilsbedingungen den ge-
+schlechtlichen Unterschied so wenig, dass das kanonische Rechts-
+buch genöthigt ist, da wo es die Rechtsungleichheit der beiden
+Geschlechter betont, auf das alte Testament zurückzugreifen, 3)
+1) Das Thronfolgerecht der Frauen besteht z.B. in England, Holland,
+Russland, Spanien, Portugal, für gewisse Fälle auch in Oesterreich,
+Preussen, Baiern, Sachsen und Württemberg. Gegenwärtig regieren
+Frauen in England, Holland und Spanien. Ohne Zweifel können
+schon nach heutigem Völkerrecht Frauen auch Gesandte werden.
+2) Vergl. Ev. Joh. IV, 27—30, 39. Es wird auch nicht ohne
+Grund die Vermuthung ausgesprochen, dass unter den ersten Chri-
+sten, die zu Pfingsten den hl. Geist empfiengen, ganz gleichmässig
+Frauen wie Männer gewesen sein müssen. Ap.-Gesch. I, 14, II, 1.
+3) Decretalen II, 9, 23, c. 17: «Adam per Evam deceptus est,
+non Eva per Adam. Quem vocavit ad culpam mulier, justum est
+ut eum gubernatorem assumat, ne iterum feminea facilitate labetur.»
+Frauenstimmrecht.
+welches aber, wie wir im Eingang ans der israelitischen Ge-
+schichte hervorhoben, ihn auch durchaus nicht immer festhält.
+Diese religiösen Bedenken sind daher, wenigstens bei dem
+grösseren Theil derer, die sie anführen, nicht ganz
+ernstlich zu nehmen.
+Wir läugnen im Uebrigen gar nicht, dass auch jetzt noch,
+so gut wie in der antiken Welt, Manches vorhanden ist, was
+gegen die direkte Betheiligung der Frauen am Staatswesen,
+oder wenigstens gegen ihre sofortige und gänzliche
+Emanzipation spricht. 1) Aber wo sind solche Schwierigkeiten
+nicht bei jeder Emanzipation vorhanden gewesen, und wollen
+wir desshalb die Emanzipation der Sklaven, der Leibeigenen
+und Hörigen des Mittelalters, der politisch unselbständigen
+Unterthanen, oder «Hintersässen» auch in unserer Geschichte,
+verurtheilen, oder als unzweckmässig erklären?
+Es ist auch wahr, dass man dermalen, gerade in den
+gebildeten Klassen, ziemlich wenige junge Damen sieht, von
+denen man vollkommen überzeugt sein könnte, dass sie sich zum
+Stimmrecht eigneten. Aber eignen sie sieh etwa mit ihrer
+jetzigen Erziehung besser zum Haushalt und zur Kinder-
+erziehung? Die meisten haben allerlei dilettantische
+Liebhabereien, Musik, Malerei. Romane, oder Radfahren
+und anderen Sport, statt wirklicher Interessen, im Kopfe; oder
+1) Wahr ist sogar, dass gegenwärtig noch an den Frauen, die
+stark in die Oeffentlichkeit treten (ausser in regierender Stellung),
+eine Art von levis nota haftet. Nicht Jedermann möchte sie zur Ehe-
+genossin, oder Mutter haben. Dagegen nimmt auch (als Gegengewicht)
+von ihnen allein die Oeffentlichkeit Notiz. Wenn eine Schauspielerin,
+oder Tänzerin, oder Sängerin, oder Schriftstellerin stirbt, erfährt es
+durch die Presse die ganze Welt, während die edelste und bedeutendste
+Frau anderer Art ganz unbeklagt von ihrem Volke dahingeht.
+Frauenstimmrecht.
+sie werden durch ihre Erziehung bloss zur Genusssucht und
+zu «gesellschaftlichen Pflichten» angeleitet und wünschen dann
+lediglich zu heirathen, um in dieser Richtung ungestört
+fortleben zu können, keineswegs aber, um ernste Pflichten da-
+mit zu übernehmen. Von Seite der Männer sieht man in den
+unteren Schichten der Gesellschaft eine Frau als eine unbe-
+zahlte Magd, ohne Freiheit der Aufkündung ihrer Dienst-
+leistungen, oft beinahe als ein gekauftes Arbeitsthier an, in
+den oberen entweder als einen Luxusgegenstand, oder als ein
+gutes Mittel, um auf dem einfachsten Wege seine Ver-
+mögensumstände zu verbessern. Bei einer derartigen Sachlage
+erscheint das Frauenstimmrecht anfänglich schon etwas
+gewagt, aber es ist eben eines der besten Mittel, um diese
+trostlose Lebensanschauung selber zu beseitigen. «Es ist die
+Macht das höchste Gut des Himmels, wenn man sie braucht
+zu einem edeln Zweck.» Und «es ist noch keiner als ein
+falscher Prophet erfunden worden, der an die Möglichkeit des
+Edlen in der Menschheit geglaubt hat».
+Ohne allen Zweifel daher geht diese begonnene Emanzipation
+ihren Weg vorwärts, wie es jede andere von gedrückten,
+oder benachtheiligten Menschenklassen in civilisirten Staaten,
+einmal angefangen, auch gethan hat. 1) Vorläufig ist freilich
+noch in fast allen Staaten das Wort wahr, dass «die Gesetze
+den Frauen weniger gewähren als die Gerechtigkeit es
+erfordert» und die Frauen sind daran nicht weniger schuld,
+1) Stead sagt darüber in dem Leben der Josephine Butler, «la
+revendication des droits de l'homme s'est formulée il y a un siècle
+dans les célèbres déclarations de l'indépendance américaine et de
+l'assemblée constituante de la France, mais elle n'a pas encore trouvé
+son corollaire en ce qui concerne la femme».
+Frauenstimmrecht.
+als die Männer; sie müssen selbst auch anders werden, als
+sie sind, und mehr Interesse an dieser, ihrer Sache gewinnen.
+Richtig ist ferner im Allgemeinen, was ein moderner
+Schriftsteller über diesen Gegenstand sagt: es handle sich
+praktisch zunächst darum, die Frauen in der Sphäre des
+Gemeindestimmrechts zu emanzipiren, sobald sie darüber
+hinausgehen, so riskiren sie einen Gegenstoss. Für unsere
+schweizerischen Verhältnisse jedoch bleibt es fraglich,
+ob das Gemeindestimmrecht in seinem ganzen Umfange viel
+leichter zu erlangen wäre, als das politische Stimmrecht in
+kantonalen, oder eidgenössischen Dingen.
+Unzweifelhaft aber ist, dassdas Stimmrecht und
+die Wählbarkeit in Schulsachen die erste Etappe
+des Frauenstimmrechts sein muss und dass damit in
+einzelnen Kantonen der Anfang gemacht werden sollte. «Wer
+wagt es, Rittersmann, oder Knapp?» Die jungen Männer sind
+dazu berufen, und es wäre eine dankbarere Aufgabe, als manche
+anderen politischen oder sozialen Phantasien, in denen sie sich
+ergehen. Den schweizerischen Frauen aber, die sich mit
+der Frage der «Frauenrechte» beschäftigen, ist zu sagen: alle
+ihre Bestrebungen sind nicht viel werth und jedenfalls nicht
+sicher, blosse zeitweilige Gnadengeschenke, die eine Zeit giebt
+und eine andere zurücknimmt, solange sie das Stimmrecht,
+wenigstens in beschränktem Gebiete, nicht haben. Nur der
+hat heutzutage die Freiheit und verdient sie, der sie selber
+verwalten kann und will.
+Unserem eigenen Geschlechte sagen wir zum Schlusse
+noch Folgendes:
+Ein sehr grosser Theil der Opposition gegen die Be-
+strebungen der Frauen zu einem menschenwürdigeren Dasein
+Frauenstimmrecht.
+zu gelangen, ist Klassenegoismus, oder — Furcht. 1)
+In den westafrikanischen Gebieten kommt es vor, dass die
+Männer den armen, geplagten Weibern, die ihre Arbeits-
+sklaven sind, das Essen von Hühner-, Schaf- und Ziegen-
+fleisch, des Besten, was sie haben, «aus Religionsgründen»
+verbieten, um es für sich behalten zu können. So ist es
+heute noch vielfach unter uns. Die Frauen sind selbst
+überzeugt, dass sie nicht gleichberechtigt seien und sein
+können, nachdem man ihnen das lange vorgesagt hat und
+ihr ganzes Streben nach Emanzipation geht auf die Ehe.
+Und mit welchem Resultat? In den grösseren romanischen
+Ländern ist die Frau von Rechtswegen Sklavin, so gut und
+oft mehr noch als im Orient. 2) Sie herrscht vielleicht durch
+1) Der Klavier-Virtuose Hans von Bülow war z. B. ein solcher
+Gegner der Frauenrechte und hatte vielleicht Ursache dazu. Dem
+muss man immer zuerst nachfragen, wenn Jemand gegen irgend
+eine Befreiung lebhaft auftritt. Sehr viele männliche Gegner
+derselben haben schlimme Erfahrungen im eigenen Hause gemacht
+und ebenso ist bei den weiblichen die Opposition oft nichts, als
+eine an sich lobenswerthe Selbsterkenntniss, die aber von
+sich auf alle Andern schliesst.
+2) Uebrigens gehen auch die orientalischen Staaten gerade an der
+Geringschätzung der Frauen zu Grunde. Die Türken würden ihren
+Staat in Europa erhalten können ohne dieselbe. Aber auch bei uns
+giebt es Männer, welche die Frau wie ein hübsches Thier betrachten,
+dem man eine Halfter umwirft und es willenlos wegführt wohin man
+will, und füttert, so lange man es gern haben will. In einer Bericht-
+erstattung eines angesehenen deutschen Blattes über einen grossen
+Kongress vom Jahre 1897 konnte man z. B. folgenden Passus lesen:
+«In dem mit den Zierrathen und Emblemen des feuchtfröhlichen
+Münchener Bierlebens überreich geschmückten kleinen Saal des kgl.
+Hofbräuhauses, der aus diesem Anlass durch eine ebenso fröhliche
+als trinkfeste Corona seiner eigentlichen Bestimmung übergeben
+wurde, fand Abends die übliche Begrüssung der Gäste statt. Wie
+Frauenstimmrecht.
+ihre Schönheit, oder durch ihre List über Männer, aber
+ihre gleichberechtigte Gefährtin ist sie nicht. In anderen
+Ländern ist es faktisch etwas besser, aber nicht rechtlich.
+Ein selbständig gebliebenes weibliches Wesen, eine alte
+Jungfer, wie sie oft verächtlich genannt wird, ist heute in
+einer besseren rechtlichen Stellung, als eine verheirathete
+Frau, die, sobald sie mit einem unwürdigen Menschen
+zusammengekoppelt ist, ein Leben hat, in dem sie geistig
+und sittlich verkommen, oder sich beständig empören muss.
+Und dabei werden wir doch Alle, wenn wir die Wahrheit
+sagen wollen, bekennen müssen, dass die edelsten und besten
+Menschen, die wir in unserem Leben kennen gelernt haben,
+jedenfalls aber die grössere Zahl der Edeln und Guten,
+die wir kannten, Frauen gewesen sind. 1). Und zwar ist das
+2)
+1) Die heutige Welt würde noch viel schlechter sein, als sie
+ist, wenn nicht die Knaben meistens ihren Müttern nacharteten
+und auch wesentlich von ihnen erzogen würden.
+2) es fast ausnahmslos zu gehen pflegt, so erwiesen sich auch heute
+die für diesen Zweck gewühlten Räumlichkeiten als viel zu klein,
+dagegen unterschied sieh andrerseits der heutige Abend sehr zu
+seinem Vortheil von den üblichen Veranstaltungen dieser Art. Das
+war die Anwesenheit eines reichen Damenflors, die der Festlich-
+keit von Anfang an einen herzlichen und anmuthenden Anstrich
+gab und auch im Laufe des schönen Abends nur zur Erhöhung der
+Festesstimmung beitrug. Dabei wurde auch sehr bald der Einwand
+hinfällig, als ob durch eine solche Neuerung die Einnahmen des
+kgl. bayrischen Staatsärars irgendwie erheblich geschmälert werden
+könnten: vielmehr hatte man überreichlich Gelegenheit, auch auf
+dem Gebiet der Trink- und Sesshaftigkeit von Seiten
+des schönen Geschlechts ganz achtbare Leistungen zu
+bewundern.» Da, wo es den Männern Vergnügen macht, heisst
+es also nicht, die Frau gehöre in das Haus und nicht in die
+Oeffentlichkeit, und leider giebt sich eine immer wachsende Anzahl
+von gebildeten Krauen auch dazu her.
+Frauenstimmrecht.
+keineswegs bloss in den allerengsten Familienverhältnissen
+der Fall. Die höchste Vollkommenheit, deren die Frauen fähig
+sind, liegt gar nicht, wie man es gewöhnlich annimmt, in dem
+Talent zur Liebe, sondern in der Fähigkeit zu der eigentlich
+noch viel idealeren Freundschaft. 1) Als Freunde sind sie
+unvergleichlich in jedem Lebensalter, von der kleinen Enkelin
+bis zur betagten Grossmutter; bessere Freunde findet man
+nirgends, während sie allerdings in der völligen Isolirtheit leicht
+hart und unliebenswürdig werden. Ihre Bestimmung, wie schon
+die älteste Urkunde der Menschheit es andeutet, ist es auch,
+Freunde zu sein, 2) wo sie über das hinausstreben, oder unter
+dieser ehrenhaften Stellung gehalten werden, verkümmern
+sie, oder arten aus. Die Fehler der Frauen sind, nach einer
+1) Jede gute Ehe sogar löst sich in den älteren Lebensjahren in
+eine solche Freundschaft auf; wo dies nicht der Fall ist (weil zur
+Freundschaft mehr gehört, als zur Liebe) in eine anständige Gleich-
+gültigkeit.
+2) Darüber findet sich in einer israelitischen Auslegung des
+Pentateuchs, die oft die unserigen an Scharfsinn weit übertrifft,
+folgende Stelle zu 1. Mos. 2, 18, die bisher den Augen der Frauenrechts-
+freunde entgangen zu sein scheint: «Es heisst nicht (im hebräischen
+Urtext): Es ist nicht gut für den Menschen, dass er allein sei, son-
+dern: Solange er allein steht, ist es überhaupt noch nicht gut: das
+Ziel der Vollkommenheit, das die Erdenwelt durch ihn erreichen
+soll, wird nicht vollkommen erreicht, solange er allein steht. Die
+Vollendung des Guten war nicht der Mann, sondern das Weib und
+ward erst durch das Weib dem Menschen und der Welt zugebracht….
+Auch nicht die leiseste Andeutung auf eine geschlechtliche Beziehung
+ist darin enthalten, nur in das Gebiet des Wirkens des Mannes
+wird das Weib gesetzt. Und ebensowenig spricht sich eine Unter-
+ordnung aus, vielmehr ist damit eine völlige Gleichheit und pari-
+tätische Selbständigkeit ausgesprochen. Das Weib steht dem Manne
+parallel, auf Einer Linie, zur Seite».
+Allerdings aber wird auch eine Frau nur, was sie werden
+kann, in der geistigen Gemeinschaft mit bedeutenden Männern.
+Frauenstimmrecht.
+langen Geschichte der Menschheit, wie sie nicht in Gottes
+Absicht lag, die der unterdrückten Völker ohne Freiheit,
+oder die von Menschen, die keine rechte Beschäftigung haben,
+sondern bloss zum Vergnügen verdammt sind.
+Es ist ein Wunder und ein Beweis für ihre gute
+ursprüngliche Natur, dass sie sich dabei so lange relativ gut
+erhalten haben und oft genug ausdauernderer, fester, zuver-
+lässiger, prinzipientreuer, opferfähiger und furchtloser sind,
+als viele heutige Männer 1) in allen Ländern.
+In eine spätere Bundesverfassung der schweizerischen Eid-
+genossenschaft könnte unseres Erachtens von einer kommenden
+Generation ohne grosses Bedenken folgender Satz aufgenommen
+werden:
+«Es steht den Kantonen frei, in ihren Ver-
+fassungen dem weiblichen Geschlechte das
+Stimmrecht in kantonalen, oder Gemeinde-
+Angelegenheiten, sowie das aktive und passive
+Wahlrecht mit Bezug auf kantonale und
+Gemeinde-Behörden, uneingeschränkt, oder
+mit Beschränkung auf bestimmte Gegen-
+stände einzuräumen, unter den gleichen all-
+gemeinen Voraussetzungen, wie sie für das
+Stimm- und Wahlrecht der männlichen Be-
+völkerung jeweilen bestehen. Frauen, welche
+1) Die ungerathenen Töchter sind seltener als die ungerathenen
+Söhne und man kann es ruhig auf das Urtheil aller älteren Leute
+ankommen lassen, ob sie von ihren erwachsenen Söhnen, oder
+Schwiegersöhnen nur halb so viel Liebe, Freude, Trost und Hülfe
+erfahren haben, wie von ihren Töchtern.
+Frauenstimmrecht. Beilagen.
+in einem Kanton das volle Stimm- und Wahl-
+recht, gleich den Männern, besitzen, können
+dasselbe dort auch in eidgenössischen An-
+gelegenheiten ausüben, sind jedoch nur nach
+eidgenössischen Verfassungs- und Gesetzes-
+bestimmungen in eidgenössische Behörden
+wählbar».
+________________________
+</text>
+  </TextCorpus>
+</D-Spin>

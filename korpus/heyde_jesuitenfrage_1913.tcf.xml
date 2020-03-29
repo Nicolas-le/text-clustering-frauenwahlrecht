@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/heyde_jesuitenfrage_1913</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-heyde_jesuitenfrage_1913.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/heyde_jesuitenfrage_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heyde_jesuitenfrage_1913.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/heyde_jesuitenfrage_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heyde_jesuitenfrage_1913.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/heyde_jesuitenfrage_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heyde_jesuitenfrage_1913.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/heyde_jesuitenfrage_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heyde_jesuitenfrage_1913.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Jesuitenfrage und Frauenstimmrecht</cmdp:title>
+        <cmdp:title type="sub">Zur Kritik der Ausnahmegesetze</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Heyde</cmdp:surname>
+<cmdp:forename>Ludwig</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2016-08-23T07:23:33Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2016-08-23T07:23:33Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">2</cmdp:measure>
+        <cmdp:measure type="tokens">1054</cmdp:measure>
+        <cmdp:measure type="types">505</cmdp:measure>
+        <cmdp:measure type="characters">7804</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:58:35Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/heyde_jesuitenfrage_1913</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/heyde_jesuitenfrage_1913</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/heyde_jesuitenfrage_1913</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/heyde_jesuitenfrage_1913</cmdp:idno>
+          <cmdp:idno type="DTADirName">heyde_jesuitenfrage_1913</cmdp:idno>
+          <cmdp:idno type="DTAID">31319</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-31319-2</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="JA">Heyde, Ludwig: Jesuitenfrage und Frauenstimmrecht. In: Die Frauenbewegung 4 (1913), S. 25-26.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="a" type="main">Jesuitenfrage und Frauenstimmrecht</cmdp:title>
+          <cmdp:title level="a" type="sub">Zur Kritik der Ausnahmegesetze</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Heyde</cmdp:surname>
+<cmdp:forename>Ludwig</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1913</cmdp:date><cmdp:publisher><cmdp:name>M. &amp; S. Loewenthal, Verlagsbuchhandlung</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="j" type="main">Die Frauenbewegung</cmdp:title>
+              <cmdp:biblScope unit="volume">19</cmdp:biblScope>
+              <cmdp:biblScope unit="issue">4</cmdp:biblScope>
+            <cmdp:biblScope unit="pages">25-26</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Universitätsbibliothek Frankfurt</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">Zsq 179</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                            <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: keine Angabe;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: wie Vorlage;
+                    Kolumnentitel: keine Angabe;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): als s transkribiert;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+                </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Jesuitenfrage und Frauenstimmrecht.
+Zur Kritik der Ausnahmegesetze.
+Von Dr. Ludwig Heyde, Halensee.
+Man kann Politik mit und ohne Prinzipien machen.
+Jm allgemeinen werden sich aber nur diejenigen politischen
+Gruppen behaupten, die Prinzipien haben; denn es liegt
+eine große Werbekraft in der Tatsache, daß man bei einer
+Partei mit unbedingtem Vertrauen auf das Festhalten an
+einigen Grundforderungen rechnen kann. Es ist töricht, einer
+Partei durch ein Uebermaß an Prinzipien alle Bewegungs-
+freiheit zu nehmen; aber weit törichter noch ist die Selbst-
+täuschung, alle Politik müsse der Augenblickssituation angepaßt
+und könne ohne jede vorgefaßte Meinung durchgeführt werden.
+Die prinzipienfreieste Partei in Deutschland ist die national-
+liberale; sie ist zugleich innerlich und äußerlich die schwächste
+und bestünde längst nicht mehr, wenn Deutschland ein poli-
+tischeres Land wäre. Große Teile ihrer Wähler sind nämlich
+durch und durch unpolitische Naturen und wählen nur deshalb
+nationalliberal, weil ihnen diese Partei als die prinzipien-
+loseste zugleich gewissermaßen am unpolitischsten vorkommt
+und zu grundsätzlichem politischen Denken am wenigsten zwingt.
+Für diejenigen Politiker, die sich auf den Boden des
+Grundsatzes „Gleiches Recht für alle ‟ stellen,
+gibt es gegenwärtig zwei Prüfsteine Ausnahmegesetzen gegen-
+über: die Jesuitenfrage und das Frauenstimmrecht.
+Man braucht nicht über jeden Politiker, der, wiewohl
+er die Gleichberechtigung aller im Staate verlangt, in diesen
+beiden Fragen versagt, für alle Zeiten den Stab zu brechen.
+Aber die Unbedingtheit des Vertrauens ist erschüttert,
+wo man dieses Versagen findet.
+Wer sagt „gleiches Recht für alle‟, der muß auch
+sagen: kein Ausnahmegesetz gegen irgend
+jemanden. Dabei muß es ganz gleichgültig sein, ob
+ihm das Objekt des Ausnahmegesetzes sympathisch oder
+unsympathisch ist. Er kämpft gar nicht für oder gegen
+dieses Objekt, sondern er streitet für einen Grund-
+satz. Darum hat er auch die Pflicht, sich mit
+genau demselben Eifer im einen wie im andern
+Falle gegen ein Ausnahmegesetz ins Zeug zu legen. Die-
+jenigen, die ein in den Objekten liegendes Sonderinteresse
+am Nichtzustandekommen oder an der Aufhebung eines Aus-
+nahmegesetzes haben, darf er nicht an Eifer ihn übertreffen
+lassen; denn grundsätzlich ist er genau so stark interessiert
+wie jene. Das Jesuitengesetz ist nur ein Ausnahme-
+gesetz. Es ist so, das mit sophistischen Argumenten
+bestreiten zu wollen. Die Wenigsten, die es leugnen, sind
+von ihren Beweisen selber überzeugt; sie wollen zu einem
+anderen Ergebnis kommen, weil es kein populäreres Aus-
+nahmegesetz je gegeben hat als das Jesuitengesetz. Der Wunsch
+ist der Vater des Gedankens, die Beweiskette von vornherein im
+Hinblick auf das Ergebnis zugeschnitten. Manche sagen auch, das
+Jesuitengesetz sei gewiß ein Ausnahmegesetz, aber die ganze
+Stellung des Staates zur Kirche sei ein einziger großer Komplex
+von Ausnahmegesetzen; warum solle man gerade das einzige
+Glied dieses Komplexes, das für den Klerikalismus ungünstig
+sei, beseitigen? Werde Staat und Kirche getrennt, dann wolle
+man gern die Jesuiten ins Land lassen. Aber auch von dieser
+Logik darf man sich nicht blenden lassen. Wer ernstlich gegen
+Ausnahmegesetze ist, hebt sie auf, wo er nur kann. Gibt es
+für Trennung von Staat und Kirche keine Parlaments-
+mehrheiten, so fange man mit der Durchführung des Grund-
+satzes „keine Ausnahmegesetze!‟ dort an, wo die
+Mehrheitsverhältnisse es gestatten, – gleichviel, ob das
+angenehm oder unangenehm scheint.
+Wer gleiches Recht für alle will, muß
+wollen, daß das Parlament ein getreues Spiegelbild der
+politischen Kräfte des Landes sei. Jhm ist darum die
+Forderung des allgemeinen, gleichen,
+geheimen und direkten Wahlrechts (unter
+Berücksichtigung der Minderheiten durch Verhältniswahl)
+Selbstverständlichkeit. Er geht nicht von den Folgen aus,
+die dieses Wahlrecht haben kann: daß nämlich durch seine
+Anwendung die Politik letzten Endes auf Grund der Mehr-
+heitsverhältnisse eine ihm höchst unsympathische Wendung
+nehmen kann. Diese Folgen darf nur derjenige zur Orien-
+tierung seiner Stellung zum Wahlrecht benutzen, der eben
+im Parlament nicht ein Spiegelbild der politischen Kräfte
+sehen will, sondern eine zum Zwecke der gegebenenfalls auch
+gegen den Willen des Volkes erfolgenden Durchführung
+politischer Absichten getroffene Auslese. Wer aber an dem
+Gedanken des Spiegelbildes festhält, der darf nicht an einer
+beliebigen Stelle plötzlich Halt machen und fragen: diese oder
+jene politische Kraft muß unvertreten bleiben, weil sie „noch
+nicht reif‟ ist und daher immer nur bestimmten, uns partei-
+politisch unbequemen Richtungen zuneigen wird. Zu dem
+wirklichen Spiegelbild der politischen Kräfte gehört auch das
+allgemeine, gleiche, geheime und direkte (ev. mit Proportional-)
+Wahlrecht der Frauen. Wer die Frauen vom Wahlrecht
+ausschließen will, der gibt den Gedanken einer alle politischen
+Kräfte widerspiegelnden Volksvertretung auf und begibt
+sich damit, wie eifrig er auch an dem allgemeinen usw.
+Männerwahlrecht festhalten mag, auf den schlüpfrigen Boden der
+Wahlrechtsopportunisten, die von dem vorgefaßten
+Wunsche, ein Parlament so oder so zusammengesetzt wissen
+zu wollen, sich hinsichtlich der Art des von ihnen geforderten
+Wahlrechts bestimmen lassen. Wem hingegen der Gedanke,
+das Parlament müsse das Spiegelbild des Volkes sein, ein
+unverrückbarer Grundsatz ist, der muß konsequenter Weise
+auch für das allgemeine usw. Frauenstimmrecht eintreten,
+gleichviel, ob ihm die Folgen sympathisch sind, ob er Frauen-
+feind schlechthin ist, ob er meint, die Frauen „läsen die
+Zeitungen von hinten‟, oder wie immer sonst er steht. Er
+hat kein Recht zuzulassen, daß irgend welche – und wäre
+es auch die geringe oder gar eine negative – Potenz bei
+der Reflexion aufs Parlament ins Leere fällt.
+So liegt denn also bei der Jesuitenfrage und beim
+Frauenstimmrecht die Sache ganz gleichartig. Wer keine
+politischen Grundsätze hat, möge nach Gutdünken für Auf-
+hebung des Jesuitengesetzes und gegen Frauenstimmrecht
+oder auch gegen beides, für beides oder gegen die erstere
+und für das letztere sein. Wer aber das gleiche Recht
+für alle fordert und kein Ausnahmegesetz
+zulassen will – und so viel Grundsätzlichkeit bringen doch
+eigentlich eine ganze Anzahl Menschen fertig –, für den
+gibt es nur einen gangbaren Weg; gegen das Jesuiten-
+gesetz und für das Frauenstimmrecht.
+Wir werden voraussichtlich in allernächster Zeit im
+Reichstag eine Abstimmung über die Jesuitenfrage erleben
+und dann beobachten können, inwieweit grundsätzliche Be-
+trachtung oder Einflüsse der Erziehung, Vorurteile, berech-
+tigte Bedenken, ehrliche Furcht ums Staatswohl usw. die
+Stellungnahme der Politiker beeinflussen werden. Was uns
+vom Standpunkt der Frauenstimmrechts-
+bewegung aus daran interessiert, das wird der
+Umstand sein, daß – wenn es sich auch nicht gewisser-
+maßen um eine Probeabstimmung zur Stimmrechts-
+frage handelt, da das Zentrum im vorliegenden
+Falle neben den grundsätzlichen mindestens gleich starke auf
+den zufälligen Gegenstand der Streitfrage, die Jesuiten, ge-
+richtete Gründe für die Abstimmung zugunsten der Beseiti-
+gung des Ausnahmegesetzes hat, – man immerhin bei einer
+ganzen Anzahl von Abgeordneten die Kraft ihrer grund-
+sätzlichen Überzeugung wird einschätzen lernen.
+Das ist für die Beurteilung der Aussichten der Stimmrechts-
+bewegung bei den gesetzgebenden Körperschaften von vielleicht
+größerer Bedeutung als bisherige gelegentliche Abstimmungen
+über Stimmrechtspetitionen, weil es mehr Schlüsse auf die
+Zukunft zulassen wird.
+______________________
+_________________________________________________________________________
+</text>
+  </TextCorpus>
+</D-Spin>

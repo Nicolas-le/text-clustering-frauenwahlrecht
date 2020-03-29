@@ -1,0 +1,1937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/walcker_frauenbewegung_1896</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-walcker_frauenbewegung_1896.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/walcker_frauenbewegung_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walcker_frauenbewegung_1896.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/walcker_frauenbewegung_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walcker_frauenbewegung_1896.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/walcker_frauenbewegung_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walcker_frauenbewegung_1896.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/walcker_frauenbewegung_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-walcker_frauenbewegung_1896.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Die Frauenbewegung</cmdp:title>
+        <cmdp:title type="sub">Kritische Betrachtungen</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Walcker</cmdp:surname>
+<cmdp:forename>Karl</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/117116769</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2018-04-09T14:25:10Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2018-04-09T14:25:10Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">48</cmdp:measure>
+        <cmdp:measure type="tokens">13891</cmdp:measure>
+        <cmdp:measure type="types">4579</cmdp:measure>
+        <cmdp:measure type="characters">103434</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:02:41Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/walcker_frauenbewegung_1896</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/walcker_frauenbewegung_1896</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/walcker_frauenbewegung_1896</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/walcker_frauenbewegung_1896</cmdp:idno>
+          <cmdp:idno type="DTADirName">walcker_frauenbewegung_1896</cmdp:idno>
+          <cmdp:idno type="DTAID">32572</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32572-2</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Walcker, Karl: Die Frauenbewegung. Straßburg, 1896.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Die Frauenbewegung</cmdp:title>
+          <cmdp:title level="m" type="sub">Kritische Betrachtungen</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Walcker</cmdp:surname>
+<cmdp:forename>Karl</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/117116769</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Straßburg</cmdp:pubPlace>
+            <cmdp:date type="publication">1896</cmdp:date>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Google Books</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="URLImages">https://books.google.de/books?id=Srk_AAAAYAAJ</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: gekennzeichnet;
+    Druckfehler: gekennzeichnet;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>            
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Die
+Frauenbewegung
+Kritische Betrachtungen
+von
+Dr. Karl Walcker,
+Dozenten der Staatswissenschaften an der Universität Leipzig.
+„Jch bin … gegen jede Tendenz, welche
+die Konservativen (im weitesten Sinne gemeint)
+von uns fern hält …“
+Frl. H. Goldschmidt in der „Frauen-
+bewegung“ 1895, Nr. 3.
+Der Hunger ist kein spezifisches Frauenleiden.
+Straßburg.
+Straßburger Druckerei und Verlagsanstalt,
+vormals R. Schultz und Co.
+1896.
+Alle Rechte vorbehalten.
+Vorwort.
+Die vorliegende kleine Schrift handelt vorzugsweise, aber keines-
+wegs ausschließlich von der deutschen Frauenbewegung. Das Wort
+„deutsche“ ist daher auf dem Titelblatt absichtlich vermieden worden.
+Frau Th. Blanc, eine der verdienstvollsten, besonnensten Schrift-
+stellerinnen über die Frauenfrage, ist in Frankreich selbst und in der
+ganzen übrigen Kulturwelt unter ihrem Pseudonym Th. Bentzon
+weit bekannter, wie unter ihrem wahren Namen. Jch citiere sie
+daher als Frau Th. Bentzon.
+Das zweite, nicht mit Anführungszeichen versehene Motto ist
+natürlich von mir. Der geringe Umfang meiner Arbeit dürfte schon
+dadurch gerechtfertigt sein, daß ich eine Art Kritik, nicht eine Geschichte,
+der Frauenbewegung geben will; und daß vielbeschäftigte Damen und
+Herren wenig Zeit und Lust haben, sich durch ein dickes, wohl gar
+mehrbändiges Werk hindurch zu arbeiten.
+Kritikerinnen und Kritiker könnten mir vielleicht vorwerfen, daß
+ich nicht vom Frauenstimmrecht Wyomings, Colorados, Utahs,
+Neuseelands, Südaustraliens spreche. Jch will daher einige Worte
+über den Gegenstand sagen. Jn englischen Monatsschriften sind ver-
+schiedene Plaidoyers für und wider dies Wahlrecht erschienen. Jn
+einem dieser Essays war gesagt, in einem Staate des fernen Westens
+Amerikas hätten Männer den Ausschlag zu gunsten des Frauenwahl-
+rechts gegeben; aber nicht aus Überzeugung, sondern um einen schlechten,
+unpassenden Scherz zu machen. Diese Behauptung kann richtig sein,
+denn im fernen Westen gab es nach den bekannten Schilderungen
+Mark Twain's und Bret Harte's viele rohe Männer, sogar ziemlich
+viele flüchtige Verbrecher aus dem Osten und aus Europa. Noch
+heute sind die Zustände jener Gegenden von den ostamerikanischen
+und europäischen ungeheuer verschieden, wie z. B. die folgende, von
+mir zusammengestellte statistische Tabelle zeigt.
+Staat, Kolonie.	Jahr.	Einwohner
+auf 1 Qua-
+dratkilometer.	Staat, Kolonie.	Jahr.	Einwohner
+auf 1 Qua-
+dratkilometer.
+Wyoming	1890	0,2	New-Jersey	1890	71
+Südaustralien	1887	0,3	Deutsches Reich.	1890	91,4
+Utah	1890	0,9	Massachusetts	1890	104
+Colorado	1890	1,5	Rhode Jsland	1890	106
+Neuseeland	1886	2,3	Columbia (mit
+Washington)	1890	47
+Newyork	1890	1268	Mit der steigenden Bevölkerung, Differenzierung der Berufs-, Ver-
+mögens-, Bildungsklassen dürfte das Frauenstimmrecht auch in jenen fernen,
+überseeischen Gegenden allmählich verschwinden. (Vgl. unten S. 3, 4.)
+Der Vollständigkeit wegen sei erwähnt, daß der pseudonyme,
+griechische, S. 2 angeführte Ausdruck „Machetes“ Kämpfer bedeutet.
+Unten S. 10 sind „Vorschläge“ der Frau Bieber-Böhm er-
+wähnt. Nach dem Juli-Heft der „Frau“, S. 579, ist diese Denkschrift
+als eine Petition des Bundes deutscher Frauenvereine gegen die gewerbs-
+mäßige Prostitution 1895 dem deutschen Reichstage eingereicht worden.
+Ganz kürzlich sind zwei sehr beachtenswerte Artikel über das
+neue Bürgerliche Gesetzbuch erschienen. Frau Dr. jur. E. Kempin
+hob am 9. Juli in der Berliner freikonservativen Zeitung „Die Post“
+die Lichtseiten des Werkes hervor, während Fräulein Auguste Schmidt
+in den „Neuen Bahnen“ vom 15. Juli ebenso treffend die Schatten-
+seiten des Gesetzbuches an praktischen, aus dem Leben gegriffenen
+Fällen nachwies. Beide Autorinnen sprechen natürlich nur vom
+Familienrecht und dergl. Der Kempin'sche Artikel wurde auch vom
+Leipz. Tageblatt Nr. 346 abgedruckt.
+Unten S. 7 und 27 ist von der Ohrenbeichte die Rede. Über
+diesen wichtigen Gegenstand sind auch A. Smith’s Theory of Moral
+Sentiments, 1759, VII, 4,Ersch und Gruber’s Encyklopädie der
+Wissenschaften, 3. Sektion, Teil 2, 1832, S. 331, und J. Rieks,
+Die Ohrenbeichte, Karlsruhe 1875, Macklot, zu vergleichen. A. Smith
+ist mit dem berühmten Begründer der modernen Nationalökonomie
+identisch. Rieks ist jetzt Protestant, war indes ursprünglich römisch-
+katholischer, dann altkatholischer Geistlicher.
+Am 20. bis 26. September dieses Jahres soll in Berlin ein
+Jnternationaler Frauenkongreß tagen. Die Verhandlungen sollen
+in deutscher, französischer, englischer, italienischer Sprache stattfinden.
+Erfahrungsgemäß kommen in allen oder fast allen großen Versamm-
+lungen von Frauen oder Männern einzelne Überschwänglichkeiten vor,
+die dann von Witzblättern und anderen Organen in ihrer Weise be-
+sprochen werden. Trotzdem wäre es unwissenschaftlich, unstaatsmännisch,
+ungerecht, zu verkennen, daß die ganze Sache eine sehr ernste und
+erfreuliche Bedeutung hat: es handelt sich auch um ein allmähliches,
+aber mächtiges Einströmen deutschnationaler und wahrhaft kosmo-
+politischer Kulturideen in die übrige Welt, um den Beginn einer
+langen Reihe herrlicher deutscher Siege in den Geistes-
+kämpfen der Gegenwart, um die zukunftsreichen Jdeen Luthers,
+Friedrichs des Großen, Goethe’s, Schiller’s und Anderer.
+Leipzig, den 23. Juli 1896.
+Der Verfasser.
+Jnhaltsverzeichnis.
+Erstes Kapitel. Die Litteratur der Frauenfrage. Bezügliche Biblio-
+theken. Die Parteien auf dem Gebiete der deutschen Frauenbewegung1
+Zweites Kapitel. Die Hauptmängel der deutschen Frauenbewegung13
+Drittes Kapitel. Das Verhältnis der deutschen Frauenbewegung zur
+sog. Friedensbewegung, zu nationalen Kämpfen und zum Ultra-
+montanismus 21
+Viertes Kapitel. Die wahrscheinliche Zukunft der deutschen Frauen-
+bewegung. Die Notwendigkeit einer antiradikalen Frauenerklärung
+nach Art ähnlicher englischer und amerikanischer Proteste. Die
+Förderung berechtigter Fraueninteressen und der politischen Frauen-
+bildung als eine nationalliberale und ähnliche Parteiwaffe gegen den
+Feudalismus, Ultramontanismus, Sozialismus, polnischen Chauvi-
+nismus. Die bevorstehende weltgeschichtliche Verbesserung der Lage
+der Frauen des Deutschen Reiches und der übrigen Kulturstaaten 28
+Fünftes Kapitel. Die Frauen als ein vermittelndes, Frieden stiftendes
+Element bei sozialen, politischen, konfessionellen, nationalen Gegensätzen37
+Sechstes Kapitel. Die Fraueninteressen beim Geisteskampfe zwischen
+dem Konstitutionalismus und der Kooptationsaristokratie, der Haupt-
+vertreterin der öffentlichen Meinung 38
+Anmerkungen 40
+Erstes Kapitel
+Die Litteratur der Frauenfrage. Bezügliche Bibliotheken. Die Parteien
+auf dem Gebiete der deutschen Frauenbewegung.
+Selbst eine internationale, mit großen Geldmitteln ausgerüstete
+Kommission von Frauen und Männern würde große Mühe haben
+alle Schriften und Abhandlungen über die Frauenfrage, oder auch
+nur die besseren unter ihnen, zu sammeln, zu verzeichnen, zu kriti-
+sieren. Verschiedene Bücher sind vergriffen. Dahin gehören: Frl. Jenny
+Hirsch, Geschichte der fünfundzwanzigjährigen Wirksamkeit des Lette-
+Vereins, 1891. Gräfin Gisela v. Streitberg (Pseudonym der
+Gräfin Gertrud Bülow von Dennewitz), das Weib am Ende
+des Jahrhunderts, 1891, und andere Drucksachen, auch ältere Jahr-
+gänge von Zeitschriften, z. B. der „Gleichheit“.
+Aus räumlichen und anderen Gründen kann und will ich hier
+nicht viel Litteratur geben. Unter den bibliographischen Hilfs-
+mitteln sind hervorzuheben: Katalog der Bibliothek des Reichs-
+tages, Bd. 1, 1890, S. 633-636. Bd. 2, 1896, S. 1005. Der
+4. und letzte Band ist noch nicht erschienen.
+Katalog der Bibliothek der Handelskammer zu Leipzig,
+1886. Dazu Bd. 2, 1889, und Bd. 3, 1895. (Die alphabetischen
+Sachregister.) Enthält so manche seltene Bücher und Zeitschriften, die
+auf großen Universitätsbibliotheken fehlen. Die Bibliothek wird auch
+von Professoren, Damen, Auswärtigen u. s. w. benutzt. Die reich-
+haltige Bibliothek der Gehe-Stiftung in Dresden verleiht eben-
+falls an Auswärtige.
+O. Mühlbrecht, Wegweiser durch die neuere Litteratur der
+Staats- und Rechtswissenschaften, 2. Aufl. 1893, S. 628.
+J. Pierstorff (Prof. der Staatswiss. in Jena) in J. Conrad's
+Handwörterbuch der Staatswiss. Bd. 3, 1892, S. 660 ff. Derselbe
+im 1. Supplementbande dieses Handwört. 1895, S. 328. Er gab in
+J. Conrad's Jahrbüchern für Nationalökonomie, Bd. 41,1883, eine von
+Roscher gelobte Übersicht der neueren Schriften über die Frauenfrage.
+Vgl. auch Brockhaus' Konv.-Lexik., 14. Aufl. Bd. 7, 1894, und
+Meyer's Konv.-Lexik., 5. Aufl. Bd. 6, 1894, passim.
+Walcker, Die Frauenbewegung.
+1
+Jn Leipzig und Berlin sind Bibliotheken für die Frauen-
+frage in der Bildung begriffen. Die Leipziger Bibliothek datiert
+seit 1889, sie führt den Namen „Luise-Otto-und-Auguste-
+Schmidt-Stiftung“. Die betreffenden Bücher und Denkschriften
+befinden sich größtenteils, provisorisch, in Troppau. Der Katalog scheint
+als eine besondere Drucksache erschienen zu sein. Jch kenne nur das
+„Verzeichnis aller in der Troppauer Volksbücherei enthaltenen Werke
+nebst einem Anhange, enthaltend die in der Bücherei der Luise-Otto-
+und-Auguste-Schmidt-Stiftung befindlichen Bücher … herausg. von
+F. Jilg und Dr. (richtiger: Professor Dr.) F. M. Wendt …
+Troppau, 1896“. Der auf S. 81 bis 92 stehende „Anhang“ ent-
+hält verschiedene Druckfehler. Es ist zu lesen: S. 82 Frau J. Kettler,
+S. 83 Schrattenthal, S. 83 Not (statt Noë), Dr. Machetes,
+S. 84 DrL. v. Stein. Es handelt sich um zwei Schriften, nicht
+zwei Bände, desselben. Ferner S. 86 Jda Boy-Ed, S. 87 und 88
+Frl. M. v. Salis-Marschlins, S. 88 A. Tennyson, S. 89
+Emilie Ringseis, S. 91 J. Conrad. S. 87 wird eine anonyme
+englische Schrift einem Herrn Byan Old Maid zugeschrieben. By an
+Old Maid bedeutet aber: „Verfaßt von einem alten Mädchen.“ Statt
+Schall ist Shall zu lesen. Elpis Melena, S. 88 ist ein Pseudo-
+nym für Frau E. v. Schwartz.
+Die Berliner Bibliothek ist vom Verein „Frauenwohl“ ge-
+stiftet worden. (Vgl. Frl. M. Lischnewska in der „Frauenbewegung“,
+1896, Nr. 10.) Geldsendungen sind an die Kassierin der Bibliotheks-
+kommission Frl. Perwo, Rathenowerstraße 94, Büchersendungen an
+die Schriftführerin Frl. M. Walther, Ritterstraße 13, zu senden.
+Die Bücher sollen auch an Auswärtige verliehen werden.
+Damen und Herren könnten solche Bibliotheken auch durch Zusen-
+dungen von Notizen unterstützen, z. B. „Jn der und der deutschen,
+englischen u. s. w. Zeitschrift ist von Frau A, oder Herrn B ein
+Artikel über die Frauenfrage, oder einen Spezialpunkt derselben er-
+schienen. Jhre (seine) Richtung ist die und die.“ Solche, ganz kurze
+Notizen könnten handschriftlich aufbewahrt oder gedruckt werden. Auch
+Hinweise auf bezügliche Stellen in nationalökonomischen, politischen u. s. w.
+Werken wären brauchbar; vorausgesetzt natürlich, daß sie von unbe-
+fangenen Sachverständigen geliefert werden.
+1892 erschien in Paris W. Ostrogorski, La Femme
+au point de vue du Droit public. Etude d’histoire et de législation
+comparée. Ouvrage couronné par la Faculté de droit de Paris.
+(Vgl. die Newyorker Political Science Quarterly, 1893.) Vom Genfer
+Prof. der Rechte L. Bridel erschienen: Le Droit de la Femme
+mariée sur le Produit de son travail, 1893. Le Mouvement
+féministe et les Droits des femmes, 1893 (ziemlich radikal, vgl.
+die eben angeführte Zeitschrift, 1895). Die „Familie und die Frauen-
+bewegung“ (deutsch in der gleichnamigen Zeitschrift, 1896, Nr. 10).
+Frau E. Jchenhäuser, Der gegenwärtige Stand der Frauen-
+frage in allen Kulturstaaten. Eine vergleichende Studie, Leipzig, 1894,
+57 Seiten, hat wohl auch die Werke von Ostrogorski und
+Bridel benutzt. Die talentvolle, aber ziemlich extreme Verfasserin
+verwechselt manchmal Parteiwünsche und Thatsachen. Sie übersieht
+z. B. S. 17, 18, daß das englische Oberhaus, unterstützt von der
+öffentlichen Meinung, jede Frauenstimmrechts-Bill in den Papierkorb
+werfen würde. Die Stelle über Amerika S. 49 ist nach S. 5 zu
+berichtigen. Weibliche Pastoren (S. 36) kann es in der finnländischen
+Staatskirche nicht geben. Es sind wohl Sekten gemeint. Unglaublich
+klingt ferner die Notiz über russische Bäuerinnen (S. 32). Trotz
+solchen und anderen Mängeln ist die Broschüre für kritische Leser
+brauchbar. Die Behauptung über den besonders starken Egoismus
+der deutschen Männer (S. 45) ist leider nicht richtig: sonst stände
+es im Posen'schen und anderswo besser, wie es wirklich steht.
+Über die Vereinigten Staaten, England und seine Kolonien,
+kurz, die Angelsachsen, findet man in der North American Review,
+in der Londoner Review of Reviews Stead's und in den übrigen
+englischen Monatsschriften viel Jnteressantes, obgleich Stead spiri-
+tistische und andere ungesunde Ansichten vertritt. Der Engländer
+Bryce giebt in seinem Werke The American Commonwealth,
+3. Aufl., 2 Bde., 1895, auch gute Notizen über die Frauenbewegung.
+Eins der besten Bücher der Weltlitteratur ist von Frau Th. Bentzon
+unter dem Titel Les Américaines chez elles, 1896, geliefert worden.
+Die Verfasserin heißt eigentlich Frau Th. Blanc, steht im Meyer-
+schen und Brockhaus'schen Konversations-Lexikon, ist eine geborene
+de Solms, soll wohl heißen: Gräfin Solms. Die Romane, welche
+von ihr in der Revue des Deux Mondes erschienen, hatten nicht selten
+etwas Katholisch-Tendenziöses. Jhre neueste Schrift ist weit unbe-
+fangener. Die Worte «les femmes, ces gardiennes de tous les
+préjugés» (S. 297) klingen fast protestantisch. Die Verfasserin
+1*
+schildert mit Geist und Witz, wie die überspannten Anhängerinnen
+und Anhänger des Frauenstimmrechts in Newyork und anderen
+Städten älterer Kultur regelmäßig von den tüchtigsten, verdienstvollsten
+Frauen und Männern im Geisteskampfe geschlagen werden, sich nur
+lächerlich machen. Viele Newyorker Damen erließen 1894 in zehn
+Punkten einen treffenden Protest gegen das Frauenstimmrecht.
+Derselbe wurde 1894 in The English Woman's Review, Bd. 25,
+und 1895 in der Berliner „Frauenbewegung“, Nr. 2, mitgeteilt. Schon
+früher bildete sich nach Bryce in Massachusetts eine Ladies-Anti-
+Suffrage-League. Es giebt ferner eine Albany-Anti-Suffrage-
+Association, für die sich auch der dortige (wohl anglikanische) Bischof
+ausgesprochen hat (Polit. Science Quart. 1895, S. 564.) Th. Bent-
+zon berücksichtigt natürlich auch andere Seiten der Frauenfrage. Sie
+giebt z. B. S. 29 ff. interessante Notizen über die Protective
+Agency in Chicago, einen Rechtsschutzverein für arme Frauen
+und Mädchen.
+Trotz den Verdiensten der amerikanischen Frauenvereine
+ist doch folgendes zu bedenken:
+A. Die häufig zu weit getriebene Abschließung gegen das
+männliche Geschlecht beruht manchmal auch auf Eitelkeit, Geschwätzig-
+keit, Herrschsucht, Furcht vor der Kritik der Gefühlspolitik
+durch verstandespolitisch denkende Männer und Frauen.
+B. Kein Frauenverein bekämpft meines Wissens die puri-
+tanische, englisch-schottisch-amerikanische Sonntagsfeier. Wenn man
+Arbeiter hindert, deutsche Schulen zu besuchen, die deutsche Sprache
+zu erlernen,
+¹⁾
+Sonntags Museen zu besuchen, deutsches Bier zu trinken,
+in anständigen Gartenlokalen deutsche Musik zu hören, deutsche Zei-
+tungen zu lesen, so ist die Folge davon, daß Viele am Sonnabend
+irischen Whisky kaufen, sich am Sonntag und Montag viehisch be-
+trinken, ihre Frauen und Kinder mißhandeln. Sogar unter den reichen
+Frauen Amerikas giebt es viele Säuferinnen. Die Deutschen haben
+auch von den Angelsachsen manches zu lernen, aber im allgemeinen
+steht die deutsche Kultur, die spöttisch s. g. german infidelity („der
+deutsche Unglaube“), hoch über jenem cant, der den Nächsten 6 Tage
+wöchentlich betrügt, und den lieben Gott am 7. Tage zu betrügen
+versucht.
+C. Viele Politiker bekämpfen auf den Wunsch von überspannten
+Frauenzimmern das deutsche Bier, während die Waldverwüstung
+fortschreitet, das Klima sich rasch verschlechtert, Wirbelstürme Hunderte
+von Menschen zu Leichen, Krüppeln, Bettlern machen.
+²⁾
+D. Die Negersklaverei und andere schwere Schäden Amerikas
+waren und sind in Deutschland gar nicht oder in viel geringerem
+Grade vorhanden.
+Von den Quellen über England ist bereits oben S. 3 die
+Rede gewesen. Die von manchen deutschen Autorinnen viel bewunderte
+Married Property Act von 1882, 45 und 46 Victoria Ch. 75, war
+ein Fortschritt, aber leider kein genügender. Vgl. E. Schuster, die
+bürgerliche Rechtspflege in England. Berlin 1887, S. 277. A. Selim,
+Übersicht der englischen Rechtspflege, Leipzig, 1886, S. 33 ff. 165,
+166. Trotzdem ist J. S. Mill's Schrift The Subjection of
+Women seit 1882 im ganzen veraltet. Die übliche Übersetzung
+„Hörigkeit“ ist falsch. Besser ist „Unterwerfung“, ähnlich wie man
+z. B. von der Unterwerfung der Sachsen durch Karl d. G. spricht.
+Tüchtige Männer und Frauen bekämpfen den Feminismus (um
+diesen im Französischen und Deutschen mehr und mehr üblich werden-
+den Ausdruck zu gebrauchen). Beispielsweise seien erwähnt: Sir
+J. F. Stephen, Liberty, Equality, Fraternity, 1873, 2. Aufl.
+1874 (deutsch von E. Schuster, 1874), Kap. 5, S. 222 ff., 228 ff.
+der 2. Auflage des Originals. Grant Allen in der Fortnightly
+Review, N. S., Bd. 46, 1889. Frau E. Lynn Linton's Essay
+The Wild Women in Nineteenth Century, Bd. 31, 1892. Wild
+bedeutet natürlich „emanzipiert“. Die (auch im Meyer'schen Konver-
+sations-Lexikon stehende) Verfasserin ist hie und da sogar ultrakonservativ.
+1889 erschien in der Monatsschrift The Nineteenth Century,
+Bd. 25, ein von 104 Damen unterschriebener Protest gegen das
+Frauenstimmrecht. Unterschrieben haben 1 Herzogin, 2 Vice-
+gräfinnen (viscountesses), 2 Gräfinnen, Lady Randolph Churchill,
+ferner Frauen von Ministern, Professoren u. s. w., z. B. Frau
+Bagehot, Henry Broadhurst, W. E. Forster, Goschen,
+F. Harrison, Max Müller, Mundella, Frl. B. Potter (jetzt
+Frau Sidney Webb, geb. 1858), Frau Seeley, Leslie Stephen,
+Humphry Ward und andere. Die Männer dieser Damen stehen
+zum Teil recht weit links. Man denke z. B. an Harrison und
+Webb. Herr Broadhurst war, wenn ich nicht irre, Arbeiter, Gewerk-
+vereinsführer, Parlamentsmitglied, wohl auch Ministerialbeamter.
+Jn der Monatsschrift The Fortnightly Review, N. S., Bd. 46,
+erschien in demselben Jahre eine Erklärung für das Frauen-
+stimmrecht. Mehr als 2000 Frauen und Mädchen unterschrieben.
+Aus räumlichen Gründen wurden ungefähr nur 1/4 der Namen,
+circa 500, veröffentlicht. Darunter befanden sich 1 Markgräfin
+(marchioness), 1 Vicegräfin, 7 Gräfinnen, Frau Karl Blind, Frl.
+J. Cobden, Frau Henry Fawcett, W. E. H. Lecky und andere.
+Fast alle 500 Unterzeichnerinnen gehören dem Adel oder der Bour-
+geoisie an, nur unter den letzten 24 Namen kann es einige Hand-
+arbeiterinnen geben, zu denen nach S. 139 noch 187 Frauen dieser
+Klassen kommen. Die fehlenden 1500 Namen gehören nicht lauter
+Proletarierinnen an, denn nach S. 131 befinden sich unter ihnen
+many valuable and important names. Frau Lily von Gizycki
+spricht in ihrer Broschüre „Die Bürgerpflicht der Frau,“ 1895,
+S. 14, von der Sache, scheint aber die beiden Listen nicht selbst
+gesehen zu haben. Sie sagt: „Es fand sich, daß diese 2000 Frauen
+ihr Leben mit einem Berufe ausfüllen, während die Protestlerinnen
+lauter nichtsthuende Damen sind.“ Das ist eine Anspielung auf
+S. 125, 126 der Fortnightly Review, wo aber so extreme Behaup-
+tungen nicht stehen. Zu den angeblich nichtsthuenden Damen gehören
+auch Frau Sidney Webb und Frau Humphry Ward. Der Frau
+von Gizycky passiert dabei das Mißgeschick, daß sie auf S. 13 ihre
+These von S. 14 selbst widerlegt, d. h. Frau Webb sehr lobt, weil
+diese reiche Dame als junges Mädchen im Osten Londons als
+Schneiderin arbeitete, um Material gegen das Sweating-System zu
+sammeln. Dies Lob ist natürlich verdient. Frau Ward, die frucht-
+bare Romanschriftstellerin und verdienstvolle Vorkämpferin der deutschen,
+aufgeklärten Theologie, ist wahrlich auch keine Drohne. Wie sollte
+ferner der Beweis geführt werden, daß z. B. die 2 protestierenden
+Gräfinnen nichts thun, und daß die 7 zustimmenden Gräfinnen ihr
+Leben mit einem Berufe ausfüllen? U. s. w.
+Schon 1886 gab es in London eine segensreich wirkende So-
+ciety for the Prevention of Cruelty to Children. Eine Ausdehnung
+des Vereinszweckes auf den Frauenschutz ist wünschenswert. Die 1878
+in der Monatsschrift Contemporary Review, Bd. 32, erschienene
+Abhandlung F. P. Cobbe's Wife-Torture in England ist leider
+wohl noch heute beachtenswert.
+Eine der namhaftesten englischen Damen ist die 1851 geborene
+Lady Henry Somerset. Jhre Biographie erschien 1893 im Juni-
+heft der Review of Reviews. Dieselbe Zeitschrift referierte im April-
+heft von 1895 über einen Essay der Lady, welcher unter dem Titel
+The Welcome Child im März 1895 in der amerikanischen, in
+Boston erscheinenden Zeitschrift The Arena veröffentlicht wurde. Die
+Polemik der Verfasserin gegen compulsory maternity enthält viel
+Wahres, trotz der orthodoxphantastischen Geschichte von Jngersoll's
+Mutter. Das Wort compulsory bezieht sich natürlich auf einen ge-
+wissen Mißbrauch ehelicher Rechte, der auch von deutschen Aerzten,
+von F. v. Holtzendorff,
+³⁾
+von mir
+⁴⁾
+und von anderen bekämpft worden ist.
+Es kommt vor, daß deutsche Damen von ultramontaner Richtung
+einem nichtkonfessionellen (sozusagen: interkonfessionellen) Frauen-
+verein angehören, und es kommt natürlich vor, daß Deutschöster-
+reicherinnen, Polinnen u. s. w. von römisch-katholischer Konfession
+Medizin studieren. Trotzdem ist es eine Thatsache, daß die Frauen-
+bewegung am besten in protestantisch-germanischen und israeli-
+tischen Kreisen gedeiht, weniger gut in griechisch-katholischen
+Kreisen, am wenigsten in römisch-katholischen Kreisen. Die tref-
+fenden Bemerkungen, welche Frl. Dr. Käthe Schirmacher, eine
+talentvolle reichsdeutsche Dame, in der „Frauenbewegung“, 1896,
+Nr. 7, über Frankreich macht, gelten, mit Veränderung des zu Ver-
+ändernden, auch von anderen katholischen Ländern und Gegenden. Jn
+der griechischen Kirche hat die Ohrenbeichte der Frauen (und
+Männer) eine viel geringere Bedeutung, wie in der römischen Kirche,
+schon weil die griechischen Geistlichen verheiratet sind. Russische
+Damen haben überhaupt, trotz allen Zweibunds-Phrasen, viel mehr
+Geistes- und Jnteressengemeinschaft mit deutschen Damen, z. B. in
+der Polen- und Jesuiten-Frage, wie mit französischen Damen. Aus
+der Litteratur Jtaliens ist das Werk von Lombroso und Ferrero,
+La donna delinquente, das Weib als Verbrecherin und Prostituirte,
+deutsch von H. Kurella, 1894, hervorzuheben. Ein französischer Richter
+pflegte bekanntlich zu fragen: «Où est la femme?», oder zu sagen:
+«Cherchez la femme!»
+Hinsichtlich der übrigen Länder verweise ich auf die angeführten
+Arbeiten von Pierstorff, Ostrogorski, Bridel, Frau Jchenhäuser.
+J. Duboc's Werk „Fünfzig Jahre Frauenfrage in Deutsch-
+land. Geschichte und Kritik“, 1896, entspricht nur wenig seinem
+Titel. Auf 173 Seiten ist so viel von anderen Zeiten und Ländern
+die Rede, daß für das eigentliche Thema zu wenig Raum übrig
+bleibt. Die Notizen über Massachusetts und Frl. H. Goldschmidt,
+S. 138, 139, sind ungenau. (Vgl. unten S. 9.) Jmmerhin enthält
+das Buch brauchbare Notizen.
+Von R. Artaria erschien in der Gartenlaube 1894, Nr. 15,
+ein biographischer, mit Porträts versehener Artikel über zehn Führe-
+rinnen der Frauenbewegung. Ordnet man die Namen chrono-
+logisch, so erhält man folgende Liste: 1) Freifrau B. v. Maren-
+holz-Bülow, 1811-93. 2) Frau L. Otto-Peters, 1819-95.
+3) Frl. L. Büchner, 1821-77. 4) Frau Dr. Henriette Gold-
+schmidt in Leipzig (geb. Benas, 1829 in Krotoschin geb.), nicht
+zu verwechseln mit Frl. Henriette Goldschmidt in Berlin. 5) Frau M.
+Weber, geb. 1829. 6) Frau Lina Morgenstern, geb. 1830. 7) Frl.
+M. Calm, 1837-87. 8) Frl. Auguste Schmidt, geb. 1833.
+9) Frau M. Löper-Housselle, geb. 1837. 10) Frl. Helene Lange,
+geb. 1848. Auch andere Namen wären meines Erachtens anzuführen
+gewesen, z. B. Frl. M. Menzzer (wenn ich nicht irre, 1896 verstorben),
+Frl. J. Hirsch, Frau Hedwig Dohm, Frau Minna Cauer.
+Frl. J. Hirsch's historische Denkschrift ist bereits oben S. 1
+erwähnt worden. Von Frau Luise Otto-Peters erschien 1890
+„Das erste Vierteljahrhundert des Allgemeinen Deutschen Frauen-
+vereins“. S. 1 wird die „Mitteldeutsche Volkszeitung“ erwähnt, die
+nach dem Meyer'schen Konv.-Lex. 1858 bis 1864, bis zum Tode
+A. Peters', von ihm und seiner Frau redigiert wurde. 1865 über-
+nahm Liebknecht die Redaktion, die er im großdeutsch-partikularistischen
+Sinne führte. Jm September 1866 wurde das Blatt von der preußischen
+Militärverwaltung unterdrückt (F. Mehring, Die deutsche Sozial-
+demokratie, 3. Aufl. 1879, S. 93). Trotz den sonstigen Verdiensten
+der Verfasserin hat ihre in Rede stehende, 1890 erschienene Schrift
+sozusagen etwas Geschlechtspartikularistisches, Feministisches, Doktrinär-
+Unpraktisches, Manchesterliches, wie namentlich die Stellen auf
+S. 9 ff. 40 zeigen. Viel unbefangener sprach sich nach S. 40 Frl.
+L. Büchner 1876 aus. Ein stenographischer Bericht über ihre Rede
+dürfte leider nicht existieren. (Vgl. auch Duboc, S. .99, 100, 104,
+105.) S. 16 ist der Name „Kongreß deutscher Volkswirte“ ungenau
+wiedergegeben. Trotz solchen und anderen Mängeln ist das Buch von
+L. Otto-Peters eine reichhaltige, dankenswerte Arbeit.
+Frau L. Morgenstern's Werk „Frauenarbeit in Deutschland“,
+2 Teile, 1893, enthält noch reichhaltigere statistische Daten über die
+Frauenvereine und anderes. Nach Frl. Helene Lange gab es
+1896 in Deutschland circa 4000 Frauenvereine.
+Die Leipziger Halbmonatsschrift „Neue Bahnen, Organ des
+Allgemeinen Deutschen Frauenvereins“ erscheint seit 1866. Nach dem
+Tode von Frau L. Otto-Peters ist Frl. Auguste Schmidt, eine
+sehr verdienstvolle Dame, alleinige Herausgeberin.
+Die Berliner, seit dem Okt. 1893 erscheinende Monatsschrift
+„Die Frau“ wird von Frl. Helene Lange herausgegeben, von
+Dr. E. Heilborn redigiert.
+Frau Schulrat Minna Cauer und Frau Professor Lily
+v. Gizycki, geb. v. Kretschman, begründeten 1895 die Berliner
+Halbmonatsschrift „Die Frauenbewegung“. Seit 1896 ist die erst-
+genannte Dame alleinige Herausgeberin. Jn Nr. 3 des Jahrganges
+1895 erschien von Frl. Henriette Goldschmidt eine „Erklärung
+gegen das Frauenstimmrecht“. Sie verwirft es nur für die
+Gegenwart, nicht für die fernere Zukunft. Jhr, mit Kritik zu lesender
+Artikel enthält sehr scharfsinnige Bemerkungen über die Frauen-
+bewegung.
+Die seit 1891 erscheinende Stuttgarter, sozialdemokratische Halb-
+monatsschrift „Die Gleichheit“ wird von Frau E. Jhrer in
+Pankow herausgegeben, von Frau K. Zetkin (Eißner) in Stutt-
+gart redigiert.
+J. Kürschner‘s Handbuch der deutschen Presse soll demnächst
+erscheinen. Es wird auch die übrigen Frauenzeitschriften Deutschlands,
+Österreich-Ungarns u. s. w. verzeichnen. Jn seinem Deutschen Litteratur-
+kalender sind auch die Schriften der lebenden Autorinnen und Autoren
+über die Frauenfrage verzeichnet. Der „Bazar“ hat meines Wissens
+keine Parteitendenz. Dr. M. Osborn giebt dagegen an, daß die
+Berliner „Jllustrierte Frauenzeitung“ in der Frauenfrage eine sehr
+konservative Stellung einnimmt.
+Von den zahllosen Schriften und Abhandlungen über die
+Frauenfrage seien der Kürze halber nur folgende, zum Teil wenig
+beachtete, oder ganz neue, angeführt:
+Frau A. Crepaz, die Gefahren der Frauenemanzipation, 1892.
+Hie und da etwas ultrakonservativ, aber sehr lesenswert. Die 1849
+in Brünn geborene, in Wien lebende Verfasserin scheint Protestantin
+zu sein. Sie citiert z. B. die Bibel nach Luther, nicht nach der
+Vulgata.
+R. Koßmann, Die Frauenfrage und der Darwinismus (Nord
+und Süd, April 1894). Bekämpft die extremen Frauenrechtlerinnen,
+beachtenswert.
+Frau L. v. Gizycki plaidiert in ihrer oben S. 6 erwähnten
+Broschüre für das Frauenstimmrecht. Diese Forderung ist recht alt;
+sehr neu ist dagegen die Behauptung (S. 19), daß klatschende Frauen
+den guten Ruf „des Nachbarn“ zerpflücken. Bisher hat die ganze
+männliche und weibliche Menschheit angenommen, daß in solchen
+Fällen immer, oder fast immer Geschlechtsgenossinnen die Kosten der
+Unterhaltung zu tragen haben. Auch der Ausdruck „der Nachbar-
+innen“ wäre noch ungenau. Jn Großstädten pflegt man seine Nach-
+barinnen gar nicht zu kennen. Ähnlich ist es in Kleinstädten, wenn
+die Nachbarinnen z. B. einer anderen, viel niedrigeren, oder höheren
+Klasse (um nicht zu sagen: Kaste) angehören.
+Gustav Cohn, Prof. der Staatswissenschaften in Göttingen,
+beiläufig bemerkt, ein Protestant, Die Frauenbewegung (Deutsche
+Rundschau, März, April, Mai 1896). Trotz den sonstigen Verdiensten
+des Verfassers und einzelnen treffenden Bemerkungen ziemlich manchester-
+lich und optimistisch gehalten.
+Von den Monographien über gewisse Übelstände seien er-
+wähnt: M. Kaufmann, Schminke, 1893 (über Schauspielerinnen
+u. s. w.). T. Kellen, Weibliches Sklaventum, 1894 (über Kellner-
+innen u. s. w.). D. Wege, Kellnerin, der soziale Notstand des
+Kellnerinnenberufes, 1896 (recht beachtenswert). Ein Artikel über
+weibliche Modelle erschien 1892 in der Wochenschrift „Ethische Kultur“.
+Vgl. auch H. Braun's Archiv für soziale Gesetzgebung, 1888 ff.,
+passim. Rent's Art. Prostitution in J. Conrad's Handwört. der
+Staatswiss.Bd.5,1893. Duboc a. a. O. S. 166 ff. Frau H. Bieber-
+Böhm (in Berlin), Vorschläge zur Bekämpfung der Prostitution.
+(Jn den 1890er Jahren erschienen, vielleicht nicht in den Buchhandel
+gekommen.)
+Über die Stellung der Frauen im künftigen Bürgerlichen
+Gesetzbuch besteht eine ganze, in Frauen- und Juristenorganen ver-
+zeichnete und besprochene Litteratur. Frau Dr. jur. E. Kempin ver-
+faßte z. B. 1892 eine bezügliche Denkschrift unter dem Titel „Die
+Stellung der Frau“ u. s. w. Der Dresdener Rechtsschutzverein für
+Frauen gab 1895 ebenfalls eine bezügliche Denkschrift „Das deutsche
+Recht und die deutschen Frauen“ heraus. S. 4 wird der juristische
+Fachausdruck Verschwägerte mißverstanden. Er bezieht sich auf
+Schwieger-Eltern und Kinder, Stief-Eltern und Kinder. Die in
+England bekanntlich verbotene Ehe eines Wittwers mit seiner
+Schwägerin soll bei uns erlaubt bleiben. Proteste gegen gewisse
+Beschlüsse der Reichstagskommission für das Bürgerliche Gesetzbuch
+wurden am 28. Mai 1896 in Kassel vom Bunde deutscher
+Frauenvereine und 29. Juni 1896 in einer Massenversammlung
+deutscher Frauen in Berlin erhoben. Auch Sachsen, Süddeutschland
+u. s. w. waren natürlich vertreten. Näheres darüber findet man in
+Frauenzeitschriften, auch in verschiedenen Zeitungen.
+Gelegentliche Ausführungen über die Frauenfrage finden sich
+an unzähligen Orten, z. B. in der Bibel, bei Dichtern, Philosophen,
+Statistikern, Nationalökonomen, auch im 1. und 3. Bande von
+Roscher's System der Volkswirtschaft. Schopenhauer war ein
+Ehefeind, aber nicht gerade ein Frauenfeind. Er soll so manche un-
+platonische Beziehungen zum schönen Geschlecht gehabt haben.
+Mein Essay „Der Anteil der Frauen am geistigen Leben“ er-
+schien 1893. Die „Gegenwart“ 1895, Nr. 14, brachte von mir
+einen Artikel „Die Aussichten der deutschen Frauenbewegung“. Statt
+A. v. Stein ist natürlich K. v. Stein zu lesen. Das darauf folgende
+Wort „Bismarck“ ist ein Zusatz der Redaktion. Sie hat wahrschein-
+lich geglaubt, ich hätte diesen Namen im Versehen fortgelassen. Jch
+habe ihn jedoch absichtlich nicht erwähnt. Jch bin der Überzeugung,
+daß die Unähnlichkeiten zwischen dem Luther‘schen und Bismarck'schen
+Konservatismus viel größer sind, wie ihre Ähnlichkeiten. Jm ganzen
+halte ich an den daselbst über die Frauenfrage geäußerten An-
+schauungen fest, zweifle indes jetzt an der Richtigkeit des bekannten
+Decenz-Arguments für Ärztinnen. „Dem Reinen ist Alles rein.“
+«Naturalia non sunt turpia.» (Natürlicher Dinge braucht man sich
+nicht zu schämen.) Es ist nicht anstößig, daß Männer als Frauen-
+ärzte und Geburtshelfer fungieren, Magen- und Darmleiden auch bei
+Frauen heilen, obgleich dabei die Frage nach dem „Stuhl“ nicht
+umgangen werden kann. Staatlich geprüfte Ärztinnen könnten auch
+im Deutschen Reiche zugelassen werden, obgleich ihnen das Recht zu
+schweren chirurgischen Operationen schwerlich zugestanden werden kann.
+Alle Sachverständigen sollen dagegen sein.
+Von Parteien in der deutschen Frauenbewegung kann
+man nur in bedingter Weise sprechen. Unter den Frauen der Sozial-
+demokratie dürften ebenso fundamentale Meinungsverschiedenheiten
+bestehen, wie unter den Männern dieser Richtung. Jnnerhalb des
+Vereins „Frauenwohl“ und des „Allgemeinen Deutschen Frauen-
+vereins“ giebt es bedeutsame Meinungsverschiedenheiten. Dasselbe
+dürfte vom Lette-Verein und den übrigen Frauenvereinen gelten. Es
+kommt nicht selten vor, daß in der Seele eines weiblichen oder
+männlichen, besonnenen (oder überspannten) Jndividuums entgegen-
+gesetzte Jdeen, Gefühle, Pflichten, Jnteressen mit einander kämpfen.
+Jn volkswirtschaftlicher Beziehung kann man sechs Haupt-
+richtungen unterscheiden: A. und B. Antisozialistinnen, freihändlerische
+und schutzzöllnerische Anhängerinnen des privaten Grund- und Kapital-
+eigentums. C. Halbsozialistinnen im Sinne H. George's oder anderer.
+D. Sozialdemokratinnen. E. und F. Kommunistinnen und Anarchistinnen.
+Jn politischer Beziehung kann man ebenfalls sechs Haupt-
+richtungen unterscheiden: A. Ultrakonservative, Gegnerinnen jeder poli-
+tischen Thätigkeit der Frauen. B. und C. Gemäßigte Konservative
+und Liberale, welche eine solche Thätigkeit fordern, aber das Frauen-
+stimmrecht verwerfen. Das ist z. B. der Standpunkt der oben S. 5
+erwähnten 104 englischen Damen. Er wird nach Frau Bentzon
+auch von den ausgezeichnetsten Damen Amerikas geteilt, praktisch
+bethätigt. D. Halbradikale, welche in bedingter Weise für das Frauen-
+stimmrecht eintreten, z. B. für ein Zensuswahlrecht. E. und F. Radi-
+kale, nichtsozialistische und sozialistische Anhängerinnen des allgemeinen
+gleichen Stimmrechts beider Geschlechter.
+Die sogenannte Frauenbewegung des Deutschen Reiches
+ist nicht die Bewegung der deutschen Frauen, als Gesamtheit, oder
+große Mehrheit betrachtet, sondern nur die Bewegung einer winzigen
+Minderheit. Dieser Satz gilt sowohl von den sog. besitzenden
+und gebildeten, wie von den sog. arbeitenden und ungebildeten Frauen.
+Jn den nächsten Jahren und Jahrzehnten wird die ungeheure
+Mehrheit der deutschen Frauen, zunächst der gebildeten Protestantinnen,
+in die Frauenbewegung eintreten; und dann wird sich drastisch zeigen,
+wie antiradikal, gemäßigt, konservativ, die ungeheure Mehrheit der
+deutschen Damen war und ist. Vom Radikalismus wird man dann
+beinahe mit einem Shakespeare'schen Titel sagen können: „Viel Lärm
+um Nichts.“
+Zweites Kapitel.
+Die Hauptmängel der deutschen Frauenbewegung.
+Der Übersichtlichkeit wegen seien dieselben hier schematisch ver-
+zeichnet:
+A. Das Übersehen der national- und weltgeschichtlichen, volks-
+und weltwirtschaftlichen Zusammenhänge der deutschen Frauenfrage.
+Ähnlich tadelt Frl. H. Goldschmidt a. a. O. die Jndolenz und
+Gleichgültigkeit der (?) Frauen für alles (?) positive Wissen, sie fordert
+die Mitarbeit derselben auf allen Gebieten der Volkswirtschaft und
+Wohlfahrt. Die Fragezeichen sind von mir hinzugefügt. Trotzdem
+werden Leserinnen und Leser der vorliegenden Schrift zugeben, daß
+die genannte, mir gänzlich unbekannte Dame eine ähnliche Beobachtung
+gemacht hat, wie der Schreiber dieser Zeilen. Auch Frl. Dr. K.
+Schirmacher, Teresa Labriola, Dr. jur. in Rom, und andere
+Autorinnen haben Ähnliches gesagt, die erstere in ihrer Broschüre
+„Herrenmoral und Frauenhalbheit“, 1896, die letztere in der „Frauen-
+bewegung“, 1896, Nr. 13. Damen, welche mit Berufsarbeiten, oder
+anderen Pflichten vollauf oder übermäßig beschäftigt sind, in höchst
+achtungswerter, uneigennütziger Weise Zeit, Geld, Gesundheit
+für die Frauensache opfern, können nicht nebenbei zeitraubende Studien
+über Nationalökonomie und anderes machen; aber andere, weibliche,
+oder männliche Personen hätten die nötigen Jnformationen liefern
+können; ähnlich wie z. B. in England jede bemittelte Familie einen
+Hausarzt, Rechtsanwalt, Bankier als ständigen Berater hat. Reiche,
+begabte Mädchen, Witwen oder Frauen hätten Nationalökonomie
+studieren oder sich autodidaktisch mit derselben beschäftigen können.
+Die Sache hatte indes mehr als eine Schwierigkeit, sozusagen
+mehr als einen Haken. Das Recht und die Sitte erschweren das
+Frauenstudium sehr, und gerade die begabtesten, nicht selten zugleich
+reichsten Damen halten sich gern von einer Bewegung fern, in der
+häufig die „Gleichberechtigung der Geschlechter“, manchmal sogar das
+Frauenstimmrecht, gefordert wird. Aus ähnlichen Gründen hätten
+Professoren der Nationalökonomie meist wenig Lust gehabt, ein münd-
+liches oder schriftliches Referat zu übernehmen, falls sie um ein
+solches gebeten worden wären.
+B. Das die Regel bildende Übersehen der bevölkerungs-
+politischen Probleme.
+C. Das häufige Übersehen hochwichtiger volkswirtschaft-
+licher Reformfragen. Man denke z. B. an die Stichwörter: syste-
+matische Be- und Entwässerungen ganzer Stromgebiete; Eisenbahn-
+Differentialtarife zu gunsten untervölkerter Kleinstädte und Ackerbau-
+gegenden; die damit eng zusammenhängende Heilung der großstädtischen
+Wohnungsnot. Ferner: die deutsche Kolonisation in nicht deutschen
+Gegenden Preußens und Österreich-Ungarns; die Zolleinigung mit
+demselben; die deutsche Kolonisation in Südwestafrika, in höher ge-
+legenen Gegenden Ostafrikas, in Südamerika.
+D. Die Überschätzung des Prinzips der Eröffnung neuer
+Berufe für das weibliche Geschlecht. Frau Crepaz sagt dagegen,
+a. a. O., S. 23: „ … je mehr der Erwerb des Mannes beein-
+trächtigt wird, desto weniger ist er in der Lage, einen Familienherd
+zu begründen.“ Wenn ich nicht irre, ist diese, eigentlich selbstverständ-
+liche Wahrheit schon früher von E. v. Hartmann und anderen
+betont worden.
+E. Das Übersehen der Bedenken und Nachteile des Frauen-
+studiums.
+F. Die Forderung des Frauenstimmrechts und andere radikal-
+unpraktische Doktrinen, z. B. in betreff der sog. Friedensbewegung,
+der sozialen, nationalen, kirchlichen Kämpfe.
+G. Der manchmal vorkommende Feminismus oder Geschlechts-
+partikularismus. (Letzterer findet sich, mit Veränderung des zu Ver-
+ändernden, auch bei Männern.)
+H. Die manchmal vorkommenden Ausfälle gegen das ganze
+männliche Geschlecht. Es giebt Frauenzimmer, die weder einen
+Bruder, noch einen Ehemann haben. Jede Autorin oder Rednerin
+hat indes männliche Vorfahren, 1 Vater, 2 Großväter u. s. w. gehabt.
+„Es ist ein schlechter Vogel, der sein eigenes Nest beschmutzt.“
+Als Ganzes betrachtet ist diese, auf Vollständigkeit keinen An-
+spruch machende Aufzählung von mir, aber die einzelnen Punkte sind
+keineswegs von mir. Hinsichtlich der Wasserpolitik stütze ich mich z. B.
+auf eine Denkschrift der ersten Sachverständigen Deutschlands.
+Ähnlich verhält es sich mit sämtlichen übrigen, in der staatswissen-
+schaftlichen Litteratur des Jnlandes, zum Teil auch des Auslandes,
+sehr viel und eingehend erörterten Punkten.
+⁵⁾
+Aus räumlichen und
+anderen Gründen sehe ich von solchen Erörterungen hier ab. Jch
+beschränke mich auf einige, zum Verständnis notwendige Erläuterungen
+und Ausführungen.
+Produktivgenossenschaften werden von Frau L. Otto-
+Peters, S. 10, und von manchen, meist schwärmerischen Autoren
+stark überschätzt. Sie machen schon deshalb in der Regel Fiasko, weil
+es an Sachkenntnis fehlt, und namentlich, weil jeder befehlen,
+niemand gehorchen will.
+Mill's Subjection of Women wird von Frauenrechtlerinnen
+bis zum Überdruß citiert. Die von Malthus, Mill, Roscher,
+A. Wagner u. a. gegebenen Ausführungen über und gegen die
+Vielkinderei pflegen indes ignoriert zu werden, obgleich z.B. Frau
+Fischer geb. Lette, 1896 eine Broschüre über Malthus und seine
+Gegner schrieb. Ärzte und Autorinnen behaupten, wohl mit Recht,
+daß sogar die Gesundheit einer reichen, kräftigen Dame ruiniert
+werden kann, wenn sie allzu viele, noch dazu ungewöhnlich schwere
+Entbindungen gehabt hat. Viel Elend entsteht auch dadurch, daß
+uneheliche Kinder in die Welt gesetzt werden, oder daß unbemittelte
+Eheleute zu viele Kinder haben. Mill sagt, ein solcher Vater werde
+(wegen seiner Unenthaltsamkeit) künftig von der öffentlichen Meinung
+so verachtet werden, wie schon heute ein Trunkenbold verachtet wird.
+Dieser paradoxe Ausspruch enthält einen beachtenswerten Kern.
+⁶⁾
+Sogar in Baden, welches keine einzige Großstadt besitzt, hat
+mit gutem Erfolge „die Verlegung der Jndustrie auf's Land“
+und nach kleinen Orten stattgefunden. Sehr interessante Notizen
+darüber hat ein tüchtiger Fachmann im Leipziger Tageblatt, 1896,
+Nr. 189, gegeben.
+Jm Kampfe mit anderen Sprachen steht sich die deutsche
+Sprache im Osten, Süden, Westen zur Zeit nicht gerade gut, aber
+im Norden dringt sie vor.
+⁷⁾
+Die gebildeten Dänen sind Freunde der
+deutschen Weltsprache, wenn sie nicht künstlich aufgehetzt worden sind.
+Eine bedeutende deutsche Auswanderung nach Jütland ist daher
+möglich, da die deutschen Landwirte u. s. w. den Dänen an Kapital
+und Bildung überlegen sind. Es ist sogar denkbar, daß dereinst im
+Parlament zu Kopenhagen der Gebrauch der deutschen Sprache ge-
+stattet werden wird.
+Bei dem großen Kinderreichtum des deutschen Volkes sind all-
+mähliche, aber massenhafte Auswanderungen nach dem fruchtbaren
+Südrußland sehr wahrscheinlich. Ein etwaiges, kaum denkbares
+deutsches Auswanderungsverbot wäre leicht zu umgehen, z. B. durch die
+Route über Österreich-Ungarn oder Schweden. Ein etwaiges, mehr
+wahrscheinliches Einwanderungsverbot Rußlands würde auch umgangen
+oder aufgehoben werden, weil Polizeibeamte bestochen werden würden,
+und weil kapitalkräftige Landkäufer verschuldeten russischen Edelleuten
+und Bauern sehr erwünscht wären. Jm Kriegsfalle würden diese
+Kolonisten leider die Macht Rußlands verstärken; aber es ist möglich,
+daß ein Teil der Eingewanderten für Deutschland Partei nimmt; und
+ein deutsch-russischer Krieg ist nur möglich, nicht sicher. Bleibt der
+Frieden zwischen beiden Staaten stets erhalten, so wäre die ganze Sache
+für uns recht vorteilhaft. Die Ausfuhr von deutschen Jndustrie-
+erzeugnissen und Büchern würde z. B. stark steigen. Deutsche Lehre-
+rinnen würden in Rußland, auch bei deutschen Familien, gute Stellen
+finden. Der Einfluß Deutschlands auf Rußland würde steigen u. s. w.
+Das Reich als solches kann in Argentinien schwerlich eine
+Kolonie gründen. Ein solcher Versuch würde wahrscheinlich bald zu einer
+Kriegserklärung der Vereinigten Staaten führen. Die Sache würde
+indes auf mehr privatem, aktienrechtlichem Wege gehen, wenn große,
+einflußreiche Kapitalisten der Union und Deutschlands die Sache in
+die Hand nähmen, Angloamerikaner, Deutschamerikaner, Reichsdeutsche
+ansiedeln hülfen. Alle brauchten nicht Landwirte zu sein, auch Hand-
+werker, Kaufleute, Lehrerinnen u. s. w. wären sehr am Platze.
+Jn den letzten Jahrzehnten sind deutschen und anderen Frauen
+verschiedene neue Berufssphären erschlossen worden. Diese Er-
+scheinung darf in Bausch und Bogen weder beklagt, noch als erfreu-
+lich bezeichnet werden. Es kommt auf die Art des Berufes und auf
+die Gunst, oder Ungunst der Arbeitsbedingungen an. Wenn ein
+armes, schlecht genährtes, vielleicht auch schwach begabtes Mädchen
+z. B. Medizin studiert, so kann sie als Gymnasiastin, Studentin,
+Ärztin ihren Anstrengungen erliegen. Ein Genfer Professor der
+Medizin veröffentlichte 1896 eine Statistik, nach welcher von 30-40
+russischen und polnischen Studentinnen der Medizin nur wenige es
+zur dauernden Ausübung des ärztlichen Berufes brachten. (Jch citiere
+aus dem Gedächtnis.) Die Thätigkeit einer viel beschäftigten Tele-
+graphistin, Telephonistin u. s. w. dürfte für Frauen zu anstrengend
+sein. Der Setzerinnenberuf ist an und für sich wohl nicht ungeeignet,
+er wirkt aber aufreibend, wenn die Arbeitszeit zu lang ist, wie z. B.
+nach A. v. Studnitz manchmal in Amerika. Von Krankenwärterinnen
+kann man nicht sagen, daß sie Männern das Brot wegnehmen, wohl
+indes von manchen Verkäuferinnen, Buchhalterinnen u. s. w. Wenn
+Frl. A, Frl. B und Herr C sich um eine Stelle bewerben, und wenn
+Frl. A siegt, so ist das nur ein privat-, nicht ein volkswirtschaftlicher
+Vorteil. Frl. B kann z. B. verhindert werden, ihre kranke Mutter
+zu unterstützen. Herr C kann verhindert werden, seine Braut, Frl. D,
+zu heiraten u. s. w.
+Es ist übertrieben, Mädchengymnasien kurzweg für überflüssig
+oder schädlich zu erklären; es ist jedoch verkehrt, für sie zu schwärmen.
+Es wäre keineswegs erfreulich, wenn zum männlichen Gelehrtenpro-
+letariat noch ein weibliches Gelehrtenproletariat käme. Beim Studium
+reicher, begabter Damen fällt dies Bedenken fort. Viele von ihnen
+scheinen indes zu glauben, eine rite promovierte Doktorin werde not-
+wendigerweise von allen gebildeten Männern und Frauen als eine
+Geistesaristokratin angesehen. Manche Personen dürften wirklich so
+naiv sein, klügere geben auf einen Doktortitel nicht allzu viel. Sie
+sehen auf die Begabung und die Leistungen der betreffenden weiblichen
+oder männlichen Persönlichkeit. Auch Frauen können unter Umständen
+auf dem Gebiete der geistigen Arbeit, manchmal sogar der Wissen-
+schaft, Bedeutendes leisten, ohne je studiert zu haben. Der Streit
+für und wider die sog. Öffnung der Universitäten dreht sich immer,
+oder fast immer nur um die Frage der körperlichen und geistigen
+Befähigung der Frauen zum Studium. Die Sache hat indes noch
+eine andere, viel wichtigere Seite. Die vollständige Öffnung würde
+dazu führen, daß die Zuhörerinnen an ihrem weiblichen Zartgefühl
+Schaden leiden würden, oder daß die Universitäten sozusagen auf
+das Niveau von Backfisch-Schulen hinabgedrückt würden. Die
+Professoren der Medizin wären nicht einmal am schlimmsten daran.
+Jch habe dies Fach 1 ¼ Jahre studiert, und weiß daher, wie objektiv,
+mit wie vielen lateinischen Fachausdrücken die Anatomie vorgetragen
+wird. Ein Professor des Strafrechts ist dagegen berechtigt, ja ver-
+pflichtet, künftigen Staatsanwälten und Richtern den Ausdruck Tri-
+badie zu erklären, vielleicht die bezügliche Stelle aus A. v. Öttingen's
+Moralstatistik vorzulesen. Jn anderen Vorlesungen muß von Theodora
+und Marozia, Lucrezia Borgia, von der Bevölkerungspolitik, von der
+Abfuhr der städtischen Fäkalien, von den technischen Ausdrücken der
+Pferdezucht u. s. w. die Rede sein. Wie soll das alles möglich
+Walcker, Die Frauenbewegung. 2
+bleiben, wenn auch nur eine Dame zugegen ist?! Man hat daher,
+nicht mit Unrecht, vorgeschlagen, eine kleine Universität, z. B.
+Gießen, ganz für Studentinnen zu bestimmen. Für gewisse Fächer,
+z. B. Philologie, Chemie, Musik könnten daselbst auch Männer als
+Professoren angestellt werden, aber nicht für Anatomie u. s. w.
+Damen könnten ferner an Männeruniversitäten solche Fächer hören,
+in denen nichts für Frauen Unpassendes vorkommt.
+Es ist nicht rätlich, von der Gleichberechtigung beider
+Geschlechter zu reden, denn der Ausdruck bedingte, organische
+Gleichstellung klingt pedantisch; und eine unbedingte, mecha-
+nische Gleichstellung ist weder wünschenswert, noch möglich.
+⁸⁾
+Der
+Kürze halber seien nur folgende, zum Teil sehr triviale, aber von
+extremen Frauenrechtlerinnen immer wieder ignorierte Wahrheiten
+hervorgehoben:
+I. Frauen sind körperlichen und geistigen Anstrengungen in der
+Regel viel weniger gewachsen wie Männer. Sie bedürfen ferner
+vor und nach ihrer Niederkunft und zu anderen Zeiten einer
+besonderen körperlichen und geistigen Schonung.
+⁹⁾
+Sie sind, sogar in
+reichen Familien, durch ihre Mutter- und Wirtschaftspflichten
+viel mehr an das Haus gebunden wie ihre Männer. Sie sind daher
+häufig weltunkundig, Gefühlspolitikerinnen, von medizinischen, poli-
+tischen und anderen Schwindlern, selbst von Wahrsagerinnen, weit
+leichter zu dupieren wie Männer. (Vgl. auch oben S. 3.)
+II. Beim Kampfe gegen die Hexenprozesse scheint keine einzige
+Dame beteiligt gewesen zu sein. Die Protestantenverfolgungen
+des 16. und 17. Jahrhunderts waren dagegen größtenteils Werke von
+Frauen, nämlich der blutigen Maria in England; der unsittlichen
+Luise von Savoyen, der Mutter Franz's I., der Katharina von
+Medici und der Frau von Maintenon in Frankreich; Maria's der
+Mutter, und Maria Anna's, der Gemahlin des nachmaligen Kaisers
+Ferdinand's II. in Österreich.
+¹⁰⁾
+Beide waren bayerische Prinzessinnen,
+aus der jüngeren, 1777 ausgestorbenen Linie der Wittelsbacher.
+Gustav Adolf‘s Tochter wurde katholisch. Selbst Maria Theresia war
+intolerant gegen Andersgläubige.
+Die weiblichen „Hyänen“ der französischen Revolution, die
+Vorläuferinnen der Petroleusen von 1871, sind auch aus Schiller's
+„Glocke“ bekannt. Der französische, protestantische Graf A. v. Gasparin
+schildert als Augenzeuge, von welcher Kriegsfurie ultramontane Fran-
+zösinnen 1870 ergriffen waren.
+¹¹⁾
+1870 sollen gewisse deutsche Frauen
+und Mädchen in anstößiger Weise mit gefangenen Franzosen und
+Turkos kokettiert haben. Deutsche protestantische Mädchen haben
+manchmal Jtaliener, ja Polen geheiratet, ihre Kinder katholisch er-
+ziehen lassen. Jn katholischen Gegenden herrschen die Ultramontanen
+weit mehr durch die Frauen, wie durch die Männer. Jn Frankreich,
+in den polnischen u. s. w. Gegenden sind Damen auch die Haupt-
+trägerinnen des kulturfeindlichen, antideutschen Chauvinismus u. s. w.
+III. Auf dem Wege der Nachahmung verbreiten sich auch gute
+Dinge, aber das Horazische Wort «imitatoram servum pecus» ist
+noch heute für Nachäffer und Nachäfferinnen beachtenswert. Auch
+Lassalle spottet über diejenigen, „welche abgeschmackt genug sind,
+um zu behaupten, Napoleon I. und die Hebamme Müller hätten sich
+nur durch ihr Geschlecht unterschieden“.
+¹²⁾
+Was würde Lassalle erst
+zur modernen, in England und Amerika aufgetauchten Behauptung
+sagen, die Frauen seien nicht ein Geschlecht, sondern eine Klasse?!
+Nach dieser weisen Logik würden z. B. die reichste Herzogin und die
+ärmste Bettlerin Englands zu derselben Klasse gehören. Es macht
+einen widerwärtigen Eindruck, wenn ein Weib ihre Haartracht, ihren
+Kragen und Slips so arrangiert, daß man ihr Bild auf den ersten
+Blick für das Porträt eines bartlosen, oder rasierten Mannes halten
+kann; daß man erst durch die Unterschrift Mrs. oder Miss, Frau
+oder Fräulein, recht orientiert wird. Extreme Frauenrechtlerinnen,
+sog. Feministinnen, bringen es fertig, in einem Atem zu sagen:
+„Die Männer sind schlecht“ und „Wir wollen werden, wie die
+Männer“. Trotz allen Gleichberechtigungs-Phrasen läuft ihre Doktrin
+eigentlich auf den ungeheuerlichen Satz hinaus: „Die Frau soll das
+Wesen des Mannes nachäffen, die Äffin des Mannes sein.“
+Die Gemäßigten lehren dagegen, daß zwischen beiden Geschlechtern
+eine ähnliche Arbeitsteilung und Differenzierung stattfindet und
+stattfinden soll, wie z. B. zwischen Städtern und Landwirten, Gene-
+ralen und Admiralen, Goethe und Schiller, A. und W. v. Humboldt.
+„Eines schickt sich nicht für Alle.“ Die Gemäßigten beider Geschlechter
+sagen mit diesen oder jenen Worten: „Wir fordern eine in jeder
+Beziehung würdige, angemessene Stellung der Frauen.“
+Diese Formel ist vorsichtig, maßvoll gefaßt, und doch immer genügend.
+Sie paßt auf alle berechtigten Forderungen der Damen, selbst auf
+die weitgehendsten.
+2*
+IV. Das mitunter vorkommende aktive Zensus-Wahlrecht
+einer ländlichen, oder städtischen Grundbesitzerin für Gemeindewahlen
+ist schon deshalb nicht wünschenswert, weil es bei anderen den Appetit
+nach dem allgemeinen gleichen Wahlrecht beider Geschlechter reizt,
+welches unter allen Parteiprogrammen nur im sozialdemokratischen
+gefordert wird. Es ist auch nicht schön, wenn eine reich gewordene
+Dirne durch Güterkäufe Patronin von Kirchen und Schulen wird.
+V. Wenn A das allgemeine gleiche Wahlrecht der Männer nur
+als etwas Opportunes, nicht als ein heiliges Recht betrachtet, so
+kann er sich, trotz der sonstigen Unhaltbarkeit seines Standpunktes,
+weitergehenden Forderungen enthalten. Wenn B dagegen das all-
+gemeine gleiche Wahlrecht der Männer, oder vollends beider
+Geschlechter, als ein heiliges Recht betrachtet, so ist er sozusagen
+verloren; ähnlich wie ein am Rande eines Abgrundes, oder einer
+Brücke entgleister Bahnzug unaufhaltsam ins Verderben fortrast. Ein
+Sozialist, Kommunist, Anarchist könnte dem B höhnisch vorhalten:
+„Sie Bourgeois, Sie Halber, Sie Schwachkopf! Was nützt mir das
+gleiche Wahlrecht? Jch will Gleichheit des Einkommens, der Genüsse!“
+Die letzte Konsequenz wäre die Frauen- und Männergemeinschaft.
+Dieselbe kommt bereits, nicht als Jnstitut, wohl aber als Mißbrauch
+vor. Herr C verführt z. B. Frau D, das schönste Weib seines
+Bekanntenkreises; und Frau E oder Frl. F verführt Herrn G, den
+schönsten, überdies verheirateten Mann ihres Bekanntenkreises. Wenn
+man an Stelle des Herrn B Frau H oder Frl. J setzt, so bleibt
+die Logik dieselbe. Solche und ähnliche Gedankengänge sind längst
+von F. J. Stahl, Roscher
+¹³⁾
+u. a. vertreten worden.
+VI. Jn Wirklichkeit kann das Frauenstimmrecht in alten
+Kulturstaaten nicht durchdringen. Nehmen wir indes an, es bestehe,
+so würden sich z. B. folgende Konsequenzen ergeben. Die heutigen,
+harmlosen „Abpaarungen“ zwischen Konservativen und Liberalen würden
+in London, Paris und anderswo nicht ganz selten durch unsittliche,
+nächtliche Abpaarungen zwischen Abgeordneten und Abgeordnetinnen
+ersetzt werden. Die Premierminister-Stelle würde plötzlich vakant werden,
+weil die Jnhaberin, Frl. A, Herrn B, den Führer der Opposition,
+heiratet, mit ihm eine Hochzeitsreise nach Jtalien macht. Jn München
+würde eine fanatische, bäuerliche Abgeordnetin vielleicht mit bajuva-
+rischen Kraftausdrücken, oder mit einem Messer auf einen liberalen
+Kultusminister losgehen. Jm Berliner Reichstage, oder Landtage,
+würde eine zelotische Polin vielleicht à la Ch. Corday, oder W. Sas-
+sulitsch auf einen Minister, oder einen nationalliberalen Abgeordneten
+schießen, obgleich diese Männer keine Marat‘s und Trepow's sind.
+VII. Die Frauen müßten folgerichtig die etwas größere Hälfte
+der Staats- und Kirchenämter erhalten. Es würde z. B. weibliche
+Kriegsminister und Beichtväter geben. Die Fabel von der Päpstin
+Johanna könnte dann halb und halb zur Wahrheit werden.
+Drittes Kapitel.
+Das Verhältnis der deutschen Frauenbewegung zur sog. Friedensbewegung,
+zu nationalen Kämpfen und zum Ultramontanismus.
+Es ist Gefahr vorhanden, daß ein beträchtlicher Prozentsatz der
+Mitglieder der deutschen Frauenvereine, wenigstens mancher dieser
+Vereine, extreme, unpraktische Friedenstendenzen vertreten wird. Da
+das Wort Friedensfreund sehr vieldeutig ist, so kann man, zur Ver-
+meidung langer Bezeichnungen, von Anhängern und Anhängerinnen
+E. Burritt’s
+¹⁴⁾
+und der österreichischen Baronin Bertha v. Suttner
+sprechen. 1896 hielt Frl. M. Mellien im Berliner Frauenverein
+einen Vortrag über die Friedensbewegung in unserer Zeit. Ein Referat
+über denselben erschien in Nr. 7 der „Neuen Bahnen“. Am 11. April
+1896 hielt dieselbe Dame, eine sehr gute Rednerin, in der Leipziger
+Ortsgruppe des Allgemeinen Frauenvereins einen Vortrag über das-
+selbe Thema. Sie fand nach den „Neuen Bahnen“ Nr. 9 und nach
+dem „Leipz. Tageblatt“ Nr. 243 lebhaften Beifall, wenn auch in
+einigen Punkten Widerspruch. Von einer Kritik der Leipziger Rede sehe
+ich schon deshalb ab, weil sie meines Wissens nicht im Druck er-
+schienen ist. Ein wörtlicher Abdruck der Rede ist auch darum wünschens-
+wert, weil die Dame, von ihrem katholischen Standpunkte aus, den
+Kulturkampf, den Augsburger Religionsfrieden, den Satz «Cujus
+regio, ejus religio» und die ehemaligen Protestantenverfolgungen
+deutscher katholischer Fürsten besprochen haben soll.
+Aus räumlichen und anderen Gründen kann die ganze Friedens-
+frage hier nicht erörtert werden. Orientierendes findet man in zwei
+kleinen Schriften, nämlich bei F. v. Holtzendorff, die Jdee des
+ewigen Völkerfriedens, 1882, und bei Walcker, die Notwendigkeit
+einer europäischen Abrüstung und Steuerentlastung, 1895, noch kürzer
+in Bise's Artikel „Schiedsgerichte“ im Staatslexikon der Görres-
+Gesellschaft, Bd. 4, 1895. Es ist ein erfreuliches Zeichen der Zeit,
+daß zwei liberale Protestanten, nämlich F. v. Holtzendorff und
+der Schreiber dieser Zeilen, und der Katholik Bise in der Haupt-
+sache, im Kampfe gegen die Überschätzung der Schiedsgerichts-
+Jdee einig sind.
+¹⁵⁾
+Ähnlich sprach sich Dr. Jreland, der katholische
+Bischof von Saint-Louis in Amerika am 9. Mai 1896 nach der
+Berliner „National-Zeitung“ gegen internationale Schiedsgerichte, für
+den Krieg aus (sogar in etwas zu weitgehender Weise). Der Kardinal
+Rampolla richtete dagegen am 9. April 1896 an den Redakteur
+der Londoner Zeitung „Daily Chronicle“, im Aufträge des Papstes
+Leo's XIII., ein Schreiben, in welchem der Redakteur gelobt wird,
+weil er für a permanent tribunal for the purpose of deciding
+international controversies plaidiert. Das Original ist wohl latei-
+nisch. Man findet den Brief in der Londoner Zeitschrift Concord,
+Mai 1896, und in der Suttner'schen Zeitschrift „Die Waffen nieder!“,
+1896, S. 195, 196. Jm angeführten Heft des Concord ist auch ein
+Schreiben zu finden, in welchem die katholischen Erzbischöfe von
+Baltimore, Armagh in Jrland und Westminster sich für solche
+Schiedsgerichte aussprechen.
+Der Ausdruck Schiedsgericht paßt eigentlich nur auf Tri-
+bunale, welche rechtliche Fragen entscheiden. Eine Versammlung,
+welche rein politische Fragen entscheidet, ist ein Kongreß oder dergl.,
+kein Gericht, selbst wenn sie aus lauter Richtern besteht. Der Kürze halber
+sei indes der Ausdruck Schiedsgericht adoptiert. Nehmen wir an, die
+Sache soll ernst werden, so würden sich folgende Schwierigkeiten ergeben.
+A. Wenn jeder Staat nach seiner Bevölkerungszahl im
+Schiedsgericht vertreten wäre, so würden die Heiden und Moham-
+medaner auf lange hinaus eine feste Mehrheit besitzen.
+B. Jn China u. s. w., ja, selbst in Rußland wären eigentliche
+Volkszählungen gefährlich, die Massen würden Steuererhöhungen
+fürchten, es würden blutige Aufstände nach Art der Taiping's und
+Pugatschew's ausbrechen. (Das e in diesem Namen ist wie o auszu-
+sprechen.)
+C. Nehmen wir an, das Tribunal sei trotzdem zu stande ge-
+kommen, sei nur von den christlichen Staaten besetzt, so würde es,
+sogar in Rechtsstreitigkeiten, höchstens von Kleinstaaten, nicht von
+den mächtigsten Staaten benutzt werden. Die letzteren haben
+selten ein Bedürfnis nach einem Schiedsgericht, und sie würden bei
+einem Tribunal ad hoc viel besser ihre Rechnung finden, wie bei
+einem ständigen. Nehmen wir z. B. an, Rußland habe einen Grenz-
+streit mit China, und das Recht sei auf seiner Seite, so würde es
+viel besser fahren, wenn es z. B. den deutschen Kaiser, den König
+von Portugal, den König von Belgien, oder das schweizerische Bundes-
+gericht zum Schiedsrichter wählte, als wenn es sich den unberechen-
+baren Chancen einer Abstimmung im ständigen, internationalen Tri-
+bunal aussetzte. Rußland ist natürlich nur beispielsweise gewählt.
+Ähnliches gilt vom Deutschen Reiche, den Vereinigten Staaten u. s. w.
+D. Noch weniger würden sich die Großmächte in politischen
+Lebensfragen einem internationalen Tribunal unterwerfen. Graf Leo
+Tolstoi, eine große Autorität, sozusagen ein Heiliger oder Papst,
+der Burrittianer und Suttnerianer, polemisiert im Mai-Juni-Heft
+der „Monatlichen Friedens-Korrespondenz“, des Organs der „Deutschen
+Friedensgesellschaft“, gegen den Patriotismus, ist aber doch unbe-
+fangen, sozusagen patriotisch genug, um folgendes zu schreiben:
+„ … Einzelne machen den komischen Versuch, einen Vogel zu fangen,
+indem sie ihm Salz auf den Schwanz streuen, nämlich den Versuch,
+internationale Kongresse [soll heißen: ein internationales Schieds-
+gericht] ins Leben zu rufen, welche augenscheinlich aber nie von
+den mächtigen Staaten werden anerkannt werden, da diese
+Staaten ja nur zu dem Zweck bewaffnet sind, um niemandem zu
+gehorchen.“
+E. Das ehemalige Aschenbrödel Deutschland hat noch heute viele
+Gegner. Man denke z. B. an die Sprache der meisten englischen
+Blätter über das Telegramm, welches Kaiser Wilhelm II. 1896 an
+Krüger, den Präsidenten der südafrikanischen Republik, richtete,
+an die Depesche, welche der amerikanische Staatssekretär Olney im
+Mai 1896 an den Freiherrn v. Thielmann in Sachen Stern's
+richtete. Letzterer hatte 1895 in Kissingen die bekannte Affaire. Jn
+einem internationalen Tribunal würden die Neider unseres
+Volkes eine feste Mehrheit haben. Sie würden ihm verbieten,
+gegen Polen, Magyaren u. s. w. Notwehr zu üben, Nichtdeutsche im
+Kampf ums Dasein wirtschaftlich zu verdrängen, oder zu germani-
+sieren, sich Ellbogen-Raum zu schaffen. Sie würden im bekannten
+Jargon französischer, österreichischer u. s. w. Preußenfeinde erklären,
+1870, 1866 und früher habe die „Gewalt“ über das „Recht“
+gesiegt, Deutschland habe Elsaß-Lothringen und Nordschleswig abzu-
+treten, Polen sei wieder herzustellen u. s. w. Die Deutschenfeinde des
+Tribunals würden denken: „Die Jndustriellen, Lehrerinnen, Gou-
+vernanten u. s. w. des Deutschen Reiches haben uns lange genug
+eine überlegene, unbequeme Konkurrenz gemacht; jetzt wollen wir ein-
+mal das deutsche Volk recht gehörig schädigen, damit es ein für alle
+Mal unschädlich, konkurrenzunfähig gemacht wird.“ Frédéric Passy
+ist ein tüchtiger Nationalökonom, ein Freihändler, eine Art Friedens-
+freund, membre de l’Institut. Trotzdem hielt er 1895 in der So-
+ciété française pour l’arbitrage entre nations einen Vortrag über
+die Zukunft Europas, der als Broschüre und im Februarheft des
+Journal des Économistes erschien, in wenig verblümter Weise un-
+glaubliche Umgestaltungen der Karte Europas (auf Kosten Deutsch-
+lands, Österreich-Ungarns, Rußlands, Englands) fordert. (Vgl. beson-
+ders S. 178 des Joum. des Écon.) Wenn ein Gemäßigter so spricht,
+so kann man denken, was für Zumutungen uns erst von Extremen
+gemacht werden würden! Jm Pferdehandel und in der Politik muß
+man die Augen offen halten, sonst wird man übervorteilt.
+F. Die Baronin B. v. Suttner sprach sich 1894 in der
+schweizerischen Zeitschrift „Der Friede“, wenigstens anscheinend, für
+den deutschen Besitz Elsaß-Lothringens aus.
+¹⁶⁾
+Die in Deutschland
+vorherrschende Ansicht, diese Autorin bringe dem Reiche nur Schaden,
+ist übertrieben. Als ich 1894 Materialien zu meiner oben S. 22
+erwähnten Broschüre sammelte, schrieb ich, rein geschäftlich, an das
+Bureau der Österreichischen Friedensgesellschaft in Wien, und bat
+um ihre Statuten. Das Bureau sandte meinen Brief an die Baronin,
+die mir schrieb, sich erbot, mir Materialien zu verschaffen und zu
+leihen. Jch habe diese Offerte natürlich mit Dank angenommen. Jn
+der Lieferung dieser Drucksachen lag eine gewisse Förderung der
+deutschen Jnteressen, da meine Schrift natürlich mit Entschiedenheit
+für Preußen-Deutschland und den Protestantismus, überhaupt für
+die moderne Kultur, eintritt. Die Suttner’sche Zeitschrift enthält auch
+verschiedene Notizen, die von nationalliberalen und konservativen Pu-
+blizisten, ja, von Diplomaten und Kriegsministern des Deutschen
+Reiches sehr gut verwandt werden können. Beispielsweise seien aus
+dem Jahrgange 1896 angeführt: S. 47, 92 (G. Moch’s Plaidoyer
+für das „Weiterrüsten“ Frankreichs), 179 (über die 480000 fran-
+zösischen Kriegsfreundinnen), 223, 224. Der „Friedensfreund“ Moch,
+ein französischer Artilleriekapitän a. D.,
+¹⁷⁾
+ist jetzt einer der Redakteure
+der «Indépendance belge». Alle Redakteure scheinen nach S. 31 Fran-
+zosen zu sein. Wenn sie Deutsche wären, so würden die französischen
+Chauvinisten und auch andere Leute sehr ungehalten sein.
+Andererseits zieht sich eine gewisse Vorliebe für französische
+Prätensionen, ein großer Mangel an Verständnis für die Rechte und
+Jnteressen der Deutschen, Angelsachsen, Russen wie ein roter Faden
+durch verschiedene Publikationen der Baronin und mancher ihrer Mit-
+arbeiter. Sie wirft z. B. im Jahrgange 1895 ihrer Zeitschrift, S. 161 ff.,
+eine elsässisch-lothringische Frage auf. Wie unpassend, gelinde
+gesagt, ein solches Verhalten war, kann man auch mit Verweisungen
+auf den Jahrgang 1896 zeigen. M. Adler's bezügliche Ausführungen
+gegen G. Moch, auf S. 104, enthalten viel Wahres, wenn auch für
+uns Deutsche nichts Neues. E. Ducommun, der Herausgeber der Berner
+«Correspondance bi-mensuelle» (der früheren «Correspondance
+autographiée»), tadelte 1896 in scharfen Worten das Hineinzerren
+jener „Frage“ in die Friedensbewegung, und sein Ausspruch wird
+von L. Katscher auf S. 224 beistimmend angeführt.
+Auf S. 399 des Jahrganges 1896 billigt die Baronin, streng
+genommen, trotz der Betonung ihrer abweichenden Meinung, das
+Plaidoyer des „Friedensfreundes“ M. Adler für den französischen
+(höchst ungerechten) Eroberungskrieg gegen Madagaskar. Sie über-
+sieht auch, daß dieser Krieg von den Chauvinisten als ein Vorspiel zu
+einem noch blutigeren Kriege, einem französisch-russischen Angriff auf
+Ostindien, betrachtet wird, und daß er auch ein ultramontaner Schachzug
+gegen die protestantischen Eingeborenen und Missionäre der Jnsel
+war. Wenn eine Redaktion irgend etwas, z. B. die Ketzer- und Hexen-
+verbrennungen oder jenen Krieg wirklich entschieden mißbilligt, so
+nimmt sie Plaidoyers für solche Dinge gar nicht auf, auch nicht im
+Namen der „Unparteilichkeit“, auf die sich die Baronin unlogischer
+Weise beruft. Es wäre unpassend, hier seitenlange Citate aus der
+Suttner'schen Zeitschrift zu geben. Jch verweise daher hinsichtlich
+ihrer Haltung gegenüber Deutschland und Frankreich auf den Jahr-
+gang 1895, S. 197; 1896, S. 59-65, 172-174, 217, 235 (die
+Briefkasten-Notitz an F. W., d. h. Franz Wirth). Auf derselben Seite
+wird in einer für Dr. R. H. in Wien bestimmten Notiz die „segens-
+reiche Macht des Dreibundes“ halb und halb geleugnet. Byzantinis-
+mus und Leisetreterei sind gewiß nicht zu billigen, aber das andere
+Extrem ist auch nicht zu billigen. Dahin gehört die an F. H. in
+Baden adressierte, auf S. 155 stehende Briefkasten-Notiz, die für die
+Dynastien Habsburg-Lothringen und Hohenzollern, für die
+Unterthanen und Freunde derselben verletzend ist, und überdies ganz
+ohne Not, nicht in Verteidigung irgend eines berechtigten Jnteresses,
+vorgebracht wird. Selbst wenn die über Kaiser Franz I. Stephan
+und Friedrich den Großen aufgestellten Behauptungen bewiesen
+werden könnten (?), so wäre das Aufrühren solcher alter Geschichten
+unpolitisch; besonders da beide Fürsten sich, trotz ihren Schattenseiten,
+große Verdienste erworben haben.
+Kurz, die Baronin B. v. Suttner, die überdies eine Aus-
+länderin ist, eignet sich durchaus nicht zu einer politischen Führerin
+deutscher Frauen oder Männer.
+G. 1895 richteten einige französische Damen eine Friedens-
+adresse an die „Schwestern jenseits des Rheins“, welche von
+7 reichsdeutschen Damen und der Baronin v. Suttner zustimmend
+beantwortet wurde. Richtiger wäre es gewesen, die Adresse mit Protest
+zurückzusenden, oder wenigstens die Streichung des unpassenden,
+eigentlich gegen den Frankfurter Frieden verstoßenden Ausdruckes
+„jenseits des Rheins“ zu fordern. Jn der Suttner’schen Zeitschrift
+1895, S. 416, 417, sind beide Adressen mitgeteilt. Drei Namen sind
+verdruckt. Es muß natürlich Frau Paule Munck, Frl. Dr. Tibur-
+tius und Frl. Marie Mellien heißen.
+H. Deutsche Frauen sollen die Augen offen halten, sich nicht
+von Aus- oder Jnländern antinationale Phrasen suggerieren lassen.
+Es kommt allerdings vor, daß manche Altdeutsche, Großdeutsche u. s. w.
+mit unpolitischer Schroffheit über fremde Völker urteilen; aber man
+darf nicht kurzweg nationale Toleranz predigen. Man denke z. B. an
+Magyaren, welche singen, oder drucken lassen „Der Deutsche ist ein
+Hundsfott“. Der Satz: „Die Frauen sollen ihre Kinder zum Frieden
+erziehen“ ist selbst für Frankreich und Rußland nur bedingt zuzugeben,
+da beide Staaten gelegentlich gerechte Kriege führen können. Für das
+deutsche Volk ist der Satz ganz verkehrt. «Si vis pacem, para bellum. »
+„Es kann der Frömmste nicht in Frieden bleiben,
+Wenn es dem bösen Nachbar nicht gefällt.“
+heißt es mit Recht in Schiller’s „Tell“.
+J. Die Hauptgarantieen für den europäischen Frieden liegen im
+Dreibunde und in der täglich steigenden Macht der friedliebenden
+russischen Bourgeoisie. Auch deutsche Männer und Frauen können
+die Friedensinteressen fördern, besonders durch Bekämpfung des
+Ultramontanismus und durch die Forderung einer strengen
+Bestrafung der Haupturheber eines etwaigen russischen, fran-
+zösischen u. s. w. Friedensbruches.
+¹⁸⁾
+Die einflußreichsten Kriegsfreunde
+Frankreichs sind Ultramontane, und nach Fürst Bismarck‘s bekannter
+Schilderung hetzen ultramontane Polen in der russischen Presse und
+Gesellschaft gegen das neue Reich. Deutsche Männer und Frauen
+sollen dagegen die Gemeinsamkeit der deutsch-russischen Jn-
+teressen gegenüber dem polnischen, französischen und übrigen Ultra-
+montanismus betonen. Auch die Forderung der Aufhebung der süd-
+französischen und spanischen Stiergefechte wäre ein geschickter
+Schachzug wahrer Freunde und Freundinnen des Friedens, der
+Humanität.
+Trotz den Pyrrhussiegen des Ultramontanismus können ihm
+gewisse Zeitströmungen, von Liberalen geschickt benutzt, sehr gefährlich
+werden.
+A. W. Roscher
+¹⁹⁾
+hebt mit Recht hervor, daß in der Ohren-
+beichte wirklich Unpassendes Frauen gegenüber fast unvermeidbar ist.
+(Das Wort Unpassendes steht nicht im Original. Jch habe einen
+schärferen Ausdruck des weltberühmten, bekanntlich sehr maßvollen
+Gelehrten aus Opportunitätsgründen gemildert.) Verschiedene katholische
+Frauen und Mädchen haben sich über gewisse Fragen beklagt, die hie
+und da im Beichtstuhl an sie gestellt worden sind; und manche sind
+deshalb zum Protestantismus übergetreten. Die Frauenbewegung sollte
+daher die Aufhebung der Ohrenbeichte fordern, die, wenn ich nicht
+irre, bei den Altkatholiken bereits vollzogen ist.
+B. Die Geistlichen der Protestanten, Jsraeliten, Griechisch-
+Katholischen, ja, sogar der unter dem Papst stehenden Griechisch-
+Unierten und Maroniten dürfen heiraten. Es ist daher eine Forderung
+der Parität, der Freiheit der Geistlichen, daß die katholischen
+Geistlichen auch heiraten dürfen. Jm Cölibatszwange liegt
+unzweifelhaft eine Art Unterschätzung der Ehe und des weiblichen
+Geschlechts, einschließlich der Mutter Jesu, die bekanntlich verheiratet
+war. Durch die Aufhebung des Cölibatszwanges würden viele Mädchen
+und jüngere Witwen versorgt werden. Wenn die Einnahmen der
+Pfarrer nicht ausreichten, so könnten die Vermögen der Klöster,
+bayerische Meßstiftungen, die Latifundien der österreichisch-ungarischen
+Toten Hand u. s. w. zur Aufbesserung der Pfarrerbesoldungen ver-
+wandt werden.
+C. Jn Frankreich, England, Amerika giebt es längst weibliche
+Fabrikinspektoren.
+²⁰⁾
+Nach dieser Analogie muß man staatliche Jn-
+Spektorinnen und Jnspektoren für Nonnen- und Mönchs-
+klöster fordern, besonders da die Klöster nicht selten Jndustrie
+²¹⁾
+treiben,
+und da manche Mädchen und Frauen von ihren Verwandten aus
+erbschleicherischen Gründen zwangsweise in ein Kloster gesteckt werden.
+Der Austritt aus einem Orden muß jeder Zeit frei stehen, und sie
+sind sobald wie möglich aufzuheben.
+D. Durch eine gesunde Emanzipation der protestantischen Frauen
+kann man indirekt auch auf die ultramontanen Frauen, Männer,
+Kinder wirken (vgl. unten Kap. IV und V). Man muß dabei, trotz
+aller Schneidigkeit, die Ultramontanen, unter denen es ja in ihrer
+Art sehr achtbare Personen giebt, gerecht, human beurteilen.
+Die Protestanten, die Ultramontanen und die Jsraeliten
+haben auch gemeinsame Jnteressen. Man denke z. B. an den
+Kampf für den Theismus, gegen das Duell und Studentenmensuren.
+Viertes Kapitel.
+Die wahrscheinliche Zukunft der deutschen Frauenbewegung. Die Notwendigkeit
+einer antiradikalen Frauenerklärung nach Art ähnlicher englischer und
+amerikanischer Proteste. Die Förderung berechtigter Fraueninteressen und
+der politischen Frauenbildung als eine nationalliberale und ähnliche
+Parteiwaffe gegen den Feudalismus, Ultramonatismus, Sozialismus,
+polnischen Chauvinismus. Die bevorstehende weltgeschichtliche Verbesserung
+der Lage der Frauen des Deutschen Reiches und der übrigen Kulturstaaten.
+Wirkliche und vermeintliche Extravaganzen deutscher und aus-
+ländischer Frauenrechtlerinnen haben die Frauenbewegung so unpopulär
+gemacht, daß zur Beruhigung und Gewinnung der öffentlichen Meinung
+eine antiradikale Erklärung deutscher Frauen und Mädchen
+sehr zeitgemäß wäre. (Vgl. oben S. 4 ff., 12 ff., 16 ff., 21 ff.) Bei der
+Feststellung des Textes wären natürlich tüchtige Juristen, National-
+ökonomen, Politiker zu Rate zu ziehen.
+Für gewisse Arten der weiblichen Selbsthilfe sind Männer
+schwerlich nötig. Man denke z. B. an die segensreich wirkende Stellen-
+vermittelung des Allgemeinen deutschen Lehrerinnenvereins. Anders
+verhält es sich, wenn z. B. Forderungen bei der öffentlichen Meinung,
+im Reichstage und Bundesrate durchzusetzen sind. Hier dringen besonnene
+Männer weit leichter durch, wie Frauen; weil sie eben die Denk- und
+Gefühlsweise ihrer Geschlechtsgenossen besser kennen, und gar nicht
+in Versuchung kommen, doktrinäre, radikale, anstößige Ausdrücke, wie
+„Gleichberechtigung der Geschlechter“ und dergl. zu gebrauchen. Es
+ist daher zeitgemäß, daß nationalliberale und ähnliche gemäßigte
+Männer, Juristen, Nationalökonomen, Landwirte, Jndustrielle, Kauf-
+leute, Bankiers, Rentiers u. s. w. die Frauenbewegung aufmerksam
+verfolgen, den Weizen von der Spreu sondern und in ihrem eigenen
+Namen berechtigte Fraueninteressen vertreten. Sie können dabei
+(privatim, nicht öffentlich) ihre weiblichen Angehörigen und Bekannten
+sowie fremde Damen konsultieren. Wenn sie öffentlich erklärten,
+daß ihnen die Zusendung von Gutachten über die Frauenfrage erwünscht
+sei, so würden sie von Damen viele gedruckte und handschriftliche
+Meinungsäußerungen erhalten. Darunter würden sich natürlich halb
+und ganz überspannte Forderungen befinden, aber auch Gutachten der
+besonnensten, politisch begabtesten Frauen und Mädchen Deutsch-
+lands; und es wäre von Wichtigkeit, die Namen dieser Damen zu
+erfahren, mit ihnen zu korrespondieren, gelegentlich auch mündlich
+zu konferieren.
+Solche Politiker hätten den deutschen Frauen aller Klassen
+viel Wertvolles zu bieten.
+A. Die volle Anerkennung der Menschenwürde der
+Frauen, auch als Staatsweltbürgerinnen, als denkender
+Wesen, die Abschaffung der fast orientalischen, haremsartigen Unsitte,
+welche alle Damen, selbst die vornehmsten, reichsten, begabtesten, viel
+Muße genießenden, Langeweile leidenden, kinderlosen, zu national-
+ökonomischer, politischer, religiöser Unreife und Unthätigkeil zu ver-
+dammen sucht. Schon Friedrich der Große, ein kühl denkender
+Kenner beider Geschlechter, ließ der „Großen Landgräfin“ Karoline
+von Hessen-Darmstadt ein Denkmal mit der Jnschrift Femina sexu,
+ingenio vir (von Geschlecht ein Weib, an Geist ein Mann) setzen.
+So manche Frauen sind an Begabung, sogar an politischer, vielen
+Männern überlegen. Beispielsweise seien die oben S. 3 erwähnte
+Frau Bentzon und die Gräfin Adelheid Poninska genannt. Letztere
+war 1804 als Gräfin Dohna-Schlodien aus dem Hause Kotzenau
+geboren, heiratete 1841 den evangelischen galizischen Grafen Adolf
+Poninski, starb, kinderlos, 1881 in Leipzig. Sie schrieb 1874 unter
+dem Pseudonym Arminius die, trotz gewissen Mängeln verdienstvolle
+Schrift „Die Großstädte in ihrer Wohnungsnot und die Grundlagen
+einer durchgreifenden Abhilfe. Mit einem Vorwort von (Professor Dr.)
+Th. Freiherr von der Goltz.“
+²²⁾
+Es ist bereits vorgekommen, daß
+begabte Damen in Männervereinen mit großem Beifall gesprochen
+haben. Jn der Leipziger Gemeinnützigen Gesellschaft habe ich, als
+Gast, in den 1890er Jahren selbst Vorträge von Fräulein Auguste
+Schmidt, Frau Dr. jur. E. Kempin, Frau Dr. Gnauck-Kühne
+gehört. An die Vorträge schlossen sich Debatten. Die letztgenannte
+Dame erntete 1895 auf dem evangelisch-sozialen Kongreß in Erfurt
+eben solchen Beifall. 1896 hielt sie im staatswissenschaftlichen, aus
+Professoren und höheren Beamten bestehenden Verein in Berlin einen
+Vortrag. Frau Kempin war Dozentin in Zürich, ist jetzt gerichtliche
+Sachverständige für englisches und amerikanisches Recht und Advokatin
+in Berlin. Beiläufig bemerkt, ist es für liberale Frauen und Männer
+nicht rätlich, an einem evangelisch-sozialen Kongresse teilzunehmen,
+weil dieser Name sehr vieldeutig und ziemlich unpopulär ist. Juristinnen
+sollten in den Deutschen Juristentag zugelassen werden. Auch der
+Verein für Sozialpolitik, die Berliner Volkswirtschaftliche
+Gesellschaft und ähnliche Vereine sollten Damen geöffnet werden.
+Die letzteren werden sogar in den Reichstag und die Landtage ein-
+ziehen, nicht als Abgeordnetinnen, wohl aber als Zeuginnen vor
+Enquêtenkommissionen, ja, als Mitleiterinnen derselben, z. B. in
+ihrer Eigenschaft als Fabrikinspektorinnen. Jn vielen deutschen
+Frauen und Mädchen stecken reiche, ungehobene Schätze des
+Geistes und Gemüts, auch der politisch-sozialen Jntelligenz.
+Diese Schätze werden früher oder später zum Wohl des deutschen
+Vaterlandes nutzbar gemacht werden. Sogar in manchen Zweigen
+des Staatsdienstes werden Damen Verwendung finden. Frl. Helene
+Lange hielt es 1894 in ihrer Zeitschrift für möglich, daß es zur
+Zeit unserer Enkel, oder Urenkel einen weiblichen Abteilungsdirektor
+oder Rat im Ministerium des Unterrichts geben wird. Jch bin
+der Ansicht, daß dieser Fortschritt bereits im ersten Viertel des
+20. Jahrhunderts zu erwarten ist.
+B. Der Spott der Witzblätter und Philister über alte Mädchen
+und Junggesellen enthält viel Übertriebenes und Ungerechtes.
+Wenn alle Herren und Damen einer feinen Gesellschaft Handschuhe
+anhaben, so kann kein Fremder die Verheirateten und Unverheirateten
+mit irgend welcher Sicherheit unterscheiden. Es giebt Unverheiratete
+beiderlei Geschlechts, die infolge ihrer glücklichen Naturanlagen und
+Verhältnisse viel gesunder, heiterer, liebenswürdiger, tüchtiger sind,
+wie so manche Ehegatten. Unverheiratet sein heißt auch nicht familien-
+los sein (!), wie viele Autoren und Autorinnen gedankenloser Weise
+voraussetzen. Unzählige Mädchen sind Pflegerinnen, Hausgenossinnen
+oder Wirtschafterinnen ihrer Väter, Mütter, Tanten, Brüder, Schwestern,
+Neffen, Nichten. Die AstronominKaroline Herschel war eine er-
+folgreiche Mitarbeiterin ihres Bruders. Neander's Schwester führte
+ihrem Bruder, Gambetta's Tante ihrem Neffen die Wirtschaft u.s.w.
+C. Sog. Privatdetektiv-Bureaus lassen Männer und Frauen
+heimlich beobachten, um Materialien zu einer Ehebruchsklage zu
+sammeln. Auf eine solche Spionage können sich Rechtsschutzvereine
+und Ehrengerichte natürlich nicht einlassen, aber sie können gegen
+stadtkundige Ehebrecher und Ehebrecherinnen und gegen solche
+Junggesellen einschreiten, welche ihr Vermögen mit Maitressen ver-
+schwenden. Heutzutage kommt es dagegen vor, daß A die Frau B’s
+verführt; daß B gezwungen wird, sich mit A zu duellieren; daß er
+tot geschossen wird; daß A und Frau B von feudalen Männern und
+Frauen so angesehen werden, als ob nichts geschehen wäre. Ehren-
+gerichte, welche über Ehestreitigkeiten und Ehebrüche urteilen, könnten,
+natürlich unter dem Vorsitze eines Mannes, zur Hälfte aus Männern
+und Frauen bestehen.
+Das Frauenstimmrecht ist schon deshalb verwerflich, weil
+es den Ultramontanen, den Polen und, infolge von Wahlbeeinflussungen,
+den Feudalen nützen würde. Die Ultramontanen wollen die Ehe-
+scheidung als unkirchlich ganz abschaffen, die Feudalen wollen sie zu
+sehr erschweren. Beide berufen sich dabei mit Unrecht auf die Heilig-
+keit, die Würde der Ehe. Die Würde des Amtes erfordert die Ab-
+setzung eines trunksüchtigen Offiziers, Richters, Geistlichen. Ähnlich
+erfordert die Würde der Ehe die Scheidung einer unwürdig gewordenen
+Ehe. Die ultramontane Renommage mit der Unlösbarkeit der katho-
+lischen Ehe ist eine Silbenstecherei. Die vielen Gründe für die
+Nichtigkeitserklärung einer katholischen Ehe und die noch im 19. Jahr-
+hundert vorgekommenen päpstlichen Dispense zu Ehescheidungen werden
+dabei ignoriert. Jede zu weit gehende Beschränkung der Ehescheidung
+trifft ferner die ärmeren Klassen, z. B. gemißhandelte Arbeiterfrauen,
+besonders schwer, wie der Mainzer Rechtsanwalt Dr. L. Fuld in
+Nord und Süd, August 1895, treffend ausführte.
+D. Ein an formelle Rechtsbestimmungen gebundenes Gericht
+kann gegen einen Verschwender gewöhnlich erst einschreiten, wenn
+es zu spät ist. Ein Ehrengericht, sozusagen ein Billigkeitsgericht,
+bei dem auch Frauen mitwirken könnten, vermöchte dagegen recht-
+zeitig einzuschreiten. Das Schachspiel wird nie, oder fast nie um
+Geld gespielt. Die Ehrengerichte könnten daher jedes hohe Karten-
+spiel, Rennwetten, ein leichtsinniges Börsenspiel verbieten, Übertre-
+tungen des Verbots mit Verweisen, zeitweiligen und lebenslänglichen
+Verrufserklärungen bestrafen. Auch der Staat und die Staaten
+können manches thun, z. B. durch die Bestrafung mitschuldiger
+Bankiers, durch die Schließung der Spiel-„Banken“ in Monaco u.s.w.
+Manche behaupten, Pferderennen seien eine Tierquälerei. Das ist
+vielleicht übertrieben, aber Distanzritte, das sog. Taubenschießen, Grau-
+samkeiten auf der Dachsjagd und dergl. sind entschieden zu verbieten.
+Sachkenner führen aus, die Rennen seien weder im Jnteresse der Pferde-
+zucht, noch des Militärdienstes nötig. Wenn diese Ansicht richtig ist, so
+werden die Rennen in Deutschland und anderswo abgeschafft werden.
+Auch die Frauen, die ein wesentlicher Faktor der öffentlichen
+Meinung sind, langsam, aber stetig an Macht zunehmen, haben ein
+dringendes Jnteresse an der Abschaffung der Duelle und Studenten-
+mensuren, in denen so manche Ernährer und künftige Stützen von
+Familien fallen. Wenn jemand immer Mensuren, Duelle und andere
+Allotria im Kopfe hat, so verliert er leicht, den Sinn für die Wissen-
+schaft, für die Jnteressen der modernen Kultur, des Liberalismus und
+gemäßigten Konservatismus, des Deutschtums, des Protestantismus
+gegenüber dem Feudalismus, Partikularismus, Ultramontanismus,
+Sozialismus, polnischen, tschechischen, magyarischen Chauvinismus.
+(Vgl. oben S. 26.)
+Das Vermögen, oder Sparkassen-Guthaben einer Frau
+muß gegen etwaige Gelüste ihres Mannes, aber auch gegen ihre
+etwaige eigene Unvernunft geschützt werden. Sie kann z. B. Geld
+an erbschleicherische Geistliche schenken, an einen leichtsinnigen Vater,
+Bruder, Schwiegersohn, oder Fremden leihen. Sie kann faule, hoch
+verzinsliche Papiere kaufen u. s. w. Eine Handelsfrau kann ihrem
+Vater, Bruder, Mann an Tüchtigkeit gleich stehen, ja überlegen sein;
+im allgemeinen stehen Frauen indes den Männern an Geschäftskennt-
+nis und Vorsicht nach. Auch hier wäre eine doktrinäre, radikale,
+mechanische Gleichstellung beider Geschlechter unpraktisch.
+Wenn Jemand Wertpapiere in der Reichsbank liegen hat,
+so läuft er Gefahr, daß die Depotscheine gestohlen werden, oder ver-
+brennen. Das Sicherste ist daher, das Kapital als Forderung ins
+Reichsschuldbuch eintragen zu lassen. Kurze „Amtliche Nachrichten“
+über dasselbe sind bei J. Guttentag in Berlin erschienen. Die Reichs-
+schuldverschreibungen müssen in natura eingeliefert werden. Man
+sagt, ohne Zweifel mit Recht, daß sie vernichtet werden. Für Berliner
+und Auswärtige ist die Einlieferung der Papiere ans Reichsschuld-
+buchbureau mit einem gewissen Risiko verbunden. Sie können unter-
+wegs gestohlen werden. Englische und andere Verbrecher haben wieder-
+holt in Deutschland Kassenboten Tausende von Mark gestohlen oder
+geraubt, indem sie ihnen z. B. Sand in die Augen streuten. Selbst
+die Haftpflicht der Post ist nicht unbedingt. So verstehe ich wenigstens
+die bezüglichen Angaben im J. Conrad'schen Handwörterbuch der
+Staatswissenschaften, Bd. 5, S. 189, 201. Es wäre daher meines
+Erachtens nötig, eine der beiden nachstehend erwähnten Reformen
+vorzunehmen: 1. die Post haftet, wie in Rußland, unbedingt, wenn
+Wertpapiere oder Geld offen eingeliefert, amtlich verschlossen worden
+sind; oder 2. das Reichsschuldbuchbureau erhält ein Girokonto bei
+der Reichsbank, und der Kapitalist zahlt das Geld bei der Reichsbank
+oder einer Filiale derselben ein. Mehrere Beamte des Reichsschuld-
+buchbureaus kaufen die Papiere an der Börse, und stempeln sie mit
+den Worten: „Außer Kurs gesetzt. Zur Vernichtung bestimmt“ ab.
+Das dürfte das Beste sein, obgleich man auch, wie mir einer der
+ersten Rechtsanwälte Deutschlands auf meine Anfrage sagte, die Papiere
+durch die Reichsbank kaufen und für eine Extragebühr durch mehrere
+Boten zusammen nach dem Reichsschuldbureau senden kann. Die Bank
+haftet nämlich, nach dem Rechtsanwalt, nicht, wenn der Bote bestohlen
+wird, oder durchbrennt. Beides ist übrigens nie vorgekommen.
+E. Zur Verbesserung der materiellen Lage wenig be-
+mittelter Frauen und Mädchen kann und soll auf verschiedenen Ge-
+Walcker, Die Frauenbewegung. 3
+bieten Durchgreifendes geschehen. Vgl. oben S. 10, 14 ff., 27, 28.
+Man hat längst, ohne Beziehung auf die Frauenfrage, gesagt, das
+Deutsche Reich solle all’ die Waren selbst erzeugen, die es ohne
+Not einführt. Die Einfuhr von Wiener Stühlen und Aluminium-
+federn, italienischen Eiern, französischem Geflügel u. s. w. ist z. B.
+schwerlich nötig. Es ist in der Regel unpatriotisch, Schaumweine,
+Modeartikel, Tuche und anderes einzuführen. Diese Sachen werden
+bei uns ebenso gut und billig, oder noch besser und billiger hergestellt.
+Es sollte Sitte werden, jeden übermäßigen Luxus zu vermeiden, und
+die ersparten Summen zu gemeinnützigen Zwecken zu verwenden, z. B.
+dem Gustav-Adolf-Verein zu schenken. Der allzu rasche und große
+Modewechsel ist nach Roscher‘s treffenden Ausführungen in privat-
+und volkswirtschaftlicher Beziehung schädlich.
+²³⁾
+F. Von der Frauenbildung ist bereits oben S. 11, 13, 17 ff.
+die Rede gewesen. Auch sog. höhere Töchter sollten im Geschichts-
+unterricht gewisse Daten über die Geschichte der Nationalökonomie,
+Politik, biblischen Kritik erhalten.
+²⁴⁾
+Der Turnunterricht an
+Mädchen sollte aus Anstandsgründen nie von Männern, nur von
+Frauen, erteilt werden.
+G. Eine mechanische Gleichstellung beider Geschlechter vor der
+Strafjustiz würde zu Härten gegen die Frauen führen. Wenn die
+Redakteurin A in B und der Redakteur C in D aus einer Partei-
+korrespondenz denselben strafbaren Artikel abdrucken, so kann es gerecht
+sein, A gelinder zu bestrafen wie C, weil sie weniger sachverständig
+ist, und mehr von Gefühlseindrücken bestimmt wird. Noch schlagender
+ist folgender Fall. E, ein Mädchen, tötet, halb bewußtlos, ihr neu-
+geborenes Kind sofort nach der schweren Geburt. F, ein unehelicher,
+ganz zurechnungsfähiger Vater, tötet sein neugeborenes Kind auch
+gleich nach der Geburt. Jn Amerika und anderswo giebt es bereits
+sog. Polizeimatronen
+²⁵⁾
+und Frauen, welche Beamtinnen von Ge-
+fängnissen, Fabrikinspektorinnen u. s. w. sind. Das Eintreten für
+die Jnteressen unehelicher Kinder darf nicht soweit getrieben wer-
+den, daß die Ehefrauen und ehelichen Kinder darunter leiden; daß
+sozusagen Prämien auf Verführungen reicher Männer durch leicht-
+sinnige Mädchen, auf Gelderpressungen, falsche Anklagen und Meineide
+gesetzt werden. Es kommt z. B. vor, daß ein im ersten Stadium der
+Schwangerschaft befindliches Mädchen einen bemittelten Mann verführt,
+um ihm die Vaterschaft zuzuschreiben, von ihm Alimente zu erhalten.
+H. Wenn eine reiche kinderlose Frau A von ihrem Manne B
+gemißhandelt wird, so kann sie zu Verwandten oder in eine Damen-
+pension ziehen. Eine Klage des Mannes wegen böslichen Verlassung
+wäre aussichtlos, besonders wenn Frauen als Richterinnen, Asses-
+sorinnen, Advokatinnen, Geschworene, Schöffinnen mit-
+wirkten. Schlimmer gestaltet sich die Sache, wenn Frau A Kinder
+hat, und noch schlimmer, wenn sie arm ist. Vor Wochen oder Mo-
+naten käme ihre Klage schwerlich zur Verhandlung; und bis dahin
+könnte der Mann sie und die Kinder noch schwerer mißhandeln, ja,
+tot schlagen. Es wäre daher gut, die hie und da bestehenden Rechts-
+schutzvereine der Frauen in ähnliche Jnstitute umzuwandeln, in
+denen beide Geschlechter, auch Rechtsanwälte, Staatsanwälte,
+Polizeibeamte, Geistliche, Arbeitgeber, Rentiers, vertreten wären, und
+bezügliche Annoncen an die Anschlagsäulen, resp. in Lokalblätter, zu
+setzen. Männer und Frauen müßten das Recht erhalten, in eine
+fremde Wohnung zu dringen, wenn gemißhandelte Frauen oder Kin-
+der um Hilfe rufen. Sie müßten auch zu Anzeigen bei der Polizei
+und Staatsanwaltschaft verpflichtet werden. Der Wüterich B wäre
+fest zu binden, in Untersuchungshaft zu bringen, und die Sache
+müßte sobald wie möglich, nach einigen Tagen, verhandelt werden.
+Es wäre nicht nötig, den B auf Kosten der Steuerzahler Wochen
+oder Monate lang im Gefängnis zu füttern. Durch Fasten, Dunkel-
+arrest, Schlafen auf einer harten Holzbank ohne Matratze u. s. w.
+könnte man ihn bald kirre machen. Jn schweren Fällen wären die
+Schuldigen zu Straßenbauten und Entwässerungen in Afrika zu ge-
+brauchen. Natürlich darf man nicht jeder Anzeige Glauben schenken.
+Eine Frau kann sich z. B. von ihrem Liebhaber braun und blau
+schlagen, oder leichte Wunden beibringen lassen, um ihren unschuldigen
+Mann ins Gefängnis zu bringen, ungestört Ehebruch zu treiben.
+Solche Rechtsschutzvereine könnten ferner gegen Trunksucht
+und gegen Mißhandlungen von Kindern, Dienstmädchen, Lehr-
+lingen, Kunststückmachern, Soldaten u. s. w. einschreiten. Jm
+letztgenannten Falle ist der Schuldige nicht immer ein Vorgesetzter:
+es kommt vor, daß ein Soldat von anderen Soldaten gemiß-
+handelt wird.
+J. Auf dem Gebiete der Gesundheitspolizei kann und soll noch
+vieles geschehen. Die Abschaffung der Gebühren für die Benutzung
+städtischer Bedürfnisanstalten wäre z. B. eine Wohlthat für die
+3*
+ärmeren Klassen. Es kommt vor, daß eine arme Bäuerin sich ein
+schweres Leiden zuzieht, weil sie nicht jedes Mal 5 Pfg. zahlen kann.
+K. Nach Analogie von Fabrikinspektoren werden früher oder später
+auch staatliche Jnspektoren und Jnspektorinnen für die länd-
+lichen Arbeiter und Arbeiterinnen ernannt werden. Den Ar-
+beiterinnen der Konfektionsbranche und anderer Jndustriezweige
+kann man viel nützen, wenn das Publikum nur Waren solcher Ge-
+schäfte kauft, die ihre Arbeiterinnen gut bezahlen und behandeln.
+²⁶⁾
+Durch solche und andere Mittel könnten nationalliberale
+und andere gemäßigte Politiker, durch und durch edle und prak-
+tische, die im Neuen Testament empfohlene Schlangenklugheit besitzende
+Naturen, der deutschen Frauenwelt aller Klassen, von den höchsten
+bis zu den untersten, ungeheure Wohlthaten erweisen, sich die
+Frauen zu herzlichem Danke verpflichten, vermittelst der Frauen die
+Männer, Kinder, Enkel, Urenkel aufs tiefste und segensreichste be-
+einflussen. Ähnlich wirkten einst christliche Frauen auf ihre heid-
+nischen Männer ein. Man hat nicht mit Unrecht gesagt: „Wer die
+Schule hat, hat die Zukunft,“ und man kann mit noch größerem
+Rechte sagen: „Wer die Frauen für sich hat, hat die Zukunft.“
+Sogar viele feudale, ultramontane, sozialdemokratische, polnische Frauen
+würden von ihren Vorurteilen gegen die Partei Luther's, Goethe's,
+Schillers zurückkommen. Die erwähnten Ehrengerichte und Rechts-
+schutzvereine würden auch den Nutzen bringen, aktenmäßiges Anklage-
+material gegen so manche Feinde des Liberalismus zu beschaffen.
+Wenn ein Feudaler, Ultramontaner, Sozialdemokrat sich bei Wahlen
+oder bei anderen Gelegenheiten unnütz machte, so könnten die National-
+liberalen häufig sagen: „Den kennen wir. Er ist ein mauvais sujet,
+ein sog. fauler Knabe.“ Dabei ist natürlich vorausgesetzt, daß die
+Rede- und Preßfreiheit durch geeignete Mittel, auch durch einen
+neuen Artikel der Reichsverfassung, genügend gesichert wird.
+²⁷⁾
+Die deutsche Reformation übte auf die ganze Kulturwelt einen
+großen Einfluß aus. Das Beste am angelsächsischen Protestantismus
+stammt z. B. aus den Schriften Luther's. Friedrich Wilhelm III.
+that nach dem Besitzantritt der Rheinprovinz den schönen Ausspruch:
+„Was Preußen erwarb, hat Deutschland gewonnen.“ Ähnlich werden
+künftige Historiker sagen: „Deutsche Männer haben auf den blutigen
+Schlachtfeldern von 1866 und 1870 den Ultramontanismus über-
+wunden. Deutsche Frauen haben diesen Sieg auf den Kampfplätzen
+des Geistes im 20. und 21. Jahrhundert vollenden helfen. Was
+Deutschland für die Frauen errang, hat die ganze Menschheit
+gewonnen.“
+Goethe sagt im „Faust“:
+„Und Stürme brausen um die Wette,
+Vom Meer auf‘s Land, vom Land auf’s Meer,
+Und bilden wütend eine Kette
+Der tiefsten Wirkung rings umher.“
+Das gilt auch von würdig geführten geistigen Kämpfen, die
+lustreinigenden Gewittern gleichen. Schon Buffon sagt: «Du choc
+des opinions jaillit la vérité.»
+Fünftes Kapitel.
+Die Frauen als ein vermittelndes, Frieden stiftendes Element bei sozialen
+politischen, konfessionellen, nationalen Gegensätzen.
+Es ist bekanntlich im privaten und öffentlichen Leben häufig
+vorgekommen, daß Frauen ohne Not Streitigkeiten veranlaßt, oder
+bereits ausgebrochene Streitigkeiten verbittert, verschärft haben. Die
+Sage und die Geschichte bieten viele Beispiele dafür, aber auch für
+das Gegenteil. Der bekannten Sage von der Vermittelung der Sabi-
+nerinnen kann ein wahrer Kern zu grunde liegen. Der 1529 zu
+Cambrai geschlossene Vertrag ist als Damenfrieden bekannt. 1850
+trugen drei fürstliche, bayerische Schwestern in Wien, Dresden, Berlin
+wesentlich zur Vermeidung des Krieges bei, und das war ein Glück,
+denn die Chancen Preußen-Deutschlands standen 1866 viel besser.
+1866 und 1870 war er für uns vorteilhaft, daß Kaiser Alexander II.
+sich auch als Schwestersohn König Wilhelm‘s fühlte. Die verwandt-
+schaftlichen Beziehungen der europäischen Höfe fallen noch heute in
+der Regel zu gunsten des Friedens ins Gewicht.
+Manche Mischehen zwischen Familien verschiedener Stände,
+Parteien, Konfessionen, Völker sind unglücklich, oder sie befördern
+Kulturrückschritte; aber andere sind glücklich, sie befördern den Kultur-
+fortschritt. Letzteres wird immer häufiger werden, denn die Macht
+der überwiegend protestantischen Staaten und Rußlands wächst täglich.
+Die Eroberung Mexikos, Mittel- und Südamerikas durch Anglo-
+amerikaner und Deutschamerikaner der Union ist eine bloße
+Frage der Zeit. Eine Annexion wäre nicht möglich, wohl aber die
+Beherrschung in republikanischer, oder militär-monarchischer, konstitu-
+tioneller Form.
+Ähnlich steigt täglich das Übergewicht der modernen Kultur
+über ihre Gegner und Gegnerinnen. Dadurch erhalten edle Frauen
+und Mädchen mehr und mehr die Möglichkeit, für ihr eigenes Geschlecht,
+für ihr Volk, ja, für die Menschheit Großes zu wirken.
+„Das Ewig-Weibliche
+Zieht uns hinan.“
+Sechstes Kapitel.
+Die Fraueninteressen beim Geisteskampfe zwischen dem Konstitutionalismus
+und der Kooptationsaristokratie, der Hauptvertreterin der öffentlichen
+Meinung.
+Eine ausführliche Erörterung dieses verwickelten, kontroversen
+Gegenstandes würde hier zu weit führen. Der berühmte, 1896 ins
+Parlament gewählte englische Historiker Lecky hat z. B. für sein
+Werk Democracy and Liberty, 1896, zwei starke, 36 Schilling
+kostende Bände gebraucht.
+²⁸⁾
+Selbst meine kleine, im Herbst 1895, im
+Buchhändlerjahr 1896, erschienene Schrift „Die Gefahren des Kon-
+stitutionalismus und ihre Gegenmittel“ enthält doch, trotz ihrer mög-
+lichst knappen Fassung, VI und 29 Seiten. Jch beschränke mich daher
+auf wenige orientierende Bemerkungen. Jn der politischen Theorie
+und Praxis Europas, Amerikas, Australiens treten mehr und
+mehr bedeutungsvolle Bestrebungen hervor, welche den Konstitutiona-
+lismus ergänzen, kontrollieren, überbieten wollen. Es handelt
+sich dabei um eine Art Herrschaft der öffentlichen Meinung vermittelst
+der Rede-, Preß- und Vereinsfreiheit, und, last not least, einer mäch-
+tigen, volksfreundlichen, aus allen Ständen, einschließlich der unteren
+Klassen, ergänzten, meist aus Nichtabgeordneten bestehenden Koop-
+tationsaristokratie. Schon im 16. Jahrhundert sagte Lord
+Burleigh, der Ahnherr des Marquis Salisbury:«England
+can never be ruined, but by a Parliament.»
+²⁹⁾
+Jn Amerika unter-
+scheidet man good citizens und Beutepolitiker, politicians. Ja, die
+sehr angesehene North American Review brauchte 1883 für das
+Treiben gewisser politicians den griechischen Ausdruck Kakistokratie,
+Herrschaft der Schlechtesten.
+³⁰⁾
+Ähnlich citierte das sehr angesehene
+Journal des Économistes 1895,
+³¹⁾
+bestimmend folgenden Ausspruch
+Giraud-Teulon's: «Tel qu'il fonctionne de nos jours, le suffrage
+universel, ce véhicule du socialisme et de la barbarie, conduit
+au naufrage universel.» Jch gebe dies Citat als ein Stimmungs-
+bild unserer westlichen Nachbarn, ohne die Einseitigkeiten und Über-
+treibungen des Autors zu verkennen oder zu vertreten.
+Auch in Deutschland hat die öffentliche, meist durch Kooptations-
+aristokraten vertretene Meinung im 16., 18. und 19. Jahrhundert
+verschiedene Reformen befördert, oder durchgesetzt, verschiedene Rück-
+schrittspläne mehr oder minder zu nichte gemacht. Die steigende
+Bedeutung des Prinzips der Kooptationsaristokratie liegt auch im
+Jnteresse der Frauen, denen der Reichstag und die Landtage ver-
+schlossen sind; während ihnen die Kooptationsaristokratie, die politische
+Geistesaristokratie, offen steht. Es bedarf dazu nicht einmal immer
+einer Vereinsbildung. Hoch begabte, besonnene, staatsmännische
+Naturen verstehen sich mit Leichtigkeit, auch wenn sie verschiedenen
+Klassen und Parteien angehören, oder verschiedenen Geschlechts sind.
+Die politische Freundschaft Friedrich's des Großen und der
+Großen Landgräfin Karoline von Hessen hat etwas Vorbildliches,
+Prophetisches, für das patriotische Zusammenwirken der tüchtigsten
+Männer und Frauen des Deutschen Reiches am Ende des 19. Jahr-
+hunderts und in kommenden Jahrhunderten.
+³²⁾
+„Künftige Ereignisse
+werfen ihre Schatten voraus.“
+Anmerkungen.
+¹⁾ Das bezieht sich nicht auf die Frauenvereine, sondern auf irische
+Ultramontane und angloamerikanische, protestantische, korrumpierte Helfers-
+helfer derselben.
+²⁾ Vgl. das Citat aus einer deutsch-amerik. Zeitung in der Korrespondenz
+des Bundes deutscher Landwirte, 1896, Nr. 47.
+³⁾ Jn Nord und Süd, Bd. 17, 1881, S. 262 ff.
+⁴⁾ Handbuch der Nationalökonomie, Bd. 1, 1. Aufl. 1882, S. 879, 380.
+⁵⁾ Vgl. die Litteraturangaben im Handwört. der Staatswiss. von
+J. Conrad, in den Lehrbüchern der Nationalökonomie von Roscher,
+A. Wagner, G. v. Schönberg, K. Frankenstein u. in meinen Schriften:
+Handbuch der Nationalökonomie, 5 Bde., 1882/84. 2. Aufl. 1888. Bd. 5
+(Geschichte der Natinalökon. u. des Sozialismus), 3. Aufl. 1895. Die
+Mittel zu einer großartigen Hebung der Landwirtschaft der Jndustrie, des
+Handwerks, Handels und Bankwesens des Deutschen Reiches, 1893. Vgl.
+auch meinen Art. „Die Weltstellung des deutschen Volkes.“ („Gegenwart,“ 1895, Nr. 51, 52.)
+⁶⁾ Vgl. auch oben S. 7, 10. Dietzel, Theoretische Sozialökonomie,
+Teil 1, 1896, S. 37. Walcker, Die Frage der allgemeinen Bildung u. der
+Zeitungsreform, 1896, S. 9, 10.
+⁷⁾ Vgl. die Citate aus der dänischen Zeitschrift Tilskueren in der
+Review of Reviews 1896.
+⁸⁾ Vgl. auch Roscher, System, Bd. 1, § 250.
+⁹⁾ Vgl. auch Fehling, Prof. der Gynäkologie in Basel, Die Bestim-
+mung der Frau, 1892. Duboc, S. 115, 116.
+¹⁰⁾ Vgl. H. v. Zwiedeneck-Südenhorst, H. U. Fürst v. Eggenberg,
+1880, S. 12.
+¹¹⁾ Bei Duboc, S. 126, 127.
+¹²⁾ Bastiat Schulze, 1864, S. 153.
+¹³⁾ System, Bd. 1, 8 78, Note 11; § 83, Note 2; §§ 85,168, 245, 250.
+¹⁴⁾ Vgl. auch E. Harmening, Das Recht der Völker auf Frieden,
+1891, S. 38.
+¹⁵⁾ Noch Heffter, Völkerrecht, 6. Aufl. 1878, S. 15. 16.
+O. Pfleiderer in der Deutschen Rundschau, Okt. 1895. F. v. Martens,
+¹⁵⁾ Prof. in St. Petersburg, Jnternationales Recht, Bd. 1, S. 222, 223; Bd. 2,
+S. 463 ff. 466, 467. Jch citiere nach der deutschen, 1883 und 1886 er-
+schienenen Übersetzung.
+¹⁶⁾ Vgl. Walcker, Die Notwendigkeit u.s.w. S. 24, 25.
+¹⁷⁾ Vgl. Walcker, S. 32.
+¹⁸⁾ Vgl. Walcker, S. 18 ff.
+¹⁹⁾ Geistliche Gedanken eines Nationalökonomen 1895, S. 105.
+²⁰⁾ Vgl. J. Conrad's Handwört. der Staatswiss. 1. Supplementband,
+S. 323, 324.
+²¹⁾ Jrische Nonnenklöster betreiben z. B. mit Lohnarbeiterinnen Wasch-
+anstalten.
+²²⁾ Vergl. A. Wagner, Grundlegung der polit. Ökon. 2. Aufl. 1879.
+Walcker, Handbuch der Nationalökon. Bd. 1, l. Aufl. 1882, S. 147, 149.
+²³⁾ System, Bd. 1, § 208.
+²⁴⁾ Vgl. Walcker, Grundriß der Weltgeschichte, 1892. Geschichte der
+Nationalökonomie, 8. Aufl. 1895. Politik, 1890. Die Gefahren des Kon-
+stitutionalismus u. ihre Gegenmittel, 1896. Montesquieu als Polyhistor,
+Philosoph, Vorkämpfer der germanisch-protestantischen Kultur u. als politischer
+Prophet 1896. Meinen Art.: „Was Montesquieu über den Kirchenstaat sagt.“
+(Juliheft der Kirchlichen Korrespondenz des Evangelischen Bundes.)
+²⁵⁾ Vgl. Th. Bentzon's angeführte Schrift. Duboc, S. 168.
+²⁶⁾ Vgl. Walcker im Gewerkverein, 1896, Nr. 12. Ein ähnlicher
+Gedanke ist bereits früher von Frl. Menzzer ausgesprochen worden, vgl.
+L. Otto-Peters, das erste Vierteljahrhundert, S. 55, 61, 62.
+²⁷⁾ Vgl. Walcker, die Gefahren des Konstitutionalismus, 1896, S.
+14 ff. Theorie der Preßfreiheit und der Beleidigungen, 1889. Politik, 1890.
+Dens. in der „Gegenwart“, 1894, Nr. 24.
+²⁸⁾ Vgl. die langen Auszüge in der Review of Reviews, April, 1896.
+²⁹⁾ Vergleiche die Edinburgh Review, Bd. 172, 1890, S. 185.
+³⁰⁾ Februar-Heft, S. 128. Vgl. Duc de Noailles, Cent ans de
+République aux Etats-Unis, 1886, Bd. 1, S. 262, und Harvey im Juli-
+Heft der North Amer. Rev. von 1895.
+³¹⁾ Bd. 1, S. 144.
+³²⁾ Vgl. oben S. 29.
+Von demselben Verfasser sind ferner erschienen:
+Geschichte der Nationalökonomie und des Sozialismus. Dritte,
+völlig umgearbeitete Auflage. (Auch unter dem Titel: Handbuch
+der Nationalökonomie. Fünfter Band.) Leipzig, Roßberg'sche
+Hof-Buchhandlung, 1895. 3 M.
+Grundriß der Weltgeschichte und der Quellenkunde für Historiker,
+Lehrer, Examinanden und andere Gebildete. Karlsruhe, 1892,
+Macklot. 10 M. Kann auch in 10 Lieferungen zu 1 M. be-
+zogen werden.
+Die Gefahren des Konstitutionalismus und ihre Gegenmittel.
+Sondershausen, 1896, F. A. Eupel. 1 M.
+Die Frage der allgemeinen Bildung und der Zeitungsreform.
+Leipzig, 1896, H. Haacke. 1 M.
+</text>
+  </TextCorpus>
+</D-Spin>

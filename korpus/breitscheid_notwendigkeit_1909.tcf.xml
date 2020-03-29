@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/breitscheid_notwendigkeit_1909</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-breitscheid_notwendigkeit_1909.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/breitscheid_notwendigkeit_1909</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-breitscheid_notwendigkeit_1909.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/breitscheid_notwendigkeit_1909</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-breitscheid_notwendigkeit_1909.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/breitscheid_notwendigkeit_1909</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-breitscheid_notwendigkeit_1909.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/breitscheid_notwendigkeit_1909</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-breitscheid_notwendigkeit_1909.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Die Notwendigkeit der Forderung des allgemeinen, gleichen, direkten, geheimen Wahlrechts</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Breitscheid</cmdp:surname>
+<cmdp:forename>Tony</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/117630691</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+      <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+      <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+      <cmdp:date type="importDTA">2017-10-19T09:11:18Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+      <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+      <cmdp:date type="importDTA">2017-10-19T09:11:18Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">17</cmdp:measure>
+        <cmdp:measure type="tokens">4300</cmdp:measure>
+        <cmdp:measure type="types">1396</cmdp:measure>
+        <cmdp:measure type="characters">30664</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:55:04Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/breitscheid_notwendigkeit_1909</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/breitscheid_notwendigkeit_1909</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/breitscheid_notwendigkeit_1909</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/breitscheid_notwendigkeit_1909</cmdp:idno>
+          <cmdp:idno type="DTADirName">breitscheid_notwendigkeit_1909</cmdp:idno>
+          <cmdp:idno type="DTAID">32391</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32391-7</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MS">Breitscheid, Tony: Die Notwendigkeit der Forderung des allgemeinen, gleichen, direkten, geheimen Wahlrechts (= Schriften des Preußischen Landesvereins für Frauenstimmrecht, Bd. 4). Berlin, 1909.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Die Notwendigkeit der Forderung des allgemeinen, gleichen, direkten, geheimen Wahlrechts</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Breitscheid</cmdp:surname>
+<cmdp:forename>Tony</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/117630691</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1">1</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1909</cmdp:date><cmdp:publisher><cmdp:name>Otto Rinka</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="s" type="main">Schriften des Preußischen Landesvereins für Frauenstimmrecht</cmdp:title>
+              <cmdp:biblScope unit="volume">4</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Staats- und Universitätsbibliothek Bremen</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">02A 1938</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+  Bogensignaturen: keine Angabe;
+  Druckfehler: keine Angabe;
+  fremdsprachliches Material: keine Angabe;
+  Geminations-/Abkürzungsstriche: keine Angabe;
+  Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+  i/j in Fraktur: keine Angabe;
+  I/J in Fraktur: wie Vorlage;
+  Kolumnentitel: keine Angabe;
+  Kustoden: keine Angabe;
+  langes s (ſ): als s transkribiert;
+  Normalisierungen: keine Angabe;
+  rundes r (&#xa75b;): keine Angabe;
+  Seitenumbrüche markiert: ja;
+  Silbentrennung: wie Vorlage;
+  u/v bzw. U/V: keine Angabe;
+  Vokale mit übergest. e: keine Angabe;
+  Vollständigkeit: vollständig erfasst;
+  Zeichensetzung: wie Vorlage;
+  Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Nr. 4.
+Schriften des Preußischen Landesvereins für
+Frauenstimmrecht.
+Die Notwendigkeit der Forderung
+des allgemeinen, gleichen,
+direkten, geheimen Wahlrechts.
+Von Tony Breitscheid.
+Herausgegeben vom
+Preußischen Landesverein für Frauenstimmrecht
+Berlin1909.
+Druck von Otto Rinka, Berlin.
+_
+Schriften des Preußischen Landesvereins für
+Frauenstimmrecht.
+Die Notwendigkeit der Forderung
+des allgemeinen, gleichen,
+direkten, geheimen Wahlrechts.
+Von Tony Breitscheid.
+Herausgegeben vom
+Preußischen Landverein für Frauenstimmrecht
+Berlin1909.
+Jn neuester Zeit werden wir oft gefragt: warum fordert ihr
+auch in Preußen das allgemeine, gleiche, direkte und geheime Wahl-
+recht für die Frauen, und es wird darauf hingewiesen, daß es logisch
+und erfolgversprechender wäre, überall auch in Preußen nur die Über-
+tragung des Wahlrechts, das die Männer zur Zeit besitzen, zu ver-
+langen. Wir sollten nicht für die Männer einen Kampf führen, in
+dem sie uns nicht einmal genügend unterstützten, sondern wir sollten
+nur für das Frauenstimmrecht im allgemeinen eintreten.
+Auf den ersten Blick scheint diese Argumentation einleuchtend und
+richtig, aber sobald wir anfangen zu überlegen und uns klar zu
+machen, welchen Effekt die Übertragung des Dreiklassenwahlrechts auf
+die Frauen haben würde, müssen wir folgerichtig zu der Überzeugung
+gelangen, daß unser Ziel, die Erlangung des allgemeinen, gleichen,
+direkten, geheimen Wahlrechts das einzig richtige und erstrebenswerte
+ist. Über die schlechten Eigenschaften des Dreiklassenwahlrechts
+brauchen wir uns hier nicht weiter zu verbreiten. Seine Ungerechtig-
+keit und Widersinnigkeit wird von allen erkannt, die sich überhaupt
+mit ihm beschäftigen, am meisten von denen, die unter ihm zu leiden
+haben. Das Wahlrecht in Preußen ist allgemein, d. h. jeder Mann hat das
+Recht zu wählen, aber der Einfluß der Wählerstimmen ist nicht gleichmäßig
+bemessen, die Stimme des Reicheren bedeutet mehr als die des Armen dank
+der Einteilung in drei Wählerklassen, die nach der Steuerleistung abgegrenzt
+werden. Außerdem ist die Wahl nicht direkt, sondern die Urwähler wählen
+zunächst Wahlmänner und diese erst die Abgeordneten. Eine weitere
+schlimme Eigenschaft des preußischen Wahlsystems, das bereits das
+würdige Alter von 60 Jahren erreicht hat, ist die öffentliche Stimm-
+abgabe. Auf diese Weise wird es vielen abhängigen Existenzen un-
+möglich gemacht, ihre Stimme den ihnen geeignet erscheinenden Kan-
+didaten zu geben– besonders wenn sie linksstehende wählen wollen.
+Es bleibt vielen Beamten, Landarbeitern, sowie auch vielen andern
+Arbeitern und Angestellten also nur die Wahl, entweder gegen ihre
+Überzeugung oder überhaupt nicht zu wählen.
+Die Folge ist denn auch eine sehr schlechte Wahlbeteiligung und
+die Tatsache, daß die Mehrheitsverhältnisse im Abgeordnetenhause so
+ganz andere sind als die des deutschen Reichstages: Dazu kommt
+noch eine starke Bevorzugung des platten Landes gegenüber den mehr-
+bevölkerten Städten durch eine veraltete Wahlkreiseinteilung. Wie
+die Einteilung der Wähler in drei Steuerklassen wirkt, von denen
+jede gleich viel Wahlmänner zu wählen hat, einerlei ob in einer
+Klasse ein Wähler oder hunderte wählen, zeigt am besten die Tatsache,
+daß bei der Landtagswahl im Jahre 1903 – über die Wahl von
+1908 ist die amtliche Statistik noch nicht erschienen – die Sozial-
+demokratie in Berlin 122150 Urwählerstimmen aufbrachte und doch nur
+2377 Wahlmänner erzielte, während alle anderen Parteien zusammen mit
+nur 56229 Urwählerstimmen es auf 4282 Wahlmänner brachten.
+Die Sozialdemokratie gewann damals nicht ein einziges Mandat, und
+dies Resultat ist einzig und allein der Tatsache zuzuschreiben, daß die
+anderen Parteien mehr Wähler der ersten oder zweiten Steuerklasse
+haben, während die Sozialdemokratie in der Hauptsache auf die dritte
+Klasse, die Klasse der minder- und gänzlich unbemittelten angewiesen
+ist. Die wenigen Wähler der ersten und zweiten Klasse können, wenn
+sie zusammengehen, stets das Wahlresultat bestimmen. Die Masse
+der Wähler dritter Klasse kann nur dann Einfluß auf das Resultat
+ausüben, wenn in der ersten und zweiten Klasse die Stimmen sich
+zersplittern oder die Majorität einer der beiden Klassen mit der Ma-
+jorität der 3. Klasse geht.–Das ist aber natürlich nur selten der
+Fall, und wenn auch bei den letzten Landtagswahlen die Sozial-
+demokratie mit harter Anstrengung ein paar Mandate erobert hat, so
+bleibt die Tatsache doch bestehen, daß die Verteilung der Sitze im
+Abgeordnetenhause eine höchst ungerechte ist und in keiner Weise dem
+Volkswillen und der Zusammensetzung des Volkes entspricht.
+Wie würden nun die Aussichten der Frauen sein, wenn ihnen
+wirklich das Wahlrecht, so wie es in Preußen besteht, gegeben würde?
+Falls nicht durch eine besondere Gesetzesbestimmung den Ehefrauen
+die Steuern, die ihre Männer entrichten, ausdrücklich angerechnet
+würden, müßten alle die, die kein eigenes Vermögen haben und nicht
+in Gütertrennung leben, in der dritten Klasse wählen, ihnen würde
+nur ein fingierter Steuerbetrag angerechnet. Sie würden also nur
+die Zahl der Einflußlosen verstärken.
+Aber die große Zahl der erwerbstätigen selbständigen Frauen
+und die unverheirateten und Witwen mit eigenem Vermögen? Sie
+machen in der Tat einen großen Teil der Frauen überhaupt aus,
+wir müssen uns aber die Verteilung der 8243498 erwerbstätigen
+Frauen etwas ansehen. Es waren beschäftigt
+in der Landwirtschaft, Gärtnerei, Forstwirtschaft ꝛc.
+in selbständigen Stellen 328234
+in nichtleitenden Stellen 16264
+als Gehilfinnen, Arbeiterinnen ꝛc. 4254488
+in der Jndustrie, Bergbau, Baugewerbe
+in selbständigen Stellen 477290
+in nichtleitenden Stellen 63936
+als Gehilfinnen, Arbeiterinnen 1562698
+in Handel und Verkehr, Gast- und Schankwirtschaften
+in selbständigen Stellen 246641
+in nichtleitenden Stellen 79689
+als Gehilfinnen, Arbeiterinnen 605043
+Gegenüber den 1052165 selbständigen oder sich in leitenden
+Stellungen befindlichen Frauen sehen wir 6582118 Frauen in nicht
+leitenden Stellungen, als Gehilfinnen, Arbeiterinnen ꝛc. Dazu kom-
+men noch die Frauen in häuslichen Diensten mit 320904 und die in
+den sogen. freien Berufen mit 288311. Also insgesamt 7191333
+Frauen in Stellungen, die schlecht oder immerhin mäßig besoldet
+werden. Nur ein Sechstel aller berufstätigen Frauen befindet sich in
+leitender Stellung oder ist selbständig, und es kann als sicher ange-
+nommen werden, daß auch von diesen ein ziemlich hoher Prozentsatz
+keine allzu großen Einkünfte bezieht.
+Das sind die Ergebnisse der Berufszählung in Deutschland.
+Für Preußen werden die Verhältnisse ähnlich sein; genaue Zahlen
+liegen noch nicht vor, aber mehr als die Hälfte der arbeitenden
+Frauen wird jedenfalls auf Preußen entfallen. Die große Mehrzahl
+von ihnen würde der dritten Klasse zugeteilt werden, einige wenige
+der zweiten. Ganz vereinzelt hätten natürlich auch berufstätige
+Frauen die Möglichkeit in die erste Klasse aufzurücken, so z. B. selbst-
+ständige Geschäftsinhaberinnen in Arbeitervierteln, aber es würden
+Ausnahmen sein, die große Masse würde der dritten Klasse zufallen
+und nur die Zahl der politisch Entrechteten verstärken. Die Frauen
+in den besser besoldeten Stellen wohnen aber meist auch in den Stadt-
+vierteln, in denen im allgemeinen die besser Situierten wohnen, und
+in denen infolgedessen auch die zur Berechnung kommende Gesamt-
+steuersumme eine höhere ist. Jhr besseres Gehalt würde also noch
+nicht die Vermehrung politischer Rechte bedeuten, sie würden ebenfalls
+in der dritten Klasse wählen müssen und zur politischen Einflußlosig-
+keit verdammt sein.
+Wir sehen also, daß diese Schicht Frauen, d. h. alle die, die auf
+Erwerb angewiesen sind und die Ehefrauen ohne eigenes Vermögen
+durch die Übertragung des Dreiklassenwahlsystems stark benachteiligt
+würden gegenüber den wenigen Frauen, die durch ihre wirtschaftliche
+Lage und durch ihre Stellung in der Gesellschaft an sich schon in der
+Lage sind, einen stärkeren Einfluß auszuüben. Diese Frauen kennen
+nur zum geringsten Teil die Not der arbeitenden Klassen, sie haben
+sie nicht selbst empfunden und können sich deshalb auch niemals so
+wie es nötig wäre für die Abschaffung der bestehenden Mißstände ein-
+setzen. Nur wenige von ihnen würden z. B. verstehen, daß es etwas
+anderes ist, ein Recht beanspruchen zu können, als an Wohltaten und
+den guten Willen zu appellieren, sei es bei Privaten oder bei der
+Kommune und dem Staat. Den arbeitenden Frauen würde es also
+wenig helfen, wenn diese Frauen wirklich ein Recht erhielten.
+Haben wir nun die Pflicht für die wenigen zu kämpfen, die gut
+Situierten oder für die vielen, die sich mühselig ihren Lebensunterhalt
+erringen müssen und in diesem aufreibenden Kampf häufig zu Grunde
+gehen? Gewiß die vermögenden Frauen sollen nicht rechtlos sein,
+sie sollen die gleichen politischen Rechte erhalten wie die arbeitenden
+Frauen; aber der Mehrzahl der erwerbstätigen Frauen wäre mit
+der Gewährung eines Dreiklassenwahlrechts nicht gedient, sie würden
+keinen nennenswerten politischen Einfluß dadurch erlangen. Daß sie
+aber politische Macht brauchen, schon heute dringend notwendig haben
+im Reich so gut wie im Staat und in der Kommune, sollte jedem
+einleuchten, der überhaupt über diese Frage nachdenkt.
+Die Forderungen der Arbeiterinnen werden im allgemeinen von ihren
+männlichen Kollegen vertreten, und doch wäre es nötig, ihnen politische
+Rechte zu gewähren, schon deshalb, damit sie sich mehr als bisher mit
+den wirtschaftspolitischen Fragen beschäftigen und dadurch zu einem
+besseren Verständnis ihrer Männer und der von ihnen getriebenen
+politischen Arbeit gelangen. Jn den andern Berufen ist aber zum
+großen Teil noch eine starke Spannung zwischen den Geschlechtern
+zu beobachten, die meist auf Konkurrenzfurcht zurückzuführen ist, die
+aber stets eine Benachteiligung des weiblichen Arbeiters bedeutet.
+Vielfach stellen auch hier die Männer – angeblich im Jnteresse der
+Frauen – Forderungen zum Schutz der weiblichen Arbeitskraft, die
+den Frauen absolut nicht willkommen sein können, da ihre Erfüllung
+nur eine Erschwerung ihrer Erwerbstätigkeit zur Folge haben würde.
+Man möge nicht glauben, daß wir den besonderen Arbeiterinnenschutz
+überhaupt ablehnen. Wir treten ein für die verkürzte Arbeitszeit
+und für das Verbot der Frauenarbeit in gesundheitsschädlichen Be-
+trieben, Bergwerken ꝛc., aber wir können nicht zustimmen, wenn man
+verlangt, daß die verheiratete Arbeiterin einen kürzeren Arbeitstag
+haben soll wie die unverheiratete. Das würde nichts anderes be-
+deuten, als das allmähliche Herausdrängen der verheirateten Arbeiterin
+aus dem Fabrik- und Werkstättenbetrieb und eine Verstärkung der
+ohnehin allzu großen Schar der Heimarbeiterinnen. Dem können
+wir selbstverständlich nicht zustimmen, und dem müssen und würden
+sich die Arbeiterinnen selbst ganz entschieden widersetzen. Haben sie
+aber politische Macht, so können sie auch mit dafür sorgen, auf andere
+Weise den Schäden vorzubeugen, die der Familie aus einer zu langen
+Erwerbsarbeitszeit der Frau erwachsen. Hier gibt es außerordentlich
+viel zu tun, es ist ein weites Feld, und eins das grade für die Mit-
+arbeit der Frau sehr geeignet ist.
+Wir brauchen hier nicht weiter alle Gründe anzuführen, aus
+denen heraus das Frauenstimmrecht überhaupt verlangt werden muß.
+Diese Gründe sind schon so oft dargelegt und werden immer wieder
+vorgetragen werden. Hier wollen wir nur feststellen, daß alle
+arbeitenden und die in minder guten Verhältnissen lebenden Frauen
+einen ganz besonderen Anspruch auf politische Rechte haben. Diese
+Rechte werden sie erst dann erhalten, wenn sie geschlossen von ihnen
+selbst gefordert werden, wenn nicht nur einige wenige Frauen, sondern
+die große Masse sie in aller Oeffentlichkeit und mit Nachdruck verlangt.
+Mit der Parole: „Das Dreiklassenwahlrecht für die
+Frauen“ sind aber die erwerbstätigen Frauen – die Fabrik-
+arbeiterinnen, Heimarbeiterinnen, Hausangestellten, kaufmännischen
+Angestellten, Post- und Eisenbahnbeamtinnen, Lehrerinnen ꝛc. ꝛc.
+nicht zu gewinnen. Weshalb sollten sie sich auch einsetzen für etwas,
+das absolut keinen Gewinn für sie bedeuten würde? Jhnen geht
+es doch nicht darum, nur am Wahltage ihre Stimme abgeben zu
+können, sondern darum, politischen Einfluß zu erlangen. Jetzt schon
+sind ein Drittel aller Frauen erwerbstätig, und die Zahl wird aller
+Voraussicht nach stetig anwachsen. Soll sich die Stimmrechtsbewegung
+diese Frauen entgehen lassen dadurch, daß sie von ihrer Grundforderung
+abgeht, daß sie sich zufrieden gibt mit einer kleinen Abschlagszahlung,
+die zu erreichen vielleicht weniger mühevoll wäre? Das kann sie
+nicht. Will die Frauenstimmrechtsbewegung über-
+haupt eine Macht werden, so muß sie sich auf die
+Schichten stützen, die das Stimmrecht am drin-
+gendsten nötig haben, und das sind die berufs-
+tätigen Frauen. Ohne sie kann die Stimmrechtsbewegung
+nichts ausrichten, sie muß diese Frauen politisch interessieren und
+organisieren; und sie werden auch zur Organisation kommen, wenn
+ihnen in unablässiger Arbeit vor Augen geführt wird, welchen Nutzen
+ihnen das Frauenstimmrecht –gleiches Stimmrecht für
+alle Frauen– bringt.
+Aber weiter wird argumentiert: wenn nicht das Dreiklassenwahl-
+recht, so solltet ihr wenigstens das Pluralwahlrecht fordern.
+Das hat doch die meisten Aussichten zur Zeit in Preußen. Auch
+diesem Verlangen können wir nicht entsprechen. Es ist möglich, daß
+wenn in absehbarer Zeit überhaupt eine Wahlrechtsreform kommt,
+ein Pluralwahlsystem dem Abgeordnetenhause vorgeschlagen wird.
+Aber wir hoffen, daß das preußische Volk in seiner Gesamtheit sich
+dann endlich zu einem energischen zähen Widerstand aufraffen wird
+und daß in dem Kampf, der dann zwischen Reaktion und Fortschritt
+geführt werden muß, die Frauen auf Seiten derer zu finden sind,
+die für das Recht des Volkes und damit auch für das Recht
+der Frauen streiten. Es ist ihre Pflicht in diesem Kampf gegen
+die dauernde Bevormundung des Volkes auszuharren, bis der volle
+Sieg errungen ist und nicht etwa sich mit einem faulen Frieden genügen zu
+lassen. Mit Scheinerfolgen kann das Volk nichts anfangen. Das
+Pluralwahlrecht bedeutet keine Verbesserung des bestehenden Zustandes,
+und für die Frauen – falls es auf diese ausgedehnt werden sollte,
+würde es eine besondere Schädigung bedeuten. Machen wir uns
+doch klar, wem die verdoppelte oder verdreifachte Stimme zugute
+käme. Die Zahl der Stimmen soll bei fast allen Vorschlägen, die
+in neuester Zeit aufgetaucht sind, abgestuft werden nach Alter, Besitz
+und Bildung. Die Abstufung nach dem Alter würde vor allem die
+Fabrikarbeiter und -arbeiterinnen, sowie die Bergarbeiter schwer schädigen.
+Sie sind im allgemeinen durch die schwere Arbeit viel früher auf-
+gebraucht als die Gutsituierten, die in größerer Ruhe arbeiten können,
+eine kürzere Arbeitszeit und eine wesentlich bessere körperliche Ver-
+pflegung haben. Es würden also im Verhältnis viel weniger Männer
+und Frauen der arbeitenden Klasse das Alter erreichen, in dem den
+Wählern eine zweite Stimme zugestanden werden soll.
+Eine weitere Stimme soll der erhalten, dessen Steuerleistung eine
+bestimmte Höhe erreicht. Wir haben schon bei der Betrachtung der
+Mängel des Dreiklassenwahlsystems gesehen, wie sehr die Frauen
+durch eine solche Bestimmung geschädigt würden. Es ist aber auch
+eine Ungerechtigkeit, wie man sie schlimmer kaum ausdenken kann,
+Leuten, die ohnehin schon in einer günstigeren Lage sind als die
+Angehörigen der minder bemittelten Schichten der Bevölkerung, das
+Proletariat und die kleinen Bürger, nun noch größere politische Rechte
+zuzugestehen und dadurch ihren Einfluß zu verstärken.
+Jn der Forderung einer weiteren Stimme für diejenigen, die
+eine höhere Schule durchgemacht haben, liegt aber außer der Be-
+nachteiligung der unteren Stände noch eine besondere der Frau, selbst
+für die Frauen der wohlhabenden Kreise. Das gesamte Mädchen-
+schulwesen wird doch heute zu dem niederen Unterrichtswesen gerechnet.
+Und wieviel Frauen absolvieren denn heute in Preußen das Abiturienten-
+oder gar das Staatsexamen? Das sind doch verhältnismäßig wenige,
+in der Hauptsache die Lehrerinnen und Aerztinnen. Aber bedeutet
+denn überhaupt die bessere Schulbildung und die Universitätsbildung
+zugleich die bessere politische Bildung? Unsere Abiturienten und
+Studenten, ja vielfach auch die jungen Leute, die das eigentliche
+Studium hinter sich haben, wissen meist so außerordentlich wenig von
+den politischen Ereignissen und Notwendigkeiten, nur ein geringer Teil
+hat wirkliches Jnteresse für die Politik. Aber auch selbst wenn sie
+sich politische Bildung aneigneten, was für ein Grund läge wohl vor,
+ihnen ein größeres politisches Recht einzuräumen als dem gleichaltrigen
+Arbeiter oder Angestellten, der kein Examen gemacht hat, aber
+dafür in seiner Berufsarbeit und durch seine Berufsarbeit tagtäglich
+auf die Forderungen hingewiesen wird, die er für sich in seinem
+eigenen und seiner Arbeitsgenossen Jnteresse an die Politik stellen
+muß. Jhm geht sehr rasch ein Verständnis dafür auf, wie Handels-
+und Wirtschaftspolitik, Sozialpolitik, Schulpolitik usw. Hand in Hand
+gehen, und weshalb er danach streben muß, einen Einfluß auf die
+Zusammensetzung der gesetzgebenden Körperschaften ausüben zu können.
+Zudem aber ist heute in Preußen und Deutschland die Möglichkeit
+einer besseren Schulbildung doch auch an die finanzielle Leistungs-
+fähigkeit der Familie gebunden; die Abstufung der Stimmenzahl nach
+Bildung bedeutet also am letzten Ende ebenfalls eine Abstufung nach
+dem Besitz.
+Die Verleihung mehrerer Stimmen auf Grund des abgedienten
+Militärdienstjahres ist ebenfalls zu verwerfen. Auch das Dienstjahr
+bedeutet keine bessere politische Vorbildung; und die Arbeit, die An-
+gestellte, Beamte, Lehrer und Arbeiter leisten, schafft doch mindestens
+soviel Nutzen für den Staat, wenn nicht mehr wie der Drill der
+Soldaten. Außerdem bedeutet die Schlechterstellung der Militäruntaug-
+lichen eine Ungerechtigkeit gegenüber den körperlich Schwachen und eine
+Jnkonsequenz. Soll die Stimme eine Belohnung für geleistete
+Militärdienste darstellen, so müßte sie logischerweise besonders den
+aktiven Militärpersonen gegeben werden – die aber dürfen bekanntlich
+garnicht wählen, ihr Wahlrecht ruht, solange sie sich bei der Fahne
+befinden. Daß die Frau durch die Bindung der Wahlstimme an die
+Dienstpflicht wieder benachteiligt würde, ist selbstverständlich.
+Aus dem gesagten geht wohl hervor, daß ein Pluralwahlrecht
+von den Frauen keinesfalls erstrebt werden darf, daß sie vielmehr
+dagegen kämpfen müssen von dem Augenblick an, wo die Regierung
+ernsthaft mit ähnlichen Vorschlägen kommt. Und wir dürfen uns
+nicht von denen beirren lassen, die darauf hinweisen, daß auch das
+allgemeine, gleiche, direkte und geheime Wahlrecht nicht ganz voll-
+kommen sei. Daß auch bei diesem Wahlrecht Mängel zu finden sind,
+die Minoritäten kommen z. B. nicht in genügender Weise zur Geltung
+– ist sicher. Aber es ist das beste und gerechteste Wahlrecht, das bis jetzt
+in einen großen Staate erprobt ist; es ist einfach in seiner Anwendung,
+den Massen verständlich und sichert bei einer gerechten Wahlkreiseinteilung
+und einer strengen Kontrolle der Wahlbeeinflussungen dem einzelnen Wähler
+einen größeren Anteil an politischem Einfluß als die bisher genannten
+Systeme. Für die Bundesstaaten des deutschen Reiches ist die For-
+derung des allgemeinen, gleichen, direkten und geheimen Wahlrechts
+schon deshalb die nächstliegende, weil immer wieder darauf hingewiesen
+werden kann, daß der schlechte Einfluß, den es nach der Ansicht seiner
+Gegner auf die Zusammensetzung der Volksvertretung ausüben soll,
+sich beim deutschen Reichstag in keiner Weise bemerkbar macht. Es
+denkt heute im deutschen Reiche wohl niemand mehr daran, das Reichs-
+tagswahlrecht abzuschaffen; warum soll es sich nicht auch für den
+preußischen Landtag eignen?
+Vielleicht böte das Proportionalwahlrecht für die
+Frauen mehr Aussicht, selbst einmal Kandidatinnen in das Parlament
+zu bringen. Vor allen Dingen dadurch, daß nur wenige ganz große
+Wahlkreise gebildet werden, für die dann nicht einer, sondern eine
+ganze Anzahl von Abgeordneten zu wählen sind. Kann aber jede
+Partei in jedem Wahlkreis mehrere Kandidaten aufstellen – sie wird
+natürlich möglichst soviel aufstellen als Abgeordneten zu wählen sind, –
+so ist auch eher anzunehmen, daß sie vielleicht an dritter oder vierter
+Stelle eine Frau aufstellen würde, während sie heute wohl alle vor-
+ziehen einen männlichen Parteigenossen aufzustellen. Jn den sogenann-
+ten Einmannswahlkreisen wäre selbstverständlich auch eine von Frauen-
+vereinigungen aufgestellte Frauenkandidatur denkbar, aber sie würde
+aussichtslos sein, wenn sich nicht die Männerparteien zu ihrer Unter-
+stützung bereit erklärten. Große politische Frauenparteien, die
+geschlossen auftreten und eine politische Macht bedeuten, sind wohl für
+lange hinaus, wenn nicht überhaupt für Deutschland unmöglich. Und
+es ist gut so. Es gibt sicherlich einzelne Fragen, in denen die Mehr-
+zahl der Frauen gegen die Männer stimmen würden, aber im großen
+und ganzen müssen Männer und Frauen Hand in Hand gehen, und
+nur das Wohl des ganzen Volkes im Auge haben. Das können sie
+am besten, wenn sie gemeinsam in den Parteien arbeiten und nicht
+Eigenbrödelei treiben in selbständigen Parteigebilden. Überall da,
+wo die Frau ihr Staatsbürgerrecht errungen hat, ist sie auch diesen
+Weg gegangen, und es ist nicht zum Nachteil für sie oder für die
+Partei geworden.
+Zweifellos hat das Proportionalwahlrecht außerordentlich gute
+Eigenschaften. Dadurch, daß die Wahlkreise größer gebildet werden,
+haben auch Minoritäten, die hier und da im Lande verstreut sind,
+eher die Möglichkeit einen Kandidaten durchzubringen. Ueberhaupt
+ist es das Bestreben des Proportionalwahlrechts, Zufallsmajoritäten
+möglichst zu verhindern und jeder Gruppe die Vertretung zu sichern,
+die ihr nach der Zahl ihrer Anhänger, d. h. ihrer Wähler gebührt.
+Auch die Frauen werden sich mit diesem Wahlrecht mehr als bisher
+beschäftigen müssen. Der Einwand, daß es zu kompliziert ist, darf sie
+auf die Dauer nicht schrecken. Es muß und wird sich die geeignete
+Form finden lassen, wenn wir erst einmal vor der Möglichkeit stehen,
+dieses Wahlrecht einzuführen. Das Proportionalwahlrecht bietet den
+Frauen die meisten Chancen, ja vielleicht allein die Aussicht ge-
+wählt zu werden.
+Der Preußische Landesverein für das Frauenstimm-
+recht steht auf dem Boden der Satzungen des Deutschen Verbandes
+und fordert zur Zeit nur das Reichstagswahlrecht für die
+Frauen, sowohl im Reich wie in den Bundesstaaten und in den
+Kommunen. Und zwar stellen wir diese Forderung, weil sie populär ist.
+Das Volk weiß, was das allgemeine, gleiche, direkte, geheime Wahl-
+recht bedeutet, es weiß, daß die Mängel, die dem deutschen Reichtstag
+noch anhaften, auf andere Ursachen als das Wahlrecht zurückzuführen
+sind. Sie ergeben sich in erster Linie aus der Bevorzugung des Adels
+und der großen Vermögen durch den Staat, durch amtliche Wahl-
+mache und durch schlechte Wahlkreiseinteilung. Einen großen Teil der
+Schuld trägt aber auch das Bürgertum selbst, das in seiner Schlaff-
+heit nicht den Willen und infolgedessen auch nicht die Kraft hat, ein
+parlamentarisches Regierungssystem und wirkliche Rechtsgleichheit zu
+erkämpfen. Die Arbeit aller derer, die tagaus tagein ihre Kraft für
+dieses Ziel einsetzen, scheitert an dem Phlegma und der Jndolenz der
+Bürger, die zwar die Faust in der Tasche ballen, und vielleicht auch
+schelten, wenn die ins maßlose wachsenden Militär- und Marine-
+forderungen und eine ungesunde Finanz- und Wirtschaftspolitik hohe
+Zölle auferlegen, drückende Steuern und Konsumabgaben nötig machen,
+die aber, wenn der Wahltag herankommt, alles wieder vergessen haben
+und auch nicht mehr daran erinnert sein wollen. Dann wird eben
+doch wieder konservativ-reaktionär gewählt, oder sie bleiben überhaupt
+zu Hause, und jeder einzelne tröstet sich damit, daß seine Stimme
+ja doch nicht den Ausschlag geben würde.
+Damit kommen wir aber nicht weiter. Der leise Protest hilft
+nichts in dem Kampf gegen die Reaktion. Nur in heißem, zähem Ringen
+kann sie überwunden werden, und wir hoffen, daß die „Finanzreform“
+auch dem Schläfrigsten die Augen öffnet. Die wachsenden Abgaben
+auf Verbrauchsartikel, an denen man wohl etwas sparen, die man
+aber nicht ganz entbehren kann, werden dem Volke empfindlich fühl-
+bar; sie werden – hoffen wir – mehr bewirken als alles predigen
+und reden. Vor allem werden sie auch den Frauen zeigen, daß sie
+unter allen Maßnahmen, die in den Parlamenten getroffen werden,
+mit zu leiden haben. Daß es nicht wahr ist, was alle die sagen, die
+von Frauenstimmrecht nichts hören wollen, „wir Männer sorgen besser
+für euch Frauen, als ihr es selbst könntet“. Die Frauen müssen sich
+selbst bewußt werden, wieviel sie vermögen, wenn sie ihre Kräfte an-
+wenden, wenn sie ihr Wahlrecht ausüben können. Was hilft den
+Hausfrauen alles sparsame Einteilen des Budgets, wenn Nahrungs-
+mittel und Bedarfsartikel durch Steuern und Zölle immer teurer
+werden. Der Verbrauch muß eben eingeschränkt werden, es wird an
+Fleisch, Brot, Butter gespart, darunter leidet die ganze Familie,
+und für die Mutter, die Hausfrau, die selbst die täglichen Portionen
+kleiner einteilen muß, obwohl sie weiß, daß sie für die Ernährung
+nicht ausreichen, ist es am schlimmsten. Dabei kann sie nicht einmal
+erwarten, daß das Gehalt des Mannes erhöht wird in dieser Zeit der
+wirtschaftlichen Krisis. Daß der Arbeiterhaushalt am schwersten be-
+troffen wird ist ohne weiteres einleuchtend, aber die Arbeiterfrauen
+sind sich noch am ersten ihrer Rechtlosigkeit bewußt und der Pflicht,
+sich gegen die aufzubäumen, die sie in ihrer Rechtlosigkeit halten wollen.
+Diese Schrift gilt vor allen den sog. bürgerlichen Frauen, den
+Frauen der kleinen Kaufleute und Handwerker, den Frauen der Be-
+amten und den erwerbstätigen Frauen, die im kaufmännischen Beruf,
+in den Bureaus der Rechtsanwälte, im Haushalt, in der Heimarbeit,
+in freien Berufen und als Beamtinnen ihren Lebensunterhalt erwerben.
+Und allen denen gilt die Schrift, die selbst wohlhabend sind und in
+Wohltätigkeitsvereinen, in sozialen Bestrebungen helfen möchten, das
+Elend der Armen zu verringern, und die nicht sehen, daß sie die
+Gesetzesvorschriften nicht ändern können, die sich wie ein Wall doch
+einmal vor ihr auftürmen, wenn sie wirklich großzügige Arbeit
+leisten möchten. Sie bleiben auf die kleinen Mittelchen angewiesen
+in Armenpflege, Jugendfürsorge und wie die sozialen Bestrebungen
+alle heißen mögen. Wollen sie größeres erreichen, so müssen sie
+fortgesetzt petitionieren, bei Stadtverordneten oder Parlamentariern
+ihren persönlichen Einfluß geltend zu machen versuchen – und
+trotz aller Mühe erreichen sie nur wenig. Tritt die Frau erst
+als Wähler auf, so ist ihren Wünschen gleich ein ganz anderer
+Nachdruck gegeben. Wenn es sich darum handelt, die Stimmen
+der Wählerinnen zu erhalten, so werden auch die Arbeiten, die sie
+verlangen rascher gefördert werden. Alle Frauen haben aber ein
+Jnteresse an höheren Arbeitslöhnen für die Frau, an einer kürzeren
+Arbeitszeit für beide Geschlechter, an einer gesunden Wohnungspolitik
+in der Stadt, an guten Schulen, Volksschulen wie höheren und Fort-
+bildungsschulen. Die Frau wird einsehen und sie muß einsehen lernen,
+welches die Gründe für unsere verteuerte Lebenshaltung sind, daß
+wir unsere Handels- und Wirtschaftspolitik einer gründlichen Revision
+unterziehen müssen. Sie wird sich verwundert fragen, weshalb das
+deutsche Reich die Möglichkeit die Heeres- und Marinerüstungen ein-
+zuschränken, die ihm geboten wurde, nicht freudig ergreift. Sie
+wird mit allem Nachdruck verlangen, daß die Streitigkeiten zwischen
+den verschiedenen Ländern nach Möglichkeit durch internationale
+Schiedsgerichte geschlichtet werden, und damit werden die frieden-
+erhaltenden Elemente des Volkes gewaltig gestärkt. Wie vermag die
+Frau, die Mutter auf den Mann und den Sohn in diesem Sinne
+einzuwirken, wenn sie sich erst bewußt wird, welche Kulturarbeit sie
+dadurch leistet! Durch die Verminderung der Militärlasten werden
+aber auch gleichzeitig die Mittel zu einer gesunden Sozialpolitik frei
+und zu einer wirklich großzügigen Fürsorge für Schwache und Arme.
+Arbeiten genug warten auf die Frau! Eine große Anzahl von
+Frauen ist auch schon jetzt bereit zur Arbeit, und ihre Zahl wird
+riesig anwachsen, wenn erst die Möglichkeit zur Mitarbeit gegeben ist.
+Jn der ganzen Welt sind sich die Frauen der Pflichten, die sie zu er-
+füllen und der Rechte die sie zu verlangen haben, bewußt geworden. Auch in
+Deutschland beginnt die Frau zu erwachen. Aber so wie bereits eine
+Reihe von Staaten eingesehen hat, daß es Verschwendung ist, die
+Kräfte der Frauen nicht nutzbar zu machen für den Staat, so wird
+auch das deutsche Reich einmal lernen, die Mitarbeit der Frau zu
+schätzen. Deutschland wird und muß den Ländern folgen, die ihren
+Frauen das volle Staatsbürgerrecht zuerkannt haben.
+Wir sind nun der Ansicht, daß alle Frauen, die nur ein wenig
+Selbstachtung und Selbstvertrauen haben, daran arbeiten müßten, um
+dieses Ziel zu erringen. Sie sollten alle zusammenstehen, reiche und
+arme, Hausfrauen und berufstätige, keine sollte den Wunsch haben
+nur für sich selbst ein Recht zu erhalten, sondern alle sollten beseelt
+sein von dem Gedanken, allen Frauen die gleiche Möglichkeit
+zu verschaffen auf die Gesetzgebung einzuwirken. Wir, die wir die
+„bürgerlichen Frauen“ genannt werden, wollen kein Vorrecht vor den
+Arbeiterinnen, wir wollen die Gleichberechtigung. Und wenn sie auch
+in anderen Organisationen stehen, so wollen wir doch auf das
+gleiche Ziel gehen und müssen uns auf dem Wege gegenseitig unter-
+stützen. Wir verlangen, daß die bürgerlichen Frauen, die die politische
+Gleichberechtigung mit dem Manne fordern, einsehen, daß sie gleich-
+zeitig die Gleichberechtigung aller Frauen erstreben müssen. Deshalb
+muß ihre einzige Parole sein: Das allgemeine, gleiche,
+direkte, geheime Wahlrecht ohne Unterschied der
+Geschlechter für Kommune, Landtag und Reichstag.
+Wir appellieren an das Selbstbewußtsein der deutschen Frauen
+und wir appellieren an ihren Gerechtigkeitssinn.
+</text>
+  </TextCorpus>
+</D-Spin>

@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/reeves_wahlrecht_1904</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-reeves_wahlrecht_1904.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/reeves_wahlrecht_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-reeves_wahlrecht_1904.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/reeves_wahlrecht_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-reeves_wahlrecht_1904.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/reeves_wahlrecht_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-reeves_wahlrecht_1904.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/reeves_wahlrecht_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-reeves_wahlrecht_1904.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das politische Wahlrecht der Frauen in Australien</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Reeves</cmdp:surname>
+<cmdp:forename>William Pember</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1158456573</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+                    <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+                        <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-12-06T12:34:34Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+<cmdp:respStmt>
+                    <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-12-06T12:34:34Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">31</cmdp:measure>
+        <cmdp:measure type="tokens">11342</cmdp:measure>
+        <cmdp:measure type="types">3668</cmdp:measure>
+        <cmdp:measure type="characters">82941</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:02:28Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/reeves_wahlrecht_1904</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/reeves_wahlrecht_1904</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/reeves_wahlrecht_1904</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/reeves_wahlrecht_1904</cmdp:idno>
+          <cmdp:idno type="DTADirName">reeves_wahlrecht_1904</cmdp:idno>
+          <cmdp:idno type="DTAID">34675</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-34675-9</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MS">Reeves, William Pember: Das politische Wahlrecht der Frauen in Australien. Übers. v. Romulus Grazer [i. e. Romulus Katscher]. Leipzig, 1904 (= Sozialer Fortschritt, Bd. 15/16).</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Das politische Wahlrecht der Frauen in Australien</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Reeves</cmdp:surname>
+<cmdp:forename>William Pember</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1158456573</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+            <cmdp:editor role="translator">
+              <cmdp:persName><cmdp:surname>Katscher</cmdp:surname>
+<cmdp:forename>Romulus Romulus Grazer</cmdp:forename></cmdp:persName>
+            </cmdp:editor>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Leipzig</cmdp:pubPlace>
+            <cmdp:date type="publication">1904</cmdp:date><cmdp:publisher><cmdp:name>Felix Dietrich</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="s" type="main">Sozialer Fortschritt</cmdp:title>
+              <cmdp:biblScope unit="volume">15/16</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+                        <cmdp:repository>Staatsbibliothek zu Berlin</cmdp:repository>
+                        <cmdp:idno>
+                            <cmdp:idno type="shelfmark">Bo 133</cmdp:idno>
+                        </cmdp:idno>
+                    </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                            <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: gekennzeichnet;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: keine Angabe;
+                    Kolumnentitel: keine Angabe;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): keine Angabe;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+               </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Sozialer Fortschritt
+Hefte und Flugschriften für Volkswirtschaft und Sozialpolitik.
+Eingeleitet von Professor Dr. W. Sombart, Breslau,
+und unter Mitwirkung erster Sachkenner für Gebildete aller Kreise geschrieben.
+No. 15/16.
+Das politische Wahlrecht
+der Frauen in Australien.
+Von
+William Pember Reeves.
+Deutsch von Romulus Grazer.
+Mit Vorwort von Leopold Katscher.
+1. Tausend. Jedes Heft: 15 Pfg. Die Reihe von 10 Heften:
+Doppelheft: 30 Pfg. Mk. 1.20.
+LEIPZIG
+FELIX DIETRICH
+1904.
+_
+Sozialer Fortschritt
+Hefte und Flugschriften für Volkswirtschaft und Sozialpolitik.
+Eingeleitet von Professor Dr. W. Sombart, Breslau,
+und unter Mitwirkung erster Sachkenner für Gebildete aller Kreise geschrieben.
+No. 15/16.
+Das politische Wahlrecht der Frauen
+in Australien.
+Von
+William Pember Reeves.
+Deutsch von Romulus Grazer.
+Mit Vorwort von Leopold Katscher.
+LEIPZIG
+FELIX DIETRICH
+1904.
+Vorwort.
+Nach jahrzehntelangen Kämpfen der englischen Frauenrechtlerinnen
+und Frauenrechtler hat das britische Unterhaus am 17. März 1904 dem
+weiblichen Geschlecht das politische Stimmrecht – das aktive und passive
+Wahlrecht – gewährt. Ob das Oberhaus zustimmen wird, kann man nicht
+bestimmt wissen; doch ist es wahrscheinlich. Es darf nicht wundernehmen,
+dass das Mutterland nicht zurückbleiben will hinter dem Tochter-Staatenbund
+Australien. Das kulturgeschichtlich hochwichtige Ereignis vom 17. März
+ds. J. hat mich veranlasst, die Herausgabe der vorliegenden Abhandlung
+anzuregen, die von zeitgemässestem Interesse ist und deren Verfasser sich
+als früherer neuseeländischer Staatsminister grosse Verdienste um das Zu-
+standekommen der Reform erworben hat.
+Inzwischen hat die australische Frauenwelt bereits Gelegenheit ge-
+habt, ihr Bundeswahlrecht praktisch auszuüben, denn im Dezember 1903
+haben die Wahlen fürs Bundesparlament stattgefunden. Von den 850000
+weiblichen Wahlberechtigten beteiligten sich die allermeisten an der Ab-
+stimmung, welche allenthalben ohne aufregende Zwischenfälle vor sich ging.
+Das von den Führerinnen der Frauenbewegung den Kandidaten ans Herz
+gelegte Programm lautete: 1. Gleichheit der Geschlechter vor dem Gesetz
+und in der Verwaltung; alle Staatsämter sollen beiden Geschlechtern unter
+gleichen Bedingungen offenstehen. 2. Hygienische Vorschriften; Verbot von
+Opium-Einfuhr u. s. w. 3. Förderung des industriellen Friedens; staatliche
+Schiedsgerichte. 4. Förderung des internationalen Friedens; Reorganisation
+von Heer und Flotte. Der erste Punkt ist nur die logische Konsequenz des
+Wahlrechtes für beide Geschlechter, und es steht zu erwarten, dass er früher
+oder später gesetzliche Form annehmen wird. Australien wird ohne Zweifel
+das Land sein, das hierin allen anderen Staaten der Welt vorangehen wird.
+Berlin, 3. April 1904.
+Leopold Katscher.
+I.
+Manche Gesellschaftsklassen sind zur politischen Macht geboren, andere
+erwerben sie und wieder anderen wird sie aufgedrängt. Das letztere war
+das Los der meisten, wenn nicht aller Frauen in den australischen Bundes-
+staaten und im Staatenbunde Australien, wo die Frauen teils seit 1894, teils
+seit Mai 1902 bei der Wahl von Parlamentsmitgliedern ihre Stimmen
+abgeben können. In Süd-Australien wurde der Kampf um dieses Vorrecht
+von Männern begonnen, geleitet und fast ganz durchgeführt. Die Rolle,
+welche hierbei Miss Spence, Mrs. Nicols und ihre Anhängerinnen spielten, war
+wohl nützlich, aber doch sehr untergeordnet. In West-Australien war dieser
+Kampf gleichfalls Sache der Männer und die Verleihung des Wahlrechts
+bildete ein blosses Auskunftsmittel, einen Schachzug im Spiele der Wahl-
+umtriebe, welcher den Zweck verfolgte, das Gleichgewicht der Macht
+zwischen zwei Abteilungen des Staates zu beeinflussen. Das Zugeständnis
+des Stimmrechtes durch das Bundesparlament im Jahre 1902 war hauptsäch-
+lich durch den Mangel jeder Art von Unruhe, eifriger Verfechtung oder
+scharfer Zurückweisung bemerkenswert. In Neuseeland, wo den Frauen das
+Wahlrecht zuerst eingeräumt wurde, war die Frage anfänglich zwar von
+Politikern aufgeworfen und besprochen worden, die die Änderung aufrichtig,
+wegen des ihr eigenen Wertes betrieben; als jedoch der Kampf zum Ent-
+scheidungspunkte gelangte, verhüllten allgemeine Argumente kaum die
+durch die Querfrage des Trinkverbotes hervorgerufene Aufregung. Gegen-
+über der Trinkverbotfrage verschwand vorläufig die Frage des Anrechtes der
+Frauen auf die Bürgerrechte fast ganz und eine bis dahin beiderseits unbe-
+kannte Erregung charakterisierte den Streit. Das Auftauchen der Prohibi-
+tionisten auf dem Schauplatze gestaltete die Frage im Jahre 1892 zum ersten
+Male zum Mittelpunkte der Leidenschaften und Erregungen. Ob ihr heisses
+Eintreten der Sache des Frauenstimmrechtes bei den Männern mehr nützte
+als schadete, ist noch ein streitiger Punkt; es kann aber kühn behauptet
+werden, dass das Verlangen nach dem Wahlrecht, soweit es sich in den
+Reihen der weiblichen Bevölkerung äusserte, hauptsächlich von den Müttern
+erweckt wurde. Ausserhalb ihrer Logen und ihres Christlichen Frauen-
+Mässigkeitsbundes bekundete die Haltung der Frauen nur passives Interesse.
+Sie wurden durch den Antrag weder abgestoßen noch beunruhigt; sie fanden
+ihn eher angenehm als das Gegenteil – aber auch kaum mehr als das. Man
+hat dies als Beweis dafür angeführt, dass die Änderung vorzeitig gekommen
+und die Agitation dafür eine öde gewesen wäre. Ich glaube dies nicht. Ich
+bin vielmehr der Ansicht, dass die Agitation in der Hauptsache sowohl in
+Australien, als auch in Neuseeland eine echte, ehrliche war und ist. Jede
+öffentliche Strömung hat eine bestimmte Anzahl zweifelhafter Persönlich-
+keiten, Heuchler und Manteldreher in ihrem Gefolge. Es wäre jedoch
+unbillig, eine Gesellschaft nach einigen Schmarotzern zu beurteilen, wie es
+Pierre Leroy-Beaulieu tut, indem er sich über die Frauenbewegung in den
+folgenden Worten äussert: „Im Grunde genommen ist diese ganze feministische
+Bewegung blos ein grosser Humbug, ersonnen von Politikern, die auf der
+Suche nach immer neueren Aufregungen sind, von Deklassierten und von
+Hirnverbrannten“. Das ist eine offenkundige Ungerechtigkeit. Anderseits
+sind aber auch allzu oft rosige Gemälde von ethischen Umwälzungen und
+einem bevorstehenden moralischen Millennium entworfen worden. Wir wollen
+der Wahrheit offen ins Gesicht sehen und alle etwa noch in der Luft
+hängenden Visionen von einem geistigen Aufruhr in Sklavenbanden gehal-
+tener Frauen gegen die althergebrachte und betrügerische Herrschaft tyran-
+nischer Männer zerstreuen. Es gilt ferner darzulegen, dass die hauptsäch-
+lichsten Motive dieser Bewegung sich erst nachträglich einstellten. Es können
+sehr gute Beweggründe gewesen sein – einige waren es auch tatsächlich –
+aber es waren nicht jene, von denen sich John Stuart Mill leiten liess.
+Bei den Pionieren der Bewegung jedoch stand die Sache anders. In
+Neuseeland waren die vier Staatsmänner, die die Frage mehr denn alle
+übrigen in den Vordergrund gestellt und das Interesse wach gehalten hatten,
+Sir John Hall, Sir Julius Vogel, Sir Robert Stout und John Ballance. Von
+ihnen gehörte blos der dritte der Temperenzlerpartei an und ich muss
+bezweifeln, ob selbst in seinem Falle diese Zugehörigkeit irgendwelchen Ein-
+fluss ausübte. Hall war ein Konservativer – oder was in den australischen
+Kolonien dafür gilt. Stout und Ballance waren Radikale mit extremen
+Anschauungen hinsichtlich der Landfrage. Vogel war ein Tory-Demokrat,
+der heute, wäre er noch am Leben und in der Lage, sich am politischen
+Leben zu beteiligen, wohl ein tätiger und zweifellos auch hervorragender
+Imperialist sein würde. Sie alle wünschten aufrichtig, die Frauen zu eman-
+zipieren – in dem ehrlichen Glauben, dass das weibliche Element den Staat
+ebenso sehr kräftigen wie reinigen werde.
+Die Fortschrittspartei, welche Neuseeland seit 13 Jahren mit, manche
+Beobachter erfreuenden, andere empörenden Erfolgen beherrscht, entstand um
+das Jahr 1877. Von Sir George Grey geführt, war sie anfangs mehr eine
+Partei der Versuche als eine Partei der Leistungen. Sie hegte aber eigene
+Anschauungen und hatte den Mut ihrer Meinungen. Eine derselben bestand‚
+darin, dass mit der Gewährung des parlamentarischen Stimmrechtes an die
+Frauen ein Anfang gemacht werden müsse. Im Jahre 1878 brachte das
+Kabinet Grey, welches damals am Ruder war, eine Wahlbill behufs Verein-
+fachung und Ausdehnung des Wahlrechtes ein. Eine der vorgeschlagenen
+Änderungen bestand darin, dass alle steuerzahlenden Frauen die Berechtigung
+erhielten, über die Parlamentskandidaten abzustimmen. Die Steuerträgerinnen
+hatten bei den Munzipalwahlen ohnehin schon das Stimmrecht – ein
+Umstand, auf den der Kronanwalt Stout bei Beantragung der zweiten
+Lesung der Wahlbill mit Recht grosses Gewicht legte. Stout war ein
+befähigter junger Rechtsanwalt, früher Schulmeister und aus Shetland ein-
+gewandert. Er stand damals auf der ersten Stufe einer politischen Laufbahn,
+die, wenn auch mehr als einmal unterbrochen und zu früh aufgegeben, stets
+eine interessante und oft eine fesselnde werden sollte. Er war dazu berufen,
+dem Wahlrechte der Frauen zur Gesetzeskraft zu verhelfen – freilich noch
+nicht damals. Das Parlament wollte im Jahre 1878 noch nicht einmal den
+mildesten Schein desselben gewähren. Und tatsächlich war auch die
+Regierung nicht vor 1887 bereit, in einer Bill den Grundsatz der allgemeinen
+Ausdehnung des Wahlrechtes auf die Frauen zu verkörpern und dieselbe zu
+beantragen. Aber selbst damals war das Kabinet ein Koalitionsministerium,
+dessen Tage bereits gezählt waren und dessen Hinscheiden die Kolonie ruhig
+mit ansehen wollte. Stout war Ministerpräsident. Sterbenskrank wie das
+Ministerium Stout-Vogel war, beunruhigt, wie seine Tage stets gewesen, wies
+es doch drei Männer mit Gedanken auf. Einer dieser Männer, Vogel, war
+damals nahe dem Ende seiner Laufbahn in der Kolonie. Das Netz war
+schon um ihn gezogen. Früher als Finanzmann halb vergöttert, jetzt mit
+seiner Finanzpolitik in Misskredit geraten, war er von Schicksalsschlägen
+gequält, welche den Geist manches stärkeren Mannes gebrochen hätten. Mit
+seinem letzten politischen Einsatze auf dem Tische und angesichts des gegen
+ihn beginnenden Spieles wandte er sich ruhig ab, um die Bill über das
+Frauenwahlrecht zu beantragen. Er hielt eine sehr gute Rede. Seine
+Sprache war konventionell, aber es war Beweisführung und Logik, ja sogar
+Einbildungskraft vorhanden. Im Lichte der seitherigen Erfahrung dünkt es
+uns gerade jetzt fast ein wenig pathetisch, seine beredten Prophezeihungen
+über den Wert der Mitwirkung der Frauen an den öffentlichen Angelegen-
+heiten und über den veredelnden Einfluss zu lesen, welchen sie in Bälde auf
+das nationale Leben ausüben würden.
+Wenige Reden erreichten in dieser Debatte eine besondere Höhe, ob-
+gleich Stout seinen Kollegen mit Vernunftschlüssen unterstützte und eine
+scharfsinnige Weissagung wagte:
+„Ich glaube, dass die Annahme dieser Bill nur mit einer einzigen
+Gefahr verbunden wäre. … … Diese Gefahr besteht darin, dass die
+Frauen, wenn wir einmal weibliche Abstimmer und Volksvertreter haben
+werden, bestrebt sein dürften, die Funktionen des Staates zu erweitern.
+Dies ist, glaube ich, das einzige richtige und zugleich das kräftigste
+Argument gegen das Frauen-Wahlrecht“.
+Ohne zuzugeben, dass das angeführte Argument auch wirklich das
+kräftigste ist oder dass es überhaupt ein Argument ist, können wir doch zu-
+gestehen, dass der Redner damit eine wichtige Tendenz berührt hat. Im
+übrigen ward eine Fülle von Gefühlsduseleien vom Stapel gelassen und die
+Reden zweiten Ranges gegen den Antrag waren womöglich noch ärger als
+die für denselben. Von den Oppositionsrednern schätzte blos Mr. Scobie
+Mackenzie in einer gedankenreichen Rede das Hauptresultat der Reform
+richtig, indem er erklärte, dass deren hauptsächlicher Erfolg darin bestehen
+werde, einer bestimmten Anzahl von Männern im Bundesstaate mehrfache
+Stimmen zu sichern. Voraussagungen sind jedoch immer gefährlich und
+Mr. Mackenzie war daher auch minder glücklich mit der Anspielung, dass
+priesterliehe Beeinflussungen zum Schaden des nationalen Erziehungssystems
+auf das Gefühlsleben der Frauen einwirken würden. Auch viele andere
+Redner teilten diese bislang grundlose Befürchtung. Die Perle der ganzen
+Debatte bildete vielleicht die Rede des Maori-Abgeordneten Mr. Wi-Peré.
+Sie war ebenso kurz als köstlich:
+„Meine Ansicht über diese Massregel ist, dass sie, wenn sie
+Gesetzeskraft erhält, in diesem Hause eine Quelle von Störungen bilden
+wird. Ich denke, wir brauchen blos auf die Beschwerden zurückzublicken,
+welchen Adam dadurch unterworfen ward, dass sein Weib ihm einen
+Apfel reichte. Wir sollten an das Böse denken, das Samson zustiess,
+nachdem ihm Delila die Locken abgeschnitten hatte. Wir sollten auch
+der Geschichte von Naboth’s Weingarten eingedenk sein – wie eine Frau
+einen Mann zur Ermordung eines anderen Mannes aufstachelte, um in den
+Besitz seines Weingartens zu gelangen. Ich fürchte, dass, wenn den
+Damen in diesem Hause Sitze eingeräumt werden, dies die Aufmerksam-
+keit so manches ehrenhaften Mitgliedes ablenken und die Herren den
+Staatsangelegenheiten nicht so viel Aufmerksamkeit widmen werden, als
+sie sonst getan hätten. Obgleich an Jahren vorgeschritten, muss ich
+doch eingestehen, dass ich von einer derartigen Schwäche befallen werden
+könnte. Wenn der ehrenwerte Gentleman zur Einschränkung dieser Bill
+den Vorbehalt einführen wollte, dass blos hässlichen Frauen der Zutritt
+zum Parlamente gestattet würde, dann könnte nach meiner Ansicht die
+Quelle der Gefahr verstopft werden; wenn aber auch hübsche Damen in
+dieses Haus geschickt würden, dann würden sie zweifellos die gefühlvollen
+Herzen manches ehrenhaften Gentlemans, besonders aber der älteren Mit-
+glieder des Hauses, irre führen. Ich bemerke schliesslich, dass, wenn es
+reizenden Damen gestattet wird, in das Parlament zu kommen, meine
+eigene Gattin mir nie mehr erlauben würde, hierher zurückzukehren“.
+Die zweite Lesung der Bill wurde durchgesetzt, und wenngleich sie
+auf dem Wege durch einen Ausschuss sofort in Stücke ging, so war doch
+ein bedeutender Schritt nach vorwärts gemacht worden. Das Stout-Vogel-
+Ministerium ging bald nachher den Weg aller Koalitionen und für die
+nächsten 3 ½ Jahre hatte in Neuseeland der Konservatismus das Heft in
+Händen; doch das Verlangen nach dem Wahlrechte wurde wach gehalten –
+hauptsächlich durch die Bestrebungen Sir John Hall’s. Und als sich 1891
+die Progressisten nicht blos am Ruder, sondern auch im tatsächlichen Besitze
+der Macht befanden, benützte Hall, trotzdem er sich in der Opposition befand,
+sofort die Gelegenheit, seine Lieblingsreform zu fördern. Ministerpräsident
+Ballance kam ihm auf halbem Wege entgegen und noch ehe der Bundesstaat
+zum Bewusstsein der Lage erwacht war, wurde die damals vor dem Unter-
+hause befindliche Wahlbill dahin ergänzt, dass allen erwachsenen Frauen das
+Stimmrecht eingeräumt werden sollte. Die Plötzlichkeit dieses Schrittes war
+umso überraschender, als bei den allgemeinen Wahlen im Dezember 1890 für
+diese Frage nur ein geringes oder gar kein Interesse an den Tag gelegt
+worden war. Die Arbeiterfrage, ihre Ansprüche und ihre Kämpfe hatten
+alles andere als kleinlich in den Hintergrund gedrängt – ausgenommen viel-
+leicht die ewige, damals mit der Forderung einer Grundsteuer komplizierte
+Landfrage. Viele der Parlamentsmitglieder, die für das Frauenwahlrecht
+stimmten, waren 1891 keine Verpflichtung in dieser Richtung eingegangen, wozu
+sie auch gar nicht aufgefordert wurden, und hatten davon in ihren Kandidations-
+reden kaum eine Erwähnung gemacht. Aber das neue Arbeiterelement war
+ausgesprochen zugunsten der Reform und unterstützte dieselbe ohne Rücksicht
+auf derartige Verpflichtungen rein aus persönlicher Überzeugung. Auf diese
+Weise drang die Reform im Unterhause mit Leichtigkeit durch. Im Ober-
+hause jedoch besassen die Konservativen die Übermacht und diese bewill-
+kommneten weder die Wahlbill als solche, noch den unerwarteten Zusatz zu
+derselben. Aber selbst hier betrug bei der Abstimmung die Majorität
+gegen die Frauen blos zwei Stimmen. Hiernach war der Sieg augenschein-
+lich nur mehr eine Frage kurzer Zeit. Im grösseren Teile des Staates hatte
+ein kräftiges Wiederaufleben der Temperenzlerbestrebungen Wurzel gefasst,
+welche ihren Höhepunkt im Jahre 1893 erreicht haben dürften. Die Führer
+der Temperenzler glaubten in der Gewährung des Wahlrechtes an die Frauen
+eine günstige Hilfe zu finden. Sie führten deshalb die gesamte Kraft ihrer
+Organisation dafür ins Treffen und kamen insbesondere durch die Ausnützung
+des Christlichen Mässigkeitsbundes der Frauen in die Lage, umfangreiche
+Petitionen zugunsten der Reform zu unterbreiten. Die 1892 auf ungefähr
+32000 geschätzten Unterschriften derselben waren alle echt und durchweg
+von Frauen. Anderseits begannen die Tätigkeit, die Zuversicht und die
+Drohungen der Prohibitionisten die Bierbrauer und Spirituosenhändler zu
+beunruhigen, die bis dahin den Streit über das Wahlrecht als ausserhalb der
+praktischen Politik liegend betrachtet hatten. Sie begannen sich daher zu
+rühren und Gegenpetitionen verschiedenen Umfanges vorzubereiten. Zu spät!
+Die Radikalen, die für das Wahlrecht gestimmt hatten, harrten – trotzdem
+sie keinesfalls durchweg Prohibitionisten waren und trotzdem insbesondere
+die Minister es nicht waren – bei der Sache aus und selbst Viele von
+jenen, denen die Prohibitionisten offen gedroht hatten, sie mit Hilfe der
+Frauen zu stürzen, wankten nicht. Das Oberhaus war bis zum letzten
+Augenblicke unsicher. Im Jahre 1892 war es bereit, das Stimmenrecht unter
+der Bedingung zu bewilligen, dass die Frauen schriftlich abstimmen sollten.
+Die Progressisten sahen hierin einen Anschlag zur Umgehung der geheimen
+Abstimmung und weigerten sich, die Bill mit irgendwelchen derartigen
+Zusätzen anzunehmen. Im Jahre 1893 war der Senat in kriegerischerer
+Stimmung als das Jahr vorher, die allgemeinen Wahlen standen nahe bevor
+und die Hoffnungen der Opposition lebten wieder auf. Die Erwartungen,
+dass das Oberhaus, die Wahlbill in ein allgemeines Massacre einbeziehen oder
+dass es sie in dem Glauben passieren lassen werde, dass sie den Progressisten
+mehr Schaden als Nutzen bringen müsste, waren ungefähr gleichmässig ver-
+teilt. Den Ausschlag gab der von vielen Gegnern der Regierung gehegte
+Glaube, dass die Frauen die Sache der damals gerade mit dem progressistischen
+Ministerpräsidenten Stout und deshalb auch mit seinen Kollegen auf gespann-
+tem Fusse stehenden Prohibitionisten zu der ihrigen machen würden.
+Die Progressisten – „Liberale“, wie sie sich mit Vorliebe nannten –
+befanden sich nicht in beneidenswerter Lage. Der Tod hatte soeben ihren
+ersten, höchst erfolgreichen Führer Ballance inmitten seines Schaffens hinweg-
+gerafft. Sein Nachfolger Seddon war auf seinem Sitze noch nicht recht warm
+geworden und der lange Kampf zwischen ihm und Sir Robert Stout, welcher
+die Partei in solche Bedrängnis führen sollte, hatte gerade begonnen. Bis
+auf wenige unterschätzten alle seine Gegner den neuen Ministerpräsidenten.
+Die Führer der Parlamentsopposition kannten ihn als kühnen und geschickten
+Guerillachef, der über eine rastlose Arbeitskraft verfügte und die parla-
+mentarischen Formen und Gebräuche in hohem Grade beherrschte. Aber
+ausserhalb des Parlamentes beging die Partei beharrlich den Missgriff, ihn
+hauptsächlich nach seinen Reden zu beurteilen und die lockeren Karikaturen
+geistreicher Zeitungsschreiber als Wahrheit hinzunehmen. Sie erkannten
+selbst damals noch nicht, dass sie es mit einem scharfsichtigen Politiker voll
+kühlen Mutes, Ausdauer und Entschlossenheit zu tun hatten, der eine unge-
+wöhnliche Gewissenhaftigkeit und eine grosse Begabung besitzt, die Wahr-
+scheinlichkeiten unter den schwierigsten Verhältnissen zu erwägen. Es war
+klar, dass die Getränkefrage für die Liberalen eine unerquickliche sei und
+dass die Zulassung der Frauen ihre Verlegenheiten nur vermehren musste.
+Aber auch diese Anschauung gab im Oberhause nur gerade den Ausschlag.
+Die Bill drang mit einer Majorität von nur zwei Stimmen durch und wäre
+beinahe infolge eines Missverständnisses nur mit einer Stimme passiert. Es
+war ein knapper Spielraum, aber er genügte, und die Knappheit des
+Beschlusses verringerte nicht die Freude der Sieger, wohl aber verbitterte
+sie die Betrachtungen der Besiegten.
+II.
+So erwachten denn eines schönen Septembermorgens die Frauen Neu-
+seelands mit dem Bewusstsein, das Wahlrecht erlangt zu haben. Es war
+ihnen freiwillig, ohne Zwang, auf die leichteste und unerwartetste Art der
+Welt von männlichen Politikern gegeben worden, deren Führer zum grösseren
+Teile durch das Lesen englischer Argumente – wie sie auf der anderen Erd-
+hälfte Mill und seine Anhänger ebenso höflich wie vergebens ins Treffen ge-
+führt hatten – zu dem Glauben an den Versuch bekehrt worden waren.
+Die Zeit, während welcher die Frauen Neuseelands zu kämpfen oder zu
+agitieren gehabt, war eine kurze gewesen. Keine Wahlrechtsliga hatte
+den Kampf Jahr für Jahr ausgefochten; keine gutbesuchten Versammlungen
+hatten den Ansprachen beredter und gebildeter, mit Urteilskraft und Macht
+des Ausdruckes begabter Frauen gelauscht, deren persönliche Eigenschaften
+noch wirksamer als Worte gegen die politische Unterwerfung ihres Geschlechtes
+protestiert hätten. Von keiner Neuseeländer Rednerin oder Leiterin der
+Frauenbewegung konnte selbst bei höflichster Übertreibung behauptet werden,
+dass sie in den ersten Reihen gekämpft und einen leitenden Anteil daran
+gehabt habe, die öffentliche Meinung zu bekehren. Ausserhalb der
+Mässigkeitsvereine bildeten die weiblichen Redner in der Kolonie eine
+sehr seltene Erscheinung, und als 1893 einige Rednerinnen sich unter
+dem Drucke der Parteiführer ein Herz fassten, die Tribüne zu betreten
+und kurze, leise Ansprachen zu halten, begrüsste die Zuhörerschaft sie
+mit freundlicher Neugierde und gewährte ihnen dieselbe kritische Nach-
+sicht, wie man sie artigen Kindern gewährt, die bei Schulfesten in
+ihrer hastigen Weise Gedichte vortragen. Bis zu diesem ereignisreichen
+Jahre hätten sie bedeutend weniger mit Politik zu tun gehabt als so manche
+ihrer englischen Schwestern. Die Frauen waren und sind auch jetzt noch in
+Neuseeland in der Minderheit. Infolgedessen waren auch ihre Dienste als
+Haushälterinnen und Mütter in vollster Ausdehnung gesucht. Häusliche
+Dienstboten waren kostspielig und zeitweilig selten und die Frauen, selbst
+jene der wohlhabenderen Klassen, führten eine einfachere, arbeitsamere und
+häuslichere Lebensweise als so manche Engländerin auf gleicher gesellschaft-
+licher Stufe, die Zeit und Lust findet, sich mit Parteipolitik und Agitations-
+Wahlreden zu befassen. Keine „Primeln-Liga“ hatte sie in die Künste der
+Stimmenwerbung eingeführt; sie hatten sich nicht an den Wahlen beteiligt,
+waren keine Politiker und hatten im Allgemeinen auch nicht den geringsten
+Wunsch bekundet, das Stimmrecht zu erhalten. Einige wenige Frauen waren
+Mitglieder von Schulräten gewesen; einige hunderte waren als Steuerzahler
+jedes dritte Jahr zur Wahlurne geführt worden, wo sie ihre Stimmen abgaben,
+ohne besondere Aufmerksamkeit zu erregen. Im übrigen wussten die Frauen
+nichts vom öffentlichen Leben und das öffentliche Leben nichts von den
+Frauen. Sie waren für die Ausübung ihres neuen Rechtes so unvorbereitet,
+als es welche Bevölkerungsklasse immer sein konnte, die eben erst das Wahl-
+recht erhalten hat. Die neue Ordnung erweckte all das Interesse, welches
+einer plötzlich gekommenen Änderung entgegengebracht zu werden pflegt,
+über deren wahrscheinliche Wirkungen selbst der scharfsinnigste Geist sich
+nur zögernd äussern würde. Das will jedoch nicht sagen, dass das
+Zögern ein ausgesprochenes Merkmal der Leitartikel dieser Periode gewesen
+wäre. Die Politiker beeilten sich, dem neuen Herrscher ihre Aufwartung zu
+machen. Geistliche weissagten von der Kanzel eine neue Ära der Wahrheit
+und Rechtschaffenheit. Zeitungsherausgeber prägten ihren Lesern ein, dass
+eine mächtige soziale Umwälzung bevorstehe. „Wenn es gelingt“ – schrieb
+M. H. Fitchett in der „Australischen Review of Reviews“ (Melbourne) –
+„dann wird es einfach einen vollständigen Umschwung in der modernen
+Politik des ganzen Erdballs nach sich ziehen“. Und das war die Sprache
+der Vorsicht und der Beschränkung gegenüber den frohlockenden Lobgesängen,
+welche anderwärts angestimmt wurden. Keine hemmenden „Wenn“ beschwerten
+die meisten der triumphierenden Zukunftsbilder. Welche Gestaltung schickte
+sich unterdessen die Revolution anzunehmen an? Die ältesten parlamen-
+tarischen Haudegen gestanden im Geheimen ihre Unwissenheit zu. Die
+radikale Natur der erfolgten Ausdehnung des Stimmrechts trug zur Unge-
+wissheit bei. Das Wahlrecht war nicht einzelnen Klassen: den vermögenden,
+unbeschäftigten, gebildeten oder besonders enthusiastischen Frauen, eingeräumt
+worden. Es war vielmehr ein allgemeines; jede Frau im Alter von über
+21 Jahren war dazu berechtigt. Neuseeland zählte 140000 erwachsene
+Frauen bei einer Bevölkerung, welche 1893 nicht viel über 700000 betrug.
+Die Anzahl der erwachsenen Männer wurde auf 180000 geschätzt.
+Der Gouverneur Lord Glasgow genehmigte die Wahlbill am 19. Sep-
+tember und die allgemeinen Wahlen sollten Ende November stattfinden. Nun
+sollten aber die Wählerlisten einige Wochen früher veröffentlicht werden;
+nach Veröffentlichung der Listen konnten keine Eintragungen mehr in die-
+selben erfolgen. Die Eintragungsgesetze Neuseelands waren die einfachsten
+und leichtesten, da die Absicht Jener, die sie geschaffen, darin bestanden
+hatte, die denkbar grösste Anzahl der in der Kolonie lebenden Personen zur
+Eintragung zu veranlassen. Die Pflicht der neuseeländischen Wahlregistratoren
+besteht nicht darin, anständige Bürger, die ihr Bürgerrecht ausüben wollen,
+daran zu hindern oder ihnen ein Bein zu stellen, sondern vielmehr darin,
+ihnen behülflich zu sein, das zu tun, was als ihre Pflicht betrachtet wird.
+Die Regierung und ihre Beamten boten denn auch 1893 alle gesetzlich
+gewährten Mittel auf, allen Frauen, die sich in die Wählerlisten eintragen
+lassen wollten, die Wege zu ebnen, während beide politische Parteien in
+allen Wahlbezirken flott ans Werk gingen und die Temperenzler und
+die Spirituosenhändler miteinander wetteiferten, die neuen Tausende von
+Wahlberechtigten in die Wählerlisten eintragen zu lassen. Nur selten stiessen
+sie auf Widerstand gegen die Anwendung des neuen Vorrechtes. Die Gesuche
+um Aufnahme flossen täglich ein und 109000 Frauen waren in die Listen
+aufgenommen, bevor die Veröffentlichung derselben dem Andrange ein Ende
+bereitete.
+Binnen sechs Wochen war mithin die „politische Frau“ ein voll-
+ständiger Wähler geworden. Sie hatte ihr Wahlrecht. „Was wird sie mit
+demselben beginnen?“ lautete die Frage der Vorsichtigeren unter den männ-
+lichen Politikern. In der Öffentlichkeit waren die verschiedenartigsten Er-
+wartungen gehegt und ausgedrückt worden. Die Konservativen erhofften
+Vieles von dem angeborenen Konservatismus der Frauen; die Sozialreformer
+ihrerseits waren überzeugt, dass sie sich für die sozialen und humanitären
+Heilmittel erklären würden; die Temperenzvereine frohlockten, dass ihre
+Sache nunmehr so gut wie gewonnen sei; die Anglikaner und die Katholiken
+erwarteten eine beträchtliche Kräftigung der dem interkonfessionellen staat-
+lichen Unterrichte feindlichen Partei; allgemein herrschte die Anschauung,
+dass sich die öffentlichen Angelegenheiten sozusagen in einem Schmelztiegel
+befänden und dass aus diesem Prozesse fast alles hervorgehen könne. Nicht
+als ob die Frauen des Bundesstaates irgendwelche besondere seltsame oder
+auffallende Tendenzen an den Tag gelegt hätten. Neuseeland ist eine noch
+sehr junge Kolonie und die 60 Jahre ihres Bestandes waren Zeiten der Ebbe
+und Flut. Es ist schwer, auch nur in grob-impressionistischem Style eine
+Skizze der Frauen irgend eines Landes zu entwerfen – um wie vieles
+schwieriger ist diese Aufgabe bei einer Kolonie, in welcher schon der Ver-
+lauf eines einzigen Jahrzehnts das Gemälde augenfällig beeinflusst!
+Ausser einer deutlich ausgeprägten physischen Derbheit hatten die
+Frauen keinerlei überraschende Merkmale aufzuweisen. Sie waren weder mit
+grossen Geisteskräften begabt noch kindisch, weder hochgebildet noch un-
+wissend, weder aristokratisch noch ausgesprochen plebejisch, weder künst-
+lerisch veranlagt noch vulgär, weder von kühnem Gedankenflug noch eng
+konventionell und abergläubisch. In einem Lande, in welchem Millionäre
+unbekannt und die Armut eine Seltenheit waren, wo die „Städte“ eigentlich
+ländliche und lose zwischen Gärten und Anpflanzungen zerstreute Distrikte
+und die Häuser in den Marktflecken von einander weit entfernt waren, wo
+nicht ganz dreiviertel Millionen britischer Ansiedler im Verhältnisse von
+ungefähr sechs pro englische Quadratmeile an lieblichen Gestaden zer-
+streut lebten, welche zwischen erhabenen Bergen und dem freien Ozean unter
+einem der gesündesten Klimate der Welt liegen – in einem solchen Lande
+wäre es auch eine Seltsamkeit, wenn die Frauen etwas anderes bildeten, als
+eine gesunde, glückliche, intelligente und die Häuslichkeit liebende Rasse.
+In den Gesellschaftsräumen der behaglichen zweistöckigen Holzhäuser, wie
+sie selbst von den wohlhabendsten Klassen bewohnt wurden, konnte man ver-
+einerten Damen begegnen, die blos der Kostüme der Regentschaft bedurften,
+um den Gedanken zu erwecken, dass die Frauengestalten Jane Austens zu
+neuem Leben erstanden seien. Handarbeiten, Musik, Haushaltungsarbeit,
+Blumenzucht bildeten ihre Künste; sie kleideten sich einfach, jedoch nicht
+ohne Sorgfalt und Geschmack; gepuderte und geschminkte Frauengesichter
+hätten bei ihren gesellschaftlichen Zusammenkünften denselben grotesken Ein-
+druck hervorgerufen, wie livrierte Lakaien mit gepudertem Haar. Sie lasen
+Bücher – vorwiegend englische Romane. Die jüngeren Damen liebten das
+Radfahren und das Lawn-Tennisspiel ebenso wie ihre Schwestern in England
+und sie hatten auch begonnen Golf zu spielen. Beim Radeln trugen sie Rock-
+schösse. Sie tanzten viel und gut und sassen weit öfter zu Pferde als welche
+Engländerin immer ausserhalb der Aristokratie und des Landadels. Die Uni-
+versitätskollegien standen ihnen ebenso wie in Schottland offen und einige
+Dutzend Frauen hatten denn auch akademische Grade erworben. Doch gab
+es keine weiblichen Arzte oder Rechtsanwälte. Diejenigen, die in den Kampf
+ums Leben eintreten mussten, erwarben ihr Brot als Schulmeisterinnen, Fa-
+briks- oder Heimstättenarbeiterinnen oder als Dienstmädchen.
+Im Jahre 1893 verdienten etwa 14000 weibliche Wesen ihr Brot als
+Dienstboten. Das Dienstmädchen der Kolonie bildet den Gegenstand zahl-
+reicher Mythen. Von ihm werden zumindest ebenso viele Geschichten erzählt,
+wie von den Schlangen Australiens oder den Winden Neuseelands. Es ist die
+alte Fabel von Asops Bildhauer, der in einer Marmorgruppe einen Löwen von
+einem Manne erwürgen lässt; hätte ein Löwe eine Marmorgruppe erzeugen
+können, so wäre das Resultat gewiss das umgekehrte gewesen. Die Artikel,
+welche man über den häuslichen Dienst in den Kolonien liest, sind nicht von
+Köchinnen und Mägden geschrieben worden. Ihre Verfasser sind die „gnä’
+Frau“ oder andere zur selben Klasse wie die „Herrschaften“ gehörende Per-
+sonen. Deshalb hören wir auch so vieles über die Faulheit, Unbeständigkeit,
+Ungeschicklichkeit und Widerspänstigkeit der Dienstmädchen. Achtbare Welt-
+bummler versichern, dass diese Haushaltungstyrannen übermässige Löhne
+fordern und erhalten, dass nichts Bescheidenes an ihnen ist als die Summe
+ihrer Dienstleistungen, welche sie für genügend halten. Es wird erzählt,
+dass sie keine Häubchen tragen wollen und diese Abzeichen der Knechtschaft
+verächtlich zu Boden schleudern, wenn eine vermessene, frisch aus England
+eingeschiffte Dame ihnen dasselbe anbietet. Wenn sie einen Platz suchen, so
+lachen sie über Anfragen nach Referenzen früherer Herrinnen und erklären
+der Sitte, von den Bewerberinnen „Zeugnisse“ ihrer früheren Herrschaften zu
+verlangen, den Krieg. Der Satz Popes: „Most women have no character at
+all“ ist hinsichtlich der Dienstmädchen in Australien oft genug zitiert wor-
+den. Sie sollen ihre Abende angeblich zu grossen Gelagen ausserhalb des
+Hauses oder zur Gewährung von Gastfreundschaft im Hause verwenden.
+Weihnachten, lokale Wettrennen, kleinere Festlichkeiten bieten den launen-
+haften Dienstboten Ausreden in Fülle, zu kündigen oder ohne Geräusch und
+viele Worte auszutreten. Zeigt einmal die eine oder die andere Bereitwillig-
+keit, Geschick und Verwendbarkeit, so wird sie sicherlich von irgend einem
+kraftstrotzenden jungen Kolonisten weggeschnappt, der auf der Suche nach
+einer Gattin ist. Und trotzdem man glauben sollte, dass die Bedingungen
+eines derartigen Dienstes verlockende sind, lesen wir doch fortwährend, dass
+nichts die in der Kolonie geborenen Mädchen veranlassen könne, Dienste an-
+zunehmen. Die Klasse der Dienstmädchen muss aus Grossbritannien rekru-
+tiert werden, da sie sonst aussterben würde.
+Dieses Gemälde mag vor dreissig Jahren eine nette Karikatur gewesen
+sein, aber eben nur eine Karikatur; heute ist es ein sinnloses Pasquill auf
+die Dienstmädchen, wie sie 1893 gewesen sein sollten. Man könnte ebenso
+gut die Skizzen Bret Hartes über die Gesellschaft in Brüllfeld und Bocks-
+grund als wahrheitsgetreue Schilderungen des Bostoner Familienlebens an-
+nehmen. Gewiss, in den entlegenen Winkeln Neuseelands war das Dienst-
+mädchen vor zehn Jahren eine seltene und seltsame Erscheinung. Im übrigen
+aber war das Angebot gleich der Nachfrage und das Durchschnitts-Dienst-
+mädchen sauber, energisch und ziemlich tüchtig. Die Löhne der Dienst-
+mädchen stellten sich in der Regel 60 % höher als die in London gezahlten.
+Doch gab es damals nur sehr wenige Familien, die mehr als drei weibliche
+Dienstboten hielten. Ammen, Hausmädchen und selbst Köchinnen suchten
+sich gewöhnlich in so verschiedenartiger Weise nützlich zu machen, dass es
+bei den Londoner Dienstboten mit ihren entschiedenen Ansichten über die
+Arbeitsteilung im Haushalte Staunen erregen würde. Kräftig, flink und will-
+fährig, verdienten sie zum grösseren Teile gar wohl ihre hohen Löhne; sie
+trugen Hauben, wenn man es verlangte und liessen sich keine unverschämten
+Manieren oder Vertraulichkeiten zu Schulden kommen. Sie erwarteten, als
+Mitmenschen, aber nicht als Angehörige der Familie ihres Brotgebers be-
+handelt zu werden. Ebensowenig pflegten sie einen guten Platz unüberlegt
+zu verlassen; eine rücksichtsvolle Herrin verlor ihre Dienstboten selten anders
+als durch deren Verheiratung. Da die Anzahl der Jungfern im Vergleiche
+zu jener der Junggesellen im Steigen begriffen war, hatte die relative An-
+zahl guter Köchinnen und Dienstboten, die zum Altar geführt wurden, im
+Jahre 1893 abgenommen. Auf der Insel geborene Mädchen nahmen bereit-
+willig genug Dienste an.
+So beliebt auch das Fabriksleben war, wurden doch viele Fabriks- und
+Heimarbeiterinnen ärmlich genug bezahlt; im übrigen erhielten die weib-
+lichen Arbeiterinnen bedeutend bessere Löhne als im Mutterlande. Einige
+hatten begonnen, sich als Telephonistinnen, Maschinschreiberinnen und Buch-
+halterinnen eine annehmbare Existenz zu schaffen. Die meisten wurden selbst-
+verständlich Gattinnen und Mütter, und die handfesten Landfrauen – Gattin-
+nen und Töchter von Farmern und Schäfern oder Gefährten der Bergleute,
+Scherer und Holzhauer –, die die Gebieterinnen der Meierhöfe und Land-
+häuser in den Wäldern des Westens oder in den Grasniederungen der öst-
+lichen Niederlassungen waren, bildeten eine genügende Gewähr dafür, dass
+die Rasse der Insel körperlich und geistig gesund sein werde. Sie kannten
+im allgemeinen ebenso wenig die gemeineren Laster der Welt, waren ebenso
+rein, ebenso voller Barmherzigkeit und Liebe, ebenso bestrebt, das Leben an-
+genehm zu gestalten, ebenso sehr zu gut für die Durchschnittsmänner, wie
+es die Frauen überall zu sein pflegen.
+Das Parteileben brandete vor acht Jahren in Neuseeland gar stark
+und der Wahlkampf war ein heftiger. Die Feuertaufe des Frauenstimmrechtes
+bildete ein genügend lebhaftes Ereignis. Die vom Oberhause zurück-
+gewiesene Land- und Arbeitspolitik der Progressisten erwartete das Urteil
+des Landes und es gab Gegenströmungen in der Form des Verbotes geistiger
+Getränke und des Verlangens der Kirchen nach dem Bibellesen und nach
+Unterstützung ihrer Schulen. Es gab eine Fülle von Kandidaten – die
+Diäten der Parlamentsmitglieder waren das Jahr zuvor auf 20 £ monatlich
+erhöht worden. Bischöfe harangierten ihre Herden, Geistliche traten als
+Kandidaten auf; die katholische Hierarchie, welche früher die Reform heftig
+bekämpft hatte, beeilte sich nun, sie auszunützen; die Spirituosenhändler
+entfalteten zum ersten Male ihre ganze organisierte Kraft. Anderseits wurde
+voller Gebrauch von der Kanzel gemacht und die Puritaner der Mässigkeits-
+vereine wandten sich mit Inbrunst dem Gotte der politischen Kämpfe zu – von
+der Überzeugung durchdrungen, dass eine grosse Erlösung von dem Trinkfluche
+bevorstehe. Aber weder die Predigten noch die Hirtenbriefe beunruhigten be-
+sonders den starrköpfigen Seddon, der sich mit grosser Freude in dieses erste
+grosse Handgemenge seiner Premier-Ministerschaft stürzte. Er war hier, dort
+und überall, Energie und Lebenskraft bekundend, welche für ein halbes
+Dutzend Führer genügt hätte; seine mächtige Stimme und sein joviales
+Wesen spornte die Anhänger der Regierung in zahlreichen Wählerversamm-
+lungen an. Im grossen Ganzen nahmen die Frauen diesen Wirrwarr mit
+wunderbarer Kaltblütigkeit auf. Sie wichen den Ausschussarbeiten nicht
+aus, waren flinke Stimmenwerber und strömten zu Tausenden in die Ver-
+sammlungen, wo ihnen unter gemeinsamer Zustimmung die vordersten Sitz-
+reihen eingeräumt wurden. Aber weit entfernt, irgendwelche hysterische
+Aufregung zu bekunden, sassen sie Reihe auf Reihe, in gespannter Auf-
+merksamkeit, fast ohne einen Laut, den Rednern lauschend, wobei ihre dunkle
+Kleidung und ihr noch düsteres Schweigen, ihre leidenschaftslosen Gesichter
+und ihre Ruhe die jungen Redner abspannten und den Mut selbst der
+Veteranen der Wahltribünen dämpften. Es bedurfte sorgfältiger Vorbereitung,
+um sie zum Beifallklatschen zu veranlassen, und überzeugender Beweisfüh-
+rung, um sie den politischen Gebrauch der Schuhabsätze und Schirme zu
+lehren. Jene war schon ein kühnes Weib, die ihrem Geschlechte beibrachte,
+was mit dem Schwenken weisser Taschentücher erzielt werden könne, wäh-
+rend die kühneren Geister, die es zuerst gewagt, Danksagungen zu unter-
+stützen, gar grosse Beklemmungen überstehen mussten. Die ersten Wähle-
+rinnen, die bei den Wählerversammlungen mit Blumensträusschen für die von
+ihnen begünstigten Kandidaten erschienen, getrauten sich noch nicht, ihre
+Gabe persönlich zu überreichen, einem Manne – gewöhnlich einem jungen
+Manne – wurde die Aufgabe übertragen, die Blumen mit einer Verbeugung
+zu überreichen oder sie dem Champion auf der Rednertribüne enthusiastisch
+zuzuwerfen.
+Die Wahlagenten und Wahlkommissäre erwarteten den Wahltag mit
+Angst, die Politiker mit Zweifeln und die Frauen mit dem Gefühle ange-
+nehmer Erregung, die Abstimmung könnte Überraschungen im Gefolge haben.
+Man durfte erwarten, dass die Fabriksarbeiterinnen und Ladenverkäuferinnen
+für die Partei der Arbeitergesetze stimmen, die staatlichen Schullehrerinnen
+der nationalen Erziehung blind ergeben sein und die Küchenfeen und Kammer-
+zofen nach den Einflüsterungen der Priester abstimmen würden. Über diese
+Erwartungen hinaus jedoch konnte man nichts Gewisses behaupten. Die
+grosse Menge erwartete einen Zudrang und eine Verwirrung, trotzdem doppelt
+so viel Wahlbuden vorbereitet worden waren als sonst. Gar manch besorgter
+Wahlagent konnte Nächte vorher nicht mehr schlafen oder träumte von be-
+geisterten Anhängerinnen, die auf den Stimmzetteln aus Versehen den Namen
+seines Kandidaten statt des Namens des Gegners ausstrichen. In Neuseeland
+finden sämtliche Parlamentswahlen an einem Tage statt, und 1893 war der
+Wahltag für den 28. November festgesetzt worden. Die Frauen begannen
+zeitig – gegen 9 Uhr – abzustimmen und infolge eines freundschaftlichen
+Übereinkommens wurden ihnen in den Städten bestimmte Wahlbuden bis zur
+Mittagsstunde überlassen. Die Neuseeländer Wähler dürfen bei jeder be-
+liebigen Wahlurne ihres Bezirkes abstimmen. In mehreren Bezirken trugen
+die Wahlkomitees dafür Sorge, dass die erste Stimme von einer Frau abge-
+geben werde. Die Gattinnen der Arbeiter brachen frühzeitig vom Hause auf
+und legten für den Gang zum nächsten Wahlplatze ihren besten Staat an.
+Zuweilen wurden sie von ihren männlichen Verwandten begleitet, denn der
+Wahltag galt überall als allgemeiner Feiertag. Oft besprachen die Frauen
+benachbarter Familien einen gemeinsamen Ausflug und machten sich zu-
+sammen auf den Weg. Zwischen zwölf und zwei Uhr verdrängte die Mittag-
+mahlzeit die Politik; nachmittags strömten die Frauen abermals zu den Wahl-
+buden und hatten bis zur Theezeit fast alle abgestimmt, ehe der Andrang der
+Arbeiter zu den Wahlurnen sich fühlbar zu machen anfing. Alles ging höf-
+lich und in Ordnung, ohne Roheit, Balgerei oder Hysterie vor sich. Gut-
+mütige Nachbarn übernahmen es, abwechselnd nach den Kindern zu sehen,
+bis die Abstimmung erfolgt war. Jede Frau versah sich gewissenhaft mit
+ihrer Nummer und im grossen Ganzen überstanden die Novizen die Feuer-
+probe mit Erfolg. Das Verhältnis der verdorbenen Stimmzettel war nur um
+ein geringeres grösser als bei früheren Wahlen. Als die Wahlbuden um
+7 Uhr abends geschlossen wurden, hatten 90000 Frauen friedlich abgestimmt.
+In den Städten warteten von 9 Uhr an Gruppen von Männern und Frauen in
+den Strassen geduldig auf das Resultat der Wahlen nicht blos ihres Bezirkes,
+sondern des ganzen Bundesstaates. Die Tausende von Bürgern hielten eine
+musterhafte Ordnung aufrecht. Sie plauderten, lachten und schwatzten, die
+Kinder rannten jauchzend umher. Keine Spur von Trunkenbolden oder Bru-
+talitäten. Jede Partei begrüsste die auf die Anschlagsäulen gehefteten Er-
+gebnisse mit Abwehr oder Akklamation. Das Interesse war wohl ein leb-
+haftes; da es aber keine unverantwortliche, zu rohen Scherzen geneigte Menge
+ohne Stimmrecht gab, kam es auch nicht zu Ausschreitungen. Kurz nach
+Mitternacht war es im ganzen Lande bekannt, dass die Progressisten den Sieg
+davon getragen hatten, und mit einem Seufzer der Erleichterung oder der
+Resignation ging die Kolonie nüchtern zu Bette.
+Jede Schilderung der Rolle, welche die Frauen bei den Wahlen von
+1893 spielten, hat mit geringen Änderungen auch für die Wahlen von 1896
+und 1899 Geltung. Der einzige Unterschied bestand darin, dass das Gefühl
+der Neuheit und Nervosität schon vorüber war. Die Frauen fuhren fort, ohne
+Störung oder Verhinderung den weitesten Gebrauch von ihrem Wahlrechte
+zu machen – sie wurden im Gegenteil dazu ausdrücklich ermuntert. In
+mehreren Wahlbezirken übertraf die Anzahl der weiblichen Wähler jene der
+Männer – ein Resultat, welches die Männer mit fröhlicher Heiterkeit be-
+grüssten. Die erste Stadt, in welcher dieses weibliche Übergewicht beobachtet
+wurde, war Dunedin im Jahre 1896. Es bekundete sich naturgemäss ein
+Gefühl der Neugierde hinsichtlich der Wahl einer derart zusammengesetzten
+Wählerschaft. Die Wähler hatten unter 11 Kandidaten drei Volksvertreter
+zu wählen. Wäre die „bessere Hälfte“ der Wählerschaft für den Ausfall des
+Wahlaktes verantwortlich gewesen, so hätte derselbe dem Anscheine nach
+bekundet, dass die Liebe der Frauen zur Abwechslung auch auf das Gebiet
+der Politik übertragen worden sei. Während der erste und dritte Sieger
+Konservative waren, gehörte Nummer Zwei der Arbeiterpartei an. Der erste
+und der zweite waren hartnäckige Verfechter der weltlichen Erziehung, der
+dritte ein Anhänger der konfessionellen Schulen. Die Abwechslung war die
+Ordre des Tages, denn die drei früheren Mitglieder fielen durch die Bank
+durch. Scobie Mackenzie, der als erster hervorging, war ein glänzender,
+geschickter Redner, einer der besten des Staates. Damit aber daraus nicht
+gefolgert werde, dass die Herzen der Politikerinnen blos durch Rednergaben
+gewonnen werden können, bemerken wir, dass das dritte gewählte Parlaments-
+mitglied infolge eines hartnäckigen Halsleidens überhaupt gehindert war,
+Reden zu halten. Der als erster gewählte Herr hatte einige Schwierigkeiten
+zu überwältigen gehabt – war er doch in früheren Jahren, wie bereits
+erwähnt, einer der wenigen Gegner der Bewilligung des Wahlrechtes ge-
+wesen, die grössere Geistesfähigkeiten bekundeten. Mackenzie war übrigens
+der Gelegenheit gewachsen und versicherte den Damen freundlich, dass er
+sich ihnen aus der Ueberzeugung widersetzt habe, „nicht, dass das Wahlrecht
+für die Frauen zu gut sei, sondern dass die Frauen für das Wahlrecht zu
+gut wären“. Der Kampf war ein heisser gewesen und die englischen Blätter
+wussten Kabelnachrichten zu bringen, dass weibliche Wähler sich bei einem
+Meeting durch Rowdysmus befleckt hätten. Dies war jedoch zumindest eine
+Übertreibung. Das betreffende Meeting war eine belanglose, halb private
+Versammlung eines Frauenvereines gewesen – ein liebenswürdiger Geist-
+licher im Präsidentenstuhle war der einzige Vertreter des stärkeren
+Geschlechtes. Ein beharrlicher, jedoch unbeliebter Redner war mit Zischen,
+Schreien, Stampfen und Schirmschwenken begrüsst worden, sodass die
+Verhandlung auf kurze Zeit unterbrochen werden musste. Das war aber
+auch das Äusserste, was über diese Versammlung gesagt werden konnte. Bei
+einer viel grösseren, durchweg von Männern besuchten Versammlung,
+welche in derselben Woche in Dunedin abgehalten wurde, musste ein unglück-
+seliger Kandidat, nachdem er mit übelriechenden Eiern und ekelerregendem
+Grünzeug beworfen worden war, unter polizeilichem Schutze nach Hause
+geleitet werden.
+Der Anteil, welchen die Frauen an den bisherigen drei allgemeinen
+Wahlen nahmen, in welchen sie die Bürgerrechte genossen, ist aus den beiden
+folgenden Tabellen ersichtlich (siehe Seite 18).
+Im ersten der drei Wahljahre hatte es die Vernachlässigung der
+Wählerlisten verursacht, dass das prozentuelle Verhältnis der männlichen
+Wähler ein abnorm niedriges war. Am Ende dieses Jahres wurden die
+Wählerlisten mit Hilfe der einfachen und drastischen Methode gesäubert, dass
+sämtliche Namen gestrichen wurden, deren Träger bei den allgemeinen
+Wahlen ihre Stimmen nicht abgegeben hatten. Dieses Vorgehen wurde in
+Neuseeland seither gesetzlich eingeführt und die Listen sind deshalb auch
+seither ziemlich genau. Auch das Verhältnis der in die Wählerlisten ein-
+getragenen Frauen zu ihrer Gesamtanzahl im Staate war 1893 ein bedeutend
+niedrigeres als in den späteren Jahren. Selbstverständlich waren Jene, die
+am meisten bestrebt waren, von dem neuen Rechte Gebrauch zu machen,
+unter den Ersten registriert worden. Viele der Gleichgültigeren, die sich
+damit zufrieden gegeben hatten, während des sechswöchentlichen Andranges
+im September und Oktober 1893 weggelassen worden zu sein, wurden nach-
+träglich aufgesucht und veranlasst, sich eintragen zu lassen. Ein Teil dürfte
+zweifellos auch der Reaktion zugeschrieben werden, welche sich fühlbar
+machte, nachdem der Reiz der Neuheit vorüber war. Bei der zweiten und
+dritten allgemeinen Wahl, an denen die Frauen sich beteiligten, zeigte sich
+der Unterschied in den Verhältniszahlen der beiden Geschlechter zwischen
+Datum
+der
+Wahl	Anzahl
+der männlichen
+Erwachsenen
+nach
+Schätzung	Anzahl
+in den Wähler-
+listen	Verhältnis
+der männlichen
+als Wähler
+eingetragenen
+Erwachsenen	Anzahl der
+Wähler,
+die abgestimmt
+haben	Verhältnis
+der in die Listen
+eingetragenen
+Männer, die ab-
+stimmten
+1893
+1896
+1899	149539
+197002
+214773	193536
+196925
+210529	*)
+99:96 %
+98:02 %	129792
+149471
+159780	69:61 %
+75:90 %
+79:06 %
+Datum
+der
+Wahl	Anzahl
+der weiblichen
+Erwachsenen
+nach
+Schätzung	Anzahl
+in den Wähler-
+listen	Verhältnis
+der weiblichen
+als Wähler
+registrierten
+Erwachsenen	Anzahl der
+Wählerinnen,
+die abgestimmt
+haben	Verhältnis
+der registrirte n
+Frauen,
+die abstimmten
+1893
+1896
+1899	139471
+159656
+171373	109461
+142305
+163215	78:48 %
+89:13 %
+95:42 %	90290
+108783
+119550	85:18 %
+76:44 %
+75:70 %
+den Wählern, die in die Listen eingetragen waren und denen, die abstimmten,
+als ein sehr geringer. Es kann daher mit Recht behauptet werden, dass die
+Frauen im grossen Ganzen denselben Gebrauch vom Wahlrecht machen wie
+die Männer.
+III.
+Fünfzehn Monate lang war das Frauenwahlrecht ein Vorrecht Neusee-
+lands unter sämtlichen australischen Kolonien. Erst später, am 18. Dezember
+1894, genehmigte auch das südaustralische Parlament eine Wahlbill, welche
+das Wahlrecht abänderte, indem sie es allen Erwachsenen überhaupt ein-
+räumte. Der Kampf um diese Reform hatte in Adelaide kaum so lange ge-
+währt wie in Wellington und die meisten, denn nicht alle Züge des zweiten
+*) Die Anzahl der in den Listen eingetragenen männlichen Wähler übertraf zur
+Zeit der Wahl die Schätzung.
+Kampfes ähnelten jenen des ersten. In Südaustralien bestand ebenso wie in
+Neuseeland die erste Annäherung an das Wahlrecht der Frauen in dem Vor-
+schlage, allen Eigentum besitzenden Frauen das Stimmrecht einzuräumen.
+Einschlägige Bills wurden von Stirling 1885 und Caldwell 1889 eingebracht
+– beide ohne Erfolg. Immerhin wurde im Jahre 1888 eine Liga für das
+Frauenwahlrecht begründet, welche das Werk der Propaganda begann und es
+in den nächsten sechs Jahren mit einem Eifer fortsetzte, dass ihr tatsächlich
+ein erzieherischer Einfluss zugesprochen werden muss. Keine gleichwertige
+Körperschaft bestand in Neuseeland, wo lokale Spaltungen die Gründung der-
+artiger Vereine bedeutend schwieriger gestaltet hätten. Südaustraliens ge-
+ringere und zentralisiertere Bevölkerung ist zu solchen Gründungen beson-
+ders geeignet. Auf der Landkarte erscheint die Kolonie ungeheuer gross; für
+geschäftliche oder politische Zwecke jedoch scheint sich der ganze Staat um
+Adelaide herum zu gruppieren. Seite an Seite mit der Wahlrechtliga stand
+die viel grössere politische Kraft des Christlichen Mässigkeitsbundes der
+Frauen; wie anderswo, wurde auch hier die Agitation zum grossen Teile mit
+der Temperenzbewegung identifiziert. Die Empfänglichkeit für die Spiri-
+tuosenfrage war in Südaustralien zur Zeit der Krise des Wahlrechtskonfliktes
+nicht so lebhaft wie in Neuseeland, und die Gesamtheit der Abstinenzvereine
+der australischen Kolonien bekundete mehr Schlangenweisheit, als ihre
+Neuseeländer Brüder. Sie waren gut genug beraten, um gebieterische oder
+drohende Haltungen zu vermeiden, und sie hüteten sich, einen beträcht-
+lichen Teil des Publikums, das mit dem Getränkehandel sympatisierte, zu er-
+schrecken oder zu erzürnen. Sie waren jedoch nicht minder rührig und übten
+unbestreitbar den bedeutendsten praktischen Einfluss im Hintergründe der
+Agitation für das Wahlrecht aus. Wie in Neuseeland, stimmten auch hier
+die Parlamentsmitglieder der Arbeiterpartei wie ein Mann für die Sache der
+Frauen. Trotzdem trat die Angelegenheit in bedeutenderem Masse erst 1893
+in den Vordergrund. In den ersten Monaten dieses Jahres ergriff eine ge-
+schickte Progressistenregiernng unter Führung C. C. Kingstons, eines Radi-
+kalen von starken Ansichten, starkem Physikum und noch stärkerem Willen,
+von der Macht Besitz. Der lustige Kingston, der Bahnbrecher der obligato-
+rischen Arbeiterschiedsgerichte, hatte stets viele Freunde gehabt; aber vor
+1893 konnten ihrer nur wenige vermuten, dass er je als Verfechter der Frauen-
+rechte vor die Öffentlichkeit treten werde. Er war eigentlich sogar moralisch
+verpflichtet, das allgemeine Stimmrecht der Erwachsenen zu missbilligen.
+Doch sein Ministerium bildete eine Koalition und eine wiedervereinte Partei
+kann nur vermittelst Konzessionen zusammengehalten werden. Der Premier
+machte daher den Freunden des weiblichen Stimmrechts Zugeständnisse.
+Mehrere der südaustralischen Minister begünstigten nämlich die Gewährung
+des Frauenwahlrechts und einer glaubte mit grenzenloser Begeisterung daran.
+Dieser eine, Doktor (jetzt Sir John) Cockburn, war ein Londoner Arzt, der in
+Südaustralien nach seiner Einwanderung rasch in die Vorderreihen des poli-
+tischen Lebens gelangt war. Er war Ministerpräsident gewesen und hatte
+als erster eine progressive Bodensteuer durchgesetzt. Ein gebildeter Radi-
+kaler mit Idealen, von überzeugenden Manieren und mit gefälliger Redekunst
+begabt, war er der richtige Anwalt für eine Reform wie das Frauenwahl-
+recht. Er glaubte fest an dessen gesellschaftliche und politische Vorteile und
+scheute sich nicht, dieser Überzeugung mit den glühendsten Worten Aus-
+druck zu verleihen. Hauptsächlich seiner Angehörigkeit zum Kingston-
+Ministerium war es zuzuschreiben, dass im Juni 1893 eine Regierungsmass-
+regel eingebracht und durchgesetzt wurde, welche allen erwachsenen Frauen
+das Stimmrecht verlieh. In Südaustralien bedeutet das parlamentarische Wahl-
+recht mehr als in den anderen Teilen des britischen Reiches. Es schliesst
+nämlich das Recht der Abstimmung sowohl für das Ober- als auch für das
+Unterhaus ein, wenngleich das Wahlrecht in dem einen Falle nicht so aus-
+gedehnt ist wie im anderen. Die Bill von 1893 stellte die weiblichen und
+die männlichen Wähler hinsichtlich beider Häuser auf die gleiche Stufe. Sie
+enthielt jedoch einen besonderen und neuen Vorbehalt in Form einer Klausel,
+dass ihre Annahme der Bevölkerung des Bundesstaates durch das Referendum
+freigestellt werde. Die Frauen sollten durch die Abstimmung bekunden, ob
+sie das Gesetz wünschten, die Männer hingegen, ob sie wünschten, dass die
+Frauen das Stimmrecht erhalten. So vernünftig dies auch im Grunde ge-
+nommen war, so stürzten sich doch die Gegner des Wahlrechtes darauf als
+auf einen neumodischen und phantastischen Begriff, welcher ihnen eine Ent-
+schuldigung dafür bot, die Reform für jenes Jahr zu vereiteln. 1894 wurde
+die Bill neuerdings eingebracht – diesmal ohne jedes Referendum. Eine zu
+ihren Gunsten von 11000 Männern und Frauen unterfertigte Petition galt als
+genügender Beweis dafür, dass das Land den Sieg der Bill im Parlament
+wünsche. Die meisten Unterschriften dieses umfangreichen Dokumentes waren
+von der „Christlichen Temperenzunion der Frauen“ beschafft worden – ein
+Zeichen der Phase, in welche die Streitfrage nunmehr gelangt war. Da die
+Reform eine Verfassungsänderung bedingte, war in beiden Häusern die abso-
+lute Majorität erforderlich, damit sie Gesetzeskraft erlange. Das Oberhaus
+zählte 24, das Unterhaus 54 Mitglieder; es bedurfte daher in ersterem 13, in
+letzterem 28 Stimmen. Dank ihren Wahlerfolgen waren die Progressisten
+1894 in der ungewöhnlichen Lage, im Oberhause die Majorität zu besitzen.
+Die Bill wurde daher daselbst eingeführt und, nachdem sie die zweite Kam-
+mer passiert hatte, der gesetzgebenden Körperschaft übersendet. In letzterer
+währte der Entscheidungskampf drei Monate. Wochen hindurch fand Cock-
+burn es unmöglich, die erforderliche Stimmenanzahl zu erlangen. Die Kräfte
+der beiden Parteien hielten sich so genau das Gleichgewicht, dass die Ab-
+wesenheit eines einzigen Unterstützers verhängnisvoll werden konnte. Schliess-
+lich gewann der Konflikt ein groteskes Ansehen: die Gegner der Massregel
+zogen die Debatte jeden Abend bis 11 Uhr hin, zu welcher Zeit ein ältlicher,
+kranker Unterstützer der Bill regelmässig nach Hause zu Bette ging. End-
+lich wurde die Obstruktion durch einen Zufall beendet. Man machte die
+Obstruktion eines Tages glauben, dass ein Freund der Bill fortgegangen sei
+und sie daher die Abstimmung zulassen könnten. In Wirklichkeit war jedoch
+der fragliche Gentleman nicht fortgegangen, sondern wurde in einem Vor-
+zimmer durch einen Emissär der Regierung zurückgehalten, der ihn für die
+wenigen nötigen Minuten mit heiteren Gesprächen hinhielt. Auf diese Weise
+wurde die magische Zahl von 28 gesichert und die Frauen erhielten das Wahl-
+recht. Vergebens fügten die Gegner im Ausschuss zwei gefährliche Amende-
+ments hinzu, deren eines den Frauen auch das passive Parlamentswahlrecht
+einräumt, während das andere ihnen das Vorrecht gewährt, schriftlich ab-
+stimmen zu dürfen, wenn ihre Wohnungen über drei engl. Meilen von einer
+Wahlbude entfernt oder wenn sie durch ihren Gesundheitszustand am per-
+sönlichen Erscheinen verhindert wären. Die Wahlrechtpartei nahm lieber die
+beiden unverlangten Begünstigungen an, um nur nicht die Früchte ihres
+Sieges aufzugeben, und der Konflikt endete damit, dass den Frauen die
+politischen Rechte in ihrer vollständigsten Gestaltung eingeräumt wurden.
+Die Bill wurde am 18. Dezember 1894 morgens angenommen. Sie war
+jedoch der Genehmigung Ihrer Majestät vorbehalten und musste zu diesem
+Behufe nach England übersendet werden. Die Genehmigung wurde in
+Adelaide durch eine Kabelbotschaft am 9. Februar 1895 verkündet, die Zu-
+stimmungsurkunde traf aber erst am 17. März ein. Es lag jedoch kein
+Grund zur Eile oder Besorgnis vor, wie dies in Neuseeland der Fall gewesen,
+denn die allgemeinen Wahlen sollten erst am 25. April 1896 stattfinden. Es
+blieb daher Zeit genug für die Anlegung der Wählerlisten und diese Arbeit
+wurde so gründlich durchgeführt, dass von kaum mehr als 80000 Frauen des
+Staates nahezu drei Viertel unverzüglich eingetragen wurden. Der Wahlakt
+selbst ging in derselben gemütlichen, geordneten Weise vor sich und bot fast
+die gleichen Szenen, wie sie sich siebzehn Monate vorher in Neuseeland ab-
+gespielt hatten. Das Resultat vermehrte nicht – wie in der Inselkolonie –
+die Majorität der Progressisten, verminderte sie aber auch nicht merklich.
+Weder bei dieser Wahl, noch drei Jahre später – 1899 – machten die
+Frauen besonderen Gebrauch von dem Rechte der schriftlichen Abstimmung,
+wie man geglaubt hatte. Die folgenden Ziffern zeigen das Verhältnis der
+beiden Geschlechter, die bei den zwei allgemeinen Wahlen in den Listen ein-
+getragen waren und abgestimmt hatten.
+All-
+gemeine
+Wahl	Registrierte Wähler	Abgestimmt haben
+Männer	Frauen	Gesamtsumme	Männer	Frauen	Insgesamt
+1896	77972	59044	137781	51668	39355	93348
+1899	83698	68695	152393	54972	38438	93410
+Aus diesen Ziffern ist ersichtlich, dass im ersten Jahre das Verhältnis
+der Abstimmenden bei 137781 eingetragenen Wählern 66:30 % erreichte
+und dass die Frauen von ihrem Rechte ausgedehnten Gebrauch machten.
+1899 war das Verhältnis bei beiden Geschlechtern ein niedrigeres, doch war
+der Niedergang bei den Frauen ein beträchtlicherer als bei den Männern.
+Aber selbst damals erreichte die Anzahl der von Frauen abgegebenen Stimmen
+eine bedeutende Höhe, indem sie weit mehr als die Hälfte der Eintragungen
+ergab. Bei keiner der beiden Wahlen war eine Frau als Parlaments-
+kandidatin aufgetreten. Immerhin wurde Miss Spence annimiert, Südaustralien
+in der Bundesversammlung von 1897 zu vertreten und sie erhielt bei der im
+März desselben Jahres stattgehabten Wahl 7000 Stimmen – eine Ziffer,
+welche einer sehr beachtenswerten Minorität entspricht.
+Die Annahme des Frauenwahlrechtes im Parlamente von Westaustralien
+im Juli 1899 war eine unerwartete und die Umstände, unter welchen sie er-
+folgte, einigermassen sonderbar. Die Bevölkerungsstatistik Westaustraliens
+wies ein seltsames Verhältnis der beiden Geschlechter auf. Die Flut der
+Goldsucher, welche sich sechs Jahre hindurch über das Land ergoss, bestand
+vorwiegend aus erwachsenen Männern, sodass dort Ende 1899 nahezu doppelt
+so viele Männer lebten als Frauen. Bei einer Bevölkerung von 171000 Per-
+sonen gab es weniger als 59000 Frauen und von diesen waren mehr als die
+Hälfte unter 15 Jahre und sieben Achtel unter 45 Jahre alt. Blos 610 Frauen
+hatten einbekanntermassen das Alter von 65 Jahren überschritten, sodass die
+abgenützten Scherze gegen die weiblichen Politiker in Westaustralien nur
+wenig Anwendung finden konnten. Diese eigentümlich geringe Zahl Bejahrter
+war keinesfalls einem ungesunden Klima zuzuschreiben, denn das Klima des
+südwestlichen Teiles Australiens ist dem Erreichen eines hohen Alters eher
+günstig als nicht. Sie bildete blos den Beweis der ausserordentlichen Jugend
+des Staates. Während, wie eben erwähnt, die Hälfte der Weiber im Alter
+von unter 15 Jahren stand, waren blos zwei Siebentel der Männer unter
+diesem Alter. Bei der Erwägung der Möglichkeit des Frauenwahlrechtes
+hatte Westaustralien daher keine so grosse Menge neuer unerfahrener Wähler
+zu gewärtigen als andere Kolonien, denn es entfielen auf 70000 grossjährige
+Männer bloss 20000 grossjährige Frauen. Dies hatte jedoch nicht viel mit
+der unerwarteten Entscheidung zu tun gehabt. Die Ursache derselben lag
+wohl in den eigentümlichen Bevölkerungsverhältnissen der Kolonie, aber
+nicht in dem geringen Verhältnisse der weiblichen Wähler zu den männlichen.
+Sie verdankte ihren Ursprung der Spaltung der Bevölkerung in zwei Klassen:
+die alte und die neue, die Grundbesitzer und die Goldsucher, das angesiedelte
+herrschende Element und die eingewanderten Ausländer. Die letzteren, die
+Männer der Goldfelder, waren – nachdem sie Jahre hindurch für ein
+grösseres Ausmass politischer Rechte gekämpft – 1899 nahe daran, sie zu
+erhalten. Sie sollten eine kräftige Vertretung im Parlamente zu Perth be-
+kommen. Sir John Forrest war auf dem Sprunge, abzudanken und wenige
+Monate später sollte seine zehnjährige Diktatur ihr Ende erreichen. Die
+alte Ordnung war dem Untergange nahe und die herrschenden Familien
+fühlten den Boden unter ihren Füssen schwanken. Die Politiker der alten
+Ansiedelungsbezirke lugten ängstlich nach Mitteln aus, welche die Kraft der
+drohenden Flut zu brechen geeignet wären. Sie glaubten dieselben im
+Wahlrechte der Frauen gefunden zu haben. Die erwachsenen Frauen
+waren in den älteren Bezirken naturgemäss in weit grösserer Zahl vertreten,
+als in den wilden Bergwerksansiedelungen der Wüstenei. Durch die Bewillig-
+ung des Frauenwahlrechtes würde die Majorität der Farmer und Viehzucht-
+Gegenden sowie der Seehäfen gesteigert und der Einfluss der Ausländer bis
+zu einem gewissen Grade neutralisiert werden. Im Jahre 1893 wurde dem
+Unterhause zu Perth ein Antrag betreffs Ausdehnung des Wahlrechts auf die
+Frauen unterbreitet. Er wurde damals und in den späteren Sessionen zurück-
+gewiesen und die Majorität gegen denselben war nicht geringer geworden.
+Sir John Forrest hatte aus materiellen Gründen dagegen Stellung genommen
+und war sogar so weit gegangen, 1898 die Erklärung abzugeben, dass er
+wohl wisse, die Änderung würde den alten Distrikten mehr Macht verleihen,
+dass er aber dieses für keinen genügenden Grund halte, dem Antrage zuzu-
+stimmen. Andere Politiker waren anderer Ansicht. Zu gleicher Zeit der be-
+vorstehenden Föderation und der wachsenden Stärke der Goldfelder sich gegen-
+über sehend, beschloss der „alte Young“, als letzte Karte die Königin
+auszuspielen. So geschah es, dass das Parlament am 12. Juli 1899 mit 17 gegen
+6 Stimmen den Beschluss fasste, Vorkehrungen für die Einräumung des Wahl-
+rechtes an die Frauen zu treffen. Es kann nicht behauptet werden, dass der
+Ton der Debatten bei diesem nicht unwichtigen Anlasse ein erhabener oder
+auch nur animierter gewesen wäre. Aber von all den trostlos geistlosen
+Diskussionen über diesen Gegenstand bildete die zu Perth vielleicht die
+platteste und mittelmässigste. Der Antragsteller der Resolution, Walter James,
+fasste sich kurz und seine Worte waren nicht ohne Würde. Er hatte die
+Reform von jeher unterstützt und nahm nun mit vollständiger Befriedigung
+die ihr so plötzlich zu teil gewordene Unterstützung an, ohne sich in Sar-
+kasmen oder falschen Gefühlsergüssen zu ergehen. Er bemerkte blos mit
+einem Anstrich von Ironie: „Ich begreife, dass hier – zweifellos dank der
+vollständigen Diskussion, welcher die Frage unterworfen war – eine plötz-
+liche Bekehrung einer grossen Anzahl von Mitgliedern erfolgt ist.“ Im
+übrigen wies Redner mit berechtigter Genugtuung auf das wachsende Inter-
+esse hin, welches die Frauen des Staates der Reform entgegenbrachten, und
+er sagte voraus, dass sie einen regen, wohltätigen Anteil an den öffentlichen
+Angelegenheiten nehmen würden. Die einzige noch beachtenswerte Rede war
+Sir John Forrests Verteidigung seiner Bekehrung, welche darin gipfelte, dass
+die öffentliche Meinung des Staates sich zu der Änderung bekehrt habe und
+dass es nicht seine Aufgabe sei, Pläne des Volkes vereiteln zu wollen. Was
+die Beschuldigung der Ungerechtigkeit gegen die Wähler aus den Goldfeldern
+betrifft: waren sie nicht selber kräftig für das Wahlrecht der Frauen ein-
+getreten? Konnte es ein Unrecht gegen sie sein, ihnen das zu gewähren,
+was sie forderten? So wurde denn die Resolution, nachdem die neuen Kon-
+vertiten mit Auszügen aus ihren früheren gegen die Reform gerichteten
+Reden geneckt worden waren, mit Dreiviertelmajorität angenommen.
+Der Sieg war ein entscheidender, wenn auch einige Begleitumstände
+kaum Enthusiasmus erweckten. Allmählich lehrte die Erfahrung auch, dass
+alle, die ihre Berechnungen darauf gebaut hatten, was die Frauen mit ihren
+Stimmen beginnen würden, sich getäuscht hatten. Die Frauen stimmten in
+Massen und wurden am Wahltage ebenso höflich behandelt wie in den
+übrigen Bundesstaaten. Doch die Föderation drang mit ausserordentlicher
+Majorität durch, und bei der ersten Wahl der Föderationsvertreter erzielten
+die Anhänger des Freihandels und der Arbeiterklasse augenscheinliche Erfolge,
+während die damals ohne ihren Chef kämpfende Forrestpartei aus ihrer führen-
+den Stellung verdrängt wurde.
+In Neusüdwales beantragte Sir Henry Parkes die Annahme des Wahl-
+rechtes bereits 1891, fiel jedoch damit durch. George Reid war der erste
+Ministerpräsident, der sich für das Wahlrecht in der Wahlkammer eine
+Majorität sicherte. Nach dem Sturze seines Ministeriums griff Bernhard Wise,
+Kronanwalt in dem an die Stelle Reids getretenen Ministerium, die Sache der
+Frauen auf. 1900 und dann wieder 1901 wurde eine Regierungsbill zur Aus-
+dehnung des Wahlrechtes auf die Frauen im Unterhause zu Sydney durch-
+gesetzt, um aber im Oberhause zu Falle gebracht zu werden. Im nächsten
+Jahre gestaltete der sogleich zu erwähnende Sieg einen weiteren Widerstand
+in Neusüdwales unlogisch. Im August 1902 wurde daher das Wahlrecht der
+Frauen von beiden Häusern bewilligt.
+Zwei Monate früher ereignete sich dasjenige, was viele Beobachter für
+den grössten bisher errungenen Erfolg der Anhänger des Frauenwahlrechtes
+bezeichnen dürften. Das Prinzip wurde in seiner ausgedehntesten Form vom
+Bundesparlament angenommen. Ja noch mehr, es wurde friedlich, ohne die
+geringste öffentliche Erregung adoptiert. Seine Anwendung in drei Bundes-
+staaten hatte bereits seine Harmlosigkeit erwiesen, was auch die heftigsten
+Gegner zugestehen mussten. Wohl behaupteten die letzteren auch, dass es
+nichts Vorteilhaftes geleistet hätte; aber es fanden sich Verteidiger, die anders
+dachten, und viele Parlamentsmitglieder waren geneigt, zu glauben, dass die
+wohltätigen Folgen in besseren Zeiten eintreten werden und willens, dafür
+eine billige Frist zu gewähren. Die Opposition war eine höchst sanfte.
+Ich will nur noch kurz den Verlauf der Wahlrechtagitation in jenen
+Bundesstaaten berühren, in denen die Frauen derzeit noch kein Stimmrecht
+besitzen. In Queensland und Tasmanien hat die Frage des Frauenwahlrechtes
+keinerlei nennenswertes Interesse erweckt. ln Victoria ist es im Unterhause
+des Parlamentes wiederholt durchgedrungen, um im Oberhause regelmässig
+abgelehnt zu werden.
+IV.
+In den Kolonien, die das Experiment gemacht haben, hat die Erfahrung
+gezeigt, dass die Frauen vom Stimmrecht Gebrauch machen, wenn sie es er-
+halten. Sie fürchten sich nicht, die Wahlurnen aufzusuchen. Auch versuchen
+es die Männer keiner Berufsklasse, sie hieran zu hindern. Bei den Wahlen
+giebt es keine Anzeichen von Unordnung. Der Zudrang der Frauen zu den
+Wahlbuden hat keine Unzukömmlichkeiten oder Roheiten im Gefolge gehabt.
+Die weiblichen Wähler als besondere Klasse eignen sich nicht, zur Zielscheibe
+des Spottes oder der Karikatur. Einige junge Herrchen der Cambridger
+Universität in England bekundeten 1897 mehr gröbliche Unverschämtheit gegen
+das weibliche Geschlecht, als der Strassenpöbel dreier australischer Bundes-
+staaten binnen acht Jahren. Die Wahlen waren in früheren Jahren ruhig
+und sie sind es auch heute. Die einst so häufigen Schilderungen vermeint-
+licher häuslicher Misshelligkeiten, vergessener Kinder, vernachlässigter Gatten,
+ungekochter Diners, nachlässiger Kleidung und Haltung als Folgen des weib-
+lichen Stimmrechts sind fast ganz aus dem Gedächtnisse geschwunden. Wahl-
+ausschüsse berichten, dass Familien, die unter einem Dache wohnen, fast
+immer für dieselbe Partei abstimmen. Es ist ein alltäglicher Anblick, Mann,
+Gattin und erwachsene Kinder zusammen fröhlich nach den Wahllokalen pil-
+gern zu sehen. Das Familienoberhaupt ist ein wichtigerer politischer Faktor
+geworden als ehedem. Die Dienstboten folgen oft der Leitung des Herrn
+und der Herrin, obgleich es, wenn die letzteren konservativ sind, vorkommt,
+dass die Dienerschaft mit ihrer eigenen Klasse abzustimmen pflegt. Von den
+Katholiken stimmen die Irländer zumeist so, wie die Kirche sie dirigiert,
+wenn diese es überhaupt tut. Man kann derzeit nicht das geringste Anzeichen
+irgend einer beginnenden Umwälzung in Kleidung oder Lebensweise entdecken
+– kein Tragen von Gamaschen, kein Zigarettenrauchen, keine Verachtung
+der Ehe. Das Wahlrecht hat weder zu getrennten Haushaltungen, noch zu
+geteilten Rockschössen geführt. Es giebt wahrscheinlich zwanzigmal mehr
+„neue Frauen“ in London als in sämtlichen sieben australischen Bundesstaaten,
+wo Mrs. Lynn Lynton, wenn sie noch lebte, zumeist Gleichgesinnte fände.
+In Neuseeland und Südaustralien drängen sich die Frauen nicht zu den
+Gelehrtenberufen, obgleich im ersteren Staate eine Bill angenommen wurde,
+welche den qualifizierten Frauen die Ausübung der Praxis als Rechtsanwälte
+und Sachwalter gestattet und einige wenige Damen sich dies auch zu Nutzen
+machten. Neuseeland besitzt vielleicht ein Dutzend weiblicher Doktoren. Auf
+gesellschaftlichem und wirthschaftlichem Gebiete waren die Frauen keine
+Sklavinnen gewesen, bevor sie das Wahlrecht erhielten, und sie zeigten jetzt,
+da es ihnen eingeräumt war, keine Neigung, Tyrannen zu werden. Wir
+können wahrheitsgemäß behaupten, dass die Erfindung der pneumatischen
+Radreifen und der Sicherheitsfahrräder mehr dazu beigetragen hat, die Sphäre
+ihrer Lebensweise zu erweitern und ihnen freieren Spielraum zu gewähren,
+als der Besitz der politischen Rechte.
+Es ist derzeit keinesfalls leicht, mit einiger Sicherheit ihren Einfluss
+auf das öffentliche Leben zu skizzieren, ihre Tätigkeit von jener der Männer
+zu scheiden oder mit einiger Genauigkeit abzuschätzen, in welcher Weise sie
+den Lauf der Gesetzgebung beeinflusst haben. Im grossen Ganzen sind sie
+einfach Bürger geworden, deren Anteil am öffentlichen Leben sich nicht
+scharf von jenem der Männer unterscheidet. Jene Frauen, die sich mit Poli-
+tik befassen, finden, dass dieselben Anschauungen und Interessen, welche die
+Männer in Parteien scheiden, auch sie zerklüften. Jene wieder, die ihre
+Köpfe nicht mit Politik beschweren, begnügen sich, mit ihrer männlichen
+Verwandtschaft oder ihrer Klasse abzustimmen. Hier und da beobachtet man
+eine Erscheinung, welche mit Recht ihrem Einflüsse zugeschrieben werden
+kann. So beschleunigten sie in Neuseeland das humane und verspätete Ge-
+setz, welches das Zustimmungsalter von 18 auf 16 Jahre erhöhte. Sie haben
+die Temperenzpartei gekräftigt, wenn auch weniger im Parlamente als bei
+den lokalen Optionswahlen. Bei der letzten solchen, im Dezember 1899 statt-
+gehabten Wahl wurden nicht weniger als 118575 Stimmen zugunsten des
+Trinkverbotes ohne Entschädigung der Wirte abgegeben. Es ist wahr, dass
+das lokale Optionsgesetz in der Session angenommen wurde, die der ersten
+Wahlbeteiligung der Frauen vorherging, aber viele der künftigen Erfolge
+dürften, wie ich glaube, ihr Werk sein. In Neuseeland sind die Progressisten,
+deren Politik nach der Ausdehnung des Wahlrechtes alsbald das ganze Land
+eroberte, nach einem ununterbrochenen Besitze von 11 Jahren noch immer am
+Ruder. Seddon pflogt zu bemerken, dass der „angeborene Konservatismus
+der Frauen“ sich darin äussere, drei Parlamentssessionen hindurch jenes
+Ministerium im Amte zu erhalten, welches sie daselbst vorgefunden hatten,
+als sie auf die Szene traten. Drei Jahre lang, von November 1895 bis No-
+vember 1898, hatte das Vorwärtsdringen der Progressisten nachgelassen, doch
+Ende 1898 konnten sie auf das Alterspensionsgesetz und auf die Erweiterung
+des Munizipalwahlrechtes hinweisen, und wenn sich auch das Jahr 1899 als
+minder fruchtbar erwies, so wurden 1900 doch wieder fortschrittliche Mass-
+regeln durchgesetzt. In Südaustralien wurde von 1896 an das Interesse von
+den sozialen Reformen abgelenkt und der Föderationsfrage zugewendet. Ein
+langer, zweifelhafter Kampf zwischen den beiden Häusern des Parlamentes
+über eine das Unterhaus betreffende Reform erforderte gleichfalls viel Zeit
+und Kraft; überdies wurden die Progressisten noch jahrelang durch Dürre
+und Missernten gehemmt. Immerhin wurden in letzterer Zeit Industrie- und
+Gewerbegesetze der fortschrittlichsten Art in Südaustralien angenommen.
+Wenn die Frauen wenig dazu beigetragen haben, auf diesen Gebieten den
+Fortschritt zu beschleunigen, so haben sie auch nichts getan, ihn zu ver-
+hindern. Sowohl in Süd- als auch in Westaustralien teilten sie mit den
+Männern die Begeisterung für die Föderation. Die Annahme eines Gesetzes
+zur Erleichterung der Ehescheidung im Jahre 1898 ist den Frauen zuge-
+schrieben worden – aber das gleiche Gesetz, die Stephenschen Akte von Neu-
+südwales, war schon Jahre hindurch in den beiden bedeutendsten australischen
+Bundesstaaten in Kraft, in welchen die Frauen kein Wahlrecht besassen. Es
+ist immerhin möglich, dass einige Stimmen zugunsten der Reform im Neu-
+seeländer Parlamente dem unter den männlichen Politikern verbreiteten Glauben
+zuzuschreiben waren, dass „die Frauen sie gern sehen“ würden. Die Alters-
+versorgung ist eine soziale Frage, von welcher bisweilen behauptet wird, dass
+die Abstimmung der Frauen auch sie in den Vordergrund gestellt habe. Aber
+in Australien gehören die beiden Bundesstaaten, welche diesen Versuch ge-
+wagt haben, nicht zu jenen, die das Wahlrecht ausdehnten. Es ist bedeut-
+sam, dass in Neuseeland die Frauen sich noch nicht um Parlamentssitze be-
+werben können und dass sie dies in Südaustralien, wo sie es dürfen, nicht tun.
+In der Hauptsache sind mithin die guten Erfolge der grossen Reform
+eher negative als positive gewesen. Sie haben fast sämtliche Prophezeihungen
+von Übelständen widerlegt, welche vor dem Versuche vom Stapel gelassen
+wurden. Aber mit Ausnahme des Beweises, dass die Frauen in drei freien,
+kräftigen und gebildeten britischen Gemeinwesen – welche zusammen an
+1400000 Seelen zählen – plötzlich auf einmal das Wahlrecht ohne den ge-
+ringsten Schaden für sich oder für andere erhalten können, hat die theoretische
+Umwälzung nicht Vieles bewiesen. Nach der Wahl von 1893 wurde Sir
+John Hall – in dieser Frage wohl der berühmteste Politiker – befragt, was
+für Erfolge in Neuseeland das Wahlrecht für die Kräftigung der Parteien
+gehabt. Seine Antwort lautete: „Ich glaube, gar keine“. Und dies ist heute
+ebenso wahr, wie es 1894 gewesen. Wir können ferner darauf verweisen,
+dass die Tonart des öffentlichen Lebens bisher kaum beeinflusst worden ist.
+Wir finden vielleicht weniger Rohheit und mehr Gewandtheit in der nied-
+rigeren Gattung der öffentlichen Reden; aber die natürliche und berechtigte
+Erwartung, dass unerwünschte Männer grössere Schwierigkeiten finden würden,
+die Öffentlichkeit zu betreten als bis dahin, ist in keinem der Bundesstaaten
+in Erfüllung gegangen. Bis auf 2 oder 3 % waren alle Parlamentsmitglieder
+immer zumindest ehrenwerte Männer gewesen. Bis auf denselben geringen
+Prozentsatz sind sie es auch heute. In dieser Beziehung ist keine Änderung
+eingetreten.
+Hiervon abgesehen, wäre es unvernünftig gewesen, zu erwarten, dass
+die Frauen binnen wenigen Jahren beginnen würden, irgendwelchen grösseren,
+ausgebreiteteren Einfluss auf die Politik auszuüben. Denn schliesslich bildet
+die Politik eine vielseitige, schwierige Wissenschaft, welche nur schwer be-
+herrschbar ist. Das Gewerbe der Politiker muss, wie jedes andere, erlernt
+werden und dieser Prozess ist ein langsamer und mühsamer. In den Kolonien
+wussten die wahlberechtigten Frauen anfangs von den öffentlichen Angelegen-
+heiten nicht viel mehr als die Kinder. Sie beginnen langsam sie kennen zu
+lernen. Sie beteiligen sich am Vereinsleben, diskutieren und lesen über
+öffentliche Fragen, wohnen den Versammlungen bei und bekunden für un-
+persönliche Staatsangelegenheiten ein Interesse, welches zehn Jahre vorher
+für ausserhalb ihres Lebenszieles gelegen gegolten hätte. Einige Frauen
+widmen ihre Aufmerksamkeit den lokalen und munizipalen Angelegenheiten.
+Der neuseeländische National Council of Women ist eine kleine Körperschaft,
+welche nur sehr geringen Anspruch darauf erhebt, die Frauen des Bundes-
+staates zu vertreten – ausgenommen jene, die sich der Prohibitionsbewegung
+anschliessen. Doch die bei ihren Versammlungen gehaltenen Vorträge sind
+zuweilen vortrefflich und die Diskussionen darüber interessant; sie bekunden
+den Anfang besserer Dinge und bilden zweifellos eine der Folgen des Wahl-
+rechtes. Wenn die Langsamkeit, mit welcher die direkten Folgen der grossen
+Reform auftreten, einige Beobachter enttäuscht hat, so ist das hauptsächlich
+darum der Fall, weil die darauf gegründeten Erwartungen und Hoffnungen
+nur zu häufig ausserordentlich übertrieben waren. Man hat 1893 und 1894
+so bedeutenden Erwartungen von einer gesellschaftlichen Umwälzung, von
+einer moralischen Wiedergeburt, von einer neuen Ära der Reinheit und von
+einer Reinigung der Augiasställe Ausdruck gegeben, dass die Langsamkeit
+des Fortschrittes naturgemäss einen Gegensatz bildete, welcher die Gegner
+verlocken musste, sich darüber weitläufig auszulassen. Und nicht blos die
+Redner dritten Ranges waren es, die die Sache des Frauenwahlrechtes über-
+trieben; eine Zitierung ihrer wässerigen Sentimentalitäten wäre eine Unbilligkeit
+gegen den Gegenstand, denn keine Angelegenheit sollte nach ihren schwäch-
+sten Verfechtern beurteilt werden. Doch betrachten wir einen Führer, einen
+Denker wie Sir William Fox, der im Vergleich mit den anderen Worte der
+Wahrheit und Nüchternheit sprach. Als das Haupt der Temperenzlerbewegung
+in Neuseeland nahm er natürlich das Prinzip des Frauenwahlrechtes 1878 an.
+Er sprach mit ungewöhnlichem Gewicht, denn er hatte damals schon eine
+35jährige Erfahrung im öffentlichen Leben hinter sich und war viermal
+Ministerpräsident gewesen. Er war ein gebildeter Redner und ein geschickter
+Schriftsteller, hatte viel gereist und war ein sorgfältig beobachtender, schlag-
+fertiger, ritterlicher Gentleman. Über den Vorschlag, den weiblichen Steuer-
+zahlern das Wahlrecht einzuräumen, sprechend, äusserte er sich über die
+Frauen wie folgt:
+„Sie sind an Verstand und Einfluss den Männern ebenbürtig; mehr als
+ebenbürtig betreffs ihres Einflusses auf jede Art weiser Gesetzgebung,
+mehr als ebenbürtig hinsichtlich jener Gefühle, welche den grössten Ein-
+fluss auf die Förderung der wahren Wohlfahrt eines Landes besitzen. Sie
+sind weniger der Gefahr ausgesetzt, an der Abgabe ihrer Stimme gemäss
+ihrer wirklichen Meinung gehindert zu werden. Sie haben keine Cliquen,
+keine Parteien, keine überlasteten Bankguthaben. Wenn eine Frau eine
+gute Angelegenheit vor sich sieht, geht sie gerade darauf los … Ich
+glaube, sie würden zumeist auf der rechten Seite abstimmen.“
+Doch die weiblichen Abstimmer sind weder die Engel, noch die Weisen,
+die sie sein müssten, um in einem halben Dutzend Jahren auch nur ein Viertel
+der an ihr Wahlrecht geknüpften Erwartungen zu erfüllen. Und wenn sie
+die Vorhersagungen der Unglückspropheten gänzlich Lügen gestraft haben,
+so haben sie auch – wenigstens bisher – ihren eifrigsten Verfechtern
+einigermassen Grund gegeben, ihre Ergüsse herabzustimmen. Es ist nicht das
+erste Mal, dass in Angelegenheiten, mit welchen die Frauen sich zu befassen
+herabgelassen haben, das Unerwartete eingetroffen ist. Seit Tausenden von
+Jahren schon gefallen sie sich darin, den Scharfsinn des anderen Geschlechtes
+herauszufordern und seine mühsamen Berechnungen mutwillig über den Haufen
+zu werfen. Es dürfte daher auch Niemanden Wunder nehmen, dass der Be-
+ginn ihrer politischen Laufbahn ein Beispiel mehr für ihre Geschicklichkeit
+bildet, die männliche Prophetenweisheit zuschanden zu machen.
+Im Juli 1902 machte eine Deputation englischer Frauen in Vertretung
+mehrerer Stimmrechtgesellschaften dem Premierminister des jungen austra-
+lischen Staatenbundes in London ihre Aufwartung. In seiner Antwort gestand
+Sir E. Barton, dass er früher ein Gegner des Frauenstimmrechtes gewesen,
+jedoch durch die Beobachtung der Ergebnisse, welche dessen Annahme im
+Gefolge gehabt, ein Anhänger der Bewegung geworden sei. Seine praktischen
+Erfahrungen bezüglich der Wirkungen des Frauenstimmrechtes hätten keinen
+einzigen der Übelstände bestätigt, deren Eintritt nach den Voraussagungen
+auf die Einführung desselben hätte folgen müssen. Was die Zukunft der
+Bewegung im Vereinigten Königreich betreffe, sei er nicht berechtigt, die
+die innere Politik des Landes betreffenden Angelegenheiten zu besprechen, doch
+könnten die anderwärts beobachteten Ergebnisse dazu dienen, einige der
+Zweifel und Befürchtungen zu zerstreuen, welche betreffs der Gewährung des
+Frauenwahlrechtes noch vielfach gehegt werden. Bei der Haltung, welche
+er hinsichtlich dieser Frage eingenommen, sei er nicht berufen, zu beweisen,
+dass das Wahlrecht der Frauen dem Staatswesen ungeheure Vorteile gebracht
+habe. Was zu betonen notwendig sei, wäre: dass die Sache, da sie logisch
+korrekt ist, bewilligt werden sollte, selbst wenn sie auch Übelstände im Ge-
+folge hätte. Das müsste die Stellungnahme praktischer Regierungs-
+kunst in dieser Sache sein.
+_
+</text>
+  </TextCorpus>
+</D-Spin>

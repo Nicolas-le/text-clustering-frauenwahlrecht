@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/nn_proletariat_1911</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-nn_proletariat_1911.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/nn_proletariat_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-nn_proletariat_1911.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/nn_proletariat_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-nn_proletariat_1911.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/nn_proletariat_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-nn_proletariat_1911.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/nn_proletariat_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-nn_proletariat_1911.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Proletariat, der Vorkämpfer für Frauenrecht</cmdp:title>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+                    <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+                        <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-09-28T08:27:36Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+<cmdp:respStmt>
+                    <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+                    <cmdp:resp>
+                        <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+                        <cmdp:date type="importDTA">2018-09-28T08:27:36Z</cmdp:date>
+                    </cmdp:resp>
+                </cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">2</cmdp:measure>
+        <cmdp:measure type="tokens">1078</cmdp:measure>
+        <cmdp:measure type="types">582</cmdp:measure>
+        <cmdp:measure type="characters">8355</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:03:29Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/nn_proletariat_1911</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/nn_proletariat_1911</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/nn_proletariat_1911</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/nn_proletariat_1911</cmdp:idno>
+          <cmdp:idno type="DTADirName">nn_proletariat_1911</cmdp:idno>
+          <cmdp:idno type="DTAID">32713</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32713-8</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="JA">[N. N.]: Das Proletariat, der Vorkämpfer für Frauenrecht. In: Frauenwahlrecht! Hrsg. zum Ersten Sozialdemokratischen Frauentag von Clara Zetkin. 19. März 1911, S. 3–4.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="a" type="main">Das Proletariat, der Vorkämpfer für Frauenrecht</cmdp:title>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Stuttgart</cmdp:pubPlace>
+            <cmdp:date type="publication">1911</cmdp:date><cmdp:publisher><cmdp:name>Dietz</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="j" type="main">Frauenwahlrecht!</cmdp:title>
+            <cmdp:biblScope unit="pages">S. 3–4</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Freie Universität Berlin</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">62 99 50908(7)</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                            <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: keine Angabe;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: wie Vorlage;
+                    Kolumnentitel: gekennzeichnet;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): als s transkribiert;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+                </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Frauenwahlrecht
+_____________________________________________________________
+Das Proletariat,
+der Vorkämpfer für Frauenrecht.
+Vom sozialdemokratischen Frauentag erschallt ein starker Ruf.
+Er bringt den Frauen, deren Sehnsucht nach freiem Menschen-
+tum wach geworden ist, die hoffnungsfrohe Zuversicht: ihr seid
+im Ringen für euer Recht nicht allein! Hinter eurer Forderung
+steht jederzeit die stärkste Macht unserer Tage und vor allem
+der Zukunft: Das klassenbewußt kämpfende Proletariat, wie es
+durch die Sozialdemokratie mit ihren drei Millionen Wählern
+und durch die freien Gewerkschaften mit ihren zwei Millionen
+Mitgliedern vertreten wird. Dieses stolze Heer muß dem Be-
+gehren nach der politischen Gleichberechtigung des weiblichen
+Geschlechts – als einer entscheidenden Etappe zum Ziel seiner
+vollen menschlichen Emanzipation – ein treuer und zuverlässiger
+Kämpfer bleiben. Die geschichtlichen Notwendigkeiten des prole-
+tarischen Befreiungskampfes selbst sind es, die Sozialdemokratie
+und Gewerkschaften auch zu Streitern für volles politisches
+Frauenrecht erheben.
+Jnmitten einer Gesellschaftsordnung, deren Wesen die ge-
+setzlich geheiligte Ausbeutung der vielen durch wenige ist, wo
+jeder Zollbreit Boden starrt von blutigem Unrecht, das sich als
+Recht spreizt, muß das kämpfende Proletariat hungern und
+dürsten nach sozialer Gerechtigkeit im höchsten Sinn des Wortes.
+Die zahllosen Leiden, welche die Klassenherrschaft der Besitzenden
+ihm schlägt, halten sein Mitgefühl für alle Unterdrückten und
+Unfreien lebendig und rein. Sein Gerechtigkeitssinn läßt sich
+nicht durch das Vorurteil der einen Hälfte
+der Gesellschaftsglieder gegen die andere
+täuschen. Das Recht, das es für sich be-
+gehrt, ist losgelöst von jedem sozialen Be-
+sitztitel, den die Vergangenheit geschaffen
+und geweiht hat. Es ist Menschenrecht, das
+Recht der Persönlichkeit als Anerkennung
+ihres Wertes für die Gesamtheit. Was
+aber das klassenbewußte Proletariat für
+sich selbst heischt, das kann es anderen
+Rechtlosen nicht verweigern. So gewinnt
+der Kampf für sein eigenes Menschenrecht
+die weitesten und erhabensten Horizonte:
+er wird zum Ringen um Menschheitsrecht.
+Um der Gerechtigkeit willen ist der Kampf
+des weiblichen Geschlechts auch der seine.
+Der Kultur wegen auch! Mit einem
+verächtlichen Lächeln schüttelt das kämp-
+fende Proletariat das Gerede von der
+Minderwertigkeit und Unreife des Weibes
+ab, das die Rechtsforderung entkräften
+soll. Hat es nicht dasselbe Geschrei auch
+gegen sein eigenes glühendes Begehren
+gehört, gleichberechtigt auf allen Gebieten
+des Gemeinlebens mitzuwirken? Folianten
+sind geschrieben worden, um wissenschaft-
+lich darzutun, daß die „königlichen Kauf-
+leute“ und die „genialen Hauptleute der Jndustrie“ eine be-
+vorzugte Rasse seien, durch der Natur hartes, aber wohltätiges
+Gebot selbst zum Herrschen und Ausbeuten über die gesetzt,
+welche die Schwäche ihrer Gaben in die sozialen Niederungen
+bannt. Das Proletariat hat solcher Behauptungen ungeachtet
+kühn sein Haupt erhoben. Es hat gewollt! Und siehe, trotz seiner
+Armut und seiner politischen Ketten hat es die bedeutsamsten
+Schöpfungen unserer Tage in die Geschichte gestellt: seine Or-
+ganisationen, die vornehmsten Träger der zeitgenössischen Massen-
+kultur. Jn den Wettern und Flammen seiner Kämpfe ist ein
+unübersehbarer Reichtum wirkender Kräfte emporgesproßt, sind
+ihm aus den eigenen Reihen Bahnbrecher und Führer erstanden.
+Und diese Klasse könnte an die ewig unabänderliche „Gnaden-
+wahl“ der einen Menschheitshälfte glauben? Nein und tausend
+mal nein! Das kämpfende Proletariat kann die Maßstäbe nicht
+gelten lassen, die das eine bevorrechtete Geschlecht an das andere,
+bevormundete anlegt. Es wertet die Geschlechter und ihre
+Leistungen nach ihrer besonderen Eigenart. Es weiß, daß das
+Weib seines eigenen Wesens Werte in seine Arbeit legen wird,
+so daß Männer- und Frauenwert, einander ergänzend, sich zu
+Menschenwerk zusammenfügen. Frauenrecht besagt auch für die
+Gesetzgebung und Verwaltung: Bereicherung der Gesamtheit. Das
+klassenbewußte Proletariat empfindet den Stolz und die Würde,
+seine Fahnen dem Fortschritt, der Kultur voranfliegen zu lassen.
+Dem Siege entgegen! Dem kämpfenden Proletariat hat die
+Geschichtsauffassung des Sozialismus das Auge geöffnet für
+die gesellschaftlichen Triebkräfte, die unaufhaltsam das Leben
+Frauenwahlrecht
+der Völker umwälzen. Aus dieser seiner Erkenntnis ist ihm
+gegen eine Welt von Feinden der hoffnungskühne Kampfeswille
+erwachsen und die opferbereite Siegeszuversicht. Das Proletariat
+kann nicht wähnen, daß des Weibes Los in der Gesellschaft
+dauernd die Unfreiheit sei, daß Verkommen, vergilbte Gesetzes-
+texte, Philisterweisheit, Geschlechts- und Klassenegoismus un-
+zerstörbare Dämme zu türmen vermöchten, hinter denen das
+altersgraue Unrecht für immer sicher wohne. Unbefangenen
+Blickes sieht es die Flut, die unwiderstehlich an diesen Dämmen
+rüttelt, und in ihrem ewigen Fluß erkennt es das Gesetz der
+nämlichen geschichtlichen Mächte, durch die es selbst als Träger
+der sozialen Revolution berufen wird. Die veränderte Pro-
+duktionsweise schafft mit gewandelten Existenzbedingungen den
+Frauenmassen eine neue soziale Lebensluft, in der das Weib als
+Persönlichkeit erwacht und wächst, in der es als Wehrlosigkeit und
+Schmach empfindet, was seine Mütter mit stiller Ergebung als
+selbstverständliches Geschick trugen. Es erneuert sich altes Be-
+geben. Erst die verlachten armseligen zwölf, dann die Hunderte,
+nun die Tausende, die ungezählten Tausende, die für die Frau
+Bürgerrecht fordern. Das erwachte Menschentum von Massen
+aber läßt sich nicht töten. Das kämpfende Proletariat grüßt der
+Frauen sicheren Zukunftssieg als eine Botschaft eigener Triumphe.
+Das Frauenwahlrecht rüstet ihm Mitkämpferinnen! Auf der
+Wanderung des Proletariats durch die brennende Wüste der
+bürgerlichen Ordnung zu den sonnigen Gefilden des Sozialis-
+mus ersteht in dem Verhältnis von Mann und Weib auf höherer
+Stufe die alte Lebens- und Kampfesgemeinschaft der Geschlechter,
+von der die Wander- und Kriegszüge der Germanen sagenhaft
+zu uns reden. Wie der einzelne Proletarier im Daseinskampf
+auf die Tätigkeit und Tüchtigkeit seiner Lebensgenossin ange-
+wiesen ist, also wird seine ganze Klasse ohne Unterschied des
+Geschlechts durch eine Gegenwartsnot und ein Zukunftsziel zu
+einer Kampfesgenossenschaft wider das Kapital und seine Ord-
+nung zusammengeschweißt. Der allzeit wache Klasseninstinkt der
+Besitzenden läßt sich nicht täuschen: er wertet jedes Ringen des
+Proletariats um einen Bissen Brot und einen Hauch Freiheit
+als ein Vorspiel der großen Schlacht am Birkenbaum um volle
+Erhebung und Befreiung. Es häufen sich die Gefahren, es steigen
+die Opfer der proletarischen Klassenkämpfe. Jn ihrer Gluthitze
+verflüchtigt sich der letzte Rest des Vorurteils gegen das „schwächere“
+Geschlecht, das der Proletarier als Erbteil einstiger geistiger Knech-
+tung durch bürgerliche Auffassung bewahrt haben könnte. Er ruft
+die wehrtüchtige Vollbürgerin als Waffengefährtin an seine Seite.
+Das Wahlrecht besagt politische Macht, bedeutet Erziehung zum
+richtigen Gebrauch der politischen Macht, und zur Eroberung der
+politischen Macht stehen die proletarischen Sturmkolonnen im ge-
+schichtlichen Blachfeld. Die geschulte, gleichgerüstete Proletarierin
+aber stößt nicht allein zu ihnen. Sie führt die Kinder in ihr
+Lager, die künftigen Soldaten der sozialen Revolution. Ohne
+die Frauen kann das Proletariat nicht die bürgerliche Gesell-
+schaft überwinden, ohne sie kann es nicht die sozialistische Ord-
+nung aufrichten.
+Es ist der Geschichte ew’ges Muß, das das Proletariat zum
+berufenen Vorkämpfer für Frauenrechte erhebt. An dem kraft-
+strotzenden Stamme seines Klasseninteresses erblühen die höchsten
+Menschheitsideale. Die Arbeiterklasse ist die Testamentsvoll-
+streckerin des sterbenden Liberalismus. Sie verwirklicht die von
+ihm proklamierten Menschenrechte, indem sie zum Männerwahl-
+recht das Frauenwahlrecht fügt und die Demokratie der Regie-
+rung: die Republik. Die bürgerliche Republik aber wandelt
+sie zur freien Zukunftsgesellschaft durch die soziale Revolution.
+Jhrem Lichte ist der Frauen Antlitz zugewandt.
+_______
+________________________________________________________________________
+</text>
+  </TextCorpus>
+</D-Spin>

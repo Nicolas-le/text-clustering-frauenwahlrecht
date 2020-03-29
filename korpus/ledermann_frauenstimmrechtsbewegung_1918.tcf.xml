@@ -1,0 +1,1801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/ledermann_frauenstimmrechtsbewegung_1918</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-ledermann_frauenstimmrechtsbewegung_1918.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/ledermann_frauenstimmrechtsbewegung_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ledermann_frauenstimmrechtsbewegung_1918.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/ledermann_frauenstimmrechtsbewegung_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ledermann_frauenstimmrechtsbewegung_1918.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/ledermann_frauenstimmrechtsbewegung_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ledermann_frauenstimmrechtsbewegung_1918.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/ledermann_frauenstimmrechtsbewegung_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-ledermann_frauenstimmrechtsbewegung_1918.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Zur Geschichte der Frauenstimmrechtsbewegung</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Ledermann</cmdp:surname>
+<cmdp:forename>Frieda</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+  <cmdp:date type="importDTA">2015-06-26T14:08:50Z</cmdp:date>
+</cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2015-06-26T14:08:50Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">48</cmdp:measure>
+        <cmdp:measure type="tokens">9878</cmdp:measure>
+        <cmdp:measure type="types">3218</cmdp:measure>
+        <cmdp:measure type="characters">78132</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:51Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/ledermann_frauenstimmrechtsbewegung_1918</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/ledermann_frauenstimmrechtsbewegung_1918</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/ledermann_frauenstimmrechtsbewegung_1918</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/ledermann_frauenstimmrechtsbewegung_1918</cmdp:idno>
+          <cmdp:idno type="DTADirName">ledermann_frauenstimmrechtsbewegung_1918</cmdp:idno>
+          <cmdp:idno type="DTAID">31320</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-31320-7</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Ledermann, Frieda: Zur Geschichte der Frauenstimmrechtsbewegung. Berlin, 1918.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Zur Geschichte der Frauenstimmrechtsbewegung</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Ledermann</cmdp:surname>
+<cmdp:forename>Frieda</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1918</cmdp:date><cmdp:publisher><cmdp:name>Arthur Scholem Buchdruckerei</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Bibliothek der Friedrich-Ebert-Stiftung</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">AKO 49685</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+<p>
+Bogensignaturen: keine Angabe;
+Druckfehler: keine Angabe;
+fremdsprachliches Material: keine Angabe;
+Geminations-/Abkürzungsstriche: keine Angabe;
+Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+i/j in Fraktur: keine Angabe;
+I/J in Fraktur: keine Angabe;
+Kolumnentitel: keine Angabe;
+Kustoden: keine Angabe;
+langes s (ſ): als s transkribiert;
+Normalisierungen: keine Angabe;
+rundes r (&#xa75b;): keine Angabe;
+Seitenumbrüche markiert: ja;
+Silbentrennung: wie Vorlage;
+u/v bzw. U/V: keine Angabe;
+Vokale mit übergest. e: keine Angabe;
+Vollständigkeit: vollständig erfasst;
+Zeichensetzung: wie Vorlage;
+Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Zur Geschichte
+der
+Frauenstimmrechtsbewegung
+Von
+Frieda Ledermann
+Berlin1918
+Arthur Scholem, Buchdruckerei, Berlin, Beuthstr. 6.
+Inhaltsverzeichnis.
+Der geistige Zusammenhang der Frauenbewegung
+und Frauenstimmrechtsbewegung.
+Einzelne Vorkämpfer der Frauenstimmrechtsbewe-
+gung.
+Die Beweggründe für die Stimmrechtsbewegung in
+einzelnen Bevölkerungsschichten: Selbständigkeit
+der Frau im Familien- und öffentlichen Leben,
+in Haus und Beruf.
+Darlegung der gesetzlichen Bestimmungen, betreffend
+Frauenwahlrecht in Reich, Staat und Gemeinde
+und in den Organen der Selbstverwaltung.
+Stimmrechtsbewegung in Deutschland.
+Gründung des Weltbundes für Frauenstimmrecht.
+Frauenstimmrecht im Ausland.
+Programmatische Stellung der Parteien in Deutsch-
+land zum Frauenstimmrecht.
+Gegenwärtige parlamentarische Stellung der Parteien
+zum Frauenstimmrecht.
+Die Frauenbewegung und die Frauenstimmrechts-
+bewegung sind in ihrem geistigen Zusammenhang
+nicht voneinander zu trennen. Ueberall, wo die
+Frauenbewegung festen Boden gewonnen hat, wo
+die vielseitigen Bestrebungen zur Hebung der sitt-
+lichen, geistigen und rechtlichen Stellung der Frau
+ein klares Programm, eine feste Organisation ge-
+schaffen haben, wird die Frauenstimmrechtsbewe-
+gung einsetzen. Sie wird bewußt oder unbewußt in
+die Erscheinung treten, wenn es gilt, den Frauen ein
+Mitbestimmungsrecht auf irgendeinem Gebiet einzu-
+räumen, auf welchem weibliche Interessen zu ver-
+treten sind und auf dem der Mann bisher allein
+zu entscheiden hatte.
+Frauenbewegung und Frauenstimmrechtsbewe-
+gung als organisierte Bestrebungen sind die Errun-
+genschaften des letzten Jahrhunderts.
+Von jeher schon haben aber hervorragende
+Denker beiderlei Geschlechts die Anerkennung der
+Frauen als gleichberechtigte Staatsbürgerinnen in
+deren eigenem Interesse und zum Wohle des Staa-
+tes gefordert.
+Es sei an Platos Lehre vom Staat erinnert,
+der den Frauen die Fälligkeit zuspricht, bei glei-
+cher Ausbildung den besten, zur Volkserziehung be-
+rufenen Bürgern zugesellt zu werden, an den Aus-
+spruch Condorcets (1742-92), des Präsidenten
+der gesetzgebenden Versammlung in Paris: „Wir
+halten es für eines der natürlichsten Rechte des
+Menschen, in gemeinschaftlichen Angelegenheiten ent-
+weder persönlich oder durch frei gewählte Reprä-
+sentanten zu stimmen. Ist es nicht in ihrer Eigen-
+schaft als fühlende und mit Vernunft begabte und
+sittlicher Ideen fähige Wesen, daß die Männer
+Rechte besitzen? Die Frauen sollten folglich die-
+selben Rechte haben. Entweder hat kein individu-
+elles Glied der Menschheit irgendwelches wirkliche
+Recht, oder alle haben das gleiche, und wer gegen
+die Rechte eines anderen stimmt, einerlei, welches
+seine Religion, seine Farbe, sein Geschlecht ist, der
+entsagt damit seinen eigenen Rechten.‟ Ebenso for-
+derte Mary Wollstonecraft schon 1795 in ihrem
+Werk: „Vindication of the rights of women‟ die
+Befreiung der Frau. Olympe de Gouges über-
+reichte dem Revolutionstribunal in Paris eine Peti-
+tion französischer Frauen um Gewährung politischer
+Gleichberechtigung, da die „Déclaration des droits
+de l'homme‟ nur für Männer galt.Hippel plä-
+diert 1772 in Deutschland in seiner Schrift über „Die
+bürgerliche Verbesserung der Weiber‟ für Gewäh-
+rung politischer Frauenrechte unter Hinweis auf die
+Verschiedenheit der Geschlechter, und er zeigt an
+geschichtlichen Beispielen, wie man von jeher den
+Herrscherinnen die politische Befähigung uneinge-
+schränkt zuerkannt hat. John Stuart Mill liefert
+den Frauen geistige Waffen für ihren Befreiungs-
+kampf mit seinem Werk „Die Hörigkeit der Frau‟.
+Er unterbreitete 1866 dem englischen Parlament die
+erste Petition zugunsten des Frauenstimmrechts. Unter
+den Vorkämpfern unseres Zeitalters zog Bebel in
+seinem Buch „Die Frau und der Sozialismus‟ die
+weitgehendsten Konsequenzen. Auch Bismarck
+hat in späteren Jahren geäußert, „er wünschte, die
+Wahlen ständen mehr unter weiblichem Einfluß, da-
+mit sie besser und nationaler ausfielen‟, und folgerte
+daraus: „Halten die Frauen fest zur Politik, so
+halte ich die Politik für gesichert.‟ Treitschke
+hat in seiner Schrift „Ueber die Freiheit‟ auf die
+Notwendigkeit politischer Bildung der Frauen hin-
+gewiesen, und seine prophetischen Worte „über den
+Anteil der Frauen am Geschick ihres Volkes‟ dür-
+fen besonders für die heutige Zeit gelten.
+Luise Otto-Peters war die erste deutsche
+Frau, die den Forderungen nach besserer Bildung,
+erweiterter Erwerbsmöglichkeit und sozialer Mit-
+arbeit der Frauen eine geschlossene Form gab. Sie,
+die Begründerin des Allgemeinen Deutschen Frauen-
+vereins und damit der organisierten deutschen Frauen-
+bewegung, hat, unter dem Einfluß der 48er Jahre
+stehend, voll erkannt, daß eine wirkliche Er-
+füllung dieser Wünsche nur auf Grund staatsbürger-
+licher Gleichberechtigung der Frauen zu erreichen
+sei. Sie hat in Wort und Schrift dieser Ueberzeu-
+gung Ausdruck gegeben, und ihr flammender Appell:
+„Dem Reich der Freiheit werb' ich Bürgerinnen‟
+wird in diesem Sinne auch heute noch das Kenn-
+wort der Stimmrechtsbewegung sein.
+Von Luise Otto-Peters, Auguste Schmidt
+Malvida von Meysenbug bis zur Gegenwart
+reiht sich eine vielgliederige Kette deutscher Frauen
+an, die für die Befreiung ihres Geschlechtes gewirkt,
+gekämpft und gelitten haben. Viele von ihnen weilen
+noch unter den Lebenden, und erst die Zukunft
+wird ihnen den Platz in der Geschichte der Frauen-
+bewegung zuweisen.
+Materielle, soziale und geistige Not des weib-
+lichen Geschlechts, sowie der männliche Widerstand
+in allen Volksschichten gegen die Anerkennung der
+Frau als unabhängige Persönlichkeit führen die Ele-
+mente zusammen, die sich in den Ideen der Frauen-
+bewegung und der Frauenstimmrechtsbewegung tref-
+fen. Weil man selbst seine Anschauungen zunächst
+der Gesellschaftsklasse entlehnt, der man angehört,
+muß man sich das immer wieder vergegenwärtigen, um
+die Forderungen in ihrer Vielfältigkeit zu verstehen,
+ihren Ursprung und ihre Entwicklung zu verfolgen.
+So wird z. B. die durch den Kampf ums Dasein
+abgestumpfte Lohnarbeiterin erst nach Eingliederung
+in eine Berufsorganisation, gestützt auf das einheit-
+liche Vorgehen mit ihren Kolleginnen, ihre Forde-
+rungen nach Verbesserung ihrer Arbeitsbedingungen,
+nach gleichem Lohn für gleiche Leistung, nach ge-
+eigneten Schutzgesetzen formulieren können. Erst die
+persönliche Anteilnahme an den Problemen, die in
+den Berufsvereinen erörtert werden, führt die auf
+Erwerb angewiesene Frau zur Stimmrechtsforderung.
+Indem sie nämlich in allen Organisationen, die Be-
+rufsangelegenheiten berühren, das Stimmrecht an-
+strebt, erhält und ausübt, bereitet auch sie den Weg
+für die weibliche Gleichberechtigung auf allen Ge-
+bieten, also auch in politischer Hinsicht, vor. Ab-
+gesehen von einigen befähigten Ausnahmen werden
+solche Frauen nur auf diesem subjektiven Wege
+begreifen, was Frauenstimmrecht im engeren und
+weiteren Sinne bedeutet.
+Die Frauen des Mittelstandes und der höheren
+Schichten werden in ihren Bemühungen um Re-
+formen im Schul- und Fortbildungswesen, um er-
+weiterte wissenschaftliche und Berufsbildung, in
+ihrem Bestreben nach berechtigtem Aufstieg in Amt
+und Stellung die Konsequenz ziehen müssen, daß
+zur Beeinflussung der öffentlichen Meinung in allen
+Frauenfragen unbedingt das aktive und passive Stimm-
+recht in Gemeinde, Staat und Reich gehört. Das
+erfahren auch unsere Akademikerinnen, die heute
+um Rechte ringen müssen, die den Frauen der Re-
+naissance kampflos bewilligt wurden.
+Unabhängig von allen Klassenunterschieden und
+Gegensätzen wirken deutsche Frauen aller Schichten
+seit langem in unermüdlicher Agitation, damit ge-
+setzgeberische Maßnahmen im Familienrecht und im
+öffentlichen Recht so geändert werden, wie sie der
+Anerkennung der Frau als freie Persönlichkeit ent-
+spricht. Wer je in der sozialen Arbeit gestanden,
+in der Armenpflege, Jugendfürsorge, Frauenrechts-
+schutz- und anderen Beratungsstellen gewirkt hat,
+der kennt den Leidensweg zahlloser unglücklicher
+Frauen, die oft unwissend und schuldlos den der
+Individualität der Frau nicht gerecht werdenden Ge-
+setzesparagraphen des Familien- und Strafrechts un-
+terliegen. Das Gesetz stellt alle Frauen unter Be-
+stimmungen, die nur Männer geschaffen haben, Män-
+ner auslegen und vollziehen. Abgesehen von einer
+Reform der Gesetzgebung kann nur die Zulassung
+der Frauen zu juristischen Aemtern als Richter, Ver-
+teidiger und Schöffen Abhilfe und ausgleichende Ge-
+rechtigkeit schaffen.
+Alle Strafbestimmungen, die sich auf Delikte im
+geschlechtlichen Leben beziehen, sind daher nur dem
+Triebleben des Mannes angepaßt, ohne genügende
+Berücksichtigung der physischen und psychischen Ver-
+anlagung der Frau (Schutzalter, Unbescholtenheit,
+Prostitution). Die wenigsten Frauen sind sich vor
+Eingehung einer Ehe bewußt, in welchem Grade
+die Bestimmungen des Eherechtes sie von der Gnade
+und Ungnade des Ehemannes abhängig machen, und
+daß die Gesetzesparagraphen davon ausgehen, daß
+der Mann, solange die Ehe besteht, ihre Auslegung
+nicht mißbrauchen wird. So steht dem Mann be-
+kanntlich allein das Entscheidungsrecht in allen das
+gemeinschaftliche Leben betreffenden Angelegenheiten
+zu, und die Frau kann nur im Falle der Schei-
+dung ihre Sache vor den Richter bringen. Das
+schließt in sich die Bestimmung des Wohnortes,
+die Erlaubnis zur Berufsarbeit der Frau. Das Ver-
+mögen der Frau wird, wenn nicht ein besonderer
+Ehekontrakt dies ausschließt, durch Eheschließung
+der Nutznießung und Verwaltung des Mannes unter-
+stellt, auch wenn die Ehegatten getrennt leben. (For-
+derung: Gütertrennung als gesetzlicher Güterstand.)
+Elterliche Gewalt ist auch in jedem Konflikts-
+fall väterliche Gewalt. Selbst bei der Scheidung
+behält der schuldige Vater elterliche Gewalt, auch
+die Vertretung des Kindes in Rechtssachen. Unsere
+Gesetze über die Stellung des unehelichen Kindes
+tragen nur den Stempel des Mannes.
+Alle Bestimmungen, deren Aenderungen der Bund
+deutscher Frauenvereine bezüglich des Gesetzes für
+die Staatszugehörigkeit der Frau verlangt hat, haben
+in diesem Kriege zu den traurigsten Konsequenzen
+geführt, so daß jede an einen Deutschen verheiratete
+Ausländerin heute bei uns im Lande Unterstützung
+findet, nicht aber die an einen Ausländer verheiratete,
+deutschgeborene Frau. Wenn die Frauen ihren poli-
+tischen Einfluß anwenden werden, um zunächst in
+den genannten Fragen Reformen anzustreben, so wird
+der oberflächliche Anschein nicht vermieden werden
+können, als ob die Frauenstimmrechtsbewegung, von
+einseitigen Gesichtspunkten ausgehend, egoistische
+Ziele verfolge. Aber das, was sie begehrt und er-
+strebt, wird durch seine Erfüllung in unabsehbarer
+Verzweigung dem Kulturleben des ganzen Volkes zum
+Wohle gereichen. Unser Familienleben und Rechts-
+leben, unsere wirtschaftlichen Zustände, unsere Ge-
+meinde- und Staatsverwaltung werden davon beein-
+flußt werden, und die Früchte müssen dem Fort-
+schritt der ganzen Nation zum Nutzen gereichen. —
+Was die Frauen in diesen unglücklichen Kriegs-
+jahren hinter der Front geleistet haben, wie sie
+überall in die Bresche sprangen, ihr Können er-
+probten, ihre Kräfte übten, wie sie sich als unent-
+behrliche Glieder dem Ganzen einfügten, das muß
+weite Kreise des Volkes von ihrem Anspruch auf
+das volle Bürgerrecht in Gemeinde und Staat über-
+zeugen. Wenn die Frauen in ihren engen Grenzen
+so viel geleistet haben, dann darf man hoffen, daß
+ihre Mitwirkung als freie Bürgerinnen dem Volks-
+körper neue belebende Kräfte zuführen wird.
+Wer daher die Frauenstimmrechtsbewegung ken-
+nen lernen will, muß einen kurzen Ueberblick er-
+halten, in welchen gesetzgebenden Körperschaften und
+Organen der Selbstverwaltung gewisse Ansätze für
+das Stimmrecht der Frau in Deutschland vorhanden
+sind und wo die Bewegung eingreifen, ausbauen
+oder neu einsetzen müßte. Da ist zunächst als wich-
+tigste Tatsache festzuhalten: Die deutschen
+Frauen sind bisher von jedem politi-
+schen Wahlrecht zum Reichstag und den
+Parlamenten der Bundesstaaten verfas-
+sungsmäßig ausgeschlossen. Die Frage des
+Wahlrechts in den Stadt- und Landgemeinden ist
+entsprechend der Buntscheckigkeit der in Betracht
+kommenden Verordnungen sehr kompliziert, aber aus-
+sichtsreicher. Zwar sind die Frauen nirgends als
+Stadtverordnete, Magistratsmitglieder in den Städten
+oder als Mitglieder des Gemeindevorstandes und Ge-
+meindeverordnete in den Dörfern wählbar. Aber hier
+kommen neben der preußischen Städteordnung, die
+noch in der Verfassung vom Jahre 1808 den Frauen
+das Bürgerrecht gewährte, für das Reich etwa 40
+Städte- und Landgemeindeordnungen in Betracht.
+Dieser Vielfältigkeit verdanken die Frauen, daß, ent-
+sprechend der historischen Entwicklung, gewisse
+Ausnahmen für ihr aktives Stimmrecht in Stadt- und
+Landgemeinden in einigen Landesbezirken vorhanden
+sind. Es sei aus der verwirrenden Fülle nur das
+Wichtigste herausgehoben: In den meisten Stadt- und
+Landgemeinden ist das aktive Wahlrecht von Frauen
+an ihren Grundbesitz gebunden, und fast überall
+sind sie an der direkten Ausübung verhindert. Die
+männliche Stellvertretung hat aber für die Wähle-
+rinnen viele Nachteile. Die grundbesitzenden Frauen
+haben indirektes aktives Wahlrecht in
+den Städten vom rechtsrheinischen Königreich
+Bayern, Sachsen-Meiningen, Reuß ä. L., den beiden
+Schwarzburg, Waldeck und Hohenzollern. In Sachsen-
+Weimar-Eisenach haben sie es auch ohne Grund-
+besitz bei Erwerbung des Bürgerrechts indirekt. ln
+den Landgemeinden des Königreichs Sachsen
+haben dagegen Frauen unter gewissen Voraussetzun-
+gen ein persönliches Wahlrecht zur Ge-
+meindevertretung, ebenso in Hannover, Bremen und
+im Lübecker Landkreis. Das indirekte Ge-
+meindewahlrecht steht ihnen in den Landge-
+meinden von Hamburg, Sachsen-Altenburg, Lippe-
+Detmold, Preußen und den sieben östlichen Pro-
+vinzen zu. Die meisten Städteordnungen sehen in
+der Regel nur stimmfähige Bürger als Mitglie-
+der von Deputationen und Kommissio-
+nen vor, die für einzelne Verwaltungszweige als
+Entlastung des Magistrats gedacht sind. Trotzdem
+haben einige Gemeindeverwaltungen vorher und be-
+sonders während der Kriegszeit sich über diese Be-
+stimmungen hinweggesetzt. Da die Organisation der
+Armenfürsorge von der Städteordnung unab-
+hängig ist, sind die Frauen stets wählbar als Ar-
+menpflegerinnen, Bezirksvorsteherinnen und Mitglie-
+der der Armendirektion. Obwohl die Waisen-
+pflege ebenso wie die Armenpflege das ureigenste
+Fürsorgegebiet der Frau darstellt, ist sie hierfür
+nur beschränkt zugelassen. Während die Frauen im
+allgemeinen nur als Waisenpflegerinnen zur Unter-
+stützung des Gemeindewaisenrats wirken oder nur
+mit beratender Stimme an den Sitzungen der Waisen-
+deputation teilnehmen können, sind sie vom stimm-
+berechtigten Amt als Gemeindewaisenrat ausgeschlos-
+sen, und zwar mit Rücksicht auf die landesgesetz-
+lichen Ausführungsbestimmungen zu den §§ 1849 ff.
+des B. G. B. Angesichts der Unentbehrlichkeit der
+Frauen zu lückenloser Betätigung innerhalb der Wai-
+senpflege haben bereits verschiedene Großstädte we-
+gen Aenderung der hindernden Bestimmungen peti-
+tioniert. Nach dem Schulunterhaltungsgesetz von
+1906 ist die Wahl von Frauen als Mitglieder städti-
+scher Schuldeputationen nur unter ge-
+wissen beschränkenden Voraussetzungen zulässig, und
+man muß zugeben, daß gerade hier die Frauen, und
+zwar ebenso Mütter wie Lehrerinnen teilzunehmen
+berufen sind. Die Frauen sind gänzlich von der
+Mitgliedschaft der Provinzialschulkollegien, denen die
+weiblichen Lehranstalten unterstellt sind, ausgeschlos-
+sen. Die Bewilligung gleicher Mittel für Knaben-
+und Mädchenschulen gehört zu den dringendsten For-
+derungen. ln dieser Beziehung ist Baden vorgeschrit-
+ten, wie überhaupt in der Reform der Städteordnung.
+Dort muß jeder Kommission, in der der Rat von
+Frauen wünschenswert ist, wenigstens eine Frau an-
+gehören, z. B. im Armen-, Unterrichts- und Gesund-
+heitswesen, der Marktkommission und dem Woh-
+nungsamt. Die Vorschläge des Bürgermeisters von
+Mannheim zur Reform der badischen Städteordnung
+beziehen sich auch auf das Gemeindewahlrecht der
+Frau. Auf Grund vielfacher Frauenpetitionen und
+Anregungen von Magistraten steht die Aenderung der
+Städteordnung, betreffend stimmberechtigte Wahl von
+Frauen in städtische Deputationen, gegenwärtig im
+Preußischen Abgeordnetenhaus zur Beratung. Die
+vom Allgemeinen Deutschen Frauenverein geschaffene
+Zentralstelle für die Gemeindeämter der Frau in
+Frankfurt a. M. hat seit mehreren Jahren Erhebun-
+gen darüber angestellt, inwieweit die Frauen zur
+Mitarbeit in der Gemeinde gesetzlich zugelassen oder
+davon ausgeschlossen sind, und welche ehrenamt-
+liche oder berufliche Tätigkeit sich für sie inner-
+halb dieser Grenzen praktisch ergeben hat. Dieser
+Stelle verdanken wir auch eine interessante Statistik
+über die kommunale Kriegsarbeit der Frau. Aus
+ihr ersehen wir, wie so manche Stadtverwaltungen,
+der Not gehorchend, nicht dem eigenen Triebe, Vor-
+urteile überwunden und die Frauen zu den verschie-
+densten Kommissionen und Deputationen hinzuge-
+zogen haben, daß man dazu notfalls Gesetzespara-
+graphen ignoriert hat, die früher eine unüberwind-
+liche Mauer gegen manche kommunale Mitarbeit der
+Frauen bildeten. So hat man verschiedentlich Frauen
+zu den Mietseinigungsämtern, Lebensmittelkommis-
+sionen, Preisprüfungsstellen, auch zur Kreisorgani-
+sation für Kriegsbeschädigte herangezogen, sowie in
+den Hauptausschuß für Kriegsfürsorge. In dieser
+Arbeit haben die Frauen viel gegeben, aber auch
+viel empfangen. Dr. Altmann-Gottheiner
+äußert sich dazu im Kriegsjahrbuch 1916: „Je fester
+verankert die Frauenarbeit in dem Verwaltungsappa-
+rat liegt, je inniger die Frauenbestrebungen mit der
+Gesamtleistung der Kommune verknüpft sind, eine
+um so vollere Resonanz werden die Frauenwünsche
+auf Zuerkennung der Rechte finden, deren sie zu
+ihrer freien Auswirkung in Gemeinde und Staat
+bedürfen.‟ Die Frauen haben in den meisten städti-
+schen und ländlichen Gemeinden an der erweiterten
+Familienfürsorge und an der Lebensmittelverteilung
+mitgearbeitet. Die direkte Mitwirkung bei
+Schaffung aller kriegsgesetzlichen
+Maßnahmen ist jedoch bekanntlich den Frauen
+in allen Fragen der Familien- und Hinterbliebenen-
+fürsorge, der Witwen- und Waisenrenten, insbeson-
+dere auch der Bewilligung der Renten, der neuen
+Bestimmungen innerhalb der Reichsversicherung und
+anfangs auch bei allen Anordnungen der Regierung
+zur Lebensmittelversorgung versagt geblieben.
+Nicht unerheblich für die prinzipielle Frage des
+Frauenstimmrechts ist auch das kirchliche
+weibliche Stimmrecht. Wie steht es nun
+damit? Die katholische Kirche kommt dabei gar
+nicht in Betracht. Auch in den evangelischen Ge-
+meinden ist mit Ausnahme einiger Bremer Kirchen
+weder das aktive noch das passive Wahlrecht für
+die Pfarrwahl, kirchliche Gemeindevertretung oder
+zum Kirchenvorstand und Kirchenrat vorhanden. ln
+Baden wurde unlängst eine Frau zu den theologischen
+Prüfungen zugelassen und nach absolviertem Examen
+in Heidelberg für die Seelsorge in den Frauenkliniken
+und an den weiblichen Gefangenen angestellt. In
+einigen Kirchenverfassungen ist das früher vorhan-
+dene Wahlrecht verkümmert, und nur das weibliche
+Einspruchsrecht gegen die Pfarrwahl existiert allge-
+mein. Auch in den jüdischen Gemeinden gibt es
+noch kein weibliches Stimmrecht, und die Anträge
+einiger Gemeinden um dessen Bewilligung sind von
+der Regierung abschlägig beschieden worden.
+Das Stimmrecht der Frau für die
+Handelskammern ist noch unvollkommen, inso-
+fern, als es mit Ausnahme von Hessen nur aktiv
+und überall indirekt für die weiblichen Firmeninha-
+berinnen besteht. Der neue preußische Handels-
+kammergesetzentwurf sieht für die Frauen nur das
+aktive Wahlrecht vor. Von einem direk-
+ten Wahlrecht der Frauen zu den Hand-
+werkskammern kann auch so lange nicht die
+Rede sein, als ihnen jeder Einfluß auf die Innungen
+fehlt, denen die Wahl obliegt. Ebenso verhält es
+sich mit den Landwirtschaftskammern,
+deren Mitglieder vom Kreistag gewählt werden. Zum
+Kreistag haben die Frauen nur ein indirek-
+tes aktives Wahlrecht. Von welch zuneh-
+mender Bedeutung das Stimmrecht in den beruf-
+lichen Interessenvertretungen ist, davon kann man
+sich nur an der Hand der Hauptzahlen weiblicher
+Berufsstatistik aus den letzten Jahren einen annähern-
+den Begriff machen. Dabei ist zu beachten, daß es
+sich bei den Kaufmanns- und Gewerbegerichten um
+Lohnfragen, sowie Regelung der Arbeitsbedingungen
+handelt, andererseits bei der Reichsversicherung um
+den indirekten Arbeiterschutz, um Gesundheitsfür-
+sorge. Laut amtlicher Statistik betrug die Zunahme
+der weiblichen Erwerbstätigen im Deutschen Reich
+von 1895-1907 56,59%, dagegen die der männlichen
+Erwerbstätigen 19,85 %, im Jahre 1907 wurden 9 ½
+Millionen berufstätiger Frauen in Deutschland ge-
+zählt. Auf die Landwirtschaft entfielen davon über
+4 ½ Millionen, bei denen die mitarbeitende Besitzerin,
+Familienangehörige und ländliche Arbeiterinnen zu-
+sammengezählt sind. ln der Industrie waren über
+2 Millionen Arbeiterinnen (Handarbeiterinnen, Arbei-
+terinnen, Handwerkerinnen und Besitzerinnen) be-
+schäftigt. Im Handels- und Verkehrsgewerbe wurden
+391 373 Frauen gezählt. Am 1. Oktober 1914 be-
+richtet eine Anzahl Krankenkassen (Gesamtzahlen feh-
+len) von 2,3 Millionen weiblicher Berufstätiger, am
+1. Juli 1916 war dagegen die Zahl schon auf 4,2
+Millionen weitergegangen. Die jetzigen Zahlen zei-
+gen bereits ein Ueberwiegen der weiblichen Ver-
+sicherten im Verhältnis zu den männlichen. Obgleich
+eine umfassende Reichsstatistik fehlt, wissen wir,
+daß die Einbeziehung der Frauen in den freiwilligen
+vaterländischen Hilfsdienst die Zahl der weiblichen
+Erwerbstätigen und Versicherten um ein Vielfaches
+gesteigert haben. Wesentlicher als die Zunahme ist
+aber die Höherentwicklung weiblicher Berufstätigkeit
+im Interesse der Individuen und der Arbeitsproduk-
+tion. Dazu führt unleugbar auch die gleichberechtigte
+Einstellung der Arbeiterinnen bei Vertretung ihrer
+Berufsinteressen. Beim Gewerbe- und beim
+Kaufmannsgericht, welche auch die Arbeit-
+nehmerinteressen vertreten, haben die Frauen weder
+Sitz noch Stimme. Sie sind also in allen Fragen
+männlicher Rechtssprechung unterworfen. Es ist an-
+zustreben, daß bei den zukünftigen Arbeits- bzw.
+Arbeiterkammern die Frauen gleichberechtigt
+sind. Die Reichsversicherungsordnung berührt in allen
+ihren Zweigen das Interesse der weiblichen Erwerbs-
+tätigkeit in hervorragendem Maße, sowohl in der
+Kranken-, als in der Invaliditäts-, Alters- und Unfall-
+versicherung. An dem Ausbau der Mutterschafts-
+versicherung, ihrer gesetzgebenden Grundlage und
+späteren Ausführung innerhalb der Reichsversiche-
+rungsordnung wünschen die Frauen ebenfalls direkten
+Anteil zu nehmen. Die Frauen sind prinzipiell von
+allen Aemtern der Versicherungsbehörden ausgeschlos-
+sen, also von der Aufsichtsinstanz in diesen höheren
+Verwaltungsstellen. Zu den Krankenkassen,
+die der Selbstverwaltung der Versicherten unter-
+stehen und in der Privatbeamtenversicherung be-
+sitzen die weiblichen Mitglieder aktives und pas-
+sives Wahlrecht für die Vertrauensmänner (!), die
+Vorstände und Ausschüsse. Bei allen Streitfällen und
+Rentenbewilligungen in der Alters-, Invaliditäts- und
+Unfallversicherung, die das Versicherungs- und Ober-
+versicherungsamt zu entscheiden haben, sind die
+Frauen auf männliche Entscheidung angewiesen. Diese
+Darlegungen der gesetzlichen Basis sind unerläßlich;
+denn die gesamte praktische Stimmrechtsarbeit be-
+ruht darauf. Helene Lange vertritt mit Recht die
+Ansicht, die Frage lautet heute nicht mehr: „Müssen
+wir das Frauenstimmrecht haben?‟ vielmehr: „Wel-
+ches ist der Weg zum Frauenstimmrecht?‟ Zum
+Beschreiten dieses Weges ist die Kenntnis von der
+Entwicklung der Bewegung und den praktischen Ar-
+beitsgebieten ebenfalls unentbehrlich.
+Die Agitation für politische Gleichberechtigung,
+für das Stimmrecht auch auf allen in Betracht kom-
+menden Gebieten hat in Deutschland spät einge-
+setzt, lange nachdem die Frauenbewegung für er-
+weiterte Bildungsmöglichkeiten, Berufstätigkeit, so-
+ziale Mitarbeit eintrat. Die Reform des B. G. B. gab
+der organisierten Frauenbewegung Gelegenheit, ihren
+Wünschen durch Ueberreichung einer Petition Aus-
+druck zu geben. Minna Cauer, Lilli Braun
+und Anita Augspurg waren die ersten, die das Frauen-
+stimmrecht in einer öffentlichen Volksversammlung
+in Berlin 1894 erörterten. Dieses Unternehmen war
+ein Wagnis und eine mutige Tat, und damit hat die
+öffentliche Diskussion über das Frauenstimmrecht in
+Deutschland eingesetzt. Der Erörterung in breitester
+Oeffentlichkeit stand ein großes Bollwerk entgegen:
+das alte Vereinsgesetz. Bis zum Jahre 1908 durften
+die Frauen in den meisten Bundesstaaten weder poli-
+tischen Parteien angehören, noch selbst politische
+Vereine gründen, ebensowenig in politischen Ver-
+sammlungen und derartigen Vereinen sprechen, oder
+als Zuhörerinnen anwesend sein. Später wurde an-
+läßlich einer Versammlung des Bundes der Land-
+wirte die ministerielle Genehmigung erteilt, daß fort-
+an Frauen als stumme Zuhörerinnen geduldet wur-
+den, wenn eine sichtbare räumliche Scheidung, das
+sog. Segment, im Versammlungslokal sie von der
+politischen Männergemeinde absonderte. (Verfasserin
+hat selbst noch einer Versammlung beigewohnt, in
+der das Segment durch ein gespanntes Seil gekenn-
+zeichnet wurde.) Wollten die Frauen damals poli-
+tische Angelegenheiten, die ihre Interessen berühr-
+ten, erörtern, so halfen sie sich, indem nur Einzel-
+personen, statt eines Vereins, die Versammlung ein-
+beriefen. Damit würde die Stempelung eines Frauen-
+vereins zu einem politischen Verein, und damit seine
+etwaige Auflösung vermieden. Man gründete 1902
+den ersten deutschen Stimmrechts-
+verein unter dem Vorsitz von Anita Augspurg,
+zunächst mit dem Sitz Hamburg. Das Vereinsrecht der
+freien Hansastadt erlaubte eine solche Organisation.
+Zur Mitgliedschaft waren Einzelpersonen in ganz
+Deutschland zugelassen, und der Verein hatte in den
+verschiedenen Städten Vertrauenspersonen. Die Bestre-
+bungen gipfelten darin, den Frauen die politische
+Gleichberechtigung zu erkämpfen, ihnen die Aus-
+übung des Stimmrechts zu sichern und die Frauen
+im Staate, in Gemeinden und Berufsklassen, wo ein
+weibliches Stimmrecht vorgesehen war, zu dessen
+Ausübung zu veranlassen. Nun bemühten sich die
+Frauenrechtlerinnen, von der Frauenbewegung aus-
+gehend, weitere Kreise zu überzeugen, daß alle Un-
+terdrückung, seelische, geistige und wirtschaftliche
+Abhängigkeit der Frau letzten Endes dadurch doku-
+mentiert und immer von neuem besiegelt wurde, daß
+man sie nicht als vollberechtigte Glieder ihres Volkes
+anerkannte. Der Katechismus der Bewegung lautete
+etwa: „Die Frauen müssen als steuerzahlende Bür-
+gerinnen allen Gesetzen gehorchen, sind aber von der
+Verwaltung und Gesetzgebung überall ausgeschlossen,
+in Familie und öffentlichem Leben überall nur Ob-
+jekt. Männer sind ihre Richter und Verteidiger, Män-
+ner bevormunden sie im Familien- und Erwerbsleben,
+Männer bestimmen die Grenzen ihrer Bildung, ihrer
+Anteilnahme an den Fragen des öffentlichen Lebens.
+Das Frauenstimmrecht soll den Weg zur Befreiung
+weisen, ihnen allmählich das erringen, was die grau-
+same Tradition der Jahrhunderte ihnen vorenthalten
+hat. Die Gewährung des Frauenstimmrechts wird
+ihnen erst die gebührende Mitwirkung innerhalb der
+Gesetzgebung, Verwaltung und Rechtssprechung
+sichern. Indem die Frauen über ihre eigenen engen
+Interessen hinausgehen, ihren Blick für die Fragen des
+öffentlichen Lebens weiten, indem sie alle Probleme
+des Rechts-, Familien-, Berufs- und Wirtschaftslebens
+in ihrem Zusammenhang und ihrer Bedeutung für
+die ganze Nation erfassen, wird ihre Verantwort-
+lichkeit erhöht, ihre Schaffenskraft gefördert wer-
+den.‟ Die Anwendung staatsrechtlicher, philosophi-
+scher, sozialpolitischer Theorien wird immer neue
+Argumente zur Unterstützung der Bewegung herbei-
+führen. Zur Lösung dieser Aufgaben sind besonders
+die Akademikerinnen berufen.
+Im ersten Vereinsjahr sprach eine Abordnung
+des Stimmrechtsvereins beim Reichskanzler v. Bülow
+vor, um ihm einige der damals dringendsten For-
+derungen vorzutragen: 1. Aenderung des Vereins-
+gesetzes zugunsten der Frau; 2. Gewährung der
+Erlaubnis zur Immatrikulation studierender Frauen
+nach erfolgter Maturitätsprüfung; 3. Mitarbeit der
+Frauen bei der Reform des höheren Mädchenschul-
+wesens; 4. obligatorische Fortbildungsschulen, auch
+für Mädchen. Die ersten drei Forderungen sind er-
+füllt, die letztere noch nicht vollständig. Der Verein
+bemühte sich, zunächst festzustellen, auf welchen
+Gebieten Ansätze zum Stimmrecht vorhanden waren,
+und welche gesetzlichen Bestimmungen der Aus-
+übung bestehender oder zu erringender Rechte hin-
+derlich waren. Außerdem war man bestrebt, die
+Frauen politisch zu bilden und politisch interessierte
+Männerkreise für diese Fragen zu gewinnen. Die
+Reichstagswahlen von 1903 und nach der Auflösung
+von 1906 gaben die erste Gelegenheit zur Beteiligung
+der Frauen an der Wahlagitation und zur Wahlhilfe
+bei den Parteien der Linken. Im Jahre 1904 nahm der
+Verein den Namen „Verband für Frauen-
+stimmrecht‟ an, um auch Zweigvereine bilden zu
+können. Zunächst konnten nur Hamburg und Bre-
+men als Ortsvereine sowie Einzelmitglieder aus allen
+Landesteilen beitreten. Angeregt durch die Agitation
+der Frauenstimmrechtlerinnen hatte der Bund
+Deutscher Frauenvereine auf seiner Ta-
+gung 1902 bereits folgende Resolution angenommen:
+„Es ist dringend zu wünschen, daß die Bundesvereine
+das Verständnis für den Gedanken des Frauenstimm-
+rechts nach Kräften fördern, weil alle Bestrebungen
+des Bundes erst durch das Frauenstimmrecht eines
+dauernden Erfolges sicher sind.‟
+Die Forderung des kirchlichen Stimm-
+rechts wurde zuerst von Martha Zietz aufge-
+nommen. Sie richtete im Auftrage des Verbandes
+eine Umfrage an hervorragende Vertreter der katho-
+lischen und evangelischen Konfession. Das Ergebnis
+wurde veröffentlicht, und seitdem hat das weibliche
+kirchliche Stimmrecht der Frau auch bei vielen Kir-
+chenbehörden Förderung, aber mit Ausnahme der
+schon erwähnten Gemeinden von Bremen noch keine
+Einführung erfahren. Die denkwürdige Tagung des
+Internationalen Frauenbundes im Jahre
+1904 führte die bedeutendsten Frauenrechtlerinnen des
+Auslandes nach Berlin. Mit ihnen war auch die
+84jährige Susan B. Anthony, die große Füh-
+rerin der amerikanischen Stimmrechtsbewegung, her-
+übergekommen. Eine imposante Versammlung Tau-
+sender von Zuhörerinnen gab den Auftakt für die
+Begründung des Weltbundes für
+Frauenstimmrecht, dem sich Deutschland,
+Amerika, Australien, England, Holland, Norwegen und
+Schweden anschloß. Niemand, der der Versamm-
+lung beiwohnte, konnte sich damals dem großen
+Eindruck entziehen, als die Frauen aller Länder sich
+einander im Kampfe zur Befreiung ihres Geschlechts
+verbanden und das Bekenntnis ihrer Solidarität vor
+der Oeffentlichkeit ablegten. Die Mitglieder des Welt-
+bundes dürfen stolz darauf sein, daß es ihnen unter
+vollster Wahrung der nationalen Würde und der
+vaterländischen Pflichterfüllung gelungen ist, ihre
+internationale Organisation aufrecht zu erhalten und
+in ihrem Verbandsorgan „jus suffragii‟ Berichte
+über die Leistungen der Frauen aller Länder im
+Kriege, die Fortschritte der Stimmrechtsbewegung
+und die Flüchtlingsfürsorge an den Frauen der Ver-
+bündeten und Feinde auszutauschen. Der 1911 in
+Stockholm gebildete Männer-Weltbund für
+Frauenstimmrecht hat infolge seines kurzen
+Bestehens die gleiche Aufgabe und weitgreifende
+Werbearbeit nicht leisten können. Im Anschluß an
+die Tagung des Weltbundes, bei der mit den füh-
+renden Stimmrechtlerinnen des Auslandes Frauen aus
+allen Teilen Deutschlands zusammentrafen, nahm die
+Bewegung einen lebhaften Aufschwung. Die Ereig-
+nisse waren stärker als das hemmende Vereinsrecht.
+Die Regierung duldete die Konstituierung von Stimm-
+rechtsvereinen in Mitteldeutschland, Baden, Hessen,
+Sachsen. Unabhängig davon wurde zur Vermeidung
+des ominösen Titels 1906 in Breslau ein Ausschuß
+zur Förderung der öffentlichen Rechte der Frau, also
+ein Ersatz für einen Stimmrechtsverein gebildet. 1907
+gründete man in Liegnitz in Schlesien eine Stimm-
+rechtsgruppe.
+Das Jahr 1908 ist mit goldenen Lettern in die
+Geschichte der Stimmrechtsbewegung einzuzeichnen.
+Die Schranken des Vereinsgesetzes fielen, und die
+Frauen durften sich überall in Deutschland in Stimm-
+rechtsvereinen und Parteien organisieren. Es wurden
+überall Stimmrechtsvereine, so auch der Schle-
+sische Provinzialverein für Frauen-
+stimmrecht gebildet, und die Frage des Frauen-
+wahlrechts wurde in den politischen Parteien erörtert.
+1907 hatte der Deutsche Stimmrechtsverband seine an-
+fänglich neutralen Satzungen dahin geändert, daß er
+sich nicht mehr begnügte, für alle Frauen die poli-
+tische Gleichberechtigung zu fordern. Er erklärte zwar
+noch immer, von keiner politischen Partei abhängig zu
+sein, aber er verlangte zugleich in seinen Satzungen
+für die Frauen das allgemeine, gleiche, geheime und
+direkte Wahlrecht für Reich, Staat und Gemeinde
+und alle Organe der Selbstverwaltung, also eine
+Wahlrechtsreform, zu der sich damals ohne Einschrän-
+kung nur die Sozialdemokratie und die demokratische
+Partei bekannten. Die Belebung parteipolitischer In-
+teressen in Frauenkreisen nach der Aufhebung des
+Vereinsgesetzes brachte es mit sich, daß die An-
+sichten über spezielle Wahlrechtsformen auch im Ver-
+band durchaus verschieden waren. Es bestand also
+die Gefahr, daß eine Verquickung der Frauenstimm-
+rechtsagitation mit einer bestimmten Wahlrechtsfor-
+derung durch Belastung mit einseitiger Parteiforde-
+rung eine Zersplitterung der Bewegung herbeiführen
+würde. Aus diesem Grunde beschloß die konstituie-
+rende Versammlung des Schlesischen Provinzialver-
+eins, späteren Ostdeutschen Vereins, neutral gehaltene
+Satzungen, um Frauen verschiedener Richtung zu
+sammeln und für die Agitation entsprechend der je-
+weiligen politischen Konstellation freie Hand zu be-
+halten. Er forderte satzungsgemäß nur die politische
+Gleichberechtigung der Frau, nicht eine bestimmte
+Form des Wahlrechts und wurde aus diesem Grunde
+von dem Verband, dem er sich anschließen wollte,
+nicht aufgenommen. Uebereinstimmend mit den von
+dem schlesischen Verein vertretenen Grundsätzen wur-
+den der west-, nord- und mitteldeutsche Verband ge-
+bildet und der schlesische zum ostdeutschen erweitert.
+Alle diese Organisationen schlossen sich 1911 zur
+Deutschen Vereinigung für Frauen-
+stimmrecht unter dem Vorsitz von Frau
+Fischer-Eckert zusammen. Der Deutsche Ver-
+band für Frauenstimmrecht gründete gleichfalls zahl-
+reiche Ortsgruppen, Provinzial- und Landesvereine.
+So haben beide Richtungen mehrere Jahre neben-
+einander bestanden. Allmählich gewann die Auffas-
+sung der Deutschen Vereinigung im anderen Lager
+immer mehr Anhängerinnen, und im Kriege haben
+beide Richtungen sich nach Annahme gemeinsamer
+neutraler Satzungen im Zeichen des Burgfriedens ge-
+einigt. Die Verschmelzung wurde am 18. März 1916
+in Weimar vollzogen. Frau Marie Stritt, die Nach-
+folgerin von Anita Augspurg wurde, ist Vor-
+sitzende dieses neuen Deutschen Reichsver-
+bandes für Frauenstimmrecht. Als Se-
+zession des Deutschen Verbandes hat Anita Augs-
+purg, die an der allgemeinen Wahlrechtsforderung
+festhält, den Deutschen Frauenstimm-
+rechtsbund gegründet, der zwar getrennt mar-
+schiert, sich aber an gemeinsamen Kundgebungen des
+Reichsverbandes beteiligt. Es erübrigt sich, auf die
+unerfreulichen Konflikte einzugehen, die die Bewe-
+gung allzu lange gehemmt haben. Es ist viel kost-
+bare Zeit, und es sind viele wertvolle Kräfte dabei
+verbraucht worden. Manch tapfere Streiterin für die
+Sache hat sich damals zeitweilig enttäuscht zurück-
+gezogen, und es ist zu begrüßen, daß eine gemein-
+same Agitation ausgleichend wirkt. Im allgemeinen
+stimmten die Arbeitsgebiete der beiden Richtungen
+überein: Allgemeine Propaganda, Versammlungen,
+Flugblätter für alle Volksschichten und Berufskate-
+gorien, Werbeschriften, Eingaben an Behörden und
+Parlamente um Gewährung des Wahlrechts für Reich,
+Staat und Gemeinde, anläßlich der Einführung neuer
+Gesetze, Einwirkung auf Abgeordnete vor Einrei-
+chung der Eingaben oder vor neuen, für die Frauen
+wichtigen Gesetzesvorlagen. So arbeitete man u. a.
+gelegentlich der Reform des Strafrechts, der Erwei-
+terung und Zusammenfassung der Reichsversiche-
+rung, der Einführung der Privatbeamtenversicherung.
+Die Beteiligung der Frauen an den Krankenkassen-
+wahlen wurde lebhaft betrieben. Sie bedarf noch
+weiter einer intensiven Bearbeitung, ebenso wie die
+Vertrauensmännerwahl für die Privatbeamtenversiche-
+rung, weil angesichts der Zunahme weiblicher Er-
+werbsarbeit und der damit verbundenen Anforderun-
+gen an die körperliche Leistungsfähigkeit der Arbei-
+terinnen die Wahl von Frauen als Vorstandsmitglieder
+der Krankenkassen von erhöhter Bedeutung ist. Auf
+Anregung des Preußischen Landesvereins hatten meh-
+rere Frauen beantragt, in die städtische Wählerliste
+aufgenommen zu werden. Sie haben den Prozeß bis
+zur letzten Instanz durchgeführt, wobei das Ober-
+verwaltungsgericht gegen sie entschied. Anläßlich der
+Jahrhundertfeier der Steinschen Reformen wurde dem
+Preußischen Städtetag eine Denkschrift mit der Bitte
+überreicht, eine Aenderung der preußischen Städte-
+ordnung zugunsten des weiblichen Gemeindewahl-
+rechts zu erwirken. Der schlesische Verband hat sich
+besonders zur Ausübung des Frauenstimmrechts der
+ländlichen Besitzerinnen mit Erfolg eingesetzt. Die
+Wahlbeteiligung der einfachen Frauen in den Land-
+kreisen war überraschend groß, wenn vorher ge-
+arbeitet wurde, teilweise größer als die der Männer.
+Eine Eingabe betreffend die Forderung des direkten
+Wahlrechts der grundbesitzenden Frauen in den Land-
+gemeinden wurde im Abgeordnetenhaus lebhaft be-
+fürwortet und der Regierung zur Berücksichtigung
+überwiesen. Eine andere Petition des schlesischen
+Stimmrechtsvereins galt der Frage des weiblichen Ge-
+meindewahlrechts in den Kolonien, was besonders
+erwähnenswert ist.
+Die Wechselwirkung in der Entwicklung und in
+den fortschreitenden Erfolgen der Frauenstimmrechts-
+bewegung ist bei aller Verschiedenheit der politischen
+Auffassung in den einzelnen Staaten offenbar; somit
+kann allein die Kenntnis der internationalen Bewe-
+gung die Zusammenhänge der Bestrebungen und
+ihre Wirkungen klarlegen. Zusammengefaßt enthält
+das vom Weltbund für Frauenstimmrecht in mehreren
+Sprachen herausgegebene Werk „Frauenstimmrecht
+in der Praxis‟, Verlag Heinrich Minden, Dresden
+und Leipzig, die Geschichte der Einführung des
+Frauenstimmrechts und der Form des Wahlrechts
+in den einzelnen Ländern, den Umfang der weib-
+lichen Wahlbeteiligung, den Fraueneinfluß auf die
+Gesetzgebung, Gutachten über die politische Bewäh-
+rung der Frauen und alles wichtige Material zur
+Kenntnis der einschlägigen Fragen. Das Verbands-
+organ „Jus suffragii‟ berichtet fortlaufend über den
+Stand der Frauenstimmrechtsbewegung. Die Einfüh-
+rung des Frauenstimmrechts in den einzelnen Ländern
+erfolgte auf ganz verschiedene Weise, in einigen
+Staaten auf Anregung führender Frauen oder be-
+stimmter Organisationen, in anderen auf Veranlas-
+sung von Parteien oder Regierungen. Die organi-
+sierte Propaganda für das Frauenstimmrecht setzte
+zuerst in Amerika ein. Lucretia Mott und Lady
+Stanton beriefen schon 1848 einen Stimmrechts-
+kongreß. Dem Staat Wyoming gebührt das Ver-
+dienst, als erster 1869 das aktive und passive Frauen-
+stimmrecht eingeführt zu haben. Darauf folgten:
+Idaho, Kolorado, Utah, im Jahre 1910
+Washington, unlängst KaIifornien, Ari-
+zona, Kansas, Nevada, Montana, Ore-
+gon und das Territorium Alaska. Diese Staaten
+haben auch kommunales Wahlrecht und lassen Frauen
+zu öffentlichen Aemtern zu. Stimmrecht zur Präsi-
+dentenwahl haben bisher Illinois und seit 1917
+North Dakota, Indiana, Ohio, Michi-
+gan, Nebraska, Rhode Island. In Ar-
+kansas erlangten die Frauen 1917 das Stimmrecht
+zu den Urwahlen. Auch wenn man die Erfahrung
+des Auslandes nicht vollständig verallgemeinern will,
+ist es doch maßgebend, zu hören, wie die Männer
+in den Staaten urteilen, wo das Frauenstimmrecht
+am längsten eingeführt ist, und wohin sich das poli-
+tische Interesse der Frauen hauptsächlich wendet.
+Resolutionen des Parlaments in Wyoming besagen:
+„Daß der Besitz und die Ausübung des Stimmrechts
+durch die Frauen von Wyoming im Laufe des letzten
+Vierteljahrhunderts keine üblen Folgen nach sich
+gezogen hat und in vieler Hinsicht Gutes gewirkt
+hat; daß das Frauenstimmrecht wesentlich dazu bei-
+getragen hat, Verbrechen, Pauperismus und Laster
+aus diesem Staat zu verbannen, und dies ohne irgend-
+welche Strenge oder drückende Gesetzgebung; daß
+es friedliche und geordnete Wahlen, eine gute Re-
+gierung und einen bemerkenswerten Grad von Kultur
+und Ordnung im öffentlichen Leben herbeigeführt
+hat, und daß wir mit Stolz auf die Tatsachen hin-
+weisen können, daß nach 25 Jahren Frauenstimm-
+rechts kein einziger Distrikt von Wyoming ein Ar-
+menhaus besitzt; daß unsere Gefängnisse beinahe
+leer sind, und Verbrechen, mit Ausnahme derer, die
+von Fremden begangen sind, bei uns fast unbekannt
+sind. Im Hinblick auf das Ergebnis unserer Er-
+fahrung möchten wir es daher jedem zivilisierten
+Land der Erde dringend empfehlen, seinen Frauen
+unverzüglich das Stimmrecht zu gewähren.‟ Und
+weiter wurde beschlossen: „Daß eine beglaubigte
+Abschrift dieser Resolution vom Gouverneur des Staa-
+tes an die Parlamente eines jeden Staates und Ter-
+ritoriums in diesem Lande und an jede gesetzgebende
+Körperschaft der Welt gesandt werden soll; ferner,
+daß wir die Presse der ganzen zivilisierten Welt
+ersuchen, die Aufmerksamkeit ihrer Leser darauf zu
+lenken.‟ In Wyoming, Idaho, Kolorado und Utah
+wurde vor allem das Familienrecht zugunsten der
+Frauen reformiert, die weibliche Schulbildung verbes-
+sert, und es wurden gesetzliche Maßnahmen zur
+Hebung der Sittlichkeit getroffen. In Kolorado för-
+derte man besonders Kinderschutz und Hygiene.
+Ueber die Bewährung der Frauen äußert sich
+der bekannte Jugendrichter Lindesay - Kolorado
+wie folgt:
+„Seit mehr als zehn Jahren ist in Kolorado das
+Frauenstimmrecht eingeführt, und es hat den Beweis
+erbracht, daß seine Gewährung ein Akt der Gerech-
+tigkeit ist. Keiner würde wagen, es zu widerrufen,
+und wenn es den Männern des Staates zustünde, das
+Recht, das man den Frauen verlieh, wieder zu neh-
+men, würden sie von einer großen Mehrheit an
+solchem Vorhaben gehindert werden. Viele gute Ge-
+setze verdankt Kolorado nur dem weiblichen Ein-
+fluß. Das Frauenstimmrecht entfremdet die Mut-
+ter nicht ihrem Heim, ihren häuslichen Pflichten
+oder Sorgen, wenn sie zehn Minuten dazu verwendet,
+um zur Wahlurne zu schreiten und den Stimmzettel
+abzugeben. Aber in diesen zehn Minuten leistet sie
+mehr für ihr Heim und alle anderen Heime jetzt
+und für die Zukunft, als es irgendeinem andern Ein-
+fluß und einer andern Macht in ganz Kolorado mög-
+lich wäre.‟
+In Südamerika herrscht noch Indifferenz
+gegenüber der Frauenstimmrechtsfrage. Als eine be-
+merkenswerte Erscheinung erweist sich die Erfahrung,
+nach der die Zunahme der Einführung des Frauen-
+stimmrechts sich durchaus nicht immer gemäß den
+nationalen Zusammenhängen, vielmehr auch auf Ein-
+wirkung benachbarter Staaten vollzieht. So haben
+in Kanada durch die Vereinigten Staaten angeregt,
+sechs Einzelstaaten das Frauenwahlrecht noch vor
+dem Mutterlande England eingeführt, nämlich Al-
+berta, Saskatchewan, Manitoba, British Columbia,
+Nova Scotia und Ontario. Zum Bundesparlament
+(Dominium Parlament) hat gegenwärtig nur die
+nächststehende weibliche Angehörige der im über-
+seeischen Kriegsdienst abwesenden Männer das Wahl-
+recht, während die Gewährung des allseitigen weib-
+lichen Wahlrechts den Frauen erst nach Beendigung
+des Krieges versprochen worden ist. In Alberta
+wurde die Krankenschwester Miß Mac Adams
+von den im überseeischen Kriegsdienst abwesenden
+38 000 Soldaten und 75 militärischen Krankenpflege-
+rinnen als Abgeordnete für das Staatsparlament prä-
+sentiert. Australien hat die ersten Anträge zur
+Einführung des Stimmrechts der Initiative der Män-
+ner zu verdanken, obwohl die Zahl der weiblichen
+Wähler beinahe die der Männer erreicht. Neusee-
+land, Südaustralien (1893), Queensland,
+Neu-Südwales, Tasmania, Victoria haben
+aktives und passives Wahlrecht zum Parlament, aber
+nicht überall kommunales Wahlrecht. Auch hier tra-
+ten zunächst die Frauen für Erhöhung des Schutz-
+alters und Hebung der Sittlichkeit ein. Frauen, die
+Ausländer heiraten, verlieren dank des Einflusses der
+Frauen in Australien nicht ihre Staatszugehörigkeit.
+Im öffentlichen Dienst wird den Frauen gleicher Lohn
+für gleiche Leistungen gewährt. Männer, denen nach-
+gewiesen wird, daß sie ihre Frauen mißhandeln oder
+daß sie Nährpflichtverletzer sind, sind vom Wahl-
+recht ausgeschlossen. Australien hat seinen Stimm-
+rechtsbund aufgelöst und besitzt nur noch eine Or-
+ganisation weiblicher Wähler, die sich untereinander
+verständigen und ihre Erfahrungen bei der politischen
+Arbeit zum Besten der Stimmrechtsvereine des Welt-
+bundes registrieren. Vor einigen Jahren bestätigte
+das Bundesparlament in einer Resolution die günsti-
+gen Erfahrungen mit der weiblichen Wählerschaft
+unter besonderer Hervorhebung, daß die Frauen nicht
+nur ihre Spezialinteressen fördern, sondern sich in
+allen Reichsangelegenheiten, auch bezüglich der Lan-
+desverteidigung, als weitsichtig gezeigt haben. In
+einigen Staaten Afrikas und Asiens besitzen
+die Frauen kommunales Wahlrecht. In China haben
+anläßlich der Revolution einige Frauen an den Wah-
+len, sowie an der provisorischen Nationalversamm-
+lung teilgenommen, eine dauernde Anerkennung des
+politischen Frauenwahlrechts hat sich in China,
+daraus nicht ergeben, ln Europa war Finn-
+land bahnbrechend für das Frauenstimmrecht. Dort
+besitzen die Frauen das aktive und passive Wahlrecht
+zum Landtag seit 1907. Schon lange vorher hatten sie
+ihre Forderungen vorbereitet, aber aus Besorgnis,
+daß sie durch deren Verkündung die nationale Unab-
+hängigkeit Finnlands gefährden können, ihre Wünsche
+noch so lange zurückgehalten. Erst nachdem die
+Verfassung von Rußland aufgehoben, und die Knech-
+tung des Landes eine allgemeine Opposition her-
+vorrief, traten die Frauen in das politische Leben
+ein und warben für das Frauenstimmrecht. Es wurde
+ihnen dann unter Zustimmung aller Parteien bei Um-
+wandlung des Parlaments gelegentlich der Einfüh-
+rung des Einkammer- statt Vierkammersystems ver-
+liehen. Schon im ersten Jahre wurden 19, bei den
+letzten Wahlen 24 weibliche Abgeordnete gewählt,
+und auch eine große Zahl von ihnen zu Mitgliedern
+in allen Ausschüssen ernannt. Obwohl sie verschie-
+denen Parteien angehörten, in den Hauptfragen auch
+im Sinne ihrer Partei stimmten, haben sie in allge-
+meinen Frauenfragen sich durch vorherige Beratung
+in interfraktionellen Besprechungen verständigt. Den-
+noch wird ihnen das Zeugnis ausgestellt, daß sie
+durchaus nicht lediglich Fraueninteressen bevorzugen,
+sich vielmehr ihrer Aufgabe bewußt sind, Volksver-
+treterinnen im wahren Sinne des Wortes zu sein.
+ln Norwegen haben wir ein Beispiel, wie das be-
+schränkte Wahlrecht zur Erweiterung führt. Auch
+dort hat den Frauen das Bekenntnis ihrer nationalen
+Gesinnung den Sieg errungen. Als die Frage der
+Loslösung Norwegens von Schweden einer Volksab-
+stimmung der Männer unterbreitet wurde, veranstal-
+teten 300 000 Frauen unter sich eine Abstimmung
+und erklärten sich gleichfalls für die Unabhängig-
+keit. Das überzeugte die Männer von der politischen
+Reife der norwegischen Frauen und 1907 erhielten
+sie das aktive und passive Wahlrecht unter Voraus-
+setzung einer bestimmten Steuerleistung. Den Ehe-
+frauen wurde die Steuerleistung des Mannes ange-
+rechnet. Nach der Erweiterung gab es in Norwegen
+25 000 mehr Wählerinnen als Wähler. Eine Frau
+wurde als Ersatzdeputierte in das Storthing gewählt.
+Sie bewies ihr realpolitisches Verständnis, indem sie
+sich als grundsätzliche Anhängerin der Schiedsge-
+richtsidee erklärte, aber für Erhöhung des Heeres-
+budgets stimmte. Der Antrag auf Zulassung der
+Frauen zu allen Aemtern wurde im Storthing ange-
+nommen, so daß in Norwegen Frauen auch Mitglieder
+des Ministeriums sein können und bereits im diplo-
+matischen Dienst verwendet werden. Das Gesetz,
+welches die unehelichen Kinder den ehelichen gleich-
+stellt und ihnen den Namen des Vaters gibt, ist
+auch auf den Einfluß der Wählerinnen zurückzuführen.
+Schweden hat bisher nur in weitgehendstem Maße
+kommunales Wahlrecht gewährt. Ein Gesetzentwurf
+zugunsten des Frauenwahlrechts im Parlament hat
+bereits die Zustimmung der zweiten Kammer ge-
+funden. Seine endgültige Erledigung ist durch Ein-
+spruch der ersten Kammer gegen die Vorschläge
+der Kommission bis zur nächsten Wahlrechtsperiode
+verzögert worden. Dänemark hat der Berechti-
+gung zum kommunalen Wahlrecht die Gewährung
+des aktiven und passiven Wahlrechts zur Volks-
+vertretung folgen lassen. Dort haben die Frauen
+lange darum gerungen, und der Erfolg wurden ihnen
+zuteil, als im Jahre 1915 eine neue Konstitution ein-
+geführt wurde. In Dänemark wird der Erfolg auf
+die Aufklärungsarbeit an den unteren Volksschichten,
+besonders an der Landbevölkerung, die reges politi-
+sches Interesse bekundet, zurückgeführt. Der Stimm-
+rechtsverein hatte dort eine eingehende regelmäßige
+Preßpropaganda entfaltet, Volkshochschulkurse ver-
+anstaltet und den Grundsatz gepflegt: niemals inner-
+halb des Vereins Parteipolitik zu treiben, weil er-
+fahrungsgemäß die Frauenforderungen von den ein-
+zelnen Parteien in allen Ländern immer zuerst über
+Bord geworfen werden, wenn eine Aussicht auf all-
+gemeine Reformen schwankend geworden ist. Eine
+neue Majorität oder ein anderes Ministerium bringen
+dann oft überraschend die Entscheidung. Island
+hat den Frauen ebenfalls staatsbürgerliche Gleich-
+berechtigung zuerkannt. In England besaßen die
+Frauen bis vor kurzem nur das aktive und passive
+Wahlrecht zum Stadt- und Grafschaftsrat. Um den
+leidenschaftlichen Kampf für das parlamentarische
+Stimmrecht, das fanatische Vorgehen der Suffragetten
+zu verstehen, wenn auch nicht zu rechtfertigen, muß
+man folgendes berücksichtigen: Die Engländerinnen
+gehen bei ihrer Forderung auf ein altes Recht zurück,
+weil vom Mittelalter bis zur Neuzeit die Gesetzgebung
+dem Wortlaut nach an keiner Stelle die Frauen aus-
+schloß. Erst 1832 wurde ihnen das Wahlrecht zum
+Parlament direkt abgesprochen. Darauf hat diese
+Frage seit dem Antrag Stuart Mills bis jetzt das
+Parlament immer wieder beschäftigt. Man hat den
+Frauen regelmäßig die Erfüllung ihrer Forderungen
+versprochen und sie stets von neuem getäuscht. Das
+Gesetz über die Zulassung der Frauen ist sechsmal
+in zweiter Lesung angenommen worden, aber die
+Vorlage wurde absichtlich verschleppt, und auch
+hier opferten die Männer ohne Bedenken die Frauen-
+forderungen, für die einzutreten sie sich verpflichtet
+hatten, um zunächst das Männerwahlrecht zu ändern.
+Die letzte Vorlage hatte bei zweimaliger Lesung eine
+Majorität gefunden, die Regierung hatte einen Ter-
+min zur endgültigen Beschlußfassung zur Verfügung
+gestellt, und durch politische Intrigen einiger Partei-
+führer wurde die Beratung hintertrieben. Diese Kette
+von Enttäuschungen hat die jüngere seit 1902 be-
+stehende Stimmrechtsvereinigung, die Women's Social
+und Political Union, unter Mrs. Pankhurst schließ-
+lich zu jenen unerhörten exzentrischen Missetaten ver-
+anlaßt, die vor dem Kriege die Methode der Suffra-
+getten bildeten. Leider ist die maßvolle größere und
+ältere Stimmrechtsorganisation, die National Union
+of Women's Suffrage Societies, seit 1867 unter dem
+Vorsitz der 70jährigen Mrs. Fawcett bestehend,
+im Auslande weniger bekannt. Dieser Verein hat
+sich niemals ein ungesetzliches Vorgehen zuschulden
+kommen lassen. 1916 zählte er 42 000 Mitglieder.
+Seine Führerinnen haben die Organisation hervor-
+ragend ausgebildet. Sie haben sich auch in diesem
+Kriege, frei von Chauvinismus, durchaus menschlich
+gezeigt, und sie haben mit dem Vorstande des Welt-
+bundes für Frauenstimmrecht in London für hilfs-
+bedürftige Ausländerinnen, besonders für deutsche und
+österreichische Frauen in aufopfernder Fürsorge ge-
+wetteifert. Wenn wir die Suffragetten verurteilen, so
+müssen wir andererseits anerkennen, daß es den Eng-
+länderinnen an Organisationsfähigkeit und Opferwillig-
+keit für ihre Sache nicht gefehlt hat. Angesichts der
+Unentbehrlichkeit der Frauen für ihre Kriegswirt-
+schaft und der Abhängigkeit von der Arbeitswillig-
+keit dieser Frauen hat die englische Regierung das
+Frauenwahlrecht mit Beschränkungen zunächst für
+Frauen über 30 Jahre vorgesehen. Diese Maßnahme
+soll vorläufig das Ueberwiegen der weiblichen Wäh-
+lerschaft verhindern. Diese Vorlage ist kürzlich vom
+Haus der Lords definitiv angenommen worden, und
+die englischen Frauen werden bereits an den nächsten
+Wahlen teilnehmen können. Sie verwalten schon jetzt
+wichtige Aemter in militärischen Organisationen wäh-
+rend des Krieges. Die außerordentliche Bewährung
+einer Frau in der Gefangenenfürsorge veranlaßte ihre
+Entsendung als Delegierte zu den Haager Verhand-
+lungen mit Deutschland über den Gefangenenaus-
+tausch. Holland, dessen konstitutionelle Regierung
+einer Königin höchste Autorität in seinem Staats-
+wesen zuerkennt, zögert noch immer, seinen Frauen
+uneingeschränkte Rechte zuzubilligen. Dort wird sich
+voraussichtlich nach der Verfassungsreform zunächst
+die eigentümliche Lage ergeben, daß die Frauen
+das passive parlamentarische Wahlrecht vor dem ak-
+tiven erhalten. Die meist zerstreut wohnende und
+hauptsächlich agrarische Bevölkerung der Schweiz
+hat die allgemeine Bedeutung der Stimmrechtsfrage
+bisher nicht so gewürdigt und in die Erscheinung
+treten lassen, wie es eigentlich ihrem demokratischen
+Charakter entspräche. Jedoch entfalten die Frauen-
+vereine in den verschiedenen Kantonen, die alle ein-
+zeln über die Frage zu beschließen haben, eine rege
+Propaganda in Spanien, Portugal, Frank-
+reich und Italien, den Ländern der romanischen
+Sprachgemeinschaft, sind die Frauen noch von allen
+politischen Rechten ausgeschlossen. In Portugal
+ist es zwar auf Grund richterlicher Erkenntnis einer
+Frau gelungen, als Wählerin zu fungieren. Aber dieser
+Fall hat zu keiner allgemeinen Einführung des gesetz-
+lichen Wahlrechtes geführt. In Italien und Frankreich
+haben die Sympathien für das Frauenwahlrecht auch
+in Männerkreisen bemerkenswerte Fortschritte ge-
+macht, ohne jedoch bisher greifbare Resultate zu er-
+geben. In Frankreich soll nach dem Kriege ein
+Gesetzentwurf für das Frauenstimmrecht in der Ge-
+meinde vorgelegt werden, ln Rußland, wo die
+alten Verhältnisse eine straff organisierte Stimmrechts-
+bewegung bisher hinderten, sehen wir, daß da, wo
+die Frauen mit Männern seit langem gemeinsam
+für die freiheitliche Entwicklung ihres Vaterlandes
+und für das Selbstbestimmungsrecht aller Volksgenos-
+sen gekämpft haben, sich ihre Eingliederung zur poli-
+tischen Selbständigkeit anläßlich einer Volkserhebung
+plötzlich vollzieht. Bei unseren nächsten Nachbarn,
+in Oesterreich-Ungarn, sind, infolge der kom-
+plizierten Stellung der fremdsprachlichen Nationen zu-
+einander, die politischen Rechte der Frauen völlig
+ungleich. In Ungarn mit seinem starken National-
+bewußtsein ist das politische Verständnis weitester
+Kreise der Frauenforderung so günstig gewesen, daß
+parlamentarische Führer und Volkswille anläßlich der
+Wahlrechtsreform auch einen Gesetzentwurf zum
+Frauenwahlrecht erlangen konnten. Nach diesem soll
+die politische Reife für das aktive und passive Wahl-
+recht allen Frauen über 24 Jahren zugesprochen wer-
+den, die eine vierklassige Bürgerschule besucht haben,
+ferner jenen Frauen, die seit zwei Jahren tätiges Mit-
+glied eines wissenschaftlichen, literarischen oder
+künstlerischen Vereins sind, oder solchen Frauen,
+deren Gatte während des Krieges gefallen oder in-
+folge von Ueberanstrengung oder an seinen Wunden
+gestorben ist, falls sie aus dieser Ehe ein Kind haben.
+Böhmen, welches im österreichischen Staatenver-
+bande eine Sonderstellung einnimmt, hat trotz gün-
+stiger Wahlgesetzgebung für die Frauen — eine
+böhmische Frau wurde dort selbst zum Landtag ge-
+wählt, aber die Bestätigung ihres Mandats wurde
+ihr vom Statthalter Fürsten Thun bis jetzt ver-
+sagt — die größten Schwierigkeiten für die Durch-
+setzung bereits bestehender Rechte. Jedoch werden
+die Frauen von den extrem national-tschechischen
+Elementen außerordentlich unterstützt. Im übrigen
+Oesterreich verfügen die Frauen in einigen Landes-
+teilen über ein beschränktes aktives Parlaments- und
+zum Teil auch kommunales Wahlrecht. Daß trotz-
+dem die Entwicklung der Bewegung nur so lang-
+same Fortschritte macht, findet seine Erklärung darin,
+daß im Widerspruch zu den vorhandenen Rechten es
+den Frauen bisher versagt war, politischen Vereinen
+anzugehören.
+Damit sind wir in unseren Betrachtungen bei
+dem gegenwärtigen Stand der Stimmrechtsfrage in
+Deutschland angelangt. Abgesehen von den schon
+erwähnten romanischen Ländern, den Balkan-
+staaten und Oesterreich, ist Deutschland der-
+jenige europäische Staat, dessen Regierung weder
+eine Geneigtheit zur Gewährung des parlamentari-
+schen Wahlrechts, noch des Gemeindewahlrechts ge-
+zeigt hat. Immerhin erklärt ein Vertreter des Mini-
+steriums des Innern in Preußen, daß die bei der Be-
+tätigung der Frauen gewonnenen Erfahrungen zu
+einer Aenderung der Verwaltungspraxis und nach
+dem Kriege, im Falle einer Abänderung der ge-
+meindlichen Verfassungsgesetze, vielleicht auch zu
+einer gesetzgeberischen Maßnahme führen würden.
+Dagegen könnten hinsichtlich der politischen Wahl-
+berechtigung der Frauen in Staat und Gemeinde ir-
+gendwelche bestimmten Folgerungen aus den ver-
+änderten Verhältnissen nicht gezogen werden.
+An konsequenter Agitation von seiten der Frauen-
+und Frauenstimmrechtsbewegung hat es nicht ge-
+fehlt. Daß nur eine kleine Anzahl von Frauen radi-
+kaler Richtung das Stimmrecht erstreben, ist eine
+durchaus unzutreffende Behauptung der Gegner. Sie
+wird widerlegt durch nachstehende Zahlen, die nur
+einen ungefähren Ueberblick ermöglichen sollen:
+Der Bund Deutscher Frauenvereine, welcher poli-
+tische, soziale, Fach- und Bildungsvereine aller Rich-
+tungen umfaßt, hat in einer eindrucksvollen Denk-
+schrift zur „Stellung der Frau in der politisch-sozialen
+Neugestaltung Deutschlands‟ die Forderung des
+Frauenwahlrechts in Reich, Staat und Gemeinde, sowie
+Zuziehung sachverständiger Frauen zu allen die weib-
+lichen Interessen berührenden Kommissionen kürzlich
+bekundet. Abzüglich des dem aktiven Frauenwahl-
+recht noch zögernd gegenüberstehenden Deutsch-
+Evangelischen Frauenbundes und einschließlich des
+angeschlossenen Deutschen Reichsverbandes für
+Frauenstimmrecht vertritt er insgesamt:
+585800	Frauen	(1917)
+für das Frauenstimmrecht tre-
+ten ferner ein:
+im Deutschen Frauenstimm-
+rechtsbund 3000	〃	(1917)
+in der Fortschrittlichen Volks-
+partei etwa 1000	〃	(1914)
+in der sozialdemokratischen
+Frauenbewegung 174754	〃	(1914)
+Übertrag	764554	Frauen	Übertrag	764554	Frauen	gewerkschaftlich organisierte
+Frauen 221071	〃	(1914)
+Gegenwärtig festzustellende
+Gesamtzahl organisierter
+Frauen 985625	Frauen	Diese Gesamtzahl von beinahe 1 Million orga-
+nisierter Frauen erhöht sich um ein Vielfaches, wenn
+man die nichtorganisierten Gesinnungsgenossinnen,
+deren Zahl unter dem Eindruck des Kriegserlebnisses
+sich erheblich vermehrt hat, in Rechnung stellt.
+Die allgemeine Auffassung, welche die Stellung-
+nahme deutscher Männer gegenüber der Zubilligung
+politischer Frauenrechte so ungünstig beeinflußt, un-
+terscheidet sich durchschnittlich nicht von derjeni-
+gen der Gegner in aller Welt. Ihre Widerlegung ist
+in einem amerikanischen Flugblatte enthalten:
+„Man will uns glauben machen, daß
+1. jede Frau verheiratet, geliebt, beschützt und ver-
+sorgt ist,
+2. jeder Mann allabendlich zu Hause sitzt,
+3. jede Frau kleine Kinder hat,
+4. alle Frauen, wenn sie die politischen Rechte er-
+halten haben, sich in die Politik stürzen und ihr
+Haus vernachlässigen werden.
+Wie liegen die Dinge tatsächlich?
+1. Eine Menge Frauen ist nicht verheiratet, viele
+sind Witwen, die ihre Kinder erziehen und sich
+ihren eigenen Erwerb suchen müssen. Tausende
+haben kein anderes Heim als das, welches sie
+sich schaffen, und müssen oft noch Angehörige
+erhalten. Viele der Verheirateten werden weder
+geliebt, noch versorgt, noch beschützt.
+2. Viele Manner sind so selten abends zu Hause,
+daß ihre Frauen sich ruhig um die Politik küm-
+mern könnten, ohne vermißt zu werden. Und
+solche Männer schreien, von den Junggesellen
+unterstützt, am meisten über die „Auflösung der
+Familie‟ durch die Politik.
+3. Die Kinder bleiben nicht immer klein, sie wachsen
+heran und verlassen die Mutter. Es mag ja sein,
+daß diese, statt sich politisch zu betätigen, es
+vorzieht, Flanellhemden für die Heiden zu nähen
+oder Romane zu lesen, aber man soll ihr doch
+die Freiheit der Wahl lassen.
+4. Das Wahlrecht wird die Natur der Frau nicht
+ändern. Wollte sie ihr Haus verlassen, so hätte
+sie schon andere Gelegenheiten dazu gefunden.‟
+Der in Deutschland volkstümliche Einwurf, man
+wolle die Frauen nicht in die Arena des politischen
+Kampfes ziehen, um ihre Würde und Empfindsam-
+keit zu schonen, verliert bei Zubilligung einer ehr-
+lichen Ueberzeugung seine Eindrucksfähigkeit im Hin-
+blick auf die harten Realitäten des Lebens, vor
+denen auch auf anderen Gebieten unsere Frauen nicht
+von deutschen Männern geschützt und verteidigt wer-
+den können. Ein deutscher demokratischer Abgeord-
+neter und warmer Verfechter des Frauenstimmrechts
+hat den Widerstand deutscher Männer außerdem noch
+damit zu erklären versucht, daß sie nach altherge-
+brachtem Familienideal nicht vermögen, das Erinne-
+rungsbild der Mutter früherer Generationen mit der
+Vorstellung der politisch fortgeschrittenen Frau der
+Gegenwart zu verbinden.
+Immerhin hat der Krieg so wandelnd gewirkt,
+daß sie sich der Erkenntnis nicht länger verschließen
+können, daß infolge der Einbeziehung der Frauen
+in die Kriegswirtschaft, des gemeinsamen seelischen
+Erlebens des Weltkrieges, es fortan unmöglich ist,
+der Frau die tätige Anteilnahme als Volksgenossin
+zu versagen. Ihr bisheriges Ideal der Nur-Hausfrau
+kann demnach in einer Zeit nicht aufrecht erhalten
+werden, in welcher der Staat „der freien und freu-
+digen Mitarbeit aller Glieder des Volkes bedarf‟
+(Osterbotschaft 1917).
+Es ist offenbar, daß sich innerhalb der Par-
+teien ein Wandel in der Stellung zur Frauenfrage
+im allgemeinen und zum Frauenstimmrecht im be-
+sonderen vollzieht.
+Dasselbe ist in Regierungskreisen der Fall, wo
+man die sachverständige Mitarbeit der Frau auf wich-
+tigsten Gebieten der Kriegswirtschaft anerkannt hat,
+ohne jedoch daraus die Folgerungen für die Ge-
+währung politischer Rechte an die Frauen zu ziehen.
+Die Niederschläge solcher Wandlungen werden erst
+im Laufe der Zeit vollkommen abzuschätzen sein.
+Die programmatische Stellung der gegenwärtig
+führenden Parteien ist in kurzen Umrissen wie folgt
+darzustellen: Die sozialdemokratischen Parteien bei-
+der Richtungen sind die einzigen, welche die Forde-
+rung des Frauenstimmrechts vollständig in ihr Pro-
+grarnm aufgenommen haben. Bebel hatte es schon
+1875 beantragt. Diese Parteien haben im Reichstag
+und Abgeordnetenhaus zwar das Frauenstimmrecht
+befürwortet, aber obgleich die sozialdemokratische
+Partei die größte Zahl der weiblichen Mitglieder
+aufweist, kann man aus der Tatsache, daß vor jedem
+sozialdemokratischen Parteitag besondere Frauenkon-
+ferenzen stattgefunden haben, schließen, daß eine
+gleichwertige Beurteilung den Frauenfragen nicht von
+seiten aller Parteigenossen zuteil wird. Die demo-
+kratische Partei, welche über keinen parlamentari-
+schen Vertreter verfügt, bekennt sich ebenfalls rück-
+haltslos zum Frauenstimmrecht. Was den Liberalis-
+mus anbetrifft, so entspricht die Anerkennung poli-
+tischer Gleichberechtigung der Frauen unbedingt der
+liberalen Weltanschauung. Die Fortschrittliche Volks-
+partei, welche im übrigen die Vertretung liberaler
+Ideen und Ziele propagiert, hat in ihrem Programm
+diese Folgerung noch nicht vollständig gezogen. Nach
+der Reform des Vereinsgesetzes traten viele Frauen,
+darunter bekannte Führerinnen der Frauenbewegung,
+in die liberalen Parteien ein. Als 1910 eine Fusion
+der drei liberalen Parteien erfolgte, gelang es den
+weiblichen Mitgliedern nicht, das Frauenwahlrecht
+als Gegenwartsforderung dem Programm einzufügen.
+Die Frauen entschieden, in der Partei auszuharren,
+die ihrer Weltanschauung entsprach, trotzdem auch
+1912 die Programmforderung noch nicht erfüllt war.
+Aber die Abstimmung über 13 Anträge aus männ-
+lichen und weiblichen Parteikreisen zeigte einen völ-
+ligen Umschwung der Auffassung. Man nahm eine
+Resolution an und verpflichtete darin die Partei-
+mitglieder, „die Frauen im Kampf um ihre politischen
+Rechte bis zur vollen staatsbürgerlichen Gleichberech-
+tigung zu unterstützen‟. Die Aufnahme der Frauen-
+wahlrechtsforderung in das Parteiprogramm darf für
+den nächsten Parteitag als gesichert gelten. Der
+Einfluß nationalliberaler Frauen in ihrer Partei nimmt
+stetig zu, wenngleich ein Teil der Männer noch
+ihrer politischen Betätigung zögernd gegenübersteht.
+Die nationalliberalen Frauen sind in besonderen
+Frauengruppen im Rahmen der Partei zu gemeinsamer
+politischer Arbeit organisiert, was sich durch Zu-
+gehörigkeit des männlichen Ortsvorsitzenden im Vor-
+stand der Frauengruppen und Wahl von drei Frauen
+in den Hauptvorstand der Partei erweist. Das Zen-
+trum hat mit Ausnahme der Windhorst-Bunde bis-
+her keine weiblichen Mitglieder in die Männervereine
+aufgenommen, jedoch bestehende politisch inter-
+essierte Frauenvereine verwandter Richtung begünstigt,
+bzw. der Neugründung solcher die Wege geebnet,
+immerhin sprechen alle Anzeichen dafür, daß man
+im gegebenen Moment dem Geist der Zeit gerecht
+werden wird. Auch die Aeußerungen bekannter an-
+gesehener Geistlicher und Politiker sind in dieser
+Hinsicht beachtenswert. Pfarrer Holzapfel hat
+festgestellt, daß kein Dogma das Frauenstimmrecht
+verbietet, ein Dominikanermönch hat dafür gepredigt,
+und der Prälat Gießwein in Ungarn agitiert öf-
+fentlich für das Frauenstimmrecht. Im bayerischen
+Landtag haben Zentrumsabgeordnete zugunsten des
+Frauenstimmrechts gesprochen. Auch die konserva-
+tive Partei hat es für richtig befunden, sich wenig-
+stens durch Schaffung besonderer konservativer
+Frauenvereine weibliche Gefolgschaft zu sichern. Im
+übrigen ist man aber dort noch gegen jedes wich-
+tige Zugeständnis weiblicher politischer Rechte.
+Um die gegenwärtig nach außen festgelegte Stel-
+lungnahme der Parteien zur Frauenwahlrechtsfrage im
+Rahmen der Auseinandersetzungen zur gesamten Wahl-
+rechtsfrage richtig einzuschätzen, muß man sich an
+die Ergebnisse der Verhandlungen im Verfassungsaus-
+schuß des Reichstags vom Juni 1917, derselben im
+Preußischen Abgeordnetenhaus vom Dezember 1917
+und der Beratungen im Januar 1918 über die Frauen-
+petitionen halten. Im Verfassungsausschuß haben die
+Vertreter der sozialdemokratischen Mehrheit und
+außerdem der Abgeordnete Bernstein und Ge-
+nossen Anträge zum Frauenstimmrecht für alle Lan-
+desvertretungen eingebracht. Der konservative Red-
+ner sprach sich im Namen seiner Partei vollständig
+ablehnend zu diesen Anträgen aus. Der Vertreter
+des Zentrums erklärte das Frauenstimmrecht für nicht
+angebracht und den aktiven Eintritt der Frauen in
+das politische Leben als nicht wünschenswert. Der
+Sprecher der Nationalliberalen gab zu, daß der Krieg
+starke Argumente für das Frauenstimmrecht geliefert
+habe und seine Partei der Frage des Frauenstimm-
+rechts deshalb wesentlich sympathischer gegenüber-
+stände als früher, jedoch die Zustimmung zur so-
+fortigen Einführung von der Partei noch nicht ge-
+geben werden könne. Auch der Vertreter der Fort-
+schrittlichen Volkspartei hält es für eine ernste Zu-
+kunftsaufgabe, die politische Stellung der Frau ihrer
+wirtschaftlichen anzupassen, will aber die Frage (un-
+beschadet der Verpflichtung der Mannheimer Re-
+solution) noch offen lassen und konnte sich noch
+nicht entschließen, den sozialdemokratischen Anträgen
+zuzustimmen. Es ergibt sich daraus, daß die beiden
+liberalen Parteien sich wohl bewußt sind, den Zeit-
+ereignissen und den berechtigten Ansprüchen der
+Frauen ein gewisses Zugeständnis zu machen, daß
+sie aber die Erfüllung der diesbezüglichen Frauen-
+wünsche verzögern, um die Reform des Männer-
+wahlrechtes nicht zu gefährden. Die Grundlage der
+letzten Verhandlung im Abgeordnetenhaus vom 15. Ja-
+nuar 1918 bildeten Frauenpetitionen aus den Kreisen
+der Stimmrechtlerinnen bezüglich stimmberechtigter
+Wahl von Frauen in städtische Deputationen und Ein-
+gaben von seiten der konfessionell organisierten, nicht
+politisch wirken wollenden Frauen des Deutsch-Evan-
+gelischen und des Katholischen Frauenbundes, be-
+treffend Zuziehung sachverständiger Frauen zu par-
+lamentarischen Kommissionen, die sich auf Frauen-
+fragen beziehen. Der Gang der Beratungen ist als
+durchaus enttäuschend anzusprechen, nachdem der
+Regierungsvertreter sich nicht einmal zu dem be-
+scheidenen Zugeständnis bereit erklärte, die Gleich-
+berechtigung der Frauen in städtischen Deputationen
+durch sofortige Aenderung der diesbezüglichen Pa-
+ragraphen der Städteordnungen anzuerkennen, und
+nur die gelegentliche Reform in Aussicht stellte.
+Dennoch ist ein Fortschritt in der Auffassung der
+Parteien gegenüber den Frauenfragen unverkennbar.
+Dies erwies sich einmal durch die übereinstimmende
+Annahme des eingeschränkten Antrags, betreffend De-
+putationen, dann in der verbindlichen Geneigtheit zur
+Prüfung der Eingaben, betreffend Zuziehung sach-
+verständiger Frauen zu parlamentarischen Kommis-
+sionen und in der uneingeschränkten Forderung des
+Gemeindewahlrechts für die Frauen von seiten der
+Fortschrittlichen Volkspartei. Als im Jahre 1908 be-
+reits einige Frauen die Ausübung des Gemeinde-
+wahlrechtes in Preußen im Prozeßwege zu erlangen
+suchten, wurde ihnen in der richterlichen Erkenntnis
+des Oberverwaltungsgerichtes zugebilligt, daß sie nach
+§ 5 der Städteordnung alle für den Erwerb des Bür-
+gerrechtes erforderlichen Voraussetzungen erfüllen.
+Obwohl eine ausdrückliche Erklärung, daß das weib-
+liche Geschlecht vom Wahlrecht ausgeschlossen
+werde, in der Entstehungsgeschichte der verschiedenen
+Städteordnungen nicht zu finden ist, sei aus diesem
+Schweigen zu schließen, daß der Gedanke, die Frauen
+an öffentlichen städtischen Wahlen teilnehmen zu
+lassen, an maßgebender Stelle niemals gefaßt worden
+ist. Auch wenn durch die mannigfachen Anregungen,
+die in neuerer Zeit von seiten der Frauenbewegung
+im öffentlichen Leben nach dieser und anderer Rich-
+tung gegeben worden sind, ein Umschwung in den
+bisherigen Rechtsanschauungen eingetreten sei, so
+könne er nicht dazu führen, bestehende Gesetze in
+einem Sinne auszulegen und anzuwenden, die dem-
+jenigen, in welchem sie gegeben und seit einem
+halben Jahrhundert angewendet worden sind, ent-
+gegengesetzt sein würden.
+Inwieweit nun in der Osterbotschaft 1917 zur
+Wahlrechtsreform in Preußen der Frauen bei Fest-
+legung des Wortlautes gedacht worden ist, entzieht
+sich der Beurteilung. Zweifellos hat man beim Ge-
+setzentwurf nebst der Begründung zur preußischen
+Wahlrechtsreform an der Prüfung der Frauenwahl-
+rechtsfrage nicht vorübergehen können. Die Formu-
+lierung des Gesetzes zeigt, daß man der Frauen nur
+mit negativem Resultat gedacht hat, indem man die
+tatsächlich beabsichtigte Ausschließung der Frauen
+vom Wahlrecht nicht einmal erwähnt hat. Nach her-
+gebrachter Auffassung wird noch immer „vom all-
+gemeinen Wahlrecht‟, „von jedem Preußen‟, „vom
+ganzen Volk‟ gesprochen, ohne die Frauen in diesen
+Begriff einzubeziehen. Wer sich nicht auf diese rein
+formale Tradition beschränkt, wer aufmerksam und
+vorurteilslos den Inhalt der Osterbotschaft wie der
+Begründung zur preußischen Wahlrechtsvorlage liest,
+wird es begreiflich finden, daß die Frauenstimmrecht-
+lerinnen daraus ihre überzeugendsten Argumente, ihre
+feingeschliffensten Waffen im Kampf um die Neu-
+orientierung mit Bezug auf politische Frauenrechte
+entlehnen. Unter dem Eindruck dieser Nichtbeach-
+tung der weiblichen Glieder des Volkes haben im
+Zeichen des Burgfriedens die beiden bürgerlichen
+Stimmrechtsorganisationen, der Deutsche Reichsver-
+band für Frauenstimmrecht, der Deutsche Frauen-
+stimmrechtsbund und die sozialdemokratischen Frauen
+Deutschlands eine Protestresolution an den Reichs-
+tag und alle Landesparlamente gesandt. In Ver-
+sammlungen und Eingaben werden fortgesetzt in
+allen Teilen Deutschlands Kundgebungen für die Ge-
+währung politischer Frauenrechte veranstaltet. Nach
+der ersten Verhandlung im Plenum steht die Wahl-
+rechtsvorlage nunmehr in der Kommission des Ab-
+geordnetenhauses zur Beratung. Die Stellungnahme
+der Parteien zum Frauenwahlrecht zeigte bei den
+Beratungen im Plenum im Dezember 1917 einige
+fortgeschrittene Schattierungen, ohne die grundsätz-
+liche Haltung der Parteien zu ändern. Allenfalls prä-
+zisierte die Fortschrittliche Volkspartei etwas ge-
+nauer, warum sie trotz grundsätzlicher Sympathie
+für das Frauenstimmrecht auch dieses Mal die Frage
+vertagen wolle. Die Wahlrechtskommission besteht
+aus 12 Konservativen, 8 Zentrum, 4 Freikonservati-
+ven, 6 Nationalliberalen, 3 Fortschrittlern, 1 Sozial-
+demokraten und 1 Polen. Das Schicksal der Wahl-
+rechtsvorlage, auch bezüglich der Erfüllung des all-
+gemeinen, gleichen, geheimen und direkten Wahl-
+rechts, ist noch unentschieden. Mit Bezug auf das
+Frauenwahlrecht dürften die Aussichten sich nicht
+erheblich günstiger gestalten, als es nach den Ver-
+handlungen im Verfassungsausschuß des Reichstags
+und im Plenum des Abgeordnetenhauses voraus-
+zusehen ist. Diese Erfahrungen werden die Stimm-
+rechtlerinnen nur veranlassen, ihre ganze Kraft darauf
+zu konzentrieren, den Vorläufer des parlamentarischen
+Wahlrechts, das Frauenwahlrecht in der Gemeinde, in
+absehbarer Zeit durchzuführen. Der gegebene Zeit-
+punkt hierfür dürfte allerdings bei Gelegenheit der
+Reform der Städteordnungen gekommen sein. Bis da-
+hin werden die Frauen sich auf ihre zukünftigen
+kommunalen Pflichten auch weiterhin durch intensive
+theoretische Schulung, durch gesteigerte freiwillige
+ehrenamtliche Tätigkeit in der Gemeinde und durch
+fortgesetzte Einwirkung auf die maßgebenden Re-
+gierungskreise und die Parteien vorbereiten, um letz-
+tere zu überzeugen, daß die Reform des Gemeinde-
+wahlrechts in den einzelnen Bundesstaaten nur unter
+voller Einbeziehung der Frauen erfolgen kann.
+Denn im Gegensatz zu der Entwicklung in ver-
+schiedenen Staaten des Auslandes wird in Deutsch-
+land die Einführung des Gemeindewahlrechts der
+Frau der des parlamentarischen Frauenwahlrechts vor-
+ausgehen. Ebenso wie im Ausland eine Norm nicht
+dafür festzustellen war, welche Parteien für die end-
+gültige Bewilligung des Frauenstimmrechts ausschlag-
+gebend waren, ebensowenig ist vorauszusehen, welche
+Partei in Deutschland in jedem Einzelfalle das Züng-
+lein an der Wage zugunsten des Frauenwahlrechts
+bilden wird. Die sich nach Friedensschluß bildende
+bewegte innerpolitische Atmosphäre wird eine in-
+tensive Mitwirkung der Frauen in den Parteien her-
+beiführen, wozu ebenso die gehobene politische An-
+teilnahme der Frauen, wie das einsetzende Werben
+der Parteien bei bevorstehenden Wahlen beitragen
+werden. Hierbei werden die Stimmrechtlerinnen mehr
+als zuvor für ihre eigene Sache wirken können, und
+das um so erfolgreicher, je intensiver die weiblichen
+Mitglieder der verschiedenen Parteien vorher in der
+Frauenstimmrechtsbewegung und allgemein politisch
+geschult wurden. Sonst werden die Parteien durch
+den Eintritt der Frauen wohl einen zahlenmäßigen
+aber ebensowenig einen qualitativen Gewinn zu ver-
+zeichnen haben, als die Frauen ihrerseits einen Er-
+folg ihrer besonderen Bestrebungen. Den Stimm-
+rechtlerinnen, die sich in einer Partei betätigen, wer-
+den Gewissenskonflikte nicht erspart bleiben. Sie
+werden es kaum über sich gewinnen, Kandidaten zu
+unterstützen, die Gegner des Frauenstimmrechts sind.
+Indem sie sich in solchen Fällen passiv verhalten,
+reformieren sie am schnellsten jede Partei, die der
+Hilfstruppe weiblicher Mitglieder bedarf. Anderer-
+seits wird das Abwägen zwischen berechtigter, sach-
+licher Opposition und Parteidisziplin in einzelnen
+Frauenfragen an die politische Reife der Frauen
+nicht geringe Anforderungen stellen. Diese Fragen
+sind individuell von den einzelnen Persönlichkeiten
+und grundsätzlich von den weiblichen Parteiorgani-
+sationen zu entscheiden. Die allgemeinen Stimm-
+rechtsorganisationen in Deutschland sollten streng
+neutral bleiben, niemals in das Schlepptau einzelner
+politischer Parteien geraten, auch wenn sichere Aus-
+sicht besteht, daß gerade diese Partei dem Frauen-
+wahlrecht zum Siege verhelfen wird. Die Stimmrechts-
+vereine werden durch ihre Wirksamkeit erweisen,
+daß sie deutsche Frauen aller Schichten und aller
+Richtungen vereinen, und daß ihr Kampf ums Recht
+in solchen Formen geführt wird, daß er ihnen nicht
+als ein Kampf um die Macht gilt. Es ist kein Kampf,
+vielmehr die Geltendmachung neuer Rechte, die
+befähigt, im neuen Deutschland als bewertete Per-
+sönlichkeiten und vollwertige Staatsbürgerinnen grö-
+ßere und verantwortungsvollere Pflichten zu über-
+nehmen.
+</text>
+  </TextCorpus>
+</D-Spin>

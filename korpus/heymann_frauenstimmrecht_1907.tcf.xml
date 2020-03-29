@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/heymann_frauenstimmrecht_1907</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-heymann_frauenstimmrecht_1907.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/heymann_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_frauenstimmrecht_1907.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/heymann_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_frauenstimmrecht_1907.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/heymann_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_frauenstimmrecht_1907.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/heymann_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_frauenstimmrecht_1907.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Frauenstimmrecht, eine Forderung der Gerechtigkeit! Frauenstimmrecht, eine Forderung sozialer Notwendigkeit! Frauenstimmrecht, eine Forderung der Kultur!</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Heymann</cmdp:surname>
+<cmdp:forename>Lida Gustava</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118704524</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2017-12-08T13:55:37Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2017-12-08T13:55:37Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">14</cmdp:measure>
+        <cmdp:measure type="tokens">2057</cmdp:measure>
+        <cmdp:measure type="types">868</cmdp:measure>
+        <cmdp:measure type="characters">15324</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:58:41Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/heymann_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/heymann_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/heymann_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/heymann_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="DTADirName">heymann_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="DTAID">32403</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32403-0</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Heymann, Lida Gustava: Frauenstimmrecht, eine Forderung der Gerechtigkeit! Frauenstimmrecht, eine Forderung sozialer Notwendigkeit! Frauenstimmrecht, eine Forderung der Kultur! München, 1907.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Frauenstimmrecht, eine Forderung der Gerechtigkeit! Frauenstimmrecht, eine Forderung sozialer Notwendigkeit! Frauenstimmrecht, eine Forderung der Kultur!</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Heymann</cmdp:surname>
+<cmdp:forename>Lida Gustava</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118704524</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1">1</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>München</cmdp:pubPlace>
+            <cmdp:date type="publication">1907</cmdp:date><cmdp:publisher><cmdp:name>Kgl. Hofbuchdruckerei Kastner &amp; Caltwey</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Bayerische Staatsbibliothek München</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">Fol. G. 1053 b</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+<p>
+    Bogensignaturen: keine Angabe;
+    Druckfehler: keine Angabe;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+/p> 
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Gleiches Recht,
+Frauenstimmrecht.
+Wacht auf ihr deutschen
+Frauen
+aller Stände, aller
+Parteien!
+Der Erweckerin der deutschen Frauenstimmrechtsbewegung
+ANITA AUGSPURG
+sind diese Zeilen gewidmet.
+Frauenstimmrecht,
+eine Forderung der Gerechtigkeit!
+Frauenstimmrecht,
+eine Forderung sozialer Notwendigkeit!
+Frauenstimmrecht,
+eine Forderung der Kultur!
+6.-10. Tausend.
+Das Frauenstimmrecht ist eine Forderung
+der Gerechtigkeit!
+Ein Staat, dessen Verfassung auf dem demokratischen
+Prinzip des allgemeinen Wahlrechts ruht und die Frauen
+von der Beteiligung an demselben ausschliesst, macht sich
+einer groben Unwahrheit, einer grossen Ungerechtigkeit
+schuldig.
+Ein Wahlrecht ist nur dann ein allgemeines, entspricht
+nur dann den Forderungen der Gerechtigkeit, wenn alle
+erwachsenen Angehörigen eines Staates in gleicher Weise
+zur Erwählung der Volksvertreter befugt sind.
+Ein Staat, ein Volk besteht aus Männern und Frauen,
+folglich müssen die Gesetze, denen ein Volk unterstellt
+wird, unter Mitwirkung von Männern und Frauen gemacht
+werden, wenn nicht, wie die Erfahrung lehrt, die Rechte
+der Frauen dauernd geschmälert bleiben sollen. Nur unter
+der einseitigen Gesetzgebung eines Männerstaates ist es
+möglich, dass Frauen, wie z. B. in Deutschland, mit Ver-
+brechern, Idioten, Entmündigten, Bankerotteuren, Schülern
+und Lehrlingen auf eine Stufe gestellt werden. *)
+*) § 7 des Börsengesetzes lautet: Vom Börsenbesuche sind aus-
+geschlossen Personen weiblichen Geschlechts. Personen, welche sich
+nicht im Besitze der bürgerlichen Ehrenrechte befinden (Verbrecher).
+Personen, welche infolge gerichtlicher Anordnung in der Verfügung
+über ihr Vermögen beschränkt sind (Idioten und Entmündigte). Personen,
+welche wegen betrügerischen oder einfachen Bankerotts rechtskräftig
+verurteilt sind (Frauen stehen hier auf einer Stufe mit gemeinen
+Frauen Deutschlands, wollt ihr diese Schmach länger
+dulden?
+Diese Ausnahmegesetze rauben den Frauen das Ver-
+trauen zu der Gerechtigkeit im Männerstaat, sie liefern den
+deutlichen Beweis, dass das männliche Geschlecht allein
+keineswegs fähig ist, die Interessen des weiblichen Ge-
+schlechts genügend zu wahren.
+Schliesst euch zusammen, organisiert euch, kämpft
+für eure Rechte, sorgt, dass das Banner der Gerechtigkeit
+endlich aufgerichtet wird in Eurem Vaterland!
+*)
+*) Betrügern, nur weil sie Frauen sind). In der Reichsverfassung Art. 20
+heisst es: Von der Berechtigung zum Wählen sind ausgeschlossen:
+Personen, welche unter Vormundschaft und Kuratel stehen, über deren
+Vermögen Konkurs oder Fallitzustand gerichtlich eröffnet ist, denen
+infolge rechtskräftigen Erkenntnisses der Vollgenuss der staatsbürger-
+lichen Rechte entzogen ist. Da die Frauen zum Reichswahlrecht
+nicht zugelassen werden, ergibt sich ganz von selbst ihre Gleich-
+stellung mit diesen Personen.
+§ 8 des preussischen Vereinsgesetzes lautet: Vereine, welche
+bezwecken, politische Gegenstände in Versammlungen zu erörtern,
+dürfen keine Frauenspersonen, Schüler und Lehrlinge als Mitglieder
+aufnehmen.
+Das Frauenstimmrecht ist eine Forderung
+sozialer Notwendigkeit!
+Frauen aller Stände, aller Berufe fördern durch ihre Mit-
+arbeit – gleich den Männern – die Entwicklung des
+deutschen Wirtschaftslebens und des Deutschen Reiches;
+die Zahl der wirtschaftlich selbständigen Frauen ist in
+stetem Wachsen begriffen.
+Frauen haben von jeher in der Landwirtschaft und
+Hauswirtschaft mitgearbeitet, sie sind heute auf allen künst-
+lerischen Gebieten, sie sind im Handel, in der Industrie tätig.
+Ohne die Frauenarbeit hätte die deutsche Industrie
+niemals den ungeheuren Aufschwung nehmen können, den
+sie genommen hat. Deutschlands Industrie aber, die ihre
+Entwicklung der Mitarbeit der Frauen verdankt, hat Deutsch-
+land die Weltmachtstellung miterobern helfen.
+Frauen schenken dem Staate unter Einsetzung ihres
+eigenen Lebens die Bürger; ihnen liegt die mühevolle
+Pflege und Erziehung ihrer Kinder in den ersten Jahren ob.
+Somit können die Frauen mit Recht erklären, uns
+trifft das Verdienst an dem steten Wachsen der Bürger-
+zahl des deutschen Reiches; dieses Wachsen der Bevölke-
+rung aber bedeutet eine ungeheure Macht für den deutschen
+Staat. Wer grossen Anteil hat an der Entwicklung seines
+Vaterlandes, der will auch mitwirken, wenn es sich um
+die innere Gestaltung des Staates, um die Gesetzgebung
+handelt. Wer so die Weltmachtstellung seines Vaterlandes
+stärkt, der hat ein Recht, die politische Gleichberechtigung
+zu verlangen. Die Forderung des Frauenstimmrechts wird
+zur sozialen Notwendigkeit.
+Das Frauenstimmrecht ist eine Forderung
+der Kultur!
+Es ist eines freien Kulturstaates unwürdig, seine Bürger
+Gesetzen zu unterwerfen, an deren Zustandekommen
+sie nicht beteiligt sind; deshalb ist die erste Forderung
+eines modernen Kulturstaates die politische Befreiung aller
+seiner Staatsangehörigen, der weiblichen sowohl wie der
+männlichen. Die politische Befreiung der Männer macht
+die Gesamtheit des Volkes nicht frei, denn sie erhält die
+Frauen in doppelter Unfreiheit, in der Abhängigkeit von den
+Gesetzen und in der Abhängigkeit vom Manne.
+Unfreiheit und Abhängigkeit einer Volksklasse be-
+deutet für deren Angehörige schmachvolle Erniedrigung,
+für die Gesamtheit dauernde Unkultur. Die Stellung der
+Frau im Staate ist der beste Gradmesser für die Höhe
+oder den Tiefstand seiner Kultur.
+Der Männerstaat schafft Gesetze und Einrichtungen,
+welche die Frauen an der freien Entwicklung zur Persön-
+lichkeit hindern; er entzieht dem Staate Kräfte, ohne die
+derselbe niemals die Höhe wahrer Kultur erreichen wird.
+Die Stellung der Frau wird erst dann eine menschen-
+würdige, wenn sie selbst an der Gesetzgebung beteiligt ist
+und für das weibliche Geschlecht wie für die Jugend
+Gesetze und Einrichtungen schafft, die den Anforderungen
+echter Kultur entsprechen.
+Somit ist die Forderung der politischen Gleichberech-
+tigung der Frauen eine Forderung der Kultur!
+Gattinnen, Mütter
+fordert das Stimmrecht!
+Frauen aller Berufe, aller Stände
+fordert das Stimmrecht!
+Gattinnen, Mütter fordert das Stimmrecht!
+Was hat die Frauenbewegung aller Richtungen in jahr-
+zehntelangem, schwerem Ringen und Kämpfen für
+die politische und rechtliche Gleichberechtigung der Frauen
+erreicht? Moralisch sehr viel, materiell wenig oder nichts.
+Moralisch sehr viel!– Sie hat die Männer und
+Frauen aufgerüttelt aus ihrer Lethargie, sie hat eine erfolg-
+reiche Propaganda entfaltet und erreicht, dass ein gewisses
+Verständnis für das Schmachvolle der Hörigkeit der Frauen
+in alle, selbst die rückständigsten Kreise gedrungen ist,
+aber dabei ist es in der Hauptsache geblieben.
+Materiell wenig oder nichts! – Wohl sind hin
+und wieder dem beständigen Bitten, Drängen und Fordern
+der Frauen kleine Abschlagszahlungen von seiten der
+Männer geleistet worden.
+Bildungsstätten, Universitäten sind dem weiblichen
+Geschlecht geöffnet worden; Berufe, die früher ausschliess-
+lich dem männlichen Geschlecht offen standen, sind den
+Frauen freigegeben. Das neue bürgerliche Gesetzbuch hat
+die grassesten Ungeheuerlichkeiten barbarischer Sklaverei
+ausgemerzt. Die Frauen sind dem Manne nicht mehr unter
+allen Umständen zum Gehorsam zur ehelichen Pflicht ver-
+pflichtet. Die Frau kann, soweit es sich um ihre Ange-
+legenheiten handelt, über sich entscheiden, kommen diese
+aber nach irgend einer Richtung hin mit den Ansprüchen
+auf Bequemlichkeit, mit den Herrschergelüsten des Mannes
+in Konflikt, so steht die Entscheidung beim Manne. Er
+ist nach wie vor ihr Herr und Gebieter, sie verbleibt in
+seiner Hörigkeit, denn er hat als Pfand die Verfügung
+über ihre Kinder und ihr Vermögen in Händen. Auf
+solcher Basis kann sich die Ehe niemals auf eine freie
+und reine Höhe erheben; es ist ein unwürdiger Zustand,
+Frauen gesetzlich unter den Willen des Mannes zu zwingen.
+Hier schafft der Männerstaat, wie die Erfahrung lehrt,
+niemals Wandel; Frauen selbst müssen mit dem Wahl-
+zettel in der Hand um ihre Rechte kämpfen, damit die
+Grundlage zu einer Ehe geschaffen wird, von der Nietzsche
+so bezeichnend sagt: „Ehe: so heisse ich den Willen, zu
+Zweien, das Eine zu schaffen, das mehr ist, als die es
+schufen. Ehrfurcht für einander nenne ich Ehe als vor
+den Wollenden eines solchen Willens.“
+Unser heutiges Familienrecht bedeutet für die Frau
+aber nicht nur pekuniäre Abhängigkeit, nicht nur Verzicht
+auf des Recht, über ihre eigene Persönlichkeit zu bestimmen,
+sondern auch Verzicht auf das Recht, über die Erziehung
+ihrer Kinder mitzuentscheiden. Der Mutterberuf wird von
+seiten des Mannes als höchster Beruf der Frau hingestellt,
+aber er scheut sich nicht, ihr gesetzlich die Autorität zu
+rauben, die sie in stand setzt, ihn auszuüben.
+Der Männerstaat lässt es sich angelegen sein, für die
+Ausbildung der männlichen Jugend sowohl in geistiger wie
+in körperlicher Beziehung Sorge zu tragen. Städtische und
+staatliche Schulen, Spielplätze, Badeanstalten, überhaupt alle
+Einrichtungen eines modernen Staates für die Jugend
+kommen in erster Linie den Knaben zugute. Preussen
+verausgabte alljährlich von den für höheres Schulwesen
+ausgeworfenen Summen 96 ½ % Für Knabenbildung und
+3 ½ % für Mädchenbildung. Die Volksschulen für Mäd-
+chen bleiben in ihren Leistungen weit hinter den Knaben-
+schulen zurück, ausserdem werden diese staatlicherseits
+nach der Schulzeit häufig durch Fortbildungsschulen ergänzt;
+von wenigen Ausnahmen abgesehen, erscheint dem Männer-
+staat eine weitere Ausbildung für Mädchen überflüssig.
+So wird von vornherein der weiblichen Jugend jede Möglich-
+keit genommen, unter gleichen Bedingungen sich gleichwertige
+Kenntnisse und körperliche Ausbildung zu verschaffen.
+Erst wenn Frauen sich durch ihre politische Gleich-
+berechtigung Gehör auf allen Gebieten erzwungen haben,
+werden der männlichen und weiblichen Jugend gleiche
+Möglichkeiten zu einer gleichwertigen Vor- und Ausbildung
+geschaffen werden.
+Gattinnen, Mütter, fordert das Frauenstimmrecht und
+werdet ihr selbst die Früchte eures Kampfes nicht mehr
+ernten, so denkt an eure Kinder!
+Frauen aller Berufe, aller Stände,
+fordert das Stimmrecht!
+Die letzte Volkszählung stellt fest, dass in Deutschland
+7,657,350 Frauen im erwerbstätigen Leben stehen;
+diese Zahlen liefern den deutlichen Beweis, dass die
+Zeiten dahin sind, wo die Frauen ausschliesslich ihre Be-
+schäftigung innerhalb des Hauses in der Familie fanden.
+Die im Berufsleben stehenden Frauen nehmen den Kampf
+um das Dasein unter viel schwierigeren Umständen auf,
+als der Mann, weil in unserem heutigen Männerstaat für
+die Interessen der Frauen nicht gesorgt ist. Sie können
+sich unter viel ungünstigeren Bedingungen als der Mann
+eine gleichwertige Vorbildung verschaffen, bei Erlangung
+einer Stellung ist nicht die Frage nach der Tüchtigkeit des
+Individuums ausschlaggebend, sondern diejenige nach dem
+Geschlecht, und die Bezahlung erfolgt nicht nach dem Wert
+der Leistungen, sondern danach, ob die Arbeit von männ-
+lichem oder weiblichem Intellekt, von männlicher oder weib-
+licher Hand ausgeführt worden ist. Engherzige Selbstsucht
+des Mannes hat es dahin gebracht, dass der Kampf ums
+Dasein dem sogenannten starken Geschlecht nach Kräften
+erleichtert, dem sogenannten schwachen Geschlecht nach
+Kräften erschwert wird. Noch gibt es viele Berufe, die
+ausschliesslich von Männern ausgeübt werden können, so
+die Rechtsprechung, die Advokatur. Da es den Männern
+aber, von wenigen rühmlichen Ausnahmen abgesehen, durch-
+aus an dem nötigen Verständnis der weiblichen und kind-
+lichen Psyche fehlt, werden Frauen aller Stände und Kinder
+bei Vergehen gegen die Rechtsordnung jahraus jahrein in
+ihrem Empfinden, Fühlen und Denken auf das Empfind-
+lichste verletzt und in ihren Interessen geschädigt.
+Ist es nicht ein Hohn auf alles, was Gerechtigkeit
+heisst, Männer allein Recht sprechen zu lassen und nur
+männliche Verteidiger zuzulassen, wenn es sich um Ehe-
+konflikte oder geschlechtliche Verbrechen handelt, deren
+Aburteilung nur dann eine gerechte sein kann, wenn beide
+Geschlechter sich an dem Urteilsspruch beteiligen.
+Die grösste Schmach, die tiefste Erniedrigung der
+deutschen Frau im herrschenden Männerstaat ist die Auf-
+fassung der doppelten Moral, welche bei dem Manne ent-
+schuldigt, ja selbst gut heisst, was sie bei der Frau ver-
+dammt und diese zur Dirne erniedrigt. Diese entsittlichende
+Auffassung findet ihren Ausdruck in den Gesetzen, welche
+die Prostitution reglementieren und dadurch zugleich die
+Frauen aller Stände schutz- und wehrlos der Willkür der
+niederen Polizeiorgane ausliefert, sie vogelfrei erklärt.
+Alle Bestrebungen der Frauen, diesen unwürdigen
+Zustand zu beseitigen, sind erfolglos geblieben, mussten
+erfolglos bleiben, aus dem einfachen Grunde, weil die
+Frauen keine Möglichkeit haben, durch das passive und
+aktive Wahlrecht auf die gesetzgebenden Körperschaften
+einzuwirken. Deshalb Frauen aller Berufe, aller Stände
+fordert für euch das Stimmrecht!
+Fordert es nicht nur im Interesse der Frauen, sondern
+auch im Interesse der Männer selbst, denn die gemeinsame
+Beteiligung von Männern und Frauen an der Gesetzgebung
+wird allen Staatsangehörigen Gerechtigkeit zu schaffen
+suchen.
+Gerechtigkeit aber erhöhet ein Volk.
+Schlusswort
+Kämpft für die politische Befreiung der Frauen, denn
+nur diese ist imstande, die Frauen frei zu machen,
+sie aus der Hörigkeit des Mannes zu erlösen, ihnen Gleich-
+heit und Gerechtigkeit zu verschaffen.
+Dieser Appell geht an alle Frauen, denn alle Frauen
+ohne Ausnahmen sind der gleichen Rechtlosigkeit ihres
+Geschlechtes unterworfen. Jene aber, die durch glückliche
+Umstände gesichert, weniger von den Folgen der uner-
+träglichen und unwürdigen Einrichtungen des Männerstaates
+zu spüren bekommen, sie sollten es in erster Linie als
+Ehrenpflicht betrachten, durch Wort und Tat für ihre
+weniger günstig gestellten Schwestern den Kampf auf-
+zunehmen.
+Frauen organisiert euch!
+Nur gemeinsames organisiertes Vorgehen kann zum
+Erfolge führen. Die Organisation zur Erlangung des
+Frauenstimmrechts in Deutschland ist der Deutsche Ver-
+band für Frauenstimmrecht. *) Ihm tretet bei, ihm werbt
+neue Mitglieder in euren Kreisen! **) Nur die Wucht der
+Masse wird unsern Forderungen Nachdruck geben. Frauen
+Deutschlands, vergesset, was euch sonst trennt. Uns alle
+einigt die Forderung der politischen Rechte für unser
+ganzes Geschlecht.
+Nur Einigkeit macht stark! Je einmütiger wir in
+diesem Kampfe zusammen halten, um so früher ist der
+Sieg unser.
+München 1907.
+Lida Gustava Heymann.
+*) Der Mitgliedsbeitrag ist am 1. Oktober jeden Jahres fällig
+und beträgt: für die Einzelmitglieder „mindestens“ Mk. 2, – nach
+dem 1. April beitretende Mitglieder zahlen Mk. 1. – für das laufende
+Jahr. Das Organ des Verbandes, Zeitschrift für Frauenstimmrecht,
+Wird den Einzelmitgliedern vom Vorstande geliefert. Mitglieder er-
+halten die Frauenbewegung zum Vorzugspreis von 3 Mk. jährlich,
+dieselbe erscheint alle 14 Tage. Die Satzung des Deutschen Verbandes
+für Frauenstimmrecht ist durch das Bureau des Verbandes, Hamburg,
+Paulstrasse 25/II zu beziehen.
+**) Zur Anmeldung bediene man sich der beigefügten Karten.
+Kgl. Hofbuchdruckerei Kastner &amp; Caltwey, München.
+</text>
+  </TextCorpus>
+</D-Spin>

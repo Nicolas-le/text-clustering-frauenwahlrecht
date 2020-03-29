@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/bohrer_lehrerinnen_1911</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-bohrer_lehrerinnen_1911.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/bohrer_lehrerinnen_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-bohrer_lehrerinnen_1911.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/bohrer_lehrerinnen_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-bohrer_lehrerinnen_1911.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/bohrer_lehrerinnen_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-bohrer_lehrerinnen_1911.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/bohrer_lehrerinnen_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-bohrer_lehrerinnen_1911.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Die Lehrerinnen und das Frauenstimmrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Bohrer</cmdp:surname>
+<cmdp:forename>Bertha</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2017-12-13T13:13:46Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2017-12-13T13:13:46Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">20</cmdp:measure>
+        <cmdp:measure type="tokens">5569</cmdp:measure>
+        <cmdp:measure type="types">1934</cmdp:measure>
+        <cmdp:measure type="characters">41526</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:54:28Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/bohrer_lehrerinnen_1911</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/bohrer_lehrerinnen_1911</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/bohrer_lehrerinnen_1911</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/bohrer_lehrerinnen_1911</cmdp:idno>
+          <cmdp:idno type="DTADirName">bohrer_lehrerinnen_1911</cmdp:idno>
+          <cmdp:idno type="DTAID">32398</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32398-0</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MS">Bohrer, Bertha: Die Lehrerinnen und das Frauenstimmrecht. Berlin, 1911 (= Schriften des Preußischen Landesvereins für Frauenstimmrecht, Bd. 9).</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Die Lehrerinnen und das Frauenstimmrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Bohrer</cmdp:surname>
+<cmdp:forename>Bertha</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1">1</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1911</cmdp:date>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="s" type="main">Schriften des Preußischen Landesvereins für Frauenstimmrecht. Berlin, 1911 (= Schriften des Preußischen Landesvereins für Frauenstimmrecht, Bd. 9).</cmdp:title>
+              <cmdp:biblScope unit="volume">9</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Universitätsbibliothek Frankfurt am Main</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">S 17/13073</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: keine Angabe;
+    Druckfehler: keine Angabe;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>        
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+_
+Nr. 9
+Schriften des Preußischen Landesvereins für
+Frauenstimmrecht.
+Die Lehrerinnen
+und das
+Frauenstimmrecht
+Nebst Anhang über die Ausbildung
+der Lehrerinnen und ihre gesetzliche Stellung
+Von
+Bertha Bohrer
+Verlag: Preußischer Landesverein für Frauenstimmrecht
+Berlin1911
+Verantwortlich: T. Breitscheid
+Die Lehrerinnen waren im Anfang der bürgerlichen Frauenbewegung
+ihre eifrigsten und tüchtigsten Vorkämpferinnen. Seitdem haben sich je¬
+doch die Zeiten sehr geändert im Hinblick auf die Verhältnisse in der
+Frauenbewegung, deren Prinzipien, Ziele und Probleme, so wie auch die
+Stellung der Lehrerinnen. Diese ist eine völlig andere geworden, sagen
+wir einmal, um es kurz zu bezeichnen, eine viel verantwortlichere als
+früher, da sie sich in dem großen Staatsgetriebe eingereiht haben oder
+im Begriff sind, sich einzufügen. Derweil treten aber die verschiedensten
+Standesaufgaben an sie heran, die sie zwingen, ihr Augenmerk in erster
+Linie auf ihre Ausbildung zu richten, sie haben sich starke Organisationen
+zu schaffen, um im Staatsleben ihre Rechte durchzusetzen, um ferner
+dem Konkurrenzkampf mit dem Mann gewachsen zu sein und vieles
+andere mehr.
+Darin liegt vielleicht der Hauptgrund, daß die Lehrerinnen sich im
+allgemeinen in der Frauenbewegung nicht mehr wie früher als erste
+Pionierinnen zeigen und daß sie der notwendig gewordenen politischen
+Frauenbewegung etwas abwartend gegenüber stehen.
+Einen Beweis dafür bildet die geringe Anteilnahme der Lehrerinnen
+an der Stimmrechtsbewegung, Verkennung der Ziele der Stimmrechts-
+bewegung, Unkenntnis der politischen Frauenbewegung, ein Mangel, die
+politischen Verhältnisse unseres Vaterlandes zu überschauen, das alles trägt
+wohl dazu bei, daß die Lehrerinnen sich im allgemeinen noch so wenig
+mit der Stimmrechtsfrage befaßt haben.
+Natürlich wird die Stellung der Lehrerinnen zu dieser so wichtigen
+Frage mit der Zeit eine andere werden müssen, wenn anders die Lehrerin
+nicht ins Hintertreffen kommen oder sogar hemmend wirken will.
+Was will die Stimmrechtsbewegung?
+Sie will den Frauen, und zwar allen Frauen ohne Aus-
+nahme, zur Erlangung ihrer vollen staatsbürgerlichen Rechte
+verhelfen, damit sie im Jnteresse einer gesunden Fortent-
+wicklung unseres Volkes auch imstande sind, ihre vollen staats-
+bürgerlichen Pflichten zu erfüllen.
+Daß die Erfüllung sozialer, kommunaler und staatlicher Pflichten
+ohne staatsbürgerliche Rechte nicht möglich ist, wird ohne weiteres jede
+Frau zugeben, die ihre Kräfte jahrelang in den Dienst der Allgemeinheit
+gestellt hat. Zu diesen, dem Allgemeinwohl dienenden Frauen, gehören
+auch die Lehrerinnen, besonders die Volksschullehrerinnen, die Erzieherinnen
+des Volkes. Folglich müssen auch sie zu der Erkenntnis kommen, daß all
+ihr Wirken in Stadt und Dorf nichtig, im besten Falle Stückwerk ist,
+weil sie keine Stelle haben, von der aus sie ihren Wünschen und
+Forderungen Nachdruck verleihen können. Sie müssen zur Forderung
+ihres vollen Staatsbürgertums, also zur Forderung des
+Frauenstimmrechts kommen. Bescheidenheit und Aengstlichkeit der
+Lehrerinnen sind heutzutage nicht mehr am Platze. Der Staat braucht
+die Lehrerin ebenso nötig wie den Lehrer, er kann ihre Arbeit nicht mehr
+entbehren. Die Lehrerin zahlt ihre Steuern wie jeder andere Staats-
+bürger und kann darum auch verlangen, daß man ihr staatsbürgerliche Rechte zuerkennt.
+Daß die Lehrerinnen noch ebensowenig Staatsbürgerinnen sind wie
+alle übrigen Frauen, drückt sich schon rein äußerlich durch die viel ge-
+ringere Bezahlung der gleichen Arbeit gegenüber dem männlichen,
+Lehrkollegen aus. Das Lehrerbesoldungsgesetz vom 26. Mai 1909 be¬
+stimmt in § 3: Das Grundgehalt beträgt für die Lehrerstelle 1400, für
+die Lehrerinnenstelle 1200 Mk. Dazu kommen nach § 8 an Alterszulagen,
+in 31 Dienstjahren erreichbar, für den Lehrer 1900, für die Lehrerin
+1250 Mk. Wie wenig das Gesetz den Lehrerinnen gerecht wird, ersieht
+man beispielsweise daran, daß eine Lehrerin, die 18 Jahre im Amte ist,
+an Gehalt noch 100 Mk. weniger bezieht als der Lehrer, der 10 Jahre
+tätig ist. Man muß die Ungerechtigkeit dieses Besoldungsgesetzes am
+eigenen Leibe erfahren haben, um die Unzufriedenheit mancher Lehrerinnen
+verstehen zu können. Als ich 22 Jahre im Amte war, bezog ich ein
+jährliches Gehalt von 2000 Mk.; das Einkommen des Kollegen aber, der
+genau dieselbe Anzahl von Dienstjahren hatte, betrug mit dem Mehr an
+Wohnungsgeldzuschuß 3000 Mk. Dabei hatte ich eine Mädchen-Ober-
+klasse, 65 Schülerinnen von 12 und 13 Jahren, 26 Pflichtstunden und
+viele häusliche Vorbereitungen und Korrekturen. Der betreffende Lehrer
+aber hatte das 3. Schuljahr, keine häusliche Vorbereitung und auch keine
+Korrekturen. – Das Höchstgehalt ist für den Lehrer, abgesehen von den
+Ortszulagen, die in das Belieben der einzelnen Gemeinden gestellt und
+darum hier nicht mitgerechnet werden können, 3300 Mk., für die Lehrerin
+2450 Mk. Dieses Höchstgehalt steht aber für die große Mehrzahl der
+Lehrerinnen nur auf dem Papier, da die wenigsten Lehrerinnen 31 Jahre
+im Schuldienste aushalten können; sie müssen aus Gesundheitsrücksichten
+meist früher in den Ruhestand treten und erhalten dann selbstverständlich
+dem geringeren Gehalte entsprechend auch eine viel geringere Pension.
+Wir fragen uns unwillkürlich, wäre ein solches Gesetz möglich,
+wenn Frauen bezw. Lehrerinnen im Abgeordnetenhause säßen?
+Ganz ähnlich liegen die Verhältnisse bei den Lehrerinnen der
+höheren Schulen, auch hier überall dieselben Pflichten, dieselben An-
+forderungen, aber nirgends dieselben Rechte wie die männlichen Kollegen.
+Kommt man zu den Herren Abgeordneten und bittet sie, für die
+Lehrerinnen doch ebenso einzutreten wie für die Lehrer, dann heißt es:
+O, die Lehrerin braucht kein hohes Gehalt, der Lehrer muß seine Familie
+ernähren und dementsprechend höher besoldet werden, die Lehrerin hat ja
+nur für sich zu sorgen. Scheinbar ganz richtig! Nur müßte dann auch
+bei den Lehrern bezüglich des Gehalts unterschieden werden zwischen denen,
+die wirklich eine Familie haben und denen, die unverheiratet bleiben.
+Und weiter müßte man in Befolgung dieses Prinzips dem, der viele
+Kinder hat, mehr Gehalt geben als dem, der wenige oder gar keine
+Kinder zu ernähren hat. Geschieht das? Nein, der Lohn richtet sich
+überall nach der Arbeit, nicht nach der Bedürftigkeit. Nur wo die Frau
+mit dem Manne im Lebenskampfe steht, läßt man dieses
+Prinzip fallen und normiert den Lohn nach dem Geschlecht.
+Es ist aber auch nicht immer richtig, daß die Lehrerin nur für sich allein
+zu sorgen hat. Eine große Zahl von Lehrerinnen ist mir bekannt, die
+eine alte Mutter, jüngere Geschwister, oft auch beides zu versorgen hatten.
+Steht die Lehrerin aber wirklich allein, dann braucht sie notwendig eine
+Hilfskraft, die ihren kleinen Haushalt versorgt. Daß eine Lehrerin neben
+ihren schweren Berufspflichten auch noch die Sorge für ihr Heim über-
+nimmt, daß sie kocht, putzt, näht usw., das kann nur ausnahmsweise er-
+füllt werden und hängt von individueller Anlage ab. Ein Lehrerinnen-
+haushalt aber, der nur durch fremde Hilfe geführt werden kann, wird
+verhältnismäßig teurer werden. Dies ist von den Lehrerinnen hundert
+und tausendmal dargelegt worden, umsonst – der Staat geht von dem
+einmal gefaßten Prinzip nicht ab. Erst wenn die Lehrerinnen voll-
+berechtigte Staatsbürgerinnen geworden, erst wenn sie das
+aktive und passive Wahlrecht erreicht haben und den Abgeordneten
+nicht nur Wünsche und Vorstellungen entgegenzubringen haben, sondern
+auch einen Druck auf sie ausüben können, wird ihre Forderung: Gleiches
+Gehalt für Lehrer und Lehrerin erfüllt werden. Darum müssen die
+Lehrerinnen in die Frauenstimmrechtsbewegung und durch
+ihre Mitarbeit diese Organisation stärken.
+Die Lehrerinnen erfüllen aber damit auch gleichzeitig eine Dankespflicht,
+die der Frauenbewegung bezüglich der weiblichen Schulleitung gebührt.
+Den Volksschullehrerinnen, die bisher kein Avancement kannten, ist neuer-
+dings durch einen Erlaß des Kultusministers vom 11. Januar 1911
+die Möglichkeit gegeben, in leitende Stellungen aufzurücken. Durch
+diesen Erlaß werden die bisherigen Prüfungsordnungen für Lehrerinnen
+sowie die Prüfung für Schulvorsteherinnen aufgehoben. Jn Zukunft ist
+der Lehrplan der Präparanden und Lehrerbildungsanstalten verbindlich.
+An Stelle der Schulvorsteherinnenprüfung tritt die Prüfungsordnung für
+Rektoren vom 1. Juli 1901, durch welche die Lehrerinnen die Be-
+fähigung zur Leitung von Mädchen-Volks-, Mädchen-Mittel- und ge-
+hobenen Mädchenschulen sowie zur Anstellung als Seminarlehrerin und
+Seminardirektorin erlangen. Damit ist ein in Volksschullehrerkreisen
+schon lange gehegter Wunsch endlich in Erfüllung gegangen und es wäre
+zu wünschen, daß recht viele Volksschullehrerinnen sich zur Ablegung des
+Rektorexamens entschließen würden, denn erst durch die große Masse der
+Volksschullehrerinnen, der im Amte gereiften Frauen, wird die Frage der
+weiblichen Schulleitung endgültig gelöst werden. Der Erlaß ist um so
+bedeutungsvoller, weil er in einer Zeit erfolgte, in der von Seiten der
+Oberlehrer wieder einmal eine Petition gegen die weibliche Schulleitung
+höherer Schulen an das Abgeordnetenhaus eingereicht worden war. Am
+3. April d.J. ist man auf Antrag der Kommission über die Petition der
+Lehrer zur Tagesordnung übergegangen. Damit bekunden die Abge-
+ordneten, daß sie den Frauen den Weg zur Schulleitung nicht verlegen
+wollen. Fragen wir uns, wem in erster Linie dieser Umschwung in der
+öffentlichen Meinung zu danken ist, so ist es die Frauenbewegung.
+Wohl sind auch in den letzten Jahren die Lehrerinnenvereine auf den
+Plan getreten, aber den Gedanken der weiblichen Schulleitung und der
+Zulassung der Frauen zu den höchsten Aemtern hat jahrzehntelang
+die Frauenbewegung allein getragen und in großen öffentlichen Ver-
+sammlungen kraftvoll verteidigt. Das müßten die Lehrerinnen anerkennen,
+und statt ironisch lächelnd über Frauenemanzipation zu reden, sollten sie
+sich bemühen, es den mutigen Vorkämpferinnen auf dem Gebiete der
+Frauenbewegung gleichzutun und nun an ihrem Teile mit dazu beizu-
+tragen, daß auch den Frauen der Zukunft die Wege geebnet und die
+Bahn freigemacht werde. Das geschieht aber, wenn sie sich der
+Frauenstimmrechtsbewegung anschließen und den Frauen ihre
+staatsbürgerlichen Rechte erkämpfen helfen.
+Die Lehrerinnen wünschen, daß sie zur Mitarbeit bei den Jugend-
+gerichtshöfen zugezogen werden. Der Vorstand des Landesvereins
+preußischer Volksschullehrerinnen und des Sozialen Ausschusses hatte zur
+Beratung der Strafprozeßnovelle eine Petition an den Reichstag gesandt
+mit der Bitte : 1. bei der Reform der Strafgesetzgebung Frauen vom
+Amte der Schöffen nicht grundsätzlich auszuschließen und 2. neben den
+Volksschullehrern auch Volksschullehrerinnen als Schöffen bei den Jugend-
+gerichten zuzulassen. Aus der Begründung zu dieser Petition möchte ich
+nur folgendes hervorheben: „Die Lehrerin ist ebenso wie der Lehrer mit
+der Lebens-, Anschauungs- und Ausdrucksweise der Volksschichten, denen
+die jugendlichen Angeklagten meist entstammen, vertraut. Auch sie ist wie
+ihr männlicher Berufsgenosse durch pädagogische Schulung besser als der
+Laie befähigt, die Kindesseele zu verstehen und zu beurteilen. Für das
+Verständnis des weiblichen Seelenlebens ist ihr Urteil aber
+durch kein männliches zu ersetzen. Vielfach ist sie bereits durch ihre
+Beteiligung an der kommunalen Jugendwohlfahrtspflege für das Schöffen-
+amt fast systematisch vorgebildet. Sie ist daher zum Schöffenamte nicht
+minder geeignet als der Volksschullehrer. Da sie im Lehrberufe als
+gleichwertige Arbeitskraft neben dem Lehrer steht, so sollte sie auch an
+den Rechten, die mit dem Amtscharakter des Lehrers verknüpft sind, ohne
+Einschränkung teilnehmen dürfen“. Soweit die Begründung der Petition.
+Während meiner langjährigen Tätigkeit auf dem Lande bin ich sehr
+häufig gezwungen gewesen, als Zeuge Gerichtsverhandlungen, in denen
+über jugendliche Verirrungen abgeurteilt wurde, beizuwohnen, und ich bin
+manchmal geradezu entsetzt gewesen über das, was man in die Kinder
+hineingefragt hat. Da gehen einem die Augen auf über die Notwendig-
+keit weiblicher Geschworenen bei den Jugendgerichtshöfen. Der deutsche
+Reichstag freilich scheint kein Verständnis für den Wert des mütterlichen
+Elements bei der Zusammensetzung des Laiengerichts zu haben. Die Be-
+rechtigung des Lehrers als Schöffe beim Jugendgericht ist anerkannt
+worden. Die Lehrerinnen hat man einfach übergangen.
+Staatsbürgerliche Rechte gibt es für sie nicht.
+Ebensowenig scheint man im preußischen Staate eine weibliche Jugend zu
+kennen. Liest man als Lehrerin in der preußischen Thronrede des Herrn
+von Bethmann-Hollweg vom Jahre 1910 den Passus, der von der Aus-
+bildung der Jugend und der weiteren Ausgestaltung des Fortbildungs-
+schulwesens handelt, so ist man geradezu empört. Für Veranstaltungen zur
+Förderung der schulentlassenen männlichen Jugend hat die Königl.
+Staatsregierung einen Fonds von einer Million in den Etat eingestellt,
+und es heißt wörtlich in der Vorlage: „Bezüglich der Verwendung ist zu
+beachten, daß der erwähnte Betrag nur für die Förderung der Pflege der
+schulentlassenen männlichen Jugend bestimmt ist. Für die schulentlassene
+weibliche Jugend dürfen Mittel daraus nicht verwendet werden, es können
+aber die für die männliche Jugend aus diesem Fonds unterstützte Ein-
+richtungen auch für die weibliche mitbenutzt werden, soweit dies ohne
+staatliche Beihilfen möglich ist. Soweit ausnahmsweise besondere für die
+weibliche Jugend bestimmte Einrichtungen unterstützt werden sollen, sind
+die im Einzelfalle unvermeidlichen staatlichen Beihilfen bei mir zu bean-
+tragen. Handelt es sich um die Gewährung staatlicher Mittel für die
+Einrichtung besonderer Näh- oder Haushaltungskurse, so sind die Anträge
+an die Herren Minister für Handel und Gewerbe oder für Landwirtschaft,
+Domänen und Forsten zu richten“. Also für die männliche Jugend
+alles, für die weibliche nichts! Als Lehrerin auf dem Lande habe
+ich einen Verein junger Mädchen geleitet und habe gern alle Mühe auf
+mich genommen, um die Mädchen, die zukünftigen Mütter und Er-
+zieherinnen, zu fördern in der Hauswirtschaft, im Flicken und Stopfen,
+in Krankenpflege und in der Kindererziehung. Jn diesem Bestreben hat
+mich der Staat nicht im geringsten unterstützt. Sollte es aber einem
+Kollegen eingefallen sein, einen Verein schulentlassener Knaben ins Leben
+zu rufen, was natürlich nicht geschah, so wären ihm aus Staatsmitteln
+angeschafft worden: Turngeräte, Spiele, Liederbücher, Musikinstrumente,
+kurz alles, was er sich nur gewünscht hätte. Nach den neuesten Be-
+stimmungen des Kultusministers ist es geradezu ideal, für die männliche
+Jugend zu arbeiten. Die weibliche Jugend, die ja doch niemals wahlbe¬
+rechtigt wird, läßt man laufen.
+Aus demselben Grunde hat man wahrscheinlich die weibliche Jugend
+auch bei der Fortbildungsschule übergangen. Für die gesamte männ-
+liche Jugend in Städten mit über 10000 Einwohnern wird die Fort-
+bildungsschule obligatorisch, d. h. die Knaben sind gezwungen, die Fort¬
+bildungsschule zu besuchen vom 14. bis zum 17. Lebensjahre. Für die
+Mädchen gibt es keine Fortbildungsschule, der Staat scheint ein ungeheures
+Vertrauen zur weiblichen Jugend zu haben; für sie sind alle diese Ver-
+anstaltungen, die einesteils zur gründlichen Ausbildung im Berufe, andrer-
+seits zur Stärkung des sittlichen Charakters der männlichen Jugend
+dienen, nicht notwendig. Unsere Regierung kennt bloß die wohlerzogene
+Tochter, die im Frieden des Hauses aufwächst. Sie kennt aber nicht die
+Millionen von Mädchen, die kaum dem Kindesalter entwachsen, vielfach
+ohne Halt und Stütze ins Erwerbsleben hinausgedrängt werden. Wann
+wird das anders werden? fragt die Zeitschrift „Ein Volk, eine
+Schule“ und gibt als einzige richtige Antwort: „Nur dann, wenn die
+Frau mit dem Stimmzettel in der Hand in der Volksvertretung
+Einlaß gewinnt und der einseitigen Männerpolitik ein Ende
+macht, die in dieser neuen Zeit dasteht wie eine verfallene
+Burg mit tausend Rissen und Spalten.“
+Durch die Fortbildungsschule allein wäre aber auch eine staats-
+bürgerliche Erziehung unserer weiblichen Jugend gewährleistet. Staats-
+bürgerliche Erziehung brauchen unsere Mädchen als spätere Hausfrauen
+und Mütter, damit sie die wirtschaftspolitischen Fragen verstehen lernen
+und die heranwachsende Generation, Knaben und Mädchen, zu Staats-
+bürgern erziehen können, aber auch, damit sie ihre rechtliche Stellung in
+der Ehe kennen lernen. Staatsbürgerliche Erziehung brauchen
+die Mädchen im Berufe und als erwerbstätige Frauen.
+Staatsbürgerliche Erziehung brauchen alle unsere heranwachsenden
+Mädchen, nicht in letzter Linie, damit sie eines Tages, wenn der große
+Augenblick ihrer politischen Mündigkeit gekommen ist, wissen, was sie zur
+Förderung ihrer eigenen Jnteressen und der des Gesamtwohles zu tun
+haben. Schon in der Volksschule können staatsbürgerliche Kenntnisse in
+ungezwungener Weise in Geschichte, Geographie, in deutsche Lesestücke und
+in den Rechenunterricht eingeflochten werden. Die Hauptaufgabe aber
+muß die Fortbildungsschule übernehmen, sie ist für die staatsbürgerliche
+Erziehung der Jugend nicht zu entbehren. Hier werden die staatsbürger¬
+lichen Belehrungen nicht mehr gelegentlich, sondern in einem sachgemäßen
+Unterricht gegeben. Die geeignetste Kraft für diesen Unterricht wäre bei
+den Mädchen natürlich die Frau, die Lehrerin.
+Wie aber steht es mit der staatsbürgerlichen Gesinnung
+dieser Lehrerinnen selbst? Wieviele Lehrerinnen stehen denn
+im öffentlichen Leben? Ja, wieviele Lehrerinnen beteiligen
+sich an den Lehrerinnenvereinen, ihrer eigensten Organisation?
+Wie unendlich schwer ist es, speziell die jungen Kolleginnen zum Besuche
+der Lehrerinnenversammlungen zu bewegen, geschweige denn zu Frauen-
+versammlungen, die die Hebung des weiblichen Geschlechts im allgemeinen
+bezwecken. Wir haben in unserer Dortmunder Ortsgruppe für Frauen-
+stimmrecht unter 70 Mitgliedern nur 4 Lehrerinnen, davon sind 2 bereits
+pensioniert. Daß die Lehrerinnen in anderen Ortsgruppen stärker ver-
+treten sind, scheint nicht der Fall, sonst hätte man in Berlin auf der
+Generalversammlung des Preußischen Landesvereins für Frauenstimmrecht
+nicht von den wenigen Lehrerinnen sprechen können. Jch bin überzeugt,
+je mehr die Lehrerinnen die Frauenversammlungen, besonders die Frauen-
+stimmrechtsversammlungen, besuchen, je mehr werden sie einsehen, daß ihre
+Nöte auch die der Frauen im allgemeinen sind, und je eher werden sie
+von der Notwendigkeit der Forderung des Frauenstimmrechts überzeugt.
+Jch bin 25 Jahre als Volksschullehrerin tätig gewesen, darunter
+22 Jahre auf dem Lande. Jch habe gearbeitet und gestrebt, nicht nur
+in der Schule, sondern auch in der Gemeinde nach besten Kräften. Aber
+ich muß es öffentlich bekennen: Meine ganze Arbeit war Stückwerk, mußte
+Stückwerk sein, weil ich niemals meine Stimme in der Öffentlichkeit er-
+heben konnte, um die mancherlei Schäden im Gemeindeleben an der
+Wurzel fassen und von Grund aus beseitigen zu können. Die echte,
+rechte Volksschullehrerin hat eine tiefe Liebe zu den Kindern des Volks
+und ein lebhaftes Jnteresse für soziale Arbeit und sozialen Fortschritt.
+Erst durch das Frauenstimmrecht werden ihr die Wege geebnet zu inten¬
+siver, gründlicher Arbeit, und nur dann erst wird ihre Arbeit auch
+wirklich von Erfolg gekrönt sein.
+Anhang.
+Ausbildung und gesetzliche Stellung der Lehrerinnen.
+Der in diesem Anhang versuchte Ueberblick über die Ausbildung
+und die gesetzliche Lage der Lehrerinnen macht keinen Anspruch auf Voll-
+ständigkeit. Er soll nur dazu dienen, denjenigen Lesern und Leserinnen,
+die die vorhergehenden Ausführungen mit Jnteresse verfolgt haben, noch
+über einige Punkte besondere Aufklärung zu geben.
+Von einschneidender Bedeutung für die gesamte Lehrerinnenschaft
+sind einige Ministerialerlasse der letzten Jahre, die bei Beurteilung der
+gesetzlichen Stellung der Lehrerinnen nicht unerwähnt bleiben dürfen.
+Während früher die Befähigung für den Unterricht an Volks-,
+Mittel- und höheren Mädchenschulen in ein und derselben Bildungsanstalt
+erworben werden konnte, müssen nach den Bestimmungen vom 15. März
+1909 die Seminare getrennt werden; es gibt also jetzt Seminare für
+Volksschullehrerinnen und Seminare für mittlere und höhere Mädchen-
+schulen. Die jungen Mädchen bezw. deren Eltern müssen sich also von
+Anfang an klar darüber sein, ob sie ihre Tochter zur Volksschullehrerin
+oder zur höheren Lehrerin ausbilden lassen wollen.
+I . Prüfung der Volksschullehrerinnen.
+Die Prüfung der Volksschullehrerinnen richtet sich nach den in den
+Bestimmungen vom 1. Juli 1901 gegebenen Vorschriften über die Ent-
+lassungsprüfung an den Lehrerseminaren (erste Lehrerprüfung). Die Aus-
+bildung der Volksschullehrerin wird also in Zukunft der des Volksschul-
+lehrers fast gleich sein. Der betreffende Erlaß des Kultusministers vom
+11. Januar 1911 sagt darüber:
+Da das Maß der zu fordernden Kenntnisse und Fertigkeiten
+durch den Lehrplan der Lehrerseminare bestimmt wird, sind die Lehr-
+pläne für die Präparanden- und Lehrerbildungsanstalten vom
+1. Juli 1901 nunmehr allgemein auch auf die Volksschullehrerinnen-
+seminare und Präparandinnenanstalten anzuwenden. Dabei ist in
+allen Zweigen der Pädagogik das für Mädchenerziehung Wichtige be-
+sonders zu berücksichtigen und auch in allen anderen Fächern bei der
+Auswahl der Stoffe der weiblichen Eigenart Rechnung zu tragen.
+Außerdem treten folgende Abweichungen ein:
+a) Für Nadelarbeit sind in den drei Präparandinnenklassen je 2 Wochen-
+stunden, in den Seminarklassen 2 + 2 + 1 Wochenstunde anzusetzen. Die
+Zeit wird durch Kürzung des Musikunterrichtes gewonnen. (Vergl. c.)
+Lehrziel und Lehraufgaben für den Nadelarbeitsunterricht in den Prä-
+parandinnenklassen sind dieselben wie die für die drei oberen Klassen der
+höheren Mädchenschulen in den Lehrplänen vom 12. Dezember 1908 vor-
+geschriebenen. Hiernach bestimmen sich die Anforderungen bei der Auf-
+nahme in das Volksschullehrerinnenseminar. Der Nadelarbeitsunterricht
+im Seminar erfolgt im Sinne des Erlasses vom 24. Juni 1907 (Zentral-
+blatt S. 563); bei der zur Verfügung stehenden geringeren Wochenstunden-
+zahl natürlich nicht mit dem Ziele der Prüfung als technische Lehrerin,
+sondern zu dem Zwecke, die Seminaristinnen technisch und methodisch so
+weit zu fördern, daß sie imstande sind, in einfachen Schulverhältnissen oder
+da, wo es sich um eine zeitweilige Vertretung handelt, Nadelarbeits-
+unterricht zu erteilen.
+b) An Stelle des landwirtschaftlichen Unterrichtes tritt Haushaltungsstunde.
+Die zur Verfügung stehenden Stunden (je 1 Wochenstunde für die oberste
+Präparandinnenklasse und für jede der drei Seminarklassen) dienen im
+wesentlichen für theoretische Unterweisungen, die nach den in den Lehr-
+plänen vom 12. Dezember 1908 für die Frauenschule gegebenen Richtlinien
+und im Sinne des oben angeführten Erlasses vom 24. Juni 1907 zu
+geben sind. Erwünscht und empfehlenswert ist, besonders in Jnternaten,
+daneben auch praktische Uebungen in Küche und Hauswirtschaft einzurichten.
+Es ist auch zulässig, dort, wo es nach Lage des Stundenplans möglich und
+wünschenswert erscheint, anstatt in 4 Jahren mit je 1 Wochenstunde diesen
+Unterricht auf 2 Jahre mit je 2 oder auf 3 Jahre mit 2 + 1 + 1
+Wochenstunde zu verteilen. Diese Unterweisung soll die zukünftige Lehrerin
+befähigen, den eigenen Haushalt zu führen, und sie instand setzen, in ein-
+fachen Verhältnissen oder für den Fall einer Vertretung hauswirtschaftlichen
+Unterricht zu erteilen.
+c) Der Musikunterricht beschränkt sich auf Gesang, Violinspiel und Theorie
+der Musik mit der durch die herabgesetzte Stundenzahl gebotenen Ein-
+schränkung der Lehraufgaben und des Zieles. Jede Klasse oder Abteilung
+erhält wöchentlich je 1 Stunde Gesang und Violinspiel; die drei Seminar-
+klassen werden außerdem zu höchstens wöchentlich 1 Stunde Chorgesang
+vereinigt, woran die Schülerinnen der beiden oberen Präparandinnenklassen
+sämtlich oder zum Teil je nach Begabung und Bedarf teilnehmen können.
+Für die Theorie der Musik sind keine besonderen Unterrichtsstunden an-
+zusetzen; das Nötige wird beim Gesang- und Violinunterrricht besprochen
+und eingeprägt.
+Die Zeugnisse über die bestandene Prüfung werden in derselben
+Weise ausgestellt, wie diejenigen der Lehramtsbewerber nach Bestehen der
+ersten Lehrerprüfung.“
+Der obengenannte Erlaß vom 11. Januar 1911 bestimmt außerdem,
+daß Volksschullehrerinnen, die weiterarbeiten wollen, auch die Prüfung
+für Mittelschulen und Rektoren ablegen und damit die Befähigung
+zur Leitung von Volksschulen für Mädchen, Mädchen-Mittelschulen und
+gehobenen Mädchenschulen sowie zur Anstellung als Seminarlehrerin und
+Seminardirektorin erlangen können. Volksschullehrerinnen, die noch nach
+der alten Prüfungsordnung vom 24. April 1874 bezw. vom 31. Mai
+1894 ihre Prüfung für Volksschulen, mittlere und höhere Mädchenschulen
+bestanden haben, können ebenfalls zur Rektorenprüfung zugelassen werden.
+II. Ausbildung der höheren Lehrerinnen 1)
+Die Ausbildung der Lehrerinnen für mittlere und höhere Mädchen-
+schulen wird auf den höheren Lehrerinnenseminaren, die mit der Frauen-
+schule zusammen als Lyzeum bezeichnet werden, erworben und dauert
+4 Jahre. Sie ist so gestaltet, daß nach den ersten 3 Jahren eine wissen-
+schaftliche Abschlußprüfung stattfindet, die zum Eintritt in das praktische
+Jahr berechtigt. Die folgende einjährige praktisch-methodische Ausbildung
+schließt mit der Lehramtsprüfung. Die dreijährige Seminarzeit kann durch
+die Ausbildung in der Studienanstalt ersetzt werden, da nach den Be-
+stimmungen vom 3. April 1909 die Abiturientinnen, die in das praktische
+Jahr eines höheren Lehrerinnenseminars eintreten, ebenfalls am Schlusse
+dieses Jahres die lehramtliche Prüfung für höhere Mädchenschulen ablegen
+können. Den lehrplanmäßigen Stoff in der Pädagogik haben sie entweder
+bei der Aufnahme in das praktische Jahr oder nachträglich bei der
+Schlußprüfung nachzuweisen, ebenso die nötigen Kenntnisse in Französisch
+und Englisch, die den Absolventinnen der gymnasialen Studienanstalten
+fehlen dürften.
+Die Absolvierung der Studienanstalt berechtigt außer-
+dem zum Besuch der Universität und gibt die Möglichkeit einer
+freien Wahl aller akademischen Laufbahnen, während das Seminar nur
+den Lehrberuf erschließt. Weiterstrebende Lehrerinnen können infolge einer
+Verfügung vom 14. Dezember 1905 zur Prüfung für das höhere Lehr¬
+amt pro facultate docendi zugelassen werden. Die Dauer des an
+deutschen Staatsuniversitäten ordnungsmäßig zu absolvierenden Studiums
+beträgt mindestens 6-8 Semester.
+III. Technische Lehrerinnen
+gibt es sowohl an Volksschulen, wie an mittleren und höheren Mädchen-
+schulen. An den Volksschulen und Mädchen-Mittelschulen verlangt man
+von den technischen Lehrerinnen meist die Befähigung für den Unterricht
+in Handarbeit, Haushaltung und Turnen, an den höheren Mädchenschulen,
+wo der Haushaltungsunterricht wegfällt, wünscht man statt dessen vielfach
+die Befähigung für den Zeichenunterricht. Die Befähigung zur Erteilung
+des Handarbeitsunterrichts in Volks-, mittleren und höheren Mädchen-
+schulen wird, ebenso wie die Befähigung zur Erteilung des Unterrichts
+in der Hauswirtschaftskunde an Volks- und Mittelschulen, durch Ablegung
+einer Prüfung erworben, die durch die Prüfungsordnung vom 18. Mai
+1908 geregelt ist. Nach einer Verfügung vom 12. Juni 1909 ist die
+Zulassung zu jeder der beiden Prüfungen unbedingt von der Absolvierung
+1) Nach dem Handbuch der Frauenbewegung von H. Lange &amp; Dr. G. Bäumer.
+eines Jahreskursus in einem Seminar für Handarbeits- bezw. Hauswirt-
+schaftslehrerinnen abhängig zu machen, da nach Ansicht der zuständigen
+Behörde die früheren Mißstände auf dem Gebiete der Ausbildung von
+Handarbeits- und Hauswirtschaftslehrerinnen bald wiederkehren würden,
+wenn nicht an den Vorschriften über die Ausbildung in einem mit den
+geeigneten Lehrkräften besetzten, den nötigen Lehrmitteln ausgestatteten und
+mit Uebungsklassen verbundenen Seminar streng festgehalten würde.
+Die Ausbildung der Turnlehrerinnen ist in Preußen durch
+die Bestimmung vom 30. Mai 1907 von 3 auf 5 Monate verlängert
+worden. Die Vorbereitung kann in der Kgl. Landes-Turnanstalt in
+Berlin (SW., Friedrichstr. 229) stattfinden, und zwar jährlich einmal,
+etwa von August beginnend. Die unentgeltliche Ausbildung ist in erster
+Reihe für bereits im Lehramte stehende Bewerberinnen bestimmt, denen
+für die Zeit ihres Aufenthaltes in Berlin Unterstützungen in Höhe bis zu
+90 Mk. monatlich gewährt werden können. Turnlehrerinnen-Prüfungen
+finden außerdem in Königsberg, Stettin, Breslau, Magdeburg, Erfurt,
+Kiel, Hannover, Bielefeld, Dortmund und Bonn statt.
+Die Vorbereitung auf das Zeichenlehrerinnenexamen erfolgt
+am sichersten in einem Zeichenlehrerseminar, das mindestens 2 Jahre be-
+sucht werden muß. Solche Zeichenlehrerseminare sind verbunden mit den
+Kgl. Kunstschulen zu Berlin, Breslau, Cassel, Königsberg und Düsseldorf.
+Die Vorbereitung wird geregelt durch die Prüfungsordnung für Zeichen-
+lehrer und Zeichenlehrerinnen vom 31. Januar 1902.
+Die Lehrerin im Amte.
+1. Anstellung.
+Nach bestandener Prüfung werden die Volksschullehrerinnen meist
+kommissarisch (vertretungsweise) oder provisorisch (vorläufig, einstweilig)
+angestellt. Die Befähigung zur endgültigen Anstellung erlangen Volks-
+schullehrerinnen nach dem Ministerialerlaß vom 11. Januar 1911 frühestens
+3 Jahre nach Bestehen der Prüfung, wenn sie wenigstens 2 Jahre im
+öffentlichen Schuldienst vollbeschäftigt gewesen sind und sich darin bewährt
+haben. Auch diese Zeit kann nach Maßgabe des Erlasses vom 8. No¬
+vember 1909 ein Jahr im Privatschuldienst angerechnet werden, falls die
+Lehrerin in wirklichem Klassenunterricht vollbeschäftigt gewesen ist. Die
+Befähigung zur endgültigen Anstellung ist von der zuständigen Schulauf-
+sichtsbehörde (Regierung oder Provinzialschulkollegium) nach Anhörung
+der nächsten Vorgesetzten auf Grund einer besonderen Revision auszu-
+sprechen und durch einen Nachtrag auf dem Lehrbefähigungszeugnis zu
+bekunden. Lehrerinnen, denen nach fünfjähriger einstweiliger Beschäftigung
+das Zeugnis der Befähigung zur endgültigen Anstellung nicht erteilt
+werden kann, sind aus dem öffentlichen Schuldienst zu entlassen, falls
+nicht auf Antrag der Regierung oder des Provinzialschulkollegiums die
+Verlängerung der Beschäftigung vom Unterrichtsminister genehmigt wird.
+Bei ihrer ersten Anstellung hat die Lehrerin vor dem Kreisschul-
+inspektor den Diensteid in der Form abzulegen, die für die mittelbaren
+und unmittelbaren Staatsbeamten durch die Allerhöchste Verordnung vom
+22. Januar und 6. Mai 1867 und den Staatsministerialbeschluß vom
+31. Oktober 1867 vorgeschrieben ist. Der Diensteid lautet: „Jch, N. N.,
+schwöre zu Gott, dem Allmächtigen und Allwissenden, daß Seiner König-
+lichen Majestät von Preußen, meinem Allergnädigsten Herrn, ich unter-
+tänig, treu und gehorsam sein und alle mir vermöge meines Amtes ob-
+liegenden Pflichten nach meinem besten Wissen und Gewissen genau er-
+füllen, auch die Verfassung gewissenhaft beobachten will, so wahr mir
+Gott helfe“. Bei Einführung, in ein anderes Amt findet eine abermalige
+Vereidigung nicht statt, wohl aber ein Hinweis auf den früher geleisteten
+Diensteid. Gleichzeitig hat die Lehrerin eine von ihrer zuständigen Re-
+gierung ausgefertigte Anstellungsurkunde zu unterschreiben, die sie auf ihre
+Pflichten und Rechte aufmerksam macht.
+2. Diensteinkommen der Lehrerin.
+Das Diensteinkommen der Volksschullehrerinnen ist durch das Lehrer-
+besoldungsgesetz vom 26. Mai 1909 geregelt, aus dem hier nur die
+wichtigsten Paragraphen hervorgehoben werden.
+§ 1. Das Diensteinkommen der an einer öffentlichen Volksschule end-
+gültig angestellten Lehrer und Lehrerinnen setzt sich zusammen aus Grundgehalt,
+Alterszulagen und freier Dienstwohnung oder Mietsentschädigung. Hierzu
+treten nach § 20 noch Ortszulagen und nach § 21 noch Amtszulagen.
+§ 3. Das Grundgehalt beträgt für die Lehrerstelle 1400 Mk., für die
+Lehrerinstelle 1200 Mk. jährlich.
+§ 4. Für die endgültig angestellten technischen Lehrkräfte kann das
+Grundgehalt durch Beschluß des Schulverbands auf einen niedrigeren als den
+im § 3 bezeichneten Betrag, jedoch nicht unter 1100 Mk. für die Lehrerstelle
+und 1000 Mk. für die Lehrerinstelle jährlich, festgesetzt werden.
+§ 5. Die Besoldung der einstweilig angestellten Lehrer und Lehrerinnen
+sowie der Lehrer, die noch nicht 4 Jahre im öffentlichen Schuldienst gestanden
+haben (Militärjahr wird mit angerechnet) beträgt ein Fünftel weniger als das
+Grundgehalt der betreffenden Schulstellen.
+§ 7. Die Alterszulagen sind in der Weise zu gewähren, daß der Bezug
+nach siebenjähriger Dienstzeit im öffentlichen Schuldienst beginnt und daß neue
+Zulagen in Zwischenräumen von je 3 Jahren gewährt werden.
+§ 8. Die Alterszulage beträgt für Lehrer in den beiden ersten Stufen
+je 200 Mk., in der dritten und vierten je 250 Mk., in der fünften bis neunten
+je 200 Mk. jährlich; für Lehrerinnen in den ersten zwei Stufen je 100 Mk.,
+in den weiteren je 150 Mk. jährlich.
+§ 16. Als Mietsentschädigung für die Lehrer und Lehrerinnen ist eine
+Geldsumme zu gewähren, die eine ausreichende Entschädigung für die nicht ge-
+währte Dienstwohnung darstellt.
+§ 17. Die Mietsentschädigung ist für jede Provinz unter Zugrunde-
+legung der für den Wohnungsgeldzuschuß der unmittelbaren Staatsbeamten
+maßgebenden Ortsklasseneinteilung nach bestimmten Sätzen für jede Klasse fest-
+zusetzen. Sie beträgt für Lehrer je nach der Servisklasse des Ortes 330 bis
+800 Mk., für Lehrerinnen 250 bis 560 Mk.
+§ 20. Schulverbände können die Gewährung pensionsfähiger Orts-
+zulagen an ihre sämtlichen Lehrkräfte oder einzelne der in diesem Gesetze be-
+zeichneten Arten beschließen.
+§ 22. Durch die Ortszulage darf das bisherige Endgehalt – unbeschadet
+der Amtszulage – für die Lehrerstellen um höchstens 900 Mk., jedoch nicht
+über 420 Mk. hinaus, für die Lehrerinnenstellen um höchstens 600 Mk., jedoch
+nicht über 2950 Mk. erhöht werden. Den Schulverbänden bleibt die Be-
+stimmung darüber überlassen, ob und in welcher Weise der Beginn und die
+Höhe der Ortszulagen von der Erreichung einer bestimmten Dienstzeit abhängig
+gemacht, auch für einzelne Arten von Lehrkräften verschieden gestaltet
+werden sollen.
+§ 26. Die Zahlung des baren Diensteinkommens erfolgt an endgültig
+angestellte Lehrer und Lehrerinnen vierteljährlich, an einstweilig angestellte oder
+auftragsweise beschäftigte monatlich, im voraus.
+Lehrerinnen an Mittelschulen erhalten in der Regel 150 Mk.,
+Lehrerinnen an höheren Töchterschulen 400 Mk. mehr als die Volksschul-
+lehrerinnen des betreffenden Ortes. Das Gehalt der technischen Lehre-
+rinnen ist an Mittelschulen um 50 Mk., an höheren Töchterschulen um
+200 Mk. höher als das der technischen Lehrerinnen an Volksschulen. Die
+Besoldungsordnung für Oberlehrerinnen bestimmt ein Grundgehalt von
+2000 Mk., steigend in 18 Jahren auf 4200 Mk. ausschließlich Wohnungs¬
+geldzuschuß.
+3. Wohnort.
+Die Lehrerin muß in dem Orte wohnen, wo sich ihre Schule be-
+findet, wo sie ihr Amt ausübt. Der Ministerialerlaß vom 22. Februar
+1889 bestimmt ausdrücklich, daß ohne Genehmigung der vorgesetzten
+Behörde keine Lehrerin ihre Wohnung in einem anderen Orte
+haben darf.
+4. Pflichtstundenzahl.
+Die Pflichtstundenzahl der Lehrerinnen ist nicht einheitlich geregelt.
+Der Ministerialerlaß vom 30. September 1878 bestimmt, daß jede
+Lehrerin soviele Lehrstunden in der Woche zu erteilen hat, als der Zweck
+des Unterrichts nach der bestehenden Schuleinrichtung erfordert. Ein
+anderer Erlaß vom 3. Mai 1889 stellt die Bestimmung der Pflicht-
+stundenzahl in das Belieben der Königlichen Regierung. Sie allein sei
+auch berechtigt, für den Fall, daß ein Lehrer oder eine Lehrerin mehr
+Unterrichtsstunden als die von ihr festgesetzten sogenannten Pflichtstunden
+übernehmen soll, die Höhe der dafür zu gewährenden besonderen Ver-
+gütung nach Anhörung der Schulunterhaltungspflichtigen zu bestimmen.
+Die Kgl. Regierung zu Arnsberg zieht die Lehrer bis zu 30, die
+Lehrerinnen bis zu 28 Pflichtstunden wöchentlich heran.
+5. Nebenämter und Nebenbeschäftigung.
+Ohne Einwilligung der Kgl. Regierung als der vorgesetzten Behörde
+darf die Lehrerin kein Nebenamt übernehmen, auch wenn dasselbe nicht
+mit einer fortlaufenden Remuneration verbunden ist. Auch zur Ueber-
+nahme einer Vormundschaft bedarf sie der Genehmigung des Kreisschul-
+inspektors. Die Erteilung von Privatunterricht an die Schüler der eigenen
+Klasse gegen Bezahlung ist im allgemeinen nicht statthaft, doch gibt der
+Erlaß vom 6. Oktober 1882 zu, daß Ausnahmefälle eintreten können,
+wie z. B. nach längerer Versäumnis des Unterrichts durch Krankheit,
+dann seien Nachhilfestunden, auch wenn sie gegen Bezahlung erteilt
+werden, nicht blos zulässig, sondern unter Umständen sogar erwünscht.
+Die Höchstzahl von Privatstunden soll aber nach einem Erlaß vom
+28. März 1903 auf sechs wöchentlich beschränkt bleiben.
+6. Konferenzen.
+Die Lehrerin ist gezwungen, den amtlichen Konferenzen beizu-
+wohnen. Jnsofern den Lehrern und Lehrerinnen durch die Teilnahme an
+den Kreiskonferenzen Unkosten erwachsen; wird ihnen nach Verfügung vom
+24. Juli 1897 eine Entschädigung gezahlt.
+7. Urlaub und Stellvertretung.
+Urlaubsgesuche innerhalb der Schulzeit sollen nur in dringenden
+Fällen (Sterbefälle u. dergl.) gestellt werden. Für einen bis einschließlich
+drei Tage steht dem Rektor bezw. dem Ortsschulinspektor das Recht der
+Urlaubserteilung zu. Soll der Urlaub mehr als drei Tage, aber nicht
+über vierzehn Tage dauern, so hat sich die Lehrerin an den Kreisschul-
+inspektor bezw. die Schuldeputation zu wenden. Urlaub auf länger als
+vierzehn Tage kann nur von der Regierung erteilt werden, Anträge dazu
+sind durch den Kreisschulinspektor einzureichen. Ein fehlender Lehrer oder
+eine fehlende Lehrerin muß von den anderen Lehrkräften der Schule ver-
+treten werden, falls nicht, was bei längerer Abwesenheit einer Lehrkraft
+meist geschieht, ein besonderer Vertreter bezw. Vertreterin angestellt wird.
+8. Besteuerung.
+Lehrerinnen sind zur Zahlung von Staatssteuern verpflichtet. Von
+Kommunallasten waren die Lehrer und Lehrerinnen bis zum 1. April
+1909 frei. Für alle nach dem 1. April 1909 angestellten Lehrerinnen
+gilt das „Gesetz, betreffend die Heranziehung der Beamten, Elementar-
+lehrer und unteren Kirchendiener zur Gemeindeeinkommensteuer vom
+16. Juni 1909“. Dasselbe bestimmt in § 1, daß die Lehrerinnen bis zu
+125 % der Kommunalsteuer herangezogen werden.
+9. Die Lehrerin in der Schulverwaltung.
+Nach § 44 des Volksschulunterhaltungsgesetzes vom 28. Juli 1906
+kann die Lehrerin in die Schuldeputation gewählt werden, falls in einer
+Stadt die Zahl der des Erziehungs- und Volkschulwesens kundigen
+Männer auf vier oder mehr festgesetzt wird. Jn § 45, der von den
+Schulkommissionen handelt, finden wir ebenfalls die Lehrerin, zwar nur
+in der Klammer, aber immerhin, sie kann auch in die Schulkommission
+gewählt werden.
+10. Pension.
+Für die Pensionierung der Volksschullehrerinnen gelten die Be¬
+stimmungen vom 6. Juli 1885 nebst Abänderungen dazu vom 26. April
+1890 und vom 10. Juni 1907. Darnach erhält jede definitiv angestellte
+Lehrerin eine lebenslängliche Pension, wenn sie nach einer Dienstzeit von
+wenigstens zehn Jahren infolge körperlichen Gebrechens oder wegen
+Schwäche ihrer körperlichen oder geistigen Kräfte zur Erfüllung ihrer
+Amtspflichten dauernd unfähig ist und deshalb in den Ruhestand versetzt
+wird. Die Pension beträgt, wenn die Versetzung in den Ruhestand nach
+vollendetem zehnten, jedoch vor vollendetem elften Dienstjahr eintritt,
+[FORMEL] und steigt mit jedem weiter zurückgelegten Dienstjahre bis zum
+vollendeten dreißigsten Dienstjahr um [FORMEL] und von da ab um [FORMEL] des
+von der Lehrerin zuletzt bezogenen Diensteinkommens. Ueber den Betrag
+von [FORMEL] dieses Einkommens hinaus findet eine Steigerung nicht statt.
+11. Versetzungen.
+1. Freiwillige Versetzung: Will die Lehrerin eine anderweitige er¬
+ledigte Lehrerinnenstelle annehmen, so hat sie ihre Bewerbung an den
+Schulvorstand bezw. an die Schuldeputation einzureichen. Umzugskosten
+können erstattet werden.
+2. Unfreiwillige Versetzung in ein anderes Amt von gleichem
+Range ist nur zulässig, wenn keine Verminderung des Diensteinkommens
+damit verbunden ist. Umzugskosten müssen ersetzt werden. Weigert sich
+die Lehrerin, die ihr im Jnteresse des Dienstes angewiesene Stelle anzu¬
+nehmen, so kann sie abgesetzt werden.
+12. Die Lehrerin im Falle der Verheiratung.
+Heiratet eine Lehrerin, so muß sie aus dem Staatsdienste aus-
+scheiden; sie verliert damit alle Rechte, die ihr aus ihrer definitiven An-
+stellung erwachsen waren, insbesondere erlöschen ihre Pensionsansprüche.
+Sie muß ihr Amt drei Monate vorher kündigen, kann jedoch nicht ver-
+langen, vor dem Schluß des laufenden Unterrichtssemesters entlassen zu
+werden.
+Wagner &amp; Co., Buchdruckerei, G.m.b.H., Berlin SW. 11.
+</text>
+  </TextCorpus>
+</D-Spin>

@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/kirchhoff_frauenstimmrecht_1912</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-kirchhoff_frauenstimmrecht_1912.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/kirchhoff_frauenstimmrecht_1912</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-kirchhoff_frauenstimmrecht_1912.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/kirchhoff_frauenstimmrecht_1912</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-kirchhoff_frauenstimmrecht_1912.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/kirchhoff_frauenstimmrecht_1912</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-kirchhoff_frauenstimmrecht_1912.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/kirchhoff_frauenstimmrecht_1912</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-kirchhoff_frauenstimmrecht_1912.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Warum muß der Deutsche Verband für Frauenstimmrecht sich allgemeinen, gleichen, geheimen und direkten Wahlrecht bekennen?</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Kirchhoff</cmdp:surname>
+<cmdp:forename>Auguste</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118865307</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Erstellung der Transkription nach DTA-Richtlinien</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2014-07-16T11:00:00Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Konvertierung nach DTA-Basisformat</cmdp:note>
+    <cmdp:date type="importDTA">2014-07-16T11:00:00Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">33</cmdp:measure>
+        <cmdp:measure type="tokens">10582</cmdp:measure>
+        <cmdp:measure type="types">2910</cmdp:measure>
+        <cmdp:measure type="characters">76502</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:02Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/kirchhoff_frauenstimmrecht_1912</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/kirchhoff_frauenstimmrecht_1912</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/kirchhoff_frauenstimmrecht_1912</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/kirchhoff_frauenstimmrecht_1912</cmdp:idno>
+          <cmdp:idno type="DTADirName">kirchhoff_frauenstimmrecht_1912</cmdp:idno>
+          <cmdp:idno type="DTAID">31305</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-31305-1</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Kirchhoff, Auguste: Warum muß der Deutsche Verband für Frauenstimmrecht sich allgemeinen, gleichen, geheimen und direkten Wahlrecht bekennen? Bremen, 1912.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Warum muß der Deutsche Verband für Frauenstimmrecht sich allgemeinen, gleichen, geheimen und direkten Wahlrecht bekennen?</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Kirchhoff</cmdp:surname>
+<cmdp:forename>Auguste</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118865307</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Bremen</cmdp:pubPlace>
+            <cmdp:date type="publication">1912</cmdp:date><cmdp:publisher><cmdp:name>Diercksen &amp; Wichlein</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Staats- und Universitätsbibliothek Bremen</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">02.j.9922</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: keine Angabe;
+    Druckfehler: dokumentiert;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): gekennzeichnet;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Bremer Verein für Frauenstimmrecht E. D.
+Warum muß der Deutsche Ver-
+band für Frauenstimmrecht sich
+zum allgemeinen, gleichen, ge-
+heimen und direkten Wahlrecht
+bekennen?
+Vortrag von Auguste Kirchhoff
+gehalten am 30. April 1912 in Bremen,
+das Korreferat hielt Minna Bahnson.
+Beide Vorträge sind zu beziehen durch
+Frau H. Sander, Bremen, Schwachhauser Chaussee 25.
+Von 25 Exemplaren an Ermäßigung.
+Druck von Diercksen &amp; Wichlein, Bremen.
+Jch habe heute zu Jhnen zu sprechen über den § 3 unserer
+Satzungen und seine Bedeutung für unsern Verband.
+Der § 3 lautet:
+Absatz 1. „Der Verband steht nicht auf dem Boden einer
+bestimmten politischen Partei oder einer bestimmten Richtung der
+Frauenbewegung.“
+Absatz 2. „Der Verband erstrebt das allgemeine, gleiche,
+geheime und direkte aktive, sowie das passive Wahlrecht für die
+Frauen zu den gesetzgebenden Körperschaften und den Organen
+der Selbstverwaltung.“
+Auf Wunsch unseres Vorstandes habe ich zu meinem Referat
+Leitsätze aufgestellt, die folgenden Wortlaut haben:
+Leitsätze.
+1. Die Aufnahme des § 3 in die Verbandssatzungen im Jahre 1907
+bedeutet keineswegs eine Neuerung gegenüber dem, was bis dahin
+unausgesprochen das selbstverständliche Prinzip des Ver-
+bandes war. Der Wunsch, ein klares, einheitliches Programm
+zu schaffen, veranlaßte den Verband, den § 3 offiziell als Grund-
+lage anzuerkennen. Die Festlegung in dem heutigen Wortlaut
+bedeutet also lediglich eine Formsache.
+2. Es besteht kein Widerspruch zwischen dem ersten Absatz des §3:
+„Der Verband steht nicht auf dem Boden einer bestimmten
+politischen Partei oder einer bestimmten Richtung der Frauen-
+bewegung“
+und dem zweiten Absatz:
+„Der Verband erstrebt das allgemeine, gleiche, geheime aktive,
+sowie das passive Wahlrecht für die Frauen zu den gesetzgebenden
+Körperschaften und den Organen der Selbstverwaltung.“
+3. Nur in Verbindung mit dem allgemeinen, gleichen, geheimen und
+direkten Wahlrecht ist Frauenstimmrecht wirklich eine Forderung
+der Gerechtigkeit. Ohne dieses Wahlsystem ist ein wirkliches
+Frauenstimmrecht überhaupt nicht denkbar.
+4. Der deutsche Verband kann sein Grundprinzip weder aufgeben noch
+verschleiern, ohne sich selbst untreu zu werden.
+Zur Begründung meines ersten Leitsatzes möchte ich Jhnen einen
+kurzen Überblick über die Geschichte unseres Verbandes im allgemeinen
+und die des Paragraphen im besonderen geben.
+Eine historische Untersuchung unseres Ursprungs, unseres Werdens
+und Wachsens zeigt Jhnen, warum wir uns gerade so und nicht anders
+entwickelt haben und entwickeln mußten, zeigt Jhnen, wo die starken
+Wurzeln unserer Kraft liegen und wohin unsere Weiterentwicklung strebt,
+will unser Verband sich zu einem innerlich gesunden und starken Baum
+auswachsen, der allen Stürmen Trotz beut und allen Schatten spendet.
+Jch stütze mich bei meinen Ausführungen teils auf eigens hierzu
+eingeholte Privatauskünfte unserer Führerinnen, der Gründerinnen unseres
+Verbandes, teils auf einige Flugschriften des preußischen Landesvereins.
+Das Geburtsjahr der Frauenstimmrechtsidee in unserm Vaterland
+war das Revolutionsjahr 1848. Jn den Jahren der Reaktion aber
+sank sie in einen tiefen Dornröschenschlummer, aus dem erst Frau
+Hedwig Dohm sie in ihrem 1870 erschienenen Werk: „Der Frauen
+Natur und Recht“ wieder erweckte. Jm Jahre 1871 wurden von den
+Sozialisten die ersten Frauenversammlungen in Leipzig und Chemnitz
+abgehalten, und im Anschluß daran bildeten sich die ersten politischen
+Frauenorganisationen.
+Jm Jahre 1876 berief Bebel in Leipzig eine Volksversammlung
+ein mit der Tagesordnung: „Die Stellung der Frau im heutigen Staat
+und zum Sozialismus“, in der die Frauen sehr zahlreich vertreten
+waren und von dem Vortragenden zur agitatorischen Mitarbeit an den
+bevorstehenden Reichstagswahlen aufgefordert wurden, natürlich zugunsten
+der Sozialdemokratie, da diese für vollkommene soziale und politische
+Gleichberechtigung der Frauen einträte.
+Jn einer öffentlichen Versammlung aus bürgerlichen Kreisen wurde
+die Forderung des Frauenstimmrechts zuerst in Deutschland erhoben am
+2. Dezember 1894 in Berlin. Frau Lily von Gyzicki, jetzt die Jhnen
+allen bekannte Lily Braun, sprach sie aus in ihrem Referat: „Die
+Bürgerpflicht der Frau“. Die Versammlungsleiterin war Frau Minna
+Cauer. Ein Sturm der Entrüstung erhob sich gegen die Frauen, die
+eine derartige, schier unglaublich radikale Forderung in einer öffentlichen
+Versammlung auszusprechen wagten! So war selbst Hedwig Dohm
+nicht angegriffen worden, die in zahlreichen Streitschriften diese Frage
+jahrelang behandelt hatte.
+Aber die Jdee war lebenskräftig, kein Entrüstungssturmwind
+konnte sie hinwegfegen. Jm folgenden Jahr, 1895, zwang Bebel durch
+seinen Antrag auf Einführung des Reichstagswahlrechts für die Frauen
+den deutschen Reichstag zum erstenmal, sich eingehend mit der Frauen-
+stimmrechtsfrage zu beschäftigen. Frau Minna Cauer erörterte sie
+weiterhin in ihrer 1895 gegründeten Zeitschrift „Die Frauenbewegung“,
+die sich mit Fragen der Gesetzgebung und Sozialpolitik beschäftigte.
+Als Forderung formuliert erschien sie im Programm des 1899
+gegründeten Verbandes fortschrittlicher Frauenvereine, und nahm selb-
+ständige Gestalt an im Jahre 1902 durch die Gründung des Vereins
+für Frauenstimmrecht. Die Frau, deren Jnitiative wir diese Gründung
+zu danken haben, ist, wie Sie alle wissen, unsre allverehrte, langjährige
+Vorsitzende, Dr. Anita Augspurg, die mit Fräulein Lida Gustava
+Heymann den Verein ins Leben rief mit dem Sitz in Hamburg. Dem
+Vorstande traten bei: die unermüdliche Pionierin für die Staatsbürger-
+rechte der Frauen, Frau Minna Cauer, ferner Dr. Käte Schirmacher,
+Fräulein Charlotte Engel-Reimers und Fräulein Adelheid v. Welczeck.
+Die erste öffentliche Kundgebung des Vereins war eine Mani-
+festationsversammlung in Berlin am 12. Februar 1902, in der in einer
+Resolution die Notwendigkeit des Frauenstimmrechts vom ethischen, wirt-
+schaftlichen, politischen und sozialen Standpunkt aus erklärt wurde.
+Von seiten des Bundes deutscher Frauenvereine, dem
+sich der junge Verein angeschlossen hatte, fand er wenig
+Förderung; man sprach es offen aus, daß man eine Beeinträchtigung
+der sonstigen Bundesbestrebungen fürchtete, wenn man öffentlich für das
+Frauenstimmrecht einträte. Dagegen fand der Verein beim Bund fort-
+schrittlicher Frauen stets Verständnis und tatkräftige Unterstützung.
+Am 1. Oktober 1904, anläßlich der Konstituierung des Weltbundes
+für Frauenstimmrecht wurde unser Verein in einen deutschen Verband
+für Frauenstimmrecht umgewandelt mit dem Zweigverein Hamburg, dem
+sich im November desselben Jahres der von Frau Martha Voß-Zietz
+gegründete Verein Bremen anschloß. 1906 rief dann Dr. Augspurg
+den mitteldeutschen Verein mit dem Sitz in Leipzig und den württem-
+bergischen, Sitz Stuttgart, ins Leben, Fräulein von Welczeck den
+badischen, Sitz Mannheim. Fräulein Heymann gründete einen Verein
+in Worms, der sich mit den beiden von Fräulein v. Welczeck in Darm-
+stadt und Mainz gegründeten zum hessischen Landesverein zusammen-
+schloß. – Jn Preußen hatte man sich mit Hinblick auf das Vereins-
+gesetz mit der Bildung von Ortsgruppen bescheiden müssen, die ihre
+Zentrale im „Preußischen Landesausschuß“ fanden und mit dem Deutschen
+Verband in lebhafter Fühlung blieben, ohne sich anschließen zu können.
+Erst 1908 konnte dieser Landesausschuß unter dem Vorsitz von Frau
+Cauer sich umwandeln in einen preußischen Landesverein, der sich dann,
+ebenso wie der von Frau Stritt in Dresden außerhalb des Bundes
+gegründete sächsische Verein für Frauenstimmrecht bei der Neuorgani-
+sation dem Bunde angliederte.
+Und nun zur
+Geschichte unseres Paragraphen.
+Richtig ist, daß er erst im Jahre 1907 auf der Generalversammlung in
+Frankfurt a. M. als Programmpunkt in die Satzungen aufgenommen wurde.
+„Aus einem sehr einfachen Grunde“, wie Fräulein Heymann mir auf
+meine diesbezügliche Anfrage schreibt; ich möchte die betreffende Brief-
+stelle wörtlich wiedergeben:
+„Es hat seine Richtigkeit, daß der § 3 erst nach Frankfurt
+in die Satzungen hineingekommen ist, aber aus dem einfachen
+Grunde, weil Dr. Augspurg und ich, die ganz allein die Satzungen
+verfaßten,
+die Forderung des allgemeinen, gleichen, geheimen und
+direkten Wahlrechts, als Selbstverständlichkeit
+voraussetzten. War es überhaupt möglich, daß Frauen,
+die den Männern den Vorwurf machten, sie vom
+politischen Leben auszuschließen, in bezug auf ihr
+eigenes Geschlecht denselben Fehler begehen sollten?!
+Wir Gründerinnen haben niemals an ein anderes als an das
+allgemeine, gleiche, geheime und direkte Wahlrecht gedacht. Jn dem
+Moment aber, wo wir merkten, daß man rechts und links an diesem,
+unserm Grundsatz zweifelte, haben wir, d. h. der damalige Vor-
+stand, auf meine Anregung und zwar einstimmig erklärt: Jetzt ist
+es Zeit auszusprechen, was wir stillschweigend als
+selbstverständlich angenommen haben. Jn Frankfurt
+waren es, soviel ich mich erinnere, nur 2 Stimmen, die gegen die
+Aufnahme des § 3 waren. Eine von diesen beiden Gegnerinnen
+ist aber, soviel mir bekannt, jetzt für den § 3 und zwar mit ihrer
+ganzen Ortsgruppe. Als Grund für diese Forderung ist meines
+Erachtens nach in erster Linie anzuführen, daß wir alle Frauen
+zur Beteiligung am politischen Leben benötigen, weil jeder
+Stand am besten weiß, was ihm not tut. Jm allgemeinen
+kann eine Lehrerin, eine Handlungsgehilfin, eine Arbeiterin usw.
+immer am besten beurteilen, was sie zur Hebung ihres Standes
+für Einrichtungen und Gesetze braucht.“ Soweit Fräulein Heymann.
+Trotzdem man nun heute den § 3 so gern als Hemmnis für die
+Entwicklung der Frauenstimmrechtsbewegung bezeichnet, ist der Verband
+seit seiner Aufnahme ständig gewachsen und groß und stark geworden,
+nicht nur an Mitgliederzahl, sondern sein Ansehen in den politischen
+Parteien hat sich gefestigt, seit er sich öffentlich zu einem festen Grund-
+prinzip bekannte.
+Hier in Bremen
+habe ich selbst als Vorstandsmitglied die in Frankfurt revidierten
+Satzungen mit durchberaten. Auch mir war der § 3 so selbstverständlich,
+daß mir nicht einmal zum Bewußtsein kam, es könne mit ihm etwas
+neues in die Satzungen hineingebracht scheinen. Jch habe auch nicht die
+leiseste Erinnerung daran, daß damals irgend einem Vorstandsmitglied
+Skrupel kamen, oder jemand von uns etwas Parteipolitisches dahinter
+gesucht hätte. Auch die Mitgliederversammlung, die dann die Satzungen
+genehmigte, äußerte meines Wissens keinerlei Bedenken.
+Die erste Opposition gegen den Paragraphen erhob sich im Jahre
+1909 auf der Münchener Generalversammlung. Jhre Wiege war der
+rheinisch-westfälische Frauenbund. Wer die Verhältnisse kennt, wer wie
+ich, jedes Jahr Gelegenheit hat, sich davon zu überzeugen, wie weit
+vorgeschritten die Frauenbewegung hier im Norden gegen die am Rhein
+ist – wie Probleme, die wir hier als ganz selbstverständlich behandeln,
+dort als „viel zu radikal“ noch Kräutchen Rührmichnichtan sind, und
+erst dann verhandlungsfähig werden, wenn sie uns, ich möchte sagen,
+schon in Fleisch und Blut übergegangen sind, den wird es auch weiter
+nicht wunder nehmen, daß unsre Forderung des allgemeinen, gleichen,
+geheimen und direkten Wahlrechts den Frauen dort vorerst als eine viel
+zu weitgehende erschien. Ein paar Jahre ruhigen Festhaltens, politischer
+Aufklärungsarbeit, und ich bin überzeugt, man hätte sie ruhig akzeptiert.
+Statt dessen aber organisierte man diese Opposition durch Ab-
+splitterung einzelner rheinischer und westfälischer Ortsgruppen von unserm
+Verband und brachte so die erste Spaltung in die bürgerliche Stimm-
+rechtsbewegung. Am 20. Oktober 1909 traten diese Vereine zusammen
+zum Nordwestdeutschen Verband für Frauenstimmrecht mit der Begrün-
+dung: unser Programm sei ein parteipolitisches, und – wie mir vor
+einigen Tagen ein Mitglied dieses Verbandes schrieb – „weil ein
+weniger radikales Vorgehen ihnen sympathischer sei“. Der unserm § 3
+entgegengesetzte § 3 des Nordwestdeutschen Verbandes lautet: „Der
+Verband erstrebt das Frauenstimmrecht in Kirche, Gemeinde und Staat
+unter den gleichen Bedingungen, wie es die Männer haben und haben
+werden.“ Das heißt also: für Preußen das Dreiklassenwahlrecht, für
+Sachsen ein Pluralwahlrecht, für Mecklenburg gar kein Wahlrecht, für
+Bremen ein allgemeines, ungleiches Wahlrecht, und kommt einmal eine
+reaktionäre Welle, dann müssen diese Frauen konsequenter Weise auch
+für ein noch schlechteres Wahlrecht eintreten. Warum nun unser § 3
+nicht neutral, der der Gegenorganisation neutral sein soll, ist mir un-
+erfindlich: beide nehmen Stellung zum Wahlrecht.
+Eine zweite Gegenorganisation hatte sich im Osten gebildet, der
+„Schlesische Verband“ unter Fräulein Hielscher. Und im Anschluß an
+unsre vorjährige Generalversammlung in Hamburg bildete sich eine
+dritte Gruppe: der Norddeutsche Verband mit den beiden Ortsgruppen
+Hamburg und Umgebung und Harburg. Alle drei schlossen sich dann
+zusammen zur Deutschen Vereinigung für Frauenstimmrecht, die nun
+allerdings die Wahlrechtsfrage bewußt ausschaltete und ihren § 2 so
+formulierte: „Die Vereinigung hat den Zweck, durch praktische und
+theoretische Arbeit das Verständnis für das Frauenstimmrecht zu fördern,
+ohne ihre Mitglieder auf ein bestimmtes politisches Programm festzulegen.“
+Die Vereinigung ist als Gegenorganisation gegen den Deutschen
+Verband gegründet.
+Die Opposition in München hatte für uns hier in Bremen die
+praktische Folge, daß unsre Vorsitzende im Winter 1910 eine Debatte
+über den § 3 anregte, bei der die Geister scharf aufeinanderplatzten.
+Die Abstimmung der mäßig besuchten Versammlung ergab dann eine
+kleine Mehrheit (wenn ich nicht irre 2 oder 3 Stimmen) für den § 3.
+Seitdem ist er bei uns nicht wieder berührt worden. Aber auf der
+Hamburger Generalversammlung, Oktober 1911, tauchte er wieder auf
+und nahm einen wichtigen Platz ein durch 2 Anträge:
+1. den Antrag Hessen auf Abänderung des § 3 in folgende Form:
+„Der Verband erstrebt volle Staatsbürgerrechte für alle
+Frauen“,
+2. den Antrag Bayern, der dahin ging:
+„Jn dem Satz: ‚der Verband erstrebt das allgemeine, gleiche,
+geheime und direkte Wahlrecht usw.’ die Worte: ‚für beide
+Geschlechter ’ umzuwandeln in:‚für die Frauen’.“
+Beide Anträge sollten einer Verständigung mit den Gegenorgani-
+sationen dienen und den Vorwurf parteipolitischer Stellungnahme des
+Verbandes entkräften, nur daß Hessen
+unser Grundprinzip preisgab,
+zum mindesten stark verschleierte, während Bayern es unangetastet ließ
+und nur eine Form suchte, die keine Partei auf dem Programm hat und
+haben kann. Dr. Augspurg hob diese Absicht in ihrer Begründung des
+bayrischen Antrages scharf heraus und betonte nachdrücklich, daß ein
+allgemeines, gleiches Wahlrecht für die Frauen sich naturgemäß nur auf
+einem eben solchen Männerwahlrecht aufbauen könne, es also zur selbst-
+verständlichen Voraussetzung habe.
+Auch der Kompromißantrag von Fräulein Lischnewska, die damals
+dringend vor dem Antrag Hessen warnte, weil er die Gefahr einer neuen
+Spaltung in sich trüge, sollte dieser Verständigung dienen. Sie befür-
+wortete einen Zusammenschluß aller Stimmrechtsverbände zu einem
+„Bund deutscher Stimmrechtsverbände“, der Sitz und Stimme im
+Weltbund hat. Jeder kann dann seinem Prinzip treu bleiben. Diese
+Jdee scheint mir auch heute noch zur Lösung der Einigkeits-
+frage die glücklichste. Sie wurde behufs weiterer Ausarbeitung einer
+Kommission überwiesen. – Der Antrag Bayern, als der weitergehende,
+stand vor dem Antrag Hessen zur Beratung; er wurde mit großer
+Majorität, 109 gegen 23 Stimmen bei 12 Stimmenthaltungen, ange-
+nommen, und damit hatte der Deutsche Verband sich abermals
+zu seinem Grundprinzip:
+allgemeines, gleiches, geheimes und direktes Wahlrecht
+bekannt.
+Sehr scharf kam die Differenz zwischen dem Deutschen Verband
+und der deutschen Vereinigung zum Ausdruck auf dem Berliner Frauen-
+kongreß im Februar dieses Jahres.
+Während Frau Cauer energisch betonte, daß der Deutsche Verband
+an seinem Grundprinzip, dem Grundprinzip auch der Einigung des
+deutschen Vaterlandes, festhalten müsse aus Gerechtigkeitsgründen: weil
+wir wollen, daß jede, auch die geringste Frau ihr Recht bekommt, er-
+klärte Frau Fischer-Eckert, die Vorsitzende der Gegenorganisation, etwa
+folgendes: Das absolut Sittliche ist nicht der einzige Stern, der
+uns leitet, sondern wir wollen praktische Politik treiben. Wir treten
+auch nicht an die Öffentlichkeit, indem wir marktschreierisch die Phrase
+der Gerechtigkeit verkünden. Aber wir suchen alle, auch die konservativen
+Frauen zu sammeln. Wir schalten zu diesem Zweck die Wahlrechtsfrage
+bewußt aus, und als klare Köpfe verquicken wir nicht, wie unklare
+Schwärmer, Frauenstimmrecht und Reichstagswahlrecht!
+An diese Auseinandersetzungen schloß sich dann nachmittags die
+außerordentliche Generalversammlung unseres Verbandes, einberufen auf
+das Betreiben einiger rheinisch-westfälischer Ortsgruppen, die den in
+Hamburg mit so großer Majorität angenommenen § 3 wieder in Frage
+stellten durch erneutes Einbringen des hessischen Antrages. Unter der
+Hand hatte die Ortsgruppe Dortmund sich an Landesvereine und Orts-
+gruppen gewandt mit der Bitte um ihre Unterstützung zur Einberufung
+einer außerordentlichen Generalversammlung, auf der der Sturz des § 3
+durchgesetzt werden sollte. Wie ich aus authentischer Quelle erfahren
+habe, soll das Vorgehen der betreffenden Ortsgruppen, das abermals den
+Verband in die schwerste Beunruhigung versetzt hat, zurückzuführen sein
+auf den Druck der Gegenorganisation und die Furcht vor einer Ver-
+schärfung des Kampfes, der man durch einen erneuten Vorstoß gegen
+den § 3 und die Anregung zur Bildung einer sogen. „Reformpartei“
+innerhalb des Verbandes zu begegnen hoffte.
+Ob man diese Beweggründe vom Standpunkt einer starken, mutigen
+Überzeugungstreue aus hoch einzuschätzen hat, ist Ansichtssache jedes
+einzelnen. Vor allem scheint mir die Frage des Nachdenkens wert, ob
+der Friede mit den Gegnern nicht doch gar zu teuer erkauft
+wird mit dem Kampf im eigenen Lager, der durch den Spreng-
+stoff, den er in unsere Reihen hineinträgt, sehr leicht zum Ver-
+nichtungskampfwerden kann?! Ähnliche Erwägungen müssen auch
+wohl einigen Ortsgruppen gekommen sein, die ihre der Ortsgruppe
+Dortmund zuerst zugesagte Unterstützung im letzten Moment zurückzogen.
+Die Deutsche Vereinigung hat naturgemäß ein Jnteresse daran
+mit uns zusammenzugehen, da wir Sitz und Stimme im Weltbund haben,
+was die Deutsche Vereinigung nach den geltenden Bestimmungen (siehe
+Chapman Catt: „Der Weltbund für Frauenstimmrecht,“ Seite 7) fürs
+erste wohl kaum erlangen wird. Unser Verband ist, wie ich bereits
+ausführte, im Jnteresse des Friedens zum Kartell gern bereit. Aber,
+daß wir den Vereinen, die sich von uns abgesplittert und so die erste
+Spaltung in die Stimmrechtsbewegung hineingebracht haben, die außer-
+dem ein Jnteresse daran haben, mit uns zusammenzugehen, nun auch
+noch das Opfer unserer Überzeugung bringen sollen, scheint mir doch
+recht wenig einleuchtend.
+Die Generalversammlung erklärte sich, wie Jhnen bekannt, für in-
+kompetent zu Satzungsänderungen. Wäre der § 3 auf dieser General-
+versammlung gefallen, so wäre das Gegenteil einer Einigung erreicht
+worden. Nicht nur die Mehrzahl der besten und hervorragendsten unter
+unseren Führerinnen, auch ganze Ortsgruppen, ganze Landesvereine
+wären ausgetreten, und der Verband hätte im Jnnern einen Riß erlitten,
+wie er schlimmer nicht gedacht werden kann.
+Jch richte nun an Sie alle die Frage, ob das Ziel: auch die
+konservativen und nationalliberalen Frauen in unsern Ver-
+band hineinzuziehen, dieser Opfer wert ist? Jst man überhaupt
+so sicher, daß sie kommen werden? Sind sie gekommen, ehe der § 3, der
+angebliche Stein des Anstoßes, offiziell auf dem Programm stand?
+Denn wohlgemerkt, nur „offiziell“ soll er nach dem hessischen Antrag
+verschwinden. Glauben Sie, daß der Verband dadurch gewinnt, daß an
+Stelle von Frauen, die ihn unter schwersten Bedingungen ins Leben
+gerufen, die in stürmischen Zeiten mutig und furchtlos ihre Fahne hoch-
+hielten, die Spott, Verleumdungen, Schmähungen Trotz boten um der
+Sache willen, nun andere treten, die diese Feuerprobe noch nicht be-
+standen haben?
+Auch wir hier in Bremen werden bei der nächsten General--
+versammlung hierzu Stellung nehmen müssen, und unser Votum kann
+vielleicht für das Schicksal des Verbandes ausschlaggebend sein. Jeder
+einzelne von Jhnen wird danach die Frage zu prüfen haben, ob es rein
+vom taktischen Standpunkt aus richtig ist, den § 3 zu Fall zu
+bringen?
+Jch stelle die Frage der Taktik absichtlich voran, weil ich weiß,
+daß manche Mitglieder, die persönlich Anhänger des allgemeinen, gleichen,
+geheimen und direkten Wahlrechts sind, es aus taktischen Gründen nicht
+in unseren Satzungen behalten wollen. Wer die Sache rein vom
+taktischen Standpunkt aus prüft, muß zu der Überzeugung kommen, daß
+der Paragraph nicht fallen darf, daß wir nach wie vor für
+das allgemeine, gleiche, geheime und direkte Wahlrecht ein-
+treten müssen.
+Jch komme nun zur Begründung meines zweiten Leitsatzes: „es
+besteht kein Widerspruch zwischen dem ersten und zweiten Absatz unseres
+Paragraphen.“
+Auch die Behauptung eines solchen Widerspruches ist einer der
+Einwände von persönlichen Anhängern des allgemeinen, gleichen, geheimen
+und direkten Wahlrechts.
+Sehen wir uns den ersten Absatz einmal genauer an: „Der Verband
+steht nicht auf dem Boden einer bestimmten politischen Partei oder einer
+bestimmten Richtung der Frauenbewegung.“ Das heißt doch nur: der
+Verband als solcher verschreibt sich keiner politischen Partei,
+keiner Richtung der Frauenbewegung mit Leib und Seele, mit
+Haut und Haaren. Er nimmt nicht irgend ein Parteiprogramm in allen
+Punkten als sein eigenes an, er geht nicht zu einer Partei über. Allen
+gegenüber wahrt er sich das Recht der Kritik, aber auch das Recht der
+Zustimmung und Sympathie. Das heißt ferner: wir fragen niemanden,
+der sich in unsere Reihen stellt, nach seinem politischen oder frauen-
+rechtlerischen Glaubensbekenntnis, wir nehmen jeden gern auf, stehe er
+wo er wolle, wenn er sich zu den Grundprinzipien unseres Verbandes
+bekennt.
+Aber nie und nimmer kann es heißen: wir dürfen uns nicht
+zu einer Forderung der Gerechtigkeit bekennen – und das allgemeine, gleiche,
+geheime und direkte Wahlrecht ist eine Forderung der Gerechtigkeit –,
+weil zufällig die eine oder andere Partei das auch tut. Sonst dürften
+wir uns logischer Weise auch nicht zur Forderung des Frauenstimmrechts
+bekennen, denn auch dies hat nur eine der im Parlament vertretenen
+Parteien, die sozialdemokratische, auf ihrem Programm. Dann dürften
+wir auch nicht, wie wir's so oft getan haben, durch Resolutionen ein-
+treten für Forderungen, die nur die Linksparteien erheben, dürften nicht
+durch scharfe Kritik Stellung nehmen zu Dingen, wie der Reichsver-
+sicherungsordnung, an deren Zustandekommen in dieser von uns so hart
+verurteilten Form alle Parteien, außer der sozialdemokratischen, mit-
+schuldig sind.
+Wir hätten dann hier in Bremen im Anschluß an Dr. Augspurgs
+Vortrag über die elsaß-lothringische Verfassungsfrage am 8. Mai 1911
+auch nicht einstimmig die von unserer Vorsitzenden verlesene Resolution
+annehmen dürfen, in der es heißt:
+„Nur eine die Gleichberechtigung und Selbständigkeit der Reichs-
+lande als bundesstaatliche Republik garantierende Verfassung,
+nur ein allgemeines, gleiches, geheimes und direktes
+Wahlrecht für Männer und Frauen, nur die volle Selbst-
+verwaltung in allen innern Angelegenheiten entspricht dem Geiste
+der modernen Zeit, dem hochentwickelten Bürgergefühl und dem
+allgemeinen Kulturniveau des elsaß-lothringischen Volkes und ist
+ihm seitens der gesetzgebenden Körperschaften des Deutschen Reiches
+zu gewähren.“
+Hierdurch bekannte sich unser Verein vor der Öffentlichkeit fürs allgemeine,
+gleiche, geheime und direkte Wahlrecht.
+Daß der Verband nicht auf dem Boden einer bestimmten Richtung
+der Frauenbewegung steht, kann aber auch nicht so verstanden werden,
+daß er ein farbloses Etwas ist. Das hieße seiner Geschichte,
+hieße allen Tatsachen ins Gesicht schlagen. Jch brauche nur
+die Namen seiner Gründerinnen und Vorkämpferinnen zu nennen:
+Hedwig Dohm, Lily v. Gyzicki, Minna Cauer, Anita Augspurg, Lida
+Gustava Heymann, alles Frauen vom linken Flügel der fortschritt-
+lichen Frauenbewegung! Jch brauche Sie nur zu erinnern an all' den
+Hohn und Spott, mit dem ein Teil der Presse, Witzblätter und
+Parlamentarier noch vor 10 Jahren die Frauenstimmrechtsidee und ihre
+Trägerinnen übergossen, – geschieht das einer gut ange-
+schriebenen, gemäßigten, neutralen Bewegung?!
+Jch verweise Sie zurück auf die Ablehnung vonseiten der Frauen-
+vereine, soweit sie nicht dem linken Flügel der Frauenbewegung an-
+gehörten, und auf die Bewertung, die wir unserer Bewegung selbst bei-
+maßen. Jahrelang haben wir selbst im Stimmrecht das Endziel aller
+unserer Bestrebungen erblickt, bis wir lernten, daß auch dies Ziel ein
+neuer Anfang ist. Ein Endziel aber liegt in der Zukunft, und Zukunft
+bedeutet Fortschritt.
+All dies charakterisiert unsere ganze Bewegung als eine eminent
+fortschrittliche und damit links stehende. Dieser Tatsache gegenüber muß
+ich's noch einmal wiederholen: unsre sogenannte „Neutralität“ –
+übrigens steht das Wort nirgends in unsern Satzungen – ist niemals
+Farblosigkeit, sondern nur Wahrung unserer Selbständigkeit
+allen frauenrechtlerischen und Parteidogmen gegenüber.
+Aber es ist ein anderes, sich zu einer politischen Partei bekennen
+und sich auf politische Parteien stützen, und da wir nicht eine rein
+platonische Liebe zum Stimmrecht haben, sondern es uns erkämpfen wollen,
+dieser Kampf aber im Männerparlament von den politischen Parteien
+ausgefochten werden wird, wird uns gar nichts anderes übrig bleiben,
+als uns recht kräftig auf sie zu stützen.
+Sehen wir uns einmal die verschiedenen Parteien darauf hin an,
+was wir von ihnen zu erwarten haben.
+Die Konservativen. Glatte Absage: „Auch noch die Zahl der
+Unzurechnungsfähigen vermehren!“ Jch zitiere nun wörtlich den Ab-
+geordneten Örtel, der sich als „Freund der Frauenbestrebungen“, natürlich
+in dem von Herrn Örtel definitiv festgelegten Rahmen der weiblichen
+Eigenart, bezeichnet: „Eins aber widerstrebt uns und mir: wir wollen
+die Frauen nicht hineintreten und hineinziehen lassen in das politische
+Getriebe, den politischen Kampf. Dieser Kampf paßt nicht für die
+Frauen, die Eigenart der Frauen ist mit ihm unvereinbar.“ Und wie
+Herr Örtel, so die andern: von 18 konservativen und freikonservativen
+Reichstagskandidaten, die Fräulein Hielscher auf ihre Umfrage betreffs
+ihrer Stellung zum Stimmrecht der Frau überhaupt antworteten, tritt
+keiner für das politische Frauenstimmrecht ein, für das kommunale –
+aber nur das aktive! – 1 Freikonservativer! Also hier lassen wir alle
+Hoffnung hinter uns – wenigstens in diesem Jahrhundert.
+Das Zentrum. Ja, das Zentrum hat eine Chamäleonnatur,
+es schillert nach Bedarf in allen Farben. Prinzipiell als religiöse Partei
+ist es kein Freund des Frauenstimmrechts: „Das Weib schweige in der
+Gemeinde“. Praktisch wird vielleicht mit seiner Hilfe einmal das Stimm-
+recht erobert, wenn es nämlich durch große Stimmverluste einmal neue
+Wählermassen braucht, um sich zu rekrutieren. Sehr möglich, daß dann
+praktische Bedenken die theoretischen aus dem Felde schlagen und es
+frauenstimmrechtfreundlich wird. Aber stützen wollen wir uns doch lieber
+nicht auf seine beweglichen Schultern!
+Nationalliberale. Rechter Flügel geht mit den Konservativen.
+Fräulein Hielscher berichtet darüber:
+„Sechs Antworten von Nationalliberalen unterscheiden sich nicht
+wesentlich von denen der Konservativen.“
+Linker Flügel, etwas hoffnungsvoller nach Bassermanns Rede im
+Februar, worin er in der Frauenbewegung ein Stück neuer Zeit sieht, und sagt:
+„Es würde sehr falsch sein, wenn der Staat vor solcher Ent-
+wickelung die Augen schließen würde und es versäumte, rechtzeitig auch
+für die Gesetzgebung und Verwaltung die vollen Konsequenzen zu ziehen.“
+Es bleiben nun noch die Linksparteien, von denen die fort-
+schrittliche Volkspartei leider immer noch nicht so weit ge-
+kommen ist, unsere Forderung in ihr Programm aufzunehmen.
+Persönlich bekennen sich viele ihrer Mitglieder zum Frauenstimmrecht,
+u.a. unser früherer Abgeordneter Herr Hormann, Dr. Heinz Potthoff
+und der leider zu früh verstorbene Theodor Barth, der schon vor Gründung
+der demokratischen Vereinigung den Standpunkt vertrat, daß ein all-
+gemeines Wahlrecht logischerweise auch das Frauenstimmrecht
+einschließen müsse.
+Ganz und voll treten für uns ein die leider politisch einflußlose
+demokratische Vereinigung und die Sozialdemokratie, deren Ver-
+treter Frank zu Anfang dieser Session dies ebenso im deutschen Reichstag zum
+Ausdruck brachte, wie sein Genosse Fleißner am 5. März in der sächsischen
+Kammer. Fleißner forderte das Frauenstimmrecht auf Grund der Leistungen
+der Frau in Haus und Familie, in der sozialen Arbeit und der Kommune,
+im Hinblick auf die erwerbstätigen Frauen, die Hausfrauen und Mütter
+zum Wohl des Ganzen.
+Jn England traten nach Ablehnung der Conciliation-Bill vor
+wenig Wochen die Sozialisten Mac Donald, Henderson und Crook
+warm für die Rechte der Frauen ein, allerdings, wie Crook hervor-
+hebt: „für ein Stimmrecht für jede oder keine Frau“. – Und
+in Schweden sehen die Frauen jetzt, wo die Regierungsvorlage für
+Frauenstimmrecht vorliegt, hoffend auf die Sozialdemokraten und Liberalen,
+bangend auf die Konservativen in ihren beiden Kammern. – Jm deutschen
+Reichstag hat neuerdings die Sozialdemokratie wieder einen Jnitiativ-
+antrag auf Einführung des Frauenstimmrechts gestellt, dessen Beratung
+den Standpunkt der verschiedenen Parteien klar ergeben wird.
+Wir sehen also bei unserer Heerschau über die Männerparteien,
+von denen uns einmal Hilfe kommen soll, klar eins: Rechnen können
+wir nur mit der Linken. Jch möchte Jhnen an dieser Stelle warm die
+Broschüre von Dr. Potthoff: „Frauenstimmrecht und allgemeines
+Wahlrecht“ empfehlen. Klar hebt er hervor, daß nur die Männer
+und Parteien, die auch für ein gerechtes Männerwahlrecht eintreten,
+logischerweise die Forderung des Frauenwahlrechts unterstützen können,
+weil nur aus dem Selbstbestimmungsrecht des Volkes, nur aus der
+Notwendigkeit der Anteilnahme jedes einzelnen Volksgenossen an dem
+Schicksal seines Volkes und Staates das Frauenstimmrecht abgeleitet
+werden kann. Damit aber erweist sich unsere Forderung als eine absolut
+demokratische. Nur als solche kann sie begriffen und begründet werden;
+eine konservative Befürwortung des Frauenstimmrechts wäre ein Wider-
+spruch in sich selbst. Und eine „Neutralität“ unseres Verbandes, die
+das absolut Fortschrittliche unserer Bewegung übersieht, wäre unser
+eigenes Todesurteil!
+Das Frauenstimmrecht wollen können nur die Männer, die
+auch kein anderes Wahlunrecht wollen. Wer der Frau die gleichen
+Bürgerrechte zubilligt wie dem Mann, der muß auch dem Bürger die
+gleichen Rechte zubilligen wie dem Adligen, dem Arbeitgeber wie dem
+Arbeitnehmer, dem Steuerzahler wie dem Steuerfreien. Wer den poli-
+tischen Unterschied zwischen den Geschlechtern nicht dulden will, der kann
+auch keinen Unterschied des Standes und Reichtums oder der Bildung
+aufrecht erhalten wollen. Mit andern Worten: Eintreten für Frauen-
+stimmrecht und allgemeines, gleiches Wahlrecht sind logisch unzertrennlich
+miteinander verbunden!
+Jch fasse also noch einmal zusammen:
+Aus dem linken Flügel der Frauenbewegung erwachsen, mit dem
+Charakter einer Kampforganisation für ein absolut fortschrittliches Ziel,
+auf die Unterstützung der Linksparteien angewiesen, kann unsere Be-
+wegung ihre sogenannte „Neutralität“ niemals als Farblosigkeit begreifen,
+ohne sich selbst zu verleugnen. Sie ist nur aufzufassen als ein „über
+den Frauen- und Männerparteien stehen“ in dem Sinne, daß der
+Verband als solcher sich mit keiner Partei identifiziert, sich keiner an-
+schließt, sondern sich allen gegenüber seine Selbständigkeit wahrt. –
+Daß er mit einer oder der andern Partei gewisse Programmpunkte
+gemeinsam hat, berührt seine Unabhängigkeit in keiner Weise. Vor
+allem gilt dies für ethische und sittliche Forderungen, für Forderungen
+reiner Menschlichkeit und Gerechtigkeit. Eine solche ist aber die Forderung
+des allgemeinen, gleichen, geheimen und direkten Wahlrechts, und als
+solche hat unser Verband sie zu seinem Grundprinzip gemacht. Teilen
+politische Parteien diesen Standpunkt, so dient ihnen das zur Ehre,
+aber niemals wird dadurch diese Forderung menschlicher Gerechtigkeit
+eingeengt zur parteipolitischen Forderung.
+Wenn wir dies, unser Grundprinzip, nun so fassen, dann frage
+ich Sie: warum können konservative und nationalliberale Frauen sich
+nicht mit uns einen auf dem Boden einer menschlich gerechten Sache?
+Wenn ihnen wirklich die Rechte des ganzen Frauengeschlechts höher
+stehen als das eigene Klasseninteresse, dann müßten sie's können, meine
+ich. Katholische Frauen haben es gekonnt: Frau Regine Deutsch be-
+richtete auf unsrer Hamburger Generalversammlung, daß sie in Aachen
+klar und deutlich über den § 3 gesprochen habe, und die katholischen
+Frauen in ihm kein Hindernis gesehen hätten, sich dem Verband anzu-
+schließen.
+Auch das Zeugnis eines Mannes möchte ich noch anführen, den
+gewiß keiner liberaler oder gar sozialistischer Parteipolitik verdächtig
+zeihen wird:
+„Das allgemeine Wahlrecht ist uns gewissermaßen
+überkommen als Erbe der deutschen Einheitsbestrebungen.
+Wir haben es in der Reichsverfassung gehabt, wir haben es im
+Jahre 1863 den damaligen Bestrebungen Oesterreichs in Frankfurt
+entgegengesetzt, und ich kann nur sagen: ich kenne kein besseres
+Wahlgesetz.“
+Diese Worte sprach – Bismarck, als er im Norddeutschen
+Bund das allgemeine gleiche Wahlrecht einführte, und noch in seinen
+Lebenserinnerungen sagt er:
+„Außerdem halte ich auch heute noch das allgemeine Wahlrecht
+nicht nur theoretisch, sondern auch praktisch für ein berechtigtes
+Prinzip.“
+Und mit ihm teilte diese Ansicht der ebenso konservative Moltke,
+der nicht nur für das allgemeine, gleiche, direkte, sondern auch für das
+geheime Wahlrecht eintrat.
+Einen bessern Beweis dafür, daß das allgemeine, gleiche Wahlrecht
+nicht Partei-, sondern Gerechtigkeitsforderung ist, als das Zeugnis dieser
+beiden hochkonservativen Staatsmänner brauche ich Jhnen nicht zu er-
+bringen. Und darin liegt zugleich der Beweis, daß die beiden Ab-
+sätze unseres Paragraphen nicht im Widerspruch miteinander
+stehen.
+Um Jhnen meinen dritten Leitsatz beweisen zu können, daß ohne
+allgemeines, gleiches, geheimes und direktes Wahlrecht ein
+Frauenstimmrecht in des Wortes wahrer Bedeutung, also ein
+Mitbestimmungsrecht an den Gesetzen und Geschicken des
+Staates für die Frauen aller Klassen und Stände unmöglich
+ist, muß ich Sie bitten, sich mit mir die verschiedenen Wahlrechtsformen
+einmal anzusehen. Nicht, als ob ich Sie durch all die verschiedenen
+Wahlrechte und Unrechte unserer lieben deutschen Bundesstaaten führen
+wollte: nur die hauptsächlichsten Typen möchte ich Jhnen kurz skizzieren
+und daran anknüpfend mit Jhnen feststellen, was dabei für die Frauen
+herauskommt.
+Vom prinzipiellen Standpunkt aus gibt es eigentlich nur zwei
+Wahlsysteme: Ein allgemeines, gleiches, das jedem Bürger, soweit er
+überhaupt im Besitz seiner fünf Sinne und kein Verbrecher ist, das
+Recht der Mitbestimmung zuerkennt, – das also logischerweise auch
+uns Frauen einschließen müßte, da man sich ja allmählich zu der Er-
+kenntnis durchgerungen hat, daß wir nicht nur eine „lebendige Seele“,
+sondern auch einen ganz normalen Verstand haben. Beides wurde
+bekanntlich früher bezweifelt.
+Dem allgemeinen, gleichen Wahlgesetz steht gegenüber das beschränkte
+ungleiche, das nur die geeignetsten und besten Vertreter der Volks-
+gesamtheit auswählen will. Das klingt ja nun sehr schön, – aber
+wo ist die unfehlbare Jnstanz, die diese Auswahl trifft?!
+Wer steht so hoch über allem Menschlichen, wer hat den weltumspannenden
+Blick, der alles, das ganze reiche Leben in all seinen verschiedenen
+Formen umfassen könnte? Wer ist so wenig Partei, um hier eine wirklich
+gerechte Auswahl treffen zu können?!
+Jn Wirklichkeit haben wir in unserm Vaterland fast ebensoviel
+Wahlrechte wie Staaten, durch die verschiedenen Abstufungen der er-
+wähnten beiden Systeme.
+So hat Preußen ein Dreiklassenwahlrecht, das an den Besitz ge-
+bunden ist. Die Wahl ist allgemein, ungleich, öffentlich, indirekt. Die
+Staatsbürger eines jeden Wahlkreises zerfallen je nach der Steuerleistung
+in: Wähler erster Klasse: die Besitzenden, Höchstbesteuerten,
+Wähler zweiter Klasse: der Mittelstand,
+Wähler dritter Klasse: die Mindestbesteuerten und die Steuerfreien.
+Jede dieser Klassen hat rund ⅓ der Gesamtsteuersumme aufzubringen.
+Es ist klar, daß zehn Leute erster Klasse mit Leichtigkeit eine Summe
+ausbringen können, zu deren Erbringung 600 Leute dritter Klasse oft
+nicht in der Lage sind. Das bedeutet aber für die politischen Rechte,
+das zehn Wähler erster Klasse ebensoviel Rechte haben als sechshundert
+Wähler dritter Klasse. Ungefähr stimmt dies mit den Verhältnissen der
+Stadt Charlottenburg, wo ein Erster-Klasse-Wähler 56 mal soviel Wahl-
+recht hat als ein Dritter-Klasse-Wähler. Jn großen Jndustriezentren
+mit starker Arbeiterbevölkerung auf der einen, Finanzgrößen auf der
+andern Seite, verschieben sich diese Zahlen noch mehr zu ungunsten der
+dritten Klasse, ebenso wie im gelobten Lande der Agrarier. Jn Preußen
+wählen 82% der Gesamtbevölkerung in der dritten Klasse.
+Da die Wahlen öffentlich sind, ist natürlich die Wahlfreiheit der
+kleinen Beamten und Arbeitnehmer nur ein sehr zweifelhafter Begriff;
+da sie indirekt sind – die Wähler wählen Wahlmänner und diese erst
+den Kandidaten –, ist der Einfluß des einzelnen Wählers auf die
+Wahl eines bestimmten von ihm gewünschten Kandidaten ein unsicherer.
+Was käme nun bei diesem Wahlgesetz für die Frauen heraus?
+Jch beziehe mich in folgendem auf Feststellungen von Frau Tony Breit-
+scheid in ihrer Broschüre: „Die Notwendigkeit der Forderung des all-
+gemeinen gleichen, geheimen und direkten Wahlrechts“. Danach waren
+von den 8 ½ Millionen erwerbstätiger Frauen im Deutschen Reich
+im Jahre 1910 in leitenden Stellungen rund 1½ Millionen, also ⅙
+während rund 7 Millionen in schlecht und mäßig besoldeten Stellen
+arbeiteten. Diese letzteren ⅚ würden also von vornherein in
+die so gut wie einflußlose dritte Wählerklasse kommen, und
+auch das eine Sechstel in leitenden Stellen würde bei der doppelten
+Bezahlung von Mann und Frau von seinem Niveau heruntergedrückt
+werden und dem besser situierten Manne gegenüber im Rückstande sein.
+Ebenso die berufslosen Ehefrauen. Da ihre Einnahmen,
+selbst da, wo sie eigenes Vermögen haben, nicht selbständig versteuert
+werden, – nicht einmal da, wo sie durch Ehevertrag sich ihr Vor-
+behaltsgut gesichert haben –, fallen auch sie der dritten Klasse anheim.
+Mit andern Worten: Sowohl erwerbstätige wie Ehefrauen, also das
+Gros der Frauen überhaupt, würden nur die Zahl der politisch Einfluß-
+losen vermehren. Nur einige begüterte, selbständige unverheiratete Frauen
+oder Witwen würden eine Stimme erhalten, die nicht nur auf dem
+Papier steht.
+Das ist zweifellos kein erstrebenswertes Ziel für die
+Frauen!
+Bismarck nennt dies Wahlsystem „das elendeste und wider-
+sinnigste Wahlgesetz, das je in irgend einem Staate ausgedacht worden
+ist!“ Naumann nennt es ein unanständiges Wahlrecht.
+Wollen wir Frauen für ein solches Wahlgesetz stimmen?! Oder
+haben wir Solidaritätsgefühl genug, um den preußischen Landesverein,
+der doch auch einen Teil unseres Verbandes ausmacht, in seinem Kampf
+gegen dies Wahlsystem zu unterstützen?
+Ein anderer Wahlrechtsmodus, für den nationalliberale Elemente viel-
+fach eintreten und der z. B. im Königreich Sachsen seit 1909 das Dreiklassen-
+wahlrecht abgelöst hat, ist das Pluralwahlrecht. Je nach Besitz, Alter
+und Bildung bekommt der Staatsbürger eine zweite und dritte Stimme.
+Die Schäden des an den Besitz geknüpften Wahlrechts sind Jhnen soeben
+vor Augen geführt. Gerechter erscheinen auf den ersten Blick die beiden
+anderen Voraussetzungen. Größere Reife – das scheint nicht so unbillig.
+Aber auch hier ist zu berücksichtigen, daß eine starke Benachteiligung
+der arbeitenden Klasse vorliegt. Ein Arbeiter, der unter ungünstigeren
+Arbeitsbedingungen steht, wie der Besitzende, ist im allgemeinen früher
+aufgebraucht und wird somit schwerer in den Besitz einer Stimme gelangen.
+Bildung aber ist größtenteils auch an den Besitz geknüpft und
+den unteren Klassen schwerer zugänglich. – Außerdem:garantiert der
+Besuch einer höheren Schule ohne weiteres größere politische
+Reife? Hat nicht häufig ein Arbeiter, ein Angestellter, den sein Beruf
+mitten hineinstellt ins Leben, in die praktische Arbeit, in die unmittelbare
+Berührung mit tausend sozialen Problemen, mehr Verständnis für das
+Jnteresse der Allgemeinheit, als der frühere Korpsstudent, der Sohn
+wohlhabender Eltern, der des Lebens Not nie am eigenen Leibe erfahren,
+der oft nur sich, seinen studentischen und Fach-Jnteressen, seinen Jugend-
+freuden gelebt hat?
+Und was bringt das Pluralwahlrecht den Frauen?
+Rechtlosigkeit und starke Benachteiligung den Männern
+gegenüber mit Rücksicht auf die schlechtere Entlohnung weiblicher Arbeits-
+leistung, mit Rücksicht auch auf die im Durchschnitt tieferstehende, jedenfalls
+geringer gewertete Bildung. Das Mädchenschulwesen gehört heute noch,
+soweit es nicht Gymnasien und Realgymnasien umfaßt, zum niederen
+Unterrichtswesen. Wie viel Frauen haben denn im Verhältnis zu den
+Männern heute ihr Abiturium gemacht und auf Universitäten eine dem
+Manne gleichwertige Bildung sich erworben? – Wir sehen also auch
+hier eine starke Verschiebung zu ungunsten der Frau gegenüber dem
+Manne sowohl, als zu ungunsten der Frau der unteren Schichten gegen-
+über ihrer glücklicher situierten Schwester.
+Dasselbe gilt von unserm Bremer Wahlrecht. Den 75 000
+Reichstagswählern in Bremen stehen nur 20 000 Wähler zur Bürgerschaft
+gegenüber. Unser hiesiges Wahlsystem ist ein allgemeines, ungleiches,
+geheimes und direktes; es ist gebunden teils an den Stand, Besitz und
+Beruf, teils an den Wohnort. Unter diesem System würde die Frau
+in der ersten Klasse nur geringen, in der zweiten und dritten Klasse
+gar keinen Einfluß haben. Die überwiegende Mehrheit würde der
+vierten Klasse zugeteilt werden.
+So könnte ich Jhnen an all den Abstufungen des beschränkten
+ungleichen Wahlrechts immer dasselbe nachweisen: einmal die starke
+Benachteiligung der Frau im Verhältnis zum Mann, zweitens
+die der unteren Klassen im Verhältnis zu den besitzenden.
+Und nun frage ich: Was nützt der Frau ein an Besitz und
+Bildung geknüpftes Wahlrecht, solange die wirtschaftliche Lage der
+Frau eine so viel schlechtere ist als die des Mannes?
+Was nützt es den Ehefrauen, deren selbständiges Einkommen in
+den Steuerlisten – und die Steuerliste ist die Basis der Wählerliste –
+immer dem Mann als Einkommen angerechnet wird?! Was nützt es
+den erwerbstätigen Frauen, deren Hauptkontingent die Lohnarbeiterinnen
+bilden? Was den Haustöchtern, die ohne selbständiges Einkommen mit
+den Eltern zusammenleben? Was den Witwen hoher Staatsbeamten,
+die ohne eigenes Vermögen nur auf ihre geringe Witwenpension an-
+gewiesen sind?
+Jch greife diese beiden letzten Typen mit Absicht heraus, um
+Jhnen zu zeigen, daß auch konservative Frauen schon aus rein egoistischen
+Gründen gegen jedes beschränkte Wahlrecht Front machen müßten, wenn
+sie sich einen etwas tiefern Einblick in unsere politischen Verhältnisse
+verschaffen würden. – Allen diesen Frauen ist doch wahrlich nicht damit
+gedient, am Wahltag einenStimmzettel ohne praktische Bedeutung
+abzugeben! Es gibt aber keinen andern Weg, allen Frauen
+wirkliche Staatsbürgerrechte zu sichern, als die Ausdehnung
+des allgemeinen, gleichen, geheimen und direkten Wahlrechts
+auch auf die Frauen. Jede fünfundzwanzigjährige Frau ohne
+Unterschied des Standes, der Bildung, des Besitzes erhielte
+damit das aktive, jede dreißigjährige auch das passive Wahl-
+recht, die Fürstin wie die Fabrikarbeiterin, die reiche Gutsbesitzersfrau wie
+die arme Landarbeiterin, die Verheiratete wie die Ledige, die Steuerzahlerin
+wie die Steuerfreie. Und nicht nur den Frauen selbst, auch dem Staats-
+haushalt käme diese Mannigfaltigkeit zugute, weil jede Frau die im
+eigenen Haushalt gesammelten Erfahrungen und gewonnenen
+Werte seinem Jnteresse dienstbar machen könnte: die Frau, die
+einen großen Betrieb zu leiten hat, ihre größere Übersicht, ihre Dispositions-
+fähigkeit; die Arbeiterfrau, die täglich die schwere Kunst üben muß, mit
+wenigen Groschen hauszuhalten, ihre Sparsamkeit, ihre Einteilsamkeit.
+Nun könnten Sie mir erwidern, daß auch das Reichstagswahlrecht
+nach Aussage urteilsfähiger Leute seine Mängel hat, und daß ein Pro-
+portionalwahlrecht anerkanntermaßen doch weit besser sein soll, indem es
+Minoritäten Gelegenheit gibt, Kandidaten durchzubringen, und eine ge-
+rechtere Wahlkreiseinteilung vorsieht. Darauf könnte ich Jhnen dann
+zur Ehre des Reichstagswahlrechts entgegnen, daß der jüngst verstorbene
+Abgeordnete Albert Traeger, laut des ihm von der Weserzeitung gewid-
+meten Nachrufes, es für „das einzig gerechte und bei der Unvoll-
+kommenheit aller menschlichen Dinge für das vollkommenste
+Wahlrecht“ erklärt hat. Sicherlich bedeutet das Proportionalwahlrecht
+noch einen Schritt über das Reichstagswahlrecht hinaus – aber selbst-
+verständlich doch nur dann, wenn es sich auf dem allgemeinen,
+gleichen, geheimen und direkten Wahlrecht aufbaut, es also
+zur Grundlage hat, wie das z. B. jetzt schon für Staat und Ge-
+meinden in Württemberg der Fall ist. Die Frauen sollten sich einmal
+näher mit diesem Wahlrecht beschäftigen, da es ihnen vielleicht einmal
+am ersten dazu verhilft, gewählt zu werden. Und unser Verband
+legt sich ganz gewiß nicht in dem Sinne auf das Reichstags-
+wahlrecht fest, daß er nicht jeden Ausbau, jedes über sich selbst
+Hinauswachsen dieses unseres Grundprinzips mit Freuden
+begrüßte. Was er nicht unterstützen kann und darf, ist jede Ver-
+schlechterung, ist jedes Wahlsystem, das nicht alle Frauen berücksichtigt.
+Staatsbürgerrechte an alle Frauen verleiht aber momentan nur das all-
+gemeine, gleiche oder ein auf ihm errichtetes Wahlsystem.
+Nun weiß ich sehr wohl, daß eine Anzahl von Frauen denkt, es
+sei ein kürzerer Weg, erst einmal irgend ein Wahlrecht zu erkämpfen.
+Wenn dann erst einige Frauen politischen Einfluß haben, sollen die für
+die andern eintreten oder im Verein mit den Männern Wahlgesetze
+schaffen, die allen ihre Rechte gewährleisten. Hiergegen ist zu bemerken:
+einmal sollten Frauen, die in der Selbständigkeit ihres Geschlechtes das
+am meisten erstrebenswerte Ziel sehen, sich nicht damit begnügen, nun
+für ihre Geschlechtsgenossinnen Vorsehung spielen zu wollen, sondern
+sie müßten an den sittlichen Werten des Selbsterringens,
+der Freude am Sieg allen ihren Anteil zubilligen.
+Und dann ist es zum mindesten zweifelhaft, ob „der schmale Steg,
+über den“, wie Frau Vogt einmal sehr richtig bemerkt, „nur wenige
+balanzieren können“, wirklich so viel schneller zum Ziel führt. Das Ziel
+bleibt doch die Beteiligung aller Frauen am politischen Leben.
+Ob die wenigen, sehr begüterten, unverheirateten Frauen gerade die sind,
+die der großen Menge der Rechtlosen gerecht werden und zum Sieg
+verhelfen, ist sehr fraglich. Naturgemäß werden sie ins Parteileben
+hineingezogen, der Klassenkampf wird sie mehr berühren wie bisher, und
+daß dann ihr Solidaritätsgefühl mit der proletarischen Frau z. B. da,
+wo es überhaupt vorhanden ist, erdrückt werden wird, ist eine jedenfalls
+ernst zu nehmende Gefahr. Auch bedeuten die paar Frauen, die auf
+diese Weise ins Parlament kommen, für die Gesamtheit herzlich wenig.
+Der „kürzere Weg“ ist also, abgesehen von den Gefahren, die er
+in sich birgt, nur ein kürzerer Weg für wenige Bevorrechtete, für die,
+deren Lage schon an sich die bessere ist – für die vielen, die vor-
+erst jenseits stehen bleiben müssen, kann er einen langen,
+dornenvollen Umweg bedeuten. Dies sollten alle die Frauen
+bedenken, die uns immer wieder darauf hinweisen, daß man ein Ziel
+nicht in einem Sprung, sondern in Etappen erreichen müsse, und daß
+wir, da wir sicherlich erst das kommunale Wahlrecht erhielten, das fast
+überall ein beschränktes sei, es durch unsere Forderung den Männern
+erschwerten, uns überhaupt am Wahlrecht zu beteiligen. Wie gesagt,
+bleibt als Ziel das bestehen, was ja auch der hessische Antrag noch als
+Ziel hinstellt: die Betätigung aller Frauen am politischen Leben, so ist
+es zum mindesten zweifelhaft, ob wir uns mit diesen Etappen eines
+beschränkten Wahlsystems überhaupt auf dem richtigen, direkten Weg zum
+Ziel befinden. Nur wenn die Etappe zum Ziel wird, stimmt die
+Rechnung. Auch der Hinweis auf andere Länder taugt uns hier nicht.
+Jedes Land hat seine besondern Verhältnisse, untersteht andern Gesetzen
+politischer Entwickelung. Jn Finnland haben die Frauen ihre Staats-
+bürgerrechte auf andere Weise erlangt, als die englischen Frauen sie
+erkämpfen werden, im Staate Wyoming anders, als in Norwegen,
+Schweden und Dänemark.
+Gerade der so sehr beliebte Hinweis auf England, wo die
+Frauen bekanntlich bis zum Auftauchen der neuen Regierungsvorlage,
+die ein allgemeines, gleiches Männerwahlrecht in Aussicht
+stellt, für ein beschränktes Wahlrecht eintraten, ist mir ganz unverständlich.
+Auch nur einigermaßen politisch geschulte Menschen, die die englischen
+Verhältnisse oberflächlich kennen, können damit gar nicht ernstlich irgend-
+welche Rückschlüsse auf unsre deutschen Verhältnisse rechtfertigen. Ebenso
+verschieden wie die Kampfesweise der deutschen und englischen
+Frauen ist und bleiben wird, ebenso verschieden sind auch die
+politischen Verhältnisse beider Länder. Auf deutsche Verhältnisse
+übertragen, würde beispielsweise die Taktik der englischen Suffragettes,
+die gegen ihre Regierung den Krieg bis aufs Messer führen, um sie zu
+schwächen, nichts anderes bedeuten als ein rücksichtsloses Eintreten des
+deutschen Stimmrechtsverbandes für die Sozialdemokratie in allen
+Stichwahlen.
+Für uns deutsche Frauen ist die Kampfesweise der englischen
+Suffragettes, vor deren Heroismus und Opferwilligkeit wir die größte
+Hochachtung haben, überhaupt nur zu verstehen aus der genauen Kenntnis
+der politischen Verhältnisse, der politischen Bräuche in England. Und
+ebensowenig, wie wir nun kritiklos diese Kampfmethode als vorbildlich
+auch für uns hinnehmen, können wir die bisherige Wahlrechtsforderung
+der englischen Frauen als auch für unser Vaterland geeignet ansehen.
+Wenn je so gilt hier das Sprichwort: „Eines schickt sich nicht für alle“,
+so grundverschieden sind beide Länder.
+Jn England, einem parlamentarisch liberal regierten Land mit
+voller Ministerverantwortlichkeit dem Volk gegenüber, das aber noch kein
+allgemeines Wahlrecht hat, ist nach Aussage seiner politisch orientierten
+Männer und Frauen momentan die &gt;eine brennende Frage, die im
+Mittelpunkt der inneren Politik steht, die Frage des Frauenstimmrechts.
+Jhre Anhänger und Gegner sind nicht nach Parteien geschieden, sondern
+in den beiden großen Parteien, der konservativen wie der liberalen,
+sind Freunde und Feinde zu finden, während die Arbeiterpartei wohl
+ziemlich geschlossen das Frauenstimmrecht unterstützt.
+Jn England kämpfen außerdem die Frauen für etwas, was sie
+schon einmal besessen haben.
+Paßt irgendeiner dieser Punkte für unser deutsches Vater-
+land? Jch wüßte keinen. Auch der größte Optimist wird nicht be-
+haupten können, daß bei uns das Frauenstimmrecht die Frage ist, um
+die sich alles dreht! Bei uns fand die im Verhältnis zu England noch
+so junge und ungeschulte politische Frauenbewegung ganz andere gegebene
+Verhältnisse vor, mit denen sie zu rechnen hatte. Und noch einmal
+möchte ich betonen, daß ein politisch geschulter Mensch unmöglich
+auf den Gedanken verfallen kann, englische Forderungen und
+Methoden als mustergiltig und nachahmenswert für Deutschland
+hinzustellen.
+Kein Mensch kann heute mit Sicherheit sagen, welchen
+Weg die Entwicklung in unserm Vaterlande nehmen wird. Für
+den deutschen Reichstag, so nehme ich an, wird wohl keine in irgendeinem
+Stimmrechtsverband organisierte Frau ein anderes Wahlrecht als er-
+strebenswertes Ziel ansehen als das allgemeine, gleiche. Sie würde ja
+sonst an den Grundlagen unserer Verfassung rütteln, die bekanntlich auf
+diesem Wahlsystem beruht; sie würde sich damit als revolutionär
+dokumentieren, – ein Verdacht, den gerade die Frauen, um die es sich
+hier handelt, am allerwenigsten werden auf sich nehmen wollen. Nun
+hat man es uns als Zeichen von Jnkonsequenz und Schwäche ausgelegt,
+wenn wir überhaupt ein beschränktes Wahlrecht nehmen würden, im
+Falle es uns geboten wird. Auf der andern Seite hat man behauptet,
+wir seien viel zu fanatisch, um es überhaupt anzunehmen. Zu beidem
+erkläre ich: Natürlich nehmen wir, was uns geboten wird, aber mit
+denselben sehr gemischten Gefühlen, mit denen man eine kleine Abschlags-
+zahlung auf eine große Schuld annimmt.
+Wir sind uns ganz klar darüber, daß eine solche Ab-
+schlagszahlung die Zahlung der Gesamtschuld unter Umständen
+in weite Ferne rückt. Die Forderung selbst aber dürfen wir
+nie auf Grund der Teilzahlung fallen lassen. Denn was durch
+die Teilzahlung erreicht wird, ist kein Frauenstimmrecht, sondern ein Damen-
+wahlrecht. Jst Frauenstimmrecht aber wirklich „eine Forderung der
+Gerechtigkeit“, wie wir's so schön auf unsern Marken und Karten drucken,
+dann doch nur, wenn sich diese Forderung auf alle Frauen erstreckt,
+wenn wir Schulter an Schulter dastehen: „alle für eine, eine für alle“.
+Daß dies aber auf keinem andern Weg sicher zu erreichen ist als auf
+dem des allgemeinen, direkten Wahlrechts, erhellt aus dem
+Gesagten.
+Auf Grund der so gewonnenen Erkenntnisse möchte ich Jhnen nun
+zeigen, daß der Deutsche Verband sein Grundprinzip weder preisgeben
+noch verschleiern darf, wenn er sich selbst treu bleiben will.
+Unser Verband ist ein Kampfverband, darüber sind wir uns
+ja wohl alle einig. Er ist kein Debattierklub über ethische, philosophische
+und politische Fragen, als solcher hätte er das Recht, nur in höheren
+Sphären zu leben und mit abstrakten Begriffen zu arbeiten, wie „das
+Stimmrecht an sich“ einer ist. Er ist auch nicht lediglich eine Schule
+für die politische Erziehung der Frauen, auch dann benötigte er keines
+öffentlichen Programms.
+Nein, er will das Stimmrecht für die Frauen erkämpfen,
+und das ist ein sehr reales, auf dem Boden der Wirklichkeit stehendes
+Ziel. Und nur logisch ist's, zu fragen: Welches ist dein Weg?
+Welches Stimmrecht willst du erkämpfen? Und so hat man
+gefragt von rechts und von links laut Fräulein Heymanns Bericht, und
+der Verband hat geantwortet mit dem allgemeinen, gleichen, geheimen
+und direkten Wahlrecht.
+Wir kommen aus Nord und Süd, aus Ost und West, aus sechs-
+undzwanzig Staaten mit beinahe ebensoviel verschiedenen Wahlsystemen.
+Soll nun jede Frau etwa für das spezielle Wahlrecht ihres Staates
+oder Städtchens begeistert werden? Oder bedürfen wir bei der Ver-
+schiedenheit in den politischen Organisationen der Einzelstaaten eines
+starken, einigenden Bandes, das alle umschlingt? „Wahlrecht an sich“
+ist eine leere Abstraktion, mit der niemand einen bestimmten Begriff
+verbinden kann, es schwebt in der Luft. Bismarck fand das einigende
+Band für alle deutschen Länder in der Reichsverfassung, der er in dem
+allgemeinen, gleichen, geheimen und direkten Wahlrecht eine feste Basis
+gab. – So handelte der Deutsche Verband für Frauenstimmrecht schon
+rein äußerlich ganz logisch, indem er die Grundlage der Einigung
+unsres deutschen Vaterlandes auch zu seinem Grundprinzip erhob.
+So gut vor nun bald fünfzig Jahren Männer aller politischen
+Schattierungen. –Sozialdemokraten waren damals bekanntlich noch
+eine ganz kleine Minorität und nicht ausschlaggebend – sich unbedenklich
+auf dies Grundprinzip festlegten, so gut meine ich, könnten auch heute
+alle Frauen unter diesem Zeichen sich einigen, wenn sie nur das Jnter-
+esse der Allgemeinheit über ihre Sonder- und Klasseninteressen
+stellen wollten. Parteipolitik treibt nicht der Verband, der allen Frauen
+die Beteiligung am politischen Leben erkämpfen will, der konservativen
+so gut der Sozialdemokratin, der Zentrumsfrau wie der liberalen.
+Klassenpolitik treiben die Vereine, die sich dieses guten und großen
+Prinzips halber, das allen Parteien gerecht wird, absplitterten vom
+großen Ganzen. „Um auch konservativen und nationalliberalen Frauen
+Gelegenheit zu geben, sich zu organisieren,“ heißt es in der Begründung
+ihres Vorgehens. Nun, ich meine: wenn konservative und liberale
+Frauen nicht zu haben sind da, wo man den gerechten Kampf für alle
+Frauen führt, dann sind sie eben noch nicht reif für die Frauen-
+stimmrechtsidee. Dann sollte man sie aufklären und zum Stimmrecht
+erziehen, anstatt für sie gewissermaßen, wie Frau Vogt es einmal sehr
+treffend bezeichnet, in den Gegenverbänden „Asyle für Obdachlose zu
+gründen und durch Zersplitterung die nationale Organisation zu schädigen“.
+Die Organisationen sind doch nicht Selbstzweck, sondern
+lediglich Mittel zum Zweck.
+Es kommt gar nicht darauf an, alle Frauen zu sammeln, sondern
+für alle Frauen das Stimmrecht zu erkämpfen. Wir sind
+nicht ein Verband von Frauenstimmrechtlerinnen, sondern ein
+Verband für Frauenstimmrecht. Unsere große Liebe, unsere
+Arbeit geben wir dem Ziel, – und der Organisation nur insoweit,
+als sie diesem Ziele zustrebt, als sie ihm dient –, das sollte man wohl
+unterscheiden, wenn mit Angst und Sorge auf das Anwachsen der Gegen-
+verbände hingewiesen wird. Natürlich freuen wir uns über jeden, der
+sich im Kampf uns zur Seite stellt, natürlich ist ein Anwachsen unserer
+Mitglieder im Jnteresse der Sache warm zu begrüßen, aber doch nur
+dann, wenn die Mitkämpfenden uns nicht von dem einmal eingeschlagenen
+Wege zurückbringen wollen, sondern Schulter an Schulter mit uns in
+den gerechten Kampf hineinziehen.
+Ein Kampfverband sind wir fürs Stimmrecht
+der Frauen,
+und als solcher haben wir unsre gegebene Marschroute, die von erprobten
+Führerinnen vorgeschrieben, vor unsrer eignen Prüfung nach bestem
+Wissen und Gewissen der sicherste Weg für uns ist. Unsere Fahne trägt
+die Jnschrift: „Gerechtigkeit erhöhet ein Volk“. Solange der
+Verband unter dieser Devise kämpft, kann er nur ein Wahlrecht erstreben,
+das keine, auch nicht die geringste Frau ausschließt von dem Sieges-
+preis, ein Wahlrecht, das jeder Frau, jedem Stand Gelegenheit gibt,
+für sich selbst zu stehen, da keiner des andern Vormund fern kann und
+darf. Wie stünde es sonst um die Gerechtigkeit des Verbandes den
+Männerngegenüber, denen wir stets ihre Bevormundung der Frau
+als größte Sünde vorgehalten haben? Können wir billigerweise ihnen
+noch den geringsten Vorwurf machen aus unserer Entrechtung, wenn wir
+nicht von vornherein Protest erheben gegen jede Entrechtung, jede
+Bevormundung der Frau durch die Frau!
+Kann der Verband zur Tagesordnung übergehen über all die
+Hausfrauen und Mütter, denen nur durch das allgemeine, gleiche Wahl-
+system ihre Staatsbürgerrechte gesichert werden? Über die 10 Millionen
+erwerbstätiger Frauen, auf deren Arbeitsleistung hin uns höchst wahr-
+scheinlich einmal unser Recht verliehen wird, die uns jedenfalls den Boden
+bereiten, wie niemand anders? Als in London bei der Tagung des
+Weltbundes der Zug der erwerbstätigen Frauen unter den Klängen der
+Orgel die Albert Hall betrat, sagte die Präsidentin des Weltbundes in
+ihrer Ansprache: „Man fragt uns nach neuen Argumenten für das
+Frauenstimmrecht? Jhr seid das neue Argument, Jhr erwerbstätigen
+Frauen, die Jhr mitarbeitet, mitschafft am Wohlstand der Nationen.“
+Und die erwerbstätigen Frauen waren es, denen wir die
+Aufhebung des Vereinsgesetzes in Preußen zu danken haben.
+Von ihnen mußte im Jahre 1908 vom Ministertisch aus bekannt werden:
+„Wir können diesen Frauen ihre Rechte nicht länger vorenthalten“, nach-
+dem im Jahre 1902 Minister von Hammerstein noch energisch erklärt
+hatte: „Jch will nicht, daß die Frauen politisch werden!“ –Soll es
+von diesen Vorkämpferinnen nachher heißen: „Der Mohr hat seine
+Schuldigkeit getan, der Mohr kann gehen?!“
+Gerade unser Grundprinzip ist es, das diese Frauen in unsere
+Reihen führt. Jch verweise Sie da auf das Zeugnis von Martha Plewe
+in ihrer Broschüre „Die Handelsangestellten und das Frauenstimmrecht“.
+Sie führt aus, daß die Handelsangestellte nicht länger ein Bürger zweiter
+Klasse sein darf, daß sie, wie alle berufstätigen Frauen, das Stimmrecht
+fordern muß, und fährt wörtlich fort: „und zwar ist es die Forderung
+des Deutschen Verbandes für Frauenstimmrecht, die wir unterstützen
+müssen; denn an einem etwa an den Besitz geknüpften Wahlrecht haben
+die berufstätigen Frauen kein Jnteresse“. Auf diese Worte möchte ich
+die Blicke all der persönlichen Anhänger des allgemeinen, gleichen, ge-
+heimen und direkten Wahlrechts hinlenken, die aus taktischen Gründen
+für Streichung des § 3 aus unsern Satzungen stimmen.
+Es ist doch nicht so, daß ein glattes „Mehr“ an Stimmen das
+Ergebnis dieser Taktik sein würde: Ganze Landesvereine, Ortsgruppen,
+Gruppen berufstätiger Frauen und unserer besten Führerinnen eine ganze
+Anzahl stehen und fallen mit dem Paragraphen. Diese Taktik würde
+also eine einfache Verschiebung nach rechts bedeuten. Nationalliberale
+und konservative Frauen würde man gewinnen, obgleich, wenn sie streng
+logisch sein wollen, die neue Fassung ihrer Weltanschauung genau so
+wenig entsprechen dürfte, wie die alte. Vielleicht würde auch der Anschluß
+der Gegenorganisationen erreicht – doch möchte ich diese Frage nach
+allem Vorangegangenen nicht so ohne weiteres bejahen.
+Aber selbst angenommen, es käme dazu, so würde doch nur an
+Stelle der jetzigen Spaltung eine neue treten, die meiner Ansicht nach
+weit einschneidender und tiefgehender wäre, weil sie den innersten Lebens-
+nerv unserer Organisation trifft. Jede Konzession, jedes Zurückgehen
+bedeutet eine Schwächung dessen, der sie macht. Und daß es sich hier
+um Konzessionen an die Gegenorganisationen, an die weiter rechts
+stehenden Frauen handelt, das unterliegt doch wohl keinem Zweifel.
+Die Leidtragenden werden in diesem Fall die fortschrittlichen
+Frauen sein. Jch brauche Sie zum Beweis nur auf die Geschichte des
+Liberalismus hinzuweisen: Konzession auf Konzession waren die Etappen
+auf dem Weg, der langsam aber sicher von der Höhe zur Tiefe führte.
+Gerade jetzt, wo die Reichstagszusammensetzung die denkbar
+günstigste ist, sollte unser Verband, statt das Bild traurigster Zerrissen-
+heit zu bieten, seine Chancen ausnützen, sollte er seine innere Kraft, seine
+Berechtigung dadurch dokumentieren, daß er treu und fest zu seinen
+Satzungen steht. Noch vor wenigen Wochen sprach sich ein bürgerlicher
+Abgeordneter einer unserer Führerinnen in Berlin gegenüber dahin aus,
+daß, wenn der Verband jetzt nachgäbe und seine Forderung fallen ließe,
+er in den Augen aller Politiker zur absoluten Bedeutungslosigkeit
+herabsänke.
+Nun pflegen unsre Gegner als Argument gegen unser Grundprinzip
+die Stellung des Weltbundes
+zur Wahlrechtsfrage geltend zu machen. Jch verweise Sie da auf die
+Broschüre von Mrs. Chapman Catt: „Der Weltbund für Frauenstimm-
+recht“. Da heißt es über die Amsterdamer Tagung 1908 auf Seite 6:
+„Während ein Teil der angeschlossenen Organisationen
+für die Forderung des allgemeinen Wahlrechts eintritt, erklärten
+andere Länder, namentlich England und die Niederlande, daß sie
+zunächst nur für das Frauenstimmrecht zu denselben Bedingungen,
+wie es die Männer ihres Landes haben, eintreten können.
+Schließlich gelangte man in Amsterdam über diese wichtige prinzipielle
+Frage zu einer Art Kompromißresolution, daß man das Stimmrecht
+fordert zu denselben Bedingungen, unter denen es jetzt ausgeübt
+wird oder künftig ausgeübt werden wird.“
+Und auf Seite 8 heißt es dann weiter vom Stockholmer Kongreß 1911:
+„Da die in Amsterdam gefaßte Resolution bezüglich des Wahl-
+rechts „as it is or may be“, in einigen Ländern, die für das allgemeine
+Wahlrecht kämpfen, Schwierigkeiten und Mißverständnisse bei der
+Agitation hervorgerufen hatte, so wurde durch eine neue Resolution
+festgestellt, daß der Weltbund in keiner Weise sich mit der Amster-
+damer Resolution etwa gegen das allgemeine Wahlrecht aussprechen
+wollte, sondern jedem Lande frei steht, für diejenige Form des
+Wahlrechts zu arbeiten, die ihm wünschenswert erscheint. Die
+neue Resolution, die in mehreren Kommissionsberatungen und nach
+Rücksprache mit den Präsidentinnen der angeschlossenen Länder
+festgestellt wurde und einstimmige Annahme fand, hat folgenden
+Wortlaut:
+Es ist zur Kenntnis der Konferenz gelangt, daß der Wort-
+laut der Resolution, welche das Wahlrecht für die Frauen in
+derselben Form fordert, wie die Männer es haben oder erhalten
+werden, Mißverständnisse hervorgerufen hat. Es ist einerseits
+so aufgefaßt worden, als bedeute es eine Gegnerschaft gegen
+das allgemeine Wahlrecht, andererseits, als unterstütze es das
+allgemeine Wahlrecht.
+Jn Anbetracht dieser falschen Auslegung erklärt diese Konferenz,
+daß der Weltbund für Frauenstimmrecht bei keiner Gelegenheit
+Stellung für oder gegen das allgemeine Wahlrecht genommen
+hat und es auch jetzt nicht tun wird, da seine Verfassung es
+klar ausspricht, daß den angeschlossenen Organisationen in den
+Ländern die Entscheidung überlassen bleiben muß, welche Form
+des Wahlrechts sie zu jeder gegebenen Zeit fordern wollen.
+Der Weltbund für Frauenstimmrecht äußert keine Meinung,
+welche Art von Wahlrecht die Frauen fordern sollen. Sein
+einziger Zweck ist, den Grundsatz zu verfechten, daß das Geschlecht
+kein Grund sein darf, den Frauen das Wahlrecht vorzuenthalten.“
+Aus diesen Worten geht klar und deutlich zweierlei hervor: erstens,
+daß der Weltbund als Repräsentant der ganzen Stimmrechtsbewegung,
+als Zusammenfassung aller Kämpferscharen nicht Stellung nehmen will
+und kann zu irgend einer Wahlrechtsforderung. Er kann lediglich „das
+Stimmrecht“ fordern, als Überorganisation, die nicht selbst im Feuer steht.
+Zum zweiten aber besagt seine Resolution ebenso klar, daß er
+von den ihm untergeordneten Kampforganisationen in den verschiedenen
+Ländern, die die Realität verkörpern und den Kampf auszufechten haben,
+eine vorgezeichnete Marschroute, ein Bekenntnis zu einer Fahne verlangt:
+„er stellt jedem Lande frei, für diejenige Form des Wahlrechts
+zu arbeiten, die ihm wünschenswert erscheint.“
+Da ist doch mit aller Deutlichkeit ein Eintreten für irgendein System
+als Selbstverständlichkeit vorausgesetzt und ein schwächliches Aus-
+schalten der Wahlrechtsfrage überhaupt gar nicht in Betracht gezogen.
+Nun möchte ich noch einmal fragen:
+Warum all der Kampf?
+Auf die Frage: „warum können denn die rechtsstehenden Frauen nicht
+mit uns Hand in Hand gehen?“ erhält man verblümt die Antwort:
+„das allgemeine, gleiche Wahlrecht widerspricht ihrer ganzen Weltan-
+schauung“. Geht man nun der Sache auf den Grund, so findet man
+des Rätsels Lösung, wie sie mir ein Mitglied des Westdeutschen Verbandes
+einmal unumwunden zugab: „Wir bürgerlichen Frauen können doch nicht
+eintreten für ein Anwachsen der Sozialdemokratie!“
+Nun, abgesehen davon, daß die Sozialdemokratie durch ihre Wahl-
+rechtsforderung ruhig eintritt für den reaktionären Stimmenzuwachs der
+Frauen des Zentrums und der konservativen Partei, ist doch damit glatt
+zugegeben: Frauen wollen Ausnahmegesetze unterstützen für Frauen.
+Frauen, die jahrzehntelang gelitten haben unter Ausnahmegesetzen, wollen
+nun die Schultern derer unter ihren Geschlechtsgenossinnen damit belasten,
+die als die wirtschaftlich Schwachen des Lebens Last doppelt zu tragen haben!
+So bedauerlich es ist, daß die proletarischen Frauen unserer
+Organisation vorläufig noch fern bleiben, vielleicht auch immer fern
+bleiben werden – es ist dies eine offene Frage, die in den „sozialistischen
+Monatsheften“ neuerdings von Wally Zeppler auf sehr interessante Weise
+einmal angeschnitten ist –, so entbindet das in meinen Augen wenigstens
+unsern Verband keineswegs seiner vornehmsten Pflicht: einzu-
+treten für alle Frauen, vor allem für die, die dessen am
+meisten bedürfen.
+Wenn konservative und nationalliberale Frauen in ihrer Welt-
+anschauung wirklich ein unüberwindliches Hindernis für den Beitritt zu
+unserm Verband erblicken, so soll man es doch ruhig mit ansehen, wenn
+sie sich anderswo organisieren. Jch kann darin gar kein so ungeheuer
+großes Unglück sehen; sie werden politisch erzogen und interessiert, das
+ist kein Fehler. Man sollte von unsrer Seite alles versuchen, diese
+Gegenverbände sich dadurch zu Freunden zu machen, daß man das von
+Fräulein Lischnewska angeregte Kartellverhältnis möglichst schnell in die
+Wege leitet. Wo sich die Kreise berühren, und das wird ja öfters der
+Fall sein, könnte man dann Hand in Hand gehen, ohne daß einer seine
+Überzeugung preisgeben müßte.
+Lehnt die Gegenorganisation dies Entgegenkommen ab, dann aller-
+dings müßten wir meiner Überzeugung nach den Kampf aufnehmen.
+Ein gerechter Kampf hat noch niemandem geschadet, er macht mutig
+und stark, er gibt Frische, Freude und inneren Halt, das wissen wir
+doch alle, die wir im heißen Kampf für unsere Überzeugung gestanden
+haben. Das können wir denen nicht eindringlich genug sagen,
+die an Stelle eines ehrlichen Kampfes eine schwächliche
+Kapitulation befürworten.
+Man hat nun letzthin in Berlin und auch früher in Hamburg
+schon versucht, uns, die wir an unsern Satzungen festhalten, den Rückzug
+so leicht wie möglich zu machen. Man gab sich alle Mühe, die rück-
+schrittliche Sache mit einem fortschrittlichen Mäntelchen zu drapieren, und
+erklärte die von Hessen gewünschte Fassung für „viel weitergehend“, als
+die Forderung des allgemeinen, gleichen Wahlrechts. Sollten konservative
+und nationalliberale Frauen trotz ihrer Weltanschauung für eine noch
+viel weitergehende Forderung zu haben sein?!
+Unbedingt muß zugegeben werden, daß „volle Staatsbürgerrechte
+für alle Frauen“ nur auf dem Wege des allgemeinen Wahlrechts
+erobert werden können. Träten wir heute zuerst mit einem Programm
+an die Öffentlichkeit, so könnten wir unsere Forderung vielleicht so fassen,
+da sie eigentlich unmißverständlich sein sollte. Aber heute würde diese
+Fassung einen Rückzug, eine Verschleierung und damit eine
+Unehrlichkeit bedeuten.
+Das kann ich Jhnen am besten beweisen, indem ich Jhnen die
+Worte wiederhole, mit denen man sie uns annehmbar machen wollte.
+„Die Fassung ist deshalb so glücklich“, so sagte man, „weil auf sie
+alle Frauen sich einigen können. Man kann das allgemeine,
+gleiche Wahlrecht darunter verstehn, aber man braucht es nicht
+darunter zu verstehn!“
+Und damit, meine ich, sollte diese Fassung eigentlich für alle ehrlichen
+Menschen erledigt sein.
+An dieser Stelle muß ich auch noch der neun Thesen gedenken,
+die die Ortsgruppe Sachsen und die Landesvereine Hessen und Mecklen-
+burg im April d. J. zur Orientierung der Mitglieder an die Landes-
+vereine und Ortsgruppen des Deutschen Verbandes geschickt haben.
+Nachdem sie in sechs Thesen energisch gegen die Forderung des allgemeinen,
+gleichen Wahlrechts vonseiten des Verbandes als „parteipolitisch“ protestiert,
+sie für schädigend für die Sache, für unannehmbar für die rechtsstehenden
+Frauen erklärt haben, führen sie in der siebenten These folgendes aus:
+„Wir selbst berauben uns dadurch (d. h. durch den § 3,
+Absatz 2) der Möglichkeit, die Frauen, die sich noch keine politische
+Meinung gebildet haben, und die durch ihre berufliche und soziale
+Tätigkeit zur Frauenstimmrechtsforderung kommen, für das all-
+gemeine, gleiche, geheime und direkte Wahlrecht zu gewinnen. Wir
+treiben sie in die Gegenorganisationen, in denen sie hauptsächlich
+mit teils konservativen, teils unerfahrenen Genossinnen zusammen
+sind und leicht zu Anhängerinnen eines beschränkten Wahlrechts
+werden.“
+Jch meine, auch diese eigentümliche Art der Propaganda für das
+allgemeine Wahlrecht sollte uns eine Warnung sein, unsern klaren
+Standpunkt auch nur um eines Haares Breite zu verschieben. Man
+verwischt auf der Fahne die Jnschrift „allgemeines, gleiches Wahlrecht“,
+überklebt sie mit dem Worte „Neutralität“, um dann die, die der
+Neutralität halber in die Reihen treten, für das allgemeine, gleiche
+Wahlrecht zu gewinnen! Mir kommt dabei unwillkürlich der Gedanke:
+„Mit Speck fängt man Mäuse und mit Neutralität Aspirantinnen fürs
+allgemeine, gleiche, geheime und direkte Wahlrecht“. Gewinnen sollte
+man die Leute vor ihrem Eintritt in die Organisation; im Beruf und
+in der sozialen Arbeit ist dazu Gelegenheit in Hülle und Fülle.
+Wir Frauen haben immer so stolz verkündet:
+„Wenn wir erst einmal mitzubestimmen haben, dann beginnt
+eine Politik der reinen Hand. Wir haben Mut und Jdealismus
+genug, treu zu unsrer Fahne zu stehen!“
+Nun, ich muß sagen, wenn schon vor unserm Eintritt ins politische Leben
+eine jesuitische Verschleierungspolitik uns wünschenswert erscheint,
+dann muß es um diese „Politik der reinen Hand“ schlecht bestellt sein.
+Dann scheint mir Frauenstimmrecht doch nicht den Kulturwert zu ver-
+körpern, den wir ihm zugeschrieben haben. Dann ist es nicht ein
+Siegespreis, des Kampfes wert, den wir führen, der Anfeindungen, die
+wir um seinetwillen erduldet haben. Wollen wir Sieger bleiben im
+Kampf, dann darf nicht ein dehnbarer Kautschukbegriff unsere
+Losung sein, dann heißt es: mutig und tapfer die Fahne hoch!
+Weder taktische noch sittliche Gründe rechtfertigen ein
+Preisgeben, ein Verschleiern unseres Prinzips. Eins müssen
+wir uns immer wieder klar machen: Erreicht wird dadurch eine
+Einigung der ganzen Stimmrechtsbewegung niemals!
+Der Riß, der jetzt zwischen dem Verband und der Gegenorgani-
+sation klafft, wird nur ins Jnnere des Verbandes hineingetragen: Dem
+Plus an rechtsstehenden Frauen, die gewonnen werden sollen und sicher
+auch zum Teil gewonnen werden, steht gegenüber das Minus der Frauen,
+die dem Verband nicht länger angehören können, wenn er es nicht mehr
+klar und deutlich ausspricht, daß an Stelle der Entrechtung der Frau
+durch den Mann niemals die Entrechtung der Frau durch die Frau
+treten darf; wenn er vergißt, daß Frauenrechte und Menschenrechte
+untrennbar zusammengehören; wenn er's nicht mehr zugesteht, daß die
+Frauenfrage ein Teil der sozialen Frage und nur im Zusammenhang
+mit ihr zu lösen ist. Unter denen aber, die dem Verband
+verloren gehen, sind unsere besten und bahnbrechenden
+Führerinnen.
+Mit den Geboten der Sittlichkeit ist es unvereinbar, für
+sich selbst Gerechtigkeit zu fordern und sie andern vorzu-
+enthalten. Wer für sich selbst jede Bevormundung ablehnt, der darf
+sich auch nicht zum Vormund der Minderbemittelten machen wollen.
+Mit den Geboten der Sittlichkeit unvereinbar ist auch
+jedes Verschleiern des einmal als wahr Erkannten um äußerer
+Vorteile, in unserm Fall um eines schnellern Anwachsens
+unserer Organisation willen.
+Glauben Sie an den Sieg irgendeiner großen Kulturbewegung,
+die nicht getragen ist von Menschen, die felsenfest dastehen ohne Wanken
+und Schwanken? Glauben Sie, daß das Christentum die weltüber-
+windende Macht geworden wäre, wenn seine ersten Bekenner nicht den
+Mut ihrer Überzeugung gehabt hätten? Oder an den Siegeszug der
+Reformation, hätte Luther zu schwächlichen Konzessionen mit Papst und
+Kirche die Hand geboten?!
+Letzten Endes gesiegt haben immer noch die, die aufrecht
+und fest dastanden und sprachen:
+„Hier stehe ich, ich kann nicht anders!“
+</text>
+  </TextCorpus>
+</D-Spin>

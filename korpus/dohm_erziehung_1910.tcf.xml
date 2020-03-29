@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/dohm_erziehung_1910</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-dohm_erziehung_1910.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/dohm_erziehung_1910</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-dohm_erziehung_1910.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/dohm_erziehung_1910</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-dohm_erziehung_1910.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/dohm_erziehung_1910</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-dohm_erziehung_1910.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/dohm_erziehung_1910</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-dohm_erziehung_1910.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Erziehung zum Stimmrecht der Frau</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Dohm</cmdp:surname>
+<cmdp:forename>Hedwig</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11852643X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2017-09-14T13:15:52Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2017-09-14T13:15:52Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">27</cmdp:measure>
+        <cmdp:measure type="tokens">7225</cmdp:measure>
+        <cmdp:measure type="types">2824</cmdp:measure>
+        <cmdp:measure type="characters">52021</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:56:44Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/dohm_erziehung_1910</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/dohm_erziehung_1910</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/dohm_erziehung_1910</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/dohm_erziehung_1910</cmdp:idno>
+          <cmdp:idno type="DTADirName">dohm_erziehung_1910</cmdp:idno>
+          <cmdp:idno type="DTAID">32374</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32374-3</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MS">Dohm, Hedwig: Erziehung zum Stimmrecht der Frau. Berlin, 1910 (= Schriften des Preußischen Landesvereins für Frauenstimmrecht, Bd. 6).</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Erziehung zum Stimmrecht der Frau</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Dohm</cmdp:surname>
+<cmdp:forename>Hedwig</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11852643X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="2">2</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1910</cmdp:date><cmdp:publisher><cmdp:name>A. W. Schneider</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="s" type="main">Schriften des Preußischen Landesvereins für Frauenstimmrecht</cmdp:title>
+              <cmdp:biblScope unit="volume">6</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Archiv der deutschen Frauenbewegung Kassel</cmdp:repository>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+<p>
+    Bogensignaturen: keine Angabe;
+    Druckfehler: keine Angabe;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+/p>            
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+_
+Nr. 6.
+Schriften des Preußischen Landesvereins für
+Frauenstimmrecht.
+Erziehung
+zum Stimmrecht der Frau.
+1. Erziehung zum Stimmrecht der Frau.
+2. Die Mädchenschule und ihre Reformierung.
+3. Die Sports.
+4. Weibliches Studententum.
+5. Ehe und Stimmrecht.
+6. Das Stimmrecht der Frau.
+Von Hedwig Dohm.
+Herausgegeben
+vom Preußischen Landesvereins für Frauenstimmrecht.
+Zweite Auflage – Berlin 1910.
+_
+Erziehung zum Stimmrecht der Frau.
+Die Frauenfrage ist vielleicht das größte Problem unserer
+Zeit. Ein lösbares.
+Zu allen Zeiten – bis hinab ins graue Altertum – wagten
+einzelne Frauen – Minerven aus Jupiters Haupt entsprungen –
+auszubrechen aus den großen Gefängnissen, die für die Frauen-
+schaft die Welt bedeuteten. Funken blieben es, aus einem tief-
+inneren brennenden Zorn der Weltseele. Sie erloschen ohne
+Flamme geworden zu sein.
+Erst seit den letzten 50 Jahren gibt es eine stetig sich
+entwickelnde Frauenbewegung, eine Bewegung – vorwärts –
+aufwärts.
+Jedes Zeitalter ist mit dem Ballast absterbender Jdeen
+belastet, die sich den neuen Jdeen einer neuen Zeit entgegenstemmen,
+mit ihnen ringen. Kraft eines Weltprinzips – es heißt Evolution
+– gehen die neuen Jdeen als Sieger aus dem Kampf hervor.
+Den Siegeszug der Frauenbewegung können wir von Etappe
+zu Etappe verfolgen.
+Unserer Zeitepoche ideales Ziel ist das Frauenstimmrecht.
+Es ist die vollkommene Gleichberechtigung – politische, soziale
+und wirtschaftliche – von Mann und Weib.
+Vorbereitende Stufen führen zu diesem Tempel der Erfüllung.
+Die erste Stufe hinan bildet die Erziehung des weiblichen Kindes.
+Die Mädchenschule und ihre Reformierung.
+Niemand bleibt vom Geist der Zeit völlig unberührt.
+Selbst die konservativsten Elemente des Staates verspüren
+dieses Geistes einen Hauch. Er ist ihnen auf den Fersen –
+dieser Geist; kein Entrinnen möglich. Von ihm bedrängt, mußte
+eine hohe Obrigkeit sich notgedrungen zu einer Reformierung
+der weiblichen Bildungsanstalten entschließen, die bis in die Neuzeit
+hinein alles vermieden, was den weiblichen Horizont erweitere,
+alles bevorzugten, was ihn einzuengen versprach.
+Nicht willig, fröhlichen Herzens, vielmehr mißvergnügt,
+zögernd, karg, voller Halbheiten wurden die Reformen ins Werk
+gesetzt. Die Koedukation ausgeschlossen. Wir aber fordern für
+das weibliche Kind dieselben Bildungsmöglichkeiten, die dem
+männlichen Kinde gewährleistet sind. Und wir wollen die gemein-
+same Erziehung der Geschlechter. Durch die Trennung der Knaben
+und Mädchen in der Schule wird von vornherein die Geschlechts-
+unterschiedlichkeit scharf betont, wird darauf hingewiesen, daß dem
+Knaben anderes – das heißt mehr gebühre, als dem Mädchen.
+Und damit der Grund gelegt zu der Geringschätzung des Knaben
+dem Mädchen gegenüber. Eine Geringschätzung, die konsequenter-
+weise zur Verweigerung des Stimmrechts führen mußte.
+Die kleinen Kindermenschen wissen von ihrem Geschlecht
+nichts. Künstlich zieht man sie von Anfang an zur Unterschied-
+lichkeit auf, suggeriert ihnen schon durch das Spielzeug die
+Wesensart, die sie haben sollen. Dem Mädchen die Puppe, dem
+Knaben die Soldaten.
+Je unkultivierter ein Land ist, je radikaler wird die Trennung
+der Geschlechter gehandhabt. Vor nicht allzulanger Zeit wurde
+in den Straßen Konstantinopels ein junges Mädchen vom Pöbel
+zerrissen, das gewagt hatte, in europäischer Kleidung auf offener
+Straße mit einem männlichen Wesen – es war ihr Bruder –
+zu sprechen.
+Der Leiter der Wickersdorfer Schulgemeinde widmet der
+Koedukation beredte Worte: „Der Typus der Menschen ist weder
+Mann noch Weib, sondern der Jnbegriff beider. Eine wahre
+Menschenerziehung darf also nicht einseitig der männlichen oder
+der weiblichen Natur angepaßt sein … Der Pädagoge soll
+nicht mehr Knaben und Mädchen kennen, sondern junge
+Menschen. … Nur das für beide Geschlechter Wertvolle ent-
+spricht echtem Menschentum … Gibt es ein spezifisch männliches
+oder weibliches Ziel, auf das hin dem Leben Richtung gegeben
+werden soll? … Schon in der Jugend sollen beide Geschlechter
+nicht nur dieselbe Sprache sprechen und verstehen lernen, sondern
+sie auch miteinander sprechen … Hier, wo sie einander in gleicher
+Richtung streben und sich entwickeln sehen, sollen sie den großen
+Glauben an ineinander finden, aus dem allein die Achtung vor
+dem anderen Geschlecht entspringen kann … Hier in der Jugend,
+wo sie noch Menschen im edlen Sinne des Wortes sein dürfen,
+sollen sie auch einmal die Menschheit realisiert gesehen haben.
+Dies große, unersetzliche Erlebnis zu gewähren, ist der eigentliche
+Sinn der gemeinsamen Erziehung….“
+Das Mädchen auf ihren künftigen Beruf hin zu unterrichten,
+bedeutet einen Verzicht auf die Reform der weiblichen Erziehung …
+Es wird die alte Jdentifizierung von Geschlecht und Beruf, die
+jedenfalls eine Fortentwicklung des weiblichen Typus unmöglich
+macht, verewigt; es wird dem sozialen und intellektuellen Fort-
+schritt Halt geboten zugunsten eines täglich fragwürdiger werdenden
+Häuslichkeitsideals.
+Der ernsteste Einwurf gegen die Koedukation geht von der
+biologischen Seite des Weibes aus, von der Ansicht, daß durch
+die Betonung des Geistigen seine biologische Seite verkümmern
+müsse.
+Neuerdings ist wieder von gelehrten Professoren (gelegentlich
+der Mädchenschuldebatten) in Schriften und Vorträgen betont
+worden, daß dem Weibe „durch zu viel Wissen nicht nur die
+Herzensbildung, auch die Unmittelbarkeit ihres Empfindens und
+Urteilens verloren gehe.“ Einer der Professoren fügte sogar
+spöttisch hinzu: „Man wolle wohl die Natur des Weibes ortho-
+pädisch korrigieren.“
+„Je mehr Wissen man den Mädchen aufpfropft, je dümmer
+werden sie.“ Jm Reichstage fiel diese männerkluge Aeußerung.
+So darf ich denn wohl – unstudiert wie ich bin – mit
+der von Professors Gnaden mir verliehenen unverfälschten Un-
+mittelbarkeit des Denkens und Urteilens die Frage der Mädchen-
+bildung zu lösen versuchen. Sie ist für mich wie das Ei des
+Columbus. Zwei Worte erledigen sie: Einheitsschule und
+Koedukation.
+Ohne den Gemeinschaftsunterricht würden auf lange Zeit
+hinaus die Lehrkräfte und die Leiter der Mädchengymnasien hinter
+denen der Knabengymnasien zurückstehen. Es gilt eben noch für
+ehrenvoller Knaben zu unterrichten als Mädchen.
+Die Konzentration sämtlicher Schulreformbestrebungen auf
+die einheitlichen Bildungsanstalten – welch ungeheure Ersparnis
+an Gehirn- und Finanzkräften für die Reformer.
+Freilich unter dem Einfluß des Gemeinschaftsunterrichts ist
+eine Dezimierung der Rüpel zu befürchten, möglicherweise zum
+Leidwesen der Väter, die häufig die Rüpeleien ihrer Sprossen als
+Vorboten starker Männlichkeit begrüßen.
+Professor Gneist teilt in einer Broschüre über Koedukation
+(aus den 70er Jahren) die Resultate mit, wie sie ihm über die
+Gemeinschaftsschulen und Universitäten von Nordamerika zu-
+gegangen sind. Günstigere Resultate sind kaum denkbar. Die-
+selben geistigen Fähigkeiten, dieselben Leistungen, dieselbe körper-
+liche Gesundheit wurden bei beiden Geschlechtern konstatiert. …
+Nicht weniger erfreuliche Ergebnisse weist die kürzlich in
+Finnland eingeführte Koedukation auf.
+Die Sorge, daß die höhere Jntelligenz der Knaben durch
+das mindere Geistesgefüge der Mädchen gehemmt werde, ist durch
+die amerikanischen Resultate als erledigt zu betrachten.
+Hinfällig ist auch die Sorge um die bedrohte Sittlichkeit bei
+der Koedukation. Nirgends in den betreffenden Schulen sind
+sittliche Schäden zutage getreten. Erfahren die kameradschaftlichen
+Beziehungen der Mädchen und Knaben ab und zu einen leicht
+sinnlichen Einschlag – immer noch besser als die gegenstands-
+losen, erotischen Abirrungen, die ja in der Pubertätszeit un-
+vermeidlich scheinen.
+Sicher läuft der jungen Seelen Keuschheit dabei weniger
+Gefahr als bei den auf Küsse abzielenden Pfänderspielen, die in
+meiner Jugend üblich waren, als bei den heimlich zugesteckten
+Briefchen auf dem Heimweg von der Schule, bei den Tanz-
+stunden, die damals – wie sie es wahrscheinlich noch heut
+sind – der Boden waren für einen verfrühten, widerwärtigen
+grünen Flirt.
+Drollig, mit welcher Weisheit die Väter der Stadt einstmals
+das Terrain für die Mädchenschule gewählt hatten, der ich meine
+Unbildung verdanke! Unmittelbar neben dieser Elisabethschule
+befand sich die Knaben-Realschule, und gerade gegenüber das
+Gymnasium: förmlich eine Aufforderung zu Tänzeleien der
+erwachenden jungen Sinne.
+Zur Ueberwachung respektive Ablenkung der Erotik in
+Kinderschuhen will ich bei der Koedukation neben dem Direktor
+eine Frau Direktorin.
+Die zarte Körperlichkeit der Mädchen soll den Ansprüchen
+eines Gymnasiums – besonders im Hinblick auf die Menstrua-
+tionstage – nicht gewachsen sein.
+Bei den vielen Gymnasiastinnen, die ich kenne, habe ich eine
+Ueberanstrengung nicht wahrgenommen.
+Gewiß, für unbegabte, kränkliche oder verträumte Kinder
+bedeutet stets das Lernen eine Anstrengung, gleichviel ob es
+Knaben oder Mädchen sind, ob eine Mädchenschule oder ein
+Gymnasium sie damit belastet.
+Und was die kritischen Tage betrifft (bei gesunden Mädchen
+ist eine Abweichung vom Normalbefinden kaum bemerkbar): wie
+und wo werden sie denn auf anderen Arbeitsgebieten berücksichtigt?
+Eine allgemeine Schonung würde ohne eine völlige Umwälzung
+aller sozialen Verhältnisse garnicht durchführbar sein, allein schon
+deshalb nicht, weil die Mädchen sich nicht dazu verstehen würden,
+die Tage offiziell zu melden.
+Jch weiß ein einfaches Mittel, den Gehirnüberbürdungen
+der Kinder vorzubeugen. Man bemühe sich um gediegene Lehr-
+kräfte. Ein Unterricht strengt um so weniger an, je anregender
+und interessanter er ist. Nichts ist anstrengender, entnervender, als
+Langeweile, als die erzwungene Konzentration auf einen Gegen-
+stand, für den unser Jnteresse nicht geweckt wird.
+Zuweilen scheint mir's, als ob der Knabe in den ent-
+sprechenden Jahren schonungsbedürftiger wäre, als das Mädchen.
+Die Pubertätszeit setzt oft schon mit dem 13. Jahre ein, und von
+da an bis ungefähr zu seinem 18. Jahre ist sein seelisches und
+körperliches Befinden selten normal, vielleicht reizbarer, nervöser
+als das der Mädchen auf der Schwelle der Jungfrauschaft.
+Jn der Unterrichts-Kommission des Abgeordnetenhauses
+wurde kürzlich vorgebracht: „Es zeige sich im allgemeinen bei
+den Mädchen in den Jahren, die für den Besuch der höheren
+Knabenschule in Betracht kommen, ein solch großer Eifer, daß
+zu befürchten sei, die Knaben könnten zu übertriebenem Eifer
+angespornt werden und sich unbehaglich fühlen“. – Ach Gott,
+ja – sie tun mir ja auch herzlich leid, die armen zarten Jungen,
+des Lobes der strammen Mädchen, aber freue ich mich recht von
+Herzen.
+Nicht weniger originell ist der Gesichtspunkt eines anderen
+Professors. „Die Knaben“ – sagt er – „fühlen sich durch die
+sich rascher entwickelnden ehrgeizigen Mädchen in den Schatten
+gestellt, werden gleichgültig und wenden all ihr ernstliches Streben
+den körperlichen Kraftspielen zu“ (Faule Bengels!).
+Wir haben in den höheren Schulen Deutschlands noch keine
+Koedukation. Schon aber wirkt der gleiche Bildungsgang in den
+Gymnasien verschwisternd auf die Kinder. Jch habe vielfach
+Gelegenheit, den Verkehr dieser jungen Leute zu beobachten. Jch
+bin überrascht und tief erfreut von der Art dieses Verkehrs, bei dem
+Gemüts- und geistige Jnteressen ineinander wirken. Kein Ueber-
+sehen, keine Geringschätzung mehr der Knaben den Mädchen
+gegenüber, das „mit den Mädels kann man nichts reden“gibts
+nicht mehr.
+Knaben zwischen dem 14. und 18. Jahr sind fast immer
+Dichter. Aber nicht den männlichen Schulgefährten – den
+Mädchen lesen sie die Wickelkinder ihrer Muse vor.
+Sie helfen sich wohl auch gegenseitig bei ihren mathema-
+tischen und lateinischen Aufgaben, besprechen die Aufsatztemata,
+leihen sich gegenseitig ernste oder poetische Bücher und streiten
+feurig über die Auffassung eines Schiller'schen oder Shakespeare'-
+schen Helden.
+Genug, die Knaben erkennen bei dem gemeinschaftlichen
+Unterricht die geistige Gleichwertigkeit der Mädchen, bei den
+Sports die gleiche Geschmeidigkeit und Ausdauer.
+Alle anderen Vorschläge und Jdeen über die Reformierung
+der Mädchenschulen verwerfe ich. Vor allem den Reformplan
+des früheren Kultusministers Studt.
+Die Durchführung seines Systems (wohl zur Abschreckung
+der weiblichen Gymnasialbildung erklügelt), würde die Universitäts-
+reife der Mädchen um 2 Jahre hinter die der Jünglinge zurück-
+schrauben. Eine Beugung der Gerechtigkeit ohne Gleichen.
+Der Kultusminister a. D. verlangte, daß „die reformierte
+Mädchenschule sich darauf beschränke, auf religiös-sittlicher Grund-
+lage – eine allgemeine Grundlage zu geben, die Mädchen zum
+Leben in Gottes Wort zu erziehen, sie zu befähigen, durch ihren
+Wandel und durch freudige Beteiligung am gottesdienstlichen
+Leben der Gemeinde, sowie an christlichen Liebeswerken, die
+ihnen im Leben zufallende besondere Aufgabe zu lösen.“ (Wenn
+diese Erziehungsregeln nichts mehr als Phrasen sind, lasse ich
+mich hängen.)
+Wollte der Herr Minister a. D. mit seinem Reformplan der
+Koedukation einen Riegel vorschieben? Höhere Knabenschulen
+auf der Basis einer Gottseligkeit, die auf freudige Beteiligung am
+gottesdienstlichen Leben der Gemeinde abzielt, wäre wohl kaum
+durchführbar.
+Als im Abgeordnetenhause über die Erweiterung der
+Mädchenschulbildung verhandelt wurde, rief ein entrüsteter Herr:
+„Wir dürfen nicht Puppen erziehen, sonst geht das ganze
+Gemütsleben unseres Volkes verloren.“
+Zu meinem Erstaunen haben sich auch fortschrittlich gesinnte
+Frauengruppen nur flau und lau (wenn sie nicht gar zustimmten)
+gegen jenen ministeriellen Erlaß zur Wehr gesetzt. Und doch ist
+diese Frage für die Frauenwelt (auch insbesondere für die Erziehung
+zum Stimmrecht) von fundamentaler Bedeutung.
+Möglich, daß bei dieser Lauhheit eine Opportunitäts-Politik
+mitwirkte, eine Taktik, die sich der Gewährungssprödigkeit der
+maßgebenden Behörde anpaßte.
+Vielleicht auch beruhte die Bescheidenheit der Frauen auf
+einem Gefühl der Dankbarkeit. Dankbar für das bereits Erreichte.
+Und in der Tat, wenn ich an meine Jugend zurückdenke,
+stehe ich erstaunt, entzückt vor den Errungenschaften der letzten
+fünfzig Jahre.
+Wehe über das Schulkind meiner Zeit! Noch vor 50 oder
+60 Jahren galt das Stillverhalten – äußeres und inneres –
+des weiblichen Kindes als etwas von der Natur Gewolltes. Als
+ob so ein armer Wurm seine Verfehlung, nicht als Knabe ge-
+boren worden zu sein, absitzen müßte.
+Jn den Freistunden Strümpfe stricken und sie stopfen! Je
+mehr Touren in einer bestimmten Zeit herumgestrickt wurden, je
+braver war das Kind (erinnert an Aschenputtels Erbsenlesen).
+Was für eine große Rolle die Strümpfe damals spielten! Noch
+war die Strickmaschine nicht Allgemeingut, noch hatte kein Kneipp
+die Barfüßigkeit – wenn auch nur zeitweise – entsündigt.
+Ein Schlittern, etwa auf dem Rinnstein, war ein Bubenstreich.
+Selbst der Schneeball mußte verstohlen, mit bösem Gewissen,
+von Mädchenhänden geworfen werden.
+Mit unaussprechlicher Bitterkeit denke ich an jene Zeit
+physischer und geistiger Hemmungen zurück, die jedes begabtere
+weibliche Geschöpf, das geboren wurde, ein ganzer Mensch zu
+werden, zu einem automatenhaften Gebilde verkrümmten, zer-
+mürbten.
+Nur wer dieses Zeitalter als ein Schicksal erlebt hat, weiß
+von seiner Tragik.
+Die Sports.
+Zu der Erziehung zum Stimmrecht – das heißt zu einem
+reifen, vollwertigen Menschen – gehört auch die Entwicklung
+von Körperkraft und Gesundheit.
+Eine Kraft- und Gesundheitsquelle sind die Sports. Das
+weibliche Geschlecht bedarf ihrer vielleicht noch mehr als das
+männliche. Sie sind die frischfröhlichen Sieger über Nerven,
+Hysterie, Unnatur, Verweichlichung. Ein Leben ohne Gesundheit
+ist wie eine Scheide ohne Klinge.
+Die Sports setzen Schmerbäuche und Wespentaillen auf den
+Aussterbeetat. Sport und Hygiene begegnen sich. Die Hygiene
+weist die anatomischen Mißbildungen infolge des Korsets nach.
+Die Sports lassen die Geschnürtheit, die Lunge und Herz beengt,
+nicht zu. Das Reformkleid ist ein Kind des Sports und der Hygiene.
+Selbstverständlich werden Frauen nicht boxen und Ringkämpfe
+ausführen.
+Und die Jagd? Jch denke, daß sie dieses blutlüsterne feudale
+Amüsement gern den Männern überlassen werden.
+Täusche ich mich, oder werden die Frauen seit Einführung
+des Sports nicht allmählich größer? Walküren am Ende?
+Es ist dafür gesorgt, daß die Bäume – und die Frauen –
+nicht in den Himmel wachsen. Die Natur liebt goldene Mittelstraßen.
+Die Sports werden gemeinschaftlich von der weiblichen und
+männlichen Jugend ausgeführt. Die Kameradschaft, welche die
+Koedukation anbahnte, findet dabei ihre Fortsetzung. Bei den
+Ausflügen, in dem freieren Verkehr, belebt durch den Ozon der
+Luft, lernen sich die jungen Leute ganz anders kennen, als in den
+parfümierten Räumen des Salons. Kameradschaft, Freundschaft
+zwischen Mann und Weib ist eine neue, hell- und weitklingende
+Note in der modernen Kulturwelt.
+Nicht zu übersehen ist das ästhetische Element des Sports.
+Gesundheit und Schönheit (zu der man die Frauen ja ver-
+pflichtet) sind verschwistert.
+Die entwickelte Geschmeidigkeit der Glieder wird sich in der
+Anmut der Bewegungen ausdrücken.
+Auch der Tanz, wie er seit einigen Jahren Eingang ge-
+funden hat, gehört ins Gebiet der leichten Sports. Körper-
+übungen, welche die Mitte halten zwischen Tanz und Turnen.
+Unähnlich dem monotonen, ungezügelten Schwenken und Wirbeln
+der Rundtänze auf den Bällen, die einer harmlosen (harmlos in
+der Regel) Sinnenlust dienen, führen diese neuen Tänze ein
+geistiges Element in den Tanz ein. Jhr melodisches Schreiten,
+ihr rhytmisches Schwingen hat eine Sprache und eine Seele. Sie
+haben sich darauf besonnen, daß auch Terpsichore eine Göttin ist.
+Jch habe bei jungen Mädchen wundervolle Resultate dieser
+Tanzübungen gesehen.
+Eine ästhetische Wirkung der Sports ist die Freude. Reine
+Daseinsfreude. Lust, Freude, die aus reinen Quellen fließen,
+wirken ästhetisierend und ethisierend.
+Von der Aesthetik zur Ethik führt eine Brücke. Unverkennbar
+ist auch der ethische Einfluß des Sports. Mut und Entschlossen-
+heit, Geistesgegenwart, Willenskraft entwickeln sie. Oder – sind
+diese Eigenschaften zu männlich für die Frau?
+Sicherlich aber sind sie für diejenigen Frauen, die in die
+Oeffentlichkeit hinaus wirken wollen, unentbehrlich.
+Weibliches Studententum.
+Unentbehrlich auch für des Weibes zukünftige Stellung in
+der Gesellschaft ist ihre Eroberung der Universität.
+Willkommen – viel willkommen sei uns die Studentin.
+Wissen, Erkenntnisse sind die vornehmsten Faktoren in der Er-
+ziehung zum Stimmrecht. Die freien Vorträge, wie sie besonders
+in der freien Studentenschaft üblich sind – die Diskussionen, die
+rhetorische Begabungen erwecken und entwickeln, sie bilden recht
+eigentlich eine Vorschule für parlamentarische Tätigkeit.
+Aus den Reihen der akademisch gebildeten Frauen werden
+uns vielleicht die ersten Volksvertreterinnen erstehen.
+Die Kameradschaft zwischen Knaben und Mädchen, die ein
+gleicher Bildungsgang in den Schulen anbahnte, sie ist zwischen
+Jünglingen und Jungfrauen auf der Universität, in Ateliers und
+Werkstätten zu lebendiger Wirklichkeit geworden.
+Hier wird unter anderm dem weiblichen Geschlecht die Auf-
+gabe zufallen, die noch immer zu rauhen Universitätssitten ein
+wenig zu glätten, dem niederziehenden Einfluß, der oft genug dem
+Studententum mit seinen Paukereien, Kneipereien Korpsgebräuchen
+(wenn ich auch einige Vorzüge des Korpswesens nicht verkenne,
+seine Schattenseiten aber überwiegen) seinem Dirnenkultus anhaftet,
+entgegen zu wirken.
+Wie muß das männliche Geschlecht seine Begriffe vom Weibe
+korrigieren, wenn der Jüngling auf der Universität das Mädchen,
+das bis dahin für ihn nur eine Mitliebende war, als eine Mit-
+denkende, Mitstrebende, Mitarbeitende kennen lernt.
+Und das studierende junge Mädchen? Man befrage sie um
+die Eindrücke ihrer Universitätszeit.
+Sie wird einen Hymnus singen, denn in einem Rausch lebt
+sie, der zugleich idealistisch und sinnlich ist. Jdealistisch, in der
+stolzen geläuterten Freude Mitschaffende zu sein an ewigen Werten.
+Jdealistisch, weil der Glaube dieser weiblichen Jugend an die
+Wissenschaft eine Art Religion ist. Es ist der Glaube an einen
+Himmel, der intime geistige Entzückungen erschließt.
+Eine Sinnenfreude aber ist das Schwelgen in den Gefühlen
+der jungen Freiheit, des Sichselbstgehörens, der sympatischen Be-
+ziehungen zu den Jünglingen.
+Es ist, als wollte die Studentin alle Lebensinhalte, die den
+früheren Frauengenerationen vorenthalten wurden, konzentriert in
+sich aufnehmen. Jch habe nie beglücktere weibliche Geschöpfe
+gesehen, als unter den studierenden Jungfrauen.
+Und in dem wetteifernden Arbeiten und Streben mit den
+Studenten, wandeln sich allmählich ihre Gewohnheiten und Sitten,
+mag immerhin dabei eine gewisse Absichtlichkeit in der Betonung
+ihrer neuen jungen Würde, die Drolligkeiten nicht ausschließt,
+mitunterlaufen.
+Elegante Kostüme, Toilettenfirlefanz sind gewesen. Einfaches
+Wollenkleid. Kurzer Rock. Lodenmantel. Unbewimpeltes Stroh-
+oder Filzhütchen. Keine Handschuhe. Keusche Menüs bis zur
+vegetarischen Studentenkneipe herunter. Tüchtige Märsche an
+freien Tagen.
+Jn der Tat – schön ist ihr feuriger Wille zur Erkenntnis,
+zur Eigenkraft. Und bis jetzt nicht das leiseste Sympton einer
+Abirrung in wüste Studenterei.
+Der Studierenden ist das Studententum ein Tempel, der nur
+Eingeweihten sich öffnet. Die ganze übrige Welt hat draußen zu bleiben.
+Ganz entzückend sind die leidenschaftlichen, wissenschaftlichen
+Dispute dieser intelligenzsüchtigen Jugend. Unmenschlich, was sie
+zusammenphilosophiert, immer gleich hinauf bis zum Ur – Ur-Jch,
+überhaupt zu irgend einem „Ur“.
+Dieser weiblichen Jugend erblüht vielleicht in dem Wissens-
+durst, der durch keinen Bierdurst gehemmt wird, eine reichere Ernte
+als ihren männlichen Kommilitonen, es sei denn, daß die weib-
+liche Einwirkung, gleich wie das Oel wildes Gewoge sänftigt,
+ihnen die Ausschweifung in Bier Erotik verekle.
+Noch immer verhält sich die Majorität der Professoren dem
+weiblichen Studium gegenüber ablehnend.
+So der vielgerühmte Geheimrat und Professor Münch. Er
+gibt „in freier und verkürzter Weise“ die ihn „erfreuenden“ Ge-
+danken des Amerikaners Sachs wieder: „Eine unerfreuliche Er-
+fahrung ist es, daß von den Studienfächern, denen die weibliche
+Jugend sich zuzuwenden pflegt, die jungen Männer sich allmählich
+grundsätzlich zurückziehen.“
+O, da gibts Abhilfe. Man garantiere den Frauen die Staats-
+ämter, zu denen ihre Studien sie berechtigen, stelle sie als Richter,
+Prediger, Professoren, Verwaltungsbeamte an. Und diese emsigen
+Streberinnen werden sich totsicher über sämtliche vorhandenen
+Studienfächer verbreiten. Ob die Jünglinge dann auf ewig vor
+der Studentin, der männerschreckenden Vogelscheuche auf dem Feld
+der Wissenschaft davonlaufen, die Universitäten meiden werden?
+Die Medizin ist ein Vorzugsstudium der Frauen. Das Aus-
+sterben der männlichen Aerzte hat aber in Europa noch nicht platz-
+gegriffen.
+Daß zwischen den gemeinsam Studierenden neben – oder
+vielmehr mit der kameradschaftlichen Intimität und Freundschaft
+die Liebe zu ihrem Recht kommt, ist durchaus menschlich. Allzu-
+menschlich sagt vielleicht der Regorist.
+Jndessen, Verführungen, Zuchtlosigkeiten zwischen ihnen sind
+nahezu ausgeschlossen. Die wissenden Mädchen fühlen sich ver-
+antwortlich für ihre Handlungen.
+Oft genug im Leben bleiben Liebende sich innerlich fremd.
+Hastige Verliebtheiten nur. Bei dem gemeinsamen Streben und
+Studieren aber, dem täglichen freien Verkehr auf der Universität
+entwickeln sich geistig – seelische Intimitäten. Und in diesem
+aneinander- und miteinander-Wachsen lernen sich die jungen Leute
+ganz allmählich lieben. Und da geschieht es nicht selten – zum
+Staunen der Welt – daß äußerlich reizlose, ja häßliche Mädchen
+recht von Herzen geliebt werden; denn hier wurde die Wurzel der
+Liebe tief in fruchtbares Erdreich gesenkt.
+Aber ach – nun dürfen die lieben jungen Menschen nur
+platonisch fühlen, wenn nicht das Standesamt sofort zuspringt.
+So muß diese herrliche Zeit brausender, idealistischer Jugend-
+lichkeit vollerblühter Seelen- und Körperkräfte dahingehen –
+ohne Erben.
+Ein uralter, urweiser Herr – Zoroaster – hat schon gesagt,
+„daß alle Menschen zum Heiraten verpflichtet sind, sobald sie reif
+dazu sind.“
+Die Gesellschaft teilt diese Meinung nicht.
+Die Mütter haben inbetreff ihrer erwachsenen Kinder immer
+zweierlei Sorgen: daß sich die Tochter möglichst früh (je jünger,
+je größer sind ihre Chancen für eine gute Partie), der Sohn mög-
+lichst spät verheirate, es sei denn, daß schon dem Jüngling, ehe
+er in Amt und Würden sitzt, ein Goldfischchen zuschwimmt.
+Sittlichkeitsfragen pflegen bei den Eltern – dem Sohne
+gegenüber – nicht aufzutauchen. Vielleicht wissen sie, daß er
+temperamentvoll, stark erotisch veranlagt ist. Sie fragen nicht
+nach, ob und wo er Befriedigung für seinen Liebesdrang sucht.
+Sie wollen es nicht wissen. Möglicherweise auch scheint es ihnen
+in der Ordnung, daß er sich vor der Ehe die Hörner – irgend-
+wo – abläuft.
+Und doch verschließt sich niemand der Erkenntnis, daß die
+Prostitution einer der dunkelsten Punkte in der Geschichte der
+Menschheit ist, ein Kainszeichen, das das Antlitz der Welt so
+entstellt, verzerrt, daß vor seinem Medusenblick das Herz erschaudere.
+Zu einer Entvölkerung der Hörselberg-Souterrains dürften die
+frühen Heiraten – wenn auch kein Allheilmittel, so doch immer-
+hin ein Heilmittel sein.
+Jch weiß, ich weiß – die heutigen Gesellschaftsverhältnisse
+in den höheren Ständen gestatten frühe Heiraten nicht. „Am
+Golde hängt doch alles.“
+Jch möchte aber, daß man sich dieser Ehebeschränkung als
+eines sozialen Uebelstandes bewußt werde.
+Jndessen – auch abgesehen vom Geldpunkt, mißbilligt man
+die Jünglingsheiraten. Der Zwanzigjährige hätte die Reife für
+eine richtige Auswahl nicht. (Wie? und das zwanzigjährige,
+ihm geistig untergeordnete Mädchen hat sie?) Wann ist denn das
+männliche Geschlecht reif zur Ehe?
+Ach Gott, die reifsten Männer (einschließlich der alten) werden
+in Liebesfragen niemals reif; wählen nach Gottes unerforsch-
+lichem Ratschluß – wie sich's grade trifft.
+Amor trägt eine Binde, das weibliche Studententum dürfte
+berufen sein, sie ein wenig zu lockern. Der Ehe zum Heil.
+Ehe und Stimmrecht.
+Ja, der Ehe zum Heil. Die Hebung des Eheniveaus scheint
+mir unerläßlich für das vollwertige Menschentum der Frau.
+An anderer Stelle habe ich ausführlich dargetan, daß eine
+edlere Gestaltung der Ehe nur auf Grund der wirtschaftlichen
+Unabhängigkeit der Frau zu erwarten sei. Die unabhängige Frau
+kann des unlauteren Ehemotivs der Versorgung, das den größe-
+ren Teil der Eheschließungen verschuldet, entraten.
+Da Nietzsches Wort nicht wie das Wort Gottes ist, das man
+nicht mißbrauchen soll, so sei hier der abgegriffenste seiner Sprüche
+zitiert: „Nicht nur fort sollst du dich pflanzen, sondern hinauf,
+dazu helfe dir der Garten der Ehe.“
+Die Ehe soll zween Herren dienen: dem Glück und der Höher-
+entwickelung der Jndividuen und zugleich dem allgemeinen Wohl.
+Die Form zu finden, die beide Zwecke in sich vereinigt, ist
+das leidenschaftliche Suchen der modernen Welt.
+Kein ehernes Gesetz der Unwandelbarkeit gibt es. Sterne
+können ihren Lauf verändern. Der ganze kleine Erdball samt der
+Menschheit kann in den Orkus sinken (falls der nicht mit ver-
+sinken sollte). Zwischen Evolution und Revolution pendeln alle
+Geschehnisse der großen und der kleinen Welt.
+Zur kleinen Welt gehört die Ehe. Die Ehe, eine Jnstitution,
+die einmal nicht war, die jetzt ist, und die möglicherweise einst
+nicht mehr sein wird. Je nach Zeit und Völkerschaft wechselt
+sie ihren Charakter. Sie weist auch in demselben Zeitalter in den
+verschiedenen Ländern fundamentale Verschiedenheiten auf. Jn
+jeder Geschichte der Ehe ist es nachzulesen.
+Jch erinnere mich nicht, in welchem ernsten Buch ich kürzlich
+las, daß die Ehe heutzutage entheiligt ist und unfruchtbar ge-
+worden, weil man sie von ihrer Höhe herabgezogen hat.
+Jch staune. Von ihrer Höhe? Wann stand sie auf der Höhe?
+Möglicherweise bei jenen halb- oder ganz wilden Völker-
+schaften, die den Ehebruch mit martervoller Tötung straften, wie
+es noch heut bei dem Negerstamm der Kaka geschieht, ein Stamm,
+der noch auf öffentlichen Märkten Menschenfleisch ausbietet.
+Gerade also da, wo eine sittliche Grundlage der Ehe, oder
+eine gegenseitige Neigung ausgeschlossen war, wurde die Ehe
+einem heiligen Fetisch gleich gewertet.
+Wo sonst stand sie aus der Höhe?
+Jede beliebige Kulturgeschichte gibt Aufschluß darüber, die
+Bibel nicht ausgenommen (man denke an Sodom und Gomorha).
+War sie im klassischen Altertum auf der Höhe? etwa in
+Griechenland, wo der edle Athener ein Weib nahm, um sein
+Geschlecht fortzupflanzen, welches Weib er dann lebenslänglich
+ins Frauengemach sperrte, während er im Hetärentum Leib und
+Seele erfrischte?
+Oder in Rom, wo der Typus der Messalinen so herrlich
+gedieh? Oder im Mittelalter, wo das Weib unweigerlich aus
+der Hand des Vaters oder des Bruders den Gatten empfing?
+kein Widerspruch stand ihr zu, mochte der ihr zugemutete Liebes-
+gefährte auch ein Greis oder ein Scheusal sein.
+Oder zur Zeit der Renaissance? wo das Cicisbeotum blühte,
+und die verheiratete Frau sich schämte, wenn sie auf Liebhaber-
+losigkeit ertappt wurde.
+Und die Zeit des Herrenrechts?
+Jm 13ten und 14ten Jahrhundert soll es förmlich ein Sport
+vornehmer verheirateter Frauen gewesen sein, ihre Buhlgelüste in
+den Bordellen zu befriedigen. Nonnenklöster galten lange Zeit
+hindurch für Hochschulen der Liebeskünste.
+Berühmte Schriftsteller und Maler sind Jnterpreten einer
+delirierenden Erotik geworden (siehe Aretin, Boccaccio, Rops,
+Viertz usw.)
+Neben den unlöslichen Ehen hat es Zeitehen und Probe-
+ehen gegeben. Meines Wissens nach ist in einigen Gegenden
+unter dem Landvolk die Probeehe heute noch üblich.
+Die Kulturgeschichte bezeugt, daß nicht nur Zuchtlosigkeit,
+daß auch herzzerreißender Jammer von jeher, zu allen Zeiten und
+unter allen Völkern eine Begleiterscheinung der Ehe gewesen ist.
+Und immer und immer hat die starre Unwiderruflichkeit der
+Ehe antiken und modernen Dichtern – von Sophokles bis zu
+den französischen Ehebruchsdramen – den Stoff für ihre Tra-
+gödien geliefert.
+Die unabweisbare Schlußfolgerung ist, daß die rechte Form
+für das Sexualleben „von Mann und Weib noch nicht gefunden
+wurde.“
+Jch wiederhole: auf der Unabhängigkeit der Frau beruht eine durch-
+greifende Reformierung und eine würdigere Gestaltung der Ehe.
+Die unglücklich verheiratete Frau, die wirtschaftlich selbständig
+ist, braucht nicht mehr als die Sklavin eines unentrinnbaren Schicksals
+in einer Ehe zu bleiben, die einem Hospital für Jncurable gleicht.
+Einen verhängnisvollen Jrrtum (in diesem Fall die Eheschließung)
+zu widerrufen, ist ein Gebot der Ehre und der Moral.
+Für die abhängige Frau freilich wird selbst die traurigste
+Verbindung zu einer unsittlichen Notwendigkeit. Denn existenzlos
+ist sie außerhalb der Ehe. Angewiesen auf das Almosen der
+Gesellschaft.
+Oder meint man: auch in einer unglücklichen Ehe auszu-
+harren, seine subjektiven Gefühle zu beherrschen, wäre ein Gebot
+der Pflicht, der hohen Pflicht im Dienst einer Jdee, der Jdee der
+Ehe? Wie der Soldat im Krieg für die Jdee des Vaterlandes
+stirbt, auch wenn ihm der Krieg verhaßt ist.
+Leib und Seele opfern für die Menschheit, das tut ein Gott.
+Wir armen Allzusterblichen lassen uns ungern an ein Kreuz –
+wenn auch nur ein symbolisches – schlagen.
+Mir scheint, noch niemals hat es eine Zeit gegeben, so er-
+füllt von der Sehnsucht nach einer Versittlichung, einer Jdeali-
+sierung der Ehe wie die gegenwärtige.
+Dieser tiefen Sehnsucht Weckerin und ihr Sprachrohr ist die
+Frauenbewegung geworden. Erfüllung kann oder wird ihr erst
+werden, wenn der Frau, als der Mitwirkenden an der Gesetz-
+gebung, die Entscheidung über Ehefragen zufällt.
+Das Stimmrecht der Frau.
+Das Zentrum aller sozialen Rechte, von dem alle anderen
+ausstrahlen, ist das Stimmrecht.
+Jn einer Zeit, als die Forderung des Stimmrechts für
+so absurd galt, als glaube man an eine Spazierfahrt auf den
+Mond, trat bereits in England der Premierminister Disraeli für
+die politischen Rechte der Frauen ein.
+Und noch immer ist dieses Recht nicht zeitgemäß? Noch
+immer spricht man der Frau die Fähigkeit ab, es auszuüben?
+Ein Forscher fand in einer dunklen Höhle kleine Tiere, die
+infolge ihres andauernden Aufenthaltes in der Finsternis blind
+geworden waren.
+Jahrtausende habt ihr Frauen in Finsternis gelebt. Kein
+Wunder wär's, wenn eure geistigen Augen erblindet, euer Wille
+erstorben wäre.
+Allein – ein Halberstickter kann durch die Zuführung von
+Sauerstoff dem Leben zurückgegeben werden.
+Nur scheinblind wart ihr, liebe Frauen. Allmählich haben eure
+Augen sich geöffnet. Und ihr habt die Geschichte der Zivilisation,
+die Geschichte der Frauen gelesen. Und euer Herz erbebte in
+ungeheurem Mitleid, euer Blut schäumte auf in Scham und Zorn.
+Schaurigen Tragödien gleich grinsten euch des Weibes Geschicke an.
+Nicht wahr? Nicht wahr?
+Dem despotischen Willen des Vaters, Gatten oder Bruders
+ausgeliefert, brach man ihr Herz, vergewaltigte ihren Leib, be-
+raubte sie des Erbes. Man peitschte sie, tötete sie ungestraft,
+wenn es im Zorn geschah. Der Vater oder der Bruder durfte
+sie zu seinem Vorteile verkaufen, mochte der legitime Käufer auch
+ein Scheusal sein. Jm indischen Gesetzbuch heißt es: „Sollte ein
+Ehemann auch keine guten Eigenschaften haben, so muß ein
+tugendhaftes Weib ihn doch immer als einen Gott verehren.“
+Jn einem ostasiatischen Reich entleibten sich viele Krieger,
+die, als Besiegte aus der Schlacht heimgekehrt – in weiblicher
+Kleidung weibliche Arbeit verrichten sollten.
+Keinen Himmel gab's für die Frauen. Sie hatten keine
+Seele. Nimmer kamen sie ins Paradies.
+Mit einem Wort: man entmenschte sie!
+Das war! das war! Verjährt! verjährt!
+Nicht ganz. Auch heute noch hat die Frau kein Recht an
+ihrem eigenen Vermögen, (wenn ein Ehekontrakt nicht vorgebeugt
+hat) keine Bestimmung über ihre Kinder. Sie fällt dem Vater
+zu, trotz der neuesten so allgemeinen und allgemein beliebten Mode,
+die das Weib als Mutter verheiligt, es zur Madonna stempelt.
+(Zur Förderung der Madonnenhaftigkeit stößt man ihr wahr-
+scheinlich ein paar Schwerter in die Brust). Laßt euch von dem
+angeblichen Heiligenschein nicht blenden, liebe Schwestern. Er ist
+ein Vexierbild. Schaut recht hin, und der Dornenkranz erscheint.
+Die Frau trägt die Schmach des unehelichen Kindes und die
+Last seiner Versorgung. Nach der Schuld des Vaters kräht kein
+Hahn.
+Jn gewissen Fällen steht auch heut noch dem Mann die
+Entscheidung über Leben und Tod seiner Frau zu. Der Gynä-
+kologe Olshausen teilt einen solchen Fall mit: „Jch behandelte
+einst eine Frau, welche an ihrer Krankheit mit absoluter Sicher-
+heit zugrunde gehen mußte, wenn sie nicht operiert wurde. Auf
+den Vorschlag der Operation ging sie freudig ein, überließ es
+aber mir, die Zustimmung ihres Gatten zu erlangen. Dieser aber
+verweigerte die Erlaubnis. So mußte ich schweren Herzens von
+der Operation absehen.“
+Ja man spricht dem Weibe auch heute noch schlankweg das
+Menschentum ab. Schrieb nicht erst kürzlich Sombart, – ein
+vielgenannter und gerühmter Nationalökonom, – „Alles, was
+wir an Erfahrungen über die notwendigsten Voraussetzungen
+einer sich physiologisch normal entwickelnden Rasse wissen, ist,
+daß in dem Rahmen einer solchen Entwicklung für das Menschen-
+tum der Frau kein Platz ist … Das Beweismaterial für die
+Richtigkeit dieser Auffassung entnehmen wir dem Schicksal aller
+bisherigen Kulturnationen, die gerade daran zugrunde gegangen
+sind, weil ihre Frauen Menschen wurden.“ …
+Und schrieb nicht vor wenigen Wochen erst jener geistesbe-
+gabte, temperamentvolle Sanatoriumsarzt, daß die Frau nur „eine
+vorübergehende Erscheinung“ sei und nur um ihrer Frucht willen
+wertvoll.
+Da seht ihr's, liebe Frauen! Nicht muß es heißen: Es
+war! Nein: Es ist!
+Und warum ist es? ist es noch immer? Sehr einfach. Die
+Gesetze sind gegen die Frau, weil ohne sie.
+Wer die Macht hat, hat die Neigung sie schrankenlos aus-
+zuüben. Nicht an dem Recht des andern, sondern an der tapferen
+Gegenwehr des Rechtlosen findet der despotische Willen des Macht-
+inhabers eine Grenze.
+Wahrlich, die Juden hatten Recht, wenn sie in einem Ab-
+schnitt ihrer Gebete Jehova dankten, daß er sie nicht zu Weibern
+schuf.
+Las ich doch in dem Buche eines Gelehrten, daß die Frauen
+deshalb besser, resignierter stürben als die Männer, weil sie mit
+dem Leben nicht viel Freuden aufzugeben hätten.
+Früher wurde die Geringschätzung der Frau offen
+an den Tag gelegt.
+O, unsere Herren und Gebieter sind höflicher geworden.
+Jetzt sind wir nicht mehr minderwertig, nur anderswertig
+als der Mann. Aus dem Mund selbst orthodoxer Antifeministen
+wird uns diese tröstliche Versicherung.
+Seltsam – seltsam, die Auslegung dieser Anderswertigkeit!
+Zwar Tribüne, Kanzel, Dozententum, alle höheren Staats-
+stellungen sind euch Frauen verschlossen. Zwar schauderten auf dem
+Lehrerkongreß des vorigen Jahres die Herren Lehrer vor der
+Möglichkeit, einer Frau Direktorin untergeben zu sein; dieselben
+Herren, die vor den dümmsten Mannspersonen, wenn es zufällig
+ihre Vorgesetzten sind, sich bücken, sich bücken müssen.
+Zwar in der Schulverwaltung weigert man euch noch immer
+Sitz und Stimme, (die Kindererziehung soll doch die von Gott
+dem Weibe zugewiesene Mission sein,) sagt man nicht so?
+Als Grund der Ablehnung wurde in einer öffentlichen Be-
+ratung angeführt: „Es könnte eine extreme Frauenrechtlerin ge-
+wählt werden.“
+Die hohen Herren fürchten wohl, daß diese ominösen Weibs-
+leute einen Kursus für freie Liebe oder eine Propaganda für das
+Zölibat ins Werk setzen werden? Je nachdem es in ihren Kram
+paßt, beschuldigen sie die Frauenrechtlerinnen des einen oder des
+anderen Frevels.
+Zwar – in der Armen- und Waisenpflege (die Linderung
+menschlichen Elends – soll sie nicht auch des Weibes eigentlichster
+Beruf sein?) haben die zuständigen Behörden erst nach langem,
+zähen Widerstreben euch eine unwesentliche Mitwirkung eingeräumt.
+Jedoch – nicht minderwertig, nur anderswertig seid ihr als
+der Mann.
+Uebrigens – es scheint, daß der Mann die Abhängigkeit
+von einer Frau nur dann als Demütigung empfindet, wenn sie
+einen offiziellen Charakter trägt, an seine Eitelkeit rührt. Jm
+Hause fühlt er sich keineswegs gedemütigt, wenn seine Frau das
+Szepter führt oder wenn er von ihrem Gelde lebt. Jn der Liebe
+tanzt er gern nach ihrer Pfeife.
+Allein, sollte der Frau nicht für jene zweifellosen Benach-
+teiligungen ein Aequivalent geboten werden durch Bevorzugungen,
+die sie ihrer Anderswertigkeit verdankt und von denen Männer
+ausgeschlossen sind?
+Jst sie nicht Herrin in der Kinderstube, in der Küche, in
+allen Haushaltungsangelegenheiten?
+Jn der Kinderstube? Der Vater hat ja die Bestimmung
+über das Kind. Jch weiß nicht, ob die gesetzliche Verordnung
+noch besteht, die den Vater ermächtigte zu bestimmen, wie lange
+die Mutter dem Kinde die Brust zu reichen habe.
+Herrin in der Küche? Der Geschmack des Mannes waltet
+über den Kochtöpfen. Die Frage wurde aufgeworfen, wie macht
+man den Mann in der Ehe glücklich? Eine Schriftstellerin (muß
+eine rohe Person gewesen sein) antwortete: „Man füttere die Bestie.“
+Herrin des Haushalts? Sie muß ihn nach dem Wirtschafts-
+geld einrichten, das der Mann ihr bewilligt.
+Lacht nur, lacht, meine Schwestern, über eure so wenig ein-
+trägliche Anderswertigkeit.
+Eine so durchsichtige Lüge, als wollte man dem Armen
+einreden, sein trockenes Brot und sein Fusel wären vollwertig dem
+Fasan und dem Champagner des Reichen, wenn auch anderswertig.
+Es gibt keine Argumente gegen das Frauenstimmrecht als
+solche, die aus subjektiven Gefühlen, angezüchteten Vorstellungen
+oder aus männischem Hoheitsdünkel stammen.
+Jm Mittelalter hat man von physischen Besonderheiten auf
+moralische Beschaffenheiten geschlossen. Frauen, die Zwillinge
+gebaren, wurden als Ehebrecherinnen zum Tode verurteilt. Rot-
+geränderte Augen waren Hexenzeichen. Wer unter dem Sternbild
+des großen Hundes geboren wurde, war ein verruchter Mensch.
+Dieselbe Grundvorstellung ist es, die dem Weibe um ihrer
+Frauenart willen die politischen Rechte weigert. Wilder Aber-
+glauben – der Wechselbalg des Glaubens – damals und jetzt.
+Nie kann die Ausschließung der Frau vom politischen Leben
+verstandesmäßig begriffen werden.
+Die Gegner der Frauenbewegung aber dekretieren ein für
+allemal: Die Politik ist Mannessache, Manneswerk. Die Un-
+weiblichkeit politischen Tuns wird aufs strengste verurteilt.
+Mein Gott, die Unweiblichkeit stellt sich immer da ein, wo das
+Weib über die Grenze, die der Mann ihr gezogen, hinaus will.
+Als ob er die Urschrift der Natur gelesen und entziffert hätte!
+Nicht Finder – Erfinder ist er von Naturgesetzen.
+Eheliche und politische Jnteressen sind unvereinbar!
+Jn einer Ehe freilich, wo Er der Herr ist, dem sie Gehorsam
+schuldet, dürfte eine politische Betätigung der Gattin als Erisapfel
+selbst die schönste Ehe entstellen. Das sind die Ehen, wo das
+falsche Rechenexempel: 19 und 1 = 1, gültig ist.
+Jn einer Ehe aber zwischen Gleichberechtigten, wo zwei –
+zwei bleiben, würden voraussichtlich politische Meinungsdiffe-
+renzen ebenso wenig wie literarische, pädagogische oder religiöse
+die Ehe mit Krieg überziehen.
+Nietzsche ist der Ansicht, daß ein Atheist nur eine fromme
+Frau brauchen kann, warum sollten nicht ein Konservativer und
+eine Sozialdemokratin (oder – sage ich mildernd eine Revisionistin?)
+in Glück und Frieden selbander ihre Liebesstraße ziehen.
+Ohne Sorge seid – ihr eifrigen Freunde der Hausfrau.
+Nicht alle Frauen werden politisch sich betätigen, denn verschieden
+von einander schuf Gott die Menschen – Männer wie Frauen.
+Treffliche, kluge Frauen gibt es, deren ganzer Lebensinhalt
+Mann, Kind und Haushalt ist.
+Gott segne sie!
+Und treffliche, kluge Frauen gibt es, die allen hauswirt-
+schaftlichen Jnteressen abhold, in künstlerischen, wissenschaftlichen
+oder irgend welchen anderen geistigen Betätigungen ihres Wesens
+Ausdruck suchen und finden, unbeschadet ihrer Liebe für Mann
+und Kind. Gott segne auch sie!
+Und drittens, kann es kluge und treffliche Frauen geben, die
+ihre Natur zum Zölibat bestimmte. Sexuell wertlos, können sie
+als Mensch von höchstem Wert sein, vielleicht fruchtbarer für die
+Allgemeinheit als eine Frau, die zwölf Kinder zur Welt bringt.
+Gott segne auch diese jungfräulichen Frauen!
+Jede kultivierte Frau hat Recht, die ihrer Seele den Willen tut.
+Eine politische Frau! Dem Manne graust's. Wehe! Die
+Frauen wollen Männer werden. Eingeschworen auf diesen Satz
+ist jeder Antifeminist. So erbt ein Unsinn sich von einem Nicht-
+denker zum andern fort.
+Man verwechselt immer Männer und Menschen und verlangt
+von der Frau nichts geringeres als Selbstentmenschung.
+O gewiß, ja, ganze, volle Menschen wollen wir sein, und
+haben wollen wir alles, was des Menschen ist: Brot und Bildung,
+Arbeit und Freude. Alle sonstigen Mannesattribute – von seiner
+eminenten Logik bis zu seiner Glatze herunter – lassen wir gern
+unangetastet.
+Der Wille Gottes wird gegen das Frauenstimmrecht mobil
+gemacht. Jch meine, dieser allzu menschliche Gott läßt mit sich
+reden, Hält er es nicht stets mit den Erfolgreichen? Spricht
+nicht der siegreiche Herrscher: Gott hat mir den Sieg verliehen,
+mir den Feind zermalmt?
+Und wenn die nächste Schlacht der Feind gewinnt, so war es
+wiederum Gott, der es also fügte. Auch der Zentrumsmann, der
+aus dem Wahlkampf als Sieger hervorgeht, schiebt dieses –
+Freidenkern so unwillkommene Resultat – dem lieben Gott in
+die Schuhe. Ein Gott fürwahr, der nicht immer seiner eigenen
+Meinung ist, sie sich vielmehr von einer diesseitigen Kamarilla
+ins Jenseits hinauf insinuieren läßt.
+Erobert das Stimmrecht, meine Schwestern, und ihr werdet
+diesen Gott an eurer Seite finden. Es scheint, daß im Himmel
+wie auf Erden der Erfolg entscheidet.
+Vorwärts! Aufwärts! meine flügelstarken Schwestern! Keine
+Höhe sei euch zu hoch, keine Ferne zu fern. Die Luft ist befahrbar
+geworden. Auch das nebelhafte, vermeintliche Luftschloß eurer
+Emanzipation wird bewohnbar werden.
+Vor euch – seht – das Land, das ihr mit der Seele suchtet,
+seit Jahrtausenden, das Land, das euch geistiger, sexueller und
+physischer Not entheben soll.
+Diejenigen, die euch mannhaft die gefährlichen Flügel
+stutzen wollen, kommen mir wie die Weltdamen vor, die böse
+werden, wenn andere Frauen ihre Kleiderfacons nachahmen.
+Sie meinen, daß ihre Kleider dadurch entwertet werden. So
+meint der Mann, die Wissenschaft und die Politik würde ent-
+wertet, wenn die Frau sich daran beteiligt.
+Dessen seid sicher: Rechte ohne Macht bedeuten nichts.
+So lange ihr politisch rechtlos bleibt, müßt ihr euch mit den
+Brosamen begnügen, die von des Herrn Tische fallen. Der
+Mann ist der geladene Gast beim Lebensmahl, ihr – die
+Zaungäste. Nur durch eine aktive Mitwirkung an der Gesetz-
+gebung könnt ihr eure Rechte als Mutter, Gattin, Erwerberin
+erfolgreich wahrnehmen.
+Jch lächle in mich hinein, wenn ich daran denke, wie all-
+mählich die Frage des Frauenstimmrechts sich entwickelt hat.
+Erst lachten alle. Einige Jahrzehnte später lachte die Majorität.
+Heut lacht nur noch die Minorität. Wer zuletzt lacht, lacht am
+besten – die Frauen. Noch wenige Jahrzehnte und das Frauen-
+stimmrecht wird eine Selbstverständlichkeit sein. Ja, der Mann
+der Zukunft wird schon mit der Vorstellung der absolut gleich-
+berechtigten Frau geboren werden.
+Lacht ihn aus – jenen mannsseligen Sanatoriumsarzt,
+der von krankhaftem Herrenstolz gebläht, jüngst verkündete:
+„Nur zum Dulden, Tragen, Dienen und zu nichts mehr wäre
+das Weib geboren.“
+Lernt eure Kraft kennen, meine sanften Schwestern, laßt
+euren gerechten ethischen Furor die Zügel schießen. Entreißt
+dem Mann das Monopol der Gesetzgebung. Monopole sind
+Hemmschuhe der Entwicklung. Mit solchem Monopol bildet
+das starke Geschlecht einen Männertrust, der sich gegen die
+Beteiligung der Frau an den gewinnbringenden Geschäften des
+Lebens wendet.
+Das Stimmrecht fordert!
+Und fragt ihr, meine schüchternen Schwestern, ob ihr nicht
+euer Stimmrecht an der Sonne der Zeiten sollt reifen lassen,
+bis es als köstliche Frucht euch von selbst in den Schoß fällt, so
+antworte ich: die Schatten müßt ihr bekämpfen, die die Kraft
+der Sonne brechen.
+Sollen wir etwa wie die Suffragettes unter Fanfaren-
+geschmetter die Werbetrommel rühren?
+Jch möchte hier einen Brief zum Abdruck bringen, den ich
+im Juni von einer Freundin erhielt, die gelegentlich einer eng-
+lischen Vergnügungsreise zufällig Augenzeuge eines großen
+Zuges der Frauenrechtlerinnen in London wurde.
+Sie schreibt: „Unerhört, was in den Zeitungen zusammen-
+gelogen wird! Hat man nicht bei uns den Eindruck, daß diese
+Frauenstimmrechtlerinnen ekelhafte Karrikaturen und lächerliche
+Auswüchse des weiblichen Geschlechts sind, die allerorten aus-
+gelacht werden? Glaub's nicht, glaub's nicht. Zehn- bis
+zwölftausend Frauen jeden Alters und Standes, vornehme
+Damen, junge Mädchen, Arbeiterinnen, Studentinnen, Doktor-
+innen, Gärtnerinnen, Schauspielerinnen, Pflegeschwestern, usw.
+usw. kamen in wohlgeordnetem Zuge vorbei, angemessen an-
+gezogen, die meisten „Damen“. Voraus ritt und ging Polizei.
+Musikbanden (Militärmusik zum Teil) spielten in Abständen,
+tausende von Bannern und Flaggen wehten. Auf beiden Seiten
+stand dichtgedrängt das Publikum, das mit ernster Teilnahme
+den Zug defilieren ließ. Jch stand im engsten Gewühl und
+habe kein höhnisches, unfreundliches Wort gehört. Viel
+sympathische Zurufe. Namentlich als die nach hunderten
+zählende Schar der Studentinnen und Graduierten kam, in „cap
+and gown“ wie’s ja hier alle Studenten tragen. Jch kann dir
+sagen, mir kamen bei dieser würdigen und sehr imposanten
+Demonstration geradezu die Tränen in die Augen und ich
+dachte dein. Der Verkehr in der ganzen westlichen Stadt war
+unterbrochen und niemand murrte. Abgesandte aus ganz Groß-
+britanien und den Kolonien beteiligten sich.“
+Jch halte diese stürmische Propaganda der Stimmrecht-
+lerinnen für nichts anderes als eine politische Taktik, die mög-
+licherweise dem Geschmack und dem Temperament derer, die
+sie in Scene setzen, gar nicht entspricht. Allein – sie haben
+begriffen, daß sie aus dem Dämmer der Wünsche und Be-
+gehrungen herausmüssen in den lichten Tag des Handelns.
+Und sie vertauschen die stumpfe Waffe des Worts mit der
+schneidenden der Tat. Zephire reinigen die Luft nicht. Der
+Sturm tut's. Heroismus ist's zuweilen, so zu handeln, wie
+man nicht handeln möchte.
+Petitionen, Reden, Schriften – sie schimmern nur matt
+und langsam durch die Kulturwelt. Oeffentliche feierliche
+Manifestationen wie die englischen gleichen Scheinwerfern. Jhre
+Leuchtkraft wirkt in weite Fernen hinaus.
+Die Frucht der politischen Rechte hängt für die Frauen
+noch hoch am Baum der Menschheit. Kraftvoll müssen sie
+sich aufrecken, der Gefahr eines Sturzes trotzen, um sie zu
+pflücken.
+Die Kreuzzüge des Mittelalters galten der Eroberung eines
+heiligen Grabes. Nicht ein Grab wollen die modernen Ritter-
+innen des Geistes den Ungläubigen entreißen, vielmehr um ein
+volles, lebendiges Menschentum ringen sie mit ihnen.
+Und sie werden siegen, denn mit ihnen ist der Geist der
+Zeit. Die Jdeen der Zeit – ein wogendes Aehrenfeld, das
+goldene Ernten verheißt. Jdeen, die in die Seelen derer sich
+versenken, die zur Aufnahme bereit sind. Das sind die Seelen
+der Menschen, denen das geistige Gehör so geschärft ist, daß
+sie die Stimmen der Zukunft vernehmen, deren Blick so geweitet
+ist, daß sie in der Tiefe die Schätze erblicken, die zu heben sind.
+Der Geist der Zeit! Ein Ringen ist's nach Freiheit, Licht,
+Luft, Wahrheit. Ein Losringen von ödem Konventionalismus,
+von Vorurteilen, toten Dogmen, von den giftigen Miasmen
+einer die Kulturwelt umspannenden Verheuchlung.
+Los wollen die Kindermenschlein vom harten Schulzwang.
+Los die Arbeiter von der Unwissenheit, die sie unfrei macht.
+Hinaus aus der Stickluft der engen Städte in die Freiheit der
+Gartenstädte drängen die Menschen. Die Dienstboten wollen
+freie Arbeiter werden. Und los vom Magdtum will die Frau!
+Die phänomenalen Errungenschaften der Technik sind eine
+treibende Kraft in dem rasenden Tempo der geistigen Aufwärts-
+bewegung. Grenzpfähle stürzen, die für Ewigkeit errichtet
+schienen!
+Jch denke wieder an das Bild einer berühmten Malerin.
+„Arme Seelen“ steht darunter. Ein langer Zug trauriger
+Frauen. Nicht eine sieht aus wie die andere. Verhüllte, Betende,
+Trotzige, Knieende, Schwärmerische, Verzweifelnde. Und alle
+drängen vorwärts, vorwärts, einem Ziele entgegen. Und das
+Ziel? Nichts als eine große leuchtende Helle.
+Die Seelen all der Frauen, die ihr Leben nicht leben durften,
+kämpfen mit uns für die siegenden Rechte der Frau, wie die
+Geister der Gefallenen in jenen sagenhaften Kriegen an der
+Seite der Lebendigen kämpften.
+Meine Asche in der Urne (da ich mich doch verbrennen
+lasse) wird wieder glühen, wenn die Pforten des Reichstags sich
+den Frauen öffnen werden.
+_
+Druck von A. W. SCHNEIDER
+Berlin W. 50
+ANSBACHER STRASSE 42-43
+Telephon: Amt Charl. 3811
+</text>
+  </TextCorpus>
+</D-Spin>

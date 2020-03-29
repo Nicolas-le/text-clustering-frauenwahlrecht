@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/martin_frauenbildung_1905</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-martin_frauenbildung_1905.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/martin_frauenbildung_1905</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-martin_frauenbildung_1905.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/martin_frauenbildung_1905</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-martin_frauenbildung_1905.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/martin_frauenbildung_1905</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-martin_frauenbildung_1905.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/martin_frauenbildung_1905</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-martin_frauenbildung_1905.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Wahre Frauenbildung</cmdp:title>
+        <cmdp:title type="sub">Ein Mahnwort an die Gebildeten</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Martin</cmdp:surname>
+<cmdp:forename>Marie</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Projekt: Texte zur Frauenfrage um 1900 Gießen/Kassel</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2013-06-11T19:37:41Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Gloning</cmdp:surname>
+<cmdp:forename>Thomas</cmdp:forename></cmdp:persName>
+  <cmdp:persName><cmdp:surname>Henß</cmdp:surname>
+<cmdp:forename>Melanie</cmdp:forename></cmdp:persName>  
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2013-06-11T19:37:41Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Internet Archive</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate.</cmdp:note>
+    <cmdp:ref target="https://archive.org/details/wahrefrauenbild00martgoog"/>
+    <cmdp:date type="importDTA">2013-06-11T19:37:41Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">47</cmdp:measure>
+        <cmdp:measure type="tokens">11600</cmdp:measure>
+        <cmdp:measure type="types">3466</cmdp:measure>
+        <cmdp:measure type="characters">82263</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:02:11Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/martin_frauenbildung_1905</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/martin_frauenbildung_1905</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/martin_frauenbildung_1905</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/martin_frauenbildung_1905</cmdp:idno>
+          <cmdp:idno type="DTADirName">martin_frauenbildung_1905</cmdp:idno>
+          <cmdp:idno type="DTAID">30471</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-30471-4</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Martin, Marie: Wahre Frauenbildung. Tübingen 1905.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Wahre Frauenbildung</cmdp:title>
+          <cmdp:title level="m" type="sub">Ein Mahnwort an die Gebildeten</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Martin</cmdp:surname>
+<cmdp:forename>Marie</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Tübingen</cmdp:pubPlace>
+            <cmdp:date type="publication">1905</cmdp:date><cmdp:publisher><cmdp:name>J. C. B. Mohr (Paul Siebeck)</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+          </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Verfahrung der Texterfassung: OCR mit Nachkorrektur.</p>
+<p>Anmerkungen zur Transkription:</p>
+<ul>
+  <li>Bogensignaturen: nicht übernommen</li>
+  <li>Druckfehler: dokumentiert</li>
+  <li>Kolumnentitel: nicht übernommen</li>
+  <li>Kustoden: nicht übernommen</li>
+  <li>langes s (ſ): als s transkribiert</li>
+  <li>rundes r (&#xa75b;): als r/et transkribiert</li>
+  <li>Vollständigkeit: teilweise erfasst</li>
+</ul>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+          <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#collections">ff</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Wahre Frauenbildung.
+Ein Mahnwort an die Gebildeten.
+Von
+Marie Martin,
+Oberlehrerin in Berlin.
+Tübingen
+Verlag von J. C. B. Mohr (Paul Siebeck)
+1905
+Inhalt.
+Die Not 1
+Irrungen und Wirrungen 12
+Das Ziel 28
+Der Weg 35
+— Alle Rechte vorbehalten. —
+Druck von H. Laupp jr in Tübingen
+Die Not.
+„Daß sie sich ganz vergißt und leben mag nur in den andern.“
+Es gibt ein feines kleines Buch „Frauentrost“. Darin
+heißt es: „Alle brachliegende Kraft ist ein Uebel für ihren
+Besitzer und ein Schaden für die Menschheit. Und wieviel
+weibliche Kraft liegt heute brach!“ Diese Not der Frau, des
+deutschen Volkes, erkennt jeder, der sich nicht aus irgend einem
+gröblich egoistischen Interesse, sei es persönlicher, sei es partei-
+politischer Art, die Augen zuhalten will. Die Wurzeln dieser
+verderblichen, des Volksglück untergrabenden Erscheinung aber
+und die Ziele und Wege der Abhilfe werden schwer gefunden.
+Das Problem „Frauenbildung“ steht unter so schillernder Be-
+leuchtung, wie wenig Kulturfragen, auch gibt es kaum eine
+Kulturfrage, deren Voraussetzungen und Grundlagen sich so
+schnell geändert haben, als alle die Verhältnisse, die der
+Frauenbildungsfrage zu Grunde liegen. Tatsache ist, daß die
+Frauenbildung nicht in dem lebendigen Fluß der übrigen
+Kulturentwickelung mit vorwärts geschwommen, daß sie also
+relativ zurückgeblieben ist- und Tatsache ist, daß wir Frauen,
+wie auch unsre Freunde und Feinde, unwiderleglich wissen,
+daß heute viel edle Frauenkraft brach liegt. Will man in
+das Verständnis dieser traurigen Erscheinung eindringen, so
+nützen allerhand weisheitsvolle Theorien über Frauenart und
+Frauenpflicht wenig ohne die praktische Untersuchung, wie
+sich die Not historisch entwickelt hat und also auch zu be-
+seitigen sei; ebenso aber nützen derartige Untersuchungen wenig,
+wenn man sie loslöst von der sorgfältigen Beachtung unsrer
+weiblichen Eigentümlichkeiten in Anlagen und Aufgabe.
+Das Bild der Weltkultur hat sich in den letzten 50 Jahren
+ungeheuer verändert, mit rasch zunehmender Schnelligkeit
+wirbelt alles durcheinander. Auf allen Gebieten werden Um-
+wertungen alter Werte versucht; verschlossene Erkenntnisgebiete
+haben sich geöffnet; mit neuen Mitteln dringen wir in unge-
+ahnte Welten ein. Die alten Formen, in denen unsre Vor-
+fahren ihr Denken, Glauben und Wollen für immer sicher zu
+halten glaubten, gleiten uns unter der Wucht und dem Wirbel
+der neuen Zeit unaufhaltsam aus den Händen, und viele zer-
+schellen auf dem harten Boden der neuen Wirklichkeiten vor
+unsern erstaunten, ja entsetzten Augen. Unter dem Krachen
+und Klirren der überlieferten Werte sucht alles sich vor dem
+furchtbaren Nichts zu retten, das auf uns zu lauern scheint.
+„Wer ist, der uns Hilfe tu, daß wir Gnad erlangen?“
+Der tobende Kampf ums geistige Dasein, um Wissen und
+Glauben, um Autorität und Freiheit, erinnert an ein Bild,
+das ich im Louvre mit erschütterter Seele sah. Die Sintflut
+ist hereingebrochen, ein Chaos von Menschen und Tieren kämpft
+in den Fluten den Todeskampf. Im Vordergrund ragt noch
+ein Felsblock empor, und auf seiner Platte steht ein alter
+Weidenstumpf. Ein Mann arbeitet sich hinauf, hat den Arm
+um einen Ast geschlungen, mit dem andern zieht er ein halb
+ohnmächtiges Weib mit einem kleinen Kinde an der Brust zu
+sich herauf. Aber man sieht, der Ast wird brechen unter der
+Last, im nächsten Augenblicke werden alle drei Menschen
+rettungslos zurücksinken. Ich habe stundenlang immer wieder
+vor dem Bilde gestanden in Angst und Hoffnung: wird's ge-
+lingen? oder wird das Verderben über den Köpfen zusammen-
+schlagen? Ich glaubte, den Ast krachen zu hören. Wie,
+wenn das Weib auch versucht hätte, mit den Wellen zu kämpfen
+und sich in die Höhe zu arbeiten, wenn es einen andern Ast
+zu ergreifen vermocht hätte, und beide hätten so gemeinsam
+sich und ihr Kind gerettet? „Ich will ihm eine Gehilfin
+schaffen, die um ihn sei,“ nicht „eine hilflose Last am Halse,
+die ihn niederziehen muß“, sagte Gott, als er das Weib er-
+gänzend neben den Mann stellte.
+Wenn man oberflächlich das Hasten und Treiben in
+unserm Leben ansieht, die altunheimliche Macht des Goldes,
+die Herrschaft des Genusses, die Jagd nach der Ehre und dem,
+was man so obenhin „Glück“ nennt, das Streben nach
+Karriere, nach Gunst der Großen, nach Macht und dem Platz
+an der Sonne, dann scheint es wohl, daß der Daseinskampf
+sich für die meisten in dem wirtschaftlichen Kampf erschöpft.
+Und wahrhaftig, hart und verwickelt genug ist er, Menschen-
+kraft genug verbraucht er, und genug Menschenglück verschlingt
+und zerstört er. Er formt die sozialen Probleme, gruppiert
+die Parteien und lenkt fast ausschließlich das politische Leben
+der Völker. Alle idealen Ziele und mit dem Brustton ge-
+sinnungstüchtiger Ueberzeugung ausgespielten sittlichen Forde-
+rungen scheinen nur Schleier über dem nackten, baren Dies-
+seitskampf:
+„Aus dieser Erde quillen meine Freuden, Und diese Sonne scheinet meinen Leiden.“
+Der derbe Realpolitiker gesteht es auch offen zu, daß er
+die geistigen und sittlichen Probleme nur für Begleiterscheinungen
+dieses realen Ringens hält, für unfaßbare Phantome, an
+denen der Gesunde sich nicht zergrübelt, die nur den im Kampf
+Untüchtigen eine Scheinbeschäftigung geben, den über dem ge-
+meinen Kampf stehenden die Zeit vertreiben oder den allzu
+differenzierten, in Zersetzung übergegangenen Naturen ein
+krankhaftes Bedürfnis seien. Blicken wir aber tiefer, ja,
+vermöchten wir mit einem Christusauge im Innern der Men-
+schen und in der Volksseele zu lesen, dann würden wir hinter
+dem Hasten nach Befriedigung den Durst nach Frieden er-
+kennen; wir würden mit den Ohren des Heilandes in dem
+lauten Egoismus des Kampfes das angstvolle Klopfen des
+Menschenherzens erhorchen, das aus der innern Einsamkeit
+des Egoismus sich heraussehnt in das Glück einer Liebe, die
+sich selbst vergißt und leben mag nur in den andern. Wir
+ahnen, daß die treibende Grundursache des ganzen Wirt-
+schaftskampfes, durch den wir unser Erdennest warm aus-
+polstern wollen zu äußerem Glück, hinter der Welt der
+Erscheinungen liegt in den tiefsten ewigen Bedürfnissen des
+Menschen noch Klarheit des Erkennens, Befriedigung des
+Fühlens, Reinheit des Wollens, Kraft des Handelns. Dann
+verschieben sich unsrer Betrachtung die Probleme des Lebens:
+die geistig ethischen sind nicht Begleiterscheinungen des wirt-
+schaftlichen Kampfes, sondern dieser ist nur die äußere Er-
+scheinungsform für das Grundproblem: Wahrheit, Glück,
+Frieden. Aeußere Erscheinungsform, aber notwendige. Denn
+nichts ist schwerer, als ohne äußere Kraftbetätigung innerlich
+kräftig zu bleiben, ohne Tüchtigkeit für strenge Arbeit doch
+innere Harmonie zu behalten. Die Möglichkeit, auf den Höhen
+des Lebens zu den nur Genießenden zu gehören, ist das
+furchtbarste Danaergeschenk, das Sterblichen zu teil werden
+kann, weil daran allzuleicht das Herz matt und der Wille
+lahm wird. Das ist nur zu sehr das Schicksal der „gebil-
+deten“ Frauenwelt gewesen. Das „du bist wie eine Blume“
+hat allzuoft die Frau in dürre Dornenwirrnis verschlungen,
+in die sie sofort ihre Lebenskreise nachlockt. Umgekehrt ist
+es ebenso ein menschenunwürdiges Schicksal, im äußern harten
+Daseinskampf so aufgerieben zu werden, daß man im Erden-
+staub erstickt, und daß nie ein Strahl aus einer höhern Welt
+die arme Seele in Ruhe trifft. Das ist das Schicksal der
+„Arbeiterin“, die unter der doppelten Last keucht, der Lohn-
+arbeit und der Mutterschaft, und unter der doppelten Be-
+lastung das Glück der einen und den Segen der andern Auf-
+gabe nicht mehr zu empfinden vermag. Diese armen Frauen
+reiben sich an der Schale der eigentlichen Lebenswerte auf,
+und ihren wahren Inhalt können sie nicht erfassen. Was
+Wunder, wenn die meisten von Begehrlichkeit, Unsittlichkeit,
+Stumpfheit und Haß zerfressen werden und diese Gifte weiter
+verbreiten im Volkskörper, dem Tod entgegen? Wenn nun
+in einem Volke alle Frauenkreise unter unnatürlichen Lebens-
+bedingungen stehen, die einen vor Arbeitsmangel, die andern vor
+Arbeitslast nicht dazu kommen können, in die tiefern Lebens-
+werte mit gesunder Kraft und ruhiger Einsicht einzudringen,
+dann ist doch recht eigentlich die Quelle der Volks-
+kraft trübe geworden und in Gefahr, zu versiechen.
+Der Zugang zu den Müttern ist gesperrt, die Kraft und die
+Freude des Muttertums geht verloren, und die allererste Be-
+dingung für die Möglichkeit, der Zukunft ein gesundes, glück-
+liches Jugendgeschlecht zuzuführen, ist unterbunden. Die Sorge
+um die sozialen Gefahren, die immer dunkler von unten auf-
+steigen und von allen Seiten die Gesellschaft zu überfluten
+drohen, um das Verderben der oberen Schichten zu hohlem
+Strebertum und unwahrem Scheingepränge, um die Spaltung
+der Stände, die Kluft zwischen Regierenden und Regierten,
+um das Schwinden der religiösen und sittlichen Werte nimmt
+dem Denkenden heute fast den Atem. Der eine will die Ge-
+fahren durch feste Autoritäten, der andre durch Soldaten und
+Polizei, der dritte durch Rechte, der vierte durch Freiheit und
+Gleichheit auf allen Gebieten, der fünfte durch Wissenschaft
+und Kunst beschwören. So zerarbeiten und zersorgen sich die
+Führer aller Kreise, die ein Herz für ihr Volk haben. Nur
+auf den einfachen Gedanken wollen die meisten nicht kommen
+und weisen ihn mit Energie von sich, sowie er an sie heran-
+tritt: daß nämlich eine Kultur krank werden und in einem
+bestimmten Stadium welken muß, wenn zu all den gefähr-
+lichen Rissen und Klüften noch die eine furchtbare Gefahr
+kommt, daß zwischen den geistigen Welten der Geschlechter
+ein Spalt entsteht, der nicht mehr überbrückt werden kann.
+Und diese Not ist an uns herangekrochen. Unsre Kultur ist
+eine allzu männliche, rein der geistigen Struktur des Mannes
+angepaßte, sowohl in ihren Idealen als in ihren Formen und
+ihrem Geschehen, und Frauenart hat zu wenig teil
+daran. Betrachten wir sie genau, soweit sich eine einheit-
+liche Haupterscheinungsform neben allen flutenden Unterströ-
+mungen fassen läßt. Untersuchen wir die Werte, die unser
+öffentliches Leben beherrschen. Eine hohe intellektuelle
+Blüte, neue Erkenntnisse von überraschender Klarheit, schöpfe-
+rische Erfindungen von größtem Lebenswert, höchste praktische
+Tüchtigkeit, eine Energie des Wissens und Könnens wie nie
+vorher, eine ungeahnte Schnelligkeit und Kraft der Ent-
+wickelungen: alles so recht der vorwärtsdrängenden Natur des
+Mannes entsprechende Erscheinungen, die Geschlossenheit und
+hohes Zielbewußtsein verraten. Wie könnte man sich an dieser
+kraftvollen Kultur freuen! Aber daneben? Ist unsre geistige
+Kultur auch ebenso in die Tiefe gedrungen, wie sie die Höhen
+erklommen hat? Umflutet sie kraftvoll strömend alle Volks-
+kreise und hebt die einzelnen hinauf zu der Höhe ausge-
+prägter Persönlichkeiten? Haben die geistigen Er-
+oberungen die Erkenntnis zu verbreiten vermocht, daß nie-
+mand für sich selbst auf der Welt ist? Wenn es wahre, un-
+gemischte Werte wären, die die Menschheit sich denkend und
+forschend und vorwärtsstrebend errungen hat, so hätten sie
+die Erkenntnis erweitern und vertiefen müssen, daß der
+Sirenengesang von dem „Sichausleben“ nur die Parodie sein
+kann zu der ernstesten Forderung: bestimme dich aus
+dir selbst!, die Kehrseite der hohen Wahrheit, daß jeder
+sein Maß in sich selbst suchen muß. Es müßte in der Welt
+von Persönlichkeiten wimmeln, die kein Schein blendet, keine
+Versuchung lockt, keine äußere Macht beugen kann, weil sie
+ihr Lebensideal sich selbständig herausgearbeitet und die Kraft
+gewonnen haben, es zu verfolgen. Wenn Christus heute
+wiederkäme, ob er sich wohl in unserm so hoch angelegten
+deutschen Herrenvolk, das fast 1500 Jahre offiziell unter der
+Zucht seiner Lehre gestanden hat, wesentlich heimischer fühlen
+könnte, als zu Jerusalem, wo er weinen mußte: „Ihr habt
+nicht gewollt“?
+Es wäre natürlich ein lächerliches Schlagwort einer ver-
+bohrten Frauenrechtlerin, sogenanntes „Altjungferntum“ schlimm-
+ster Sorte, wollte ich diese hochbedenklichen Erscheinungen, daß
+alle Erkenntnisse öffentlich das Ziel zu haben scheinen, den
+brutalen Willen zur Macht, die ungezügelte Herrschaft des
+Uebermenschentums zu stärken; daß alle Errungenschaften um-
+gebogen werden zu Kampfmitteln für Selbstbehauptung, Herren-
+recht; daß immer deutlicher und schonungsloser das Gesetz ge-
+predigt wird: erlaubt ist, was gefällt! immer scheuer die
+Forderung sich zurückzieht: erlaubt ist, was sich ziemt!
+— wollte ich das alles so kurzweg darauf zurückführen, daß die
+„edle deutsche Frau“ in unsrer Kultur zu kurz komme
+und zu wenig zu sagen habe. Mit frauenrechtlerischen Schlag-
+worten ist dieser Not ebensowenig abzuhelfen, als sie zu ver-
+schleiern ist durch den satten Philistertrost, daß in dieser besten
+aller Welten stets nur Kampfgesetze das Dasein geregelt haben,
+und daß die Ideale dazu da seien, darüber zu dichten und zu
+denken. Aber es dringt immer lebhafter, mit immer größerer
+instinktiver Sicherheit in den Besten der Zeit die Erkenntnis
+durch, daß in unserm Volk zu viel geistige Schulung und zu
+wenig sittlicher Wille herrscht. Freude am Wissen, Sehnsucht
+nach Erkennen, Uebung des Intellekts, Richtung auf das
+äußere und innere Sichdurchsetzen, also alles das innerlich
+flutende Leben, das auf Erfassen von Machtmitteln drängt,
+das ist allein geschult, geübt, gestärkt worden, alle andere
+tiefere Seelenkraft hat man ungeübt und ungeschult dem
+dunkeln Triebleben überlassen oder unter die blinde Macht
+des ewig Gestrigen, unter die tote Autorität des Herkömm-
+lichen gebeugt, also von zielbewußter Entwickelung ausge-
+schlossen. Unsre öffentliche Erziehung ist mit einem Netz von
+Berechtigungen überzogen wie mit grauen Herbstspinn-
+fäden; unser öffentliches Leben ist eingepreßt in ein totes
+Rang- und Kastensystem, ist zerklüftet in Parteiinteressen und
+wird verbraucht in sogenannten nationalen Interessen, in welt-
+politischen, konfessionellen Macht fragen. Gibt es auch noch
+eine einzige wahre Kulturfrage, die um ihrer selbst willen,
+um der inneren und sittlichen Entwickelung unseres deutschen
+Volkes willen angefaßt und gelöst würde? Alles läuft auf
+Kuhhandel unter den Parteien, auf politisch-taktische Macht-
+fragen, auf Gruppierung der Kräfte für ein äußerliches, wirt-
+schaftliches Sichdurchsetzen hinaus. Macht, Karriere, Aner-
+kennung, Reichtum: das sind die Götter, denen wir dienen.
+Und da wir uns weise dünkten, sind wir zu Narren gewor-
+den, streberhaft kletternd und aufbauschend, byzantinisch kriechend
+und unfrei in der Seele.
+Denn wir haben die edelsten Seiten des Seelenlebens, in
+denen die Wurzeln der Volkskraft stecken, nicht zu erziehen
+verstanden; es ist keine Harmonie der Bildung, keine freie
+schöne Persönlichkeitskultur entwickelt. Wir erzogen das Wissen
+und Denken und nicht das Fühlen; wir erzogen dann,
+als uns Deutschen das Glück lächelte und wir stark wurden
+als Volk, das äußere Handeln und nicht zugleich das
+innere Wollen. Es ist ja also ganz natürlich, daß
+Deutschland nicht verstand, seine Frauen mit heraufzuheben
+und an dem Wachsen der Kultur teilnehmen zu lassen. Wir
+dürfen es dem deutschen Michel gar nicht übel nehmen, daß
+er die Frauenbildung in unglaublicher Weise öffentlich ver-
+nachlässigt und privatim in verhängnisvoll falsche Bahnen
+leitete. Es war wirklich kein böser Wille, denn der Deutsche
+hat vielleicht am allerehrlichsten stets die Absicht gehabt, seine
+Frauen zu ehren. Es verstand's nicht besser; ein Schelm gibt
+mehr als er hat. Alles das, was das eigentümliche Leben
+und die treibende Kraft der Frauenseele ausmacht, das
+breit und tief flutende Gefühlsleben, der zäh emporkletternde
+Wille, das sind gerade die Seiten des Seelenlebens, mit denen
+die deutsche Erziehung überhaupt nichts anzufangen wußte,
+und die sie daher dem Zufall des Lebens überließ, ob sie
+wuchern oder verkümmern wollten. Daß dagegen die intellek-
+tuelle Schulung auf Berechtigung oder Gelehrtentum — denn,
+wem die Wissenschaft nicht die tüchtige Kuh für seine Karriere
+ist, dem ist sie gleich die hohe himmlische Göttin, deren ab-
+strakte Anbetung Selbstzweck wird! — eine Bildung sei, die
+sich für Frauen nicht eigne, diese Ansicht können wir den
+männlichen Leitern der Kultur wirklich nicht übel nehmen.
+Sollten sie sich selbst unnötig Konkurrenten heranzüchten
+und zugleich durch abstraktes Gelehrtentum die Frauen
+ihren natürlichen praktischen Aufgaben entfremden? Eine
+andre Auffassung von Bildungswerten kennt das öffentliche
+Leben nicht.
+Es ist also eigentlich einseitig, über die Art der Frauen-
+bildung zu klagen. Man muß die ganze Richtung der Bil-
+dung beklagen, die dem Mann vielleicht verhängnisvoller noch
+ist, als der Frau. Denn es ist schlimmer, in falscher Richtung
+festgefahren und mit seinen Kräften engagiert zu sein, als in
+den Kräften brach zu liegen, zumal Frauenkraft nie ganz
+brach liegen kann, weil sie von der Natur und ihren natür-
+lichen Aufgaben so stark in Anspruch genommen wird, wo
+immer Natur an die Frau heran kann. Es ist rührend und
+köstlich zu beobachten, wie Mädchen, die an Inhaltlosigkeit
+ihres Lebens, an fehlenden Aufgaben und an falscher Bildung,
+also an Verkümmerung ihrer Anlagen kranken und darum
+eitel, oberflächlich, gewissenlos, kokett, genußsüchtig und klatsch-
+haft geworden sind, plötzlich umkehren, alle verkrüllten
+Blätter auseinanderfalten und neue Kräfte treiben, sowie sie,
+nicht allzuspät, auf den Boden der Natur zurückversetzt, sowie
+sie Frau und Mutter werden. Freilich unter einer Bedingung,
+nämlich der, daß sie geachtet und geliebt werden und achten
+und lieben können. Denn gerade solche Mädchen, hungrig
+und dabei in der Seele unentwickelt und urteilsunfähig,
+schließen leicht skrupellos Ehen, die sie nur noch tiefer in das
+Verderben hineintreiben. Eine unbefriedigte Frau ist noch
+elender als ein unbefriedigtes Mädchen. Ihr eignes Leben
+ist hoffnungslos und zugleich eine Unglücksquelle für ihren
+ganzen Lebenskreis.
+Es ist der Vorzug des weiblichen Geschlechts, daß es viel
+breiter und unauflöslicher an die Natur gebunden ist als der
+Mann. Die Frau, deren Naturaufgaben, ergänzende
+Gefährtin des Mannes und Mutter eines heranwachsenden
+Geschlechts zu sein, ihr ganzes Leben ausfüllen und ihre Kräfte
+voll in Anspruch nehmen, ihr Lebensberuf sein soll, ist
+die natürliche Vertreterin dessen, was sich ziemt, und sie
+verliert sich schwerer — dann freilich auch hoffnungsloser und
+ekelhafter! — von der Natur ab, zu der sie jedes Kind, das
+zur Welt kommt, zurücklockt. Dafür aber wird es der Frau
+viel schwerer als dem Manne, die richtige Vorbereitung für
+den Beruf und die richtige Weiterentwickelung der Bildung
+zu finden und zu für sie gesunden Kulturverhältnissen
+zu kommen. Den Mann dagegen hält seine Naturauf-
+gabe weniger in den gesunden Schranken, er wird viel leichter
+der Natur untreu nach dem Schema: erlaubt ist, was gefällt.
+Dagegen findet sich für ihn auch viel leichter ein glatter Weg
+zur Bildung und allseitiger Kultur, weil sein Lebensberuf
+nicht von seiner Naturaufgabe abhängt, sondern ihm klare,
+äußere Entwickelungsziele steckt, die ihn auf den Weg geistiger
+Bildung, immer höherer Kultur, weisen.
+Unbefriedigt müssen beide Geschlechter sein, wenn ihnen
+das Leben keinen ihren Anlagen entsprechenden Lebensinhalt,
+keine ihrem Wesen entsprechenden Aufgaben bietet; oder
+wenn diese Aufgaben wohl da sind, aber ihre Anlagen
+nicht entsprechend entwickelt wurden, also verfaulen oder ver-
+trocknen mußten, folglich den Aufgaben nicht gewachsen sind.
+Sowie der Kontakt zwischen Anlagen und Aufgaben im
+Menschenleben verloren ist, dann geht das Unglück an, das
+wissen wir wohl alle, Mann und Weib. Dann beginnt das
+kraftlose Suchen ohne Finden, das Haschen nach Befriedigung
+im Genuß, da der Frieden der Pflichterfüllung
+verloren ging. Dann macht man die furchtbare Faust-
+erfahrung:
+„so tauml' ich von Begierde zu Genuß, Und im Genuß verschmacht' ich nach Begierde,
+sei es, daß der Mensch in die wüsten, verlorenen Tiefen grober
+Sinnlichkeit gerät, sei es, daß er bei Kaffeetasse, Klatsch und
+Nichtstun sein Heil sucht.
+Aber es leuchtet ein, daß die verkümmerte, mißleitete
+Frauenkraft, leeres oder überbürdetes oder gar vergiftetes
+Frauenleben, für ein Volk noch eine ganz andre Gefahr be-
+deutet als irgendwelche Verirrungen des Männerlebens. Falsche
+Kulturentwickelungen können zurückgeführt, Kulturnöte können
+gehoben werden, wenn auch unter noch so vielen Opfern.
+Wo aber der Zusammenhang mit der Natur selbst unterbun-
+den wird, wo die Quellen verseucht werden, woher soll da
+Heilung kommen? Darum ist es ein wahres Wort: ein
+Volk steht so hoch, als seine Frauen stehen.
+Irrungen und Wirrungen.
+Weil bei der einseitig männlichen Entwicklung unsrer Kul-
+tur auf Wissen und Macht hin die Aufgabe der Frau an der
+geistigen Welt nicht erkannt wird, weil man die für glückliche
+Ergänzung notwendigen Gegensätze zwischen den Geschlechtern
+nicht natürlich faßt, sondern künstlich konstruiert, so leidet nun
+unser ganzes Volk auch geradezu wirtschaftlich unter einer
+falschen Entwickelung und falschen Stellung seiner Frauen. Es
+bestätigt sich hier auf dem Kulturgebiet ein Gesetz, das man
+im Körperleben längst durch bittere Erfahrungen erkannt hat.
+Wenn Organe, deren Funktion im Körperhaushalt schwer
+nachweisbar sind, durch Vernachlässigung in Wucherung oder
+Verkümmerung verfallen oder gar entfernt werden müssen,
+dann gerät schließlich doch der ganze Körper in krankhafte
+Zustände, und man erkennt zu spät, daß diese Organe wohl
+nötig waren, wenn der Körper gesund bleiben sollte.
+Wie man die Frau weder Kaufmann, noch Hand-
+werker, noch Bauer werden ließ, so wollte man sie, sehr
+richtig, auch nicht in der Gelehrtenzunft dulden. Und
+trotz aller schönen Redensarten von Persönlichkeitsbildung wußte
+man aus aller höhern geistigen Bildung nichts bessres zu ma-
+chen als eine intensive Berufsvorbildung für bestimmte höhere
+Berufe, vollständig zugeschnitten auf bestimmte Berechtigungen,
+von oben nach unten, von rechts nach links zerschnitten in
+Karriereetappen, mit chinesischen Mauern bestimmter Rang- und
+Klassenvorrechte geschützt. Pegasus im Joche! So ist die hö-
+here geistige, die wissenschaftliche Bildung nicht nur das tabu
+des Mannes, sondern geradezu bestimmter männlicher Stände
+geworden. Wie schwer können sich noch heute die „Schrif-
+tsässigen“ entschließen, reale und praktische Bildung neben ihrer
+alleinseligmachenden als gleichberechtigt gelten zu lassen. Diese
+Schriftsässigenbildung ist nun noch so schön an jeder Etappe
+des Bildungsweges öffentlich durch Examina abgestempelt,
+durch die, wie die Erfahrung lehrt, der Schafskopf, der das
+skrupellose Ochsen versteht, oft glatter schlüpft, als die selb-
+ständige Natur, der alles Wissen nur Unterlage zum eignen
+Denken wird. Sicherlich bedarf es auch gegenüber dieser ganz
+unfreien geistigen Bildung, die mit den Kampfbedingungen
+des öffentlichen Lebens allzusehr rechnet, nur geeigneter, kraft-
+voller Persönlichkeiten, um alle eingeschlossenen Werte zu le-
+bendiger Blüte und Frucht zu bringen. Daß sie aber leider
+auch das geeignete Element ist für aalglattes und skrupelloses
+Strebertum, das sich aus ihr nur die geistigen Hülsen und
+nicht die sittlichen Lebenswerte holt, das die unbedingte Sub-
+ordination, die die äußere Staatsordnung beherrschen muß,
+ohne Bedenken auf das flutende, ihm ganz fremde innere Le-
+ben überträgt, sich im äußern Enthusiasmus erschöpft und aus
+jedem Ideal ein goldnes Kalb zu formen weiß, und daß diese
+inferioren „gesinnungstüchtigen“ Herdenmenschen die wahre
+höhere Bildung stets gegen Einbrüche eines ihnen fremdartigen
+Geistes schützen möchten, das ist leicht erkennbar. War die höhere
+Bildung einmal unfrei geworden als Berechtigungsmittel, so
+war ihr Abschluß gegen Unberechtigte und — Frauen selbst-
+verständlich. Entweder kann „höhere“ und höchste Bildung
+nur frei wie ein Paradiesesstrom durch ein Volk rauschen,
+jedem zugänglich, der Durst hat und trinken will; oder sie
+wird eingeschlossen und mit flammendem Schwert verteidigt
+gegen jeden, der nicht zu den Privilegierten gehört und das
+Machtmittel nicht benutzen soll. Wir Deutschen, wir neigen
+zu der letzteren Form der Bildung, und wir werden nächstens
+den traurigen Ruhm erleben, uns dadurch von allen andern
+Kulturvölkern, besonders in der Berechtigung der Frau auf
+die Bildungsgüter des Volkes, zu unterscheiden.
+Zwei Gründe sind es, die dem geistig privilegierten Manne
+so gefährlich erscheinen lassen, uns Frauen höhere geistige Bil-
+dung frei zugänglich zu machen.
+1. Diese unfreie Berechtigungsbildung ist ein Konkurrenz-
+mittel. Ließe man die Frau daran ohne Einschränkung teil-
+nehmen, so würde der Mann einfach, besonders bei der heu-
+tigen ungesunden wirtschaftlichen Lage der Frau, den Kreis
+seiner Konkurrenten vergrößern und den Konkurrenzkampf
+verschärfen. So leicht gibt kein Stand und kein Lebenskreis
+freiwillig ein Privilegium aus der Hand, und so dumm ist
+auch der Mann nicht, daß er Bildung als Konkurrenzberech-
+tigung dem weiblichen Geschlecht auf dem Präsentierbrett ent-
+gegenbrächte. Im Gegenteil, er, der viel Gewitzigtere und
+Erfahrenere, sieht schon die Konsequenzen für diesen Kampf
+voraus, wo wir Frauen noch gar nicht an wirtschaftliche
+Rechte denken und nur an der Wissensquelle zu trinken be-
+gehren, weil wir Durst haben. Nur keine wahrhaft höhere
+Schulbildung, denn — dann drängt die Frau zum Studium!
+Nur kein Recht auf Studium, denn — dann drängt die Frau
+in die höheren Berufe! Nur keine höheren Berufe, denn —
+da kann sich der Mann nicht verdrängen lassen!
+Dieser einfache, zwar natürliche, aber brutale Konkur-
+renzkampf des Mannes gegen die Frau wird zum teil ganz
+offen und ehrlich geführt. Wir Frauen müssen ihn auch ganz
+einfach verstehen und die Schwierigkeit der Lage anerkennen.
+Der Mann will und muß sich und — nicht zu vergessen! — sei-
+ner Familie die Daseinsbedingungen in dem harten Getriebe
+des Lebens schützen, denn es tauchen niemals neue Rechte auf
+und setzen sich durch, ohne alte Rechte zu verletzen. Schwerer
+wird es uns Frauen, die wir von dem harten Leben eben-
+falls, wir mögen wollen oder nicht, zum wirtschaftlichen Kampf
+gezwungen werden, diesen Kampf ohne Bitterkeit zu führen,
+wenn unsre Gegner mit hohen Phrasen die Waffen, mit denen
+sie uns doch einfach aus dem Felde schlagen wollen, umwickeln.
+Zwar wissen wir, daß alle Parteikämpfe, die lediglich auf
+wirtschaftlichen Interessen beruhen, alle Völkerkämpfe um
+Vormacht und Eroberungen stets unter den höchsten idealen
+Redensarten, unter sittlichen Entrüstungen aller Art ausge-
+fochten werden. Es sind ja auch nicht bloße Redensarten,
+sondern von den Lebensinteressen des Ich aus färben sich alle
+Vorstellungen des Individuums und der Völker. Aber trifft's
+uns Frauen selbst, so empfinden wir diese Kampfesart bitter
+als Unwahrheit, um so bitterer, als wir selbst doch nicht durch
+äußere Machtmittel, sondern nur durch das sittliche Recht, die
+ideale Wahrheit unsrer Forderungen siegen können. Irrtum
+und Selbsttäuschung ist nun die Behauptung: man ver-
+schlösse uns Bildungsberechtigungen und bestimmte Berufe aus
+Sorge für unser Wohl, für unser weibliches Glück. Wäre
+das Wahrheit, dann sähe die Welt anders aus. Dieser Vor-
+wand ist darum so fadenscheinig, weil die Sorge um unsere
+Ueberlastung oder um die Gefahr der Unweiblichkeit stets
+vollkommen zusammenfällt mit der Konkurrenzgefahr. Wohl
+muß man sich als Vater, Bruder, Onkel und Freund ent-
+schließen, selbständige Berufe für die unverheiratete Frau zu
+schaffen, und je enger die Beziehungen sind, um so günstiger
+möchte man im Einzelfall den weiblichen Erwerb ausstatten.
+Die unversorgten Töchter und Schwestern drücken schwer und
+sind unbequem. Aber doch beweist sowohl die Wahl der zu-
+lässigen Frauenberufe wie die Art der Berufsvorbildungsmög-
+lichkeiten deutlich die hinter allem Spezialinteresse lauernde
+Konkurrenzstellung. Denn die Frauenberufe werden nicht —
+trotz aller Scheinphrasen — sorgfältig, ritterlich ausgesucht für
+das schwächere, im Lebenskampf hilflosere und ungewöhntere
+Weib, nach dem entsprechenden Inhalt, den sie dem Frauen-
+leben geben könnten, nach der Anpassung an ihre natürlichen
+Anlagen; sondern ihre Billigung untersteht ganz andern Ge-
+sichtspunkten. Man fragt praktisch: welche Berufe kann der
+Mann am besten ohne Schaden entbehren? Der Schneider
+erklärt darum den Beruf der Schneiderin, der Arzt den der
+Aerztin — während der Hebammenberuf für weiblich zulässig
+erklärt wird — der Lehrer den Beruf der Lehrerin für un-
+weiblich und für die Frauen selbst verhängnisvoll! Trotzdem
+wird sorgfältig darüber gewacht, daß den selbstverständlich
+geringeren Rechten und einem geringern Lohn der Frauen
+doch die ganz gleichen Pflichten entsprechen, die der Männer-
+beruf fordert. O, es kommen im Konkurrenzkampf nicht viel
+hohe und edle Regungen zu Tage, daß Gott erbarm! Die
+zweite Frage, scheinbar aus Sorge für die weiblichen Kräfte,
+lautet: welche Berufe erfordern die kürzeste, billigste und ein-
+fachste Vorbereitung für das schwächere Geschlecht? Folge: im
+Beruf können diese Frauen die Konkurrenz mit dem Manne nicht
+mit Erfolg aufnehmen, denn sie sind nicht so tüchtig vorbe-
+reitet, wie er. Und es entwickelt sich das Streben bei der
+nachgebenden, im Kampf ängstlichen Frau, möglichst ohne
+gründliche Vorbereitung zu einem Beruf zu kommen. Der
+Ernst der Forderung gründlicher Berufsausbildung kommt vielen
+Frauen nicht zum Bewußtsein. Daher so viel untüchtige Stützen,
+Hausdamen, Gesellschafterinnen und Erzieherinnen; daher
+wenden sich die Mädchen Berufen zu, die wenig Vorbereitung
+erfordern, aber auch dem weiblichen Wesen wenig Befriedi-
+gung gewähren. Eine Menge unbedachter oder gar nach Ent-
+täuschung freudloser Mädchen strömen skrupellos in die herz-
+losesten mechanischsten aller Berufe aus diesen Gewohnheits-
+gründen ein. Sie werden nach kurzer, notdürftigster Vorbe-
+reitung Buchhalterinnen, Telegraphistinnen, Schalterbeamtinnen
+und wie diese ärmsten aller -innen alle heißen. Zunächst
+freuen sich die Mädchen an dem geringen Verdienst, der ihnen
+ungeahnte Fülle scheint und sie vor drängender Not schützen
+wird. Bald aber kommt die öde, tötende Gleichmäßigkeit
+dieser Berufe zum Bewußtsein, die trotzdem stärkste Nerven-
+spannung fordern, dann dringt die Nervosität an sie heran mit
+allen ihren Gefahren für Leib und Seele; die Versuchungen
+winken in der schrecklichen Unausgefülltheit der innern Be-
+dürfnisse, und wie manche taucht unter in dem Beruf, dessen
+tanzendes, leichtes Verdienst keine Konkurrenz ist für
+Männerarbeit. „Wer unter euch ohne Sünde ist, der werfe
+den ersten Stein auf sie!“ An die Aufrichtigkeit der öffent-
+lichen Sorge um Weiblichkeit und um wahrhaft weibliche
+Frauenberufe können wir erst glauben, wenn man wirklich
+nach dem Lebensinhalt der Berufe für die Frau
+entscheidet, und wenn man sie vollwertig dafür aus-
+zurüsten sucht. Bis jetzt ist die Hauptsorge nicht, den hilf-
+losen Frauen zu helfen, auch nicht, die Frauenkraft zum Wohl
+des Ganzen in Dienst zu stellen, sondern nur, die Frauen
+möglichst wenig unbequem für die Gesellschaft und den Männer-
+beruf unterzubringen.
+Die Gesellschaft! Da zeigt sich uns ein zweites Konkur-
+renzinteresse für den Kampf gegen eine gründliche geistige
+Bildung der Frau. Es gilt, das Philistertum der Frau
+oder das pflichtlose Blumenleben der innerlich unselbständigen
+Dame zu schützen, die ihre Scheinherrschaft bedroht sieht
+durch die neuen Bildungsforderungen. Darum kämpfen diese
+beiden minderwertigen Frauentypen auch erbittert Seite an
+Seite mit dem männlichen Gegner gegen jede Vertiefung der
+Frauenbildung; denn allerdings, ihre Art Weiblichkeit ist schwer
+bedroht. Sie rufen den „galanten“ Mann an ihre Seite, und man
+kann oft genug hören, daß mit der Unselbständigkeit der
+Frau auch die Höflichkeitspflichten des Mannes gegen die
+Frau verschwinden sollten. Ein glänzender Beweis, daß all-
+zuviele unsrer gesellschaftlichen Formen ein Deckmantel der
+Lüge sind, und daß die gesteigerten Höflichkeitsformen im
+Verkehr der Geschlechter, die sich nicht genug tun können in
+„gnädig“ und „Gnädigste“, in Handküssen und Ritterdiensten,
+nicht ein Ausdruck der gesunden Achtung vor dem Weibe sind,
+sondern ein üppiges Spiel des Starken mit der Schwachen,
+eine Luxusblüte, dem Balzen des Auerhahns an Wert ver-
+gleichbar. Ernste Frauen von sicherm Wertgefühl werden
+solche hohle trügerische Formen gern vermissen, wenn ihnen
+dafür die wahre Achtung des sittlich reifen Mannes bleibt.
+Wie mag es nur kommen, daß es dem Mann so ganz
+unendlich schwer fällt, klar denkend sein Verhältnis zum
+Weibe zu fassen? Immer wird ihn da in stärkster Weise sein
+triebmäßiges Fühlen bestimmen, und der ruhige Intellekt
+wird ihn im Stiche lassen. Keine auf Gleichheit beruhende
+Konkurrenz wird so erregt und zornig bekämpft als die Kon-
+kurrenz der Frau; keine Fehler werden so milde lächelnd ver-
+ziehen als die weiblichen Fehler, die dem männlichen Wesen
+entgegenkommen ; keine weiblichen Fehler werden so schonungs-
+los verdammt als die weiblichen Fehler, die den Trieben des
+Mannes entgegenstehen. Es ist das unwiderleglichste Zeugnis
+für das Ergänzungsbedürfnis der Geschlechter, noch erkennbar
+in dieser Entartung, daß der Mann nicht nur mit solcher
+Leidenschaft den Kampf gegen die Ungleichung der Frauenart
+an männliche Lebensformen bekämpft, sondern oft die koket-
+testen, oberflächlichsten Frauenkapricen oder das ödeste Frauen-
+philistertum der sog. guten Hausfrau leichter und lieber er-
+trägt als ebenbürtige ernste Frauenbildung.
+2. Damit kommen wir zum zweiten Grund der Feind-
+schaft gegen vollwertige Frauenbildung, zu der Furcht vor An-
+gleichung ihres Wesens an Männerart. Zum Teil beruht sie
+auf der oben besprochenen einseitigen Entwickelung der höhe-
+ren Bildung zum Berechtigungsmittel, zum Teil auf einer fal-
+schen Auffassung der Gefahr. Besteht der erste Grund in ei-
+nem egoistischen Kraftübergriff des Mannes in die Menschen-
+rechte der Frau, der sittlich überwunden werden muß, so
+ist der zweite dadurch noch verhängnisvoller, daß er in der
+höchsten Sittlichkeit unsrer besten und feinsinnigsten
+Freunde seine Wurzeln hat. Die ritterlichsten Männer, die
+beglücktesten Gatten, die dankbarsten Söhne meinen, sie müßten
+sich unsrer für uns und die Welt verhängnisvollen Lust nach
+den Früchten vom Baum der Erkenntnis entgegenstellen. Alles
+Schöne, alles Beglückende, alle Reinheit und aller Friede ist
+dem reinen Mann mit der Frau verknüpft. Was gab seiner
+frommen Mutter solche Macht über seine wilde, unruhige
+Seele, daß er sich vor ihren einfachen, vielleicht sehr unlogi-
+schen Worten beugte? Nicht ihre Geistesbildung, sondern die
+geheimnisvoll aus Naturtiefen strömende Mutterliebe. Was
+reizt, lockt und entzückt ihn am Mädchen, an der Braut, an
+der Frau und der Mutter seiner Kinder? Was gibt diesen
+Frauen den unwiderstehlichen Einfluß auf sein Leben? Wo-
+durch berühren ihn überhaupt Frauen so mächtig sympathisch
+und füllen eine leere tote Stelle in seiner Seele befriedigend
+aus? Immer sind es Gaben, die ihm fehlen, immer ist es
+das ihn Ergänzende, nie das Gleiche in der
+Frau, das ihm in Haus, Leben und Seele quellendes Glück
+bringt. Dieses Glück muß er verteidigen und vor Zerfall
+bewahren. Jede Angleichung der Frauenseele an Männerart
+muß dieses natürliche Glück zerstören für alle Teile; sie würde
+das Menschenleben ärmer machen und seiner stärksten An-
+triebe zur Vervollkommnung berauben. Wie sehr geben wir
+Frauen darin diesen Männern recht! Selbst um den Preis
+eines ewig ungestillten Durstes dürften wir keine Bildung er-
+sehnen, die einer so verhängnisvollen Entwickelung Vorschub
+leistete. Mit Schmerz und Entrüstung weisen die ernsten
+Frauen, die die Sonderaufgabe des Weibes in der Mutter-
+pflicht und der Ergänzung des Mannes für ihr
+Geschlecht erkennen, die grauen Theorien von den mechanisch
+gleichen Menschenrechten auf gleiche Bildung ab, die eine ein-
+fach radikale Forderung des Sichdurchsetzenwollens enthalten,
+das böse „Sichausleben“, das das Glück der Menschen narrt,
+wie die schillernde Frucht: „Ihr werdet sein wie Gott, und
+wissen, was gut und böse ist!“ auch die Menschheit stets nur
+um ihr Glück betrügt, weil sie ein tiefes wahres Sehnen der
+Menschenseele in eine Lügenfratze verkehrt.
+Aber wie verhängnisvoll verkehrt, wie absolut falsch ist
+nun die Folgerung, die man für die weibliche Bildung aus
+dieser Grundforderung zieht! Ich sagte schon, es fällt dem
+klügsten, gebildetsten Manne schwer, die Frau intellektuell zu
+verstehen. In seiner Seele spiegeln sich klar nur die Gegen-
+sätzlichkeiten unsrer Natur, die sein Fühlen erregen und ihn
+treiben, bei uns Ergänzung zu suchen. Dagegen wird er
+schwer dem Gleichen in uns gerecht, von dem Schleiermacher
+sagt: „Ich glaube an die unendliche Menschheit, die da war,
+ehe sie die Hülle der Männlichkeit oder Weiblichkeit annahm“.
+Die Lebensgesetze, nach denen die weibliche Psyche sich in-
+tellektuell entwickelt, faßt er offenbar außerordentlich
+schwer, und er versteht den weiblichen Intellekt entweder als
+etwas zu Gleiches oder als etwas zu Grundverschiedenes im
+Verhältnis zum männlichen Geist. Zu grob faßt er die feinen,
+durchgehenden Unterschiede, und zu derbe glaubt er sie regu-
+lieren zu können. Wie der weibliche Körper bis in jedes
+Haar und jede Fingerspitze und jede Zelle hinein eben „weib-
+lich“ ist, und ist doch Fleisch von seinem Fleisch und Bein von
+seinem Bein, so ist auch die Frauenseele bis in jedes Gefühl
+und jeden Trieb und jede Vorstellung und jedes Einzelgesetz
+der Bewußtseinsvorgänge hinein absolut anders abgetönt als
+die männliche Psyche und doch so gleich in jedem Bedürfnis
+und aller Entwickelungsfähigkeit. Sie ist geradezu einer Ver-
+männlichung gar nicht fähig, höchstens einer Verkümmerung
+zur Geschlechtslosigkeit, wenn ihre besten Kräfte brach liegen
+gelassen werden. Wenn sich die bedenklichen Erscheinungen
+des sog. Mannweibtums in einem Volk zu mehren beginnen,
+wie viele jetzt bei uns behaupten wollen, dann hängt das
+nicht von männlichen Bildungselementen ab, sondern von einer
+allgemeinen tiefbegründeten Volkskrankheit. Wo die Männer
+weibisch werden und das Rückgrad verlieren, da werden die
+Weiber männisch. Dem hohlen Strebertum, dem Stutzertum,
+dem kleinlichen Egoismus und zügellosen Genießen des männ-
+lichen Geschlechts entspricht stets Emanzipationssucht, Unweib-
+lichkeit, Unfähigkeit zur Hingabe an das Muttertum bei der
+Frau. Wenn bei einem Geschlecht diese Verkümmerungserschei-
+nungen stärker zu Tage treten als beim andern, so würde
+das höchstens ein Beweis dafür sein, daß es momentan unter
+noch naturwidrigere Lebensbedingungen gestellt ist als das
+andre. Aber an Bildungseinflüssen liegt es nicht. So wenig
+es männliche Speisen gibt, die den Körper männlich machen,
+wenn er nicht männlich war, oder weibliche Speisen, die zarte
+Weiblichkeit produzieren, so wenig gibt es ein Wissen, oder
+eine Kraftübung, die den Geist männlich macht, oder Erkennt-
+nisse, die die angeborene Weiblichkeit gefährden könnten in
+ihrem Wesen. Sondern soweit Wissen und Erkennen Wahr-
+heit gibt, so weit gibt es Kraft, die innern Anlagen zu
+entwickeln; soweit Denken eine Kraftübung ist, wird es
+der männlichen wie weiblichen Entwickelung zu gute
+kommen; soweit die geistige Entwickelung in falsche Bahnen
+geleitet wird, soweit bietet sie die Verkümmerungsgefahr so-
+wohl dem männlichen wie dem weiblichen Wesen. Es ist einer
+der folgenschwersten psychologischen Irrtümer: Unterricht, Aus-
+bildung, wissenschaftliche Arbeit für Schöpferarbeit, statt
+für Entwicklelungsarbeit zu erklären. Die Seele ein
+unbeschriebenes Blatt, jedem Schreiber preisgegeben, ein leerer
+Raum, den weisheittriefende Erzieher und Professoren mit
+Vorstellungen füllen können, damit das Getriebe des geistigen
+Lebens erwache: da steckt der Irrtum! Wie kann man im
+Jahrhundert der Naturwissenschaften, bei unbestrittener Aner-
+kennung der biologischen Grundgesetze des Lebens, so heillos
+rückständig an der Bildungsfrage herumdoktern, gleich den
+alten Quacksalbern, die mit Pillen und Mixturen glaubten
+den Krankheiten zu Leibe gehen und durch ihre Kunst im
+Menschen beliebig Neues schaffen zu können!
+Nimmermehr kann Frauenart durch „männliche“ Bildung
+gefährdet werden. Unsre Freunde sollten wirklich das Vor-
+urteil überwinden, als hätten sie die Aufgabe, Weiblichkeit
+im Mädchen zu züchten; als müßten sie die Rationen des
+Wissens so vorschneiden, daß ja nicht plötzlich Männlichkeit
+des Wesens herauswüchse. Denn Männlichkeit ist doch nicht
+eine höhere Potenz, ein weiterer Entwickelungsgrad der Weib-
+lichkeit, sondern ein in der Grundanlage verschiedener Gegen-
+satz, der sich jedenfalls vor der Zeit entscheidet und heraus-
+bildet, in der die Schulmeister mit ihren ABCbüchern an
+das junge Wesen herankönnen. Darum ist es eine lächerlich
+veraltete Anschauung, deren gröblicher Irrtum schon durch
+die Elemente naturwissenschaftlicher Erkenntnisse aufgedeckt
+wird, Wissenschaft und Entwickelung des Intellekts für dem
+männlichen Wesen naturentsprechend, Halbbildung und geistige
+Unklarheit für die Atmosphäre wahrer Weiblichkeit zu er-
+klären. Der Verwechselung von Art- mit Gradunterschieden
+bei der Auffassung der psychischen Geschlechtseigentümlichkeiten
+haben wir es zu danken, daß man niemals, außer in den
+technischen, also mehr körperlichen Unterrichtsfächern, den Mäd-
+chen einen andern Unterricht zu geben wußte als den
+Knaben, trotz aller Theorie über weibliche
+Eigentümlichkeiten. In Stoffen, wie in Lehr- und
+Erziehungsmethoden mußten wir durch dick und dünn die Irr-
+fahrten der Knabenbildung mitmachen, nur war beides, Stoff
+und Methoden, quantitativ und qualitativ geringer und ober-
+flächlicher und krauser. Nicht eine lebendige Beziehung
+zwischen den Lebensinteressen des Mädchens und dem verwäs-
+serten Bildungsbrei wußte man in dem Mädchenunterricht
+recht zu schaffen, und das hängt mit noch anderem eng zu-
+sammen. Denn noch eine andre Konsequenz zog man nicht für
+die Mädchenbildung. Obwohl man weiß, daß die Familie
+nicht für die Bildung ihrer Töchter sorgen kann, erklärte man
+Mädchenbildung für Privatsache und überließ sie dem Zufall
+der Privatindustrie, dem Unternehmertum von mehr oder we-
+niger qualifizierten Frauen und Männern, die, hätten sie sich
+auch eine noch so sorgfältige Berufsvorbildung erworben, ab-
+solut abhängig sind von den jeweiligen Launen ihres Publi-
+kums und allen Irrtümern einer bunten, vorurteilsvollen, von
+egoistischen Interessen durchsetzten Gesellschaft. Wo aber die
+Oeffentlichkeit einmal schläfrig die Augen aufschlug und sich
+um Mädchenbildung kümmerte, da hätte sie konsequenter
+Weise, wenn der Mädchennatur alle männliche Art und Bil-
+dung so verhängnisvoll sein sollte, doch vor allem Frauen
+heranbilden müssen zu bewußten Erzieherinnen und Bild-
+nerinnen ihres Geschlechts. Nichts davon. soweit Mädchen-
+bildung öffentliche Angelegenheit, Sache von Staat und Kom-
+munen wurde, soweit wurde sie auch Männersache, denn
+Männer haben die Verwaltung allen Wissens unter den Hän-
+den! Noch heute gilt es für ein gefährliches Experiment,
+eine Frau vollwertig an der geistigen Bildung ihres Geschlechts
+teilnehmen zu lassen. Dann beginnt man plötzlich eine Min-
+derwertigkeit der Mädchenbildung zu fürchten, die man sonst
+mit allen Mitteln zu Ehren der Weiblichkeit anstrebt.
+Allerdings, anders steht die Sache, wenn die höhere wis-
+senschaftliche Bildung zur Berechtigungs- und Berufsvorbil-
+dung herabgesunken ist. Ist es so weit, daß man nicht die
+Glieder des Volkes zu Persönlichkeiten, sondern die Bürger
+des Staats zu möglichst brauchbaren Beamten der verschiede-
+nen Ressorts heranzüchten will, und gibt dieser praktische Grund-
+satz, daß nicht der Staat für das Volk, sondern das Volk für
+den Staat gemodelt werde müsse, der höhern Bildung einen
+andern, von den idealen Zielen allseitiger Persönlichkeitsbil-
+dung abgelenkten Charakter, so haben unsre Freunde doch
+recht, wenn sie diese höhere Bildung für verderblich für
+unsre Weiblichkeit erklären. Eine Bildung, die Wissen an-
+häuft, statt lebendige Kraft des Wollens und Könnens zu ent-
+wickeln; die für Berechtigungen zustutzt, statt die Seele zu
+weiten; die zu gelehrtem Fachmenschentum, statt zu geistiger
+Freiheit führt; die nicht bildet, sondern dressiert; die zu Un-
+natur, statt zu Veredelung und Vertiefung der Natur führt:
+eine solche Bildung können wir Frauen nicht brauchen. Die
+würde unsre besten weiblichen Kräfte vernichten. So ist des
+Pudels Kern, daß eine einseitig intellektuelle Bildung, die die
+Seele trocken läßt und den Willen nicht keimen und quellen
+macht, das Weib noch viel mehr von seiner Art ablocken kann
+in die Irre eines einseitigen, also verkümmerten Fachinteres-
+senkreises und widerlicher geistiger Eitelkeit als den Mann,
+und daß diese Abirrung von der natürlichen Entwickelung
+beim Weibe viel verhängnisvoller wirkt. Mit aller Kraft
+muß das weibliche Geschlecht geschützt werden vor einem trocke-
+nen, formalen Intellektualismus und einem öden Fachphi-
+listertum, die auch so viele Männerseelen arm machen. Darum
+fällt ja selbst das bischen Wissen, das den Mädchen in ihren
+Schulen frei gegeben wurde, im Leben so bald wieder tot von
+ihnen ab, denn es sind Rudimente einer einseitig intellektuellen
+Berechtigungsbildung, auf die praktischen Interessen der
+Männerwelt zugeschnitten. Daneben quellen und versickern
+ungebraucht die frischen Kräfte der Mädchen, deren Seelen
+nach höhern Erkenntnissen, stärkerer Betätigung verlangen,
+bis sie, durch die fremden, unassimilierbaren Bildungsformen
+zerrieben, an den Hunger gewöhnt, vom Nichtstun geschwächt,
+sich einrichten in ihrer kleinlichen, unklaren, lediglich von lo-
+dernden Gefühlen und undisziplinierten Trieben beherrschten
+Welt. Dann sind sie geknetet und zugerichtet, gefügige, weil
+bewußtlose Werkzeuge jeden Vorurteils und jeder Oberfläch-
+lichkeit, Eitelkeit und ödesten Philistertums zu werden und
+nur aufzumucken, wenn in diese ihre Triebwelt ein unge-
+wohnter Lichtstrahl fällt, der die süße, freundliche Gewohnheit
+des hindämmernden Daseins unterbricht.
+Den Segen der steigenden höheren Bildung hat man ängst-
+lich den Frauen vorenthalten; von ihrem Fluch als höhere
+Halbbildung kann uns niemand befreien. Stets hat uns der
+Schatten höherer Kultur genarrt. Es ist nicht ihr Fehlen an
+sich, das die Frau unglücklich macht und die Harmonie ihres
+Wesens untergräbt. Es ist die Trennung der geistigen Welt
+des Mannes von unsrer geistigen Welt, die wir mehr und
+mehr als unser Elend und als ein Verhängnis für die Gesell-
+schaft empfinden. Diese Spaltung der geistigen Welten, deren
+Harmonie die erste Bedingung einer gesunden Kultur ist, liegt
+nicht in unsrer weiblichen Natur begründet, sondern ist eine
+bewußte Herrschertat des Mannes; aber sie ist eine Zersetzungs-
+erscheinung, ein unorganisches Moment in dem organischen Zu-
+sammenhang eines Kulturvolkes.
+Die Frauen der alten Deutschen lebten in einer geisti-
+gen Welt mit ihren Männern, ein Wissen, ein Wollen, ein
+Glauben einte sie. Unsern einfachern Großmüttern schadete
+ebenfalls der Mangel an geistiger Bildung wenig, denn für
+ihre Kräfte hatten sie gesunde Betätigung in ihrer häuslichen
+und wirtschaftlichen Welt, und ihre Lebensinteressen ergänzten
+so glüklich in behaglichem Zusammenleben die Lebenssphäre
+ihrer Männer, daß kein Riß und Spalt sichtbar zu werden
+brauchte. Auch das Weib aus dem Volk kennt kaum eine
+Frauenbildungsfrage, die sie von ihren Männern trennen
+müßte; Sie kennt nur die Not der Frauenarbeitsfrage und die
+Brutalitäten des Lebens, die damit zusammenhängen. Aber
+für die Frau der modernen Kultur ist die ganze Not zu Tage
+getreten. Ihre Aufgabe in der geistigen Welt hatte man
+nicht erkannt oder bewußt zurückgedrängt, weil ihre anders
+gefärbte Art zu denken dem Manne unbequem, fremdartig
+und für die ruhige Klarheit seiner formalen Systeme störend
+war. Man hat ihr geistiges Leben auf einer Stufe gelassen,
+auf der es aus Mangel an Betätigung verkümmern oder ab-
+wuchern mußte und hinter dem des Mannes zurückblieb. Jetzt
+bleibt die Frau geistig unselbständig am Boden haften, der
+Mann schwingt sich erkennend und denkend auf; die geistige
+Gemeinschaft, seit langem allzulose, zerreißt, und es können
+die belebenden Kräfte nicht befruchtend und ausgleichend her-
+über und hinüber strömen. Der Mann mit seiner intellektu-
+ellen Geschlossenheit findet von sich aus nicht mehr die bele-
+bende Gefühlswärme; das Weib mit seiner lohenden und
+sprudelnden Gefühlskraft findet nicht die nötige intellektuelle
+Klärung, daß in beiden ein gemeinsamer lebendiger Wille zum
+sittlichen Leben mit Ewigkeitsgehalt erwachsen könnte. Denn
+die männliche, wie die weibliche Psyche sind zwar vollwertig
+ausgestaltet mit Entwickelungsfähigkeiten. Aber sie sind gegen-
+sätzlich abgetönt, so daß beim Manne das vorwärtsdrängende
+Erkennen, beim Weibe das tiefe, fühlende Umfassen den
+Grundton der Seele zu bilden pflegt. Den tiefsten Lebensge-
+setzen der organischen Natur entsprechend, die immer in Kon-
+trasten und durch Polarisation wirkt, ist natürlich bei den
+höchst organisierten Geschöpfen, den Menschen, diese Polarisa-
+tion, dieses gegenseitige Ergänzungsbedürfnis bis in die fein-
+sten Fibern des Wesens hinein am höchsten entwickelt. Nur
+wenn das den Geschlechtern angeborene natürliche Verhältnis
+der Ergänzungsfähigkeit und der gegenseitigen belebenden
+Einwirkung weiter entwickelt und auf allen Kulturstufen in
+Harmonie erhalten wird, ist eine gesunde Menschheitskultur
+möglich. Das ist versäumt, immer mehr, bis es endlich ins
+Bewußtsein treten mußte. Daran krankt, wenn das
+Versäumte nicht bald nachgeholt wird, unsre deutsche Kultur
+immer unheilbarer und würde daran zu Grunde gehen müssen,
+wenn von keiner Seite Hilfe kommt. Das Bedürfnis unsres
+Volkes ist dabei ein doppeltes:
+Die männliche Geisteskultur muß aus der intellek-
+tuellen Trockenheit erlöst und mit lebendig strömenden Ge-
+fühlswerten und kraftvollem Wollen erfüllt werden. Sie
+muß zurückgerissen werden aus dem dünnen Aether des ab-
+strakten Gelehrtentums einerseits, der dumpfen Streberschwüle
+der Berechtigungen andrerseits in die gesunde, frühlingwe-
+hende Luft einer lebendigen Persönlichkeitsbildung von har-
+monischem Wert. Das ist nur möglich, wenn aus der geistigen
+Welt der gesunden Frau belebende, warme Erquickung hin-
+überströmt.
+Die weibliche Geisteskultur muß aus der Halbheit und
+ziellosen Unklarheit erlöst und durch intellektuelle Schulung
+zu reinen Formen und zielbewußter Kraft gehoben werden.
+Das reiche Gefühlsleben und die Triebe der Hingabe müssen
+geläutert werden durch geistige Zucht zu klarer Selbstbehaup-
+tung der reifen Persönlichkeit, reif für den Dienst an andern.
+Das beste Mittel dazu ist Freigabe der höchsten Bildungs-
+mittel und die freiwillige Hilfe des Mannes, der aus seiner
+geistigen Welt die Klarheit seiner Denkformen und die prä-
+zise Schärfe seiner intellektuellen Kraft herüberleuchten läßt.
+So könnten beide geistige Welten sich wieder innig durch-
+dringen, und eine schönere, gesundere Kultur würde den kommen-
+den Geschlechtern blühen.
+Das Ziel
+Was bedeutet die Frauenbewegung? Sie bedeutet, daß
+wir Frauen uns des Irrtums bewußt geworden sind, der
+unsre Erziehung, unsre Bildung leitete, als ob man unsre be-
+glückenden Naturanlagen dadurch rein und unverwirrt und
+kräftig halten könne, daß man sie nicht der geistigen Zucht
+unterwerfe, durch die die männlichen Anlagen sich zu bewußter
+Kraft entfalten sollen. Und sie bedeutet die Forderung, daß
+für unsre Bildung das Maß in uns und nicht im Manne
+gesucht werde, daß man die Entwickelung unsrer Anlagen für
+die Aufgaben des Lebens bestimme aus uns selbst, aus un-
+serem Wesen, und nicht nach den bequemen Wünschen einer
+eitlen Gesellschaft. Warum fordern wir das? Nicht nur für
+uns — denn wir sind nicht um unsertwillen auf der Welt —
+sondern für unsre Männer, für unsre Söhne, für unser Volk,
+dem unsre vollentfalteten Frauenkräfte hoch nötig sind, wenn
+es die Gefahren der Unmäßigkeit, der Unsittlichkeit, der Gott-
+entfremdung und des Umsturzes überwinden soll, die wie böse
+Dünste aufsteigen aus einer Gesellschaft, der die Harmonie
+verloren ging. Wodurch haben wir endlich den Irrtum er-
+kannt, dem unsre besten Kräfte zum Opfer fallen? Durch die
+steigende Berufsnot der Frau. Denn das Ideal von Frauen-
+bildung, das man so künstlich zurechtgezimmert hatte, weil
+es für die übrige Kulturentwickelung zunächst das bequemste
+war, das hielt nur so lange notdürftig stand, als man sich
+weismachen konnte, es finde auch wirklich jede Frau den be-
+glückenden natürlichen Beruf, dem ihre Instinkte entgegen
+treiben, ohne daß sie theoretisch und geistig vorgebildet sei.
+Daß da gesunde Frauennaturen oft reiche Kräfte entfalten
+können, wurde ein behaglicher Scheinbeweis. Jeder Mann,
+der dies holde Frauenwunder in seinem Leben und seinem
+Hause erlebte, wurde zum begeisterten Apostel der Lehre, daß
+man an der Frauennatur durch bewußte geistige Bildung nur
+verderben könne. Und es war so poetisch, wenn das junge
+knospende Mädchen in der träumenden, gefühlsseligen Warte-
+stimmung nicht gestört wurde, bis der Mann kam, der in das
+unfertige Traumleben den realen Inhalt brachte, und das
+Mädchen in jeder Beziehung aus der hilflosen Unschuld des
+Nichtwissens erlöste zu einem plötzlich reichen Leben voller
+ernster Pflichten. Die Männer neigen stets zu der Auffassung,
+sie könnten und sollten unserm Frauenleben den Inhalt geben.
+Den können sie uns nimmermehr geben, den gibt uns nur
+die Natur und unser eignes Herz. Der gesunde Pflichten-
+inhalt aber kommt für ein Frauenleben nicht als selige Traum-
+erfüllung, sondern er fordert weibliche Kraftentwickelung in
+sorgfältiger Schulung und Erziehung, um zu einem Willen
+zu kommen, zum Willen zur Pflicht, zum Willen zur Diszip-
+lin unsrer Gefühle, zum Willen zur Selbsthingabe. Darum
+ist es irreführendes Locken von gesunder Entwickelung ab,
+wenn der Mann singt im Frühling des Lebens:
+„Mir ist, als ob ich die Hände Auf's Haupt dir legen sollt, Betend, daß Gott dich erhalte so rein, so schön, so hold!“
+Das Frauenglück, wie es die Dichter singen, ist ein Glück,
+das von jedem Wind des Zufalls der hilflosen Frau ausein-
+andergeweht werden kann. Auch das reale Glück der Haus-
+frau und Mutter, die schlecht und recht ihren Lebensberuf in
+der Ehe und Familie findet und somit den geeignetsten Boden
+hat, den Reichtum ihrer natürlichen Gaben zu entfalten, wird
+schwer bedroht durch das falsche Bildungsideal, das für das
+weibliche Geschlecht herrscht. Sie fühlt doch bitter die Kluft,
+die sie von der Gedankenwelt ihres Mannes und ihrer Söhne
+trennt. Der Gegensatz zwischen diesen weiten Interessenkreisen
+und dem engen geistigen Horizont der Frau kann lange halb
+vertuscht, halb überbrückt werden. Um das enge und unsicher
+gebundene Wissen der Frau strömt von Natur eine breite
+glänzende Flut tiefer Gefühle, die ihre Seele weitet und ihr
+eine intuitive Bildung vornehmer Art, eine sog. Herzens-
+bildung, geben kann. Die ist dem Mann so erquicklich
+in ihrer andersartigen Schönheit, daß er gern seine Gedanken
+da eintaucht und doppelt schön, weil warm und belebt, wieder
+nimmt. Auch wird die Kluft wohl öfter durch die große Be-
+weglichkeit der Frauenseele verdeckt, die eine besondere Fähig-
+keit besitzt, sich in Anpassung an den Gedankeninhalt von
+Mann, Söhnen, Brüdern, wenn sie in hochgebildetem Kreis
+von früh auf Fühlung hatte mit der geistigen Welt der
+Männer, eine autodidaktische Bildung anzuleben. Aber doch
+werden die meisten glücklichen Frauen heute sagen, daß sie die
+Mängel ihrer geistigen Bildung oft und bitter störend em-
+pfinden als Tochter, Schwester, Frau und Mutter, daß sie
+diese Minderwertigkeit beklagen und bei ihren Töchtern an-
+ders wünschten. Noch schlimmer ist es freilich, wenn sie als
+Frau und Mutter die geistige Kluft nicht empfinden und
+nicht zu überbrücken versuchen und meinen, ihr Frauenleben
+und ihr Familienleben sei ausgefüllt durch ehrliche, treue Liebe
+einerseits und Sorge für das körperliche Behagen andrerseits.
+Die Frauenliebe kann nicht immer im Königsgewand gehen,
+wie sie sich zu den Hoch- und Glückszeiten des Lebens und in
+Not und Tod zeigt. Aber warum muß sie für gewöhnlich so
+im Bettlerkleid verhüllt im Staube waten, daß es scheint, als
+lebe der Mensch vom Brot allein? Diese Philisterverhältnisse
+des Lebens mit ihrer dumpfen Genügsamkeit und zufriedenen
+Fachsimpelei sind das böseste Zeichen für den Wert unsrer Bil-
+dung. Die Frauen aus diesen genügsamen Philisterschichten,
+die sind die bittersten Feindinnen der weiblichen Entwickelung.
+Die sitzen selbstzufrieden auf dem Sopha des Lebens, stolz auf
+den Titel ihres Mannes und alle hohlen äußerlichen Vorteile
+ihrer Ehe; die drücken vor allen wahren Nöten des Lebens
+mit weiblichem Anstand die Augen zu und fassen die Röcke
+zusammen; deren kleine enge Welt wird von dem jämmer-
+lichsten Nichts umflossen; die fürchten nichts so sehr als eine
+Veränderung des ewig Gestrigen, das sie so nett und behag-
+lich auf seinen Wogen zur zufriedenen Kaffeetasse trägt. Ihre
+Seele ist verkalkt und der Erweiterung nicht fähig, so gut sie
+auch vielleicht Klopps zu bereiten und ein Dienstmädchen anzu-
+lernen verstehen. Unsre Zeit aber bedarf lebendiger Frauen-
+kraft, die sich in den täglich sich weiter wandelnden Verhält-
+nissen des modernen Lebens einzusetzen versteht, die den Ge-
+fahren unsrer Zeit bewußte und sicher gewollte Hemmungen
+entgegenzustemmen weiß, wie sie nur ein Wille, den hohe,
+durch klare Erkenntnisse geläuterte Gefühle hervortreiben,
+zu schaffen vermag. An dem sanften Feuer ihrer Seelen soll
+die kalte Welt sich erwärmen, statt durch Frauenirrlichtelieren
+in die Sümpfe des Lebens gelockt zu werden.
+Wir verlangen für die Frau eine alle Kräfte
+auslösende, allseitige höchste Persönlichkeitsbil-
+dung.
+Nur dann versteht sie ihre Zeit, wird der Welt ein Halt
+und zieht den Mann mit hinauf in die reine Höhe des idealen
+Strebens. Die Frau soll gerade, weil sie nicht für sich selbst
+da ist, sondern für Mitwelt und Nachwelt, eine durchaus
+selbständige Persönlichkeit werden, die frei über sich
+zu verfügen versteht. Die Zeiten des Despotismus sind auf
+allen Gebieten vorüber; es weht keine Luft mehr, in der
+irgend welche Hörigkeit gedeiht. Die Freiheit ist nicht nur
+das Ideal, sondern sie ist das praktische Bedürfnis aller Indivi-
+duen geworden. Daran ist, so sehr manche es angstvoll be-
+klagen mögen, nichts mehr zu ändern; man kann der natür-
+lichen Entwickelung nicht in die Speichen fallen, will man nicht
+einfach durch die Räder zermalmt werden. Dieses allgemeine
+Erwachen zum Freiheitsbedürfnis ist auch nicht das Schlimme.
+Das Schlimme ist nur, daß es so wenig Persönlich-
+keiten gibt, die die Freiheit kraftvoll zu brau-
+chen verstehen. Daher dieses Rufen nach Persönlichkeiten,
+wie nie vorher. Und da setzt die Mission der Frau ein. Wird
+sie eine Freie, eine bewußte Persönlichkeit, dann wird sie die
+kommenden Geschlechter lehren, ihre Freiheit gesund brauchen.
+Es kann viel Kraft von den Frauen in einem Volk ausströmen.
+Es ist kein Zufall, daß den Zerrbildern der Freiheit gegen-
+über, mit denen sich das Volksleben füllt, immer bedrohlicher
+die alten Mächte versuchen, mit der Peitsche der Autorität da-
+zwischen zu fahren und falsche Freiheit durch Unfrei-
+heit zu bekämpfen. Blinde Blindenleiter! den Willen brechen,
+statt den Willen stärken zu wollen, daß er, tapfrer wie der
+Löwensieger und der Weltbezwinger, sich selbst bekämpfen
+lernt! Woher kommt dieser gröbliche Mißgriff? Weil in der
+Oeffentlichkeit die Stimme der Frau nicht mitklingt, nicht
+mitzuklingen gelehrt ist.
+„Denn die Männer sind heftig und denken nur immer das Letzte, Und das Hindernis treibt die Heftigen leicht von dem Wege; Aber ein Weib ist geschickt, auf Mittel zu denken, und wandelt Auch den Umweg, geschickt zu ihrem Zweck zu gelangen.“
+In dem Augenblick, wo wahrhaft gebildete Frauen-
+persönlichkeiten ihre Kräfte vollwertig mit einsetzen dürfen,
+da wird unser Volk, gerade unser hoch veranlagtes deutsches
+Volk, das edelste Wunder der Entwickelung erleben. Denn
+es bedarf dieser Frauenkräfte, die es selbst brach liegen ge-
+lassen hat, um zu werden, was es werden soll. Es bedarf
+des Zuströmens der eminent weiblichen Gaben, um im Willen
+wieder zu Blüte und in dem sittlichen Tun zu Frucht zu
+kommen. Es sind die Kräfte der Hingabe, die ihm fehlen, be-
+sonders der religiösen, quellenden Erneuerung formelhaft ge-
+wordener Sitten. Wenn die Frauen energisch erzogen werden,
+sich als „Herren aller Dinge und niemand untertan“ zu be-
+greifen, so werden sie den Segen zurückgeben und die Men-
+schen lehren, sich als „Knechte aller Dinge und jedermann
+untertan“ zu fühlen, und das ist doch die einzige Art, wie die
+Volksfreiheit gesunden kann.
+Man könnte argwöhnend mir den Vorwurf machen, als
+wolle ich die Geisteskräfte des Christentums durch die Frauen-
+naturkräfte ersetzen. Nichts liegt mir ferner. Meine heiligste
+Ueberzeugung ist, daß im tiefsten Grunde eben die Lebens-
+kräfte wahren Herzenschristentums unsre einzige Rettung sind,
+und daß unser Volk nur soweit gesund werden kann, als ihm
+eine religiöse Erneuerung gelingt. Soweit Menschen die
+herbeiführen können, hat sich aber Gott stets unverbrauch-
+ter frischer Kräfte als Werkzeuge bedient. Zur Zeit unsrer
+großen Reformation lag die Sehnsucht nach Befreiung und re-
+ligiöser Erneuerung ebenso in der Luft wie heute. Aber trotz
+aller Ansätze konnten keine Vertreter der alten Bildung, keine
+Humanisten, kein Erasmus von Rotterdam, kein Reuchlin und
+Melanchthon und ebenso wenig ein Hutten helfen. Sondern
+aus dem frischen Volksboden, mit dem ganzen Erdgeruch des
+Bauerntums noch ungebrochen umgeben, mußte ein Luther
+aufsteigen mit seiner ursprünglichen Kraft. Ihm wurde das
+erlösende Wort gegeben. Heute liegt die Sache etwas anders,
+wie niemals eine Entwickelung ganz genau so wiederkehrt.
+Mußten damals erst einmal die Ketten falscher Glaubens-
+formeln und Lehren gesprengt werden, so bedarf es heute
+einer Erneuerung der inneren, trocken gewordenen Glaubens-
+möglichkeit; es bedarf nicht des Säens, sondern des stillen
+Quellens und Keimens. Ist das nicht Frauenaufgabe? Eine
+Reformation des religiösen Lebens muß und wird diesmal,
+wenn sie überhaupt kommt, von der deutschen Frau aus-
+gehen. Wenn ihr Wesen, ihr Fühlen, die Triebkräfte der
+weiblichen Seelen soweit zum Bewußtsein erzogen sind,
+daß sie feste Richtung nehmen können, dann, und nicht eher,
+wird der neue Frühling ins Land kommen, und der Pfingst-
+geist kann seinen Einzug halten. Aber man sollte hingehen
+und es den Fischen predigen, es wills ja niemand glauben!
+Hier die trockene Männerkultur, so voller edler Keime, die
+jeden Tag die Köpfe heben könnten! — und dort versickert
+die Frauenkraft im seichten Gesellschaftssumpf und macht die
+Sitten sauer!
+Der Weg.
+Es bleibt mir noch übrig nach all dem Kritisieren und
+Wünschen nun positive praktische Forderungen zu erheben
+an die Instanzen, die an einer Reformation der Frauen-
+bildung arbeiten müssen. Auch diese praktischen Forderungen
+können nimmermehr vom Manne gefunden werden; die edelsten
+Freunde können sie nicht aufstellen, sondern nur mit voller,
+erkennender Zustimmung acceptieren. Ausgehen müssen sie
+von der Frau selbst. Aber es ist nur äußerlich die Stimme
+einer einzelnen Frau hie und da, die sie laut werden läßt.
+Herangereift und geboren sind die Forderungen in der Ge-
+samtfrauenseele, die aufzuwachen und sich auf sich selbst zu be-
+sinnen beginnt. Das ist das Neue heute, ein Schritt in der
+Frauenentwickelung weiter, der nie wieder zurückgetan wer-
+den wird, daß über allen einzelnen Frauenseelen, die sich halb
+träumend aus der Masse losringen, auch schon eine Gesamt-
+seele des Frauengeschlechts sich regt, die jede Einzelnot und
+jedes Einzelbedürfnis als gemeinsames Interesse empfindet in
+bewußtem Zusammenschluß. Alle wirtschaftlichen, alle sittlichen,
+alle Herzensnöte, alle Verderbnis und jeder Fortschritt einzelner
+Frauen und Frauenkreise dringen in das allgemeine Bewußt-
+sein der Frauenwelt ein und werden von dieser Zentralstelle
+aus erfaßt, um wieder in den einzelnen Frauenseelen einen
+energischen Willen zur Tat zu erzeugen. So wacht in den
+verschiedensten Frauenkreisen unter den verschiedensten Lebens-
+interessen ein einheitliches Bewußtsein von Frauenbedürfnissen
+auf, dem ich hier Worte zu geben versuche. Die Instanzen,
+an die wir uns fordernd, bittend, mahnend zu wenden haben,
+denen wir uns erforderlichenfalls geschlossen entgegenstemmen,
+bis sie in den Weg einbiegen, der zu unsern Zielen des Le-
+bens führt, sind Schule, Familie, Gesellschaft. Von der
+Schule muß eine Erneuerung der Ziele und Wege der Frauen-
+bildung ausgehen. Ihre Aufgabe ist der erziehende Unter-
+richt, also vor allem eine Erweiterung und Ordnung des Vor-
+stellungskreises, durch den das innere Leben des heranwachsen-
+den Mädchens reguliert, geklärt, gefestigt wird. Der Schule
+sind zwei Aufgaben zuzuweisen, die sie bisher sehr ungenügend
+gelöst hat. Sie hat gründliches Wissen, Erkennen und Ver-
+arbeiten zu lehren, und sie hat alle geistige Arbeit an reale
+Interessen des weiblichen Lebens zu knüpfen. Damit
+die Schule frei wird von den Nebenrücksichten auf die Launen
+und Vorurteile der heutigen Gesellschaft, der nur im behag-
+lichen Gestrigen wohl ist, und auf die Schwächen der einzelnen
+Familie, deren Fehler sie ja eventuell zum Heil des Kindes
+ausgleichen und verbessern soll, muß sie, wie die Knabenbil-
+dung, den Zufälligkeiten der Privatindustrie entrissen werden.
+Sie ist eine Pflicht des Volkes, das ein Interesse hat
+an der Entwickelung seiner zukünftigen Mütter. Kein Geld
+ist besser angelegt und trägt kostbarere Zinsen für eine Na-
+tion, als die Summe, die sie für die innere Kräftigung an-
+legt. Was helfen die Millionen, die in die Flotte gesteckt
+werden zum Beherrschen der fernen Meere, in die Armee zur
+Rüstung gegen unsere Feinde, in den Handel zum wirtschaft-
+lichen Kampf gegen andere Völker; die ungezählten Summen,
+die unser Volk an seine Grenzen wirft, um da das Deutsch-
+tum nicht einschrumpfen zu lassen — wenn heimliche Wunden
+brennen und die Volksseele krankt und matt und welk ist?
+Es kommt mir vor, als ob man ein kränkelndes Kind fort-
+während mit kräftigem Essen stopfen wollte: es wird höchstens
+aufgetrieben, aber nicht kraftvoll werden durch alle die äußeren
+Mittel. Da möchte man das Wort Christi mahnend rufen:
+„Reinige zum ersten das Inwendige am Becher und Schüssel,
+daß auch das Auswendige rein werde!“ Reichliche, selbstän-
+dige, gute öffentliche Mädchenschulen, in deren vollwertige Aus-
+rüstung nach jeder Richtung hin Staat und Kommunen
+ihren Stolz setzen, die würden der erste Beweis sein, daß unser
+Volk das Wort: „Ehret die Frauen“ nicht bloß als Phrase
+braucht. Sodann, damit diese Schulen endlich wirklich über
+die Seelen der Mädchen Gewalt bekommen, müssen Frauen
+in diesen Anstalten ausschlaggebenden Einfluß haben; nur sie
+können voll wissen, was den Mädchen zu ihrer Entwickelung
+nötig ist, und können die Mittel ganz ungehindert anwenden.
+Daß der Mann mit den ihm besonders eigentümlichen geistigen
+Gaben an diesen Anstalten neben der Frau wirke, besonders
+auf den Stufen, auf denen die männliche Art besonders kräftig
+ergänzend eingreifen kann, wollen wir ihm nicht nur aus hi-
+storischen Gründen als Berechtigung zugestehen. Wir sehen
+darin vielmehr einen besonderen Vorzug der Mädchenschule,
+die der Gefahr des einseitig eingeschlechtigen Einflusses, den
+die Knabenschulen aufweisen, dadurch auf das Glücklichste ent-
+geht. Daß diese lehrenden Frauen wissenschaftlich vollwertig
+ausgebildet werden mit derselben Gründlichkeit wie ihre männ-
+lichen Kollegen, bei aller Anpassung an die Eigentümlichkeit
+ihres weiblichen Wesens, ist selbstverständlich. Das liegt ein-
+fach schon in der Forderung der vollen Persönlichkeitsbildung:
+die Frau auszurüsten zum Geisteskampf um die sittliche
+Entwickelung ihres Volkes und zum wirtschaftlichen
+Kampf für ihre äußere Unabhängigkeit. Die öffentliche Schule
+unter vollwertigem Fraueneinfluß muß dann vor allem Bil-
+dungsstoffe finden, die in dem natürlichen weiblichen mensch-
+lichen Interessenkreis liegen und an den Lebenskreis des Mäd-
+chens lebendig anknüpfen, und Methoden, die der Färbung
+der weiblichen Psyche entsprechen, nicht ihre Schwächen pflegend,
+sondern ihre Ansätze zur Kraft entwickelnd. Sie muß ein Vor-
+bild für die Knabenschulen werden in der Ueberwindung der
+toten Anhäufung von Wissen und der abstrakten rein for-
+malen Kletterkünste. Ueberall Leben, kraftvoll treibendes
+Leben! Ueberall Anknüpfung an Natur und Erfahrung, strenge
+logisch-formale Schulung ohne Kreuz- und Quersprünge, ohne
+falsches Erbarmen, das sich mit Anregungen und Verpuffen
+in Gefühlsduselei bei der „zarten Weiblichkeit“ begnügt. Die
+Milde in der Mädchenschule am unrechten Ort heißt oft
+„Ritterlichkeit“ und ist doch nur Verachtung der „weiblichen
+Minderwertigkeit“ und — Bequemlichkeit. Alle Fehler der
+Knabenschule rächen sich in der Mädchenschule mit doppeltem
+Fluch darum muß durchaus jeder Schimmer von Gelehr-
+tentum mit doppelter Sorgfalt in der Mädchenschule ver-
+mieden werden. Eine auf Anschauung gegründete Kraft-
+bildung sei die Losung. Dann werden die besonderen
+Fehler der heutigen Mädchenbildung, das Aufgehen in halt-
+losen persönlichen Schwärmereien und in zerstreuter Ober-
+flächlichkeit, vergehen wie der Schnee in den Schluchten vor
+dem Maiwind. Dagegen wird dem innersten weiblichen Wesen
+entsprechend ein sehr entschlossener Wille zur Pflicht sich
+natürlich entwickeln, denn das Wesen des Mädchens ist von
+Natur auf Hingabe gerichtet, wie sich das ja noch in seinen
+jämmerlichsten Schwächen und den tiefsten Verirrungen zeigt.
+Soll die Schule diese große Aufgabe nicht ohne allzu un-
+überwindliche Schwierigkeiten lösen, so muß neben die Schule
+das Haus treten. Hand in Hand müssen sie arbeiten lernen,
+nicht als Rivalen sich beeifersüchteln, wodurch die einheitliche
+Charakterentwickelung des Mädchens auf das schwerste ge-
+fährdet wird. Die Schule soll einsichtige, vollwertige Mütter
+erziehen, aber kraftvolle Mütter müssen auch die Arbeit der
+Schule unterstützen. Es handelt sich da um die Preisfrage: was
+muß eher da sein, das Huhn oder das Ei? Damit das Kind
+zur guten Mutter erzogen werden kann, muß eine gute Mutter
+Hand anlegen. Es gilt einen der zahllosen Kompromisse des
+Lebens schließen und die Forderung an das Haus jedenfalls
+so stellen, als ob die Mutter in dem neuen Geist einsichtiger
+Energie schon herangebildet und der Vater für das Ziel selb-
+ständiger Frauenbildung voll gewonnen sei. Gott sei Dank,
+viele Eltern haben dieses Geistes von Natur schon einen Hauch
+verspürt, sonst wären wir ja hoffnungslos für unser Geschlecht.
+Die ersten 6 Lebensjahre des Kindes gehören dem Hause;
+welch kostbare Zeit, um in dem weichen, biegsamen Kinder-
+wesen die ersten Richtlinien für die Charakterentwickelung zu
+legen. Nicht „nur ein Mädchen“, sondern „sogar ein Mäd-
+chen“, eine zukünftige deutsche Frau, vielleicht eine zukünftige
+Mutter ist dem Hause anvertraut. Welche Verantwortung!
+Die Tochter soll für die Familie weder ein Spielball noch ein
+Sorgenstein sein und soll auch nicht so behandelt werden. Der
+Körper soll ohne Prüderie und den widerwärtigen, zierlichen
+Mädchenanstand gekräftigt werden. Klar und offen soll dem
+Mädchen wie dem Knaben die Welt als seine Welt liegen,
+in der es einst seinen Platz auszufüllen hat, wo es auch sei.
+Die Erziehung soll das Mädchen wie den Knaben von sich
+selbst ab in die reiche Umwelt führen; es ist für das Mädchen
+noch notwendiger wie für den Knaben, daß Eitelkeiten, Em-
+pfindlichkeiten — und wie die Formen des kleinlichen Egoismus
+alle heißen — mit Sorgfalt abgewehrt werden. Denn von Na-
+tur liegen die zukünftigen Lebensaufgaben, die aus der eigenen
+kleinen Welt herauslocken, vor dem Knaben klarer und ge-
+schlossener, vor dem Mädchen nebelhafter. Darum muß das
+Mädchen mit doppeltem sittlichem Ernst dazu erzogen werden,
+eine jede Aufgabe mit Wärme zu ergreifen und mit sittlichem
+Ernst und festem Willen durchzuführen: das wird erleichtert
+durch die weibliche Naturanlage, auch das Kleine und Kleinste
+mit Liebe und lebendigem Interesse zu ergreifen und mit per-
+sönlichem Eifer festzuhalten; obwohl das Wesen des Mädchens
+andrerseits bei seiner lebhafteren Gefühlsfärbung etwas Be-
+weglicheres, Unruhigeres hat als das geschlossenere Wesen des
+Knaben. Es gilt, das leicht erregbare Interesse des Mädchens
+von der eigenen Person abzuziehen und seinen Blick für das
+umgebende Leben zu schärfen. Sobald das Mädchen an etwas
+Interesse hat, übernimmt es von selbst dafür Pflichten, daran
+muß die Erziehung anknüpfen. Am Spielzeug, den Blumen,
+den Tieren, am Familienkreis und auch an jeder einem
+Kinde verständlichen Not, an Bildern und Büchern haben die
+Eltern reichstes Erziehungsmaterial zu klarer Anschauung,
+scharfer Beobachtung, geordnetem Ueberlegen, sittlichem Wollen
+und frischer Tat für ihr Kind. Was wird nicht allein durch
+die „Mädchenlektüre“ gesündigt! Man vergleiche sie mit der
+immerhin auch noch ärmlichen Knabenliteratur, da hat man
+das ganze Elend der Inhaltslosigkeit, unter der viele Eltern,
+oft in den besten Absichten, das Leben des kleinen Weibchens
+halten. Ach und es hat doch ein Herz so voll lebendiger
+Keime zum Guten, Schönen, Wahren! Es ist ein Elend.
+Sobald als möglich gebe man dem Kinde Pflichten, leichte,
+denn es ist noch in der Spielzeit des Lebens, aber Pflichten,
+die ernsthaft ohne Abweichung erfüllt werden müssen. Denn
+sie sind die leichten Hemmungen auf der glatten sonnigen Bahn
+der Kinderzeit, die man dem natürlichen Egoismus des Kindes
+einschiebt, damit der Charakter daran in die Höhe rankt.
+Diese Pflichten müssen wahre Pflichten sein und keine zu-
+rechtgestutzten Albernheiten, und sie müssen irgendwie eine Ar-
+beit für andre bedeuten. Die zweite Art Pflichten, deren
+treuste Erfüllung von den Eltern stets mit Eifer gefördert
+werden muß, sind die Schulpflichten. Die können die Eltern,
+vor allem die Mutter im täglichen kleinen Leben, vorbereiten
+durch Erziehung der Sinne zum scharfen Auffassen, durch An-
+leitung zum ruhigen, geordneten Ueberlegen, das sich nicht
+eher beruhigt, bis es zu einem Resultat gekommen ist, und
+durch Uebung körperlicher Geschicklichkeit, besonders der Hände
+und — des Sprechens. Würde das Sprechen der Kinder —
+wahrhaftig nicht philisterhaft — zu Hause schon früh mehr
+in bewußte Zucht genommen, man könnte dem Kinde seinen
+Weg durch die Schule sehr erleichtern. Denn die wunderliche
+Erscheinung, daß die größten Plappermäulchen in der Schule
+so bald stumm werden, liegt doch nicht allein an den unglück-
+lichen abstrakten Formen der Schulsprache, sondern ebenso an
+dem Mangel jeder Zucht in dem Ausdruck der kindlichen Vor-
+stellungen und Gedanken. Der Wert geistiger Güter und ein
+lebendiges Bewußtsein von der Kraft und Macht, die Wissen
+und geistige Arbeit verleihen, geht dem Kinde eigentlich nur
+zu Hause auf. Wenigstens ist die Schularbeit ein Schlag ins
+Wasser, wenn das Haus widertönt von der Anschauung: „Mäd-
+chen brauchen nichts zu wissen“. Die mächtigsten Erziehungs-
+mittel des Hauses sind Gewöhnung und Beispiel. Wenn die
+kräftig hinleiten auf absolute Wahrhaftigkeit, auf Liebe und
+auf natürliche, nicht erkünstelte Reinheit, dann errichtet das
+Haus ein kräftiges Bollwerk im Herzen des Kindes gegen die
+Versuchungen der Außenwelt, die an seinen werdenden Cha-
+rakter herankriechen. Reinheit! Eine besonders große Sorge
+der Mütter, denen der Kopf heiß wird an der Frage: schütze
+ich die Reinheit meines Kindes besser durch „kindliche“ Un-
+wissenheit und befehle es Gott, oder hebe ich sie auf die be-
+wußte Willensstufe durch eine ernste Aufklärung aus Mutter-
+mund, aus dem alles rein ist? Ich will da nur an eines er-
+innern in dem vollen Bewußtsein, daß eines sich nicht für alle
+schickt. Es steckt in der Theorie von der unberührten kind-
+lichen Unschuld immer ein Stück mütterliche Feigheit. Denn
+wenn sie den Kopf nicht in den Sand steckt, weiß jede Mutter,
+daß in bestimmtem Alter ihr Kind recht wohl über manche
+Dinge bescheid weiß, die sie ihm nicht gesagt hat. Woher?
+Ist ihr das nicht eine furchtbare Sorge? Darum: „Was Gott
+gereinigt hat (die heiligen Vorgänge des Lebens), das mache
+du nicht unrein.“ Wo eine Mutter alle Verhältnisse des
+Lebens in den Dienst ihrer ernsten Erziehung spannt und ihr
+Kind keinen Schritt allein tun läßt, ohne daß es nicht weiß:
+die liebende Sorge meiner Mutter geht mit mir! da wird
+der Erfolg der Erziehung, so verschieden auch die Anlagen der
+Kinder sind, sicherlich ein kraftvoller sein. Das Mädchen wird
+dann zu der Freiheit der Persönlichkeit kommen, die sich
+hingeben will nach dem großen Wort: „Gehorsam fühlt' ich
+meine Seele am schönsten frei.“ Nicht das adelt das Leben,
+besonders das Frauenleben, was man tut, sondern eigentlich
+nur das, wie man es tut. Der Triumph der Persönlichkeit
+liegt in dem Wort:
+„Der eine fragt: was kommt danach? Der andre fragt nur: ist es recht? Und also unterscheidet sich Der Freie von dem Knecht.“
+Denn von der dritten Instanz, der Gesellschaft, drohen
+der weiblichen Persönlichkeitsbildung noch viele Gefahren, und
+Haus und Schule, soweit sie nicht selbst schon unter den ver-
+derblichen Einflüssen gesellschaftlicher Vorurteile gestanden haben,
+mögen wohl zusehen, daß sie das Mädchen für diesen Lebens-
+kampf ausrüsten. An das junge Gemüt, das man auf die
+Pflicht zu richten suchte, dringt die Gesellschaft heran mit
+klingenden Eitelkeiten, ja mit niederschmetternder Grau-
+samkeit. Unsre Mädchen sind zu anderm auf der Welt, als in
+der Gesellschaft zu glänzen und sich einen Mann zu erobern! Den
+Kampf mit den minderwertigen Anschauungen der öffentlichen
+Allgemeinheit können wir unsern Kindern nicht ersparen. Sitten
+der Gesellschaft werden nicht vom Bewußtsein der einzelnen
+kraftvollen Individuen, sondern vom Instinkt der Herden-
+menschen reguliert. Diese Instinkte aber weisen alle nicht auf
+den sittlichen Kampf in der eignen Brust und auf das Ringen
+nach den Idealen, sondern auf den brutalen Kampf ums Da-
+sein hin, mag es durch noch so glatte Formen und lächelnde
+Mienen überdrapiert sein. Für das Mädchen bedeutet die Ge-
+sellschaft, was man so nennt, nicht viel mehr als den Heirats-
+markt, neuerdings für das im selbständigen Beruf stehende
+Mädchen die Konkurrenzrennbahn. Ihren innersten Lebens-
+bedingungen nach widerstrebt die Gesellschaft jeder Reforma-
+tion ihres instinktiven Wohlbehagens durch ernste Zucht, die
+den Willen der Einzelnen unruhig machen und von der Lebens-
+jagd ab in die Stille führen könnte. Sie ist der Schauplatz
+der Geld- und Konnexionsheiraten, der doppelten Moral, der
+Versorgungsehen und des ganzen Plaisiers, das für diesen Zweck
+heranklingeln soll. In der Gesellschaft will und soll der gei-
+stige Philister sich behaglich, der sittlich Minderwertige, sich
+sicher, der Streber sich gefördert fühlen. Und die Hauptkosten
+trägt das weibliche Geschlecht, das um so enger an die ver-
+logene, unselbständige Sitte gebunden wird, je weniger man
+ihm Einfluß auf die Sittlichkeit einräumen möchte. Bei
+der Gesellschaft ist erst eine gewisse Reformation zu erwarten,
+wenn Schule und Familie auf weit höhere Stufen gestiegen
+sind. Doch da jede Gesamtheit aus einzelnen besteht, so ist
+zunächst die einzige Hilfe, wenn die Familien sich, besonders
+für ihre Kinder, zu Kreisen zusammenschließen, in denen das
+Bessere obenaufkommt und eine reine, edle Geselligkeit ge-
+pflegt wird. Solche Kreise mit ausgeprägtem Charakter, über
+denen ernste Vateraugen wachen und liebend sorgende Mutter-
+herzen horchen, haben den allergrößten Einfluß auf die jungen,
+dem öffentlichen Leben entgegenwachsenden Menschen und ihre
+Charakterbildung. Je vielseitiger darin die Berührungen
+sind, um so mannigfaltiger sind die Eindrücke, aus denen sich
+Lebenserfahrungen und Willensimpulse zusammensetzen. Der
+Charakter, der sich im Strom der Welt bilden muß, lernt hier
+erst schwimmen unter schattigen Ufern auf spielenden Wellen,
+und von allen Seiten nickt doch das Bekannte, Gewohnte, das
+an die Kinderzeit mahnt. Je mehr solche Familienringe feste
+neue gesellschaftliche Sitten prägen, um so mehr bedrängen sie
+das gefährlich Minderwertige in der Oeffentlichkeit. Und Ringe
+sind's, die eine Kette bilden, die sich zuletzt um alles Niedrige,
+Unreine, Minderwertige in der Gesellschaft legen und ihm die
+Lebensluft abschnüren soll. Je mehr in der Oeffentlichkeit das
+niedere Triebleben bewußt bekämpft wird, um so sicherer wer-
+den unsere Mädchen und Frauen in ihr blühen und gedeihen.
+Dann wäre die höchste Stufe der Bildung freier Frauenper-
+sönlichkeiten gesichert, denn es würde ungeschmälert das Ge-
+setz regieren: erlaubt ist, was sich ziemt. Dann würde
+die Harmonie zwischen den Geschlechtern gefestigt, ein freies,
+schönes geistiges Zusammenleben ermöglicht, und nicht mehr
+mit Sorge, sondern mit Freude könnten wir an die Wahrheit
+denken:
+„Von der deutschen Mutter hängt Deutschlands Zukunft ab“.
+</text>
+  </TextCorpus>
+</D-Spin>

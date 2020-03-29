@@ -1,0 +1,2805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/lange_maedchenschule_1887</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-lange_maedchenschule_1887.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/lange_maedchenschule_1887</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_maedchenschule_1887.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/lange_maedchenschule_1887</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_maedchenschule_1887.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/lange_maedchenschule_1887</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_maedchenschule_1887.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/lange_maedchenschule_1887</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_maedchenschule_1887.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Die höhere Mädchenschule und ihre Bestimmung</cmdp:title>
+        <cmdp:title type="sub">Begleitschrift zu einer Petition an das preußische Unterrichtsministerium und das preußische Abgeordnetenhaus</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Henß</cmdp:surname>
+<cmdp:forename>Melanie</cmdp:forename></cmdp:persName>
+  <cmdp:persName><cmdp:surname>Kuse</cmdp:surname>
+<cmdp:forename>Marc</cmdp:forename></cmdp:persName>
+  <cmdp:persName><cmdp:surname>Gloning</cmdp:surname>
+<cmdp:forename>Thomas</cmdp:forename></cmdp:persName>
+  <cmdp:orgName><cmdp:orgName>Projekt: Texte zur Frauenfrage um 1900 Gießen/Kassel</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Texterfassung und Korrekturen, Konversion nach XML</cmdp:note>
+    <cmdp:date type="importDTA">2013-05-22T08:12:00Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Google Books</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate.</cmdp:note>
+    <cmdp:ref target="http://books.google.com/books?id=LpFqNQAACAAJ"/>
+    <cmdp:date type="importDTA">2013-05-22T08:12:00Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">69</cmdp:measure>
+        <cmdp:measure type="tokens">19689</cmdp:measure>
+        <cmdp:measure type="types">4358</cmdp:measure>
+        <cmdp:measure type="characters">139009</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:25Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/lange_maedchenschule_1887</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/lange_maedchenschule_1887</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/lange_maedchenschule_1887</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/lange_maedchenschule_1887</cmdp:idno>
+          <cmdp:idno type="DTADirName">lange_maedchenschule_1887</cmdp:idno>
+          <cmdp:idno type="DTAID">30412</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-30412-2</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Lange, Helene: Die höhere Mädchenschule und ihre Bestimmung. Berlin, 1887.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Die höhere Mädchenschule und ihre Bestimmung</cmdp:title>
+          <cmdp:title level="m" type="sub">Begleitschrift zu einer Petition an das preußische Unterrichtsministerium und das preußische Abgeordnetenhaus</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1887</cmdp:date><cmdp:publisher><cmdp:name>L. Oehmigkes Verlag</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+          </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Anmerkungen zur Transkription:</p>
+<ul>
+  <li>Langes als rundes s erfasst.</li>
+  <li>I/J nach Lautwert transkribiert.</li>
+  <li>Marginalien, Bogensignaturen, Kustoden und Kolumnentitel wurden nicht erfasst.</li>
+</ul>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Die höhere Mädchenschule
+und ihre Bestimmung.
+Begleitschrift
+zu einer Petition an das preußische Unterrichtsministerium
+und das preußische Abgeordnetenhaus.
+Berlin,1887.
+L. Oehmigkes Verlag.
+(R. Appelius.)
+Kommandanten-Straße 55.
+Auf Veranlassung eines Kreises Berliner Frauen und
+Mütter, denen das Wohl ihrer eigenen Töchter und des
+ganzen weiblichen Geschlechts warm am Herzen liegt und
+die sich mit der Richtung unserer höheren Mädchenbildung
+nicht einverstanden erklären können, die vor allen Dingen
+die Mädchen unter den Einfluß wissenschaftlich tüchtig
+durchgebildeter Frauen bringen möchten, ist eine Petition
+an den preußischen Unterrichtsminister eingereicht worden.
+Diese Petition enthielt die nachfolgenden beiden Anträge:
+1) daß dem weiblichen Element eine größere Be-
+teiligung an dem wissenschaftlichen Unterricht auf
+Mittel- und Oberstufe der öffentlichen höheren
+Mädchenschulen gegeben und namentlich Religion
+und Deutsch in Frauenhand gelegt werde.
+2) daß von Staatswegen Anstalten zur Ausbildung
+wissenschaftlicher Lehrerinnen für die Oberklassen
+der höheren Mädchenschulen mögen errichtet werden.
+Die beiden Anträge sind in der Petition kurz, in der
+beigegebenen Begleitschrift eingehend begründet. Da
+die Petition gleichfalls dem preußischen Abgeordnetenhaus
+überreicht werden soll, so erfolgt nachstehend die Veröffent-
+lichung dieser Begleitschrift, um möglichst weite Kreise für
+die hier berührten wichtigen Fragen zu interessieren und
+zur Unterschrift zu veranlassen. Exemplare der Petition
+sind zu diesem Zweck bei den Unterzeichneten zu erhalten.
+Berlin, im Oktober 1887.
+Im Namen des Petitionsausschusses:
+Helene Lange,
+Schöneberger Ufer 35.
+Frau Henriette Schrader,
+Steglitzerstraße 68.
+Frau Schulrat Cauer,
+Wichmannstraße 4.	Frau Stadtsyndikus Eberty,
+Linkstraße 6.
+Frau Direktor Jessen,
+Hallesches Ufer 19.
+Frau Marie Loeper-Housselle,
+Markirch im Elsaß.
+Die deutsche höhere Mädchenschule verdankt ihren Ur-
+sprung privaten Bestrebungen, die zu Ende des vorigen
+und zu Anfang dieses Jahrhunderts einem Bedürfnis ent-
+gegenkamen, das sich seit dem Wiedererwachen des geisti-
+gen Lebens in Deutschland, vor allem seit dem Aufschwung
+unserer nationalen Litteratur auf das Lebhafteste bemerkbar
+gemacht hatte. „Frauen von edleren Umgangsformen, voll
+reger Empfänglichkeit für die Schönheit der anhebenden
+klassischen Litteratur waren es zunächst und zumeist, die als
+begeisterte Sendlinge einer neuen Zeit höhere Bildungs-
+stätten eröffneten und die idealen Bedürfnisse des weib-
+lichen Herzens und Geistes befriedigen lehrten 1).“ — Wie
+alle privaten Bestrebungen, so trugen auch diese ihre Ge-
+währ nur in dem Charakter ihrer Urheber. Wenn also
+einerseits volle Hingabe an das aus freier Initiative Er-
+griffene, individuelle, einheitliche und darum nachhaltige
+Wirkung, Originalität und Energie erwartet werden konn-
+ten und gefunden wurden, so zeigte sich andrerseits auch
+wohl eine ungerechtfertigte Nachgiebigkeit gegen allerlei Zeit -
+und Modethorheiten, die zum Teil durch die pekuniäre Un-
+sicherheit der neuen Anstalten und ihre Abhängigkeit vom
+Publikum hervorgerufen wurde. Um der Willkür zu steuern,
+und da die Wichtigkeit einer tüchtigen Mädchenbildung auch
+für den Staat auf der Hand lag, unternahm es dieser
+unter baldiger Nachfolge der Gemeinden, höhere Mädchen-
+schulen zu begründen, die den Privatschulen als Norm
+Geschichtliches über die
+Entwicklung der höheren
+Mädchenschule.
+1) Denkschrift des Berliner Vereins für höhere Töchterschulen S. 4.
+dienen könnten. Da dieselben vom Gefallen des Publikums
+unabhängig waren, so waren obenerwähnte Ausschreitungen
+nicht zu fürchten; andrerseits konnte zwar auch der in sei-
+ner freien Verfügung vielfach gehemmte Direktor der staat-
+lichen oder städtischen Anstalt, der weder Lehrprogramm
+noch Lehrpersonal ganz nach seinem Ermessen wählen durfte,
+niemals an die Verwirklichung etwaiger schöpferischer Ideen
+in seiner Anstalt denken.
+Diese neuen Schulen unterschieden sich ganz besonders
+in einem Punkt wesentlich von den Privatanstalten, da-
+durch nämlich, daß der Einfluß der Frauen, der in den
+Privatanstalten von hoher Bedeutung erschien, hier wenig
+geschätzt wurde. Feststellung des Lehrprogramms, oberste
+Leitung und Unterricht in den oberen Klassen wurde in
+die Hand von Männern gelegt, und dieser Umstand scheint,
+obwohl es sich um Heranbildung von Frauen handelte,
+nicht die geringsten principiellen Bedenken veranlaßt zu
+haben.
+Die Resultate waren weniger befriedigend, als man
+erwartet hatte. Man glaubte den Grund darin zu finden,
+daß noch eine zu starke Anlehnung an die Knabenschule
+stattgefunden hätte, und suchte nun zunächst eine feste
+Basis für die Mädchenschule zu gewinnen, indem man
+über das Wesen weiblicher Bildung allerlei Theorien auf-
+stellte und viel schrieb und disputierte. Als man über die
+für die innere Organisation der höheren Mädchenschule
+maßgebenden Grundsätze ins Klare gekommen zu sein
+glaubte, kam im Jahre 1872 auf Veranlassung von Dr.
+G. Kreyenberg in Iserlohn eine Versammlung deutscher
+Mädchenschulpädagogen in Weimar zu stande, welche in
+einer den deutschen Staatsregierungen gewidmeten Denk-
+schrift 1) das Ziel der höheren Mädchenschule festzustellen
+suchte. Sie bestimmt in These II dieses Ziel folgender-
+maßen: „Die höhere Mädchenschule hat die Bestimmung,
+Versammlung deutscher
+Mädchenschulpädagogen
+zu Weimar 1872.
+1) Gedruckt bei Samuel Lucas, Elberfeld.
+der heranwachsenden weiblichen Jugend die ihr zukom-
+mende Teilnahme an der allgemeinen Geistesbildung
+zu ermöglichen, welche auch die allgemeine Bildungsauf-
+gabe der höheren Schulen für Knaben und Jünglinge,
+also der Gymnasien und Realschulen ist; nicht aber in
+einer unselbständigen Nachahmung dieser Anstalten, sondern
+in einer Organisation, welche auf die Natur und Lebens-
+bestimmung des Weibes Rücksicht nimmt, ist die Zukunft
+der Mädchenschule zu suchen.“ — Gegen diese Festsetzung
+wird niemand etwas einzuwenden haben, aber sie ist ledig-
+lich formaler Art, und es kommt jetzt alles darauf an,
+wie man „Natur und Lebensbestimmung des Weibes“
+auffaßt. Die Denkschrift spricht sich über diesen wichtig-
+sten Punkt auffallender Weise in keiner besonderen These
+aus, aber die Motivierung der oben angeführten These II
+läßt über die Auffassung der Weimarer Versammlung kei-
+nen Zweifel. „Es gilt“, heißt es hier weiter, „dem Weibe
+eine der Geistesbildung des Mannes in der Allgemeinheit
+der Art und der Interessen ebenbürtige Bildung zu er-
+möglichen, damit der deutsche Mann nicht durch
+die geistige Kurzsichtigkeit und Engherzigkeit
+seiner Frau an dem häuslichen Herde gelang-
+weilt und in seiner Hingabe an höhere Interessen ge-
+lähmt werde, daß ihm vielmehr das Weib mit Verständnis
+dieser Interessen und der Wärme des Gefühles für die-
+selben zur Seite stehe.“ Die Frau soll gebildet werden,
+damit der deutsche Mann nicht gelangweilt werde! Das
+erinnert zu stark an das Rousseausche „la femme est faite
+spécialement pour plaire à l'homme“, um nicht bei der
+würdigen Ansicht, die wir im ganzen in Deutschland von
+Erziehungsfragen und Menschenbildung haben, starken An-
+stoß zu erregen. Mit dieser Motivierung steht These III
+der Weimarer Denkschrift: „Die höhere Mädchenschule hat
+eine harmonische Ausbildung der Intellektualität, des Ge-
+mütes und des Willens in religiös-nationalem Sinne auf
+realistisch-ästhetischer Grundlage anzustreben“, der wir sonst
+in vollem Maße zustimmen würden, in direktem Wider-
+spruch, und die im Zusammenhang damit weiterhin auf-
+gestellte Forderung, die Frau zu einer „edlen Persönlichkeit“
+herauszubilden, ist bei solcher Auffassung absolut unaus-
+führbar. Wie kann man von einer harmonischen Aus-
+bildung sprechen, wenn man derselben einen so einseitigen
+Zweck zuweist, wenn man die Persönlichkeit nicht um ihrer
+selbst willen ausbildet!
+Durch diese Motivierung war nun das bisher viel-
+leicht nur aus Mangel an gutem Material geübte Ver-
+fahren, die Lehrerinnen möglichst von allen wichtigeren
+Zweigen des Mädchenunterrichts fern zu halten, für be-
+rechtigt erklärt und auf ein Princip gegründet. Da näm-
+lich der Mann selbst am besten wissen mußte, wie weit die
+Bildung der Frau zu gehen habe, damit er am häuslichen
+Herde nicht gelangweilt werde, damit sie ihm andrerseits
+aber auch nicht unbequem werde (nur „Verständnis seiner
+Interessen und Wärme des Gefühls für dieselben“ verlangt
+die Weimarer Denkschrift, nicht die Befähigung, ein
+selbständiges Urteil darüber zu fällen, noch viel weniger
+die, sie fördern zu helfen 1), so war es durchaus folge-
+richtig, daß Frauen höchstens zur Grundlegung der Ele-
+mente, nur Männer aber zum weiteren Ausbau des Wissens
+verwendet wurden.
+Folgen dieser falschen
+Motivierung. Die einsei-
+tige Bildung der Mädchen
+durch Männer wird zum
+Princip erhoben.
+Die Einseitigkeit der Weimarer Denkschrift, die sich
+im übrigen hauptsächlich mit der äußeren Stellung der
+höheren Mädchenschule und der daran angestellten Diri-
+genten und Lehrenden beschäftigte, erregte lebhaften Wider-
+spruch, besonders in den Kreisen der Privatschulen, deren
+Existenz und Verdienste sie möglichst ignorierte. Der
+1) Wie anders klingt das Wort Diesterwegs: „Wir Männer ver-
+langen Frauen, welche unsere Zwecke nicht nur verstehen, sondern
+sich zu deren Erreichung mit uns verbinden; erziehen wir dazu
+in Haus und Schule die nötigen Frauen?“ (Vorrede zu T. Homberg,
+Gedanken über Erziehung und Unterricht.)
+„Berliner Verein für höhere Töchterschulen“ gab diesen
+Bedenken in einer zweiten Denkschrift 1 Ausdruck, welche
+gleichfalls den deutschen Staatsregierungen gewidmet war.
+Die Ausführungen dieser Denkschrift, die auf höchst ge-
+sundem Boden steht und auf das Wärmste für weiblichen
+Einfluß in der Schule eintritt, sind ganz ohne Belang für
+die Gestaltung der höheren Töchterschule geblieben — die
+Regierung glaubte der Weimarer Richtung, deren Ver-
+treter zugleich die der öffentlichen Mädchenschulen waren,
+größeres Vertrauen schenken zu müssen —, so daß ein
+näheres Eingehen darauf an dieser Stelle zwecklos er-
+schiene; wir werden jedoch späterhin mehrfach darauf zu-
+rückzukommen haben.
+Die Berliner Denkschrift.
+Im August 1873 berief der Kultusminister Dr. Falk
+eine Konferenz von Mädchenschulpädagogen nach Berlin 2),
+die über Einrichtung, Aufgabe und Ziel der mittleren und
+höheren Mädchenschulen, über Fortbildungsanstalten, Leh-
+rerinnenbildung ꝛc. ihre Ansichten äußern sollte. Mehrere
+der Unterzeichner der Weimarer Beschlüsse waren zu dieser
+Konferenz einberufen worden und gaben ihr im ganzen
+die Richtung. Man trat mit großem Eifer in die Ver-
+handlungen ein, und wir erkennen rückhaltlos das Interesse
+an, das dem Gegenstand gewidmet wurde, wenn wir uns
+mit den Ergebnissen der Verhandlungen auch nicht ein-
+verstanden erklären können. Frauen waren ja auch nur
+in so geringer Anzahl (5 auf 20 Mitglieder) in dieser
+Versammlung anwesend, daß von einem ernsthaften Ein-
+fluß derselben auf den Gang der Konferenz, von einer
+energischen Wahrung unserer Interessen nicht die Rede sein
+konnte. So wurde von ihrer Seite die Ansicht geltend
+gemacht, daß die Schulleitung besser in der Hand von
+Die Berliner Konferenz
+vom August 1873
+1 gedruckt bei Franz Krüger, Berlin.
+2) f. Protokolle über die im August 1873 im Königl. Preuß. Unterr.-
+Minist. gepflogenen, das mittlere u. höhere Mädchenschulwesen betreffenden
+Verhandlungen. Berlin 1873. Verlag von Wilhelm Hertz.
+Lehrerinnen als von Lehrern liege, da eine bestimmte, auf
+die Erziehung gerichtete Arbeit — (die selbstverständlich
+von einer tüchtigen Frau besser als von Männern aus-
+geführt wird)— neben dem Unterricht in der Mädchen-
+schule nötig sei 1); diese Ansicht wurde überstimmt. Auf-
+gabe und Ziel der höheren Mädchenschule wurden von der
+Berliner Konferenz erklärlicher Weise ganz im Sinne der
+Weimarer Denkschrift gefaßt. Auch hier ist die Fest-
+stellung dieser Aufgabe: „der weiblichen Jugend eine ihrer
+Eigentümlichkeit entsprechende allgemeine Bildung zu geben“,
+eine rein formale, da von dieser Eigentümlichkeit, von Na-
+tur und Bestimmung der Frau nicht weiter die Rede ist.
+Es würde somit eigentlich die Grundlage für die Fest-
+stellung des Lehrprogramms, wie des Lehrpersonals fehlen;
+jedoch zeigt der ganze Verlauf der Konferenz, daß die von
+den Weimarer Pädagogen angenommene Grundlage auch
+hier Ausgangspunkt gewesen ist, d. h. daß die Notwendig-
+keit, der Frau einen Anteil an der allgemeinen Bildung
+zu geben, nur hergeleitet wurde aus dem Umstand, daß
+der Mann eine solche Bildung seinetwegen wünschen
+müßte. Wenn diese Anschauung auch nicht ausdrücklich
+ausgesprochen wurde, so fanden doch thatsächlich ihre Kon-
+sequenzen in den Bestimmungen der Augustkonferenz ihren
+unzweideutigen Ausdruck, und da diese Bestimmungen, ob-
+wohl die Regierung ihnen nie normativen Charakter ver-
+lieh, doch in der That der Weiterentwicklung unsres
+Mädchenschulwesens als Grundlage gedient haben, so
+mußten sich diese Konsequenzen auch hier überall zeigen.
+Nach wie vor wurden nur Männer zur Leitung von
+Mädchenschulen verwandt; selbst unverheiratete erschienen
+und erscheinen, wie die Thatsachen zeigen, dafür geeigneter
+als Frauen. Nicht nur die Oberleitung der Schulen, son-
+dern folgerichtig auch die der Oberklassen blieb in den
+Händen von Männern, der wissenschaftliche Unterricht auf
+Die höhere Mädchen-
+schule entwickelt sich weiter
+nach den durch die Wei-
+marer Denkschrift und die
+Augustkonferenz geschaffe-
+nen Principien.
+1) Protokolle ꝛc. S. 47.
+der Oberstufe wird fast ausschließlich von ihnen erteilt und
+auch auf der Mittelstufe überwiegt ihr Unterricht bei wei-
+tem; ja, bei vielen staatlichen und städtischen Schulen
+stehen selbst die eben in die Schule eintretenden sechs-
+jährigen kleinen Mädchen unter der Leitung von Lehrern
+anstatt von Lehrerinnen, und die unumwunden ausge-
+sprochene Ansicht eines bekannten Berliner Schulmannes:
+Lehrerinnen seien höchstens zur Aufsicht in den Zwischen-
+stunden und zum Handarbeitsunterricht (der aber auch
+noch von Männern inspiciert werden müsse), tauglich, war
+nur der konsequenteste Ausdruck des grundlegenden Prin-
+cips der Weimaraner 1).
+1) Das Weimarer Programm verlangt zwar Mitwirkung von Leh-
+rerinnen, wohl mehr „der Not gehorchend als dem eigenen Trieb“. Es
+wurden in Weimar von einigen Lehrerinnen (Frl. Mithène und Frl.
+Stoephasius) Anträge gestellt, welche auf Gleichberechtigung der Lehrerin-
+nen mit den Lehrern und bessere Ausbildung der Lehrerinnen hinaus-
+gingen. „Wenn sich auch die Versammlung in ihrer Mehrheit
+ablehnend zu diesen Anträgen verhalten hat, so hat in der in
+ihrem Namen den Staatsregierungen überreichten Denkschrift die allge-
+meine Tendenz derselben doch ihren Ausdruck und ihre Anerkennung ge-
+funden.“ (F. Cauer, Die höhere Mädchenschule ꝛc. S. 15.) Da jedoch
+alles beim Alten blieb, wurde die Frage in Dresden (1875) und in Cöln
+(1876) wieder angeregt und der letzteren Versammlung unter teilweise
+geradezu tumultuarischen Scenen wenigstens der Satz abgerungen, daß die
+Anstellung von Lehrerinnen auch in den oberen Klassen „wünschenswert“
+sei. Dieses Zugeständnis ist wiederum ohne Folge geblieben. Wir
+wissen nun zwar sehr wohl, daß die Anstellung von Lehrerinnen durch
+die Behörde erfolgt, und daß der einzelne Direktor wenig dabei thun
+kann; wir wissen aber auch, daß die Behörde mit der Nichtanstellung von
+Lehrerinnen an den Oberklassen nur den geheimen oder offen ausge-
+sprochenen Wünschen der großen Mehrzahl der Mädchenschul-Dirigenten
+entgegenkommt. (Ausnahmen erkennen wir gern und dankbar an; so hat
+u. a. Rich. Schornstein, Direktor der höheren Mädchenschule in Elberfeld
+[obwohl einer der Unterzeichner der Weimarer Denkschrift], mehrfach warm
+und ernstlich sowohl in der Stoa wie in der von ihm herausgegebenen
+Zeitschrift für weibliche Bildung für die Lehrerinnen gesprochen.) Wäre
+die herrschende Richtung eine andere als sie ist, würden alle oder doch die
+meisten Dirigenten höherer Mädchenschulen der Regierung gegenüber den
+Seit jener Augustkonferenz sind nun vierzehn Jahre
+verflossen; eine ganze Generation ist durch die Schule ge-
+gangen; welches sind die Resultate? — Völlig befriedigt,
+wenn auch nicht von allen Resultaten, so doch von der
+Richtung, welche die höhere Mädchenschule eingeschlagen,
+ist nur eine Partei: die an ihr wirkenden akademisch ge-
+bildeten Dirigenten und Lehrer. Hören wir nur auf das,
+was von ihnen geschrieben und in ihren Versammlungen
+gesprochen wird, so befindet sich die höhere Mädchenschule,
+1)
+1) entschiedenen Wunsch aussprechen, Lehrerinnen an ihren Oberklassen zu
+haben, so sind wir völlig sicher, daß die Behörde, die sich nie principiell
+gegen die Anstellung solcher Lehrerinnen geäußert, und die den ernstlichen
+Wünschen der Dirigenten stets das weitgehendste Entgegenkommen gezeigt
+hat, diesem Wunsche willfahren würde. Und so können wir den Umstand,
+daß an den Oberklassen höherer Mädchenschulen fast nur Männer unter-
+richten, doch nur der unter den Dirigenten und Lehrern i. a. herrschenden
+Richtung zuschreiben.
+In einigen Fächern unterrichten nun zwar thatsächlich Lehre-
+rinnen durch die ganze Schule, aber diese Fächer sind Handarbeit
+und Turnen, mit denen zum Teil sehr tüchtige Kräfte fast die Hälfte
+ihrer Zeit ausfüllen müssen, während sie den Fachlehrerinnen, denen sie
+sehr zu gönnen wären, entzogen werden. Der Einwand, daß man aus
+pädagogischen Gründen wissenschaftlich gebildete Lehrerinnen zu diesen
+Stunden benutze, ist ein sonderbarer; wir haben früher nie gehört, daß
+man zur Zeit, als es nur Turnlehrer gab, einem wissenschaftlich
+gebildeten Lehrer den Turnunterricht aus pädagogischen Gründen als
+Nebenbeschäftigung gegeben hätte. Damals, meinen wir, seien vielleicht
+pädagogische Bedenken am Platz gewesen; heute, wo wir unsere Mädchen
+Turnlehrerinnen anvertrauen können, sind sie gänzlich ungerechtfertigt.
+Die Fachlehrerinnen werden dadurch thatsächlich brotlos gemacht, und die
+Kraft der wissenschaftlich gebildeten Lehrerinnen wird verschwendet. (Freilich,
+nach jetzigem System giebt es ja noch keine volle Verwendung dafür.) Eine
+Autorität auf diesem Gebiet, Prof. Dr. Euler, ist noch kürzlich warm für
+die Fachlehrerinnen eingetreten. (Die Frau im gemeinnützigen Leben. 1887.
+II. Vierteljahrsheft S. 128.) Auch der Schulinspektor der Franckeschen
+Stiftungen, U. Dammann, spricht sich entschieden für die Fachlehrerinnen
+aus. Was die Beteiligung der Lehrerinnen an dem wissenschaftlichen
+Unterricht auf der Oberstufe betrifft, so giebt folgende Übersicht über die
+Berliner öffentlichen höheren Mädchenschulen dafür einen Anhaltspunkt.
+wenn auch noch mancherlei weiter auszugestalten ist, doch
+in gedeihlichster Entwicklung und auf völlig richtiger Bahn.
+Hört man aber dagegen die Väter und vor allem die
+1)
+1) Königl. Schulen.	Städtische Schulen.
+Augusta-
+schule	Elisabeth-
+schule	Luisen-
+schule	Victoria-
+schule	Char-
+lotten-
+schule	Sophien-
+schule	Marga-
+rethen-
+schule
+IX männl.,
+VIII — V
+weibliche
+IV — I
+männl. O.	außer der
+untersten
+Kl. nur
+männl.
+Ord.	nur
+männl.
+Ord.	IX — VIB
+weibl. O.
+VIA — I
+männl. O.	IX — VIA
+weibl. O.
+VB — I
+männl. O.	IX — VIIB
+weibl. O.
+VIIA — I
+männl. O.	IX — VA
+weibl. O.
+IVB — I
+männl.O.
+NB. Die erste Reihe giebt die Zahl der überhaupt erteilten obligatorischen wissen-
+schaftlichen Stunden, die zweite die der in weiblichen Händen befindlichen an.
+Ia
+Ib	22	0	24	0	22
+22	0
+0
+0	22
+22	0
+0	a22
+b22
+c22	0
+0
+0
+22
+22	0
+0	22	1
+IIa
+IIb	22	4	22	0	22
+22	0
+0	22
+22	7
+0	22
+22	0
+2	22
+22	0
+0	22	2
+IIIa
+IIIb	22	0	22
+22	3
+5	22
+22	0
+0	22
+22	4
+0	22
+22	0
+8	22
+22	2
+0	22
+22	2
+1
+66	4	90	8	132	0	132	11	154	10	132	2	88	6
+Es befinden sich folglich in den Oberklassen der Berliner höheren
+Mädchenschulen auf 794 dort erteilte wissenschaftliche Stunden 41 in
+Frauenhänden, also ca. 5,2 %; von diesen Stunden sind 30 Sprach-
+stunden, 5 Geschichtsstunden, 4 Religions- und 2 deutsche Stunden. Das
+Verhältnis stellt sich so, daß von ca. 20 Stunden überhaupt eine, aber
+erst von ca. 36 Religions- und deutschen Stunden eine von einer Leh-
+rerin erteilt wird, also nur 2,77...%. Die Behauptung wird nicht zu
+gewagt erscheinen, daß auf der Oberstufe der öffentlichen höheren Mädchenschulen
+Berlins von einem erziehlichen Fraueneinfluß absolut nicht die
+Rede sein kann, um so weniger, als hier ausnahmslos männliche
+Ordinarien sind. — Wir fügen zur Vervollständigung hinzu, daß in dem
+mit der königl. Augustaschule verbundenen Lehrerinnen-Seminar keine der
+wissenschaftlichen Stunden in Frauenhand liegt.
+In den Schulen der Provinzen findet meistens eine etwas größere
+Beteiligung der Lehrerinnen statt, aber fast nur für den Unterricht in den
+fremden Sprachen.
+Mütter unserer jungen Mädchen, hört man die öffentliche
+Meinung, prüft man endlich selbst vorurteilsfrei die in
+unseren höheren Mädchenschulen erzielten Resultate, so
+erwachsen Einem starke Zweifel an der Richtigkeit des hier
+befolgten Systems. Wir wollen von allerlei anekdoten-
+haften Angriffen absehen; einzelne Mißgriffe werden stets
+vorkommen. Aber wir können unser Auge nicht davor
+verschließen, daß die wesentlichste Aufgabe einer Mädchen-
+schule, zu bilden, zu innerer Ruhe zu bilden, wie
+Pestalozzi sagt, nicht erfüllt wird. Unsere Schulen bilden
+nicht, sie erziehen nicht maßvolle Frauen von edler Sitte,
+sie lehren nur. Wir können ferner unser Auge nicht da-
+vor verschließen, daß auch dieses Lehren vielfach in einer
+unpädagogischen Überbürdung mit positivem Stoff und
+einem falschen Systematisieren besteht 1), daß das Wissen
+unserer jungen Mädchen infolge dessen vielfach zerfahren,
+äußerlich und ungründlich ist. Von allem, was Männer
+gründlich lernen, darauf hauptsächlich geht die Klage, er-
+fahren unsere Mädchen ein klein wenig; dies Wenige aber
+selten so, daß das Interesse für spätere Vertiefung rege
+gemacht oder das Selbstdenken ernsthaft in Anspruch ge-
+nommen würde, sondern als zu Übersichten gruppierte po-
+sitive Thatsachen oder fertige Urteile, die, ohne Beziehung
+zum inneren Leben, dem Gedächtnis bald wieder ent-
+schwinden und nur das dünkelhafte Gefühl des „Gehabt-
+habens“ und der Kritikfähigkeit zurücklassen. Aus dieser
+Art zu lehren erklärt sich die Unfähigkeit unserer Schulen,
+zu bilden, von selbst. Was nur der Verstand oberfläch-
+lich erfaßt, kann zur Herausbildung einer sittlichen Per-
+sönlichkeit nicht beitragen; es kann überhaupt garnicht in
+Beziehung zum inneren und äußeren Leben gesetzt werden.
+Die Resultate des befolg-
+ten Systems. Klagen
+gegen die höheren Mäd-
+chenschulen 1. sie bilden
+und erziehen nicht, 2. sie
+überbürden mit Stoff.
+1) Auf die Änderungen, die in dieser Beziehung neuerdings an-
+gebahnt worden sind und von denen Resultate selbstverständlich noch nicht
+vorliegen, wird erst weiterhin eingegangen werden; es handelt sich hier
+zunächst um die allgemeine Charakteristik der Zeit von 1872 bis heute
+und um eine Kennzeichnung der Resultate der Weimarer Pädagogik.
+Und in den Stunden, in welchen eine Vertiefung möglich
+wäre und ein gründliches Verweilen bei dem Lehrstoff auch
+stattfindet, Religion und Deutsch, bleibt wieder aus anderen
+Gründen die gehoffte Wirkung aus: die lehrenden Männer
+sind viel zu unbekannt mit dem Gedanken- und Pflichten-
+kreis der vor ihnen sitzenden jungen Mädchen, um all die
+schönen Sprüche und Sentenzen, in denen so unendliche
+Lebensweisheit aufgespeichert liegt, für sie nutzbar zu
+machen, und so gewöhnen sich viele unserer Mädchen eine
+Art von doppelter Buchführung an: sie schwelgen in
+schönen Gedanken und Gefühlen in der Schule und gehen
+mit einer den Lehrer geradezu überraschenden Feinfühlig-
+keit seinen religiös-ästhetischen Betrachtungen nach, um sich
+daneben mit völlig ruhigem Gewissen grobe Vernach-
+lässigungen ihres kleinen Kreises häuslicher und sittlicher
+Pflichten zu schulden kommen zu lassen und in geistigem
+Hochmut auf die Ihren herabzusehen, die vielleicht weniger
+in ästhetischen Sphären leben. Daß zwischen diesen und
+dem wirklichen, alltäglichen Leben eine enge Verbindung
+besteht und bestehen muß, kann ihnen nur dann aufgehen,
+wenn sie ihnen in Bezug auf ihre eigenen Pflichten immer
+wieder von kundiger Hand schonungslos nachgewiesen wird.
+Ursachen dieser Erschei-
+nungen.
+1. Die höheren Mädchen-
+schulen können nicht bil-
+den, da die dort unter-
+richtenden Männer natur-
+gemäß mit dem inneren
+Leben der Mädchen zu
+wenig vertraut sind, um
+Einfluß darauf zu haben.
+Wir werden auf diesen Punkt späterhin zurückzukommen
+haben; zunächst aber handelt es sich um die Ergründung
+der Ursachen, welche die zuerst gekennzeichneten Erschei-
+nungen veranlaßt haben. Wie kommt es, daß in unseren
+Mädchenschulen, die durch keine Examina, keine „Berech-
+tigungen“ dazu gezwungen sind, eine solche Überbürdung
+mit positivem Stoff, mit fertigen Formeln über den Kin-
+dern zum Teil ganz unzugängliche Dinge stattfinden, so daß
+die intellektuellen und sittlichen Fähigkeiten erschlaffen und
+nur Automaten gebildet werden?
+Der nächste und in die Augen fallendste Grund liegt
+in dem Lehrprogramm der Augustkonferenz, das, wie schon
+erwähnt, thatsächlich dem Unterricht in unseren höheren
+Mädchenschulen zu Grunde gelegt worden ist. Es spricht
+2. Die Überbürdung hat
+ihren Grund in dem zu
+umfassenden Lehrpro-
+gramm der Augustkon-
+ferenz, in dem Bestreben
+des Abschließens und
+Fertigmachens.
+daraus, wie Luise Büchner, die seinerzeit vom Kultusministe-
+rium zu einem Urteil über die „Protokolle ꝛc.“ aufgefordert
+wurde, mit Recht bemerkt, „ein Bestreben des Abschließens,
+des Fertigmachens, welches zu nichts Lebendigem führen
+kann“, „Stoff und Lernzeit decken sich nicht“, und fast bei
+jedem Lehrgegenstand möchte man ein Zu viel! ausrufen 1).
+Das junge Mädchen soll bis zu seinem 16ten Jahre (es
+kann ja möglicherweise im folgenden dafür sorgen müssen,
+daß der deutsche Mann sich nicht langweilt), alles „gehabt
+haben“, was den wesentlichen Inhalt der allgemeinen Bil-
+dung ausmacht, da eine Fortbildung, wenn auch als wün-
+schenswert, so doch nicht als obligatorisch 2), nicht als Sache
+der Schule angesehen wurde. So mußte denn vieles, was
+seinem eigentlichsten Gehalt nach den Kindern noch unzu-
+gänglich war, in Form von fertigen Urteilen gegeben wer-
+den, und eine „Übersicht“ mußte häufig die Stelle der
+Einsicht vertreten. So war in dem Lehrprogramm schon
+von vornherein die Treibhauspflanze gegeben, als die nach
+dem allgemeinen Urteil unsere jungen Mädchen heute die
+Schule verlassen. Nicht umsonst ist die „höhere Tochter“
+zum Stichblatt des Witzes geworden. „Halb, halb, halb!“
+dieses Wort möchte Luise Büchner über jede deutsche
+Mädchenschule schreiben, bis es endlich ein Herz erbarmte.
+Wenn man bis zum 16. Jahre Menschen „fertig machen“
+will, so kann nur ein homunculus zu stande kommen.
+Es sind schwere Anklagen, die wir gegen die höhere
+Mädchenschule ausgesprochen haben; aber wer hat den
+Mut zu sagen, daß sie unwahr sind, wer den Mut zu be-
+haupten, daß die Schule zu edlen, in sich harmonischen
+Persönlichkeiten den Grund lege, wie es das Weimarer
+Programm verheißt? zu behaupten, daß die Wissenschaft,
+1) Luise Büchner, die Frau, Berlin 1878. S. 49, 54.
+2) Wenn auch von einem Schulzwang über das 14. Jahr hinaus
+nicht die Rede sein kann, so giebt es doch einen Zwang der öffentlichen
+Meinung, der hierfür leicht zu gewinnen wäre.
+wie sie unsere Schulen übermitteln, den Mädchen zu einer
+geistigen Zucht für Verstand, Gemüt und Charakter werde,
+wie es eben diese Denkschrift will?
+Wir fanden den nächstenGrund dafür, daß diese
+Absichten nicht erfüllt worden sind, in den zu hoch ge-
+steckten Zielen des Lehrprogramms der Augustkonferenz.
+Daß auch die Regierung ihn in dieser Richtung gesucht
+hat, daß sie also überhaupt die volle Zufriedenheit der
+Mädchenschulpädagogen mit der Entwicklung der Mädchen-
+schule nicht teilt und an der Weimarer Richtung nicht mehr
+unbedingt festhält, geht aus mehreren Umständen hervor.
+Zunächst aus dem schon erwähnten, daß sie trotz des Drängens
+der Weimaraner den Bestimmungen der Augustkonferenz
+keinen normativen Charakter gab; zweitens aus der Rede
+des Herrn Ministers von Goßler im preußischen Abgeord-
+netenhaus (5. Februar 1884), in welcher derselbe es als
+unmöglich hinstellte, einem 16jährigen Mädchen eine wirklich
+abgeschlossene Bildung zu geben 1), drittens aus dem „Zurück-
+schrauben der Forderungen“, das thatsächlich mehrfach statt-
+gefunden und seinen entschiedensten Ausdruck in dem Ber-
+liner Normallehrplan gefunden hat. So sehr wir dessen
+Princip, Stoffbeschränkung, anerkennen, so schwer-
+wiegende Bedenken haben wir hinsichtlich der einzelnen
+Bestimmungen zu äußern. Es ist natürlich, daß eine so
+starke Überspannung der Forderungen, wie sie die Weimarer
+Pädagogik erzeugte, auch eine starke Reaktion zur Folge
+1) Die Worte des Ministers lauten nach dem stenographischen Be-
+richt: „Ich halte nicht dafür, daß es möglich ist, einem 16jährigen Mäd-
+chen eine wirklich abgeschlossene Bildung zu geben, sondern glaube, daß
+in vielen Beziehungen völlig Genügendes geschieht, wenn die Entwicke-
+lung bis zu der Stufe geführt wird, daß die Möglichkeit einer weiteren
+Selbstentwickelung gegeben ist.“ Wir unterschreiben diese Worte voll-
+ständig, nur möchten wir bezweifeln, daß i. a. mit dem 16. Jahre diese
+Fähigkeit selbständiger Weiterentwickelung gegeben ist; würde doch niemand
+das bei dem Knaben erwarten, mit welchem Recht also bei dem Mäd-
+chen? Auch ihm muß, wie wir weiterhin ausführen werden, noch ein
+fernerer Anhalt zu seiner Weiterentwickelung geboten werden.
+hat; wir können nur auf das Lebhafteste bedauern, daß
+unsere Mädchen so von einem Extrem in das andere
+kommen, und bezweifeln, daß sich an der Hand des Nor-
+mallehrplans, der den Stoff teils zu stark beschneidet, teils
+so unpädagogisch ordnet, daß der Überbürdung und der
+Gefahr nur Übersichten zu geben nicht einmal abgeholfen
+ist, unser weiterhin zur Besprechung kommendes Princip
+durchführen lassen wird.
+Die ganze bisherige Überbürdung aber können wir
+überdies nur als Symptom eines tieferen Schadens an-
+sehen. Wir haben schon oben gesagt, worin wir den
+tieferen Grund der mangelhaften Resultate unserer Mäd-
+chenbildung suchen: in der falschen Ansicht über die
+Bestimmung der Frau, und wir wiederholen es mit den
+Worten Betty Gleims, die schon vor 77 Jahren ungehört
+und unbeachtet an die große Wahrheit gemahnt hat, daß
+durch das (trotz der christlichen Lehre von der Gleich-
+wertigkeit beider Geschlechter nicht beseitigte) Vorurteil
+„als sei das Weib nur des Mannes wegen da, und nur
+insofern etwas wert, als es dem Manne gefalle und
+diene, in ihm Vieles unterdrückt und geknickt, Vieles un-
+erkannt und unbemerkt zu Grunde gegangen sei“, daß „die
+Kunst würdig zu leben“, „das rechte Verhältnis der inne-
+ren und äußeren Thätigkeit zu treffen“, „aufwärts zu
+streben“, ihm dadurch abhanden gekommen sei. „Fragt
+ihr, welches die Quelle sei dieses Verfalls, so sage ich
+euch, daß ich sie zu finden glaube in der unrichtigen An-
+sicht der Bestimmung des Weibes. Schief und schielend
+muß jede Menschenbildung ausfallen, die hervorgeht aus
+der Verwechslung der Stufe mit dem Gipfel, des Mittels
+mit dem Zweck, des Weltlichen mit dem Überweltlichen,
+des Zeitlichen mit dem Ewigen; und solche Verwechslung
+läßt sich nachweisen in der gewöhnlichen und herrschenden
+Erziehung der Frauen.“ 1)
+1) Erziehung und Unterricht des weiblichen Geschlechts. Ein Buch
+So lange die Frau nicht um ihrer selbst willen,
+als Mensch und zum Menschen schlechtweg gebildet
+wird, so lange sie im Anschluß an Rousseau's in Bezug
+auf Frauenbildung sehr bedenkliche Ansichten in Deutschland
+nur des Mannes wegen erzogen werden soll, so lange kon-
+sequenterweise die geistig unselbständigste Frau die beste
+ist, da sie am ersten Garantie dafür bietet, den Interessen
+ihres zukünftigen Mannes, deren Richtung sie ja unmöglich
+voraus sehen kann, „Wärme des Gefühls“ entgegen zu bringen,
+so lange wird es mit der deutschen Frauenbildung nicht
+anders werden. Das wird nun vielen Männern als kein
+großer Schaden erscheinen, wenn nur ihr Behagen dabei
+gesichert ist. Es würde freilich noch weiterhin wie bisher
+eine Unsumme von großen Eigenschaften und Fähigkeiten
+von Glück und Lebensfreude dabei zu Grunde gehen, dem
+Manne aber seiner Auffassung nach ein positiver Schaden
+daraus nicht erwachsen.
+Aber so liegt die Sache nicht. Nicht nur um die
+Frauen handelt es sich: in ihrem Geschick liegt das
+der werdenden Generation beschlossen, und mit
+diesem Wort ist die große Kulturaufgabe der Frau ge-
+geben, die an Größe und Schönheit in nichts hinter der
+des Mannes zurücksteht, und die wir nicht mit der seinen
+vertauschen möchten. Während der Mann die äußere Welt
+erforscht und umgestaltet, sie nach seinem Sinn und Willen
+modelt, Zeit, Raum und Stoff zu zwingen versucht, liegt
+vorzugsweise in unserer Hand die Erziehung der
+werdenden Menschheit, die Pflege der edlen Eigen-
+schaften, die den Menschen zum Menschen machen: Sitt-
+lichkeit, Liebe, Gottesfurcht. Wir sollen im Kinde die
+Welt des Gemüts anbauen, sollen es lehren, die Dinge
+in ihrem rechten Wert zu erkennen, das Göttliche höher zu
+achten als das Zeitliche, das Sittliche höher als das Sinn-
+1)
+Unter der falschen Rich-
+tung unserer Schulen
+leidet nicht nur die Frau,
+es leidet darunter die
+werdende Generation, die
+sie zu erziehen hat.
+1) für Eltern und Erzieher von Betty Gleim. Leipzig bei G. F. Göschen 1810. S. 87 und Vorrede S. XIV f.
+liche; wir sollen es aber auch denken und handeln
+lehren.
+Glaubt man denn wirklich, für die Erfüllung dieser
+Aufgabe sei die Bildung, welche die Schule unseren Mäd-
+chen giebt, die geeignete Vorbereitung? Diese Bildung läßt
+innerlich haltlos und unselbständig; der Erzieherberuf aber
+fordert eine sittlich und geistig selbständige Persön-
+lichkeit, die zum Menschen gebildet ist 1), deren Fähig-
+keiten um ihrer selbst willen nach jeder Richtung hin ent-
+wickelt sind, die gelernt hat, ihr geistiges und religiöses
+Leben in Verbindung zu setzen mit dem Kreis täglicher
+Pflichten, die vielleicht nicht durch die Kenntnis sehr zahl-
+reicher positiver Thatsachen, aber durch die Größe ihres
+Gesichtskreises und die Tiefe ihres Verständnisses ihrem
+Kinde Achtung abnötigt; die selbst zum Denken und Han-
+deln erzogen ist.
+Die Frau muß zu einer
+sittlich und geistig selb-
+ständigen Persönlichkeit
+gebildet werden, da sie
+nur als solche zur Er-
+füllung ihrer großen Kul-
+turaufgabe: zur Erzie-
+hung fähig ist.
+Wir kommen also schließlich zu derselben Forderung
+wie die Weimarer Denkschrift, aber von ganz anderer
+Grundlage ausgehend und mit ganz anderer Garantie für
+die Durchführung unseres Programms. Auch wir wollen
+eine edle, geistig und sittlich selbständige Persönlichkeit
+herauszubilden suchen, und da unser Programm nicht zwie-
+spältig in sich selbst ist, da wir die um ihrer selbst
+willen nach jeder Richtung hin, sowohl nach ihrer
+specifisch weiblichen als nach ihren rein menschlichen
+Fähigkeiten hin entwickelte Persönlichkeit notwendig
+brauchen, denn nur sie allein kann erziehen, so kann
+sich uns gar nicht das oberflächlich unterrichtete, im Grunde
+aber geistig und sittlich unselbständige Wesen unter-
+schieben, das die Weimarer Pädagogik erzeugt hat und
+1) „Die weibliche Natur ist nicht ein blasser und sanfter Abdruck
+der männlichen, sie ist ein selbständiger Gottesgedanke, ein in
+sich vollendeter Organismus, in welchem das Wesen der Mensch-
+heit anders, lieblicher und milder, ausstrahlen soll als beim Manne.“
+(A. Dammann. Die höhere Mädchenschule I. Teil S. 11. Berlin,
+R. Appelius.)
+wegen ihrer Gundanschauung erzeugen mußte. Sie will
+dem Manne zu Liebe erziehen, und, es ist eine merkwürdige
+aber unbestreitbare Thatsache, der deutsche Mann liebt im
+ganzen Selbständigkeit an der Frau durchaus nicht, eine
+gewisse Unselbständigkeit giebt ihr einen Reiz mehr, der
+noch erhöht wird durch die Gelegenheit, die sie dem
+Manne giebt seine Superiorität zu zeigen, und daran
+findet gerade der Deutsche, man mag es wenden, wie
+man will, ein entschiedenes Gefallen. Nur daraus erklärt
+es sich, daß von den Tausenden auf die Mädchenschule
+scheltenden Vätern und Männern nie ein Schritt zur
+Verbesserung der hier herrschenden Zustände geschehen ist.
+Das schöne Wort Goethes, daß die vorzüglichste Frau die
+sei, welche zur Not ihren Kindern auch den Vater ersetzen
+könne, findet noch wenig Widerhall in den Herzen deutscher
+Männer!
+Aber freilich haben sich die Frauen auch noch nie mit
+einem energischen Appell an die deutschen Männer gewandt,
+um sie aufmerksam zu machen auf die Gefährlichkeit der
+Richtung, die die Mädchenbildung eingeschlagen; vielleicht
+bedarf es nur eines solchen, um sie zur Einsicht zu bringen,
+um ihnen ein Bewußtsein davon zu geben, was alles in
+dem Satze liegt: die Frau ist nicht nur die Frau
+ihres Mannes, sie ist auch die Mutter ihrer Kin-
+der, und in dem zweiten: nicht alle Frauen sind zur
+Heirat berufen, fast ausnahmslos aber haben sie
+in irgend welcher Weise mit der Erziehung der
+Jugend zu thun. Aus diesen Sätzen gewinnen wir
+Klarheit über das, was immer Lebensbestimmung der
+Frau ist, Klarheit auch darüber, daß sie zur selbständigen
+Persönlichkeit entwickelt werden muß.
+Wir können nun freilich, eben weil uns unser Er-
+ziehungsziel keine Phrase ist, nie glauben, daß die Schule
+solche Persönlichkeiten fertig stellen könne; mit 16 Jahren
+ist man eben kein selbständiger Mensch; aber sie kann die
+Fähigkeiten dazu entwickeln helfen und somit der
+Familie eine wirkliche Stütze werden. Dazu bedarf es
+allerdings eines vollständigen Systemwechsels. An die
+Stelle des Princips des Abschließens und Fertig-
+machens hat das Princip der Kraftbildung zu
+treten. Anstatt die Mädchen zu lehren, was man
+glaubt und sie sprechen zu lehren über das, was
+man weiß, soll die Schule die großen menschlichen An-
+lagen und Kräfte entwickeln, die Kraft des Glaubens
+und der Menschenliebe ebensowohl wie die intellektuellen
+Fähigkeiten; sie soll endlich einmal Ernst machen mit der
+Erfüllung der Forderungen Pestalozzis, dessen Namen man
+in Deutschland zwar mit derselben Ehrfurcht ausspricht,
+wie den Klopstocks, dessen Werke aber eben so wenig ge-
+lesen und dessen Forderungen nicht erfüllt werden, am
+wenigsten die der Kraftentwicklung,während der
+Schematismus der Jungherbartianier zu einer Macht heran-
+zuwachsen droht, die sich einmal lähmend auf unser Schul-
+wesen legen kann.
+An die Stelle des bis-
+herigen Princips des Ab-
+schließens und Fertig-
+machens muß das der
+Kraftbildung treten.
+Es giebt nun zwar keine Kraftentwicklung als an
+positivem Stoff, das wissen wir sehr wohl; es ist aber ein
+Unterschied, ob dieser in Masse zur Memorierübung oder
+in weiser Beschränkung 1) zur Schulung des Verstandes,
+zur sittlichen Bildung und zur Ausgestaltung des geistigen
+Horizonts verwandt wird. Die Schule ist nicht imstande
+den Mädchen alle die positiven Kenntnisse mit ins Leben
+zu geben, die als Grundlage ihrer späteren Bildung nötig
+sind; sie ist nicht imstande, ihnen das Geistesleben der
+1) Wir sagen, weise Beschränkung; eine Beschränkung, wie sie der
+Berliner Normallehrplan will, der den Unterricht in der Geschichte erst
+im 12ten Lebensjahre beginnen läßt, erscheint uns durchaus unweise; sie
+zeigt zugleich, wie sehr man erwartet, und leider auch erwarten muß, daß
+die Stoffe nur als Memorierstoffe behandelt werden und danach über
+ihre Einführung entscheidet. Als Memorierstoff mag die Einführung der
+Geschichte mit dem 9. oder 10. Jahre verfrüht erscheinen, als Stoff, an
+dem man mit geringen Ansprüchen an das Gedächtnis Kraft und Inter-
+esse bildet, gewiß nicht.
+Menschheit in nuce zu verabreichen, sie fertig zu machen;
+aber Interesse und Fähigkeit für ein späteres Eindringen
+in dasselbe kann und sollte sie bilden. Selbst wenn sich
+dann keine weitere Ausbildung anschlösse, so würden
+Mädchen, die zu warmem Interesse an allem Menschlichen
+und zu selbständigem Denken erzogen sind, durch Auto-
+didaxie später viel weiter kommen, als die zu Automaten
+erzogenen Mädchen unserer Tage, wenn auch unserer Auf-
+fassung nach nicht weit genug; und darum sind wir ent-
+schieden der Meinung, daß unseren jungen Mädchen
+Gelegenheit zu einer weiter gehenden Ausbildung
+gegeben werden muß, und zwar, das erscheint immer
+mehr als absolute Notwendigkeit, in richtigen, an die Schule
+anschließenden Klassen mit beschränkter Stundenzahl, die
+dann freilich nicht in der Weise unserer heutigen sogenannten
+Selekten Kunstgeschichte, Porzellanmalen und Italienisch in
+den Vordergrund stellen dürften, sondern Litteratur und Ge-
+schichte, Pädagogik und Naturwissenschaften; an die sich ferner
+notwendig ein Kindergarten anschließen müßte, um
+den jungen Mädchen Gelegenheit zu erster Bekanntschaft mit
+ihrem späteren eigentlichen Beruf zu verschaffen. Alle diese
+Beschäftigungen 1) zusammen genommen würden für junge
+Mädchen von 15 — 17, resp. 16 — 18 Jahren weder physisch
+noch moralisch die gesundheitsschädliche Wirkung haben, wie
+das verfrühte Ball- und Gesellschaftsleben einerseits, die
+Versenkung in Romanlektüre und die demoralisierende Ge-
+dankenjagd auf einen Mann andrerseits. Wir sind zwar
+auch dann noch keineswegs der Meinung, die jungen
+Mädchen „fertig“ gemacht zu haben, aber wir hoffen, sie
+sind auf dem besten Wege, wenn auch nicht fertig, so doch
+Es muß den jungen Mäd-
+chen Gelegenheit zu einer
+Fortbildung gegeben
+werden.
+1) Zur Einführung in die eigentlichen Haushaltsgeschäfte, die wir
+keineswegs vernachlässigt wissen wollen — in der Mädchen-
+erziehung müssen praktische und geistige Bildung einander stets das Gleich-
+gewicht halten, — bleibt nebenher und bei weitaus den meisten Mädchen
+ja auch nachher noch Zeit genug.
+innerlich selbständig zu werden, da wir glauben, ihnen
+durch die so erreichte Verteilung der Anstrengung, durch
+die Verschiebung dessen, was für unreife Kinder nicht
+paßt, auf eine spätere Zeit, eine organische Bildung
+angebahnt, den Grund gelegt zu haben zu geistiger und
+sittlicher Reife und zu praktischer Bethätigung im wirk-
+lichen Leben; wir sind uns wenigstens bewußt, den rich-
+tigen Weg dazu eingeschlagen zu haben, wenn wir frei-
+lich auch nicht aus jedem Holz einen Merkur schnitzen
+können. Es werden immer noch genug innerlich un-
+selbständige Frauen übrig bleiben; wir meinen aber, der
+Mann, der echte Mann müsse mehr als an jenem
+unselbständigen Abklatsch seiner selbst Gefallen finden an einer
+selbständigen Persönlichkeit, die nicht nur seine Interessen
+teilt, die auch eigene Interessen hat, die ihm wiederum
+Teilnahme abnötigen. Jedenfalls kann uns die Rücksicht
+auf anders denkende Männer nicht maßgebend sein;
+weit wichtiger als ihr egoistisches Behagen erscheint es
+uns, daß die deutsche Frau nicht innerlich veröde und
+zum geistigen Automaten herabsinke, unfähig ihres großen
+Berufs als Erzieherin. Es mag eine Zeit gegeben haben,
+wo die Befolgung der ihr innewohnenden Naturinstinkte
+allein genügte, sie ihre Aufgabe als solche erfüllen zu lassen;
+diese Zeit ist vorüber; die Neuzeit heischt gebieterisch von
+der Frau als Erzieherin selbständige Bildung, von der
+Schule folgerichtig Kraftentwicklung.
+So wäre durch eine Änderung des Princips dem einen
+großen Mißgriff abzuhelfen, den die auf Weimarer Boden
+stehende Augustkonferenz begangen. Aber ein anderer,
+schwererer, der gleichfalls aus der falschen Motivierung der
+ersten These der Weimaraner hervorgegangen, bliebe be-
+stehen, wenn man die Ausführung des neuen Programms
+wieder nur Männern anvertrauen wollte. Die Mütter
+klagen, daß die Schule aus ihren Töchtern nicht maß-
+volle Frauen von edler Sitte heranziehe, daß die Schul-
+bildung sie der Erfüllung ihrer häuslichen Pflichten eher
+Die Änderung des Prin-
+cips beseitigt die Über-
+bürdung; der zweite Miß-
+griff der Weimaraner, die
+Ausschließung des Frauen-
+einflusses gerade auf der
+Oberstufe muß gleichfalls
+beseitigt werden; mit der
+Beziehung auf den Mann
+fällt die ausschließliche
+Erziehung durch den
+Mann.
+ab- als zuwende: das ist die Folge der allerbösesten Kon-
+sequenz, die sich thatsächlich aus dem Weimarer Princip
+ergab: der Ausschließung der Frau von der Bildung
+gerade der heranwachsenden Mädchen. Diese schlimmste
+Konsequenz fällt folgerichtig mit dem alten System. Mit
+der ausschließlichen Beziehung der ganzen Entwicklung
+unserer Mädchen auf den Mann fällt auch ihre ausschließ-
+liche Erziehung durch den Mann; ja, solche Frauen, wie
+wir sie wollen, können gar nicht durch Männer al-
+lein gebildet werden, es bedarf dazu aus vielen
+Gründen durchaus des erziehenden Fraueneinflusses, und
+zwar genügt nicht der Einfluß der Mutter im Hause, zu-
+mal wenn er alltäglich in der Schule entkräftet wird, es
+bedarf durchaus der Erziehung durch Frauen auch in der
+Schule, besonders auf der Oberstufe. „Es ist sicherlich
+nicht wohlgethan, die Einwirkung des männlichen Geistes
+auf der höchsten Stufe des Schullebens in den am meisten
+entscheidenden Entwicklungsjahren zu der ausschließlich
+herrschenden zu machen. Nicht nur für die äußere For-
+mierung, für die Gewöhnung zu feinerer Sitte können die
+Mädchen gerade in diesen Jahren, in denen die Schule
+mächtiger zu sein pflegt als das Haus, auch in
+jener weiblicher Führung und Vorbilder nicht
+entraten, sondern mehr noch für ihr innerstes
+Gemüts- und Geistesleben thut ihnen eine solche
+Anlehnung not, eine Beraterin, der sie sich ver-
+trauensvoll aufschließen können, und die auch am
+besten imstande ist, die Kluft zu überbrücken, die zum
+größten Schaden Schule und Haus so häufig von einander
+trennt. Daß aber für eine solche Einwirkung der Hand-
+arbeits- oder Turnunterricht, oder etwa einzelne Inspektions-
+stunden nicht ausreichend sind, bedarf keines Beweises.
+Vielmehr gehört dazu eine ansehnlichere Stellung in dem
+gesamten Schulorganismus und ein Anteil an denjenigen
+Unterrichtszweigen, die der Schule das Gepräge einer
+höheren Lehranstalt geben.“ So dachte über diese Frage
+Frauen, wie wir sie wol-
+len, können nur unter
+Fraueneinfluß gebildet
+werden.
+der Berliner Stadtschulrat Cauer, dem niemand eine reiche
+Erfahrung im Mädchenschulwesen absprechen wird 1). Un-
+serer festen Überzeugung nach muß sogar der Frauen-
+einfluß den männlichen überwiegen; nicht sowohl durch die
+Zahl der den Lehrerinnen übertragenen Stunden, als
+durch ihre Bedeutung. Es liegt in der Natur der
+Sache selbst daß gewisse Stunden durch Frauen Mädchen
+gegenüber ganz anders ausgenutzt, zu ganz anderer Wir-
+kung gebracht werden können als durch Männer, daß
+überhaupt die Frau der ganzen Mädchenschule vollstän-
+dig anders gegenüber steht als der Mann, und es ist
+bezeichnend für das Verkehrte unserer Zustände, daß wir
+diese Behauptung überhaupt noch begründen müssen.
+Aber wir wollen uns dieser Mühe unterziehen. Wir wer-
+den zwar nichts Neues vorbringen können, aber das Alte
+scheint heutzutage so völlig vergessen, daß es gut ist, ein-
+mal wieder daran zu erinnern.
+Der Mann glaubt, durch den Unterricht allein schon
+die Erziehung zu geistiger und sittlicher Selbständigkeit
+bewirken zu können. Diese Ansicht ist irrig; es bedarf
+eines ganz besonderen Agens, um die im Unterricht lie-
+genden latenten Kräfte zu entbinden. „Der Unterricht als
+solcher und an sich bildet keine Liebe, so wenig als er als
+solcher und an sich Haß bildet. Darum aber ist er auch
+nicht das Wesen der Erziehung. Die Liebe ist ihr Wesen.
+Sie allein ist dieser ewige Ausfluß der Gottheit, die in
+uns thront, sie ist der Mittelpunkt, von dem alles Wesent-
+liche in der Erziehung ausgeht“ 2). Bei wem aber ist
+diese Liebe zu den Mädchen, aus der der erziehende Ein-
+fluß hervorgeht, bei wem das lebendige Interesse an ihrer
+Heranbildung zu tüchtigen, edlen Menschen größer als bei
+Die Frau bringt den
+Mädchen mehr Liebe und
+mehr Interesse entgegen
+als der Mann.
+1) Die höhere Mädchenschule und die Lehrerinnenfrage. Berlin,
+Springer, S. 20 f.
+2) Pestalozzi, Rede am Neujahrstage 1809. Pest. ausgew. Werke.
+Langensalza 1879. Bd. IV S. 21 f.
+uns, die wir ihres Geschlechts sind, denen alles daran liegt
+und liegen muß, in ihnen zukünftige Mütter heranzuziehen,
+die besser als bisher ihre Aufgabe zu erfüllen imstande
+sind? Wir wollen nicht behaupten, daß die Mädchenlehrer
+i. g. ohne Liebe zu ihrem Beruf seien, obwohl wir von
+vielen wissen, daß nur äußere Gründe, oft auch Mangel
+an ausreichender Befähigung für den Knabenunterricht
+sie an die Mädchenschule geführt haben; das aber dürfen
+wir dreist behaupten, daß man in den seltensten Fällen
+für die Bildung des andren Geschlechts denselben ernsten
+Eifer, dieselbe heilige Liebe mitbringen wird, wie für
+die des eigenen, an das man mit allen Fasern ge-
+bunden ist, das man versteht und beeinflussen kann mit
+hundert Mitteln, die uns bei Kindern des andren Ge-
+schlechts fehlen. So treten wir, wie mit ganz andrer
+Liebe, die uns ermöglicht, sie zu erziehen, so auch mit
+ganz anderem Verständnis, das uns für diese Erziehung
+die rechten Mittel wählen läßt, an die Mädchen heran.
+Sie sind uns zwar nicht interessant, wie sehr häufig
+dem Lehrer, aber wir haben das wärmste Interesse für
+sie; sie erscheinen uns auch nicht, wie wiederum häufig
+dem Lehrer, als psychologische Rätsel 1), als unverständ-
+lich, wohl aber manch liebes Mal als unverständig;
+wir wissen den Thorheiten und Fehlern, die gerade bei den
+heranwachsenden Mädchen oft so eigenartige, den Mann
+durchaus nicht immer abstoßende Formen annehmen, zu
+begegnen, wie es der Mann nie vermag, weil wir sie
+durchschauen und weil wir vermöge der Gleichartigkeit des
+Geschlechts und der ganz anderen Art des Verkehrs, den
+1) Selbst Herr G. Kreyenberg, der 25 Jahre in der Mädchenschule
+wirkt, meint: „Das Kunstwerk, die weibliche Seele, im ganzen Getriebe
+und in allen Teilen vollkommen zu ergründen, wird wohl schwerlich
+einem Menschen gelingen.“ Setzen wir statt Mensch Mann, so unter-
+schreiben wir den Ausspruch; wir bilden uns ein, der Lösung dieses
+Rätsels ziemlich nahe zu kommen. Nichts ist für eine erfahrene Frau
+leichter zu durchschauen als die Seele des jungen Mädchens.
+dieselbe gestattet, Mittel dagegen anwenden können, deren
+Gebrauch dem Lehrer nicht freisteht und nicht freistehen
+darf. Schon die einfache Unterredung unter vier Augen,
+unser Haupterziehungsmittel, wird sich ein taktvoller Pä-
+dagog höchst selten gestatten. Und so behauptet Tinette
+Homberg mit vollem Recht, daß der höhere Geist und das
+höhere Wissen den Männern beim Einfluß auf die tiefere
+Ausbildung unseres Geschlechts das nicht ersetzen könne,
+„was ihnen doch nun einmal natürlicher Weise fehlt, näm-
+lich das feinere Verständnis der tief innerlichsten
+weiblichen Natur — und dies, weil sie eben Männer
+und nicht Frauen sind! Denn wie nur der Vater die
+volle Eigentümlichkeit des Knaben schnell und
+ganz begreift und unter der rohen Schale den un-
+geschliffnen Diamanten mit ruhiger Freude erkennt, wo
+vielleicht die Mutter mit Sorge und Kummer auf das
+rohe, wilde Wesen blickt und gar nicht recht glauben will,
+daß aus diesen gährenden Stoffen künftig dennoch ein
+klarer und edler Geist hervorgehen könne — eben so bleibt
+auch umgekehrt dem Vater das innerlichste Wesen seiner
+Töchter meist unverständlich.... Das steht fest bei mir:
+ganz, bis in die tiefsten Falten hinein, versteht die Psyche
+der Frau nur die weibliche, die des Mannes aber
+auch nur die männliche“ 1). Dieser Satz scheint uns we-
+nigstens in Bezug auf die Entwicklungsjahre unbestreitbar,
+und wenn in scheinbarem Widerspruch damit gerade in diesen
+Jahren erfahrungsgemäß die Mutter häufig den größeren
+Einfluß auf den Sohn, der Vater auf die Tochter hat, so
+hat das seine letzte Ursache doch in dem eigentümlichen Reiz,
+den das uns immer geheimnisvoll bleibende Unbekannte im
+geistigen Leben des anderen Geschlechts auf uns ausübt;
+in jener mysteriösen Wechselwirkung der Geschlechter, die
+pädagogisch wünschenswert nur da erscheint, wo die
+1) Gedanken über Erziehung und Unterricht von Tinette Homberg.
+2te Aufl. Berlin 1861, bei Fr. Enslin. S. 205 ff.
+reine und heilige Familienliebe jeden Nebengedanken aus-
+schließt. In dem Verhältnis zwischen Lehrer und Schü-
+lerin aber ist diese Wechselwirkung, die sich bei den Mädchen
+der Oberklassen als sogenannte Schwärmerei, bei den Leh-
+rern bestenfalls in chevaleresker Behandlung äußert, ob-
+wohl sie manchmal dem Lerneifer förderlich sein mag,
+pädagogisch höchst bedenklich. Hören wir über die
+„zutrauliche Liebe der Schülerin zu ihrem Lehrer“ wie-
+derum Tinette Homber.
+„Selbst wenn ich mir den edelsten Mann und das
+reinste, unbefangenste Mädchen denke, wo also von un-
+lauteren Gefühlen gar nicht die Rede sein kann, so nimmt
+dies Verhältnis doch leicht ein gewisses Etwas an, was
+nicht ganz mit den höheren Endzwecken der Pädagogik
+harmoniert. Man beobachte nur genau und man wird
+finden, daß der Lehrer beinah nie ganz so zu seinen
+Schülerinnen steht, wie zu seinen Schülern. Es liegt
+in dem Tone, in welchem er zu jenen spricht, ein gewisses
+verbindliches, schonendes, rücksichtsvolles Wesen, welches
+schon von fern an die Galanterie erinnert, die ihrer in der
+Welt harrt, und weit verschieden von dem Ton der
+mütterlichen Liebe ist, den eine Lehrerin ihren Schü-
+lerinnen gegenüber haben kann und soll. Jener erinnert
+instinktartig die Schülerinnen nicht daran, daß sie Schü-
+lerinnen, sondern daß sie Mädchen sind, und bald
+erwachsene Mädchen sein werden. Die nicht mehr
+ganz Unbefangenen unter ihnen, die bei weiblichem
+Unterrichte in dieser Hinsicht doch wenigstens stehen ge-
+blieben wären, finden bald in den Stunden selbst, die sie
+doch gegen alles Unrechte und Unschöne stählen sollten,
+Nahrung für die meinem Geschlechte so eigene Gefall-
+sucht, und ehe sie noch in gesellige Verhältnisse übertreten
+und für erwachsene Mädchen angesehen werden, spielen sie oft
+schon in Gedanken einen Roman mit ihrem Lehrer durch“ 1).
+Die pädagogisch bedenk-
+lichen Seiten des Ver-
+kehrs zwischen Lehrern
+und Schülerinnen.
+1) a. a. D. S. 229.
+Wir übergehen Schlimmeres, das sie anführt, — weil
+wir nur zu den edlen, nicht zu den unedlen Männern
+des deutschen Lehrerstandes sprechen und weil wir glauben
+wollen, daß mehr die thörichte Phantasie unserer Mädchen
+als eine Schuld der Lehrer jene ungesunde Schwärmerei
+zu einer wahren Krankheit in Deutschland hat werden
+lassen. So wenig wir aber mit den schlimmen Ausnah-
+men rechnen wollen, so wenig auch mit den guten; beide
+müssen wegfallen, wo es sich um die Gewinnung von Prin-
+cipien handelt. Mancher tüchtige Dirigent und mancher gute
+Lehrer — wir kennen solche, die Ausnahmeeigenschaften
+zu sehr glücklichen Resultaten im Mädchenunterricht ge-
+langen lassen — darf seine Wirkung vor allem darauf
+zurückführen, daß den Mädchen sein Wissen und seine
+Persönlichkeit imponiert; man benütze also den Wink
+und sorge dafür, daß auch das Wissen und die Persön-
+lichkeit der Lehrerinnen den Mädchen imponiert, so wer-
+den wir dieselbe Wirkung, denselben Lerneifer erzeugen
+können, ohne dieselben schädlichen Folgen befürchten zu
+müssen, die Verfrühung von Regungen, die weit besser
+noch schliefen.
+Auf eine andere verderbliche Seite des ausschließlichen
+Verkehrs mit Männern weist der Berliner Verein für
+höhere Töchterschulen in seiner Denkschrift hin, in goldenen
+Worten, die unverdient vergessen sind. Männer bildeten
+in seinem Vorstand die Mehrzahl! Es heißt hier (S. 7 f.):
+„Männer, die des Wahnes sind, daß Knaben zwar von
+Männern, aber Mädchen nicht von Frauen erzogen wer-
+den müssen, und demgemäß gering von der Kraft und
+Wirksamkeit ihrer Kolleginnen denken, sind nicht fähig,
+Würde und Wert des Weibes zu fassen und dies Geschlecht
+zu ihm gemäßen Zielen emporzuführen. Es ist Unkennt-
+nis der weiblichen Natur, ohne Befürchtung vor Schaden
+junge Mädchen viel oder ausschließlich mit Männern ver-
+kehren zu lassen, oder die Vorliebe der größeren Mädchen
+für den Unterricht bei Herren sich als Fingerzeig der zu-
+Der schädliche Einfluß
+einseitigen Männerunter-
+richts auf die Sitten
+unserer jungen Mädchen.
+stimmenden Natur zu deuten, statt vielmehr darin ihren
+Warnungsspiegel zu erkennen, oder in solchem Verkehr
+gewisse dem Lehrer gegebene kecke Antworten für heiter
+und mutterwitzig und als die pädagogisch erfreulichen An-
+zeichen zu nehmen, daß die Männer einst von solchen
+Frauen nicht gelangweilt sein werden, während
+eine zuhörende Mutter nur den verderblichen Mangel des
+sittigenden Einflusses der Lehrerinnen darin erkennen
+würde, denen nicht Raum gegeben worden, in den jungen
+leicht erregten Herzen die heilige Flamme der Sitte zu
+schüren, der völkererhaltenden, und deren feinere Empfin-
+dung sie davor bewahrt, es für eine Aufgabe der höheren
+Töchterschule zu halten, den Männern amüsante, kurz-
+weilige Frauen aufzuziehen.“
+Wie nun die Frauen mit anderer Liebe und anderem
+Verständnis an die Bildung und Erziehung der Mädchen
+herantreten, wie sie allein imstande sind, sie zu echt weib-
+licher Sitte zu bilden, den pietätlosen Ton fernzuhalten,
+der heutzutage mehr und mehr einreißt 1), so giebt ihnen ihre
+weibliche Eigenart auch in Bezug auf den eigentlichen Unter-
+richt der Mädchen für gewisse Fächer nicht geringe Vorteile
+über den Mann. Es ist weibliche Eigenart, die Wissenschaft
+weniger als Selbstzweck, wie als Mittel zu ethischer Wirkung
+zu betrachten — und eben das wünschen wir ja — während
+dem Mann gerade die heutige, durch Examina und Be-
+Die Frauen haben ver
+möge ihrer Eigenart auch
+in Beziehung auf den
+eigentlichen Unterricht
+Mädchen gegenüber vor
+den Männern entschiedene
+Vorzüge.
+1) Die Berliner Denkschrift warnt mit Rücksicht darauf ganz beson-
+ders vor den modernen Schulkasernen, „in welchen die Zahl der Schüle-
+rinnen noch über die Stärke eines militärischen Bataillons hinausgeht!“...
+„Daß auch in solchen Kolossal-Schulen bei treuster und angestrengtester
+Arbeit der Lehrer den Mädchen eine Summe von Kenntnissen eingeprägt
+werden könne, wird niemand leugnen; daß ihnen eine höhere weib-
+liche Erziehung gegeben werden könne, jeder bezweifeln. Hier,
+in der Werkstatt der pädagogischen Fabrikarbeit, ist die Quelle der weib-
+lichen Scheinbildung, die keinen Einsichtigen täuscht. Hier, des
+zügelnden Einflusses von Lehrerinnen ledig, holen die jungen
+Mädchen den studentischen Ton, den die Familien so sehr beklagen; hier
+wird der Emanzipationsgeist genährt und die feinere Sitte ein Fremdling.
+rechtigungen stark beeinflußte Art des Studiums das wissen-
+schaftliche Detail so nahe rückt, daß er es fast ohne es zu
+wollen auch der Schülerin in zu reichem Maße vorführt
+und so die sittliche Wirkung hemmt 1); es ist ferner selbst-
+1) Der Verfasser der kürzlich erschienenen Schrift: Die deutsche
+höhere Mädchenschule, (G. Kreyenberg), giebt hierzu selbst den
+Beleg, indem er sagt: „Durch unsere Examenreglements und unser Be-
+rechtigungswesen ist ein fast unerträglicher „Memorier-Materialismus“ in
+unser höheres Schulwesen eingedrungen. Der Unterricht, trotz aller An-
+schauungsmittel und Experimente, ist immer noch zu sehr Wortunter-
+richt. Es wird zu viel doziert und allzu wenig das spontane Element
+geweckt. Im allgemeinen wird zu viel und zu vielerlei Buchwissen ge-
+geben. Was gelehrt wird, geht nicht recht in Fleisch und Blut der Ler-
+nenden über. Unsere Jugend muß dahin gebracht werden, daß sie mehr
+das Werk als das Wort lernt und übt.“ — Wir unterschreiben jedes
+Wort, wir fragen nur, wer hat das alles auch auf die Mädchenschule
+übertragen? Wir Frauen doch gewiß nicht. Was haben wir mit Examen-
+reglements und Berechtigungswesen zu thun? Das alles ist von Männern
+geschaffen und beeinflußt augenblicklich so stark ihre ganze Art zu lehren,
+daß eine gründliche Fernhaltung dieser verkehrten Methode aus der
+Mädchenschule, wo sie durchaus keine Berechtigung hat, nur dadurch zu
+erreichen sein wird, daß man eben den Frauen mehr Einfluß gestattet.
+Diesem „Memorier-Materialismus“ wird ferner durch eine andere Ein-
+richtung gewaltig Vorschub geleistet, unter der die höheren Privat-Mädchen-
+schulen schwer zu leiden haben; — dadurch nämlich, daß die Inspektion
+nicht, wie es allein richtig wäre, durch unvermutetes Hospitieren in den
+Klassen erfolgt, sondern immer noch in der Weise abgehalten wird, daß
+einer der Inspektoren der Gemeindeschulen an einem lange vorher bekannt
+gegebenen Tage ein richtiges Examen abhält, bei dem positive Kennt-
+nisse selbstverständlich die Hauptrolle spielen. Es wäre unnatürlich, vor-
+auszusetzen, daß dazu nicht „gepaukt“ würde. Diese Art von Inspektion
+ist — wenigstens bei den höheren Mädchenschulen — in noch anderer
+Beziehung als eine pädagogische Schädlichkeit zu bezeichnen. Es gelingt
+nämlich nicht immer den Ton dabei zu treffen, der geeignet erscheint, bei
+feinfühligen Kindern unserer besten Familien die Autorität des Lehrers
+oder der Lehrerin zu stützen; das Bewußtsein, daß diese, nicht sie
+hier einer Kontrolle unterliegen, wird manchmal in einer pädagogisch
+durchaus nicht wünschenswerten Weise geweckt. Wir können nur, auch in
+Bezug auf die Privat-Mädchenschulen den Wunsch A. Dammanns teilen,
+„daß ihre Interessen im Schoße der Provinzial-Behörden durch solche
+Verwaltungskräfte wahrgenommen werden möchten, welche mit der Eigen-
+verständlich der Frau aus ihrer weiblichen Denk- und
+Empfindungsweise heraus viel leichter, das Wort zu finden,
+das den Mädchen den jedesmaligen Gedankenkreis erschließt,
+der ihnen vorgeführt werden soll; es ist endlich nur der
+Frau möglich, Resultate für das tägliche Leben, für den
+nur ihr genau bekannten Pflichtenkreis ihrer Schülerinnen,
+für das wiederum nur ihr völlig bekannte innere Leben der-
+selben aus den Lehrstoffen zu gewinnen, besonders aus den
+Religions- und den deutschen Stunden, die der Mann sehr
+oft „interessant“, aber, wie schon oben erwähnt, bei seiner
+sehr mangelhaften Kenntnis weiblichen Lebens, weiblicher
+Schwächen und weiblicher Stärke sehr selten fruchtbar zu
+machen versteht. Endlich wird wohl niemand leugnen, daß
+die Frau weit eher als der Mann imstande ist, den Mäd-
+chen die warme religiöse Empfindung mit ins Leben zu
+geben, ohne die die echte Erzieherin nicht denkbar ist. Und
+davon hängt mehr ab, als viele denken. „Wenn die
+Frauenbildung zunimmt an Schlichtheit und Wahrhaftig-
+keit, an Tiefe und Frömmigkeit, dann wird auch unser
+Volk wieder innerlich erstarken und gesunden und das
+junge Geschlecht deutsches Wesen und Gemütsleben, deutsche
+Innigkeit und Sinnigkeit liebgewinnen und zu religiöser
+Vertiefung und frommem Glaubensleben zurückgeführt
+werden 1).“
+Die Frau vermag weit
+eher als der Mann den
+Mädchen warme Religio-
+sität mit in das Leben zu
+geben.
+Wir fassen zusammen: „Wie das Menschengeschlecht
+die Aufgabe seiner Bildung aus der Hand der Natur in
+seine Hand nehmen muß, wenn es seine Bestimmung er-
+reichen soll, so muß das weibliche Geschlecht die Aufgabe
+seiner Bildung aus der Hand der Männer in seine
+eigene nehmen, um seine Bestimmung zu erreichen 2).“ Da-
+1)
+1) A. Dammann, a. a. D. S. 12.
+2) Rosette Niederer, Blicke in das Wesen der weiblichen Erziehung.
+Berlin, Rücker, 1828. S. 11.
+1) art der weiblichen Unterrichts- und Erziehungs-Anstalten nicht nur durch
+theoretische Studien, sondern durch langjährige Praxis vertraut geworden
+sind.“
+mit ist nicht gesagt, daß wir auf die Mitwirkung der
+Lehrer an der Mädchenschule verzichten wollen; wir ver-
+wahren uns ausdrücklich gegen eine Unterstellung dieser
+Art; wir wollen den Männern sogar noch mehr Anteil am
+wissenschaftlichen Unterricht der Mädchen einräumen als sie
+uns. Der Erziehung wegen wollten wir einen Anteil
+am Unterricht haben; daraus folgt, daß in den Fächern,
+in welchen die erziehliche Wirkung nicht an eine besondere
+Eigenart der Behandlung gebunden ist, der Unter-
+richt eben so wohl von einem Manne erteilt werden kann.
+Ja, wir sind der Meinung, daß da, wo es sich rein oder
+vorzugsweise um Verstandeskultur handelt, in Gram-
+matik, Rechnen, Naturwissenschaften, Geographie der Mann
+besser am Platz ist, als die Frau, und wir würden um so
+weniger anstehen, diese Fächer in seine Hand zu legen, als
+von den vorhin berührten Übelständen des Männerunter-
+richts hier kaum je die Rede ist 1). Um so mehr treten sie
+hervor bei den ethischen Fächern, und diese, besonders die
+Religion und das Deutsche — auch die Geschichte,
+wenn sich irgend eine geeignete Persönlichkeit findet — die
+Fächer, in denen erzogen, und zwar nicht nur im Weibe
+der Mensch, sondern auch das Weibliche erzogen wer-
+den soll, von denen aus jeder Verirrung des Gefühls und
+Gedankens erfolgreich entgegengewirkt werden kann, gehören
+eben darum nur in die Hand der Frau. Vor allen Dingen
+aber gebührt ihr die Klassen- und Schulleitung; es ge-
+bührt ihr — und nur die Gewohnheit läßt uns die Ano-
+Die Männer sind nicht
+vom Unterricht auszu-
+schließen. Sie sind da
+am Platz, wo es sich rein
+oder vorzugsweise um
+Verstandeskultur handelt.
+Die ethischen Fächer,
+in denen erzogen wer-
+den soll, gehören in
+Frauenhand, ebenso die
+Schulleitung.
+1) Als neutrales Gebiet erscheinen uns die fremden Sprachen. Der
+Vorzug, den die größere Vertiefung des Studiums dem Manne verleiht,
+kommt in der Mädchenschule wenig zur Geltung; ja, diese größere Ver-
+tiefung führt sehr leicht zu einer Überspannung der Forderungen. Dieser
+Vorzug wird jedenfalls reichlich aufgewogen durch den Umstand, daß die
+meisten der unterrichtenden Frauen es sich haben angelegen sein lassen,
+die fremde Sprache in lebendigem Umgang, häufig durch Aufenthalt in
+dem betr. Lande selbst zu pflegen, was unsere akademisch gebildeten Lehrer
+nicht immer für nötig halten.
+malie übersehen, die in den herrschenden Zuständen liegt,
+in der Leitung ihres eigenen Geschlechts die erste
+und nicht die vierte Stelle, die ihr sowohl die Weimarer
+Beschlüsse als die Augustkonferenz zuweisen 1); diese erste
+Stelle wird ihr, wenn auch in noch so ferner Zukunft,
+einmal werden, und muß ihr werden, wenn tüchtige Frauen
+von feiner Empfindung und weiblicher Sitte, von thatbereiter
+Menschenliebe erzogen werden sollen. Wir haben für
+unsere Ansicht eine Autorität aufzuführen, der kein Mann
+die Anerkennung versagen wird. Es ist kein Geringerer
+als Robert von Mohl, der in seinem Aufsatz über die
+Erziehung des weiblichen Geschlechts auf das Entschiedenste
+betont, daß die oberste Leitung sowohl als die ganze
+innere Führung von Mädchenschulen einer Vorsteherin
+übertragen werden müsse 2), obwohl er weiblichen Unter-
+richt im ganzen nicht hoch schätzt und sich das Lehrer-
+kollegium zum großen Teil aus Männern bestehend denkt,
+und zwar leiten ihn dabei folgende Gedanken: „Es kann
+ja immerhin sein, daß bei der Verwendung von Frauen
+zu Lehrerinnen zwar der eigentliche Unterricht schwächer
+ist, allein mit ihrer Verwendung zur Erziehung von Mäd-
+chen so große anderweitige Vorteile verbunden sind, daß
+eine Berücksichtigung dieser Umstände den Ausschlag zu
+geben hat. Irren wir uns nun nicht, so ist dem wirklich
+so. Die Erziehung im engeren Sinne des Wortes, der
+Ansichten Robert von
+Mohls über Mädchen-
+bildung. Er will, da es
+sich bei den Mädchen in
+erster Linie um Erziehung
+handelt, die oberste Lei-
+tung und ganze innere
+Führung von Mädchen-
+schulen Frauen gegeben
+wissen.
+1) These VI der Denkschrift sagt: Das Lehrerkollegium besteht aus
+einem wissenschaftlich gebildeten Direktor, wissenschaftlich gebildeten Lehrern,
+aus erprobten Elementarlehrern und geprüften Lehrerinnen. Ebenso wer-
+den in den Protokollen die Lehrerinnen selbst den seminaristisch gebildeten
+Lehrern nachgestellt. — Dem männlichen Einfluß gebührt freilich — aber
+erst nach dem weiblichen — sein Recht; wir halten ihn, und nehmen
+nochmals Gelegenheit, es ausdrücklich zu erklären, an rechter Stelle
+für durchaus notwendig; da aber diese Notwendigkeit von keiner Seite
+bestritten wird, so haben wir nicht geglaubt, sie in dieser Schrift ein-
+gehend begründen zu müssen.
+2) Politik. Monographien von Robert von Mohl. Tübingen
+1869. 2 Bd. S. 289
+sittliche Einfluß auf Mädchen, die Bildung wünschens-
+werter Anschauungen und Gewohnheiten bei ihnen ist eine
+so wichtige Sache, daß sie wohl mit den Leistungen des
+Unterrichtes zum mindesten auf gleiche Linie gesetzt werden
+kann und muß. Nun aber kann es keinem Schatten
+von Zweifel unterliegen, daß diese Art von Ein-
+fluß von Frauen weit besser und zum Teil eigent-
+lich ganz allein ausgeübt werden kann. Manches
+Tadelnswerte wird ein Mann gar nicht bemerken; anderes
+kann nur eine Frau ohne Verletzung des Gefühles zur
+Sprache bringen, oder wird nur ihr das nötige Vertrauen
+geschenkt. Bei irgend herangewachsenen Mädchen und bei
+solchen, welche eine feinere Bildung schon aus der Familie
+mitbringen, versteht sich dieses ganz von selbst, aber auch
+bei Kindern in der Volksschule trifft es zu, namentlich
+deswegen, weil das häufig in der Familie Versäumte oder
+selbst positiv Verdorbene gerade durch die Schule ersetzt
+und verbessert werden soll. Vielmehr muß hier mit eigenem
+Beispiele oder mit direkter Unterweisung vorangegangen
+werden. Während in jenem Falle die Erziehung der
+Mutter auch in der Schule fortgeführt werden soll, ist sie
+hier durch dieselbe zu ersetzen. Einer Ermahnung und
+Belehrung des Mannes tritt leicht das Mißtrauen des
+Kindes entgegen, daß er über etwas rede, wovon er nichts
+verstehe; gegen eine Frau kann sich ein solches inneres
+Widerstreben nicht regen 1).“ Die Entscheidung darüber,
+ob die Leitung des Ganzen einem Manne oder einer Frau
+übertragen werden solle, hängt ihm nun lediglich davon ab,
+„ob das Hauptgewicht auf den Unterricht oder auf die
+Erziehung gelegt werden will. Ist das letztere der Fall,
+wie doch wohl richtig ist, so muß für eine Frau entschieden
+werden 2).“ Wenn R. v. Mohl Fachmann gewesen wäre.
+1) a. a. D. S. 291.
+2) a. a. D. S. 296.
+Solchen Gründen gegenüber wiegen andere, von Dirigenten höherer
+und wüßte, welchen gewaltigen erziehlichen Einfluß die von
+uns besonders beanspruchten Fächer, Religion und
+Deutsch gewähren, und welche Mißgriffe gerade hier von
+Männern gemacht werden, er würde sicherlich nicht an-
+gestanden haben, den Frauen diese Fächer bis in die Ober-
+klassen hinein zu bewilligen, um so mehr als das Wissen-
+schaftliche dabei einen weit geringeren Wert als das
+Ethische hat; wir hoffen übrigens, daß Frauen bei anderer
+Vorbildung (davon später) auch der wissenschaftlichen Seite
+völlig genügen können.
+2)
+2) Mädchenschulen aufgestellte, federleicht; es sind eigentlich keine Gründe,
+sondern nur Phrasen. So verlangt der von Dr. Heller revidierte Flas-
+har'sche Artikel der Schmidtschen Pädagogischen Encyclopädie über die höhere
+Mädchenschule für den Mann die erste Stelle an derselben: „denn das
+ist göttliche Ordnung im Leben“. Die Auffassung ist schon durch Prof.
+van der Wyl (De Opvoeding der Vrouw — die Erziehung der Frau)
+mit dem gebührenden Spott bedacht worden, und auch wir müssen rufen:
+Nein, das ist eine sehr menschliche Ordnung. „Es ist das erste,
+heiligste Recht der Frauen, von einer ihres Geschlechts erzogen zu werden!“
+(Jules Simon.) Überall, wo etwas specifisch Weibliches entstehen soll,
+gebührt dem Weibe die erste Stelle, das ist göttliche Ordnung! So der
+Mutter in der Erziehung der Mädchen, der Frau in der Gestaltung der
+Häuslichkeit, wenn anders diese das Behagen ausströmen und die Har-
+monie zeigen soll, die nur die weibliche Hand zu schaffen vermag. Und
+so gebührt auch der Lehrerin die erste Stelle bei der Ausbildung des
+Mädchens, das zur Frau — so gut wie dem Lehrer bei der Ausbildung
+des Knaben, der zum Mann werden soll.
+Der Einwurf aber, den man weiter macht, daß sich der Mann nie
+dazu verstehen würde und dürfe, von einer Frau Weisungen entgegen zu
+nehmen, ist nur in zwei Fällen gegründet, wenn nämlich entweder die
+Frau nicht wissenschaftlich tüchtig oder der Mann nicht fein gebildet ist.
+Es wird richtig sein, daß in Deutschland weder alle Elementarlehrer noch
+die breiten Schichten des Volks auf der Höhe stehen, daß sie die Leitung
+der Frau respektieren würden, und so möchte es noch lange seine Be-
+denken haben, in den Volksschulen eine Änderung zu wagen; es ist hier
+aber auch, wenn wir nach Berliner Verhältnissen urteilen dürfen, nicht so
+durchaus notwendig, weil die Rektoren der Gemeindeschulen i. g. die
+Lehrerinnen hochhalten und, wie ein Blick in das vom Berliner Lehrer-
+Verein herausgegebene Verzeichnis lehrt, an den Mädchenschulen ihnen
+Wir wissen nun wohl, welchen Sturm diese Forde-
+rungen, deren Berechtigung übrigens in fast allen
+anderen Kulturstaaten außer Deutschland teils
+principiell, teils thatsächlich durch Gewährung
+derselben anerkannt ist, bei den deutschen Mädchen-
+lehrern erregen werden; ist es doch noch keineswegs von
+allen anerkannt, daß Lehrerinnen überhaupt an der Mädchen-
+schule nötig sind 1). Wenn wir auch gern und dankbar aner-
+kennen, daß einzelne unter ihnen die Interessen der Lehrerinnen
+warm vertreten haben, so überwiegen die Angriffe doch bei
+weitem, und wir können nicht eben behaupten, daß sie mit
+sehr ritterlichen Waffen geführt worden seien. Wenn die
+bekannte Hamburger Lehrerversammlung offen erklärt, daß
+aus Gründen der Konkurrenz die Lehrerinnen mög-
+lichst fernzuhalten seien (die Herren mögen sich wiederum
+von Robert von Mohl sagen lassen: „Jedes Monopol ist
+2)
+Voraussichtliche Aus-
+nahme dieser Forderungen
+seitens der Mädchenlehrer.
+Die übrigen Kulturstaa-
+ten haben dieselben längst
+als berechtigt anerkannt,
+zum Teil schon gewährt.
+Stellung der deutschen
+Lehrer und Gelehrten zur
+Lehrerinnenfrage über-
+haupt. Konkurrenzbesorg-
+nis, Schmähschriften ꝛc.
+1) So meint der Württembergische Volksschullehrerverein: wenn sich
+auch gegen die Anstellung von Lehrerinnen an unteren Klassen der Mäd-
+chenschulen an sich nichts einwenden läßt, so liegt doch dieselbe „weder im
+Interesse des Unterrichts noch des Erziehungszwecks der Schule!“ Also
+selbst unten wäre Fraueneinfluß zu entbehren!
+2) das Ordinariat nicht nur der unteren Klassen, sondern häufig hinauf bis
+zur zweiten anvertrauen, weil sie den weiblichen Einfluß auf die Mädchen
+nicht entbehren wollen. Für die Töchter der höheren Stände aber er-
+scheint er nicht nötig!!
+Wir wiederholen also: da das Rektorat der Gemeindeschulen schwer-
+lich immer mit weiblichen Waffen auskommen dürfte, so würden wir hier
+einen Wechsel einstweilen für bedenklich halten, trotzdem Mohl auch hier,
+wenn die Verhältnisse es irgend gestatten, Frauenleitung wünscht. Auf
+die höhere Schule passen diese Bedenken nicht; der Lehrer, der sie erhebt,
+stellt seiner Bildung ein schlechtes Zeugnis aus. Er wird vielleicht in
+seinem Leben auch schon einmal von einem Manne Weisungen haben
+entgegen nehmen müssen, dem er an geistigen Fähigkeiten überlegen war;
+hatte dieser Mann eine reifere Einsicht, so wird er sich dadurch
+in keiner Weise verletzt gefühlt haben. Und so steht das Verhältnis zwischen
+dem Lehrer und der Vorsteherin, wo es sich um Mädchenbildung han-
+delt. Übrigens haben die Vorsteherinnen von Privatschulen über Schwie-
+rigkeiten in dieser Hinsicht durchaus nicht zu klagen.
+ungerecht; doppelt gehässig und ein brutaler Mißbrauch
+der Gewalt aber ist ein Monopol des Mannes zur Be-
+nachteiligung des Weibes“); wenn Schmähschriften, wie
+die von Oswald Steiner unter dem Deckmantel der Ano-
+nymität die gehässigsten Verdächtigungen auf uns schleu-
+dern; wenn selbst Gelehrte wie Paul de Lagarde vergessen,
+daß man wenigstens den Ton eines gentleman wahren
+sollte, wenn man Anspruch darauf macht, gehört zu werden 1),
+so fällt es schwer, alledem gegenüber die Objektivität zu
+wahren. Aber wir wollen nicht mit gleicher Münze zahlen;
+wir möchten es vermeiden, in der Weise gedachter Angriffe
+einzelne Erfahrungen zu generalisieren, um daraus falsche
+Schlüsse zu ziehen; ein Verfahren, das man sonst so gern
+den Frauen zum Vorwurf macht, das aber in diesem Falle
+von den Männern mit großer Gewandtheit geübt wird.
+1) Wir unterbreiten folgende Stelle aus seinem „Programm der
+konservativen Partei Preußens“ dem öffentlichen Urteil: „Ältere Mäd-
+chen sind nur in ganz vereinzelten Fällen — etwa als Schwestern — im-
+stande jüngere Geschlechtsgenossinnen zu erziehen. Daß sie zu unter-
+richten stets außer Stande sind, Unterricht im Handarbeiten, im Lesen,
+Schreiben und Rechnen natürlich ausgenommen, versteht sich völlig von
+selbst: wer nicht die Wege kennt, auf welchen Wissen erworben wird (und
+warum zeigt man uns diese Wege nicht? D. V.), für den ist sein
+Wissen nur eine Kenntnis von Notizen, die mit den Notizen der Reise-
+handbücher gleichwertig, insofern sogar noch weniger als diese wert sind,
+als sie, während Bädeker, Murray, Gsell-Fels doch auch Reifenden nützen,
+nur für die Verleger, das heißt für dasjenige Personal eine in Mark
+auszudrückende Summe gelten, welche, um den aufgelesenen In-
+fusorienlehm an Nicht-Botocudinnen zu verfüttern, von
+einem unfehlbaren Staate als Lehrerinnen geduldet oder
+gar angestellt werden.... Junge Mädchen sind für angejahrte (!)
+Mädchen allenfalls Objekte der Pflichtübung, in den seltensten Fällen
+Gegenstände der Liebe, denn sie wachsen in eine Konkurrenz hin-
+ein, welche von den bereits beseitigten Schwestern trotz der
+eigenen Hoffnungslosigkeit instinktiv abgelehnt wird. Pflicht-
+übung ist zwar seitens der Erziehenden und Unterrichtenden stets
+vorhanden, wo die Lehrenden taugen, aber nicht in der Uniform der Pflicht-
+übung sein sie es (?), oder sie wird zu jener, mag sie reden, mag sie
+Wenn wir nun zwar auch, durch unsere Erfahrungen
+und die in der Sache selbst liegende Logik gezwungen, er-
+klären müssen: echte Frauen werden nur unter Frauen-
+leitung erzogen, darum muß principiell der Frau die erste
+Stelle in der Mädchenbildung eingeräumt werden, — so
+sind wir doch weit davon entfernt zu glauben, daß wir sie
+thatsächlich schon einnehmen könnten, so wie wir sind. Wir
+sind weit davon entfernt, eine überstürzte Reform zu wollen,
+auf eine rücksichtslose, plötzliche Umwandlung des bisherigen
+Systems zu dringen; wir sind auch weit davon entfernt,
+das Studium zu unterschätzen, das die Lösung einer solchen
+Aufgabe, wie die Leitung einer Mädchenschule oder auch
+1)
+Principiell gebührt
+den Frauen in der Mäd-
+chenschule die erste Stelle.
+So wie sie sind, können
+sie sie noch nicht einneh-
+men.
+1) schweigen, gleich unerträglichen Tugendboldigkeit, welche jeder Mann ver-
+abscheut, und jedes Kind weiblichen Geschlechts verspottet.“ — Daß nun
+die Lehrerinnen dem Verf. nicht genügen, ist um so auffallender, als nach
+seinem Vorschlage die Mädchen in Zukunft nur Lesen, Schreiben, Rechnen,
+etwas Heimatskunde, Stricken, Nähen und Kochen lernen sollen. Heiraten
+sie nicht, so bleibt es dabei; was dann aus den unzähligen unwissenden
+unverheirateten Mädchen wird, kümmert den Verfasser nicht; heiraten sie
+aber, so ist von selbst gesorgt, denn „jedes Mädchen lernt nur von dem
+Manne, den es liebt, und es lernt dasjenige, was, und so viel, wie, der
+geliebte Mann durch seine Liebe als ihn erfreuend haben will. Das
+Regelrechte ist, daß Mädchen heiraten, und ihre Bildung in der Ehe
+gewinnen: doch auch Schwestern, Töchter, Pflegerinnen werden durch
+Brüder, Väter, Kranke und Greise zu etwas gemacht (!) werden, wenn sie
+diese Männer mit warmem Herzen bedienen. Weiter müssen aus unseren
+Häusern Welt-und Litteraturgeschichten, Monatshefte, Garten-
+lauben, Daheime und wie der Kram alle heißt, verschwinden, wenn wir
+aus unsern Mädchen etwas werden sehen wollen: ein einziger Mann, der
+in seiner Pflichttreue und Begeisterung einem Mädchen bekannt wird,
+das er sogar ignorieren darf (!) wirkt bildender als alle die ge-
+tonten und bedruckten Haderfilze Deutschlands zusammen.“ — Man kann
+die Arroganz nicht wohl weiter treiben; man sieht nur nicht ein, warum
+Herr de Lagarde nicht offen ausspricht, was er doch entschieden denken
+muß, daß das ganze weibliche Geschlecht kindisch ist. Annähernd
+werden seine Ausdrücke von dem Schulinspektor Cremer (Frauenarbeit in
+der Schule) erreicht. Man vergleiche damit, was der Schulinspektor
+Dammann und der Schulrat Cauer, die beide reiche Erfahrungen machen
+konnten, über die Thätigkeit der Lehrerinnen Anerkennendes schreiben.
+nur ihrer oberen Klassen, erfordert. Wenn schon das Ge-
+schlecht an und für sich die Befähigung zur Erziehung der
+weiblichen Jugend gäbe, so müßten ja die Privatschulen, die
+zum großen Teil unter Frauenleitung stehen, die jedenfalls
+alle Lehrerinnen bis in die oberen Klassen beschäftigen,
+ganz andere Resultate aufweisen als die öffentlichen. Wir
+nehmen nun auch durchaus nicht Anstand zu behaupten,
+daß die erziehlichen Resultate in den unter Frauen-
+einfluß stehenden Privatschulen im ganzen weit bessere sind
+als in den lediglich unter Männerleitung stehenden staat-
+lichen und städtischen Anstalten 1). Die vielen Eltern,
+die trotz des bedeutend höheren Schulgeldes und trotz
+des allgemeinen Vorurteils, daß die Lehrkräfte der
+Privatschulen denen der öffentlichen Schulen nachstehen,
+ihre Kinder den ersteren anvertrauen, können das nur aus
+dem Grunde thun, weil ihnen die erziehliche Einwirkung
+durch Lehrerinnen wichtig erscheint. Aber auch die Privat-
+schulen sind noch weit davon entfernt, die Mädchen zu dem
+zu erziehen, was das Leben und ihre spätere hohe Aufgabe
+der Menschenerziehung von ihnen verlangt, und zwar aus
+einem doppelten Grunde: einmal sind auch die Privat-
+schulen, wenn auch nur durch den Druck der öffentlichen
+Meinung, an das für die öffentlichen Schulen geltende
+Lehrprogramm gebunden und haben auch unter seinen
+Konsequenzen leiden müssen; andrerseits aber sind die
+meisten Leiterinnen und Lehrerinnen der Privatschulen ihrer
+Aufgabe, wie wir sie fassen, noch nicht gewachsen und
+können es nach ihrem ganzen Bildungsgange nicht sein.
+Wenn auch, nach Pestalozzis Wort, der Unterricht an
+1) „Man möge dagegen behaupten, was man wolle, wir sagen es
+doch frei heraus, daß man es unserer deutschen Frauenjugend aller Stände
+mitunter recht sehr anmerkt, wie ihr in der Schule, insofern es nicht
+eine Privatschule ist, fast ganz das weibliche Vorbild und der weib-
+liche Einfluß fehlen.“ L. Büchner, Die Frau, Halle 1878. S. 150.
+und für sich noch nicht erzieht, so ist er doch das Mittel,
+an welches die Wirksamkeit der Schule hauptsächlich ge-
+bunden ist, an welches also auch die Erziehung anzuknüpfen
+hat. Der Unterricht, besonders in den ethischen Fächern,
+soll der Lehrerin Gelegenheit geben, ihren Schülerinnen
+allmählich einen weiten geistigen Horizont zu schaffen, ihnen
+sittlich religiöse Gesinnung, Duldung und Menschenliebe
+einzuflößen, Energie und Thatkraft in ihnen zu wecken;
+ganz besonders soll er in diesem Sinne auf der
+Oberstufe gegeben werden, wo es so unendlich leicht
+ist, die erregten, leicht empfänglichen Herzen mit Begeiste-
+rung für alles Edle und Große zu erfüllen. Dazu gehört
+nun aber notwendig, daß eigenes Studium, eigene Ver-
+tiefung in den Bildungsgehalt ihrer Zeit und der Ver-
+gangenheit solche Größe des Gesichtskreises, solchen Adel
+der Gesinnung der Lehrerin selbst gegeben habe; daß aus
+solcher Vertiefung ihr eine richtige Wertschätzung der Dinge
+erwachsen sei, so daß sie ohne Phrase das Immaterielle
+über das Materielle setzen kann, daß sie frei wird von der
+Kleinlichkeit und Engherzigkeit, die Jahrhunderte langer
+Druck dem weiblichen Geschlecht anerzogen hat, und mit
+Erfolg dagegen bei ihren Schülerinnen kämpfen kann.
+Dazu gehört ferner, wenn ihr Unterricht, auch bei idealem
+Endzweck, auf realem Boden bleiben und sich nicht in
+Allgemeinheiten verflüchtigen soll, eine absolute Beherrschung
+des Stoffs, an den sie anzuknüpfen hat, auch des Details,
+(wenn sie es auch nicht unmittelbar für ihre Schülerinnen
+braucht), und — es muß gesagt sein — viele Lehrerinnen
+wissen nicht einmal dem Namen nach, was Studium
+bedeutet, da ihnen im Seminar niemals ein solches zu-
+gemutet ist. Kein Wunder, daß sie des naiven Glaubens
+leben, mit ihrem Seminarwissen, ihren Leitfäden und ein
+paar Hülfsbüchern auch eine obere Klasse unterrichten zu
+können; sie ahnen kaum, daß es dazu eines freien Wissens
+bedarf, aus eingehender, selbständig ergründender Arbeit
+gewonnen, durch eigenes Denken und Erfahren vertieft.
+Der Lehrerin fehlt die
+vertiefte Bildung, ohne
+welche sie unfähig ist,
+heranwachsende Mädchen
+zu erziehen. Sie kennt
+kein Studium.
+Solches Wissen kann eine Lehrerin sich heute nur bei be-
+sonderer Begabung und auf unzähligen Umwegen erwerben;
+Anleitung dazu, wie sie dem studierenden Mann geboten
+wird, und wie sie gerade ihr bei ihrer Ungeübtheit dringend
+nötig wäre, findet sie nirgends. Darum, und nur
+darum, nicht aus Mangel ursprünglicher Anlage, nicht
+aus einer von der Natur gegebenen Beschränktheit, sind
+die meisten unserer heutigen Lehrerinnen einer tiefgreifenden
+erziehlichen Einwirkung auf der Oberstufe unfähig. Wo
+sie hier überhaupt beschäftigt sind, lehren sie wohl, so
+gut sie es verstehen, zu gestalten aber, erziehend zu
+bilden vermag ihr Unterricht nicht. Hier liegt der schwere
+Schaden unserer Mädchenschulen. Der Mann, weil er
+eben Mann ist, kann ihm beim besten Willen nicht ab-
+helfen, und den Lehrerinnen fehlt die tüchtige Durchbildung.
+Schafft uns bessere Lehrerinnen, und wir werden bessere
+Mütter und durch diese bessere Menschen haben.
+Man sieht, wir schonen uns nicht und beschönigen
+nichts. So wie die Sachen liegen, haben die Männer
+ganz recht, wenn sie die Mädchenschulen nicht aus der
+Hand geben wollen, denn so wie wir sind, dürfen wir sie
+gewissenhafter Weise nicht übernehmen. Nicht das also
+machen wir ihnen zum Vorwurf, wohl aber, daß sie aus
+Egoismus und Brotneid, oder aus Überhebung nicht sehen
+oder nicht sehen wollen, daß sie ohne uns gar nicht
+fertig werden können, daß sie ohne weiblichen Einfluß
+nie Frauen erziehen werden, daß sie daher alles daran
+setzen müssen, Frauen zur Mädchenerziehung und zum
+Mädchenunterricht fähig zu machen.
+Denn nicht an uns liegt die Schuld. Wir haben es
+längst eingesehen, daß die heutige Art der Vorbildung
+nicht genügt. Aber in der Hand der Männer liegt die
+Gewalt; sie allein können den halben Zuständen ab-
+helfen, die überall auf dem Gebiet der Mädchen- und
+der Lehrerinnenbildung herrschen, über die sie spotten, oft
+unbarmherzig und höhnisch spotten, und die sie doch
+Dieser Mangel an ver-
+tiefter Bildung ist nicht
+Schuld der Frauen, son-
+dern der Männer, die
+ihnen die Mittel dazu verweigern.
+allein geschaffen haben und erhalten. So wenden
+wir uns denn an sie im Angesicht der ganzen Nation mit
+der dringenden Bitte: Schafft uns Bildungsanstal-
+ten für Lehrerinnen an den Oberklassen der höhe-
+ren Mädchenschulen. Die jetzigen Seminarien genügen
+für solche nicht; sie bilden nur Lehrerinnen für die Ele-
+mentarklassen. Einzelne Persönlichkeiten von ungewöhn-
+licher Befähigung werden sich, wie schon erwähnt, wohl
+immer finden, welche sich durch Privatstudien, die ihnen
+zwar unsäglich schwer gemacht werden, zu genügender
+Leistungsfähigkeit emporarbeiten; aber was will das sagen
+dem großen Bedürfnis gegenüber, das an allen Schulen
+Deutschlands herrscht, und dem nur durch umfassende
+Bildungsveranstaltungen abgeholfen werden kann. Nicht
+unseretwillen: eurer eigenen Töchter willen, von denen das
+Wohl der kommenden Generation abhängt, des Vaterlandes
+wegen verlangen wir die Erfüllung unserer Bitte. „Das
+Gemüt des Vaterlandes ruht in seinen Töchtern. Von
+ihnen aus wird es erwärmt, erleuchtet und begeistert. Und
+wie nun die weibliche Natur behandelt wird, thöricht oder
+weise, so wird sie dem Vaterland und seinen Söhnen
+tausendfältig wieder geben oder versagen, in Weisheit oder
+in Thorheit. — Zu wenig erkennen wir noch, daß alles,
+was im Gebiet der weiblichen Erziehung geschieht oder
+verwahrloset wird, eine Wunde mehr ist, die dem Gemüt
+des Vaterlandes und seinen Söhnen geschlagen wird“ 1).
+Wir bitten dringend um
+Bildungsanstalten für
+Lehrerinnen an Ober-
+klassen.
+Es ist nicht das erste Mal, daß die Bitte, die wir
+vortragen, geäußert worden. Schon mehrfach haben sich
+einzelne und Vereine 2) mit derselben an die maßgebenden
+Wohlwollende Stellung
+der Behörden den Lehre-
+rinnen gegenüber;
+dennoch keine höhere Aus-
+bildung gewährt.
+1) Rosette Niederer, Blicke in das Wesen der weiblichen Erziehung
+S. 477.
+2) So der Verein deutscher Lehrerinnen und Erzieherinnen in einer
+Denkschrift: Die höhere Mädchenbildung und die Weiterbildung der
+Lehrerinnen, in welcher in sachlicher und wohlbegründeter Darstellung für
+ein zweites Examen für Lehrerinnen plaidiert wird.
+Behörden gewandt. Wir können nun durchaus nicht be-
+haupten, daß dieselben sich übelwollend gegen die Be-
+strebungen der Lehrerinnen verhalten hätten. Aber bei
+allem Wohlwollen, das uns hier viel mehr als von Seiten
+der Mädchenlehrer entgegentrat, ist man doch auf das
+Entschiedenste gegen eine gründliche Ausbildung der Lehre-
+rinnen und gegen ein höheres Examen. Man glaubt
+auch ohne dasselbe fertig werden zu können und hat sogar
+in allerdings sehr vereinzelten Fällen bewährte Lehrerinnen
+an den Oberklassen der Mädchenschulen angestellt, ohne,
+soweit wir wissen, damit Mißgriffe zu thun. Aber das
+sind Ausnahmen, womit wir nicht rechnen können. Es ist
+möglich, daß eine Lehrerin sich aus eigener Kraft eine
+tüchtige Durchbildung aneignet, aber es ist darauf nicht
+zu rechnen. Wir dürfen unsere Mädchen nicht an diese
+geringe Chance wagen. Will man unseren Lehrerinnen
+nicht eine andere Vorbildung ermöglichen, will man nicht
+ernsthafte, wissenschaftliche Anforderungen an sie stellen,
+so verzichten wir auf ihre Mitwirkung an den Oberklassen.
+Wir wollen unsere Mädchen nicht aus dem Regen in die
+Traufe bringen, nicht aus den Händen wissenschaftlich ge-
+bildeter Männer in die Hände halbgebildeter Frauen. Wenn
+der Mann dem Mädchen auch keine genügende Erziehung
+zu geben vermag, so sieht sie in ihm doch etwas Ganzes
+vor sich und bekommt eine Ahnung von dem, was wissen-
+schaftliche Durchbildung heißt; ihre halbgebildete Lehrerin,
+die nicht über freie und freimachende Kenntnisse gebietet,
+sondern ihr nur von Stunde zu Stunde sorgfältig Ein-
+gelerntes zu bieten vermag, kann gar keinen Eindruck
+auf sie hervorbringen, kann sie weder belehren, noch er-
+ziehen. Darum muß den Lehrerinnen, die für die
+Oberstufe bestimmt sind, eine andere Vorbildung gegeben
+werden.
+Die Weigerung der Behörden, auf diese Forderung
+einzugehen, obwohl sie der Mitwirkung von Frauen an
+den Oberklassen nicht grundsätzlich abgeneigt erscheinen,
+hat ohne Zweifel ihren Grund in den Bedenken, die
+man allgemein — d. h. in Deutschland — gegen eine
+vertiefte Bildung der Frauen geltend macht. Wir
+wollen die wichtigsten dieser Bedenken auf ihren Gehalt
+prüfen.
+Man sagt 1) die Frau sei überhaupt zu eingehenden
+Studien und infolge dessen auch zu wirklich wissenschaft-
+lichem Unterricht unfähig; 2) sie sei jedenfalls nicht im-
+stande, solche Studien ohne Schaden für ihre Gesund-
+heit zu betreiben; 3) zugegeben selbst, daß sie fähig
+sei, sie zu bewältigen, so verliere sie dadurch ihre Weib-
+lichkeit, also eben das, was ihren Einfluß schätzenswert
+mache.
+Gründe, die gegen eine
+gründlichere Ausbildung
+der Frauen geltend ge-
+macht werden.
+Den ersten Einwurf begründet man lächerlicher Weise
+häufig durch einen Hinweis auf die jetzigen Leistungen der
+Lehrerinnen. Liegt nicht ein erbitternder Hohn darin, daß
+man diese schlechten Leistungen den Lehrerinnen zum Vor-
+wurf macht und Beweismaterial daraus zieht, während
+man ihnen die Vorbedingungen zu bessern hartnäckig ver-
+weigert? Ist solch ein Verfahren gerecht? Wie würde
+man es finden, wenn wir die Leistungsfähigkeit des
+Mannes an seminaristisch gebildeten Durchschnittslehrern
+messen wollten? Eben weil der Seminarist nur semina-
+ristisch gebildet ist, hat er einen anderen Gesichtskreis als
+der höher Gebildete; einen Schluß auf die Fähigkeiten
+seines Geschlechts kann man aus seinem geistigen Stand-
+punkt nicht ziehen, nicht einmal auf seine eigenen; er wäre
+vielleicht bei geeignetem Bildungsgang auch ein tüchtiger
+Philologe geworden. Den geistigen Horizont geben dem
+Durchschnittsmenschen seine Studien. Das Seminar giebt
+nun ein eng begrenztes, abgeschlossenes Wissen und zwar
+zum größten Teil in fertigen Resultaten, dazu eine schätzens-
+werte Routine in der Handhabung und Weiterlieferung des-
+selben und eine tüchtige methodische Schulung, die den
+seminaristisch gebildeten Lehrer auf manchem Gebiet dem
+akademisch gebildeten überlegen macht; es setzt seine Schüler
+1) ihre Befähigung be-
+treffend.
+in den Stand, Fertigkeiten beizubringen, das Begriffs- und
+Urteilsvermögen bis zu einem gewissen Grade zu bilden
+und diejenigen positiven Thatsachen zu überliefern, die als
+Grundlage der allgemeinen Bildung dienen sollen. Was
+es aber nicht geben kann, das sind freie Kenntnisse, die
+nur durch eigenes Denken und Forschen errungen werden
+können, den weiten geistigen Horizont, der mit der Fähig-
+keit selbständigen Eindringens in eine Wissenschaft, mit
+dem Überblick über die Beziehungen der einzelnen Wissen-
+schaften untereinander und zum Ganzen zusammenhängt.
+Wir sagen nicht, daß nicht seminaristisch gebildete Lehrer
+wie Lehrerinnen zu solchen freien Kenntnissen, solch weitem
+geistigen Horizont gelangen können und gelangt sind; dann
+gelangen sie aber dahin nicht durch ihre seminaristische
+Bildung, sondern trotz derselben, dann sind sie nicht mehr
+die bloßen Durchschnittsmenschen, von denen wir ausgehen
+und ausgehen müssen. So können wir nur eine Verhöh-
+nung darin sehen, wenn man die jetzigen Leistungen von
+Lehrerinnen, denen alles eigentliche Selbstsuchen und Denken,
+alles wirkliche Studieren auf das sorgfältigste fern-
+gehalten ist, deren Bildung noch weniger gründlich als
+die der Elementarlehrer betrieben worden, gegen ihre Be-
+fähigung in die Wagschale werfen will.
+Überdies giebt es denn aber doch eine ganze Anzahl
+recht guter Leistungen; die Urteile der Dirigenten der öffent-
+lichen Schulen, auf die man besonderen Wert zu legen pflegt,
+sind in Bezug auf die Befähigungsfrage durchaus nicht
+maßgebend. Die öffentlichen Schulen sind nämlich, von
+anderen, hier nicht zu erörternden Gründen abgesehen, schon
+aus dem einen Grunde gar nicht imstande, ein so gutes
+Lehrerinnenmaterial heranzubilden als die Privatschulen,
+weil sie ihren Lehrerinnen nirgends Raum zur Entfaltung
+und Weiterentwicklung ihrer Kräfte gewähren. Nur im
+Wasser aber kann man schwimmen lernen, und Organe,
+die nicht gebraucht werden, verkümmern bekanntlich. Es
+ist also natürlich, daß Lehrerinnen, die wöchentlich circa
+10 Turn- und Handarbeitsstunden geben und im übrigen
+nur auf der unteren Stufe verwendet werden, schließlich
+für höhere Leistungen auch gar nicht mehr verwendbar
+sind; das würde dem Lehrer gerade so gehen; auch er
+lernt erst durch Lehren und oft genug zum schweren Schaden
+der Kinder. Solche Lehrerinnen, die schließlich alles In-
+teresse an ihrer eigenen weiteren Ausbildung und jede
+höhere Auffassung ihres Berufs verlieren, dienen den Her-
+ren Dirigenten und Lehrern dann wieder als Beweis-
+material gegen die Befähigung der Lehrerinnen. Die
+Herren würden so etwas bei anderen ja wohl einen
+circulus vitiosus nennen. —
+Zugegeben übrigens, es giebt tausende von unfähigen
+Lehrerinnen, zugegeben, die meisten haben noch keinen
+richtigen Begriff von dem hohen Ernst und den bedeuten-
+den Anforderungen ihres Berufs, so wenig wie von seiner
+Schönheit und der tiefen Befriedigung, die er gewährt
+(haben es denn übrigens alle Lehrer?), so bleibt doch der
+Fundamentalsatz stehen: Nicht Männer, sondern
+Frauen sind in erster Stelle zur Bildung und
+Erziehung von Mädchen berufen; taugen die
+Frauen dazu noch nicht, so mache man sie taug-
+lich; das muß unser ceterum censeo sein, so lange bis
+man uns endlich hört!
+Aber wir wissen wohl, man behauptet, diesem Taug-
+lichmachen stehe ein Naturhindernis im Wege; die ganze
+geistige Organisation der Frau sei derart, daß ein enger
+geistiger Horizont, eine kleinliche Art der Lebensanschauung,
+Mangel an Logik ꝛc., wodurch eben ein unabhängiges,
+selbständiges Studium unmöglich gemacht werde, als ihr
+angeboren gelten müssen. Da verwechselt man einfach die
+Ursache mit der Folge. Nicht weil Kleinlichkeit und Eng-
+herzigkeit der Frau angeboren ist, beschäftigt sie sich nur
+mit kleinen Dingen, sondern weil seit unzähligen Gene-
+rationen der Mann mit dem Recht des physisch Stärkeren
+die großen Interessen und die Geistesarbeit an sich genom-
+men hat, hat die notgedrungene Beschäftigung mit dem
+Kleinen und Kleinsten den geistigen Horizont der Frau
+immer mehr verengert. Wahrlich, hätte nicht die Beschäf-
+tigung mit den Kindern der Frau immer wieder Frische
+und Kraft verliehen, unser Geschlecht müßte längst ver-
+kommen sein. Nach demselben Gesetz aber, nach dem Eng-
+herzigkeit und Kleinlichkeit zur Geschlechtseigentümlichkeit
+der Frau werden konnte — was wir übrigens lange nicht
+in dem Maße zugeben können, wie es von seiten der Män-
+ner behauptet wird — nach demselben Gesetz wird die Be-
+schäftigung mit großen Interessen den Gesichtskreis der
+Frau auch wieder erweitern und ihre Leistungsfähigkeit
+erhöhen und wahrlich nicht zum Schaden der Männer.
+Ein weiter geistiger Horizont und eine große Lebens-
+anschauung werden eben nicht angeboren, sie werden
+erworben, und zwar durch Studium einerseits, durch
+Arbeit an großen, öffentlichen Interessen andrerseits. Wir
+sehen die Probe auf das Exempel schon jetzt in England,
+wo Studium und die Arbeit in Armen- und Schulverwal-
+tung, an welcher — nicht bloß in dienender, sondern auch
+in leitender Stellung — in großherziger Weise den Frauen
+Anteil verstattet ist, das Niveau ihrer Bildung rasch zu
+heben beginnt. Statt auch in Deutschland den Versuch
+zu machen, ob ernsthafte Arbeit und Teilnahme an den
+öffentlichen Interessen, gerade am Armen- und Schulwesen,
+den engen geistigen Horizont der Frauen nicht erweitern
+könne, wird der Fehler, der bei der Erziehung der Frauen
+im ganzen gemacht ist, bei jeder einzelnen wiederholt, in-
+dem nie eine ernste Anstrengung gefordert, sondern die
+geistige Kost ihr stets zubereitet gegeben wird unter wieder-
+holter Berufung auf die feststehende Theorie der mangel-
+haften geistigen Organisation der Frau, auf jene fehlenden
+acht Lot Gehirn, die allmählich einen Secundaner zum
+Lachen bringen könnten. Sind die Zweifel der Männer,
+besonders der Töchterschulmänner, an der Befähigung der
+Frau ganz ehrlich und ihre Motive völlig idealer Art, so
+dürfen wir hoffen, daß sie mit uns gemeinschaftlich daran
+arbeiten werden, den Frauen eine Gelegenheit zu besserer
+Vorbildung zu schaffen, damit sich endlich erkennen läßt,
+ob sie wirklich nicht fähig sind, dieselbe zu benutzen. Fällt
+der Versuch günstig aus, so ist ja für das Endziel, das
+sie sich bei den Mädchen gesteckt, Herausbildung einer
+„edlen Persönlichkeit“, eine unschätzbare Kraft gewonnen;
+fällt er ungünstig aus, so sind ja nur wir Frauen die
+Geschädigten.
+Übrigens fällt es uns durchaus nicht ein — wir
+wiederholen das, um hier keine Unklarheit zu lassen —
+dem Manne seinen ausgebildeten Intellekt, besonders seine
+größere Abstraktionsfähigkeit zu bestreiten; wir bestreiten
+nur, daß ihm diese für das Studium, wie es zum
+Unterricht in der Mädchenschule nötig erscheint, große
+Vorteile verleiht. Wir beabsichtigen durchaus nicht, un-
+seren Lehrerinnen das Studium der Philologie zuzumuten,
+dem die Frauen in Deutschland augenblicklich nicht ge-
+wachsen wären 1); aber nicht deswegen, sondern weil wir
+durchaus nicht glauben, daß dieses Studium, wie es augen-
+blicklich mit der größten Spitzfindigkeit im Detail betrieben
+wird, gute Lehrerinnen bildet; — bildet es doch an und
+für sich auch nicht gute Lehrer, sondern nur Gelehrte.
+Man wird für unsere Lehrerinnen sehr ernsthafte, auch
+streng wissenschaftliche Anforderungen in Aussicht nehmen
+1) Wir geben übrigens folgende Notiz, die wir einem Aufsatz von
+Ludwig Büchner: Das Gehirn der Frau (Thatsachen u. Theorien
+aus dem naturwissenschaftlichen Leben der Gegenwart, Berlin 1887) ent-
+nehmen, und die über die Befähigung der Frau auch zu abstrakten Stu-
+dien doch anders denken lehrt als bisher: „Bei einer der letzten Prü-
+fungen der Londoner Universität für die Würde eines bachelor of arts
+bestanden unter 215 männlichen und 22 weiblichen Bewerbern von
+ersteren 90, also 42%, von letzteren 16, also 73% und zwar so, daß
+alle Examinandinnen außer einer einzigen Nr. 1 erhielten, obgleich ihr
+Lebensalter im Durchschnitt geringer war, als dasjenige ihrer männlichen
+Konkurrenten.“ — Ein ausführlicherer Bericht findet sich in „The Woman
+Question in Europe, by Th. Stanton, London 1884, S. 36 Anm.
+und sich doch ohne Schaden für unsere Mädchen sehr
+weit vom philologischen Examen entfernen dürfen 1).
+Wir kommen zu dem zweiten Einwurf gegen das
+Studium der Frauen, ihre Gesundheit betreffend. Er ent-
+behrt nicht einer leisen Komik. Wir sind, seit die Welt
+steht, so wenig daran gewöhnt, daß man die Arbeit, die
+man uns zuweist, nach Gesundheitsrücksichten aussucht,
+wir sind gewohnt so mancherlei Lasten zu tragen, daß wir
+diese Sorge um unsere Gesundheit, die sich so rührend
+geltend macht, nun es sich zum ersten Mal um eine
+äußerlich lohnende und einflußgebende Stellung
+handelt, auch wohl noch auf unsere eigenen Schultern
+nehmen wollen. Erhebt doch auch niemand Protest, wenn
+Frauen lebenslang über die Nähmaschine gebückt sitzen,
+oder wenn junge Elementarlehrerinnen Klassen von 60 bis
+70 Kindern unterrichten, nicht eben zum Vorteil ihrer
+physischen Constitution; warum plötzlich dieser Protest gegen
+eine weit geringere Anstrengung? Und nehmen wir selbst
+den schlimmsten Fall an, was haben wir zu befürchten?
+Deutschland weist einen beängstigenden Überschuß an
+Frauen auf, die, wie die Verhältnisse liegen, zum weit-
+aus größten Teil erwerbsbedürftig sind, von denen so wie
+so ein großer Procentsatz aus Mangel an Erwerb zu
+Grunde geht und zwar im schlimmsten Sinne des Worts.
+Wäre es nicht besser, die Fähigeren setzten ihre Kraft und
+2) ihre Gesundheit be-
+treffend.
+1) Es ist da auch das Wort Cauers zu beherzigen (a. a. D. S. 25):
+„Lehrerinnen, die auf diesem Wege (durch Gymnasium und Universität)
+gebildet wären, würden im besten Falle nichts anderes sein, als eine ab-
+geschwächte Kopie ihrer männlichen Kollegen, und ich würde einer solchen,
+wenn ich die Wahl hätte, unter allen Umständen das Original vorziehen.
+Wenn wir neben den Lehrern Lehrerinnen für die oberen Klassen suchen,
+so sollen sie nicht dasselbe sein, wie jene, sondern etwas anderes. Der
+weiblichen Natur wird immer ein anderer Bildungsgang gemäß sein, als
+der männlichen, ein anderer nicht sowohl in Betreff der Unter-
+richtsstoffe, — eine Frau, die lateinisch oder griechisch treibt,
+erregt mir kein Entsetzen, — als in Betreff der Methode
+und des innezuhaltenden Tempos.“
+meinetwegen auch ein Stück ihrer Gesundheit an eine Auf-
+gabe, durch deren Lösung sie für die Zukunft ihren
+Schwestern einen neuen lohnenden Erwerbszweig sicherten
+und die eigentlichen Gewerbe für die weniger Begabten
+entlasteten? Glaubt man denn wirklich, daß bei dem
+jetzigen Zustand die Gesundheit der auf mangelhaften Ver-
+dienst angewiesenen Frauen eine so vorzügliche ist? Wer
+hindert übrigens die Männer, für einen großen Zweck ihre
+Gesundheit zu wagen? Und für uns giebt es keinen
+größeren, als Bresche zu legen in Jahrtausende alte Vor-
+urteile und den zukünftigen Generationen Lehrerinnen zu
+schaffen, die mit dem warmen Interesse, das wir jetzt schon
+alle für die Erziehung unserer Mädchen haben, ausreichende
+Bildung und einen weiten Gesichtskreis vereinen. Es steht
+ja jedem Vater frei, seine Tochter von diesem Versuch fern
+zu halten; es giebt aber eine Menge mündiger, selbstän-
+diger Frauen in Deutschland, die an diesen Zweck gern
+ihre Gesundheit wagen werden, und man wird ihnen das
+Recht dazu kaum bestreiten wollen.
+Überdies erscheint aber diese ganze Sorge um die Ge-
+sundheit als eine sehr übertriebene. Wenn jetzt schon
+manches junge Mädchen vor dem Lehrerinnenexamen vor-
+übergehend nicht die gewöhnliche Frische und Gesundheit
+zeigt, so unterscheidet sie sich dadurch in gar nichts von
+dem Abiturienten — vor den Erfolg haben die Götter
+nun einmal den Schweiß gesetzt. In etwas schädigt alle
+Kulturarbeit die Gesundheit; sollen wir deswegen etwa
+wieder Ackerbauer und Nomaden werden? Es fällt so-
+dann — und wir billigen das durchaus nicht — die
+Ausbildung der Lehrerinnen in eine Zeit, die ohnehin von
+Bleichsuchtserscheinungen und dergl. leicht heimgesucht ist;
+ein ursächlicher Zusammenhang mit der Examensvorberei-
+tung ist also durchaus nicht notwendig vorhanden. Man
+sollte sich doch hüten, allerlei Blut- und Nervenkrankheiten,
+die unsere ungesunde und verweichlichende Kinder-
+erziehung als notwendige Folge hat, und die allerdings
+die Widerstandskraft des Körpers lähmen, dem Studium
+zum Lehrerinnenexamen aufzubürden. Gegenüber den zahl-
+losen Übertreibungen, die besonders auch die Presse über
+den Gesundheitszustand der Lehramtskandidatinnen bringt,
+ist es gut, ein paar Zahlen anzuführen, mit welchen die
+Denkschrift des Vereins deutscher Lehrerinnen und Er-
+zieherinnen ihnen entgegentritt. Es heißt hier (S. 31):
+„Von etwa 320 Lehrerinnen, an deren Ausbildung der
+Referent (Professor Dr. Christian Rauch) beteiligt gewesen ist,
+haben 4 den Lehrkursus aus Gesundheitsrücksichten unter-
+brechen oder gänzlich aufgeben müssen, also 1,25 %. Von
+den übrigen zeigte nur ein verschwindend kleiner Teil im
+äußeren Erscheinen und Befinden diejenigen Merkzeichen,
+mit welchen jeder Mensch, auch der studierende Mann,
+bei sitzender Lebensweise öfters behaftet ist. Weitaus die
+größte Mehrzahl aber befand sich gerade so, wie alle an-
+deren Mädchen dieses Alters, d. h. gesund und wohl.
+Hiernach dürfte der Procentsatz der Invaliden bei der
+weiblichen sich vorbildenden Jugend kaum größer sein, als
+bei der männlichen“ 1). Ein Teil dieser Invaliden würde
+1) Wir wissen nicht, aus welcher Quelle der Herr Abg. Dr. Reichen-
+sperger f. Z. (Rede v. 5. Febr. 1884) die Notiz entnommen, daß von
+40 Examinandinnen 39 krank geworden, — er giebt als solche nur „ein
+Mädchen“ an; aktenmäßig belegen würde sie sich schwerlich lassen. Eine
+solche Thatsache würde das größte Aufsehen in ganz Deutschland erregt
+und sicher eine behördliche Untersuchung zur Folge gehabt haben. So
+sehr wir uns mit ihm in Übereinstimmung wissen in Bezug auf den
+Wunsch, nicht überwiegend männliche Lehrkräfte an den Mädchen-
+schulen anzustellen („ich halte dafür, daß es nicht rätlich ist, bei solchen
+Mädchenschulen, namentlich an höheren Mädchenschulen, ohne Not männ-
+liche Lehrkräfte anzustellen. Ich befinde mich da zum Glück — ich brauche
+es deshalb auch nicht weiter auszuführen — in Übereinstimmung mit
+einer früheren Äußerung eines geehrten Herrn Regierungskommissarius,
+des Herrn Geheimenrats Schneider, welcher wörtlich sich da-
+hin geäußert hat, daß „Erziehung und Unterricht der na-
+türliche Beruf der Frau“ sei, also gewiß der natürliche
+Beruf, wenn es sich um Erziehung und Unterricht von
+Mädchen handelt“), so dankbar wir ihm für seine dahinzielenden
+ganz gewiß noch verschwinden, wenn nicht 1) die Mädchen
+sehr häufig neben ihren Examenstudien noch eine Menge
+häuslicher und gesellschaftlicher Ansprüche befriedigen müß-
+ten oder wollten und wenn 2) ihnen vom Hause stets die
+genügende Zeit und die genügenden Mittel zur Verfügung
+gestellt würden. Da soll aber häufig in einem Jahre bei
+oft ungenügenden Vorkenntnissen ein Resultat erzielt wer-
+den, zu dessen Erreichung mindestens das Doppelte an
+Zeit nötig wäre. Und bei dem großen Eifer, mit dem im
+Durchschnitt die jungen Mädchen arbeiten, wird es auch
+oft erreicht, selbstverständlich aber auf Kosten ihrer Ge-
+sundheit. Wollten die Eltern einer Tochter, um sie er-
+werbsfähig zu machen, auch nur die Hälfte der Zeit und
+Mittel gewähren, die ein Sohn — verstudiert, so würde
+ein vorher gesundes junges Mädchen auch ganz gewiß
+keine Schädigung durch seine Studien erfahren, ja, wir
+sind fest überzeugt, daß es unter dieser Bedingung sich
+auch der Anstrengung, die eine Vertiefung ihres Studiums
+mit sich brächte, gewachsen zeigen würde, um so mehr als
+dies Studium erst bei genügender geistiger und körperlicher
+Reife, frühestens mit dem 20., nicht wie jetzt mit dem
+1)
+1) Äußerungen sind, so wenig können wir seine damals und später wieder
+ausgesprochene Überzeugung teilen, daß die Lehrerinnen zu viel lernen.
+Eins zwar geben wir zu: daß auch das Lehrerinnenexamen unter
+dem „Memoriermaterialismus“ stark zu leiden hat; nicht das
+Lernen selbst, die Art des Lernens wirkt erschlaffend auf die Nerven ein.
+Im übrigen teilen wir vollständig die am 17. März 1885 im preußi-
+schen Abgeordnetenhaus ausgesprochene Ansicht des Herrn Dr. Schläger,
+welcher die Hauptursache des von vielen Seiten beklagten mangelhaften
+Unterrichts in den Mädchenschulen darin sieht: „daß die Lehrerinnen an
+den höheren Mädchenschulen nicht die gründliche und gehörige Vorbildung
+haben, die sie haben müssen und haben sollen.“ Er wünscht dringend:
+„daß an den Mädchenschulen höherer und niederer Art viel mehr Leh-
+rerinnen angestellt werden mögen, als dies bisher der Fall gewesen ist.
+Es ist dies eine Frage, die von den schätzenswertesten Seiten immer be-
+jaht, nur aus einzelnen Lehrerkreisen bestritten wird, vielleicht
+aus einer Konkurrenzbesorgnis, auf die ich deshalb so viel Gewicht nicht
+lege, wie man sonst wohl auf sachverständiges Urteil legen müßte.“
+16. Jahre beginnen würde, und als es weniger nerven -
+aufreibend erscheint als der mehr oder weniger mechanische
+Lernbetrieb in den Seminarien.
+Aber nun zu dem Haupteinwurf, den man gegen eine
+gründlichere Ausbildung der Lehrerinnen erhebt: die Frau
+soll nämlich durch tiefere Studien ihre Weiblichkeit ein-
+büßen, die, das geben wir vollständig zu, allein ihren
+Einfluß schätzenswert machen könnte. Der Einwurf zeigt,
+ein wie gefälliges Ding die Logik ist, wenn man sie miß-
+brauchen will, um eine vorgefaßte Meinung zu beweisen.
+Dieselben Männer, die so fest an die Unabänderlichkeit der
+Naturanlage glauben, daß sie eben diese Naturanlage als
+ein unübersteigliches Hindernis für eine vertiefte Bildung
+der Frauen gegen uns ins Feld führen, dieselben Männer
+fürchten plötzlich, daß das Fundament unseres ganzen
+physischen und psychischen Lebens, daß all die eigentüm-
+lichen, tief in der Natur begründeten Erscheinungen, die
+wir in ihrer Gesamtheit als Weiblichkeit bezeichnen, durch
+ein paar Jahre Studium ausgetrieben werden könnten!
+Müssen wir ihnen denn erst zurufen: Naturam expellas
+furca, tamen usque recurret? Für uns zwar, die wir
+an diese Unveränderlichkeit der Naturanlage nicht glauben,
+die wir im Gegenteil fest überzeugt sind von dem gewal-
+tigen Einfluß, den die socialen Gewohnheiten und die Art
+der Beschäftigung auf die Ausbildung oder Rückbildung
+der Naturanlagen haben, für uns muß diese Frage von
+großer Wichtigkeit sein. Wir wollen ja eben darum
+Lehrerinnen für unsere heranwachsenden Mädchen, um
+ihnen den weiblichen Einfluß zu sichern. Weiblich ist es,
+wie schon oben erwähnt, die Wissenschaft nicht um ihrer
+selbst willen zu treiben, sondern ihres edelsten und höchsten
+Nebenzwecks willen, ihrer sittlichenden Wirkung; weiblich,
+auf diese auch beim Lehren das Hauptgewicht zu legen;
+müssen wir fürchten, daß bei größerer Vertiefung in die
+Wissenschaft, bei wirklich strengem Studium, diese weib-
+liche Eigentümlichkeit schwindet, so fiele damit der Grund,
+3) den schlimmen Einfluß
+betreffend, den man von
+einem vertieften Studium
+auf die Weiblichkeit
+der Frauen fürchtet.
+aus welchem wir eine Änderung wünschen. Weiblich ist
+es ferner, eine gewisse Harmonie der Bildung und Welt-
+anschauung zu suchen, die der männlichen Skepsis die Wage
+hält; weiblich ist jene echte, warme Religiosität, der alles
+Menschliche nur dient, um Beziehungen zum Göttlichen zu
+suchen; — muß das alles verloren gehen, so können wir
+freilich weder für die Lehrerinnen eine vertiefte Bildung
+wünschen, noch durch sie bei den Frauen im allgemeinen
+die Befähigung dazu anbahnen wollen. Es fragt sich nun,
+was lehrt in dieser Beziehung die Erfahrung? Sie lehrt
+zunächst, daß bei gründlichem Studium sehr häufig die
+Eigenheiten verschwinden, die Männer als specifisch weib-
+liche bezeichnen: die Kleinlichkeit, der Mangel an Logik,
+der enge geistige Horizont, die Unselbständigkeit, die Un-
+entschiedenheit des Urteils; kurz, alle die Eigenschaften, die,
+so sehr der Mann sie auch verurteilt, ihm doch oft so un-
+endlich bequem sind; wir können ihr Verschwinden nicht
+bedauern, besonders bei der Lehrerin nicht. Erst wenn
+diese Schwächen verschwunden sind, kann sich das, was
+wir Weiblichkeit nennen, voll entwickeln, erst dann vermag
+die Lehrerin das heilige Amt der Mutter in der Schule
+zu übernehmen, erst dann auf die Erziehung ihrer
+Schülerinnen wirklich durch Lehre und Beispiel einzuwirken.
+Die Erfahrung lehrt weiter, daß es allerdings eins giebt,
+was die echte Weiblichkeit gefährdet, das ist eben das,
+was uns jetzt geboten wird: die Halbbildung, und zwar
+deshalb, weil die halbgebildete Lehrerin ihre Natur ge-
+waltsam zu unterdrücken und in unselbständiger Nach-
+ahmung männlicher Art, die ihr allein als wirksam gilt,
+Erfolge zu erreichen sucht. Die Halbbildung bringt, be-
+sonders in Verbindung mit langjähriger Routine, jenes
+Zerrbild der Lehrerin hervor, das an den Unteroffizier er-
+innert. Hier kann von einem tiefgreifenden und veredelnden
+Einfluß auf die Schülerinnen nicht die Rede sein.
+Die Halbbildung führt ferner entweder zum Materialis-
+mus, der die Frau völlig unfähig zum Erziehen macht,
+Der Weiblichkeit schadet
+wohl die jetzt den Frauen
+gebotene Halbbildung,
+niemals aber die echte
+Bildung.
+oder zu einem toten Dogmatismus, der bestenfalls wir-
+kungslos bleibt, aber häufiger noch abstößt. Die Halb-
+bildung macht eingebildet, einseitig und hochmütig; sie
+läßt den Kreis kleiner Pflichten, in dem sich nun einmal
+das Leben der meisten Frauen bewegt und noch lange be-
+wegen wird, als etwas Verächtliches ansehen; sie erfüllt
+mit jener Ehrfurcht vor dem Stofflichen, dem Positiven,
+die unsere Lehrerinnen jetzt oft um die Wette mit den
+Lehrern zur Überbürdung der Schülerinnen beitragen läßt;
+sie macht aus allen diesen Gründen die Frauen unfähig
+zur Erfüllung ihrer höchsten und heiligsten Aufgabe, zur
+Erziehung. Niemals aber die echte Bildung. Sie zeigt
+uns im Gegenteil unsere kleinen Pflichten und unseren Er-
+zieherberuf unter einem neuen Licht und lehrt uns, sie aus
+anderem Geiste zu erfüllen, sie lehrt uns die Dinge in
+ihrem wahren Wert erkennen und macht uns frei von dem
+übertriebenen Respekt vor dem Positiven und dem Be-
+stehenden, der jeden Fortschritt hemmt, um an seine Stelle
+die gegründetere Ehrfurcht vor der in den Dingen selbst
+liegenden Vernunft und dem ewigen Sittengesetz zu wecken;
+sie befreit uns eben dadurch von all den tausend Vor-
+urteilen, die sich von einer Generation zur andern fort-
+schleppen, und die gerade die Lehrerin, die die zukünftigen
+Mütter erzieht, notwendig ablegen müßte. Mag sie Um-
+wege machen, um zu solcher inneren Freiheit zu gelangen:
+es ist nicht wahr, daß durch solche Umwege, daß durch
+eigenes Denken und Forschen unsere Weiblichkeit verloren
+gehe. Den Mann mag es leicht zur Verneinung führen, weil
+in ihm die Verstandesnatur überwiegt; die Frau führt ver-
+tiefte Bildung, führt das echte Verständnis des Menschlichen
+schließlich nur näher zu Gott. Unberührt von dem Skepticis-
+mus unserer Tage kann sie ja so wie so nicht bleiben; die
+halbe Bildung gesellt sie zu den Zweiflern und Spöttern;
+nur die echte Bildung kann ihr helfen, sie zu überwinden.
+Wir können also nicht zugeben, daß die Gründe, welche
+man gegen eine gründlichere Ausbildung der Lehrerinnen
+geltend macht, stichhaltig seien. Es bleibt uns nun zu
+entwickeln, wie wir uns eine solche Ausbildung denken,
+und welche äußeren Veranstaltungen wir dafür nötig
+halten. Sollen vielleicht endlich, wie sonst schon überall,
+so auch in Deutschland den Frauen die Universitäten ge-
+öffnet werden? So sehr wir das im Interesse zukünftiger
+Ärztinnen wünschen würden, so wenig können wir, wie
+schon oben erwähnt, für unsere Mädchenschulen einen Vor-
+teil darin sehen, wenn ein Universitätsstudium zur Vor-
+bedingung für die Anstellung von Lehrerinnen an den
+Oberklassen gemacht würde. Soll die Lehrerin ihrer Eigen-
+art gemäß wirken können, so muß sie eine Bildung er-
+halten, die ihrer Eigenart besser angepaßt ist, als die Uni-
+versitätsbildung. Den Universitäten ist die Wissenschaft
+Selbstzweck, und sie wollen die Befähigung zu der höchsten
+Stufe wissenschaftlicher Forschung geben; damit haben un-
+sere Lehrerinnen nichts zu thun. So glauben wir, daß es
+nötig sein wird, für die Vorbildung von Lehrerinnen be-
+sondere Anstalten zu schaffen, sagen wir kurz Hochschulen,
+— da es auch schon Hochschulen für Musik giebt, so wird
+der Name nicht zu hochgegriffen erscheinen 1). Diese Hoch-
+schulen würden wir uns am liebsten nach dem Vorbilde
+von Newnham und Girton College mit einem Internat
+Das Universitätsstudium
+erscheint uns nicht geeignet
+für Lehrerinnen; wir wün-
+schen vielmehr eigene Vor-
+bereitungsanstalten für
+dieselben.
+1) Man ist in dieser Beziehung etwas ängstlich in Deutschland.
+Als der Titel „Oberlehrerin“ zuerst gelegentlich in Vorschlag gebracht
+wurde für Lehrerinnen ersten Grades, wie auch wir sie schaffen wollen, wurde
+von Seiten der Lehrer den Frauen so sehr Eitelkeit, Titelsucht ꝛc. vor-
+geworfen, daß man sich nur wundern muß, daß sie selbst Titel, die zu
+so schlimmen Dingen verführen, nicht längst abgelegt haben. Inzwischen
+ist gerade dieser Titel, den wir in unserer ganzen Schrift mit einer ge-
+wissen Geflissenheit vermieden haben, ehrenhalber einer Lehrerin ver-
+liehen worden; die Behörde muß also die Furcht vor so schlimmen Fol-
+gen nicht teilen. Einfacher als durch die Worte Oberlehrerin und
+Hochschule für Lehrerinnen kann unseres Erachtens die Stufe über
+der Lehrerin zweiten Grades und über dem Seminar nicht be-
+zeichnet werden; indessen wir verzichten gern auf den Namen, wenn man
+uns nur die Sache giebt.
+eingerichtet denken, ohne daß der Besuch von Externen
+ausgeschlossen erschiene. Was die Leitung anbetrifft, so
+kann es nach Robert von Mohl, der sich schon die ge-
+wöhnlichen Lehrerinnenseminare nur als Internate denkt,
+„keinem Zweifel unterliegen, daß die Aufsicht und Leitung
+des Hauses lediglich Frauen anvertraut sein kann, und
+daß in allen in der Anstalt von Männern gegebenen Lehr-
+stunden eine weibliche Aufseherin anwesend ist.“ Diese
+Frauenleitung wird bei den in Aussicht genommenen
+Hochschulen noch aus ganz anderen Gründen, als sie für
+Mohl maßgebend sind, durchaus notwendig sein, damit
+nämlich nicht wieder die Kurse aus „väterlicher Besorgnis“
+oder chevaleresken Regungen nach der geringen vermeint-
+lichen Leistungskraft der zukünftigen Lehrerinnen zugeschnitten
+und zurechtgemacht werden 1), sondern mit der größeren
+Rücksichtslosigkeit, mit der wir unserem eigenen Geschlecht
+gegenüber verfahren, dafür gesorgt werde, daß wirklich
+wissenschaftliche Leistungen gegeben und verlangt werden
+und unseren Lehrerinnen Mittel und Methoden gezeigt
+werden, die den Erwerb selbständigen Wissens
+ermöglichen. So sehr wir unsere Schulmädchen schonen
+wollen, so sehr wir hier auf Beschränkung drängen, so
+wenig scheint uns eine Schonung den Lehrerinnen gegen-
+über angebracht. Wer ihrer geistig oder körperlich bedarf,
+Einrichtung solcher An-
+stalten.
+1) Ein solches Zurechtschneiden und Beschränken erscheint, wenn es
+nicht zu weit getrieben wird, für Elementar-Lehrer und -Lehrerinnen
+nötig, da sie mit zu geringen Vorkenntnissen an die Arbeit gehen, um
+dessen ganz entraten zu können: hier aber, wo die Vorkenntnisse an
+Bedeutung schon die für das Elementarexamen geforderten Kenntnisse
+übertreffen müssen, ist nur selbständige Arbeit förderlich, und eben zu
+dieser soll die Anleitung gegeben werden. — Übrigens würde — wir er-
+wähnen das, um Mißverständnissen vorzubeugen — das Elementarexamen
+niemals als Vorbedingung für die Aufnahme in die Hochschule ver-
+langt werden oder gelten können; Hochschule und Seminar können für
+Frauen eben so wenig voneinander abhängen, wie für Männer; es sollen
+also nicht zwei Examina nacheinander abgelegt werden, sondern nach
+Wahl und Befähigung nur das niedere oder nur das höhere
+muß ein solches Studium unterlassen; es erscheint durch-
+aus notwendig, daß scharfe Forderungen für das selbst-
+verständlich zu verlangende Aufnahmeexamen gleich von
+vornherein ungeeignete Elemente zurückschrecken. Eben das
+dilettierende Unwesen, die Rücksichtnahme auf schwache
+Kräfte, das spielende Lernen hat die bisherigen Veranstal-
+tungen für höhere Frauenbildung mit Recht so in Miß-
+kredit gebracht. Die Leitung der ganzen Anstalt durch eine
+wissenschaftlich tüchtig durchgebildete 1) Frau wird mehr
+Garantie für energische Durchführung der oben angegebenen
+Forderungen bieten, als die Leitung durch einen Mann,
+da ein solcher, auch beim besten Willen, sich von den her-
+gebrachten Vorurteilen gegen Frauenbildung und Frauen-
+fähigkeiten nicht beeinflussen zu lassen, doch häufig, ihm
+selbst unbewußt, seine Anordnungen unter dem Druck dieser
+Vorurteile treffen wird. Was die Zusammensetzung des
+Lehrerkollegiums betrifft, so halten wir es gleichfalls für
+durchaus notwendig, daß Pädagogik und Deutsch 2) in
+Frauenhand liegt, soweit sich eben unter den gegenwärtigen
+Verhältnissen Lehrerinnen dafür finden lassen, — ein Satz,
+der ja überhaupt auf alle unsere principiellen Ausführun-
+gen Anwendung findet —, während uns bei einigen der
+anderen Fächer das Geschlecht der Lehrenden gleichgültig,
+bei anderen der Mann vorzuziehen scheint. Als obligato-
+risch würde uns das Studium der Pädagogik in allen
+ihren Zweigen, so wie das des Deutschen in einzelnen er-
+1) Diese Vorbedingung ist unerläßlich. Bloße Repräsentations-
+fähigkeit oder äußere Beziehungen dürfen nicht den Ausschlag geben, wo
+es sich um eine Lebensfrage für das weibliche Geschlecht handelt, und wo
+bei der prekären Lage der ganzen Angelegenheit ein einziger Mißgriff ge-
+nügt, sie im Keim zu verderben.
+2) Das Studium der Religion wird auf dieser Stufe mehrere Zweige
+umfassen müssen: Religionsgeschichte, Ethik und den Schul-Religionsunter-
+richt und seine Methodik; letzteren mindestens würden wir wieder un-
+bedingt in Frauenhand wissen wollen, da hier eine Menge praktischer
+Winke für einen gedeihlichen und wirksamen Schulunterricht gegeben wer-
+den können und müssen.
+scheinen, während wir im übrigen den Studierenden volle
+Freiheit lassen möchten. Wenn wir auch aus den mehr-
+fach angegebenen Gründen auf die ethischen Fächer den
+meisten Wert legen, so würde es doch durchaus nicht rat-
+sam sein, Sprachen, Naturwissenschaften ꝛc. auszuschließen,
+nur würde sich der nötigen Gründlichkeit wegen und bei
+der geringeren extensiven Kraft des weiblichen Geistes
+möglichste Beschränkung empfehlen; für eine gewisse Breite
+der Bildung mögen die Bedingungen, an die der Eintritt
+in die Anstalt geknüpft wird, sorgen. Wir würden ferner
+den Eintritt in dieselbe frühestens mit dem 20. Jahre
+gestatten und einen dreijährigen Studienkursus, der aber
+nicht nur Vorlesungen, sondern hauptsächlich Unterrichts-
+stunden böte, und an den praktische Übungen anzuschließen
+wären, für unerläßlich halten. Was die Art des Unter-
+richts betrifft, so muß hier eine Andeutung genügen: er
+wird hauptsächlich Anregung zu geben, Quellenkenntnis zu
+vermitteln und das eigene Urteil der Studierenden zu
+bilden und zu schärfen haben. Ein von den Lehrkräften
+der Anstalt selbst abzunehmendes Examen 1) würde den
+Kursus beschließen, dessen glückliche Absolvierung sodann
+die Berechtigung auf Anstellung in Oberklassen gäbe.
+(Eine Art von Verpflichtung zu solcher Anstellung
+müßte allerdings seitens der Behörde anerkannt werden;
+die Berechtigung giebt ja das bisherige Zeugnis auch,
+aber ohne jede praktische Folge.) Die Berechtigung zur
+Leitung öffentlicher höherer Mädchenschulen würden wir
+uns geknüpft denken an das Examen für Oberklassen mit
+1) Cauer betont mit Recht, daß es sich bei einer solchen höheren
+Prüfung „nicht sowohl um die Feststellung eines gewissen Quantums mit
+dem Gedächtnis äußerlich angeeigneter Kenntnisse, als um die Ermittlung
+des Grades innerer Durchbildung handeln würde, für welchen Zweck eine
+nicht unter Clausur in wenigen Stunden, sondern in längerer häuslicher
+Muße gefertigte selbständige Ausarbeitung und ein an deren Kritik an-
+geknüpftes, in möglichst freien Formen sich bewegendes Colloquium ge-
+eignete Mittel sein dürften.“ (a. a. D. S. 29 f.)
+später darauf folgendem praktischen Tentamen, wie das
+Recht zur Leitung niederer an Elementarlehrerinnen- und
+Vorsteherinnenexamen.
+Wir wissen nun wohl, solche Hochschulen werden dem
+Staate Geld kosten, aber wir glauben ein Recht zu haben,
+auch einmal eine Ausgabe für uns zu beanspruchen, da die
+Frauen für die Erhaltung des Nationalwohlstandes von
+der größten Bedeutung sind und zum Teil als direkte Steuer-
+zahler dem Staat bedeutende Summen einbringen. Für
+uns ist bis jetzt wenig geschehen, obwohl man für sehr
+viele Dinge Geld hat, die sich nicht entfernt an Wichtig-
+keit mit dem messen können, was wir verlangen. Robert
+von Mohl findet viel „pharisäische Selbstgenügsamkeit“ in
+der Zufriedenheit der deutschen Männer mit dem, was
+für die Frauen geschieht; er gesteht offen ein, daß die
+Deutschen „der allgemeinen und der besonderen Ausbildung
+des Weibes keineswegs ihr volles Recht angedeihen lassen
+und Forderungen in dieser Beziehung als übertrieben und
+unerfüllbar betrachten, welche auch nicht entfernt mit denen
+zu vergleichen sind, welche als ganz selbstverständlich für
+die Männer gelten und längst erfüllt sind“ 1). Zu dieser
+Art von Forderungen scheint uns die unsere zu gehören;
+man hat bis jetzt von ihr als „übertrieben und unerfüllbar“
+nichts wissen wollen. Wir könnten nun, um sie zu stützen,
+auf die wirtschaftliche Seite unseres Gesuchs hinweisen,
+auf den Umstand, daß durch Schaffung eines neuen Ar-
+beitsgebiets für die Frauen ihrer socialen Notlage in etwas
+abgeholfen werden könnte; aber die große Gleichgültig-
+keit, mit der i. g. die Männer in Deutschland auf
+die stets wachsende Notlage der Frauen blicken,
+läßt uns dies Argument als ziemlich wertlos erscheinen 2).
+Der Kostenpunkt.
+1) a. a. D. S. 268, Anm.
+2) Es scheint, als ob viele auf den Einwurf, daß die unverhei-
+rateten Frauen doch auch leben müssen, im Hintergrund immer nur die
+Antwort hätten: je n’en vois pas la nécessité; andere suchen die Frauen-
+Wir weisen also nur hin auf die Folgen, die eine
+längere Fortdauer des gegenwärtigen Zustandes für die
+Männer selbst, für ihre Töchter, ihr ganzes Familien-
+leben und die Zukunft unseres Landes haben muß.
+Diese Erwägungen sollten sie zu einer verhältnismäßig
+doch nur geringen Mehrbelastung des Etats wohl geneigt
+machen.
+Ein Einwurf muß noch erwähnt werden, mit welchem
+der Württemberger Volksschullehrerverein kürzlich wieder
+gegen die Anstellung von Lehrerinnen überhaupt plaidierte,
+und der gleichfalls gegen die Gründung von Hochschulen
+vorgebracht worden ist, daß nämlich die Lehrerinnen der
+Schule, „falls sie in die Ehe treten“, nur in den Jahren
+ihrer Einarbeitung in den Beruf dienen und ihre gereiften
+Erfahrungen derselben verloren gehen. Wir müssen ge-
+stehen, daß wir nicht die Befürchtung hegen, daß allzuviel
+Lehrerinnen ihrem Beruf durch die Ehe entrissen werden;
+wir würden uns aber sehr freuen, wenn es geschehen sollte,
+da die „gereiften Erfahrungen“, die dem Staat auf diese
+Weise verloren gehen würden, der Familie (und somit in-
+direkt doch wieder dem Staat) zu gute kämen. Einen
+Mangel an gereiften Lehrerinnen haben wir noch nie be-
+klagen hören; wäre er vorhanden, so würde man schwerlich
+überall den Ruf nach Feierabendhäusern für alte Leh-
+2)
+Die Möglichkeit einer spä-
+teren Verheiratung der
+Lehrerin erscheint für
+solche Anstalten keines-
+wegs als ein so schwerer
+Nachteil, wie man es ge-
+wöhnlich hinstellt.
+2) frage wegzuspotten, noch andere leugnen einfach ihr Vorhandensein. So
+meint G. Kreyenberg in der schon angeführten Schrift in Bezug auf die
+Frauenfrage: „sofern gegenwärtig überhaupt noch von einer solchen die
+Rede ist!!“ Ja freilich ist noch von einer solchen die Rede, und die
+Verhandlungen, in welchen das Elend der Mantelnäherinnen zur Sprache
+kam, hätten ihn darüber aufklären können, daß sie sich in einer für uns
+alle sehr bedenklichen Weise zuzuspitzen droht: das Elend treibt die
+Frauen der Socialdemokratie in die Arme, mit der sie sonst ihrem inner-
+sten Wesen nach nichts gemein haben. Das aber mögen sich die
+deutschen Männer gesagt sein lassen: gehen Frauen zur Socialdemo-
+kratie über, so sind die Folgen für uns alle hundertmal
+bedenklicher, als wenn die Männer es thun.
+rerinnen hören. Die Möglichkeit, daß eine Lehrerin später
+heiratet, kann in keiner Weise als Grund benutzt werden,
+ihr vorläufig eine gediegene Ausbildung zu versagen; wird
+doch auch der studierende Mann nicht verpflichtet, seine
+reiferen Erfahrungen dem Staat zu widmen; unzählige
+Männer studieren lediglich zu Privatzwecken, andere wid-
+men gar ihre hier erworbenen Kenntnisse fremden Staaten.
+So gut wie dem Mann steht natürlich auch der Frau das
+Recht zu, die in einer etwaigen künftigen Hochschule er-
+worbenen Kenntnisse, für deren Übermittlung sie ja über-
+dies bezahlt, zu verwerten, wie sie will, ob für sich, die
+eigene Familie, die Privatschule oder den Staat; wir
+hoffen sogar, daß sich viele Frauen, die nicht Lehrerinnen
+werden oder bleiben wollen, hier eine gründliche Bildung
+holen. Der Besuch der Universität giebt in Deutschland
+auch dem Mann nur ein Recht, dem Staat in einer be-
+stimmten Weise zu dienen, legt ihm aber keineswegs dazu
+die Verpflichtung auf. Warum rechnet man bei den Aus-
+gaben für die männliche Bevölkerung stets so weitherzig,
+bei denen für Frauen so ängstlich? Unserer Meinung nach
+steht die Sache so: das Bedürfnis nach besser vorgebil-
+deten Lehrerinnen für Oberklassen ist unabweisbar, so un-
+abweisbar, daß man den Frauen, welche studieren wollen,
+eher ganz besondere Vorteile bieten sollte, als ihnen den
+Weg erschweren. Ein gewisser Procentsatz dieser Lehrerinnen
+— man wird ihn nicht allzuhoch anzuschlagen brauchen —
+wird immer wieder durch spätere Verheiratung dem Beruf
+verloren gehen, man muß also dafür sorgen, daß die Vor-
+bereitung in nicht zu geringem Umfange geschieht. Je
+mehr Heiraten dann stattfinden, desto mehr tüchtig durch-
+gebildete Frauen werden den Familien zugeführt; desto
+mehr Platz wird auch wieder für die vielen arbeitsuchenden
+Frauen geschaffen; desto besser werden sich die zu schaffen-
+den Anstalten rentieren; desto mehr Pensionen werden end-
+lich dem Staate erspart.
+Wir müssen zum Schluß noch einen Punkt kurz er-
+Die Gehaltfrage.
+wähnen: die pekuniäre Seite 1) und zwar, weil die ideale
+sehr eng damit zusammenhängt. Man wird den neuen
+Lehrerinnen ein entsprechendes Gehalt geben müssen. Die
+in Preußen herrschende Sitte, das Geschlecht, nicht die
+Leistung im Lehrstand zu honorieren, rechtfertigt man
+durch die größere Bedürfnislosigkeit des weiblichen Ge-
+schlechts (im Königreich Sachsen liegen die Verhält-
+nisse für die Lehrerinnen ungleich günstiger); diese Be-
+dürfnislosigkeit ist bei der Lehrerin unter Umständen,
+wenn es sich beispielsweise um den Ankauf von Büchern,
+das Halten pädagogischer Journale ꝛc. handelt, ein Feh-
+ler, den man ihr oft genug zum Vorwurf macht, der
+aber seinen Grund sehr häufig in zu geringem Einkommen
+hat. In wie unendlich vielen Fällen liegt heutzutage
+ferner auf der Lehrerin die Sorge für ihre Mutter oder
+für unmündige Geschwister; die Zeit, wo Sohn oder
+Bruder unbedingt, oft mit Aufopferung eigener Herzens-
+wünsche, für diese eintrat, scheint vorüber zu sein, und so
+sollte man die Bedürfnislosigkeit des weiblichen Geschlechts
+nicht immer bei der Gehaltsabmessung in den Vordergrund
+schieben; es ist genugsam durch „Entsagung gestählt“, um
+die größere Freiheit des Studiums und der Lebensführung
+1) Die Veranlasserinnen der Petition glaubten diesen Punkt beson-
+ders hervorheben zu sollen 1) weil sie sich alle in einer gesicherten Lebens-
+stellung befinden und kein persönliches Interesse an demselben haben,
+2) weil die Lehrerinnen in falschem Idealismus darauf gar kein Gewicht
+legen. Es ist zwar sehr denkbar, daß dieser Punkt zu Angriffen aus-
+genutzt werden wird, um so mehr als G. Kreyenberg die Mädchenlehrer
+zu den „sonderbaren Käuzen“ rechnet, die ihren materiellen Vorteil hinten-
+ansetzen und sich „durch Entsagung stählen“. Damit kontrastiert seltsam
+ein Satz der Schmidtschen Encyclopädie. Es heißt hier (2. Aufl. Bd. I
+S. 626, Titel: Besoldung) von der Berliner Konferenz von 1873, daß
+ihre Mitglieder über nichts so schnell einstimmig gewesen seien,
+als über die ihnen gebührende Besoldung, und zwar wollten
+sie dieselbe in voller Höhe der Gymnasialbesoldungen normiert wissen.
+Wir verdenken ihnen ihr Verlangen auch durchaus nicht, nur ist es uns
+unmöglich, eine Hintenansetzung materieller Vorteile darin zu sehen.
+ertragen zu können, die ein reichlicheres Einkommen gewährt;
+eben diese größere Freiheit wird nicht wenig Einfluß auf
+die Erweiterung seines Gesichtskreises haben.
+Wir sind am Schluß unserer Darlegung und haben
+nur den lebhaften Wunsch, daß das derselben zu Grunde
+liegende Princip einer vorurteilsfreien Prüfung unter-
+zogen werde. Es ist nicht zu erwarten, daß es so schnell
+einen Umsturz alles Bestehenden herbeizuführen und den
+Besitzstand der gegenwärtig wirkenden Lehrer um ein
+Wesentliches schmälern wird; es handelt sich nur um An-
+bahnung einer Reform für die Zukunft. Es wird lange
+Zeit vergehen, ehe, selbst wenn unsere Forderungen be-
+willigt werden, auch nur eine oder zwei Lehrerinnen für Ober-
+klassen an allen Mädchenschulen Preußens unterrichten werden.
+Die Vorbedingungen, die wir zur Aufnahme in die Hoch-
+schulen für Lehrerinnen stellen müssen, werden, wie die
+Dinge jetzt liegen, nur von einer im Verhältnis zu dem
+großen Bedürfnis geringen Anzahl von Frauen erfüllt
+werden können 1), von denen eben auch nicht alle den Lehr-
+geist von Gottes Gnaden haben werden, der zum Studium
+hinzukommen muß; es werden ferner bei ihrer Vorbildung
+noch mancherlei Fehler gemacht werden; kurz, es wird,
+daran zweifeln wir nicht im geringsten, auch mit verfehlten
+Versuchen gerechnet werden müssen nach so langer Ver-
+nachlässigung. Das darf niemand irre machen, der das
+Princip als richtig erkannt hat. Unserer festen Über-
+zeugung nach kann eine Änderung in den unhaltbaren
+Zuständen der Mädchenschulen nur durch einen System-
+wechsel in der angedeuteten Richtung erfolgen, und so
+muß denn trotz aller entgegenstehenden Schwierigkeiten
+Bitte um vorurteilslose
+Prüfung des zu Grunde
+liegenden Princips.
+1) Man hört wohl, es möge mit der Organisation solcher Anstalten
+gewartet werden, bis sich eine genügende Anzahl von Besucherinnen melde.
+Das ist ein sehr falscher Grundsatz. Auch Girton College wurde 1869
+mit nur 5 Studentinnen eröffnet; 1885 zählte es deren schon 60 und
+heute finden 5 colleges ausreichend Besucherinnen. Man sieht, das Be-
+dürfnis wächst mit der Gelegenheit es zu befriedigen.
+doch wenigstens einmal ein Anfang gemacht werden,
+wenn auch Jahrzehnte vergehen können und müssen, ehe
+sich bei der großen Anzahl der höheren Mädchenschulen in
+Preußen ein Einfluß der auszubildenden Lehrerinnen geltend
+gemacht wird.
+Um solche vorurteilslose Prüfung bitten wir nun die
+hohe Preußische Staatsregierung und die Vertreter des
+preußischen Volks. Es ist das Wesen aller Reformen,
+daß sie zunächst verletzen. Die Ausstellungen, die wir
+machen mußten, können zwar niemand persönlich ver-
+letzen, auch die Lehrer nicht, da sie nur in der Natur der
+Sache liegen, und kein guter Wille, kein Studium ihrer-
+seits hier etwas ändern könnte. Aber solche Reformen
+verletzen schon, weil sie gegen das Althergebrachte ver-
+stoßen, gegen das, „was grau vor Alters ist“. Und hier
+haben wir es zu thun mit langer Gewohnheit. Aber
+man hat schon mit ihr gebrochen in Amerika, England,
+Frankreich, Holland, in fast allen Kulturstaaten; bei uns
+allein bleiben die unerträglichen Zustände in der Mädchen-
+erziehung bestehen. Man höre nicht unsere Stimme allein,
+man höre die von Luise Büchner, der das preußische
+Kultusministerium selbst ein Wort in unseren Angelegen-
+heiten verstattet hat. Sie sagt: „Eine jede, echt weiblich
+fühlende Frau wird, wenn sie die Erfahrungen ihres Le-
+bens überblickt, uns darin beistimmen, daß vorzugsweise
+für das angehende Jungfrauenalter weibliche Lehrkräfte
+und weiblicher Einfluß zu verwenden sind. Alle aus-
+wärtigen Nationen entsetzen sich über unser weib-
+liches Erziehungssystem, und es wäre endlich Zeit,
+auch in Deutschland mit der mittelalterlichen Gewohnheit
+zu brechen, die Frauen von einem Gebiet fern zu halten,
+das fast ausschließlich ihnen gehört!“ 1).
+Wir haben diesen Worten nichts mehr hinzuzufügen.
+1) L. Büchner, Die Frau, Halle 1878. S. 292.
+Druck von G. Bernstein in Berlin.
+</text>
+  </TextCorpus>
+</D-Spin>

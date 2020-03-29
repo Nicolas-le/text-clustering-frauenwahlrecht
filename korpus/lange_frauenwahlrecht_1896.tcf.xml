@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/lange_frauenwahlrecht_1896</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-lange_frauenwahlrecht_1896.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/lange_frauenwahlrecht_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_frauenwahlrecht_1896.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/lange_frauenwahlrecht_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_frauenwahlrecht_1896.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/lange_frauenwahlrecht_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_frauenwahlrecht_1896.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/lange_frauenwahlrecht_1896</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_frauenwahlrecht_1896.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Frauenwahlrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+    <cmdp:persName><cmdp:surname>Schulz</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+    <cmdp:persName><cmdp:surname>Gloning</cmdp:surname>
+<cmdp:forename>Thomas</cmdp:forename></cmdp:persName>
+    <cmdp:resp>
+        <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription nach XML/TEI gemäß DTA-Basisformat.</cmdp:note>
+        <cmdp:date type="importDTA">2011-11-20T12:00:00Z</cmdp:date>
+    </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+    <cmdp:orgName><cmdp:orgName>Google</cmdp:orgName></cmdp:orgName>
+    <cmdp:resp>
+        <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</cmdp:note>
+        <cmdp:ref target="http://www.google.com/books?id=CfUVAAAAIAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0"/>
+        <cmdp:date type="importDTA">2011-11-20T12:00:00Z</cmdp:date>
+    </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+    <cmdp:orgName><cmdp:orgName>Bibliothèque nationale de France</cmdp:orgName></cmdp:orgName>
+    <cmdp:resp>
+        <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</cmdp:note>
+        <cmdp:ref target="http://catalogue.bnf.fr/ark:/12148/cb327493131"/>
+        <cmdp:date type="importDTA">2011-11-20T12:00:00Z</cmdp:date>
+    </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">17</cmdp:measure>
+        <cmdp:measure type="tokens">4946</cmdp:measure>
+        <cmdp:measure type="types">1911</cmdp:measure>
+        <cmdp:measure type="characters">34534</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:38Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/lange_frauenwahlrecht_1896</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/lange_frauenwahlrecht_1896</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/lange_frauenwahlrecht_1896</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/lange_frauenwahlrecht_1896</cmdp:idno>
+          <cmdp:idno type="DTADirName">lange_frauenwahlrecht_1896</cmdp:idno>
+          <cmdp:idno type="DTAID">30004</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-30004-9</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="JA">Lange, Helene: Frauenwahlrecht. In: Cosmopolis – an international monthly review, hrsg. v. F. Ortmans, Heft III. London u. a., 1896, S. 539–554.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="a" type="main">Frauenwahlrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>London</cmdp:pubPlace>
+            <cmdp:date type="publication">1896</cmdp:date><cmdp:publisher><cmdp:name>T. Fisher Unwin</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+          </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <ul>
+<li>Kustoden und Bogensignaturen wurden nicht transkribiert.</li>
+<li>Silbentrennungen wurden aufgelöst.</li>
+</ul>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+          <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#collections">women</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Cosmopolis
+AN INTERNATIONAL MONTHLY REVIEW
+Edited by
+F. ORTMANS
+Volume III.
+JULY — AUGUST — SEPTEMBER
+1896
+London:
+T. FISHER UNWIN
+New York:
+INTERNATIONAL NEWS COMPANY
+1896
+Frauenwahlrecht
+Zu den Illusionen aus der Zeit der schönen „blonden
+Jugendeselei“ der Völker wie der Individuen gehört die
+Auffassung, dass die „Vertretungen des Volkes,“ die Parlamente,
+aus den weisesten, edelsten, klügsten Männern zusammengesetzt
+seien, die in gemeinsamer Erwägung die höchsten
+Ideale des Gemeinschaftslebens ihrer Verwirklichung entgegenführen
+wollen; eine Auffassung, die vielleicht an einzelnen
+hochragenden Gestalten einer früheren Epoche gewonnen war.
+Aelter und kälter geworden, in einem Lebensabschnitt, in dem
+man seine Anschauungen nicht mehr durch Generalisirung,
+durch Uebertragung der eigenen Ideale auf die Aussenwelt,
+gewinnt, sondern durch vorsichtige Beobachtung konkreter
+Vorgänge und Persönlichkeiten, sieht man, dass die weisen
+Männer hier nicht dichter gesät sind als anderswo. Vielleicht
+noch weniger dicht, denn der weise Mann liebt es nicht, sich
+mit Majoritäten, d. h. Durchschnittsintelligenzen, herumzuschlagen.
+Und sieht man sich die Endziele an, so lehrt eine
+nüchterne Beobachtung, dass ein jeder die Interessen seines
+Standes, seiner Bildungssphäre, seiner Scholle vertritt und dass
+die Macht der latenten Anschauungsmassen, an deren kompaktem
+Bau das ganze milieu von Jugend auf gearbeitet hat, eine so
+unwiderstehliche ist, dass ein gewiegter Parlamentarier mit
+absoluter Sicherheit vorauszusagen vermag, wie sich dieser
+oder jener, wie sich ganze Parteien einer Einzelfrage gegenüber
+verhalten werden; es sei denn, dass — nach dem hochethischen
+Brauch unserer Parlamente — ein Stimmkompromiss die
+Berechnung verschiebt.
+Diese Erkenntnis braucht einem nicht den Glauben an das
+redliche Wollen des Einzelnen wie der Parteien zu rauben.
+Man erfährt nur die uralte Wahrheit, dass kein Mensch über
+seinen eigenen Schatten springen kann und dass jedem in
+erster Linie als gut und heilsam erscheint, auch für die Gesamtheit,
+was seiner Weltanschauung, seinen Interessen, die ihm
+nun einmal das Weltcentrum sind, Förderung verspricht.
+Diese Interessen vertritt nur er, bez. seine Partei; niemand
+sonst würde sie mit gleicher Energie zur Geltung bringen. Die
+Interessen der Anderen kann er seiner menschlichen Naturanlage
+nach garnicht mit der gleichen Energie wie die eigenen
+vertreten. „Ich suche vergebens ein Beispiel dafür, dass eine
+Klasse ihre Herrschaft wirklich und ehrlich im Interesse einer
+anderen Klasse oder in dem gleichmässigen Interesse aller
+Klassen ausgeübt hätte.“ — (Secrétan.)
+Mit dieser Wahrheit hat man sich in der Tat zu rechnen
+entschlossen, als man das allgemeine Stimmrecht einführte.
+Man erkannte damit formell an: jeder Stand kann nur allein
+seine eigenen Interessen vertreten; sollen daher bei der
+Volksvertretung die Interessen Aller zur Geltung kommen, so
+müssen auch alle Stände und Berufsklassen zur Vertretung
+gelangen können. Das ganze Parlament wird dann mit
+derselben Sicherheit wie beim Parallelogramm der Kräfte in
+seinen Beschlüssen die Auffassung der stärksten, d. h. durch
+die zahlreichsten Vertreter zur Geltung gekommenen Parteien,
+d. h, den Willen des Volkes darstellen. Dabei ist vieles fiktiv,
+da die Wahlen unter dem Hochdruck der Regirung, der Kirche
+oder andrer Machthaber stehen; das Schema aber ist richtig
+gedacht.
+Bis auf eine Kleinigkeit. Obwol niemand an den oben
+ausgeführten Wahrheiten ernstlich zweifelt, ist eine Fiktion
+doch immer aufrecht erhalten worden, die nämlich, dass die
+Männer zugleich die Interessen der Frauen wahren. Musste
+man auch zugeben, dass die Gesetzgebung in ihren Resultaten
+die Ansicht der stärksten parlamentarischen Parteien repräsentirte,
+so verschloss man sich der höchst einfachen Wahrheit,
+dass alle Gesetzgebungen in ihren Gesamtresultaten die
+Auffassung der Männer repräsentirten und nach dem oben
+erörterten Grundsatz nie die wirklichen Interessen der Frauen
+berücksichtigen, sondern nur auf Nutzen und Frommen der
+Männer berechnet sein konnten.
+Zu dieser Auffassung kann sich der Durchschnittsphilister,
+dessen kleinster Fehler konsequentes Denken ist, eben nicht
+aufschwingen. Otto Henne am Rhyn trifft ungefähr dessen
+Meinung in seinem Buche „die Frau in der Kulturgeschichte,"
+mit der hübschen Phrase, der Schutz der Frau müsse zu einer
+allgemeinen Pflicht des Mannes gemacht werden. Er äussert
+sich nicht darüber, ob er sich die Durchführung dieser Pflicht
+etwa auf Polizeiwege geregelt denkt. Er merkt auch nicht,
+welch' hübsche Illustration zu dieser freundlich-naiven Anschauung
+die Stelle seines Werkes bildet: „Zu allen Zeiten
+sind Frauen in Menge systematisch den Lüsten der Männer
+dienstbar gemacht worden.“ Was zu allen Zeiten geschehen
+ist, wird vermutlich bei gleicher Machtstellung auch fernerhin
+geschehen. Ein anderes Verhalten wird eben nicht als zu den
+Pflichten der Männer gehörig empfunden, die sich im
+Gegenteil die Theorie einer Pflicht gegen sich selbst konstruirt
+haben, um solche skandalösen Zustände bestehen lassen zu
+dürfen. Und Pflichten gegen sich selbst gehen ihnen
+natürlich vor. Da hilft nur die Frau der Frau. Die einzige
+Josefine Butler wiegt in dieser Beziehung schwerer als alle
+geistig hochstehenden Männer zusammengenommen — es sei
+denn, dass diesen etwa die Ueberzeugung komme, dass solche
+Zustände auch für die Männer zu schweren Bedenken Anlass
+geben.
+Dieses Beispiel möge genügen. Dem konsequenten Denker
+leuchtet auch ohne Beispiel ein, dass, so wenig ein Stand für
+den andern, so wenig auch ein Geschlecht für das andere
+eintreten kann, ja, dass ein solches Vikariren zwischen den
+Geschlechtern noch viel unmöglicher ist, als zwischen
+verschiedenen Ständen und selbst Rassen. Thomas Higginson
+schreibt in seinem höchst lesenswerten „Common Sense
+about Women“ (London, Swan Sonnenschein &amp; Co., S. 230):
+„Were there no such thing as sexual difference, the wrong done
+to woman by disfranchisement would be far less. It is
+precisely because her traits, habits, needs, and probable demands
+are distinct from those of man, that she is not, never was,
+never can, and never will be, justly represented by him.... The
+more you emphasize the fact of sex, the more you strengthen
+our argument. If the white man cannot justly represent the
+negro, ... how impossible that one sex should stand in
+legislation for the other sex !“ und: „All theories of chivalry
+and generosity and vicarious representation fall before the fact
+that women have been grossly wronged by men.“
+Es wird uns danach nicht Wunder nehmen, wenn wir finden,
+dass überall, wo Männer im grossen für die Fraueninteressen
+eingetreten sind, ihr eigener Vorteil im Hintergrund stand.
+Nie ist der Mann sich dabei zu nahe getreten. Wenn er für
+verkürzte Fabrikarbeit der Ehefrauen eintrat, so war es im
+Interesse des Mannes und der Familie; wenn deutsche
+Pädagogen für eine Besserung der Mädchenerziehung plaidirten,
+so geschah es, wie sie naiv genug drucken liessen, „damit sich
+der deutsche Mann an seinem Herde nicht langweile,“ Beispiele,
+die sich leicht ins Hundertfache vermehren liessen. Vergeblich
+appellirt die Frau an den Mann, wenn es nur sie gilt, nur ihr
+Interesse, ihre Ehre. Ihr Schutzalter setzt er im Interesse der
+Befriedigung seiner Lust so niedrig an, dass halbe Kinder, die
+nicht über einen Pfennig Vermögen disponiren dürfen, ihre
+Person der Schande preisgeben können. Wem über diese
+Tatsachen noch irgendwelche Illusionen geblieben waren, dem
+konnten sie in Deutschland gründlich zerstört werden bei
+Gelegenheit der Verhandlungen über den Entwurf eines
+bürgerlichen Gesetzbuches. Die aufeinander folgenden
+Debatten über Hasen und Familienrecht werden unvergesslich
+bleiben. Die wenigen Junker und Jagdbesitzer in Deutschland,
+denen die Regresspflicht für Hasenschaden unbequem sein
+konnte, haben sich in Durchführung ihrer rein materiellen
+Interessen mächtiger gezeigt als die grössere, aber unvertretene
+Hälfte der deutschen Nation für ihre idealen. Der deutschen
+Frau ist durch Mehrheitsbeschluss die Anerkennung als
+Rechtspersönlichkeit ausdrücklich abgesprochen worden.
+Kleine Zugeständnisse, die den Mann nicht genirten, wurden
+gemacht; keines, das ihn selbst auch nur im geringsten
+beeinträchtigt, seine rechtlich gewährleisteten, moralisch zum
+Teil höchst verwerflichen Vorrechte beschränkt hätte.
+Man kann den Männern daraus kaum einen Vorwurf machen.
+Auch Parlamentarier brauchen nicht anders zu handeln als
+menschlich. Indem man von ihnen verlangte, dass sie für die
+Frauen eintreten, sich in ihre Stelle versetzen sollten, verlangte
+man etwas, was gegen die Natur ist. Der einzelne, ethisch
+hochstehende Mann kann, von der Idee der Gerechtigkeit
+ergriffen, für die Frau eintreten wollen — in sie hineindenken
+kann auch er sich nicht. Nur die Frau versteht alle Bedürfnisse
+und Interessen ihres Geschlechtes ganz, und wenn auch
+der Mann für die einzelne, geliebte Frau eintreten kann und
+wird, so kann nur die Frau die Frau als Geschlecht schützen.
+Und die einzige Form, in der das wirksam und auf die Dauer
+geschehen kann, ist das Frauenstimmrecht (aus dem sich
+konsequenter Weise auch das passive Wahlrecht ergibt), der
+Einfluss auf die Gesetzgebung. „When the wrongs of an
+oppressed class or sex are to be righted, the ballot is the only
+guarantee“ (Higginson, a. a. O.) und: „Uebrigens ist es
+sicher, dass nur die garantirten Rechte effective Rechte sind,
+dass die politischen Rechte die einzige Garantie der bürgerlichen
+darstellen, dass die Freiheit eines Geschlechts, dem
+seine Stellung fix und fertig von dem andern Geschlecht angewiesen
+wird, nur eine scheinbare, sein Besitz nur ein Peculium,
+sein wirkliches Geschick die Hörigkeit, und seine Rechtspersönlichkeit
+ein Vernunftbegriff ohne wirkliches Dasein ist.“
+(Secrétan, „das Recht der Frau.“ Lausanne und Leipzig, B.
+Benda. S. 18.)
+Erst durch das Frauenstimmrecht wird das allgemeine
+Stimmrecht zu etwas mehr als einer blossen Redensart. Den
+alten Sybel hat wol niemand im Verdacht, modernen Frauenbestrebungen
+hold zu sein; aber er konnte sich dem konsequenten
+Gedanken nicht verschliessen: „Wer das Suffrage
+universel auf sein Programm schreibt, hat keinen vernünftigen
+Grund, die Frauen auszuschliessen.“
+Wenn man sich der formalen Logik dieser Forderung nicht
+mehr verschliessen kann, pflegt man mit dem Heer von Binsengründen
+anzurücken, die, tausendmal widerlegt, immer wieder
+aus dem Antiquitätenkasten hervorgekramt werden. In erster
+Linie kommt dann, häufig von nicht waffenfähigen Skribenten,
+der Einwurf, dass Kriegsdienst und Stimmrecht einander
+bedingen; als ob nicht, wie schon hundertmal gezeigt worden
+ist, die Frau dadurch, dass sie die Krieger zur Welt bringt, den
+Kriegsdienst, den von tausend Männern kaum einer wirklich
+leisten muss, mehr als kompensirte. Dass weit mehr Frauen
+in Erfüllung ihrer Mutterpflicht sterben als Männer auf dem
+Schlachtfelde, dürfte hinlänglich bekannt sein.
+Auch dass die Frauen das Wahlrecht nicht wollen, ist ein
+geläufiger Einwurf. Was hat das mit der Sache zu tun?
+Nimmt man es etwa den Männern, die durch dauernde Nichtausübung
+ihres Wahlrechts zeigen, dass sie es auch nicht
+wollen? Uebrigens hat man da interessante Erfahrungen
+gemacht. Im Nineteenth Century wurde vor einiger Zeit
+von einer Anzahl vornehmer Damen ein Protest gegen das
+Frauenstimmrecht erlassen, der in der Fortnightly Review
+seine Antwort durch einen von 2000 Frauen unterzeichneten
+Aufruf dafür fand. Die Antistimmrechtlerinnen waren
+meistens — Nichtstuerinnen, die 2000 meistens in einem Berufe
+tätig. Das möchte schwer in die Waagschale fallen.
+Im Uebrigen ist die Freiheit etwas, wozu der Mensch erst
+erzogen werden muss, aber auch erzogen werden sollte. Auch
+Sklaven haben vielfach nicht befreit werden wollen. Und dem
+mannhaften Gefangenen von Chillon erschien schliesslich sein
+Gefängnis schöner als die Freiheit. Rechte gibt man nicht,
+weil sie gewünscht werden, sondern weil sie nötig sind. Ob
+dann Gebrauch davon gemacht wird, ist Sache jedes Einzelnen.
+Und wer da fragen möchte, wie im Einzelfalle das Recht
+gebraucht wird, dem diene Gladstones Ausspruch als Antwort:
+„It would be a sin against first principles in enfranchising any
+class, to enquire in what sense they would vote.“
+Der Einwurf, Frauen verständen nichts von „Politik,“ ist
+in solcher Allgemeinheit gar kein Einwurf. Was heisst
+Politik? Neuerdings hat man in Deutschland, um Frauenvereine
+unter diesem Vorwande schliessen zu können, alle
+„öffentlichen Angelegenheiten“ darunter verstanden. Von
+diesen wird eine Anzahl von Männern besser verstanden
+werden, eine andere von Frauen. Das hängt einfach von dem
+Grad des Interesses ab. Da naturgemäss die kulturellen
+Fragen, für welche Frauen hervorragendes Interesse haben, die
+Erziehungs- und Unterrichtsfragen z. B., in dem nur von
+Männern geleiteten Gemeinwesen hinter militärische, handelstechnische,
+industrielle, rechtliche Fragen zurücktreten (schwerlich
+zu Nutzen des Gemeinwols), so hat die Behauptung,
+Frauen verständen nichts von „Politik,“ den Schein für sich.
+Die Währungsfrage — von der übrigens viele Abgeordnete und
+Millionen von Wählern auch nichts verstehen — wird den
+Frauen allerdings vermutlich eben so dunkel sein, wie den
+Männern die Frage der Frauenbildung; schwerlich werden
+sie aber ihre Unwissenheit durch so stürmische Heiterkeit
+dokumentiren wie deutsche Parlamentarier bei jedem uralten
+Witz über die Bildung ihrer eigenen Töchter. Und wenn die
+Frauen kein Verständnis für die Notwendigkeit der Bewilligung
+neuer Federbüsche haben, so werden sie sich um so lebhafter
+für den allgemeinen Weltfrieden interessiren, der den Völkern
+jetzt ebenso utopisch erscheint, wie dem Raubritter des zwölften
+Jahrhunderts der ewige Landfriede.
+Wer sich im Uebrigen mit den zum Teil höchst ergötzlichen
+Gründen gegen das Frauenstimmrecht, die sich häufig einander
+aufheben, vertraut machen will, der studire die Verhandlungen
+des englischen Parlaments über diesen Gegenstand. In hohem
+Grade beliebt ist die Phrase von der Engelhaftigkeit und
+Reinheit der Frau, die sie vom Schmutz der Politik — im Schmutz
+der Strasse sucht man sie auf — fern halten müsse. Und den
+höchsten Gipfel des Phrasenschwulstes erklimmt ein Redner,
+der da fürchtet, die Frau möge durch das Stimmrecht die
+Furcht und das Erröten verlieren, die doch die Gürtel der
+Unschuld seien!
+Wir haben diese sämtlichen „Gründe“ nur gestreift; Einfluss
+haben sie auf den Gang dieser Untersuchung nicht, die sich
+auf eines der „first principles“ stützt, auf den Grundsatz: das
+Stimmrecht wird als Schild den Schwachen gegeben; sie
+brauchen es, um ihre Rechte zu vertreten und sich vor
+Vergewaltigung zu schützen.
+Nur ein Einwurf wäre stark genug, um eine Abweichung
+von diesem Grundsatz zu rechtfertigen: die Gefährdung des
+öffentlichen Wols. Aus der Gewährung des Frauenstimmrechts
+soll nach einer häufig vertretenen Auffassung eine solche
+hervorgehen.
+Verständigen wir uns zunächst über das Wort. Wie
+Menschenrechte bisher nur Männerrechte bedeutete, so auch
+öffentliches Wol nur Männerwol. Und wenn wir die
+Prophezeiungen näher untersuchen, die im Zusammenhang
+mit der Erörterung dieser Fragen gemacht werden, so laufen
+sie jedesmal darauf hinaus, dass der einseitige Charakter, den
+jetzt ungehindert der Mann dem öffentlichen Leben aufdrückt
+und der nur seine Eigenart darstellt, eine Aenderung erfährt.
+Nun, eben das erscheint uns nötig. Denn was wirklich
+öffentliches Wol, d.h. das Wol der Männer und Frauen, das
+Wol der Familien, bedeutet, das kann nur in gemeinsamer
+Verständigung beider Geschlechter gefunden werden. Das ist
+die Wahrheit, die am schwersten eingehen wird. Eine frauenfeindliche
+Berliner Zeitung — leider ein sehr umfassender Gattungsbegriff
+— veröffentlichte vor Kurzem ein Gutachten des
+Rechtslehrers Otto Gierke über „die akademische Frau.“ Er
+prophezeit der Gesamtheit das Verderben, wenn man der
+„radikalen Frauenrechtsbewegung“ Boden verstatte, und
+predigt das principiis obsta. „Wer dem geschichtlich
+bewährten Ideal des männlichen Staates die Treue hält, würde
+thöricht sein, wenn er ein Zugeständnis machte.“
+Dem geschichtlich bewährten Ideal des männlichen Staates!
+Difficile est satiram non scribere! Da stehen am Schluss des
+Jahrhunderts die Völker bis an die Zähne bewaffnet einander
+gegenüber. Der Alkoholismus steigt rapide und füllt die
+Zuchthäuser, aber die Branntweinbrennereien erhalten in
+Deutschland Liebesgaben. Die Zahl der jugendlichen Verbrecher
+wächst von Jahr zu Jahr, aber aufsichtslos überlässt
+man die proletarische Jugend dem Einfluss der Strasse;
+Uebersättigung, Blasirtheit, fin-de-siècle-Stimmung, wie sie
+nur je vor einem grossen Zusammenbruch herrschte, hat
+Völker und Individuen ergriffen. Schopenhauer ist übertrumpft
+von Stirner und Nietzsche; in der Kunst überbietet
+ein Raffinement, eine Effekthascherei die andere; aus der
+Litteratur der Modernen steigt ein Verwesungsgeruch empor,
+der die Nerven benimmt. Denn der Männerstaat hat dafür
+gesorgt, dass der Jüngling seine Studien über die Frau an der
+Dirne macht und den ganzen Ekel mit ins Leben nimmt, der
+damit zusammenhängt. Die monogamische Ehe ist zur Fiktion
+geworden. Und was die Parlamente anbetrifft, so möchte
+folgende Schilderung eines Amerikaners nicht unzutreffend
+sein: „Der leidige Individualismus führt das Scepter, und der
+krasse Egoismus nimmt die Stelle ein, welche der intelligenteste
+Altruismus haben sollte. Daher kommt es denn, dass
+auch die Politik in keinem Kulturstaat mehr in den Händen
+der Gebildetsten ist, wie es fast vor 50 Jahren zu werden schien,
+sondern in der Gewalt der Geldleute, Fabrikanten, der Streber
+und Macher, von kirchlichem Einfluss garnicht zu reden.
+Sehen Sie sich die Zusammensetzung der Repräsentanten-
+häuser aller sogenannten Kulturstaaten an und würdigen Sie
+mit mir die Tatsache, dass der geistige und sittliche Stand-
+punkt der modernen Parlamente der Durchschnittsbildung
+des Volkes nicht mehr entspricht. Vielleicht wäre es ganz gut,
+durch massenhafte Ausbildung der Weiber, einerlei in was, das
+Durchschnittsniveau der Volksbildung zu erhöhen, um unser
+aller Zukunft erspriesslicher zu machen.“ (Deutsche medicinische
+Wochenschrift, No. 25, 18. Juni.)
+Es ist der Gedanke Camille Sées: „Von den Frauen hängt
+die Grösse und der Verfall der Nationen ab,“ und in der Tat ist
+hier das erlösende Wort gesprochen. Denn der rein männliche
+Staat in seiner starren Einseitigkeit hat sich eben nicht bewährt.
+In dieser Ueberzeugung kann uns Frauen keine „Belehrung“
+erschüttern, und sei sie noch so sehr von oben herab, im
+deutschen Professorenton gehalten. Wir stehen an einem
+geschichtlichen Abschnitt. Dem Gemeinschaftsleben strömen
+neue, bisher anderweitig nötige, durch den gewaltigen
+Umschwung innerhalb unseres Jahrhunderts aber frei gewordene
+Kräfte zu: Die Frau will ihren Anteil an der Kulturarbeit
+leisten. Und der Weg muss ihr geebnet werden eben um des
+Wols der Gesamtheit willen.
+Nicht als ob die Frauen den Himmel auf Erden schaffen
+werden. Sie sind, als Gesamtheit genommen, nicht vollkommener
+als die Männer. Sie sind nur anders; sie ergänzen
+den Mann. Sie haben den Instinkt der Mutterschaft und die
+unmittelbarere Fühlung mit der Natur, und das ist es, was die
+Welt im Augenblick braucht. Und der Unterschied zwischen
+einem Gemeinschaftsleben auf das nur Männer einwirken und
+einem solchen, in dem Männer und Frauen — vielleicht in einer
+später zu vereinbarenden Art von Arbeitsteilung — zusammenwirken,
+ist derselbe, wie der zwischen einem Hause, in dem
+nur ein redlich wollender Vater, und einem, in dem neben ihm
+eine redlich wollende Mutter waltet. Denn das Wort, das
+einst Lady Henry Somerset als Motto über ihr Frauenstimmrechtsblatt
+setzte, ist wahr: „The women's movement is
+organised mother love.“ Diese Mutterliebe, deren die verarmte
+Welt so dringend bedarf, kann nur die Frau ihr geben, — es ist
+müssig, im einzelnen ausführen zu wollen, in welcher Weise —
+Gefängnisse und Waisenhäuser, Schulen und Hospitäler harren
+ihrer, und der Unrat, der unser Leben befleckt und den
+Menschen an der Wende des 20. Jahrhunderts oft unter das Tier
+stellt, wird nur ihrer Hand weichen. Denn unzweifelhaft finden
+die rein sinnlichen Instinkte in ihr die natürliche Gegnerin.
+Diese Ueberzeugungen stützen sich nicht nur auf psychologische
+Gründe, sondern auf die grossartige freie Vereinstätigkeit,
+die Frauen aller Orten heute entwickeln, und auf die
+Erfahrungen, die man in den wenigen Staaten mit Frauenstimmrecht
+gemacht hat. In den amerikanischen und australischen
+Staaten, in denen es eingeführt ist, haben sich gerade
+in sittlicher Beziehung die günstigsten Erfolge gezeigt. Der
+Staat Wyoming blickt auf eine 25-jährige Erfahrung mit dem
+Frauenstimmrecht zurück, und sein Parlament konnte bei
+Gelegenheit des Jubiläums der Gleichberechtigung eine
+Resolution erlassen, in der es auf den Segen dieser Maassregel
+hinwiess: friedliche und ordentliche Wahlen, eine gute Regirung,
+ein bemerkenswerter Grad von Civilisation und öffentlicher
+Ordnung wird darauf zurückgeführt: „Wir weisen mit Stolz
+auf die Tatsache hin, dass nach nahezu 25 Jahren, dass die
+Frauen das Stimmrecht besitzen, kein Distrikt in Wyoming
+ein Armenhaus besitzt, dass unsere Gefängnisse so gut wie leer
+und Verbrechen so gut wie unbekannt sind.“ Und bei der
+ersten Wahl in Neu-Seeland, an der Frauen sich beteiligten, war
+es in hohem Grade bemerkenswert, dass sie in erster Linie die
+sittliche Qualifikation der Kandidaten in Betracht zogen.
+Wir sind nun zwar gewohnt, auf diese Länder mit junger
+Kultur herabzublicken mit dem ganzen Stolz eines Nachkommen
+von 16 Ahnen; vermutlich würden sie diese Ahnen
+garnicht wollen, wenn sie, wie wir, auch ihre 16 Zöpfe mit in
+den Kauf nehmen müssten. Es ist doch eine bemerkenswerte
+Geistesfreiheit, aus der der erste Artikel der Konstitution von
+Wyoming hervorgeht, dessen 3. Absatz lautet: „Da Gleichheit
+im Genusse natürlicher und sozialer Rechte durch politische
+Gleichheit bedingt wird, so gewähren die Gesetze dieses Staates
+allen Bürgern, ohne Unterschied der Rasse und Farbe und des
+Geschlechtes gleiche politische Rechte.“
+Welche Chancen sind nun für die Durchführung des
+Frauenstimmrechtes gegeben? Es wäre nach den vorangegangenen
+Ausführungen offenbar abgeschmackt, auf einen
+plötzlichen Gerechtigkeitstaumel unserer Parlamente rechnen
+zu wollen, in denen man nach einem geflügelten Wort der
+Neuzeit nur abstimmt, nicht überzeugt wird. Wenn wir aus
+unsern Vordersätzen die richtige conclusio zu ziehen verstehen,
+so werden wir einzig und allein mit der Interessenpolitik
+rechnen dürfen. Die Männer werden den Frauen nicht eher
+das Stimmrecht gewähren, als bis ihr eigenes Interesse es
+gebietet.
+Das eigene Interesse der Parlamente und Regirungen gebietet
+es aber dann, wenn der Hochdruck der öffentlichen Meinung
+darauf wirkt. Diese wieder wird durch die Macht „zeitgemässer“
+Ideen bestimmt; zeitgemäss ist aber wiederum nur,
+was die Interessensphäre der entscheidenden Kreise berührt.
+Wenn daher die Erkenntnis — nicht von der abstrakten
+Gerechtigkeit ihrer Sache, sondern von der Bedeutung der
+Frau für das Gemeinwol in den Kreisen der Männer genügend
+Wurzel gefasst hat, dann, aber auch erst dann, wird der Augenblick
+gekommen sein, in dem die gesetzgebenden Faktoren, von
+der öffentlichen Meinung gedrängt, für das Frauenstimmrecht
+eintreten werden. Damit ist zugleich gesagt, dass dieser Zeitpunkt
+in den verschiedenen Ländern ein sehr verschiedener
+sein wird.
+Daraus erklärt sich auch, dass die Länder mit junger Kultur,
+in denen der civilisatorische Wert der Frauen den vielen
+Auswüchsen spezifisch männlicher Roheit gegenüber doppelt
+hervortrat, in dieser Sache vorangegangen sind; dass unter den
+europäischen Ländern England, wo die Frauen im Gemeinde-
+dienst längst ihre kulturelle Bedeutung erwiesen haben, der
+Verwirklichung dieser grossen Idee am nächsten steht — man
+darf wol sagen, dass Gladstone allein, auf dessen Autorität die
+kleine Majorität von 23 Stimmen zurückzuführen ist, die 1892
+die Annahme des Frauenstimmrechts hinderte, die Ursache der
+Verzögerung ist, trotz seiner „first principles,“ — dass endlich
+Deutschland mit seiner lastenden Büreaukratie, seinem Schematismus
+und Militarismus in dieser Frage am allerweitesten
+zurück ist.
+Es würde zu weit führen, die historischen Gründe für diese
+Erscheinung hier zu untersuchen. Die mehrmalige völlige
+oder teilweise Zerstörung der deutschen Kultur durch grosse
+Kriege, in denen nur der Mann galt, möchte für die geringe
+Schätzung der Fähigkeiten der Frau — abgesehen von der
+traditionellen Hochhaltung der „Hausfrau,“ worunter man
+vielfach nur die gute Köchin versteht — garnicht hoch genug
+angeschlagen werden können. Ueberdies ist in Deutschland
+der geistige Abstand der Geschlechter — durch den guten
+Unterricht der Knaben und Jünglinge, den völlig ungenügenden
+der Mädchen — grösser als anderswo. Als Motto wenigstens
+für das Empfinden der älteren Generation dürfte das Wort
+gelten: „Darfst mich niedre Magd nicht kennen, hoher
+Stern der Herrlichkeit.“ Mit der älteren Generation ist daher
+auch nicht zu rechnen; sie muss in dieser Frage zu den Toten
+geworfen werden. Ihre Männer sind noch mit zu viel
+Paschagefühl aufgewachsen, die Frauen in zu spezifisch
+deutscher „Weiblichkeit,“ die die Augen schloss vor der
+Schmach der Frau.
+Es ist in hohem Grade charakteristisch, dass nur die
+sozialdemokratische Partei das Frauenstimmrecht auf ihr
+Programm gesetzt hat. Die Frau des Arbeiters hat in
+gewisser Weise ihre Gleichberechtigung mit dem Manne in
+höherem Maasse bewiesen als die der sogenannten höheren
+Stände. Sie ringt wie er um das Leben; sie interessirt sich wie
+er für allgemeine Fragen — ob ihre Anschauungen richtig oder
+falsch sind, darauf kommt es hier nicht an. Keine der anderen
+Parteien hat die Frau jemals ernst genug genommen, um auch
+nur den Gedanken an eine Gleichberechtigung zu fassen; auch
+die sogenannten liberalen Parteien sind für die Fraueninteressen
+fast nur mit billigen Phrasen eingetreten. Die
+Erklärung dafür liegt auf der Hand: die Frauen ihrer Kreise
+haben ihnen die Ueberzeugung nicht einzuflössen verstanden,
+dass in ihnen eigenartige, für das Gemeinwol hochwichtige
+Kräfte steckten. Nicht als ob es nicht viele tüchtige Frauen
+unter ihnen gäbe; aber das herrschende Element ist nicht
+die Frau, sondern die Dame.
+Damit ist der wunde Punkt in unserem Frauenleben getroffen.
+Durch die Rolle, die der Mann der Frau angewiesen hat, ist
+jene Gesellschaftspuppe entstanden, die heute an Stelle der
+tüchtigen, durchgebildeten, für das Gemeinwol sich interessirenden
+Frau die erste Rolle spielt. Diese Dame, nicht der
+Mann ist der ärgste Feind der Frau. Dieser „europäischen
+Dame mit ihrer Prätension und Arroganz“ galten die brutalen
+Ausführungen Schopenhauers, und unter diesem Gesichtspunkt
+kann man ihm kaum Unrecht geben. Diese Dame — ja nicht
+etwa mit dem Begriff zu verwechseln, der in dem englischen
+„lady“ steckt — gehört allerdings nicht in das öffentliche Leben.
+Sie hat durch ihre illegitime, hinter den Kulissen geübte
+Beeinflussung des öffentlichen Lebens schon Unheil genug
+angerichtet. Diese Dame, innerlich vielfach so hohl wie die
+Halbdame, hat die Welt nicht nur nicht gefördert, sondern in
+ihrer Entwicklung gehemmt. Ihre Herrschaft muss die Frau
+brechen. Bis jetzt sind die Aussichten noch gering. Wenn
+die Dame Hüte dekretirt, bei denen man meinen muss, die
+hängenden Gärten von Babylon wandeln zu sehen, so fügt
+sich die Frau. So kommt es, dass in der Frauenwelt der Tand
+des Lebens eine wichtigere Rolle spielt, als die echten Lebensgüter.
+So kommt es, dass für die Verpflichtung gegen die
+Gesellschaft die Frau kein Gefühl hat, weil sie — Gesellschaften
+geben muss. Und — leider! ist in der deutschen Frau das
+soziale Interesse wenigstens unter den germanischen Völkern
+am Geringsten.
+Es ist zuzugeben, dass die ihr gebotene Gelegenheit zur
+Betätigung solcher Interessen auch die geringste ist. Aber
+diese Dinge gehen Hand in Hand. Dass die Engländerin
+jetzt in allen wichtigen Angelegenheiten ihres Landes, mit
+einziger Ausnahme der politischen, mitzusprechen hat, hat
+seinen Grund nur in dem eifrigen Interesse, das sie diesen
+Sachen zuwandte. Auch sie hat kämpfen müssen, ehe sie die
+Stellung erlangte, in der sie ihre Leistungsfähigkeit zeigen und
+damit das Interesse der Männer, sie zu weiterer Mitarbeit am
+Gemeinwol heranzuziehen, erhöhen konnte.
+Ein anderer Weg steht auch der deutschen Frau nicht offen.
+An einen plötzlichen Umschwung zu Gunsten des Frauenstimmrechts
+ist nicht zu denken, und alle Reden würden nach
+dieser Richtung hin nichts bewirken, so lange sich im
+Volksgeist nicht die Ueberzeugung durchgerungen hat: hier
+sind wertvolle Kulturelemente, die müssen wir dem Gemeinwol
+dienstbar machen. Nicht das Schreien, sondern das Leisten
+tut's. Die sehr ernst gemeinte und mit grosser Selbstaufopferung
+durchgeführte Propaganda der Gräfin Guillaume-Schack
+musste völlig resultatlos verlaufen, weil die Leistungen
+der Frauen fehlten, die den Männern den Nutzen des Frauenstimmrechts
+klar gemacht hätten. Die Anschauung suggerirt
+eben mächtiger als hundert Reden.
+Und so ist uns unser Weg gewiesen. Es gilt zunächst und
+diese Arbeit haben wir schon mit Energie in Angriff genommen
+die Hindernisse zu beseitigen, die uns am Leisten hindern.
+Es gilt einzudringen in die Arbeit der Gemeinden, in die
+Schulverwaltungen, die Universitäten, die verschiedenen
+Berufszweige, und überall zu zeigen: das kann die Frau. Es
+gilt, der Dame entgegenzutreten, die durch das parfümirte
+Taschentuch den „Armeleutegeruch“ fernhalten möchte; es gilt
+das Laster in seinen Schlupfwinkeln aufzusuchen, die Kindlein
+zu uns kommen zu lassen, den Verwaisten und Verlassenen
+Pflegerinnen zu sein und unerschrocken die Wahrheit zu
+sagen über alles, was da faul ist auf sozialem Gebiet, mag uns
+noch so oft das allmählich doch etwas in Misskredit geratende
+„Unweiblich“ entgegengeschleudert werden. Der Weg ist
+weit; aber er ist kein Umweg. Denn wir nehmen viel mit
+unterwegs, all das Rüstzeug, das wir für eine spätere Zeit
+brauchen. Und überdies: wir haben keine Wahl. Auch
+wer grundsätzlich nicht mit mir einverstanden ist, wer von
+einer Vorbereitung im Prinzip nichts wissen will, wird mir
+zugestehen: „Du hast recht, vorzüglich weil ich muss.“
+So handeln wir wie der weise Mann, der ein sicheres, aber
+in der Ferne erst winkendes Erbe in Aussicht hat und sich
+einstweilen auf seine zweckmässige Verwaltung vorbereitet.
+Hoffnungslos ist unsere Angelegenheit nicht; wer aufmerksam
+hört und liest, wird viele auch unter den Männern finden, die
+auf unsrem Boden stehen. Die jüngere deutsche Männergeneration
+beginnt in der Frau, die sich vor ihren Augen, nur
+mit unendlich viel mehr Schwierigkeiten als sie eine gleichartige
+Bildung erringt, die ihr eigenes Leben gestaltet, die Mitstrebende,
+Mitkämpfende zu sehen. Und die Notwendigkeit kultureller
+Leistungen und das Interesse daran wächst von Tag zu Tage.
+Schon begehrt man die Hilfe der Frauen bei der Armen-
+und Waisenpflege, schon fängt man an, sie in die Gefängnisse
+zu lassen: das ist der kleine Finger, an dem die ganze Hand
+hängt.
+Diese Ansicht auszusprechen und unsere Taktik damit
+preiszugeben, trage ich nicht das geringste Bedenken. Die
+geschichtlichen Mächte, die vorwärts treiben, sind gewaltiger
+als der Wille der Einzelnen, die etwa den ersten Schritt hindern
+möchten, weil ihnen die Konsequenzen gezeigt sind. Die
+Frauen können es sich heute gestatten, ein „grand ouvert“
+anzusagen, wenn sie zugleich dafür sorgen, die höchsten
+Trümpfe in ihre Hand zu bringen: Leistungen.
+Eine grosse Propaganda für das Frauenstimmrecht — das
+ergibt sich aus dem Vorhergehenden — ist augenblicklich in
+Deutschland noch nicht am Platze. In England, Amerika,
+und einigen nordischen Reichen sind die Leistungen schon
+vorhanden, und es gilt jetzt nur, das tote Gewicht ins Rollen
+zu bringen, und „the average man, the average woman“
+dazu zu bringen, die Konsequenz zu ziehen. Da vermag die
+Rede viel. In Deutschland liegt der Schwerpunkt vorläufig
+auf den Leistungen. Unter den Führerinnen der deutschen
+Frauenbewegung möchte überdies kaum eine so schwächlich
+denken, das Frauenstimmrecht nicht zu wollen oder den Ruin
+der Kinderstube als ob der bei der Dame nicht viel unvermeidlicher
+wäre! in seinem Gefolge zu sehen. Für die
+Durchschnittsfrau ist aber einstweilen die Gewöhnung an
+Leistungen für das öffentliche Wol weit wichtiger als
+Erörterungen über das Frauenstimmrecht, die aus den
+angegebenen Gründen zu einem Resultat vorläufig nicht führen
+könnten. Was jetzt geschehen muss, was nach Kräften auch
+durch Wort und Tat gefördert werden muss, das ist die
+Zulassung zu der Arbeit, den Rechten und Aemtern innerhalb
+der Gemeinden und die Eröffnung aller Berufe. Hier wird
+die Frau die Schulung für grössere Ziele gewinnen, hier im
+Laufe der Zeit Leistungen aufzuweisen haben, die dem
+Manne allein als hinreichende Garantie für die Gewährung
+weiterer Rechte erscheinen werden. Ueber die Wirkung
+teile ich Secrétans Ansicht: „Aller Wahrscheinlichkeit nach
+würde die Anerkennung der Frauenrechte nur eine sehr
+wenig zahlreiche Elite von Frauen ins Parlament, in die
+Gerichtshöfe u.s.w. bringen. Das Gros der Geschäfte würde
+nach wie vor in den Händen der Männer verbleiben; allein
+der leitende Geist würde eine Veränderung erfahren: Das
+Recht würde die Oberhand gewinnen, weil endlich einmal die
+Macht durch die Selbstbegrenzung sich als wirkliche Macht
+erwiesen hätte. Der Geist des Friedens hätte den ihn fördernden
+Platz im öffentlichen Leben, und dann könnte man
+ernsthaft an die Erhaltung des Friedens zwischen den Völkern
+denken.“
+Bis dahin — wie mancher Protest wird noch mit hohem
+Pathos im Namen der „sittlichen und natürlichen Bestimmung
+der Frau“ erschallen gegen ihre schönste und höchste
+Aufgabe: zu helfen, dass Friede sei auf Erden und den
+Menschen ein Wolgefallen.
+HELENE LANGE.
+</text>
+  </TextCorpus>
+</D-Spin>

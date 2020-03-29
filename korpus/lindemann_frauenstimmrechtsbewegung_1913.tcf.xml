@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/lindemann_frauenstimmrechtsbewegung_1913</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-lindemann_frauenstimmrechtsbewegung_1913.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/lindemann_frauenstimmrechtsbewegung_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lindemann_frauenstimmrechtsbewegung_1913.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/lindemann_frauenstimmrechtsbewegung_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lindemann_frauenstimmrechtsbewegung_1913.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/lindemann_frauenstimmrechtsbewegung_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lindemann_frauenstimmrechtsbewegung_1913.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/lindemann_frauenstimmrechtsbewegung_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lindemann_frauenstimmrechtsbewegung_1913.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Die Frauenstimmrechtsbewegung in Deutschland</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Lindemann</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2016-01-26T16:17:50Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2016-01-26T16:17:50Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">15</cmdp:measure>
+        <cmdp:measure type="tokens">5004</cmdp:measure>
+        <cmdp:measure type="types">1697</cmdp:measure>
+        <cmdp:measure type="characters">37918</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:01:00Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/lindemann_frauenstimmrechtsbewegung_1913</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/lindemann_frauenstimmrechtsbewegung_1913</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/lindemann_frauenstimmrechtsbewegung_1913</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/lindemann_frauenstimmrechtsbewegung_1913</cmdp:idno>
+          <cmdp:idno type="DTADirName">lindemann_frauenstimmrechtsbewegung_1913</cmdp:idno>
+          <cmdp:idno type="DTAID">31104</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-31104-7</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="DM">Lindemann, Anna: Die Frauenstimmrechtsbewegung in Deutschland. Leipzig und Berlin, 1913.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Die Frauenstimmrechtsbewegung in Deutschland</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Lindemann</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Leipzig und Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1913</cmdp:date><cmdp:publisher><cmdp:name>B.G. Teubner</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Privatbesitz</cmdp:repository>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+  Bogensignaturen: keine Angabe;
+  Druckfehler: keine Angabe;
+  fremdsprachliches Material: keine Angabe;
+  Geminations-/Abkürzungsstriche: keine Angabe;
+  Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+  i/j in Fraktur: keine Angabe;
+  I/J in Fraktur: keine Angabe;
+  Kolumnentitel: gekennzeichnet;
+  Kustoden: keine Angabe;
+  langes s (ſ): als s transkribiert;
+  Normalisierungen: keine Angabe;
+  rundes r (&#xa75b;): keine Angabe;
+  Seitenumbrüche markiert: ja;
+  Silbentrennung: wie Vorlage;
+  u/v bzw. U/V: keine Angabe;
+  Vokale mit übergest. e: keine Angabe;
+  Vollständigkeit: vollständig erfasst;
+  Zeichensetzung: wie Vorlage;
+  Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Jahrbuch
+der Frauenbewegung
+1913
+Jm Auftrage des Bundes deutscher
+Frauenvereine herausgegeben von
+Dr. Elisabeth Altmann-Gottheiner
+Mit vier Bildnissen auf drei Tafeln
+Druck und Verlag von B. G. Teubner in Leipzig und Berlin 1913
+Anfänge der Bewegung
+Die Frauenstimmrechtsbewegung in Deutschland.
+Von Anna Lindemann
+Spät, viel später als die Frauen anderer uns nah verwandter Na-
+tionen, haben sich die deutschen Frauen eine Organisation geschaffen zur
+Erringung ihrer politischen Gleichberechtigung. Wohl hatte das Feuer
+der 48er Jahre auch die Frauen nicht unberührt gelassen, wohl hatten
+einige hervorragende unter ihnen mit klarem Blick schon damals die
+gleichberechtigte Teilnahme der Frau am öffentlichen Leben ihres Volkes
+als Vorbedingung einer gedeihlichen Entwickelung erkannt. Aber jahr-
+zehntelang hätte es scheinen können, als sei das Wort von Luise Otto-
+Peters: „Die politische Mitarbeit der Frauen ist nicht nur ein Recht,
+sie ist eine Pflicht“ nur ein glänzendes Meteor gewesen, das ohne zu
+zünden in der Nacht verschwunden war. Die immer wachsende Schar
+von Frauen, in deren Herzen jene Überzeugung weiterlebte, in denen sie
+durch die Arbeit für bessere Bildung, für wirtschaftliche und soziale
+Hebung ihres Geschlechtes täglich neue Nahrung erhielt, stand in keiner
+äußeren Verbindung miteinander. Einzeln oder in kleinen Gruppen
+kämpften sie für ihre Jdee. Die Macht der Verhältnisse, besonders das
+Vereinsrecht der beiden größten Bundesstaaten, schien eine Entwickelung
+der deutschen Frauenbewegung in dieser Richtung unmöglich zu machen.
+Einzelne bedeutende, auch nach außen hin wirksame Äußerungen hervor-
+ragender Frauen wie Hedwig Dohms 1876 erschienene Schrift „Natur
+und Recht der Frau“ vermochten anscheinend nichts gegen jene feindlichen
+Mächte. Die junge Zeitschrift der Gräfin Guillaume-Schack „Die Staats-
+bürgerin“ wurde 1886 wegen eines Artikels, der die politische Gleich-
+berechtigung der Frauen forderte, polizeilich unterdrückt. Jnnerlich aber
+wuchs die Überzeugung der Frauen an Kraft und Ausdehnung. An den
+Debatten über den Entwurf zu einem Bürgerlichen Gesetzbuche erstarkte
+sie. Schon im Januar 1893 wurde im Verein Frauenwohl-Berlin in
+einem Vortrage „Die Geschichte des Frauenstimmrechts“ behandelt. Am
+2. Dezember 1894 berief die Frau, deren Pionierarbeit auch auf diesem
+Gebiete die deutschen Frauen so viel zu verdanken haben, Minna Cauer,
+in Berlin die erste von bürgerlichen Frauen berufene öffentliche Volks-
+versammlung ein, in der Lily v. Gyzicki sprach über „Die Bürgerpflicht
+der Frau“. So schwere Kämpfe die an jenem Sonntagmorgen unter Bei-
+fallsstürmen den Konzerthaussaal an der Leipzigerstraße überfüllen-
+den Publikums von einer jungen begeisterten Rednerin erhobene For-
+derung der vollen staatsbürgerlichen Gleichberechtigung der Frau ihr
+Gründung des Deutschen Vereins für Frauenstimmrecht
+und der Einberuferin auch brachte — sie schlief nicht mehr ein. 1895
+reichte Minna Cauer mit Lily v. Gyzicki und Adele Gerhard die erste
+Petition aus bürgerlichen Frauenkreisen um das politische Vereinsrecht
+ein. Jm gleichen Jahre gründete sie ihre Zeitschrift „Die Frauenbe-
+wegung“, die von Anfang an für das Frauenstimmrecht eintrat und sich
+die politische Schulung der Frauen zum Ziel setzte. Die 1899 geschaffene
+„Parlamentarische Beilage“, von Dr. Anita Augspurg redigiert, diente
+besonders diesem Zweck. 1899 nahm der neugegründete Verband fort-
+schrittlicher Frauenvereine das Frauenstimmrecht als eine seiner Haupt-
+forderungen auf.
+Jmmer noch fehlte aber die Organisation, die all dieses Streben
+umfassen sollte, und die allein ihm neue Anhänger in größerer Zahl
+gewinnen und auch einen Erfolg nach außen ermöglichen konnte. Da
+erging aus Amerika die Einladung an die Frauenstimmrechtsvereine
+aller Länder, in Washington zusammenzukommen, um über die Grün-
+dung einer internationalen Vereinigung zu beraten. Unter dem Druck
+der Empörung über die gänzliche politische Rechtlosigkeit der deutschen
+Frauen, die ihnen sogar den Zusammenschluß in einem Frauenstimm-
+rechtsverein nicht zu gestatten und sie nun zu zwingen schien, beiseite
+zu stehen, wenn sich die Frauen aller anderen Kulturländer die Hand
+reichten zum gemeinsamen Kampf um ihre politische Befreiung, kam
+Dr. Anita Augspurg um die Weihnachtszeit 1901 auf den glücklichen
+Gedanken, daß auch in diesem Falle, wie so oft schon, die Freiheit in
+einem der kleineren Bundesstaaten einen Hort finden könne. So grün-
+dete sie am 1. Januar 1902 in Hamburg mit Lida Gustava Heymann
+und Minna Cauer den „Deutschen Verein für Frauenstimm-
+recht“, dessen Vorstande alsbald beitraten Charlotte Engel-Reimers,
+Dr. Käthe Schirmacher und Adelheid v. Welczeck. Seiner ersten Satzung
+zufolge hatte der Verein den Zweck, den Frauen die Ausübung der poli-
+tischen Rechte zugänglich zu machen. Jn dieser Absicht wollte er 1. die
+Frauen derjenigen deutschen Länder, Gemeinden und Berufsklassen,
+welche im Besitz irgendwelcher politischer oder kommunaler, beruflicher
+oder kirchlicher Stimmrechte sind, zur Ausübung derselben veranlassen,
+2. für die deutschen Frauen die politische Gleichberechtigung mit dem
+Manne auf allen Gebieten zu erlangen suchen.
+So spät er auch auf dem Plan erschienen war — der erste Geschäfts-
+bericht des jungen Vereins über die Zeit vom 1. Januar 1902 bis 1. Ok-
+tober 1903 zeigt, welche Fülle von Arbeit seiner gewartet hatte, und mit
+welcher Energie er sich an ihre Bewältigung machte. Jn sechs großen
+öffentlichen Versammlungen begründete er die Forderungen der Frauen,
+Arbeitsgebiete des Deutschen Verbandes
+legte die Entwickelung der Bewegung in anderen Ländern dar, behan-
+delte die Stellung der Frauen zu den Gesetzentwürfen betr. Kaufmanns-
+gerichte und Krankenkassen, sowie zu den Reichstagswahlen. Bald nach
+seiner Gründung, im März 1902, legte er in einer Audienz dem Reichs-
+kanzler v. Bülow die nächstliegenden Wünsche der Frauen vor. Jn zahl-
+reichen Eingaben an den Reichstag, den Bundesrat, den Hamburger
+Senat, die Kirchenbehörden usw. vertrat er die Jnteressen der Frauen,
+durch Anschreiben an die politischen Parteien forderte er diese zur Auf-
+nahme von Frauen als ordentliche Parteimitglieder in den Bundes-
+staaten auf, in denen die Gesetze dies gestatteten usw. Auch zur Beteili-
+gung an den bevorstehenden Reichstagswahlen wurden die Frauen an-
+geregt.
+Am 1. Oktober 1904 erfolgte auf einer außerordentlichen General-
+versammlung in Hamburg die Umwandlung des Vereins in den Deut-
+schen Verband für Frauenstimmrecht, die durch die Satzung des am
+4. Juni 1904 in Berlin gegründeten Weltbundes für Frauenstimmrecht
+notwendig geworden war. Zweigvereine konnten fürs erste nur in Ham-
+burg und Bremen gegründet werden, größere Gruppen von Mitgliedern
+bestanden in Berlin, Frankfurt a. M., München, kleinere in Danzig, Han-
+nover, Königsberg und Leipzig. Wegen der gesetzlichen Hindernisse
+mußte sich die Arbeit dieser Gruppen beschränken auf die Einrichtung
+von Diskussionsabenden, Veranstaltung von öffentlichen Versamm-
+lungen, Propaganda für aktuelle Wahlen. So wurde z. B. von Anfang
+an von verschiedenen Gruppen eine rege Tätigkeit entfaltet, um die
+Frauen zur Ausübung ihres Wahlrechtes zu den Krankenkassen zu ver-
+anlassen und ihnen eine Vertretung in den Vorständen der Kassen zu
+sichern. Auch die anderen Bundesvereine wurden durch Anschreiben,
+unter Beifügung eines Arbeitsplanes und eines Entwurfes zu einem
+Aufruf aufgefordert sich an dieser Arbeit zu beteiligen. Durch das Vor-
+standsmitglied Martha Zietz wurde besonders die Frage des kirchlichen
+Wahlrechtes eifrig gefördert. Durch Umfragen bei hervorragenden Ver-
+tretern der theologischen Fakultäten beider Konfessionen und bei im
+praktischen Leben stehenden Geistlichen wurde deren Stellung zu der
+Gleichberechtigung der Frauen auf kirchlichem Gebiet festgestellt und das
+Resultat in einer Broschüre „Wie urteilen Theologen über das kirchliche
+Stimmrecht der Frauen?“ zusammengestellt.
+Jm Juni 1906 forderte der Vorstand in den alten preußischen Pro-
+vinzen die Mitglieder auf, bei den Gemeindewahlen ihre Eintragung
+in die Wählerlisten auf Grund der Städteordnung zu verlangen.
+An verschiedenen Orten folgten Mitglieder dieser Aufforderung und
+Jahrbuch der Frauenbewegung II
+11
+Weitere Entwickelung des Deutschen Verbandes
+riefen dadurch, wenn auch ohne positiven Erfolg, doch lebhafte Er-
+örterungen in den städtischen Kollegien hervor. An die politischen Par-
+teien wurde die Aufforderung gerichtet, die Forderung der politischen
+Gleichberechtigung der Frau in ihr Programm aufzunehmen.
+So waren gleich im Anfang alle hauptsächlichen Arbeitsgebiete der
+Frauenstimmrechtsbewegung in Angriff genommen und überall regte
+sich frisches Leben. 1906 waren in Baden und Württemberg Landes-
+vereine mit verschiedenen Ortsgruppen, in Leipzig im gleichen Jahre
+der Mitteldeutsche Verein für Frauenstimmrecht gegründet, 1907 ent-
+standen weitere badische Gruppen, ferner Gruppen in Worms, Essen
+und Rostock. Aber bei der großen Verschiedenheit der Verhältnisse in den
+deutschen Bundesstaaten wurde eine stärkere Entwickelung erst möglich,
+nachdem auf der Generalversammlung in Frankfurt, September 1907,
+die Organisation des Verbandes nach Landesvereinen vollkommen durch-
+geführt und diesen eine größere Selbständigkeit und Bewegungsfreiheit
+gegeben war. Beschleunigt wurde die Entwickelung durch das Reichs-
+vereinsgesetz vom 15. Mai 1908, das nun auch den Frauen in Preußen
+und Bayern den Zusammenschluß ermöglichte. Es entstanden Landes-
+vereine in Preußen, Bayern, Oldenburg und Mecklenburg. Der schon
+früher von Marie Stritt gegründete Sächsische Verein für Frauenstimm-
+recht schloß sich dem Deutschen Verbande an und wurde mit dem Mittel-
+deutschen Verein zum Sächsischen Landesverein verschmolzen. Auch im
+Reichsstande wurde durch Gründung eines Vereins in Straßburg der
+Anfang einer Organisation gemacht. Der fünfte Geschäftsbericht (1. Ok-
+tober 1909 bis 1. Oktober 1911) führt 10 Landesvereine mit zusammen
+65 Ortsvereinen, außerdem 6 Ortsvereine in Thüringen und Elsaß-
+Lothringen auf. Die Mitgliederzahl beträgt jetzt, Frühling 1912,
+ca. 8000.
+Kurz muß hier des größten Landesvereins gedacht werden, des im
+Februar 1908 aus dem früheren Preußischen Landesausschuß entstan-
+denen Preußischen Landesvereins. Unter Minna Cauers Leitung ent-
+wickelte er sich überraschend schnell. Mit 11 Provinzialvereinen, 36 Orts-
+gruppen und etwa 3450 Mitgliedern macht er heute fast die Hälfte des
+Deutschen Verbandes aus. Neben seiner Arbeit auf allen Gebieten der
+Bewegung ist er durch einen besonderen, in Frau Cauers Verwaltung
+stehenden Fonds in den Stand gesetzt, durch Beschaffung von wertvollem
+Broschürenmaterial für Propaganda und für Schulung der Mitglieder
+der ganzen Stimmrechtsbewegung hervorragende Dienste zu leisten.
+Alle diese Organisationen arbeiten mit stets gleichem Eifer und
+stets wachsender Sachkenntnis für alle in der Satzung gegebenen Ziele.
+Weitere Arbeitsgebiete. Zeitschrift
+Neben dem politischen Wahlrecht wird besondere Aufmerksamkeit dem
+Gemeindewahlrecht geschenkt, das nicht nur als nächstes Ziel, sondern auch
+als Schulung der Frauen für ein Verständnis späterer weitergehender
+politischer Pflichten Bedeutung hat. Einen wichtigen Faktor bei dieser
+Arbeit bildet die Arbeit unter den jetzt schon ein Wahlrecht besitzenden
+Frauen in manchen Bundesstaaten, über die später bei der Arbeit ande-
+rer Vereine mehr zu sagen sein wird. Auch für das kirchliche Wahlrecht,
+für die Ausdehnung und die richtige Benützung der Frauenrechte in den
+verschiedenen Jnteressenvertretungen wird überall gearbeitet. Allein
+oder mit anderen Frauenvereinen treten die Stimmrechtsvereine auch
+für alle anderen Forderungen der Frauenbewegung ein, wo und wann
+die Gelegenheit es fordert. So dokumentieren sie sinnfällig die Tatsache,
+daß die Stimmrechtsbewegung zwar notwendigerweise ihrer Organi-
+sation aber nicht eigentlich ihrem Wesen nach eine gesonderte Bewegung
+neben anderen in der Frauenbewegung ist; geboren aus der ganzen Not
+der Frau, getragen von ihrem ganzen Streben nach innerer und äußerer
+Freiheit, fördert sie mit jedem Schritt vorwärts, ihrem eigenen Ziele
+zu, die ganze Frauenbewegung, schafft ihr mehr Licht und Luft, gibt
+ihr einen festeren Boden unter die Füße.
+Auch die Schulung der Frauen für die erstrebten Rechte lassen sich
+die Vereine überall angelegen sein. Jn meist ausgezeichnet besuchten
+Kursen werden Bürgerkunde, Volkswirtschaftslehre, Programme und Ge-
+schichte der politischen Parteien, kommunale Einrichtungen usw. von
+Sachverständigen behandelt. Jm Sommer 1911 veranstaltete der Säch-
+sische Landesverein bei Gelegenheit der Jnternationalen Hygieneaus-
+stellung eine ausgezeichnet besuchte Konferenz über Hygiene und Frauen-
+stimmrecht, deren Erfolg darauf hinweist, solche Gelegenheiten in Zu-
+kunft in größerem Umfange zur Propaganda zu benützen.
+Durch Arbeitspläne für die verschiedenen Gebiete, Gemeinde-,
+Krankenkassen-, Handelskammerwahlen usw. unterstützt der Verbands-
+vorstand diese Arbeiten. Er sorgt für Flugblätter, Broschüren, Propa-
+gandamittel, er wendet sich an die politischen Parteien bei jeder Ge-
+legenheit, bei der eine Förderung der Frauensache möglich erscheint.
+Durch Anschreiben an alle Landes- und Ortsvereine sucht er ein mög-
+lichst zweckdienliches und einheitliches Vorgehen der einzelnen Organi-
+sationen bei großen Fragen, wie z. B. der Reichsfinanzreform, der
+Reichsversicherungsordnung, der Lebensmittelteuerung des letzten Jah-
+res, den Reichstagswahlen usf. zu erreichen, Organ des Verbandes war
+seit feiner Gründung bis zum Herbst 1901 die „Frauenbewegung“, dann
+die „Zeitschrift für Frauenstimmrecht“, zu der Anfang 1907 die frühere
+11*
+Frauenstimmrechtsvereine auf anderer Basis
+parlamentarische Beilage erweitert worden war. Seit dem 1. April
+1912 gibt der Verband unter der Redaktion von Dr. Anita Augspurg
+eine eigene Monatsschrift „Frauenstimmrecht!“ heraus. Vorsitzende des
+Verbandes von seiner Gründung bis Oktober 1911 war Dr. Anita
+Augspurg, nach ihrer Amtsniederlegung in Hamburg trat Marie Stritt
+an ihre Stelle.
+Obwohl den Gründerinnen des Verbandes nichts ferner gelegen
+hatte, als Sonderrechte für irgendeine Gruppe von Frauen zu verlangen,
+ließen doch mancherlei Angriffe auf das angeblich erstrebte „Damen-
+wahlrecht“ es zweckmäßig erscheinen, den Standpunkt des Verbandes
+in dieser Hinsicht genau zu präzisieren. 1907 wurde von der General-
+versammlung in Frankfurt mit überwältigender Mehrheit die Forde-
+rung des allgemeinen, gleichen, geheimen und direkten Wahlrechtes für
+beide Geschlechter in die Satzung aufgenommen. Mit diesem Schritte
+sollte in keiner Weise die früher und auch jetzt noch in der Satzung vor-
+geschriebene politische Neutralität verlassen werden, die auch der Deutsche
+Verband heute noch für die Stimmrechtsbewegung für notwendig er-
+achtet — er floß als logische Konsequenz aus dem Protest gegen die
+politische Entrechtung der Frau, der nach der Auffassung des Verban-
+des nur in einem Protest gegen jede politische Entrechtung einen un-
+anfechtbaren Boden finden kann; ebenso ergab sich nach seiner Auf-
+fassung die Forderung des allgemeinen usw. Wahlrechts ohne weiteres
+aus der Tatsache, daß gerade jene Frauenschichten, auf deren Berufs-
+arbeit sich jede Agitation für das Frauenstimmrecht als auf ihr stärkstes
+Argument stützt, unter einem irgendwie beschränkten Wahlrecht in großer
+Ausdehnung weiter entrechtet bleiben würden. Sehr bald zeigte es sich,
+daß diese Forderung nicht überall, auch nicht überall innerhalb des
+Verbandes, als eine aus der besonderen Lage der Frauen hervorgegan-
+gene reine Frauenforderung verstanden, sondern als politisch einseitig
+orientierte Parteiforderung aufgefaßt wurde. Durch den immer zahl-
+reicher werdenden Eintritt der Frauen in die politischen Parteien wurde
+dieser Unterschied der Auffassung mancherorts noch stärker betont. Jn
+Schlesien und Westdeutschland bildeten sich Vereinigungen von Frauen,
+die sich dieser vom Deutschen verband als grundlegendes Prinzip be-
+trachteten Forderung ihrer Überzeugung nach nicht anschließen konnten.
+Jn dem Wunsche eine Zersplitterung zu vermeiden, ersetzte der Verband
+in Hamburg, Oktober 1911, die Worte „für beide Geschlechter“ durch
+„für die Frauen“. So glaubte man auch den Schein vermieden zu ha-
+ben, damit eine Forderung bestimmter politischer Parteien zu vertreten
+und so deren Ziele zu fördern, wodurch den Frauen anderer Parteien
+Deutsche Vereinigung für Frauenstimmrecht. Schlesischer Verband
+der Eintritt erschwert oder verschlossen gewesen sein würde. Es erwies
+sich jedoch, daß die Unterschiede in der Auffassung hierdurch nicht ge-
+nügend ausgeglichen waren.
+Um nun die verschiedenen schon bestehenden Organisationen, die mit
+Bezug auf die des zu erstrebenden Wahlrechtes nicht auf dem
+Boden des Deutschen Verbandes stehen, zu einer Einheit zusammenzu-
+fassen, deren Aufgabe insbesondere sein soll, auch die Frauen für das
+Stimmrecht zu gewinnen, die sich nicht für den Kampf um das allge-
+meine Wahlrecht festlegen wollen, wurde im Oktober 1911 die Deutsche
+Vereinigung für Frauenstimmrecht gegründet. Nach ihrer
+Satzung schließt sie alle Frauenstimmrechtsverbände im Deutschen Reich
+zusammen, die für das männliche und weibliche Geschlecht gleiche Staats-
+bürgerrechte erstreben. Sie hat den Zweck, durch praktische und theo-
+retische Arbeit das Verständnis für das Frauenstimmrecht zu fördern,
+ohne ihre Mitglieder auf ein bestimmtes politisches Programm festzulegen.
+Jn einer Eingabe an den Deutschen Handelstag hat die Vereinigung
+für die Frauen die gleichen Rechte bei den Handelskammern gefordert,
+wie die Männer sie haben. Jm Oktober 1912 wird sie unter Redaktion
+von Jda Dehmel eine eigene Monatsschrift herausgeben. Vorsitzende
+der Vereinigung ist Li Fischer-Eckert. Da die Vereinigung als solche
+noch ganz jung ist, empfiehlt es sich, im Gegensatz zu der beim Deut-
+schen Verband befolgten Methode, in der Hauptsache die Arbeit ihrer
+drei Verbände zu würdigen.
+Der Schlesische Verband wurde von Elsa Hielscher und Marie
+Wegner 1908 in Breslau als Schlesischer Verein für Frauenstimmrecht
+begründet und bestand damals aus der (noch jetzt diesem Verein ange-
+schlossenen) Frauenstimmrechtsgruppe des Vereins Frauenwohl Breslau
+und der selbständigen Frauenstimmrechtsgruppe Liegnitz. 1910 wurde
+in Beuthen der Verein in einen Verband umgewandelt, 1912 in Lieg-
+nitz gab er sich den Untertitel: zugleich Frauenstimmrechtsverband für
+Ostdeutschland. Er umfaßt jetzt in 6 größeren und 5 kleineren Orts-
+gruppen und als Einzelmitglieder an etwa 30 Orten im ganzen 800
+Mitglieder. Nach seiner Satzung entsprechen seine Aufgaben und Ziele
+mit Ausnahme der Forderung des allgemeinen Wahlrechtes denen des
+Deutschen Verbandes. Seine Arbeit erstreckt sich auf die gleichen Ge-
+biete. Besonders hervorzuheben ist die intensive Arbeit für das Ge-
+meindewahlrecht, durch Petitionen verschiedenen Jnhalts, in den
+Städten durch kommunalpolitische Ausschüsse, auf dem Lande durch Land-
+gemeindekommissionen gefördert. Ebenso wie Minna Cauer in Char-
+lottenburg hat Frau Elisabeth Hirsch in Liegnitz in einem durch alle
+Westdeutscher und Norddeutscher Verband
+Jnstanzen verfolgten Prozeß das ihr nach dem Wortlaut der Städte-
+ordnung zustehende Gemeindewahlrecht zu erkämpfen gesucht. Durch
+Enqueten stellt der Verband den Einfluß von Eingemeindungen auf
+das Wahlrecht der Frauen fest; die städtischen Frauen hält er zum Be-
+such der Stadtverordnetenversammlungen und zur Stellungnahme zu
+kommunalen Fragen an. Besonders wertvoll aber erscheint die Arbeit
+auf dem Lande. Sie beschränkt sich nicht darauf, durch sorgfältig or-
+ganisierte Propaganda die das indirekte Wahlrecht schon besitzenden
+Frauen zu seiner Ausübung zu veranlassen. Durch Gemeindemappen,
+in denen die Landfrauen — bei Ausschluß alles dessen, was als konfes-
+sionelle oder parteipolitische Beeinflussung erscheinen könnte — alles
+finden, was geeignet ist, ihr Verständnis für das öffentliche Leben, für
+Hygiene usw. zu fördern, sie durch allgemeinverständliche Artikel über
+Fraueninteressen, Rechtsschutz usw. für den Gedankenkreis der Frauen-
+bewegung zu gewinnen, wird besonders im Winter mit seinen langen
+Abenden viel gewirkt. Vertieft wird die Wirkung der Mappen durch
+die Arbeit der Wanderkommissionen, die Sonntagsausflüge zum Besuch
+kleiner Gruppen oder Einzelmitglieder, zu Besuchen bei ländlichen Wäh-
+lerinnen, zum Einsammeln der Mappen usw. organisieren und diese
+immer für die Propaganda des Frauenstimmrechtes nutzbar machen.
+Der Westdeutsche Verband wurde am 20. Oktober 1909 von
+Li Fischer-Eckert gegründet. Er hat jetzt 16 Ortsgruppen mit zirka
+1200 Mitgliedern. Er nimmt auch Frauenstimmrechtsgruppen anderer
+Vereine auf, ebenso wie der Schlesische Verband. Der Verband erstrebt
+das Stimmrecht unter den gleichen Bedingungen wie die Männer es
+haben oder haben werden und schaltet jede Propaganda für ein be-
+stimmtes Wahlrecht aus. Auf diesem Wege glaubt er alle Frauengrup-
+pen erfassen, Frauen aus allen Parteien zu Anhängerinnen gewinnen
+zu können.
+Der Verband reichte eine Petition zur rheinischen Landgemeinde-
+reform ein, gab eine Broschüre „Die Grundlagen der Wahlrechts“ her-
+aus und verbreitete Flugblätter in großer Zahl. Seine praktische Ar-
+beit wendet sich neben den Krankenkassenwahlen vor allem dem Land-
+gemeindewahlrecht der Frauen zu. Vorsitzende des Verbandes ist Els-
+beth Krukenberg.
+Der Norddeutsche Verband wurde im Herbst 1911 gegründet.
+Nach seiner Satzung erstrebt er volle Staatsbürgerrechte für die Frauen.
+Er will die Frauen zu der Einsicht bringen, daß es ihre Pflicht ist,
+sich für alle politischen Tagesfragen ln Staat und Gemeinde zu inter-
+essieren und sich so auf ihre künftigen Bürgerrechte vorzubereiten. Er
+Arbeit für das Frauenstimmrecht in den politischen Parteien
+war bisher hauptsächlich durch Werbearbeit in Anspruch genommen.
+Er nimmt auch andere Vereine, die für das Frauenstimmrecht ein-
+treten, als korporative Mitglieder auf. Jhm sind bisher drei Stimm-
+rechtsvereine mit zusammen 297 Mitgliedern, außerdem korporativ
+eine Ortsgruppe des Verbandes norddeutscher Frauenvereine mit 128
+Mitgliedern angeschlossen. Vorsitzende ist Agnes Menck.
+Außer in den beiden Frauenstimmrechtsorganisationen arbeiten die
+Frauen noch in vielen anderen Gemeinschaften für das gleiche Ziel.
+So helfen sie schon allein durch die Tatsache ihrer Mitarbeit in den
+politischen Parteien den Weg für jenes Ziel bereiten. Jn den
+rechtsstehenden Parteien bis zur nationalliberalen Partei ist ihre Arbeit
+in dieser Richtung bisher nicht weiter gegangen. Dagegen gibt die
+Satzung der innerhalb der Fortschrittlichen Volkspartei organisierten
+Frauen als eins der Hauptziele der Frauenorganisation an, das Frauen-
+stimmrecht in Gemeinde, Bundesstaaten und Reich zu erringen. Jhre
+Bestrebungen gehen vor allem dahin, die Ausnahme dieser Forderungen
+in das Parteiprogramm zu erlangen. — Die Frauen der Demokrati-
+schen Vereinigung sind innerhalb der Partei nicht in einer besonderen
+Gruppe zusammengefaßt. Da das Parteiprogramm gleiche Rechte für
+beide Geschlechter fordert, richten die Frauen ihr Augenmerk in erster
+Linie darauf, die Frauenstimmrechtsforderung überall in den Organi-
+sationen in Versammlungen vertreten zu sehen. — Besonders tätig ar-
+beiten die Frauen der Sozialdemokratie für das Frauenstimmrecht. Da
+sie nicht wie die bürgerlichen Frauen in besonderen Vereinen, sondern
+nur innerhalb ihrer Parteiorganisation für dieses Ziel arbeiten, sei ihre
+Tätigkeit an dieser Stelle gewürdigt.
+Jn den Plänen für die zahlreichen Kurse zur theoretischen Schulung
+der Frauen bildet das Frauenstimmrecht stets einen besonders zu be-
+handelnden Punkt. Bei unzähligen Frauenversammlungen wird Auf-
+klärung über das Frauenstimmrecht gegeben und Propaganda dafür
+gemacht. So haben — von den Hunderten von lokalen Organisationen
+einberufenen Versammlungen ganz abgesehen — im vergangenen Jahre
+die vom Frauenbureau ausgesandten Rednerinnen ln 66 Touren, jede
+von 8 Tagen bis zu 4 Wochen, auch in die entlegensten Teile des Rei-
+ches, auch in früher von diesem Gedanken noch ganz unberührte Kreise
+die Forderung der politischen Befreiung der Frau hineingetragen. Durch
+Flugblätter und Broschüren wird diese unermüdliche Agitation unter-
+stützt, durch die in einer Auflage von 115000 erscheinende Zeitschrift
+„Die Gleichheit“, die, unter Redaktion von Klara Zetkin, in ständigen
+Rubriken das Frauenstimmrecht im Jn- und Auslande behandelt, wird
+Frauenstimmrecht im Bund Deutscher Frauenvereine
+das Verständnis für alle diese Fragen vertieft. Das vorzüglichste Mittel
+aber, den Gedanken des Frauenstimmrechts zu verbreiten, sind die
+„Frauentage“, die einem Beschluß der Kopenhagener Jnternationalen
+Frauenkonferenz zufolge auch in Deutschland alljährlich zur Demon-
+stration für das allgemeine Frauenwahlrecht veranstaltet werden. Schon
+einige Wochen vorher werden in den „Leseabenden“ im ganzen Reiche
+die Fragen des Frauenwahlrechtes besprochen. Ein vorbereitendes Flug-
+blatt wurde in diesem Jahre in etwa 2 Millionen Exemplaren ver-
+breitet, meist durch die Frauen selbst. Von der im Verlag der „Gleich-
+heit“ herausgegebenen Zeitung „Frauenwahlrecht“ wurden 109000
+Exemplare verkauft, weil die Frauentage, obwohl in Deutschland or-
+ganisiert durch den Parteivorstand, doch ein Willensausdruck und eine
+Tat der Frauen selbst sein sollen, so beteiligen sich überall in erster
+Linie Frauen an den Vorbereitungen für die vielen Hunderte von öf-
+fentlichen Versammlungen. Jn den meisten der dieses Jahr am 12. Mai
+in allen deutschen Bundesstaaten stattgehabten Versammlungen waren
+Frauen die Rednerinnen, Frauen die Leiterinnen. Nicht nur in großen
+Städten, sondern auch in mittleren und kleinen Orten waren die Ver-
+sammlungen außerordentlich stark besucht. Diese Veranstaltungen sind
+nicht nur für die ganze Frauenstimmrechtsbewegung wichtig durch ihren
+machtvollen Eindruck nach außen, sie sind auch ein Zeugnis dafür, wie
+sehr es in der kurzen Zeit seit dem Fallen der vereinsgesetzlichen Schran-
+ken den sozialdemokratischen Frauen gelungen ist, den Gedanken des
+Frauenstimmrechtes auch der einfachsten Arbeiterfrau zum Lebensinter-
+esse zu machen.
+Der Bund Deutscher Frauenvereine nahm in Wiesbaden
+1902 einstimmig die folgende Resolution an: „Es ist dringend zu wün-
+schen, daß die Bundesvereine das Verständnis für den Gedanken des
+Frauenstimmrechts nach Kräften fördern, weil alle Bestrebungen des
+Bundes erst durch das Frauenstimmrecht eines dauernden Erfolges sicher
+sind.“ Jn dem 1907 verfaßten Programm des Bundes heißt der letzte
+Satz der Abteilung D. Öffentliches Leben: „Die Erlangung und dauernde
+Behauptung aller dieser Ämter und Arbeitsgebiete und die Sicherung
+eines dem männlichen gleichwertigen Einflusses auf die Kultur ist an
+folgende öffentliche Rechte gebunden: a) das unbeschränkte Vereins-
+und Versammlungsrecht; b) das volle Stimmrecht in der kirchlichen
+Gemeinde; c) das aktive und passive kommunale Wahlrecht; d) das
+aktive und passive politische Wahlrecht. Jn so hohem Grade auch die
+Frauenbewegung eine Bewegung der Geister ist, soviel andererseits darauf
+ankommt, daß jede einzelne Frau in ihrer Persönlichkeit und in ihrem
+Der Allgemeine Deutsche Frauenverein
+Wirkungskreise die Jdeale der Bewegung zu erfüllen sucht, so unzweifel-
+haft die wirtschaftlichen Verhältnisse ganz von selbst die erwerbsmäßige
+Frauenarbeit steigern und dem Fraueneinfluß im öffentlichen Leben
+Nachdruck geben — so werden die Frauen doch niemals ihre Anschau-
+ungen voll zur Geltung bringen, wenn sie nicht durch Ausübung des
+politischen Wahlrechts auch eine reale Macht im nationalen Leben dar-
+stellen.“ 1908 wurde in Breslau der von der Delegierten des Deut-
+schen Verbandes für Frauenstimmrecht, A. v. Welczeck, gestellte An-
+trag: Die Bundesvereine möchten in eine energische Agitation zur Er-
+langung des Gemeindewahlrechtes für die Frauen eintreten, debattelos
+und einstimmig angenommen. 1910 in Heidelberg wurde nach einem
+Vortrage von Dr. Elisabeth Altmann-Gottheiner „Wie erlangen wir
+das Gemeindewahlrecht?“ ein Antrag des Schlesischen Frauenverban-
+des angenommen: „Der Bund wolle an die Parlamente aller deut-
+schen Bundesstaaten Petitionen einsenden, die das Gemeindewahlrecht
+für die Frauen beantragen“, ferner ein Antrag des Schlesischen Ver-
+bandes für Frauenstimmrecht: der Bund möge in den Bundesstaaten,
+deren ländliche Grundbesitzerinnen bereits ein indirektes Gemeindewahl-
+recht besitzen, für dessen Umwandlung in ein direktes petitionieren und
+die ihm angeschlossenen Vereine auffordern, unter den ländlichen Be-
+sitzerinnen für die Ausübung der ihnen bereits zustehenden Rechte zu
+wirken. — Der Bundesvorstand arbeitete darauf zwei Musterpetitionen
+aus, die er den angeschlossenen Vereinen und Verbänden zur Ver-
+fügung stellte. Jm Frühjahr 1912 wurden bei der Kommissionsbera-
+tung im preußischen Abgeordnetenhause 19 Petitionen verschiedener
+Frauenvereine aufgezählt, die sich auf den ersten Antrag, und 18, die
+sich auf den ersten Teil des zweiten beziehen. Einen greifbaren Erfolg
+hatte bisher keine dieser Eingaben. — Anfang 1911 gab ferner der
+Bund ein eingehendes Literaturverzeichnis zur Frage des Gemeinde-
+wahlrechtes heraus. Jn seinem Organ, dem Centralblatt des Bundes
+Deutscher Frauenvereine, wird die Frauenstimmrechtssache in allen ihren
+Zweigen vertreten.
+Der Allgemeine Deutsche Frauenverein, dessen I. Vor-
+sitzende, Helene Lange, schon 1896 in einem in der Zeitschrift „Cosmo-
+polis“ erschienenen Artikel energisch für das Frauenwahlrecht eintrat,
+forderte auf seiner Generalversammlung in Stuttgart 1897 nach einem
+Referat von Marie Hecht in einer Resolution das Frauenstimmrecht. Jn
+Absatz IV des seine Zwecke näher erläuternden Programms heißt es:
+„Die Frauenbewegung vertritt die Überzeugung, daß unsere wirtschaft-
+liche, soziale und geistige Entwickelung die wachsende Teilnahme der
+Arbeit für das Gemeindewahlrecht
+Frauen am öffentlichen Leben in Gemeinde und Staat zur Folge haben
+muß. Sie fordert die Heranziehung der Frauen zu den Pflichten und
+Rechten kommunalen und politischen Bürgertums.“ Unter den aus
+dieser Überzeugung fließenden Einzelforderungen führt das Programm
+an: Teilnahme der Frauen am kirchlichen, kommunalen und politischen
+Wahlrecht. Jnsbesondere erstrebt der Verein eine planmäßige Erweite-
+rung der Frauenarbeit und Frauenrechte in der Gemeinde. Um diese
+Spezialisierung auch in seinem Hamen auszudrücken, gab er sich 1910
+auf einer außerordentlichen Generalversammlung in Leipzig den Unter-
+titel „zugleich Verband für Frauenarbeit und Frauenrechte in der Ge-
+meinde“. Jn Verfolgung dieser seiner Ziele gründete er 1907 die Aus-
+kunftsstelle für das Gemeindewahlrecht der Frau in Frankfurt a. M.,
+die im nächsten Jahre zu einer Auskunftsstelle für Gemeindeämter der
+Frau, und 1911 zu einer Zentralstelle für Gemeindeämter der Frau
+erweitert wurde. Unter der Leitung von Frau Jenny Apolant wird
+hier für das Gemeindewahlrecht der Frau und damit für ihre politische
+Befreiung überhaupt wertvolle praktische und theoretische Arbeit ge-
+leistet. — 1909 gab der Verein eine übersichtliche Zusammenstellung
+über das Gemeindewahlrecht der Frau in den deutschen Bundesstaaten
+heraus, in seinem 5. Flugblatt ließ er eine knappe Zusammenfassung
+aller dessen folgen, was über das Gemeindewahlrecht der Frau, seine
+jetzige und die Gründe für eine weitere Ausdehnung, seinen Nutzen für
+Gemeindeverwaltung und Frauen, sowie über die Wege zu sagen ist,
+auf denen es zu erlangen ist. 1910 richtete er an das preußische Abgeord-
+netenhaus eine Petition um Abänderung der bestehenden indirekten
+Gemeindewahlrechte in direkte. — Auf der Generalversammlung in
+Darmstadt 1909 wurde ein Antrag angenommen, der praktische Arbeit
+der angeschlossenen Vereine für das Gemeindewahlrecht forderte. Die
+antragstellende Frankfurter Ortsgruppe hatte die Wichtigkeit dieser
+Arbeit erkannt bei der Aktion, die sie im Frühling 1909 gemeinsam mit
+dem Frankfurter Verein für Frauenstimmrecht unternahm und Früh-
+jahr 1910 zu Ende führte. Diese Arbeit, wie sie auch vom Verein
+Frauenwohl in Pankow-Niederschönhausen, vom Bremer Landes-
+verein des Deutschen Verbandes, von der südwestlichen Vorortsgruppe
+Berlin, vom Schlesischen Landesverein für Frauenstimmrecht unter-
+nommen ist, hat ihren größten Wert in der Aufklärung der Land-
+frauen und in der Steigerung des Wunsches nach Umwandlung des
+indirekten in ein direktes Wahlrecht. Da in allen hier genannten Fällen
+die Wählerinnen sich auf keine Weise von der Stimmabgabe für die
+von ihnen bezeichneten Kandidaten überzeugen konnten, war es schwer
+Frauenbildung—Studium. Deutsch-Evangel. Frauenbund
+möglich, sie lebhaft für die Sache zu erwärmen. Wenn aber durch kon-
+sequente Fortführung der Arbeit jene Umwandlung erreicht werden
+könnte, wäre damit ein guter Schritt vorwärts getan zur Erreichung
+des Gemeindewahlrechtes für alle Frauen.
+Die Satzung des Vereins Frauenbildung-Frauenstudium
+bezeichnet als einen der Vereinszwecke die Heranbildung der Frauen zur
+Ausübung ihrer sozialen und politischen Pflichten und Rechte. Auf ver-
+schiedene Art haben daher auch eine Reihe seiner Abteilungen indirekt
+(z. B. durch Schulung ihrer Mitglieder zur Mitarbeit in den politischen
+Parteien) oder direkt für das Frauenstimmrecht gearbeitet, so durch
+Vorträge, Gründung von Stimmrechtsgruppen (so in Freiburg i. B.,
+Koblenz und Bonn). Für das Gemeindewahlrecht im besonderen haben
+z. B. die badischen Abteilungen bei der Revision der badischen Gemeinde-
+ordnung 1910 lebhaft durch öffentliche Versammlungen, Petitionen usw.
+gearbeitet. Besonders eingehend und auch erfolgreich hat der Vorstand
+der Abteilung Weimar seit mehreren Jahren in dieser Richtung gewirkt.
+Durch einen Aufruf werden die Frauen zur Erwerbung des Bürger-
+rechtes und zur Teilnahme an den Gemeindewahlen aufgefordert, vor
+den Wahlen beruft die Vorsitzende, Dr. Selma v. Lengefeldt, die Bürge-
+rinnen zu einer Wahlbesprechung zusammen; auch an den Bürgermeister-
+wahlen beteiligten sich die Bürgerinnen mit lebhaftem Jnteresse. Jn
+dem zur Vorbereitung der Wahlen gebildeten Bürgerausschüsse sind
+die Bürgerinnen durch Dr. v. Lengefeldt vertreten. Auf ihr Betrei-
+ben werden ihnen die gestempelten Wahlzettel ins Haus gebracht,
+sie füllen sie selbst aus und übergeben sie mit schriftlichen Vollmachten
+den Vertretern, so daß ein Ausüben des Wahlrechtes in einem anderen
+als dem gewünschten Sinne kaum möglich erscheint. Zur Reform der
+Gemeindeordnung ging von der Abteilung die Jnitiative zu einer Ein-
+gabe um Erweiterung der Frauenrechte aus, die wiederholt werden
+wird, wenn — voraussichtlich in der nächsten Session des Landtages —
+die Frage erledigt wird.
+Der Deutsch-Evangelische Frauenbund hat seit dem Jahre
+1902 in seinem Programm den Passus: „Jm besonderen tritt der Bund
+ein für die Erweiterung der Frauenpflichten und Rechte in der kirch-
+lichen und bürgerlichen Gemeinde.“ 1910—1912 hat die Rechtskom-
+mission die Frage des Gemeindewahlrechtes theoretisch bearbeitet. Die
+Kommissionsvorsitzende legte das Ergebnis der Arbeit in einem Vor-
+trage der diesjährigen Generalversammlung in Weimar vor, die dar-
+auf die Stellung des Deutsch-Evangelischen Frauenbundes in dieser
+Frage in folgender Resolution zusammenfaßte: „Der D. E. F betrachtet
+Verein für Fraueninteressen, München
+das Gemeindewahlrecht der Frau als das zu erstrebende Ziel, da die
+volle Entfaltung der Frauentätigkeit in der Gemeinde nur nach Er-
+langung des kommunalen Wahlrechtes möglich ist, und der vermehrte
+Fraueneinfluß sowohl im Jnteresse der Frau selbst wie in dem der All-
+gemeinheit liegt. Er empfiehlt seinen Ortsgruppen und Einzelmitglie-
+dern, dieses Ziel im Auge zu behalten und die Annäherung an dasselbe
+durch Ausgestaltung der der Frau zugänglichen Arbeit in der bürger-
+lichen Gemeinde vorzubereiten.“
+Der Verein für Fraueninteressen in München tritt (ebenso
+wie die anderen von ihm gegründeten Vereine) durch Vorträge, Reso-
+lutionen, durch Aktion seiner Mitglieder in den Vorständen der poli-
+tischen Parteien usw. für das Frauenstimmrecht ein. 1904 petitionierte
+er (damals wegen der vereinsgesetzlichen Schranken nicht als Verein un-
+terzeichnet) um das aktive Landtagswahlrecht für selbständige steuer-
+zahlende Frauen, 1905 um Aufhebung der vereinsgesetzlichen Beschrän-
+kungen, 1908 um Zulassung der Frauen zur Erwerbung des Bürger-
+rechts und um persönliche Stimmabgabe bei den Gemeindewahlen, 1909
+um gesonderte Steuerveranlagung der Ehefrau. 1908 forderte er durch
+Anschreiben sämtliche Hausbesitzerinnen Münchens zur Erwerbung des
+Bürgerrechts und Ausübung des Wahlrechts auf; diese auch in anderen
+bayrischen Städten unternommene Aktion ist seither vom Verein für
+Frauenstimmrecht übernommen. Natürlich wird die Forderung des
+Frauenstimmrechts auch auf den bayrischen Frauentagen vertreten;
+ebenso arbeitet der Hauptverband bayrischer Frauenvereine darauf hin,
+die Frauen und Männer an den kleinen, den neuen Jdeen schwerer zu-
+gänglichen Orten nach und nach zum Verständnis auch der Forderung
+des Frauenstimmrechts zu erziehen. Es sei an dieser Stelle ausdrücklich
+darauf hingewiesen, welche ausgezeichneten Dienste die geographischen
+Verbände in allen Teilen des Reiches in dieser Weise als Pioniere für
+die politische Gleichberechtigung der Frauen leisten können und in vielen
+Fällen auch leisten; es ist ihnen in ganz anderer Weise als den Stimm-
+rechtsorganisationen möglich, in stiller Kleinarbeit allmählich den Bo-
+den neuer Gebiete für diese alle anderen umfassende Forderung der
+Frauenbewegung zu bereiten. Als Anregung und dauernder Ansporn
+zu solcher Tätigkeit ist die Beeinflussung der angeschlossenen Vereine
+durch den Bund deutscher Frauenvereine vom größten Wert. Auch aus
+dem Gedanken heraus, daß die Arbeit für ein Recht die beste Vorberei-
+tung für seine Ausübung ist, muß man diese Beteiligung des größten
+Teils der deutschen organisierten Frauenbewegung an dem Kampf um
+das Frauenstimmrecht begrüßen.
+</text>
+  </TextCorpus>
+</D-Spin>

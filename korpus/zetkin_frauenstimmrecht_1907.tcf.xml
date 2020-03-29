@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/zetkin_frauenstimmrecht_1907</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-zetkin_frauenstimmrecht_1907.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/zetkin_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-zetkin_frauenstimmrecht_1907.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/zetkin_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-zetkin_frauenstimmrecht_1907.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/zetkin_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-zetkin_frauenstimmrecht_1907.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/zetkin_frauenstimmrecht_1907</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-zetkin_frauenstimmrecht_1907.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Frauenstimmrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Zetkin</cmdp:surname>
+<cmdp:forename>Clara</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118636618</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+    <cmdp:persName><cmdp:surname>Gloning</cmdp:surname>
+<cmdp:forename>Thomas</cmdp:forename></cmdp:persName>
+<cmdp:persName><cmdp:surname>Schulz</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+<cmdp:orgName><cmdp:orgName>Universitätsbibliothek Gießen</cmdp:orgName></cmdp:orgName>
+    <cmdp:resp>
+        <cmdp:note type="remarkResponsibility">Bereitstellung der Bilddigitalisate</cmdp:note>
+         <cmdp:date type="importDTA">2011-11-20T12:00:00</cmdp:date>
+    </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">10</cmdp:measure>
+        <cmdp:measure type="tokens">4609</cmdp:measure>
+        <cmdp:measure type="types">1496</cmdp:measure>
+        <cmdp:measure type="characters">35149</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:03:12Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by/4.0/deed.de"><cmdp:p>Namensnennung 4.0 International (CC BY 4.0)</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/zetkin_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/zetkin_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/zetkin_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/zetkin_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="DTADirName">zetkin_frauenstimmrecht_1907</cmdp:idno>
+          <cmdp:idno type="DTAID">30005</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-30005-3</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="DS">Zetkin, Clara: Das Frauenstimmrecht [Begründung zur Resolution: Das Frauenstimmrecht], in: Internationaler Sozialisten-Kongreß zu Stuttgart 18. bis 24. August 1907. Berlin, 1907, S. 40–48.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="a" type="main">Das Frauenstimmrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Zetkin</cmdp:surname>
+<cmdp:forename>Clara</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118636618</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1907</cmdp:date><cmdp:publisher><cmdp:name>Buchhandlung Vorwärts</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+          </cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <ul>
+<li>Langes s wurde als rundes s transkribiert.</li>
+</ul>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+          <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#collections">women</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Internationaler
+Sozialisten-Kongreß
+zu
+Stuttgart
+18. bis 24. August 1907
+Berlin 1907
+Verlag: Buchhandlung Vorwärts, Berlin SW. 68, Lindenstr. 69
+(Hans Weber, Berlin)
+__________________
+Es folgt der zweite Punkt der Tagesordnung:
+Das Frauenstimmrecht.
+Dazu liegt folgende Resolution vor:
+„Der Jnternationale Sozialistenkongreß begrüßt mit größter Freude,
+daß zum ersten Male eine internationale sozialistische Frauenkonferenz in
+Stuttgart zusammengetreten ist und erklärt sich mit den von ihr auf¬
+gestellten Forderungen solidarisch. Die sozialistischen Parteien aller Länder
+sind verpflichtet, für die Einführung des allgemeinen Frauenwahlrechts
+energisch zu kämpfen. Daher sind insbesondere auch ihre Kämpfe für
+Demokratisierung des Wahlrechtes zu den gesetzgebenden Körperschaften in
+Staat und Gemeinde zugunsten des Proletariats als Kämpfe für das
+Frauenwahlrecht zu führen, das energisch zu fordern und in der Agitation
+wie im Parlament mit Nachdruck zu vertreten ist. Jn Ländern, wo die
+Demokratisierung des Männerwahlrechts bereits weit vorgeschritten oder
+vollständig erreicht ist, haben die sozialistischen Parteien den Kampf für
+die Einführung des allgemeinen Frauenwahlrechts aufzunehmen und in
+Verbindung mit ihm selbstverständlich alle die Forderungen zu verfechten,
+die wir im Jnteresse vollen Bürgerrechts für das männliche Proletariat
+etwa noch zu erheben haben. Pflicht der sozialistischen Frauenbewegung
+in allen Ländern ist es, sich an allen Kämpfen, welche die sozialistischen
+Parteien für die Demokratisierung des Wahlrechts führen, mit höchster
+Kraftentfaltung zu beteiligen, aber auch mit der nämlichen Energie dafür
+zu wirken, daß in diesen Kämpfen die Forderungen des allgemeinen Frauen¬
+wahlrechts nach ihrer grundsätzlichen Wichtigkeit und praktischen Tragweite
+ernstlich verfochten wird. Der Jnternationale Kongreß erkennt an, daß
+es nicht angebracht ist, für jedes Land die genaue Zeit anzugeben, wo ein
+Wahlrechtskampf anzufangen sei, erklärt jedoch, daß, wenn ein Kampf für
+das Wahlrecht geführt wird, er nur nach den sozialistischen Prinzipien
+geführt werden soll, also mit der Forderung des allgemeinen Wahlrechts
+für Frauen und Männer.“
+Referentin ist
+Klara Zetkin (die mit lebhaftem Beifall empfangen wird): Jch habe Jhnen
+über die Verhandlungen der Frauenstimmrechtskommission zu berichten und
+Jhnen den vorliegenden Antrag zu begründen, der auch von der ersten inter¬
+nationalen sozialistischen Konferenz mit 47 gegen 11 Stimmen angenommen
+worden ist. Die sozialistischen Frauen werten das Frauenstimmrecht nicht als
+die Frage der Fragen, deren Lösung all die sozialen Hemmnisse beseitigt, welche
+für die freie, harmonische Lebensentwickelung und Lebensbetätigung des weib¬
+lichen Geschlechts bestehen. Denn es rührt nicht an die tiefste Ursache derselben:
+an das Privateigentum, in welchem die Ausbeutung und Unterdrückung eines
+Menschen durch einen anderen Menschen wurzelt. Das zeigt schon ein Blick
+auf die Lage der politisch emanzipierten, aber sozial unfreien und aus¬
+gebeuteten männlichen Proletarier. Die Zuerkennung des Wahlrechts an das
+weibliche Geschlecht hebt nicht den Klassengegensatz zwischen Ausbeutern und
+Ausgebeuteten auf, aus dem die schwersten sozialen Hindernisse für die freie
+Entfaltung und das harmonische Ausleben der Proletarierinnen erwachsen.
+Sie beseitigt aber auch nicht die Konflikte, welche aus den sozialen Gegen¬
+sätzen zwischen Mann und Weib in der kapitalistischen Ordnung für die Frau
+als Angehörige ihres Geschlechts entstehen. Umgekehrt: die volle politische
+Gleichberechtigung des weiblichen Geschlechts bereitet den Boden, auf dem
+diese Konflikte sich zu ihrer vollen Schärfe auswachsen können, Konflikte ver¬
+schiedener Art, deren weittragendster und schmerzensreichster der ist zwischen
+beruflicher Arbeit und Mutterschaft. Für uns Sozialisten kann daher das
+Frauenwahlrecht nicht wie für die bürgerlichen Frauen „das Endziel“ sein.
+Wir schätzen aber seine Eroberung als eine Etappe, aufs innigste zu wünschen
+im Kampfe um unser Endziel. Das Wahlrecht hilft den bürgerlichen Frauen
+die Schranken niederreißen, die in Gestalt der Vorrechte des männlichen Ge¬
+schlechts ihnen Bildungs- und Tätigkeitsmöglichkeit einengen. Es rüstet die
+Proletarierinnen in dem Kampfe, den sie für Erringung vollen Menschen¬
+tums gegen Klassenausbeutung und Klassenherrschaft führen. Es befähigt sie,
+in höherem Maße als bisher teilzunehmen an dem Kampfe für die Eroberung
+der politischen Macht durch das Proletariat zum Zwecke der Ueberwindung der
+kapitalistischen und zur Aufrichtung der sozialistischen Ordnung, in der allein
+die Frauenfrage ihre Lösung findet.
+Wir Sozialisten fordern das Frauenwahlrecht nicht als ein Naturrecht,
+das mit der Frau geboren wird. Wir fordern es als ein soziales Recht, das
+begründet ist in der revolutionierten wirtschaftlichen Tätigkeit, in dem revo¬
+lutionierten gesellschaftlichen Sein und persönlichen Bewußtsein der Frau. Die
+bedarfswirtschaftende Hausfrau der guten alten Zeit ist durch die kapitalistische
+Produktion in das Altenstübchen verwiesen worden. Die berufstätige Frau, vor
+allem aber die lohnarbeitende, die mitten im Wirtschaftsleben und
+Schaffen der Gesellschaft steht, ist an ihrer Stelle der Typus geworden, welcher
+die sozial wichtigste Form der weiblichen wirtschaftlichen Tätigkeit repräsentiert.
+Die Berufs- und Gewerbestatistik aller kapitalistischen Länder spiegelt den
+Wandel wieder. Was die Frau früher produktiv innerhalb der vier Pfähle
+schaffte, das diente dem Konsum, dem Wohle der Familie. Was heute aus
+ihren fleißigen Händen quillt, was ihr Hirn ersinnt an Nutzen, Annehmlichkeit
+und Schönheit, das erscheint als Ware auf dem gesellschaftlichen Warenmarkt,
+und die Frau selbst tritt zu Millionen als Verkäuferin von Arbeitskraft, der
+wichtigsten sozialen Ware, auf dem gesellschaftlichen Arbeitsmarkte auf. Damit
+vollzieht sich eine Revolution ihrer Stellung in der Familie und in der Ge¬
+sellschaft. Die Frau wird von dem Haushalt, als der Quelle ihres Lebens¬
+unterhaltes, losgelöst, sie kann wirtschaftlich außerhalb der Familie existieren,
+sie gewinnt ihre wirtschaftliche Selbstständigkeit von der Familie, vom Manne.
+Vielfach bietet die Familie ihr auch nicht mehr einen befriedigenden Lebens¬
+inhalt. Wie der Mann, unter den gleichen Bedingungen wie er, oft unter noch
+härteren, muß sie den Kampf aufnehmen mit dem feindlichen Leben, mag ihn
+äußere oder innere Lebensnot ihr aufdrängen. Jn diesem Kampfe bedarf sie
+voller politischer Rechte wie der Mann, denn solche Rechte sind Waffen, mittels
+deren sie ihre Jnteressen verteidigen kann und verteidigen muß. Mit ihrem
+sozialen Sein zusammen wird auch ihre Empfindungs- und Gedankenwelt
+revolutioniert. Als schreiende Ungerechtigkeit empfindet sie die politische
+Rechtlosigkeit, die das weibliche Geschlecht lange Jahrhunderte als
+selbstverständlich getragen. Jn langsamem, schmerzensreichem Entwickelungs¬
+gange steigt die Frau aus der Enge des alten Familienlebens empor zum
+Forum des öffentlichen Lebens. Sie fordert ihre volle politische Gleich¬
+berechtigung — wie sie im Wahlrecht zum Ausdruck kommt — als soziale
+Lebensnotwendigkeit und als soziale Mündigkeitserklärung. Das Wahlrecht
+ist das notwendige politische Korrelat der wirtschaftlichen Selbständigkeit
+der Frau.
+Man sollte meinen, daß angesichts dieser Lage der Dinge das ganze
+politisch rechtlose weibliche Geschlecht in einer Phalanx für das allgemeine
+Frauenwahlrecht kämpfen müsse. Dem ist jedoch nicht so. Die bürgerlichen
+Frauen stehen nicht einmal einheitlich und geschlossen hinter dem Prinzip der
+vollen politischen Gleichberechtigung des weiblichen Geschlechts, geschweige denn,
+daß sie als eine festgefügte Macht mit aller Energie für das allgemeine Frauen¬
+wahlrecht kämpfen. Das ist im letzten Grunde nicht der Einsichtslosigkeit, der
+kurzsichtigen Taktik der Führerinnen im frauenrechtlerischen Lager geschuldet,
+wie manches diese auch auf dem Kerbholz haben mögen. Es ist die unvermeid¬
+liche Folge der verschiedenen sozialen Schichtungen innerhalb der Frauenwelt.
+Und nicht bloß der Zweck, für den das Wahlrecht eingesetzt wird, auch der Wert
+dieses Rechtes selbst ist verschieden je nach der sozialen Schicht, der Frauen an¬
+gehören. Der Wert des Wahlrechtes steht im umgekehrten Verhältnis zur
+Größe des Besitzes. Er ist am geringsten für die Frauen der oberen Zehn¬
+tausend, er ist am größten für die Proletarierinnen. So wird auch das Ringen
+für das Frauenwahlrecht von dem Klassengegensatz und dem Klassenkampf
+beherrscht; es kann kein einheitliches Ringen des gesamten Geschlechts sein,
+insbesondere dann nicht, wenn es nicht einem blutlosen Prinzip, sondern dem
+einzig konkreten, lebensvollen Jnhalt desselben gilt: dem allgemeinen Frauen¬
+wahlrecht. Wir können den bürgerlichen Frauen nicht zumuten, über ihren
+eigenen Schatten zu springen. Die Proletarierinnen können daher im Kampfe
+um ihr Bürgerrecht nicht auf die Unterstützung der bürgerlichen Frauen zählen,
+die Klassengegensätze schließen aus, daß sie sich der bürgerlichen Frauenbewegung
+in ihrem Kampfe anschließen. Womit nicht gesagt sein soll, daß sie die bürger¬
+lichen Frauenrechtlerinnen zurückweisen, wenn diese sich im Kampfe für das
+allgemeine Frauenwahlrecht hinter und neben sie selbst stellen, um bei einem
+Getrenntmarschieren vereint zu schlagen. Aber die Proletarierinnen müssen
+klar darüber sein, daß sie das Wahlrecht nicht erobern können in einem
+Kampfe des weiblichen Geschlechts ohne Unterschied der Klasse gegen das
+männliche Geschlecht, sondern nur im Klassenkampf aller Ausgebeuteten ohne
+Unterschied des Geschlechts gegen alle Ausbeuter, ebenfalls ohne Unterschied
+des Geschlechts.
+Jn ihrem Kampfe für das allgemeine Frauenwahlrecht finden die prole¬
+tarischen Frauen eine starke Bundesgenossenschaft in den sozialistischen Parteien
+aller Länder. Das Eintreten der sozialistischen Parteien für das Frauenwahl¬
+recht ist nicht begründet in ideologischen und ethischen Erwägungen. Es wird
+diktiert von der geschichtlichen Erkenntnis und vor allem von dem Verständnis
+für die Klassenlage, für praktische Kampfesbedürfnisse des Proletariats. Dieses
+kann seine wirtschaftlichen und politischen Schlachten nicht schlagen ohne die
+Anteilnahme seiner Frauen, die zum Klassenbewußtsein erwacht, die gesammelt
+und geschult und mit sozialen Kampfesrechten ausgerüstet sind. Dank der
+steigenden Verwendung der Frauenarbeit in der Jndustrie können in vielen
+Gewerben Lohnbewegungen nur durchgeführt werden, wenn auch die Arbeite¬
+rinnen als geschulte und organisierte Klassenkämpferinnen an ihnen teil¬
+nehmen. Und auch die politische Arbeit, der politische Kampf des Proletariats
+muß von den Frauen geteilt werden. Die Verschärfung des Klassenkampfes
+zwischen Ausbeutern und Ausgebeuteten steigert die Bedeutung, die der Er¬
+weckung der Frau zum Klassenbewußtsein und ihrer Beteiligung an der prole¬
+tarischen Emanzipationsbewegung zukommt. Das Erstarken der Gewerkschafts¬
+organisation hat nicht — wie bürgerliche hoffnungsvolle Toren erwarteten —
+den sozialen Frieden gebracht, sondern die Aera der Riesenaussperrungen und
+Riesenstreiks. Die zielbewußte Mitarbeit des Proletariats am politischen
+Leben hat die schärfste Zuspitzung der politischen Kämpfe zur Folge, eine Zu¬
+spitzung, die zu neuen Kampfesmethoden und Kampfesmitteln führt. Jn
+Belgien und Holland hat das Proletariat seinen parlamentarischen Kampf durch
+den politischen Massenstreik ergänzen müssen. Jn Rußland hat es die gleiche
+Waffe in der Revolution mit höchstem Erfolge erprobt. Um die Wahlrechts¬
+reform in Oesterreich den Gegnern zu entreißen, mußte das österreichische
+Proletariat Gewehr bei Fuß stehen, das revolutionäre Kampfmittel des Massen¬
+streiks bereit halten. Riesenstreiks und Riesenaussperrungen, vor allem aber re¬
+volutionäre Massenstreiks legen dem Proletariat die höchsten Opfer auf. Und
+diese Opfer kann es nicht, den besitzenden Klassen gleich, auf Mietlinge ab¬
+wälzen, es kann sie nicht aus einem wohlgefüllten Geldsack bestreiten. Es
+sind Opfer, die jedes einzelne kämpfende Glied der Klasse persönlich tragen
+muß. Daher können sie nur gebracht werden, wann auch die Frauen des
+Proletariats mit geschichtlicher Einsicht von der Notwendigkeit und der Be¬
+deutung der Opfer erfüllt sind. Wie bedeutsam, ja unerläßlich die Durch¬
+tränkung des weiblichen Proletariats mit sozialistischer Gesinnung ist, aus
+der Opferfreudigkeit und Heldenmut fließt, hat gerade der glänzende öster¬
+reichische Wahlrechtskampf gezeigt. Er hätte nicht siegreich durchgeführt werden
+können, ohne die tätige Mitwirkung der proletarischen Frauen. Es muß be¬
+sonders hervorgehoben werden, daß der Erfolg unserer österreichischen Brüder
+ganz wesentlich mit ist eine Folge der Treue, der Arbeits- und Opferfreudigkeit
+und des Mutes, als der Kampfestugenden, die unser österreichischen Ge¬
+nossinnen im Kampfe bewiesen haben. (Bravo!)
+Aus der kurz skizzierten Sachlage folgt, daß das Proletariat ein
+praktisches Lebensinteresse an der politischen Gleichberechtigung des weiblichen
+Geschlechts hat und zum Kampfe für das volle Bürgerrecht der Frau gedrängt
+wird. Dieser Kampf rüttelt die Massen der Frauen auf und hilft sie zum
+Klassenbewußtsein erziehen. Die Zuerkennung des Wahlrechts an die Frauen
+ist die Voraussetzung für die zielbewußte Anteilnahme der Proletarierinnen
+am proletarischen Klassenkampfe. Zugleich schafft sie den stärksten Anreiz, die
+Erweckung, Sammlung und Schulung des weiblichen Proletariats mit dem
+gleichen Eifer zu betreiben, wie die Aufklärung und Organisierung des männ¬
+lichen Proletariats. Solange die Frau politisch eine Rechtlose ist, gilt sie auch
+vielfach für eine Machtlose, der Einfluß, den sie trotzdem auf das politische Leben
+zu üben vermag, wird unterschätzt. An der Börse des parlamentarischen Lebens
+hat nur der Stimmzettel Kurswert. Die Kurzsichtigen, die im politischen
+Kampf nur mit Mandaten und Stimmenzahlen rechnen, betrachten die Be¬
+mühungen, das weibliche Proletariat zum klassenbewußten Leben zu erwecken,
+als eine Art Kurzweil, als einen Luxus, den die Sozialdemokratie sich nur
+gestatten dürfe, wenn sie Ueberfluß an Zeit, Kraft und Mitteln habe. Sie
+übersehen das zwingende Klasseninteresse, welches das Proletariat dran hat,
+daß der Klassenkampf auch in der Frauenwelt zur Entfaltung kommt und die
+Proletarierin ihn zielbewußt an der Seite ihrer Brüder ausficht. Von dem
+Augenblick an, wo die Frau politisch emanzipiert ist, eine Stimme für ein
+Mandat zu vergeben hat, wird dieses Jnteresse auch den Kurzsichtigsten in
+unseren Reihen klar. Es beginnt das Wettrennen aller Parteien um die
+Stimmen der Proletarierinnen, denn diese bilden die Mehrheit des weiblichen
+Geschlechts. Die sozialistischen Parteien müssen aber dafür sorgen, daß sie
+durch ihre Aufklärungsarbeit alle bürgerlichen Parteien aus dem Felde schlagen.
+Und ihr Kampf für das Bürgerrecht des Weibes wirkt in dieser Richtung.
+Das hat die Geschichte des Wahlrechtskampfes in Finnland bewiesen und die
+erste Wahlrechtskampagne, die dort unter dem allgemeinen Wahlrecht für
+Männer und Frauen geführt worden ist. Das Frauenwahlrecht ist ein vor¬
+zügliches Mittel, Bresche zu legen in die letzte und vielleicht die festeste
+Festung des Unverstandes der Massen: in die politische Gleichgültigkeit und
+Rückständigkeit breiter Massen des weiblichen Proletariats. Und gerade diese
+Festung müssen wir schleifen, denn von ihr aus wird der proletarische Gegen¬
+wartskampf erschwert und geschädigt, wird die Zukunft der Klasse bedroht.
+(Bravo!)
+Jn unseren Tagen des verschärften Klassenkampfes erhebt sich aber die
+Frage: für welches Frauenwahlrecht sollen die sozialistischen Parteien kämpfen?
+Um Jahre zurück hätte sie gegenstandslos geschienen. Man hätte geantwortet:
+für das Frauenwahlrecht überhaupt. Denn damals wurde noch auch ein be¬
+schränktes Frauenwahlrecht lediglich als eine Halbheit, als ein ungenügender
+Fortschritt, aber immerhin doch als eine erste Etappe zur politischen
+Emanzipation des weiblichen Geschlechts bewertet. Heute ist diese harmlose
+Auffassung nicht mehr möglich. Heute müssen die sozialistischen Parteien mit
+allem Nachdruck erklären, daß sie nur für das allgemeine Frauenwahlrecht
+kämpfen können, daß sie das beschränkte Frauenwahlrecht als eine Verfälschung
+und Verhöhnung des Prinzips der politischen Gleichberechtigung klipp und klar
+zurückweisen. Was früher instinktiv getan wurde — durch die Einführung des
+beschränkten Frauenwahlrechts die Machtposition des Besitzes zu stärken —,
+das geschieht jetzt bewußt. Zwei Tendenzen wirken in den bürgerlichen
+Parteien dahin, den grundsätzlichen Widerstand gegen das Frauenwahlrecht
+zu brechen. Die steigende äußere und innere Lebensnot großer Kreise der
+bürgerlichen Frauenwelt, die für ihr Bürgerrecht kämpfen müssen. Die
+wachsende Furcht vor dem politischen Vormarsch des kämpfenden Proletariats.
+Die Einführung des beschränkten Frauenwahlrechts erscheint in dieser Situation
+als ein rettender Ausweg. Das Proletariat muß die Kosten des Friedens
+zwischen den Männern und Frauen der besitzenden Klassen zahlen. Die
+besitzenden Klassen fassen die Einführung eines beschränkten Frauenwahlrechts
+ins Auge, denn sie bewerten dieses als einen Wall, der sie gegen die an¬
+schwellende politische Macht des kämpfenden Proletariats schützen soll. Das
+haben zuerst Vorgänge in Norwegen bewiesen. Als dort dem anstürmenden
+Proletariat, das unter Führung der Sozialdemokratie kämpfte, das allgemeine
+Wahlrecht zu den Gemeindevertretungen nicht länger versagt werden konnte,
+da wurde die Reform durch die Einführung eines beschränkten Frauenwahl¬
+rechts verschandelt. Unumwunden wurde von bürgerlichen Politikern erklärt,
+daß das Zensuswahlrecht für die Frauen ein Gegengewicht sein solle gegen
+das allgemeine Wahlrecht der Männer. Und mit der gleichen Erwartung ist
+kürzlich in Norwegen die Einführung eines beschränkten Frauenwahlrechts
+zu dem Parlament begründet worden. Es bleibe dahingestellt, ob das zur Ein¬
+führung gelangte beschränkte Frauenwahlrecht gerade in Norwegen diese re¬
+aktionären Hoffnungen erfüllen wird. Denn Norwegen ist ein Land, in welchem
+die alte bäuerliche Demokratie noch eine Rolle spielt und die junge Sozial¬
+demokratie bereits eine Macht geworden ist. Aber in Ländern mit normaler
+kapitalistischer Entwickelung — um diesen Ausdruck zu gebrauchen — wird ein
+beschränktes Frauenwahlrecht, das an Besitz, Steuerleistung, Bildungsgrad usw.
+gebunden ist, zur Stärkung der politischen Macht der besitzenden Klassen führen.
+Daher sind auch in Jtalien, Oesterreich, Frankreich, Belgien und Deutschland
+Stimmen einflußreicher Politiker laut geworden, welche zu reaktionären
+Zwecken die Einführung eines beschränkten Frauenwahlrechts warm be¬
+fürworten. Jn England kämpft das Gros der bürgerlichen Frauenbewegung.
+für ein beschränktes Frauenwahlrecht, das — wie wiederholt erklärt wurde —
+die Gefahr der Einführung des allgemeinen Wahlrechts abwenden soll. Die
+sozialistischen Parteien müssen daher bei jeder Forderung des Frauenwahlrechts
+dem scharf ins Auge blicken, was sich hinter der Losung verbirgt: gleiches
+politisches Recht für Weib und Mann. Und sie können den Kampf nur für das
+allgemeine Frauenwahlrecht aufnehmen, denn dieses allein ist der lebensvolle
+konkrete Ausdruck des Prinzips der politischen Gleichberechtigung des gesamten
+weiblichen Geschlechts. Wir erblicken in dem beschränkten Frauenwahlrecht
+weniger die erste Stufe der politischen Emanzipation des weiblichen Geschlechts,
+als vielmehr die letzte Stufe der politischen Emanzipation des Besitzes. Es
+ist ein Privilegium des Besitzes, nicht ein Allgemeinrecht. Es emanzipiert die
+Frau nicht, weil sie eine Frau ist, sondern obgleich sie eine Frau ist; nicht als
+Persönlichkeit erhebt es sie zur Vollbürgerin, vielmehr nur als Trägerin von
+Vermögen und Einkommen. Es läßt daher die große Masse des weiblichen
+Geschlechts politisch unfrei und schreibt ihre Unfreiheit nur auf ein anderes
+Konto. Aber über die rechtlos belassenen Proletarierinnen hinaus trifft es
+ihre Klasse. Es wirkt als ein Pluralvotum der Besitzenden und stärkt deren
+politische Macht. Daher ist es auch unzutreffend, das beschränkte Frauenwahl¬
+recht praktisch als einen Schritt zur politischen Emanzipation der Prole¬
+tarierinnen durch das allgemeine Wahlrecht zu bewerten. Umgekehrt: indem
+es die politische Macht der Besitzenden steigert, stärkt es die reaktionären Kräfte,
+welche sich der weiteren Demokratisierung des Wahlrechts zugunsten des Prole¬
+tariats ohne Unterschied des Geschlechts entgegenwerfen. Dazu noch eins: es
+läßt die bürgerlichen Frauen als Befriedigte aus dem Kampfe um die politische
+Gleichberechtigung des gesamten weiblichen Geschlechts ausscheiden. Jn keinem
+Lande noch, wo das beschränkte Frauenwahlrecht zu verwaltenden oder gesetz¬
+gebenden Körperschaften besteht, kämpfen die politisch emanzipierten Frauen
+mit aller Kraft für das Bürgerrecht ihrer ärmeren Schwestern, für das all¬
+gemeine Frauenwahlrecht. Je mehr überall die Neigung der Reaktion wächst,
+durch die Einführung eines beschränkten Frauenwahlrechts ein Bollwerk gegen
+die steigende Macht des Proletariats zu errichten, um so notwendiger ist es,
+die Proletarierinnen über diesen Zusammenhang der Dinge aufzuklären. Es
+gilt zu verhüten, daß sie sich unter der Parole: Gerechtigkeit für das weibliche
+Geschlecht zu Hand- und Spanndiensten für ein Unrecht gegen sich selbst und
+ihre Klasse mißbrauchen lassen.
+Unsere Forderung des Frauenwahlrechts ist keine frauenrechtlerische, vielmehr
+eine Massen- und Klassenforderung des Proletariats. Sie ist ein grundsätzlich
+wie praktisch gleich wichtiger organischer Teil des gesamten sozialdemokratischen
+Wahlrechtsprogramms. Es muß daher für die Forderung nicht bloß jederzeit
+agitiert; sondern vor allem auch in Verbindung mit allen Wahlrechtskämpfen
+gestritten werden, welche die sozialistischen Parteien für die politische Demo¬
+kratie führen. Dieser Auffassung entsprechend hat die Mehrheit der Kom¬
+mission beschlossen, daß jeder Wahlrechtskampf auch als Kampf für das Frauen¬
+wahlrecht geführt werden muß. Das Recht der proletarischen Frau wie das
+des proletarischen Mannes hat durch den gemeinsamen Kampf zu gewinnen.
+Das hat vor allem der Wahlrechtskampf in Finnland erwiesen. Die Majorität
+der Kommission konnte der Auffassung nicht beipflichten, daß die Forderung des
+Frauenwahlrechts aus Zweckmäßigkeitsrücksichten unter Umständen von vorn¬
+herein kampflos aus dem Wahlrechtsfeldzuge des Proletariats ausgeschieden,
+zurückgestellt werden dürfe. Die besitzenden Klassen stehen jeder Wahlrechts¬
+forderung des Proletariats in Götterdämmerungstimmung gegenüber. Sie
+bewerten auch die bescheidenste Demokratisierung des Wahlrechts als einen
+Anfang vom Ende ihrer Klassenherrlichkeit und setzen ihr den zähesten Wider¬
+stand entgegen. Nicht der Charakter und der Umfang der sozialistischen Wahl¬
+rechtsforderungen entscheidet über den Ausgang des Kampfes, sondern das
+Machtverhältnis zwischen den ausbeutenden und ausgebeuteten Klassen. Es
+ist nicht unsere kluge Bescheidenheit und Mäßigung, die uns Siege sichert,
+sondern die Macht des Proletariats, die hinter unseren Forderungen steht.
+Jn der Folge erhebt sich die Frage: ist die Aufrollung unseres gesamten Wahl¬
+rechtsprogramms, ist insbesondere die Forderung des Frauenwahlrechts ge¬
+eignet, die Macht der sozialistischen Partei, des Proletariats zu stärken? Wir
+bejahen diese Frage mit allem Ernst und allem Nachdruck. Je grundsätzlicher
+die Sozialdemokratie ihre Wahlrechtskämpfe führt, um so tiefere und breitere
+Schichten des Volkes wühlt sie auf und revolutioniert sie, erfüllt sie mit Zu¬
+trauen in den Ernst und die Treue ihrer Aktion, mit Begeisterung für ihre
+Kampfesziele. Außerdem wiederholt sich, was die alte Fabel von den Stäben
+erzählt, die zum Bündel vereinigt, nicht zerbrochen werden können. Je zahl¬
+reicher die politisch Rechtlosen sind, deren Jnteressen die Sozialdemokratie in
+ihrem Wahlrechtskampfe vertritt, der Enterbten, die ihr Recht von deren Sieg
+erwarten, um so mehr schwillt das Heer der Streiterinnen und Streiter an,
+die sozialistische Schlachten mitschlagen helfen. Und muß nicht eine Forde¬
+rung in höchstem Maße diese Wirkung haben, die dem Bürgerrecht der Hälfte
+des Proletariats, der gesamten Nation gilt, deren Hälfte, welche die Bürger er¬
+ziehen soll, aber von deren Rate ausgeschlossen ist und nun Einlaß heischend
+an die Tore der Parlamente pocht? Der Wahlrechtskampf, den die Sozial¬
+demokratie auch für das Recht der Frau führt, gewinnt eine breitere Basis,
+ein umfassenderes Ziel, eine größere Wucht und Stoßkraft. Er zwingt zu Aus¬
+einandersetzungen mit alten tiefgewurzelten Vorurteilen und rüttelt daher die
+Massen auf. Und schließlich trägt er Unsicherheit, Verwirrung und Zer¬
+splitterung in das Lager unserer Feinde. Er läßt die sozialen Gegensätze
+zwischen dem Mann und der Frau der besitzenden Klassen wirksam werden.
+Wir sind daher der Ueberzeugung, daß im ureigenen Klasseninteresse des Prole¬
+tariats die sozialistischen Parteien über die prinzipielle Anerkennung des
+Frauenwahlrechts hinausgehen, daß sie den Kampf für die Umsetzung des
+Prinzips in die Praxis energisch aufnehmen müssen. Damit soll keineswegs
+gesagt sein, daß die Sozialdemokratie irgendeines Landes um des Frauenwahl¬
+rechts willen zur Unzeit einen Wahlrechtskampf vom Zaune brechen solle.
+Ebensowenig, daß in jedem Wahlrechtskampf das Frauenwahlrecht die ausschlag¬
+gebende Rolle spielen müsse, daß die Wahlrechtskämpfe geführt werden unter
+der Devise: das Frauenwahlrecht oder nichts. Welche mehr oder minder be¬
+deutsame Rolle das Frauenwahlrecht in den proletarischen Wahlrechtskämpfen
+spielen wird und ziehen muß, das hängt von der gesamten geschichtlichen Lage
+in den verschiedenen Ländern ab. Die sozialistischen Parteien müssen in punkto
+Wahlrecht für alle Forderungen kämpfen, die sie im Jnteresse des Proletariats
+grundsätzlich erheben, und sie tragen als Siegesbeute heim, wie viel ihre Macht
+den Gegnern zu entreißen vermag. Worauf es ankommt, ist, daß das Frauen¬
+wahlrecht grundsätzlich gefordert und in der Agitation unter den Massen wie
+im Parlament mit dem Nachdruck vertreten wird, welcher der Bedeutung der
+Forderung entspricht. Wir wissen, daß dadurch in den meisten Ländern noch
+nicht von heute auf morgen die Eroberung des allgemeinen Frauenwahlrechts
+gesichert wird. Wir sind aber auch überzeugt, daß dadurch sein künftiger Sieg
+vorbereitet wird. Die sozialistischen Frauen aber müssen in dem proletarischen
+Kampfe für das Bürgerrecht des weiblichen Geschlechts energisch treibende
+Kräfte sein. Nicht bloß in dem Sinne, daß sie selbst sich mit aller Hingabe an
+den proletarischen Wahlrechtskämpfen beteiligen. Vielmehr auch dadurch, daß sie
+ihnen die Massen der Proletarierinnen als überzeugte Mitstreiterinnen zuführen.
+Jndem sie die Massen des weiblichen Proletariats in Reih und Glied der
+kämpfenden Brüder stellen, erklärten sie beweiskräftig zweierlei: Daß die
+Massen der Frauen selbst das Wahlrecht wollen, und daß die Proletarierinnen
+reif sind für den richtigen Gebrauch des Wahlrechts. Schreiten wir ohne Zagen
+vorwärts in den Kampf für das Frauenwahlrecht. Er dient der Erweckung des
+weiblichen Proletariats zum klassenbewußten politischen Leben. Und das ist
+von der höchsten Bedeutung für die Gegenwart und Zukunft des Proletariats
+und seines Befreiungskampfes. Nicht die geduldige Kreuzesträgerin, die stumpf¬
+sinnige Sklavin, die zielbewußte Kämpferin wird ein Geschlecht von starken
+Kämpfern und Kämpferinnen erziehen. Mit höchstem Recht kann gerade die
+Frau von sich sagen, daß ihr aus ihren Gebeinen Rächer erstehen, Kinder, die
+sie nicht bloß mit den Säften ihres Schoßes, die sie mit den kühnen Gedanken
+ihres Hirns, mit den leidenschaftlichen Wünschen ihres Herzens genährt hat,
+Kämpfer und Kämpferinnen, die sie nicht nur eines Tages ersetzen, nein, die
+sie an Kampfestugenden übertreffen. (Stürmischer Beifall.)
+Jn der Diskussion erhielt das Wort
+Genossin Pelletier-Paris: Bis in die neueste Zeit hinein hat die Frau
+außerhalb der Sexualität und der Materialität überhaupt nicht existiert. Sie
+hatte ihre Lebensgrundlage im Mann, und ohne ihn war sie einfach nichts.
+Wir Frauen der modernen Zeit sind dieser Bevormundung überdrüssig und
+verlangen unsere volle Gleichberechtigung. Die Naturgesetze sind keine un¬
+überschreitbare Barriere. Wenn man sagt, wir seien minderwertige Wesen,
+so vergißt man einen Jahrtausende alten Druck der Knechtschaft, unter dem
+wir gelitten haben. Jedenfalls sind wir sozial nicht minderwertig, und so
+fordern wir das Frauenstimmrecht als Mittel im proletarischen Befreiungs¬
+kampfe. (Beifall.)
+Genossin Murby-England (Fabian Society): Auch wir sind für das
+Frauenwahlrecht, sind aber bereit, das beschränkte Frauenwahlrecht als Ab¬
+schlagszahlung anzunehmen und stimmen in diesem Punkte der Resolution
+der Kommission nicht zu. Wir können auch sehr gut mit der bürgerlichen
+Frauenstimmrechtsgesellschaft auskommen. Die sozialistische Partei hat seit
+25 Jahren das Frauenwahlrecht im Programm, hat aber wenig dafür getan.
+Die bürgerlichen Frauenstimmrechtsgesellschaften haben viel mehr erreicht. Von
+den 690 Abgeordneten des Unterhauses sind nicht weniger als 423 für das
+beschränkte Frauenwahlrecht. Was darum auch dieser Kongreß beschließen
+möge, wir werden kraft der Autonomie der Nationen mit den bürgerlichen
+Frauenrechtlerinnen zusammengehen. (Beifall bei einem Teil der Engländer.)
+Adelheid Popp-Wien (mit lebhaftem Händeklatschen empfangen): Als
+die österreichischen sozialistischen Frauen beim Jnternationalen Bureau den
+Antrag einreichten, das Frauenwahlrecht auf die Tagesordnung dieses Kon¬
+gresses zu setzen, haben wir es getan, weil wir in den vielfachen Wahlrechts¬
+kämpfen der österreichischen Sozialdemokratie, die leider zur Eroberung des
+Frauenwahlrechts noch nicht geführt haben, die Wahrnehmung gemacht haben,
+daß die Frauen, wenn sie heute dank der Agitation der Sozialdemokratie das
+Wahlrecht bekämen, nicht mehr eine leichte Beute der klerikalen reaktionären
+Parteien sein würden, sondern in großen Scharen frei und selbstbewußt da
+ihren Platz einnehmen würden, wo die Männer kämpfen, in der sozialdemokra¬
+tischen Arbeiterpartei. (Bravo!) Wir wünschen daher, daß dieser Kongreß
+nicht nur das theoretische Bekenntnis aller Sozialdemokraten für das Frauen¬
+wahlrecht zum Ausdruck bringt, sondern daß auch alle Sozialdemokraten diese
+Forderung praktisch propagieren, trotz mancher Schwierigkeiten, die die poli¬
+tische Frauenbewegung natürlich für die Familie erzeugt. Der Kampf um das
+Frauenwahlrecht muß getragen sein von der Unterstützung der sozialistischen
+Parteien aller Länder. (Beifall.) Fordern wir doch das Frauenwahlrecht
+nicht in erster Linie aus frauenrechtlerischen Erwägungen, obwohl wir es als
+eine Schmach betrachten, daß arbeitenden Frauen und Müttern das einfachste
+natürlichste Staatsbürgerrecht vorenthalten wird, sondern weil es nach
+unserer heiligsten und festesten Ueberzeugung dazu dienen muß, die Kraft
+des Proletariats zu stärken und eine wirtschaftliche Besserstellung zu er¬
+kämpfen den Müttern, den Kindern und der ganzen arbeitenden Klasse. (Sehr
+gut!) Die Sozialdemokratie darf nicht warten, bis die Frauen selbst für ihr
+Wahlrecht demonstrieren, sie muß selbst die Führung in diesem Kampfe über¬
+nehmen, denn es geht um proletarische Rechte. Die vorliegende Resolution
+drückt diesen Gedanken aus, sie ist die Frucht eines Kompromisses. Wir sind
+bereit, jedes Mittel auszunutzen, und wenn die bürgerlichen Frauen unsere
+Kundgebungen und unseren Kampf unterstützen wollen, werden wir sie nicht
+zurückweisen. Daher kann ich den Einwand der englischen Genossin nicht ver¬
+stehen. Den Hauptstützpunkt haben wir natürlich in unseren männlichen Ge¬
+nossen aller Länder, die von der Ansicht durchdrungen sein müssen, daß es sich
+nicht um eine spezielle Frauenangelegenheit, sondern um ein Stück des all¬
+gemeinen proletarischen Kampfes handelt, daß durch das Frauenwahlrecht auch
+die gewerkschaftliche Organisation des weiblichen Proletariats gestärkt und die
+politische Macht der Arbeiterklasse erhöht wird. (Lebhafter Beifall.)
+Burrow-London erklärt im Namen der Sozialdemokratischen Federation
+Englands, daß diese sich in einstimmiger Anhängerschaft zur Resolution Zetkin
+befindet. (Bravo!) Wir wüßten nicht, mit welchem Rechte man den Frauen,
+die in Rußland so mutig und todesbereit für die Revolution gekämpft haben,
+das Wahlrecht verweigern wollte. Die Sozialdemokraten aller Länder kennen
+nur ein Wahlrecht, das gleiche Wahlrecht für alle Großjährigen, das nicht ge¬
+bunden ist an Bildung oder Besitz, sondern beruht auf dem Rechte der Persön¬
+lichkeit als Glieder der großen Menschheitsfamilie. Jch konstatiere mit
+Scham, daß das einzige Land, wo Sozialisten gegen dieses Prinzip verstoßen
+haben, England ist. Jndem aber Miß Murby das beschränkte Frauenwahl¬
+recht verkündigt, setzt sie sich in Widerspruch zu der großen Partei, welcher
+die Jndependent Labour Party angehört, der neugegründeten Arbeiterpartei.
+Diese hat auf ihrem letzten Jahreskongreß zu Belfast mit 605000 gegen
+268000 Stimmen erklärt, daß Miß Murby unrecht hat, daß die eingebrachte
+Resolution recht hat, das beschränkte Frauenwahlrecht zu verwerfen. Auf dem
+Kongreß ist dasselbe denn auch geschehen. Miß Murby hat zwar gesagt:
+„Besser ein halbes Laib Brot, als gar keins für einen Verhungernden!“ Wie
+aber, frage ich, wenn das halbe Laib Brot vergiftet ist? Und für uns
+Sozialisten ist jedes Wahlrecht vergiftet, das ein Vorrecht der besitzenden
+Klasse ist und ihre Macht stärkt. Mr. Dickinson, der Vater der letzten Bill,
+die das beschränkte Frauenwahlrecht forderte, hat selbst erklärt, daß unter
+diesem beschränkten englischen Frauenwahlrecht keine einzige Arbeiterfrau
+das Wahlrecht erhalten würde. (Hört! hört!) Wir treten nicht für
+eine Vermehrung der Rechte der Ausbeuter, sondern für eine Vermehrung
+der Rechte der Proletarier ein. Wir lehnen es auch ab, uns gegen¬
+über Kongreßbeschlüssen auf die Autonomie der Nationen zu berufen. Kapi¬
+talismus, Klerikalismus, Ausbeutung und Unterdrückung sind international.
+So muß auch das Proletariat zusammenstehen, um die Befreiung der mensch¬
+lichen Gesellschaft in der Zukunft zu erobern. (Lebhafter Beifall.)
+Damit schloß die Diskussion.
+Die Resolution der Kommission wurde gegen eine
+Stimme angenommen. (Lebhafter Beifall.)
+Hierauf werden die weiteren Verhandlungen auf Freitag 10 Uhr vertagt.
+Schluß 7 Uhr.
+______
+</text>
+  </TextCorpus>
+</D-Spin>

@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/krueger_wahlrecht_1918</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-krueger_wahlrecht_1918.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/krueger_wahlrecht_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-krueger_wahlrecht_1918.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/krueger_wahlrecht_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-krueger_wahlrecht_1918.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/krueger_wahlrecht_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-krueger_wahlrecht_1918.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/krueger_wahlrecht_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-krueger_wahlrecht_1918.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Über Wahlrecht und Wahlpflicht der deutschen Frau</cmdp:title>
+        <cmdp:title type="sub">Eine Zusammenstellung aus zwei Vorträgen</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Krüger</cmdp:surname>
+<cmdp:forename>Elsa</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Lengefeld</cmdp:surname>
+<cmdp:forename>Selma</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/116900075</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2017-11-24T15:36:09Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2017-11-24T15:36:09Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">19</cmdp:measure>
+        <cmdp:measure type="tokens">7957</cmdp:measure>
+        <cmdp:measure type="types">2446</cmdp:measure>
+        <cmdp:measure type="characters">56176</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:11Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/krueger_wahlrecht_1918</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/krueger_wahlrecht_1918</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/krueger_wahlrecht_1918</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/krueger_wahlrecht_1918</cmdp:idno>
+          <cmdp:idno type="DTADirName">krueger_wahlrecht_1918</cmdp:idno>
+          <cmdp:idno type="DTAID">32399</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32399-2</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Krüger, Elsa; Lengefeld, Selma von: Über Wahlrecht und Wahlpflicht der deutschen Frau. Weimar, 1918.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Über Wahlrecht und Wahlpflicht der deutschen Frau</cmdp:title>
+          <cmdp:title level="m" type="sub">Eine Zusammenstellung aus zwei Vorträgen</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Krüger</cmdp:surname>
+<cmdp:forename>Elsa</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Lengefeld</cmdp:surname>
+<cmdp:forename>Selma</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/116900075</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1">1</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Weimar</cmdp:pubPlace>
+            <cmdp:date type="publication">1918</cmdp:date><cmdp:publisher><cmdp:name>R. Borkmann</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Herzogin-Anna-Amalia-Bibliothek Weimar</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">MAG! Hh 3:160</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+<p>
+  Bogensignaturen: keine Angabe;
+  Druckfehler: gekennzeichnet;
+  fremdsprachliches Material: keine Angabe;
+  Geminations-/Abkürzungsstriche: keine Angabe;
+  Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+  i/j in Fraktur: keine Angabe;
+  I/J in Fraktur: wie Vorlage;
+  Kolumnentitel: keine Angabe;
+  Kustoden: keine Angabe;
+  langes s (ſ): als s transkribiert;
+  Normalisierungen: keine Angabe;
+  rundes r (&#xa75b;): keine Angabe;
+  Seitenumbrüche markiert: ja;
+  Silbentrennung: wie Vorlage;
+  u/v bzw. U/V: keine Angabe;
+  Vokale mit übergest. e: keine Angabe;
+  Vollständigkeit: vollständig erfasst;
+  Zeichensetzung: wie Vorlage;
+  Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Ausschuß für die politische Aufklärung der Frau
+in Weimar.
+Über Wahlrecht
+und Wahlpflicht
+der deutschen Frau.
+Eine Zusammenstellung aus zwei Vorträgen
+von
+Elsa Krüger
+und
+Selma von Lengefeld.
+Weimar,
+Dezember 1918.
+Die neue Wahlordnung zur National-
+versammlung
+macht Vielen Kopfzerbrechen. Es seien die wich-
+tigsten Punkte in folgendem dargelegt.
+Das etwa 40 Millionen Wähler umfassende Reich
+wird in 39 Wahlkreise eingeteilt. Die Parteien
+eines Wahlkreises stellen Listen geeigneter, für die
+Wahl in Betracht kommender Männer und Frauen
+auf. Jede Liste darf nur so viele Namen enthalten,
+wie Abgeordnete für den Kreis gewählt werden sol-
+len. Auf den Thüringer Wahlkreis entfallen 14
+Kandidaten. Es ist also falsch, wenn man bei dieser
+Art des Wahlverfahrens, die man Verhältnis-
+wahl nennt, immer wieder von dem Abgeordneten
+spricht. Es wird nicht ein Vertreter sondern eine
+Liste mit 14 Namen gewählt. Natürlich können sich
+verschiedene Parteien zu einer Vorschlagsliste ver-
+einigen, je mehr dies geschieht, um so weniger Li-
+sten werden zur Abstimmung kommen. Die meisten
+Abgeordneten bringt natürlich die Liste durch, auf
+die die meisten Wählerstimmen entfallen, aber auch
+die mit weniger Stimmen gewählten Vorschlags-
+listen entsenden Vertreter in einer entsprechenden ge-
+ringeren Anzahl. Es kann allerdings auch eine
+Liste, auf die unverhältnismäßig wenig Stimmen
+gefallen sind, ganz unberücksichtigt bleiben.
+Die Berechnung ergibt sich aus folgendem klei-
+nen Beispiel: Vier Listen sind aufgestellt (ABCD).
+Acht Abgeordnete sind im ganzen zu wählen. Es
+entfallen auf Liste A 270, B 510, C 60, D 828 Stim-
+men.
+Um nun das richtige Verhältnis der Listen zu-
+einander, und damit die auf jede entfallende Zahl
+der Abgeordneten zu errechnen, teilt man die Wäh-
+lerstimmen durch 1, dann durch 2, durch 3 usw., wie
+folgt:
+Man teile durch A (270) B(510) C(60) D(828)
+1 =	270*	510*	60	828*
+2 =	135	255*	30	414*
+3 =	90	170*	20	276*
+4 =	671 2	1271 2	15	207*
+Man setzt nun neben die höchste aller Zahlen
+einen *, dann neben die zweithöchste und so fort,
+bis man acht Zahlen mit * versehen hat. Die An-
+zahl der * ergibt sodann die Anzahl der Abgeord-
+neten, die auf jede Liste entfallen. Demnach ent-
+sendet Vorschlagsliste A 1 Vertreter, B 3 Vertreter,
+C seinen Vertreter, D 4 Vertreter; das ergibt acht
+Abgeordnete im ganzen.
+Aus dem Beispiel geht hervor, daß die Kandida-
+ten der Reihe nach gewählt werden müssen, man
+nennt dies „gebundene Listen“ Es kommt also
+ganz auf den Platz an, den der Vorgeschlagene auf
+der Liste einnimmt, je weiter unten er steht, desto
+weniger Aussicht auf Erfolg hat er. Wahlberechtigt
+ist jede über 20 Jahre alte männliche oder weibliche
+Person. Ausgeschlossen sind nur Entmündigte oder
+Leute, denen die bürgerlichen Ehrenrechte abgespro-
+chen sind. Wählerlisten werden in kleineren Be-
+zirken, von etwa 3000 Einwohnern, angelegt, die
+Namen, Alter, Gewerbe und Wohnungen des Stimm-
+berechtigten enthalten. Etwa vier Wochen vor dem
+Wahltag sollen diese Listen acht Tage lang auslie-
+gen, und es ist dringende Pflicht jedes Wählers, sich
+davon zu überzeugen, daß er ordnungsgemäß ein-
+getragen ist.
+Die Wahl geschieht durch einen genau vorge-
+schriebenen Zettel, der einzeln in einen amtlich
+gestempelten Umschlag gesteckt und persönlich
+abgegeben werden muß. Vertretung ist nicht zuläs-
+sig. Der Umschlag ist undurchsichtig, damit keine Be-
+einflussung und Kontrolle möglich ist. Das verlangt
+die „geheime“ Wahl.
+Es ist Pflicht jedes Stimmberechtigten, sich genau
+mit den Aeußerlichkeiten des Wahlvorgangs ver-
+traut zu machen, damit nicht durch kleine Formfeh-
+ler seine abgegebene Stimme ungültig erklärt
+werden muß.
+Presseabteilung des Bürgerausschusses.
+Jn der schwersten, ernstesten und erschütterndsten Zeit, die das deutsche
+Volk jemals in seiner Gesamtheit betroffen hat, – mitten in dem
+Niederbruch seiner Verteidigungsmittel vor einer riesenhaften
+feindlichen Übermacht, gegen die es über vier Jahre lang mit Auf-
+bietung aller Kräfte standgehalten und den heimatlichen Boden von
+den Schrecken des Kampfes frei gehalten hat, – mitten in der durch
+den Krieg geschaffenen und ihrer Heilung harrenden großen wirtschaft-
+lichen und seelischen Notlage im Jnnern des Vaterlandes und endlich
+– mitten hinein in den politischen Gewissenskampf, den wir nach der
+Revolution um den Neubau unseres Staatslebens miteinander aus-
+zufechten haben, ist den deutschen Frauen in ihrer Gesamtheit, kraft
+Verordnung der neuen Regierung, das große Recht der vollen staats-
+bürgerlichen Gleichstellung neben dem Mann gegeben worden, d.h.
+den Zulaß zur Ausübung des politischen allgemeinen, gleichen,
+geheimen und direkten Wahlrechtes vom vollendeten 20 ten Lebens-
+jahre an. Die Frauen können die Volksvertreter in die National-
+versammlung des Reichs wie in diejenigen der Bundesstaaten mit wählen,
+das nennt man aktives Wahlrecht, wie auch selbst als Abgeordnete
+gewählt werden, das nennt man passives Wahlrecht.
+Es ist mit Sicherheit anzunehmen, daß der überwiegende Teil
+der deutschen Frauen, zumal die politischen Ereignisse sich jetzt so
+überstürzen, sich noch nicht annähernd der Bedeutung des zugestandenen
+neuen Rechtes klar ist, ja, daß vermutlich sehr viele von ihnen über-
+haupt noch nichts vom Frauenstimmrecht wissen. Sie ahnen es nicht,
+welch großes politisches Machtmittel sie damit zugeteilt erhielten und
+welch ungeheure Verantwortung für die Gesamtheit ihres Vaterlandes
+ihnen nunmehr in Hand und Herz gegeben worden ist, ihnen als
+der zahlenmäßig größeren Hälfte des deutschen Volkes. Es wird
+noch einer längeren Zeitspanne und einer großen aufklärenden Arbeit
+in öffentlichen Versammlungen, von Haus zu Haus, von Mund zu
+Mund bedürfen, an der jeder Einzelne sich beteiligen sollte, um
+dem neuen Gedanken überall Eingang zu verschaffen, auch können
+wir nicht erwarten, in den wenigen Wochen, die bis zur Wahl der
+Nationalversammlung noch bleiben, dies Ziel ganz zu erreichen. Aber
+weil die Zeit drängt, weil augenblicklich von dieser Wahl die ganze
+Zukunft unseres Vaterlandes abhängt, weil für uns dabei alles auf
+dem Spiel steht, müssen wir versuchen, so gut es irgend geht, die
+wahlberechtigten Frauen aufzurütteln, sie herbei zu rufen zu ihrer
+Pflicht und ihnen zu helfen, in all dem neuen, was von ihnen ver-
+langt wird, sich zurechtzufinden.
+Die folgenden Worte sind dazu geschrieben, um die Frauen
+auf ihr Wahlrecht vorzubereiten, mit der ausdrücklichen Absicht, in
+diesen Ausführungen keine Werbearbeit für eine besondere politische
+Partei zu treiben. Die Parteipolitik ist eine notwendige Sache,
+weil nicht alle Menschen gleicher Meinung sein können, und weil zu
+einem geordneten, kraftvollen, politischen Wirken die Gesinnungs-
+genossen in feste Gruppen zusammengeschlossen sein müssen, und an
+dieser Parteipolitik werden auch die Frauen sich eifrig zu beteiligen
+haben. Aber ehe sie sich einer Partei anschließen können, müssen sie
+einige allgemeine Kenntnisse über die deutsche Politik und über die
+Rechte und Pflichten der Wähler haben und müssen es vor allem
+lernen, ihr neues Recht zu einer tiefernsten Gewissenssache ihrem
+Volk und Vaterland gegenüber zu machen. Und noch eins: ehe
+die Parteipolitik auch die Frauen in Gruppen trennen wird, ist es
+so ungeheuer wichtig, das zu betonen, was sie alle, ganz abgesehen
+von ihrer einzelnen Überzeugung, mit einander verbindet, was sie
+auf denselben Grund und Boden stellt, von dem sie alle ausgehen,
+und das ist: ihre gemeinsame Frauenschaft, oder um noch
+einen stärkeren Ausdruck für diesen einigenden Gedanken zu gebrauchen:
+das ist ihre gemeinsame Mutterschaft, das Wort in seiner
+weitesten Bedeutung genommen. Wie der Körper der Frau, so ist
+auch ihr Geist und ihre Seele zu einem bedeutenden Teil auf ihre
+Aufgabe als Mutter des Volkes eingestellt und diese ihre weibliche
+Veranlagung muß sie mit hineintragen in ihre Verantwortung für
+das Gesamtwohl. Die Frauen sollen die Vertreterinnen
+des Mutterwillens im wirtschaftlichen und poli-
+tischen Staatsleben sein. Es werden manche Aufgaben in
+der Gesetzgebung vorkommen, die das weibliche Geschlecht besonders
+berühren und zu deren Gestaltung daher die Wählerinnen eine
+einheitliche Meinung haben werden, weshalb sie versuchen müssen,
+sich einen gewissen überparteilichen Zusammenhalt zu wahren. Aller-
+dings ist solcher Zusammenhalt nur bei gegenseitiger Achtung der
+politischen Überzeugung des einen vor dem anderen möglich, auch
+vor der Ansicht des Gegners.
+Angesichts der vollendeten Tatsache des politischen Wahlrechts,
+das den Frauen gegeben wurde ohne zu fragen, ob die einzelne
+damit einverstanden sei oder nicht, erübrigt es sich eigentlich über
+die Berechtigung des Frauenstimmrechtsgedankens und seine geschicht-
+liche Entwicklung noch Worte zu verlieren. Soweit aber diese Dinge
+zur augenblicklichen Aufklärung und als Fingerzeige für die Zukunft
+dienen können, sollen sie erwähnt werden.
+Es ist eine althergebrachte Auffassung, daß die Frauen nichts
+mit der Politik, also auch nichts mit der Gesetzgebung zu tun haben
+sollen. Diese Ansicht muß uns aber zweifelhaft werden, wenn wir
+den Satz einmal umdrehen und fragen: Haben denn Politik und
+Gesetzgebung nichts mit der Frau zu tun? Wir merken da sofort,
+daß etwas an der ersten Behauptung unklar gedacht ist, denn die
+Gesetze haben sehr vielmit der Frau zu tun. Die alte Anschauung
+ist aus den früheren Verhältnissen heraus erklärlich, in denen Leben
+und Arbeit der Frau sich fast ganz im Rahmen der Familie abspielten
+deren Vertreter nach außender Mann war. Nach innen zu
+sicherten Sitte und Gewohnheit der Frau ein vielfach recht umfang-
+reiches Herrschaftsrecht, wie es noch heute die Bäuerin in manchen
+Gegenden hat. Aber wir wissen ja alle, daß die wirtschaftliche
+Entwicklung der letzten 100 Jahre einen großen Teil der Frauen,
+auch der verheirateten, aus dem gesicherten Hort der Familie heraus-
+gerissen, und in das außerhäusliche Erwerbsleben hineingestellt hat,
+sodaß sie direkte Mitarbeiterinnen der öffentlichen Volkswirtschaft
+wurden. Es ist in erster Linie diese Tatsache, das Einrücken der
+weiblichen Millionenscharen in das Erwerbsleben, was zur politischen
+Betätigung der Frau führen muß. Darum ist auch die Berufs-
+organisation das erste Stück politischer Erziehung für die Frauen
+gewesen. Ganz naturgemäß, denn die dem wirtschaftlichen Kampf
+ums Dasein Ausgesetzte empfand am eigenen Leibe die starke Ab-
+hängigkeit ihres Lebens mit seinem Wohl und Wehe von den staat-
+lichen Maßnahmen. Es wäre ein unhaltbarer Zustand, wenn die
+für Frauen geltenden Gesetze auch in alle Zukunft nur von Männern
+geschrieben und gehandhabt würden, die tatsächlich nicht imstande
+sind, alle Jnteressen des weiblichen Geschlechts zu erfassen. Das
+ist kein Vorwurf gegen den Mann, sondern besagt nur, daß Mann
+und Frau etwas von Natur verschiedenes sind. Beweis dafür sind
+eine Fülle von dringenden Wünschen der Frauen, die immer wieder
+in den Tiefen des männlichen Papierkorbes verschwanden.
+Als die Frauen vor etlichen Jahrzehnten anfingen, nach einer
+eigenen Freiheit und Selbständigkeit zu streben, galt es manchen
+von ihnen als wünschenswertes Ziel, alles so zu tun und zu können
+wie der Mann. Sie merkten dabei nicht, daß sie auf diese Weise
+wesentliches von ihrem Besten einbüßen würden, daß sie dagegen
+sich und der Menschheit am erfolgreichsten dienen könnten in der
+vollen Ausgestaltung und Betätigung ihrer weiblichen Veranlagung.
+Heute ist es uns klar, daß Mann und Frau wie zwei Kreise sind, die
+sich zwar teilweise aber nicht vollständig decken, daß sie ein gemeinsames
+Bereich des allgemein Menschlichen haben und dazu jedes sein be-
+sonderes Gebiet von männlicher bezw. weiblicher Eigenart. Für die
+gewerbliche Arbeit hat man ihre Verschiedenheit so ausgedrückt: „Die
+starke Hand und der geschickte Finger.“ Diese Erkenntnis wird auch
+in der Politik eine wichtige Rolle spielen, denn Mann und Frau
+werden in manchen Fragen einheitlich denken, andere aber von
+verschiedenen Gesichtspunkten aus betrachten.
+Der Pionierstaat für das Frauenstimmrecht ist Wyoming in
+Nordamerika gewesen, der schon 1869 dasselbe einführte. Später
+sind die Vereinigten Staaten nach und nach zu dem Prinzip über-
+gegangen, sowie auch Australien. Jn Europa haben Finnland,
+Norwegen und Dänemark innerhalb der letzten 12 Jahre den Frauen
+das Stimmrecht gegeben. Jn Norwegen wählten bei ihrem ersten
+Wahlgang 1909 90 v. H. aller stimmberechtigten Staatsbürgerinnen.
+Jn allen diesen Ländern hat sich ein guter Einfluß der Frauen auf
+die staatlichen Maßnahmen im Sinne ihrer Wünsche für das eigene
+Geschlecht, wie zur Hebung des allgemeinen Volkswohls bemerkbar
+gemacht.
+Jn Deutschland haben die Anfange des Sozialismus im Jahre
+1847 den engen Zusammenhang von Frauen- und Arbeiterfrage
+bereits anerkannt. Aber eine bürgerliche Frau ist es gewesen, Luise
+Otto Peters, die schon 1848, also vor 70 Jahren, die politische
+Mitarbeit der Frau nicht nur für ein Recht, sondern für eine Pflicht
+erklärte.
+1891 wurde auf dem internationalen sozialdemokratischen Partei-
+tag in Brüssel das demokratische Wahlrecht ohne Unterschied des
+Geschlechts als Grundsatz angenommen und im selben Jahr auf dem
+Erfurter Parteitag dem deutschen sozialdemokratischen Programm ein-
+gefügt. 1912 waren in Deutschland schon in 500-600 Wahlkreisen
+bezw. Ortsvereinen sozialdemokratische Frauen in den betreffenden
+Parteivorständen tätig. Daher kann die Sozialdemokratie bei den
+bevorstehenden Wahlen auf eine seit langer Zeit vorbereitete, und
+gut geschulte weibliche Wählerschaft rechnen, während die übrigen
+Parteien auf diesem Gebiet noch fast alles nachzuholen haben.
+Die bürgerliche Frauenbewegung beschäftigt sich in Deutschland
+erst seit dem Jahre 1902 eingehender mit dem Frauenstimmrecht,
+wenn auch schon viele ihrer Angehörigen diesen Gedanken als einstiges
+Ziel von vornherein erkannt hatten. Doch wollten sie den Aufbau
+der Frauenrechte und -pflichten von unten anfangen, um schließlich
+die politische Betätigung der Frau als Dach auf das Gebäude zu
+setzen. Aber während ihrer Arbeit fühlten doch die meisten, daß nur
+die Anteilnahme an der Gesetzgebung ihnen erst die Mittel zur
+Durchführung ihres Bauplanes in die Hand geben würde. Deshalb
+stellte auch der große Bund deutscher Frauenvereine die Forderung
+nach dem Frauenstimmrecht in Staat, Gemeinde und Kirche schon
+vor Jahren in sein Programm mit ein. Aber schließlich, es ist doch
+immer nur ein Teil der Frauen, der in der bürgerlichen und sozial-
+demokratischen Frauenbewegung organisiert ist, für die weit größere
+Anzahl, die diesen Kreisen nicht angehört – und auch von den
+Lohnarbeiterinnen sind sehr viele noch nicht beruflich oder politisch
+zusammengeschlossen –, kommt das Frauenstimmrecht als ein ganz
+neuer, schwer zu begreifender, mit Scheu zu betrachtender und von
+vielen zunächst noch abgelehnter Gedanke. Unter denen, die ihn ab-
+lehnen sind sowohl die wertlosesten, die gleichgültigen, die abge-
+stumpften Frauen, sowie solche, die dem öffentlichen Leben noch ganz
+fern stehen, aber auch viele sehr ernste und nachdenkliche, die durch
+ihre Zurückhaltung beweisen, wie gewissenhaft sie die Sache nehmen.
+Werden diese letzteren die Jdee selbst erst als Notwendigkeit erkannt
+haben, so können sie auf Grund ihrer Gewissenhaftigkeit gerade die
+besten Mitarbeiterinnen werden, während die Masse der Unwissenden
+und Gleichgültigen am schwersten in Bewegung zu bringen ist.
+Die weltgeschichtlichen Ereignisse treiben unsere innerpolitischen
+Verhältnisse mit orkanartiger Geschwindigkeit vor sich her, welcher
+Gestaltung zu, das kann noch niemand übersehen; auch das Frauen-
+wahlrecht ist ganz abhängig von dem was kommen wird. Es ist zu
+beachten, daß das jetzige Stimmrecht zunächst nur für die konstitu-
+ierende Nationalversammlung des Deutschen Reiches und die ent-
+sprechenden Versammlungen der Bundesstaaten gilt. Jn deren Be-
+ratungen soll die neue deutsche Verfassung gegeben werden, zu deren
+Bereich auch Feststellung der Art und Weise des künftig geltenden Wahl-
+rechts gehört. Es ist aber kaum anzunehmen, daß der einmal ein-
+geführte Gedanke der politischen Gleichberechtigung der Geschlechter
+wieder verschwinden wird, so daß, wie es auch kommen mag, die Frau
+ihre Stellung neben dem Mann im Staatsleben erhalten wird.
+Es ist klar, daß nunmehr das Frauenstimmrecht sich auch außer-
+halb der Politik überall geltend machen wird, wo Männer und
+Frauen gemeinsam einer Organisation angehören. Das Gemeinde-
+wahlrecht ist hier an erster Stelle zu nennen, das vereinzelt und
+in beschränktem Maße den deutschen Frauen schon zugänglich war.
+Da die Kriegsarbeit überall in Deutschland die Frauen in die Rat-
+häuser als Helferinnen eingeführt hat, so werden sie sich als voll-
+berechtigte Bürgerinnen in der Gemeindearbeit zunächst auch am
+sichersten fühlen. Ferner ist die Durchführung des kirchlichen
+Frauenwahlrechtes zu vermuten, denn nach der beabsichtigten
+Trennung von Staat und Kirche wird die letztere noch mehr als
+bisher auf die Anteilnahme und Mitarbeit ihrer Gemeinde sich stützen
+müssen. Und endlich muß noch in Bezug auf das Frauenstimmrecht
+auf das soziale Versicherungswesen, auf die Berufsorganisationen
+aller Art, sowie auf die sonstigen, zum Wohl des Ganzen dienenden
+öffentlichen und privaten Einrichtungen hingewiesen werden. Welch
+eine Fülle von Verantwortung wird damit dem weiblichen Geschlecht
+zugewiesen.
+Wenn nun aber jetzt in den Frauen der Mahnruf zur Aus-
+übung ihrer staatsbürgerlichen Pflicht Widerhall gefunden und den
+Willen zur Tat wach gerufen hat, so tauchen bei ihnen zugleich eine
+ganze Reihe von Fragen auf: „Was habe ich denn nun zu tun?
+Wie wähle ich? Wen wähle ich? Zu welcher Körperschaft wähle ich?
+Welcher Partei soll ich mich anschließen? So bedauerlich es ist, daß
+ein großer Teil der Frauen den politischen Fragen unseres Reiches
+bisher unwissend und gleichgültig gegenüberstand und darum von
+dem jetzigen Zusammenbruch alles Bestehenden noch viel mehr über-
+rascht worden ist als die Männer im allgemeinen, so ist diese Un-
+wissenheit doch erklärlich und bis zu einem gewissen Grad entschuld-
+bar. Denn das weibliche Geschlecht war in Deutschland mit Bezug
+auf politische Tätigkeit irgend welcher Art in einen Zauberkreis ge-
+bannt, aus dem einen Ausweg zu finden unter der alten Regierungs-
+form unmöglich schien. Und da der Frau die Anteilnahme am staat-
+lichen Leben versagt war, wurde es ihr auch sehr erschwert, eigene
+Kenntnisse und Erfahrungen zu sammeln, vor allem fehlte der äußere
+Antrieb, der in die Augen springende praktische Zweck zur Anteil-
+nahme an der Politik. Das ist nun mit einem Schlage anders ge-
+worden. Durch die plötzliche Erteilung des Frauenstimmrechts tritt
+die Verbreitung einer eingehenden Aufklärung über politische Fragen
+in den Vordergrund des Jnteresses.
+Über die Zahl der in Betracht kommenden wahlberechtigten
+Frauen gehen die Meinungen ziemlich auseinander, genaues läßt
+sich für das ganze Reich schwer sagen. Man rechnet mit etwa
+21 ½ Millionen gegen 18 ½ Millionen Männerstimmen. Wenn alle
+diese Frauenstimmen mit in die Wagschale geworfen werden, so kann
+das unter Umständen eine ganz bedeutende Verschiebung des End-
+ergebnisses herbeiführen. Den politischen Parteien ist diese Sachlage
+auch durchaus bewußt, das zeigt sich deutlich an dem Eifer, mit dem
+die Frauen jetzt mit einem Mal von ihnen umworben werden, und
+an der Sorge, mit der man bemüht ist, ihnen jede mögliche politische
+Aufklärung zukommen zu lassen.
+Wie eingangs schon gesagt wurde, haben die Frauen ebenso
+wie die Männer vom vollendeten 20. Lebensjahre an das aktive und
+passive Wahlrecht erhalten. Das aktive berechtigt dazu, selbst das
+Wahlrecht auszuüben, also seine Stimme für eine oder mehrere zur
+Wahl gestellte Persönlichkeiten abzugeben. Wer im Besitz des
+passiven Wahlrechts ist, kann selbst durch Abstimmung als Ab-
+geordneter gewählt werden, er erleidet sozusagen die Wahl. Die
+Ausübung des aktiven Wahlrechtes und die Bewertung und Zählung
+der Stimmen kann nun in der verschiedensten Weise geschehen. Das
+unbeschränkteste Männerwahlrecht der Welt, wie es in dem Maß
+kein anderes Volk besitzt, war das bisherige Reichstagswahlrecht, das
+Bismarck im Jahre 1871 bei Begründung des Deutschen Reiches
+allen Staatsbürgern vom 25. Lebensjahre an gab. Es war ein
+persönliches Wahlrecht, weil jeder Wähler selbst an die Wahlurne
+schreiten mußte, um den von ihm ausgefüllten Wahlzettel hinein-
+zustecken. Allgemein hieß es, weil ohne Unterschied jeder deutsche
+Mann vom genannten Lebensalter an das betreffende Recht besaß,
+außer wenn er entmündigt war, Armenunterstützung empfing, sich im
+Konkurs befand, oder wenn ihm die bürgerlichen Ehrenrechte entzogen
+worden waren. Geheim hieß die Wahl, weil der Wähler den
+Zettel mit dem Namen des von ihm zu wählenden Abgeordneten
+ohne Angabe seines eigenen Namens in einem vor den Blicken
+Neugieriger geschützten Raum in einen Briefumschlag steckte, den er
+alsdann in die Wahlurne tat. Die Möglichkeit der Wahrung des
+Wahlgeheimnisses ist ein außerordentlich wichtiges Erfordernis, um
+ein wirklich der ehrlichen Meinung der Wähler entsprechendes Er-
+gebnis zu erzielen und um eine Wahlbeeinflussung von Seiten ver-
+schiedener Jnteressengruppen zu verhindern. Direkt war das Wahl-
+recht, weil der Wähler seine Stimme unmittelbar für den von ihm
+gewünschten Volksvertreter abgab und nicht, wie es im preußischen
+Landtagswahlrecht war, für einen Wahlmann stimmte, der dann erst
+wieder mit den übrigen aufgestellten Wahlmännern zusammen den
+eigentlichen Abgeordneten ernannte. Und endlich gleich war das
+Wahlrecht, weil jeder Wähler nur eine gültige Stimme hatte, ohne
+Berücksichtigung des Alters, des Vermögens und der Lebensstellung.
+Das Gegenteil vom Einstimmenwahlrecht ist das Plural- oder Mehr-
+stimmenwahlrecht. Durch dieses erhalten gewisse Wähler, wenn sie
+ein bestimmtes Alter erreicht haben, Grundbesitzer sind, öffentliche
+Ämter bekleiden, große Vermögen haben usw. eine oder mehrere
+Zusatzstimmen. Diese Art des Wahlrechts hat den Zweck, der Ver-
+schiedenheit unter den Menschen Rechnung zu tragen und der ab-
+soluten Majoritätsherrschaft entgegen zu treten. Die Landtage der
+Bundesstaaten hatten vielfach solche Wahlordnungen, in denen ein-
+zelne Stände, Berufe oder Grund- und Vermögensbesitzer noch bevor-
+zugt wurden. Am rückständigsten war das berüchtigte Dreiklassenwahlrecht
+des preußischen Landtages, um dessen Beseitigung seit Jahren von
+den fortschrittlichen und sozialdemokratischen Parteien gekämpft wurde.
+Alle diese Einzelbestimmungen gehören der Vergangenheit an,
+denn das für die Nationalversammlung festgesetzte Wahlrecht soll nun
+auch für sämtliche Parlamente in den Bundesstaaten das allein
+gültige sein. Für dieses neue Wahlrecht zur Nationalversammlung
+ist die ehemalige Grundlage der Reichstagswahl, daß sie eine all-
+gemeine, gleiche, geheime und direkte sein soll, beibehalten worden, denn sie
+ist eine Voraussetzung der demokratischen Gleichheit. Neu ist dagegen
+die Einführung des Verhältniswahlrechts, auch Proportionalwahl-
+recht, kurz Proporz genannt. Nach diesem werden alle Deutschen
+jetzt zu wählen haben, darum ist es notwendig, seine schwierige
+Handhabung etwas ausführlicher zu erklären. Bisher ist die Ver-
+hältniswahl in Deutschland nur bei einzelnen Organisationen, z. B.
+für die Kaufmanns- und Gewerbegerichte, für die Reichsangestellten-
+versicherung und die Krankenkassen, sowie in kleineren staatlichen
+Gemeinschaften, z. B. für die Hamburger Bürgerschaftsvertretung und
+den württembergischen Landtag angewandt worden. Für ein so
+großes Gebiet, wie das Deutsche Reich es ist, wird diese Art der
+Wahl überhaupt zum ersten Mal versucht.
+Bei den bisher üblichen Wahlen stellten die verschiedenen Parteien
+in einem Wahlkreis je einen Kandidaten auf, der Wähler gab für
+einen derselben seine Stimme ab, und derjenige galt als gewählt,
+der mehr Stimmen auf sich vereinigte, als die übrigen Kandidaten
+seines Wahlkreises zusammen erhalten hatten. Wurde eine solche
+absolute Majorität der Stimmen bei der ersten Wahl nicht erreicht,
+so mußte noch eine Stichwahl zwischen den beiden Kandidaten an-
+gesetzt werden, welche die meisten Stimmen aufzuweisen hatten. Also
+schließlich ging aus jedem Wahlkreis ein einzelner Abgeordneter her-
+vor, und nur die Anschauung seiner Wähler war durch ihn im
+Parlament vertreten, alle übrigen Wählerstimmen des Kreises kamen
+nicht zur Geltung. Ein grundlegender Unterschied des Verhältnis-
+wahlrechtes gegen diese alte Wahlform ist, daß nicht mehr einzelne
+Kandidaten in kleineren Wahlkreisen aufgestellt und gewählt werden, son-
+dern daß man größere Wahlbezirke macht und in diesen jede in ihnen ver-
+tretene Partei je eine ganze Liste von Kandidaten zur Wahl aufstellen
+läßt. Der Wähler hat sich für die Gesamtannahme solcher Liste einer Partei
+bei der Wahl zu entscheiden. Der Vorteil dieser Wahlform ist zunächst,
+daß die Person des einzelnen Wahlbewerbers mehr zurücktritt; ferner
+können in den stark vergrößerten Wahlbezirken kleinliche Sonderwünsche
+nicht das Wahlergebnis beeinflussen; weiter beseitigt das neue System
+die Stichwahlen, und endlich und hauptsächlich steigert es das allgemeine
+politische Jnteresse, denn diese Wahlform hat zur Folge, daß jede
+einzelne Stimme ihren Wert hat und daß nicht, wie früher geschah,
+die Stimmen für die nicht erfolgreichen Kandidaten unter den Tisch
+fallen. Dieser letztere Gesichtpunkt muß den Frauen gegenüber ganz
+besonders betont werden, um ihnen klar zu machen, wie wichtig die
+Beteiligung jedes Wählers an den kommenden Wahlen ist. Das
+Wort Verhältniswahl besagt nämlich, daß in jedem Wahlkreis die
+einzelnen Parteien so viele Abgeordnete in das Parlament entsenden
+können, als sie im Verhältnis zu den anderen Parteien dieses Bezirks
+Stimmen für sich erhalten. Es wurden zu dem Zweck allen Wahl-
+kreisen nach der Höhe ihrer Einwohnerzahl eine bestimmte Anzahl
+von Volksvertretern zugebilligt. Für die Reichswahlen soll auf
+150000 Einwohner ein Abgeordneter entfallen. Jede Partei stellt
+nun eine Liste auf mit soviel Kandidaten, als der Kreis insgesamt
+wählen darf. Dabei ist die Reihenfolge der Namen von großer
+Bedeutung, denn die zuerst genannten haben mehr Aussicht gewählt
+zu werden als die späteren. Der einzelne Wähler gibt also seine
+Stimme für die ganze Liste der Partei ab, zu der er Vertrauen hat.
+Diese Stimmen werden gezählt und jeder Partei alsdann eine ver-
+hältnismäßige Anzahl von Abgeordneten zugebilligt, sodaß zum
+Beispiel in einem Wahlkreis die Partei, die ein Drittel aller Stimmen
+erhalten hat, auch den dritten Teil ihrer aufgestellten Kandidaten
+als Abgeordnete entsenden kann, die ein Viertel erhielt, den vierten
+Teil, usw. Und zwar gelten die Namen auf der Liste von oben an
+gezählt, daher ist, wie schon gesagt, die Reihenfolge der Namen so
+wichtig. Die bedeutendsten Parteivertreter wird man an die Spitze
+der Liste stellen. Die Berechnung dieser Verhältniswahl ist eine
+sehr verwickelte und schwierige, weil die Zahlenverhältnisse natürlich
+nie so einfach sind, wie die genannten Beispiele. Jn kurzen Worten
+ist es nicht zu erklären; wer sich dafür interessiert, möge das beigefügte
+Aufklärungsblatt studieren, auf dem ein möglichst einfaches und
+klares Bild solcher Berechnung gezeigt wird. Das Ergebnis der
+Wahl ist also, daß in jedem Wahlkreis diejenigen Parteien am meisten
+Abgeordnete erhalten, die die meisten Wähler haben und diejenigen
+die wenigsten, die die geringste Stimmenzahl aufweisen, daß aber
+doch jeder Partei undjedem Wähler ihr Recht wird, wenn nicht
+etwa der Anteil an einer Partei so gering ist, daß er bei der Be-
+rechnung nicht in Frage kommt.
+Die Notwendigkeit von geordneten Parteiorganisationen wurde
+schon in den Eingangsworten betont, weil nur durch solchen Zusammen-
+schluß die nötige Stoßkraft zum Durchsetzen bestimmter Forderungen
+erreicht wird. Darum geht auch an die Frauen von allen Seiten
+der dringende Mahnruf: organisiert euch, schließt euch den politischen
+Parteien an, denn nur auf diese Weise könnt ihr politisch wirken.
+Nun aber kommt die außerordentlich schwerwiegende Frage für die
+Frauen, im Rahmen welcher Partei sollen wir nun wählen, welcher
+Partei sollen wir uns anschließen? Diese Frage ist um so schwieriger,
+weil die deutsche Revolution vom 9. November auch für das Partei-
+wesen einen Umsturz herbeigeführt hat, aus dem erst allmählich sich
+etwas neues herausgestaltet. Die meisten Parteiprogramme sind
+null und nichtig geworden, die bürgerlichen Parteien haben alle ihre
+Namen geändert, sind teilweise auseinandergefallen und haben sich
+in einer anderen Gruppierung zusammengeschlossen. Diese Schrift,
+die wie gesagt für keine Partei Werbearbeit besorgen will, kann sich
+nur darauf beschränken, die neue Parteiordnung anzuführen. Die am
+stärksten rechts stehende Partei, die ehemaligen Konservativen, denen
+sich noch einige kleinere Gruppen ähnlicher Richtung angeschlossen
+haben, nennen sich jetzt: Deutsch-nationale Volkspartei. Das frühere
+Zentrum, also die katholisch-politische Partei, heißt jetzt: Christlich
+Demokratische Volkspartei. Die Nationalliberalen und die Fortschrittliche
+Volkspartei, die den rechten und linken Flügel des Liberalismus
+bildeten, haben sich nunmehr, nach Überbrückung einer anfänglichen
+bedauernswerten Uneinigkeit, zur Deutschen Demokratischen Partei zu-
+sammengeschlossen. Und endlich ist die Partei der Linken, die
+Sozialdemokratie, in drei Gruppen getrennt. Die gemäßigte, d. h.
+die Mehrheitssozialisten (so genannt, weil sie zu der Reichstagsmehr-
+heit gehörten, die im Juli 1917 die Friedensresolution beschloß)
+sammeln sich um Ebert und Scheidemann. Die in ihren sozialistischen
+Forderungen sehr viel schärfer auftretenden Unabhängigen Sozial-
+demokraten werden von Haase und Ledebour geführt. Die aus der
+Novemberrevolution hervorgegangene Regierung setzt sich aus Ver-
+tretern dieser beiden Gruppen zusammen. Endlich die radikalste der
+Linksparteien, die Spartakusgruppe, die bei uns den Bolschewismus
+und die absolute Herrschaft ihrer Überzeugung ohne Anteilnahme
+der übrigen Parteien an der Regierung, also die Diktatur einer
+einzelnen Klasse vertritt, schart sich um Liebknecht und Rosa
+Luxemburg. Vom Standpunkt der Frau sei zu diesen verschiedenen
+Parteien nur das eine gesagt, daß sie als der körperlich schwächere
+Teil der Menschheit dort am sichersten und besten aufgehoben ist, wo
+Ordnung, Sitte und Gerechtigkeit regiert, daß sie aber auf alle Fälle
+da unterliegen muß, wo eine einseitige Gewaltherrschaft die Oberhand
+hat, weil sie der Gewalt gegenüber keine Waffe besitzt.
+An dieser Stelle soll noch eine erklärende Bemerkung ein-
+geschoben werden, um einer häufig vorkommenden Verwechslung der
+Parteinamen entgegenzutreten. Jn den verschiedenen Bezeichnungen
+kommt mehrmals das Wort „demokratisch“ in Verbindung mit anderen
+Begriffen vor, oder auch das Wort „Volkspartei“. Das ist im Grunde
+ein und dasselbe, denn demos ist das griechische Wort für Volk und
+bedeutet die Gesamtheit der in einem Staat zusammengeschlossenen
+Menschheitsgruppe. Also jede Partei, die für die Anteilnahme des
+ganzen Volkes und nicht nur für diejenige einzelner Volksklassen an
+der Regierung eintritt, ist eine demokratische. Jn diesem Sinne
+sprechen wir auch von der künftigen Gestaltung Deutschlands als von
+einer demokratischen Republik. Die Sozialdemokratie verbindet nun
+mit diesem Gedanken der Volksherrschaft das Programm ihres
+sozialistischen Zukunftsstaates, in dem die Herstellungsmittel in der
+Volkswirtschaft, also z. B. Grund und Boden, Arbeitsgebäude, Maschinen,
+Rohstoffe, usw. der Allgemeinheit angehören und die wirtschaftlichen
+Erwerbsbetriebe aller Art sozialisiert, d. h. vergesellschaftlicht, ver-
+staatlicht werden sollen. Die ganz links stehenden rein sozialistischen
+Politiker verlangen auch Abschaffung des Privateigentums. Diese Er-
+klärung erscheint notwendig, weil noch so oft demokratisch, sozialistisch
+und sozialdemokratisch mit einander verwechselt werden.
+Bei welcher Partei die wahlberechtigte Frau das Wohl ihres
+Vaterlandes am besten aufgehoben glaubt – das zu entscheiden bleibt
+dem Gewissen jeder einzelnen überlassen. Unser Wahlrecht ist ein
+geheimes, für keinen besteht ein Zwang von außen zur Entscheidung.
+Jeder muß so handeln, wie er es vor sich selbst und seinem Volk
+verantworten kann. Den Frauen sei dringend geraten, mehr als bis-
+her den politischen Teil der Zeitungen zu lesen und politische Ver-
+sammlungen zu besuchen, um sich einen eigenen Eindruck davon zu
+verschaffen, was die einzelnen Parteien anstreben. Man lernt am
+besten aus der Praxis, und man wird nie für etwas reif um das
+man sich nicht kümmert. Ferner ist eine persönliche Aussprache mit
+politisch erfahrenen Männern und Frauen zur Klärung der eigenen
+Anschauung sehr zweckdienlich und notwendig. Welche Frau von der
+Wahl sich fern hält, aus welchem Grund es auch sein mag, die stärkt
+mit ihrer Stimmenthaltung ihre Gegenpartei. Zählt ihre Stimme
+nicht mit, so gewinnt die Gegnerschaft eine Stimme Vorteil bei der
+Abzählung. Es ist nun anzunehmen, daß die im öffentlichen Beruf
+stehenden Frauen, namentlich die in den Städten, aus eigenem An-
+trieb und weil sie durch Berufsorganisationen geschulter sind, ihr
+Stimmrecht reichlicher ausüben werden, als die dem Leben außerhalb
+des Hauses noch ferner stehenden, die Hausfrauen sind hier besonders
+gemeint, und dann die Mädchen und Frauen auf dem Lande. An
+diese Kreise muß der Weckruf noch ganz besonders hindringen. Das
+muß jetzt von Mund zu Mund gehen, wie ein Lauffeuer, das muß
+zünden wohin es kommt, das wird hier und da erst kleine Flämmchen
+geben oder nur im verborgenen schwälen, es wird auch noch auf
+manch nasses Holz treffen, das nicht brennen will, es wird vereinzelt
+nur Strohfeuer bewirken, mit dem der Sache unseres Volks nicht
+gedient ist, das sieht nach was aus und schafft doch nichts, aber
+schließlich muß doch das ganze eine gute, tüchtige, wärmende Glut
+werden, ein leuchtender, brennender Wille in den Herzen: „Jch will
+eine ganze deutsche Frau und Staatsbürgerin sein, ich
+will meinem Volk und meinem Vaterlande mit meinen
+besten Kräften dienen.“
+Die erste Probe auf die politische Selbständigkeit und Leistungs-
+fähigkeit der Frau wird die Nationalversammlung des Deutschen
+Reiches sein, auf deren schleunigste Herbeiführung alle diejenigen
+Deutschen hindrängen, die unseren jetzt nur provisorisch regierten Staat
+auf eine neue, gesetzliche, vom gesamten Volkswillen gutgeheißene
+Grundlage stellen wollen. Zudem weigern sich auch unsere Feinde,
+mit einer Regierung Frieden zu schließen, die nicht als gesetzmäßige
+Vertretung des ganzen Volkes angesehen werden kann. Gegner der
+Nationalversammlung sind die ganz links stehenden Parteianhänger
+der Spartakusgruppe, eben weil sie allein die Herrschaft in Händen
+haben wollen mit Ausschaltung des nicht auf sozialistischem Stand-
+punkt stehenden Bürgertums. Darum ist es in der jetzigen Zeit für
+die demokratischen Parteien besonders wichtig, sich fest zusammen
+zu schließen und ihre frühere Zersplitterung zu überwinden, weil sie
+sonst keine einheitliche Macht und Kraft haben, um ihre Stellung
+zu behaupten. Eine große Erschwerung der schnellen Einberufung
+einer Nationalversammlung ist erstens der Umstand, daß sämtliche
+etwa 40 Millionen wahlberechtigte Deutsche beiderlei Geschlechts zu-
+nächst in Wahllisten eingetragen werden müssen, damit der Betrug
+einer mehrmaligen Stimmabgabe des Einzelnen verhindert wird, und
+zweitens, die Tatsache, daß unendlich viele Staatsbürger, z. B. die
+heimkehrenden Truppen, die entlassenen Munitionsarbeiter usw. zur
+Zeit nicht ortsansässig sind, ja, daß viele als Gefangene oder als
+Besatzungstruppen noch im Ausland sind. Die unter Ebert und seinen
+5 Genossen stehende Regierung setzt aber alle Kraft dafür ein, die
+Wahl möglichst schnell erfolgen zu lassen. Die Einteilung des Deutschen
+Reiches in 38 große Wahlbezirke ist bereits geschehen. Jedem der-
+selben ist eine je nach Höhe der Einwohnerzahl berechnete Anzahl
+von zu wählenden Abgeordneten zugebilligt worden; zusammen werden
+433 Volksvertreter für die Reichsversammlung zu ernennen sein.
+Dazu kämen noch die Vertreter der Republik Deutschösterreich, falls
+deren Vereinigung mit dem Deutschen Reich zustande kommt.
+Mit dieser kurzen Darlegung ist skizzenhaft und in ganz großen
+Zügen das notwendigste gesagt, was die Frau von den sie jetzt be-
+treffenden Wahlangelegenheiten wissen muß. Es scheint nun aber
+doch noch erwünscht, einige ihrer besonderen Aufgaben im Staats-
+leben zu betonen, um für ihre Arbeit auch praktische Ziele aufzustellen
+und den Beweis zu bringen, daß die Frau ihr neues Recht nicht
+umsonst erhalten hat. Jm Eingang war gesagt, daß die Frauen die
+Vertreterinnen des Mutterwillens im Staat sein sollen, deshalb wird
+auch wohl in allererster Linie jede gesetzliche Verordnung und Für-
+sorge, die der Förderung und Pflege des Mutterberufes dienen kann,
+ihrer Unterstützung sicher sein. Es ist garnicht an der Tatsache zu
+zweifeln, daß dasjenige Volk das lebensfähigste im Kampf ums
+Dasein ist, das die gesundesten, tüchtigsten und geistig hochstehendsten
+Mütter hat, denn von ihnen hängt die Zukunft, das neue Geschlecht
+ab. Es kann zwar nicht genug betont werden, daß kein noch so
+ideales Gesetz den schöpferischen Willen zur Mutterschaft hervorbringen
+kann, daß gerade diese Frage in das innerlichste, persönlichste Gebiet
+der Frau gehören und keinem anderen Gesetz als dem des eigenen
+Herzens unterworfen sein dürfen. Aber soweit der Staat Hinderungen
+beseitigen und Wege ebnen kann, soweit also sein Einfluß zur
+Vermehrung und Erhaltung der Kinderzahl und zum Schutz der
+Mütter reicht, muß er jede dienliche Maßregel ergreifen. Die
+Schreiberin dieser Zeilen hatte sich eine Liste solcher Gebiete aufgestellt,
+an deren Umgestaltung und Ergänzung das weibliche Geschlecht ein
+besonderes Jnteresse hat. Bei näherer Betrachtung stellte sich heraus, wie
+fast jeder einzelne Punkt eng mit dem Mutterberuf zusammenhängt und
+immer wieder auf diese Zentralstelle des Frauendienstes am Volk
+hinweist. Soweit die Frauen es können, werden sie es versuchen,
+die Ehefrau und Mutter ihrem Familienberuf ganz oder wenigstens
+noch teilweise zu erhalten. Da es aber wirtschaftlich unmöglich ist,
+alle verheirateten Frauen dem außerhäuslichen Erwerbsleben zu ent-
+ziehen, so muß alles dafür getan werden, um die daraus für die
+Familie entstehenden Schäden zu mildern. Bei der Kindererziehung
+wird jede echte Mutter dem Staat nur so viel Anteilnahme und
+Rechte einräumen, als sie selbst ihre Aufgabe an den Kindern nicht
+erfüllen kann. Die meisten Arbeiterinnenschutzgesetze gelten der Frau
+in ihrer Bestimmung zur Mutterschaft. Und zur Fürsorge der Mutter
+gehört die Fürsorge für das Kind: Bewahrung des heranwachsenden
+Geschlechtes vor Verwahrlosung und Ausbeutung, z. B. eingreifendere
+Maßregeln, als sie bisher bestanden, um Kinder, die durch Veran-
+lagung oder durch schlechten Familieneinfluß körperlich oder seelisch
+gefährdet sind, in staatliche Erziehung und Fürsorge zu bringen.
+Denn die Kinder sind das kostbarste Volksgut, das für sie angewandte
+Kapital wird reiche Zinsen tragen. Ferner sei darauf aufmerksam
+gemacht, welche traurigen Erfahrungen die Frauenrechtsschutzstellen,
+deren Vorhandensein beweist, daß das bestehende Gesetz den Frauen
+nicht genügend Recht zukommen läßt, mit den Zuständen machen, zu
+denen unsere jetzigen Ehegesetze sehr häufig führen, die dem Mann
+allein das Bestimmungsrecht über die Kinder, das Vermögen und
+alle wesentlichen Entschließungen der Frau geben, auch dann, wenn
+der Mann nicht der Ernährer der Familie ist (d. h. der Erwerb der
+Ehefrau steht nicht unter seiner Verwaltung). Auch der geschiedene,
+für schuldig erklärte und seiner sonstigen Elternrechte für verlustig
+erklärte Mann behält noch die gerichtliche und sonstige Vertretung
+seiner Kinder nach außen. Ein Einschreiten des Vormundschafts-
+gerichts gegen den Vater ist nur bei groben Mißständen möglich und
+bedingt ein langwieriges Verfahren, während dessen die Kinder unter
+Umständen schon schwer gelitten haben können, bevor das Gesetz
+ihnen Schutz verschafft. Dagegen kann der Vater sein Kind vor
+einer schlechten Mutter ohne weiteres in Sicherheit bringen. Gerade
+diese Tatsachen beweisen, wie notwendig eine Reform der Gesetz-
+gebung unter dem Einfluß der Frau ist. Sie wird es wünschen, daß
+sie eine größere Selbständigkeit als Ehefrau erhält und daß eine
+andere Verteilung der Elternrechte vom Standpunkt der Gleichstellung
+von Vater und Mutter vorgenommen wird.
+Die Voraussetzung des Mutterschutzes ist die Bewahrung der
+Frau vor geschlechtlicher Gefährdung und Ausbeutung und vor
+ihrer sittlichen Verwahrlosung. Es ist dies das traurigste Kapitel
+aus der Geschichte des Frauenlebens, ein Kapitel, an dessen er-
+schütterndem Jnhalt sie selbst nicht ohne Schuld ist, denn in ihre
+Hand ist die Erhaltung der Sittenreinheit in überwiegendem Maß gelegt.
+Aber weil sie der körperlich schwächere Teil ist, der sich selbst gegen
+Gewalt nicht schützen kann, und weil die sittlichen Anschauungen des
+Mannes in vieler Beziehung den ihrigen nicht entsprechen, so haben
+Gesetz und Gewohnheit schwere Mißstände geschaffen. Nur mit viel
+Selbstüberwindung haben sich die Frauen daran gemacht, in diese
+Abgründe hineinzuleuchten, aber zum Wohl ihrer Mitschwestern haben
+manche auch diese schwere Arbeit tapfer angegriffen und ihr Streben
+zu unterstützen ist für die Wählerinnen Gebot. Jn den Sittlichkeits-
+gesetzen werden sie vor allem die Abschaffung der staatlichen Regle-
+mentierung der Prostitution in Deutschland fordern, mittelst derer das
+Gewerbe der Unzucht ein erlaubtes ist. Man hatte geglaubt, durch die
+Einrichtung der polizeilichen ärztlichen Kontrolle der Prostituierten die
+Verbreitung der Geschlechtskrankheiten zu vermindern, doch hat die
+Erfahrung gezeigt, daß dieser Zweck nicht erreicht worden ist. Die Be-
+gründung des Gesetzes fällt also fort und so wirkt es nur als ein
+trauriges Zeichen dafür, daß der gesetzgebende Mann eine Unsitte
+gut heißt, gegen die sich jedes reine Frauenempfinden empören muß.
+Wenn auf irgend einem Gebiet des öffentlichen Lebens Fraueneinfluß
+not tut, so ist es auf dem Gebiet der öffentlichen Sittlichkeit. Ver-
+besserung der Wohnungsgesetze, Jugendgesetzgebung, Kampf gegen
+den Alkoholmißbrauch, Bestrafung der öffentlichen Herausforderung
+zur Unsittlichkeit und zwar für beide Geschlechter, das sind nur ein-
+zelne Hinweise, für welche Reformen die Frauen einzutreten haben.
+Jn der Kriegszeit, in der so unzähliges kostbarstes junges
+Menschenleben geopfert worden ist, hat sich die Gesetzgebung auch
+mit Maßnahmen befaßt, die der Vermehrung der Geburten dienen
+sollen. Bei den Vorbereitungen zu diesen Gesetzen im Reichstag sind
+die Frauen nicht einmal zu Rate gezogen worden, noch hat man
+ihre bekanntgegebenen Wünsche beachtet. Und wahrhaft empörend
+ist es für das weibliche Geschlecht, daß in der Eingabe eines solchen
+Gesetzes als einziger Grund für die Verringerung der Geburtenzahl
+angegeben worden ist: Die Bequemlichkeit und Genußsucht der Frauen.
+Das ist eine unerhörte Entstellung der Tatsachen, es ist geradezu eine
+Feigheit, die Schuld allein der anderen an der Abfassung des Gesetzes
+nicht beteiligten Hälfte der Menschheit zuzuschieben. „Diesen Schlag ins
+Gesicht hinnehmen zu müssen – so schrieb dazu Gertrud Bäumer, die
+Führerin der deutschen Frauenbewegung – ist vielleicht das bitterste, was
+den Frauen jemals als Geschlecht angetan worden ist, – noch dazu mitten
+in einer Zeit der größten Schmerzen, die Mütter je gelitten haben.“
+Zu den Mitteln, in einem Volk den Willen zur Fortpflanzung
+zu stärken, rechnen die Frauen das Jdeal einer gesunden Elternschaft,
+die von Mann und Frau gleichmäßig hoch gehalten wird, und aus dessen
+Boden sich daher auch die öffentliche Sittlichkeit stellen muß. Ohne
+Anteilnahme der Frau an der Gesetzgebung wird dieses Ziel nicht
+erreicht werden.
+Noch einem anderen, wichtigen Kapitel seien einige Worte
+gewidmet, – der Schule. Bei der bevorstehenden großen Reform,
+welche die staatliche Einheitsschule für den grundlegenden Unterricht
+der Kinder aller Volksschichten fordert, werden die Frauen nachdrück-
+lich dafür einzutreten haben, daß den Mädchen das gleiche Recht
+zukommt wie den Knaben, was bisher nicht geschah. Gemeint ist
+hier nicht eine vollkommene Gleichartigkeit des Unterrichts, wenigstens
+nicht immer und überall, wohl aber eine Gleichwertigkeit. Lediglich
+aus Gründen der Verbilligung des Schulwesens darf die Mädchen-
+bildung nicht anders sein als die der Knaben. Und die Mädchen-
+schulerziehung muß noch weit mehr als bisher in der Hand und
+unter der Oberleitung der Frau sein. Dieselben Forderungen gelten
+für den Fortbildungsunterricht, in dem auch der wirtschaftlichen Aus-
+bildung der Mädchen als künftige Hausfrauen und Mütter gedacht
+werden muß.
+An die Schulerziehung schließt sich die Berufsausbildung, auch
+da muß es heißen, entsprechend unserem jetzigen deutschen Losungs-
+wort: „Freieste Bahn der tüchtigen Frau.“Der natürliche Wett-
+bewerb wird entscheiden, wohin sie paßt und wohin nicht, weder
+Mann noch Frau dürfen aus einer Arbeit vertrieben werden, die sie
+nach ihrer Begabung gut auszufüllen vermögen. Durch Ehe und
+Mutterschaft wird indessen die Stellung der Frau zum Beruf immer
+eine andere sein als die des Mannes. Um den ungesunden Wett-
+bewerb zwischen den beiden Geschlechtern zu beseitigen, gilt es vor
+allem eine grundsätzliche Forderung an die Volkswirtschaft durchzu-
+setzen, das ist: gleicher Lohn für gleiche Arbeitsleistung.
+Solange noch ein Arbeitgeber einen Mann entlassen kann, um statt
+seiner eine weibliche Arbeitskraft einzustellen, weil sie ihm dieselbe
+Arbeit billiger leistet, ist etwas fehlerhaft im Wirtschaftsleben, und
+dieser Fehler muß sich rächen. Jn der Praxis wird voraussichtlich
+im Durchschnitt der Mann wegen seiner größeren körperlichen Kraft
+und Ausdauer und wegen seiner männlichen mehr verstandesmäßigen
+Veranlagung höheren Verdienst erzielen als die Frau. Aber die
+Unterbietung des Mannes durch die Frau, und die Lohndrückung
+der Frau, das muß aufhören.
+Es ist selbstverständlich unmöglich für den Einzelnen, von allen
+solchen Fachfragen eigene Kenntnisse zu besitzen, das haben die wahl-
+berechtigten Männer von ihren Jnteressen auch nur zum kleinen Teil,
+aber die Frauen können und müssen nun dafür sorgen, daß kluge
+und warmherzige Abgeordnete ihres Geschlechts in die Volks-, Ge-
+meinde- und Berufsvertretungen hineinkommen, die an ihrer Stelle
+wirken. Und dafür sollen die besten und bedeutendsten deutschen
+Frauen gerade gut genug sein. Zum Glück haben wir in der
+bürgerlichen und sozialdemokratischen Frauenbewegung schon eine
+ganze Anzahl zu solchem Zweck vorbereitete Persönlichkeiten. Die
+Frauen müssen es erreichen, daß solche in genügender Zahl und an
+erfolgreichen Plätzen auf die Abgeordnetenlisten gesetzt werden und
+haben sich mit diesen Vertreterinnen zu verständigen.
+Über alle eigenen Wünschen hinaus muß es aber immer wieder
+den neuen Wählerinnen eingeprägt werden: nicht nur um eurer selbst
+willen erhieltet ihr die politischen Rechte, ihr tragt jetzt mit die
+Verantwortung für das Ganze. Deutschlands, eures Heimats-
+landes, eures Volkes Wohl, – das muß euch über alles gehen.
+Soviel kostbares Blut ist um seine Verteidigung geflossen, soviel
+Arbeit, Entbehrung und Schmerz haben Männer und Frauen um
+dieser Heimat willen zu ertragen gehabt, diesem Land zu dienen
+und es nach der schweren Niederlage neu wieder aufzubauen, das
+soll die erste Losung aller Wähler sein, vor ihm gilt nicht Mann
+noch Weib, vor ihm gibt es nur Deutsche.
+Dieser Weckruf an die Frauen soll nicht zum Abschluß kommen,
+ohne noch auf einige Gedanken einzugehen, die sie als gewissenhafte
+Menschen in ihre Betrachtung mit hinein ziehen müssen, weil von
+ihrer Lösung Wert oder Unwert der politischen Tätigkeit der Frau
+abhängt. Es gilt eine Antwort zu finden auf die Frage: Wie
+können die Frauen an dem Kampf der öffentlichen Meinung teil-
+nehmen, ohne mit ihren nächstliegenden Pflichten in Widerstreit zu
+geraten, und ohne etwas von ihrer Weiblichkeit dabei einzubüßen?
+Denn auch darüber steht das alte Wort: Was hülfe es dem Menschen,
+wenn er die ganze Welt gewönne und nähme doch Schaden an
+seiner Seele!
+Da sind zunächst die äußeren Formen des politischen Kampfes,
+schön, moralisch hoch stehend sind sie nicht. Was im bürgerlichen
+Leben kein anständiger Mensch dem anderen an Beleidigendem sagen
+würde, das werfen sich recht häufig die Politiker in ihren öffentlichen
+Streitreden an den Kopf. Jm Grunde denken sie garnicht persönlich
+so geringschätzig von einander, es ist nur die Form, der leidenschaft-
+liche Ausdruck für die erhitzte Überzeugung. Es ist begreiflich, daß
+sehr viele Frauen, und darunter manche der besten, sich so davon
+angewidert fühlen, daß sie lieber auf alle Rechte Verzicht leisten, als
+daß sie sich zu solchem Gezänk hergeben. Liegt aber darin nicht
+vielleicht auch ein gut Teil Bequemlichkeit, Selbstsucht und moralische
+Überhebung? – und wäre es nicht besser, wenn sie statt dessen sagten:
+Wir wollen uns dafür einsetzen, wir wollen wenigstens den Versuch
+machen, daß durch unsern Einfluß die Formen an Häßlichkeit und
+Schärfe verlieren. Wir müssen uns selbst zu gut sein, um in den
+eingerissenen gehässigen Ton einzustimmen. Es hat schon mancher
+Mann die Hoffnung ausgesprochen, daß mit Eintritt der Frau in
+das parlamentarische Leben eine Verfeinerung der politischen Sitten
+einziehen würde. Zum Trost sei auch gesagt, daß der eigentliche
+politische Wahlkampf nur von den Führern und ihren direkten Helfern
+ausgefochten wird. Der gewöhnliche Bürger kann seine Überzeugung
+bilden und danach handeln, ohne unausgesetzt im öffentlichen Streit
+zu stehen. Ein anderes ist die Frage: Werden die Frauen es ver-
+stehen, die sachlichen Jnteressen von den persönlichen zu trennen, oder
+werden sie das häßliche Gefühl eines gelegentlichen Beleidigtseins im
+öffentlichen Leben mit hineinnehmen in ihren Familien- und Freund-
+schaftsverkehr? Das ist ein Punkt, der fraglos manchen schwer werden
+wird. Sie können nun einmal ihren Verstand nicht immer kühl über
+ihr Herz stellen, sie fassen alle Dinge mit dem persönlichen Gefühl
+auf. Darin liegt ja zugleich auch die ganze große Stärke der
+mütterlichen Frau, denn Mutter sein heißt das wärmste Empfinden
+haben, das es auf dieser Erde gibt. Aber es wird zu einer Schwäche,
+wenn aus der Fähigkeit zu lebendigem Empfinden eine störende
+Empfindlichkeit wird. Die Sache, für die sie eintreten, für
+wichtiger zu halten, als sich selbst, darauf kommt es an, und daran
+zu denken, daß der Gegner seine Meinung so hartnäckig verteidigt,
+um der Sache zu dienen, und nicht um jemanden zu kränken. Bei
+Sportleuten, z. B. bei Ringkämpfern, ist es eine gute Sitte, daß sich
+nach beendetem Kampf Sieger und Besiegter die Hand schütteln, zum
+Zeichen, daß der Kampf und sein Ausgang die persönliche Achtung
+des einen Menschen vor dem anderen nicht beeinträchtigt; gerade so
+sollte es im politischen Leben sein.
+Und was die Zeit betrifft, die die Politik der Frau kosten wird,
+so sei erst einmal daran erinnert, wie viel Muße sie oft noch zu
+überflüssigem Gerede hat. Wenn von der Zeit etwas dem Gesamt-
+wohl gewidmet würde, so brächte das keinen Schaden. Wohl werden
+bei den meisten Frauen Jahre sein, namentlich wenn sie kleine Kinder
+zu versorgen haben, in denen es für sie schwer ist, Kraft und Zeit
+noch an äußere Pflichten zu setzen; aber es gibt doch auch andere
+Jahre vorher und nachher, in denen die Möglichkeit vorhanden ist,
+hin und wieder eine Versammlung zu besuchen und sich mit den
+öffentlichen Angelegenheiten zu beschäftigen. Die Anteilnahme an
+Jnteressen außerhalb seiner einförmigen Alltagsarbeit hat schon manchem
+Menschen neue Kraft und Freudigkeit gebracht, und das Gefühl einer
+höheren Verantwortung als der für das eigne kleine tägliche Leben
+bedeutet schon jetzt für Unzählige Erhöhung und Erhebung aus
+Selbstsucht und Stumpfheit.
+Ferner, es darf nicht der Frauen Ehrgeiz sein, den Mann nach-
+zuahmen. Der Wert ihrer Anteilnahme an der Politik kann nur
+darin liegen, daß sie das Beste ihrer weiblichen Art mit hineintragen
+in ihre Arbeit am Gesamtwohl. Verfallen sie in die Wesensart
+der Männer, so müssen sie unterliegen, denn sie sind ihnen an äußerlicher
+Kraft nicht gewachsen. Es muß ihnen stets eine Ehre bleiben, wenn
+man es ihrer Arbeit ansieht, daß eine Frau sie gemacht hat, und
+die beiden Begriffe, ein weibischer Mann und ein männisches Weib
+sollen gleich verächtlich sein.
+Und nun das allerletzte: Wie finden die Frauen eine gesunde
+Vereinigung der beiden großen Pflichtenkreise, der Pflicht nach innen
+zu gegen ihr eigenes Herz, gegen ihre Familie, gegen Mann und
+Kinder und auf der anderen Seite gegen das öffentliche Leben, sei
+es im Beruf oder im Dienst am Gemeinwohl. Die Frau früherer
+Zeiten hat diesen Doppelanspruch nicht gekannt, sie hatte ihre Arbeit
+nur in der Familie, und was sie als Bäuerin, Landarbeiterin, Hand-
+werksmeisterin, Spinnerin, Näherin usw. leistete, spielte sich alles im
+selben Gebiet beziehungsweise im Berufskreise des Ehemannes oder
+Vaters ab. Diese Einheitlichkeit der Pflicht hat die Entwicklung der
+letzten hundert Jahre sehr vielen Frauen genommen, und daran läßt sich,
+mag man es noch so sehr bedauern, nichts ändern. Es bleibt ihnen
+nur übrig, mit dieser Schwierigkeit irgendwie fertig zu werden. Die
+Hereinziehung der Frau in die öffentliche Volkswirtschaft war die
+Ursache zu dieser zwiefachen Belastung, die ihr jetzt übertragene
+Mitverantwortung für das Staatsleben ist nur eine unausbleibliche
+Folge der genannten Entwicklung, die früher oder später doch einmal
+eingetreten wäre. Eine Vereinigung der doppelten Aufgaben kann
+nur dadurch allmählich gefunden werden, wenn der Versuch gelingt,
+für beide Gebiete einigermaßen Raum zu schaffen und sie zugleich
+nicht als völlig getrennte zu betrachten; wenn z. B. die Hausfrau
+als Einkäuferin und Verbraucherin der Waren weiß, daß sie mit
+einem Gut umgeht, das ein Teil des gesamten Volksbesitzes ist, wenn
+die Mutter daran denkt, daß sie in ihren Kindern gesunde und wert-
+volle Menschen für ihr Volk heranzuziehen hat. Und andererseits
+wenn die in der Öffentlichkeit Stehende sich Kraft und Wärme zu
+ihrem Tun aus dem persönlichen Leben schöpft und durch ihre Arbeit
+mit dazu beiträgt, daß die Frauen ihre Art behaupten und immer
+reicher entfallen können. Mit ganzer Seele muß dafür eingetreten
+werden, daß der Frondienst so mancher Frau, deren Kraft von der
+Doppelbelastung vollständig aufgesogen wird, die nichts anderes ist
+als ein armes Lasttier, aufhört, daß vielmehr jeder Frau noch die
+Möglichkeit bleibt, ein Mensch um ihrer selbst willen zu sein und den
+berechtigten Bedürfnissen des eigenen Herzens zu folgen.
+Es sind das große und wohl niemals ganz erreichbare Jdeale,
+die hier aufgestellt wurden, aber am Anfang eines Weges sich das
+Ziel vor Augen zu halten, ist das wichtigste, sonst gerät man von
+vorn herein in falsche Richtungen und muß sich mühsam durch Ab-
+und Jrrwege hindurchtappen. Die Frauen tragen von jetzt ab
+im vollsten Umfang die Mitverantwortung für das Wohl
+ihres ganzen Volkes, ihres Staates. Dies Bewußtsein muß
+in sie eingehämmert werden, möchten sie diesen Gedanken als den
+wesentlichen Jnhalt dieser kleinen Schrift in ihren Kopf und in ihr
+Herz aufnehmen und ihm weiter nachsinnen.
+R. Borkmann, Weimar.
+</text>
+  </TextCorpus>
+</D-Spin>

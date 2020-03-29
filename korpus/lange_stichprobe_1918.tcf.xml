@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/lange_stichprobe_1918</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-lange_stichprobe_1918.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/lange_stichprobe_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_stichprobe_1918.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/lange_stichprobe_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_stichprobe_1918.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/lange_stichprobe_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_stichprobe_1918.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/lange_stichprobe_1918</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_stichprobe_1918.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Eine Stichprobe auf das passive Frauenwahlrecht</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2018-04-09T13:59:41Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2018-04-09T13:59:41Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">2</cmdp:measure>
+        <cmdp:measure type="tokens">1000</cmdp:measure>
+        <cmdp:measure type="types">496</cmdp:measure>
+        <cmdp:measure type="characters">7123</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:34Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/lange_stichprobe_1918</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/lange_stichprobe_1918</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/lange_stichprobe_1918</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/lange_stichprobe_1918</cmdp:idno>
+          <cmdp:idno type="DTADirName">lange_stichprobe_1918</cmdp:idno>
+          <cmdp:idno type="DTAID">32410</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32410-1</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="JA">Lange, Helene: Eine Stichprobe auf das passive Frauenwahlrecht. In: Die Frau (1918), S. 353–354.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="a" type="main">Eine Stichprobe auf das passive Frauenwahlrecht</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1918</cmdp:date><cmdp:publisher><cmdp:name>W. Moeser Buchhandlung</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="j" type="main">Die Frau</cmdp:title>
+              <cmdp:biblScope unit="volume">25</cmdp:biblScope>
+              <cmdp:biblScope unit="issue">11</cmdp:biblScope>
+            <cmdp:biblScope unit="pages">353–354</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Universitäts- und Landesbibliothek Halle</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">Le 823, 4</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: gekennzeichnet;
+    Druckfehler: keine Angabe;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: gekennzeichnet;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>            
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+_ Eine Stichprobe auf das passive Frauenwahlrecht.
+Von
+Helene Lange.
+Nachdruck verboten.
+Jn zwei europäischen Staaten ist bei Reichstagswahlen kürzlich das Frauenwahlrecht
+zum erstenmal in Kraft gewesen: in Holland und in Dänemark. Jn Holland hat die
+Weisheit des Gesetzgebers den Frauen nur das passive Wahlrecht gegeben. Er will
+dabei des Glaubens gewesen sein, daß diese Form genüge, um die erwünschte Vertretung
+der Frauen im Parlament zu erzielen. Was ist geschehen? Die Kölnische Zeitung berichtet,
+daß die Parteien zwar weibliche Kandidaten aufgestellt hatten, aber „im wesentlichen nur
+dekorative Vorstandsdamen ohne Persönlichkeitswert“. Diese seien denn auch durchgefallen.
+Die einzige Partei; die tüchtige Kandidatinnen gehabt habe, sei die Sozialdemokratie. Eine
+Sozialdemokratin, Mevrouw Suze Groenewey ist denn auch – als einzige Frau –
+in die Kammer gewählt.
+Auch in Dänemark haben zum erstenmal Reichstagswahlen unter der Beteiligung von
+Frauen stattgefunden. Die dänischen Frauen besitzen das aktive und passive Wahlrecht seit
+1915. Sie eroberten für das Volksthing (2. Kammer) 4 von 140 Sitzen, für das Landsthing
+(1. Kammer) 5 von 72 Sitzen. Außerdem brachten sie noch mehrere weibliche Stellvertreter
+durch. Von diesen Sitzen hat die Sozialdemokratie 1 im Volksthing und 1 im Landsthing
+besetzt, die radikale Linkspartei dieselbe Zahl, die gemäßigte Linke 3 im Landsthing, die
+konservative Volkspartei 2 im Volksthing. Zur Beurteilung der Sachlage muß in Betracht
+gezogen werden, daß die Sozialdemokratie und die Radikalen Regierungspartei sind.
+Diese beiden Beispiele lassen sich zuerst im allgemeinen vergleichen. Die politische
+Schulung der Frauen, die Mitarbeit in Kommunen und Parteien dürfte in beiden Ländern
+etwa gleich stehen. Beide haben eine starke Frauenstimmrechtsbewegung, beide die Agitations-
+möglichkeit des Kleinstaats. Bezeichnend: in dem Staat des aktiven Wahlrechts 9 Sitze, die
+sich annähernd dem Parteiverhältnis (das sich in Dänemark durch die Neuwahlen überhaupt
+nicht verschoben hat) entsprechend verteilen. Jm Land des passiven Wahlrechts: eine Sozial-
+demokratin.
+Wie ist der Mißerfolg in Holland zu erklären? Er bestätigte nach meinem Eindruck
+genau das, was wir immer gegen ein passives ohne aktives Wahlrecht eingewandt haben:
+es ist kein Mittel, um geeignete Frauen in die Volksvertretung zu bringen. Jch weiß nicht,
+welche Grundlagen die Kölnische Zeitung für ihre Behauptung hat, daß die Parteien
+ungeeignete Kandidatinnen aufgestellt haben. Wenn daran etwas Richtiges sein sollte, so
+26
+Eine Stichprobe auf das passive Frauenwahlrecht.
+steht doch zu vermuten, daß die weiblichen Kandidaten noch in einem anderen Sinne
+Scheinkandidaturen gewesen sind. Man wird ihnen nicht gerade die sichersten Plätze
+gegeben haben. Man wird ihnen solche überlassen haben, die ohnehin für die Partei
+nicht zu holen waren, oder man wird – bei dem erstmalig angewandten System der Ver-
+hältniswahl – ihre Namen wohl ziemlich ans Ende der von den Parteien aufgestellten Listen
+gestellt haben. Mit den sichersten Posten bedenkt man natürlich die alten Parteistützen. Und die
+einzige Partei, der es ernst ist mit dem Frauenstimmrecht, bringt ihre Kandidatin durch.
+Gerade, was man als ein Argument gegen das aktive Frauenwahlrecht von manchen Seiten
+anführt, daß es den Sozialdemokraten zugute kommen würde, erweist sich tatsächlich als eine
+Folge des passiven Wahlrechts. Vollkommen begreiflich. Jn der von uns vertretenen
+Stellung zum Vorschlag eines nur passiven Wahlrechts ist diese Vermutung schon aus-
+gesprochen gewesen. Denn noch sicherer als ihrer Frauen, ist natürlich die Sozialdemokratie
+ihrer Männer. Sie wählen lückenlos und programmäßig. Lückenloser und programmäßiger
+als die politisch noch nicht eingereihten Frauen. Dänemark hat das allgemeine Wahlrecht,
+ein direktes zum Volksthing, ein indirektes zum Landsthing. Trotzdem hat das Frauen-
+stimmrecht eine Verstärkung der Sozialdemokratie nicht gebracht. Wir haben die genaue
+Statistik der abgegebenen Stimmen noch nicht. Aber es darf vielleicht angenommen werden,
+daß sich bei diesen Wahlen dieselbe Erscheinung zeigt, wie bei den dänischen Kommunal-
+wahlen: die stärkste Wahlbeteiligung der Frauen liegt nicht in der untersten Schicht, sondern
+im Kleinbürgertum und im neuen Mittelstand.
+Es wird interessant sein, Stimmen von holländischen Frauen über diesen Wahlkampf
+zu hören. Jch könnte mir keine qualvollere, unwürdigere Situation vorstellen, wie die der
+holländischen Frauen: mit gebundenen Händen zusehen, wie diese von der Parteien Gnaden
+aufgestellten Vertreterinnen ihres Geschlechts zwischen die Räder geraten. Es ist beinahe
+schlimmer als gar kein Wahlrecht überhaupt, dieses Zugeständnis: ihr sollt zwar euere Ver-
+treterinnen haben, aber sie nicht mit bestimmen. Wir werden sie euch aussuchen. Und dann
+dieser Wahlkampf. Was konnten die Frauen tun, um ihre Vertreterinnen zu stützen? Bei
+den Wählern herumlaufen und sie bitten, ihre Gnade über ihnen leuchten zu lassen! Ein
+solcher Wahlkampf muß sich ja zu einer großen handgreiflichen Demütigung für die Frauen
+auswachsen, einer ausdrücklichen Demonstration ihrer Abhängigkeit. Eine holländische Zeit-
+schrift bemerkt liebenswürdig zu dem Ausgang, es sei gewiß bedauerlich, daß nur eine Frau
+ins Parlament gekommen sei, aber man müsse sich damit trösten, daß, nachdem ein Schaf über
+den Deich sei, die anderen schon nachspringen würden. Dieses Bild stimmt in keinem Sinne,
+ob man es auf die Männer oder auf die Frauen deuten mag. Die Frauen können nicht
+gemeint sein, denn sie waren ja bereit, über den Deich zu springen, bei den Männern aber
+wird es nicht so kommen, das der einen Wählerschaft, die es einmal riskiert hat, eine Frau
+ins Parlament zu bringen, erheblich andere folgen werden – abgesehen davon, daß am Ende
+auch den Frauen die Lust vergehen dürfte, vor einer Wählerschaft zu kandidieren, die im
+letzten Sinne nicht wissen kann, wozu sie eigentlich die Frau wählt.
+Man empfindet angesichts dieser holländischen Vorgänge ganz die Sinnlosigkeit dieses
+Rechts. Jch wähle einen Menschen, damit er mich vertritt. Frauen, die gewählt werden
+sollen, damit sie Männer vertreten, oder Männer, die wählen, damit Frauen vertreten sind –
+eine Vertretung, die grundsätzlich abgelöst ist von denen, um deretwillen sie da sein soll: das
+hebt den Sinn des Wahlrechts eigentlich auf. Wenn man für nötig hält, daß Frauen im
+Parlament sind, so tut man es in erster Linie um der Vertretung weiblicher Angelegen-
+heiten willen. Dann müssen sie aber von Frauen gewählt werden, sonst wird das Recht zur
+Farce, zu der sich auch auf die Dauer kein Mensch mit Selbstachtung hergeben kann. Der
+holländische Gesetzgeber, der nach der Kölnischen Zeitung „von der Objektivität der Männer
+erwartet hat, daß sie hervorragenden Frauen Gelegenheit geben würden, im Parlament ihre
+Erfahrung zur Geltung zu bringen“, muß eine Enttäuschung verzeichnen. Möge sie intra-
+muros et extra dem frommen Jllusionsbedürfnis zur Lehre dienen, das sich ähnlicher Hoff-
+nungen getröstet.
+</text>
+  </TextCorpus>
+</D-Spin>

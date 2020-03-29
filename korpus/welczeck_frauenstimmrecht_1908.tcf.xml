@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/welczeck_frauenstimmrecht_1908</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-welczeck_frauenstimmrecht_1908.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/welczeck_frauenstimmrecht_1908</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-welczeck_frauenstimmrecht_1908.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/welczeck_frauenstimmrecht_1908</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-welczeck_frauenstimmrecht_1908.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/welczeck_frauenstimmrecht_1908</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-welczeck_frauenstimmrecht_1908.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/welczeck_frauenstimmrecht_1908</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-welczeck_frauenstimmrecht_1908.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Frauenstimmrecht in den verschiedenen Ländern</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Welczeck</cmdp:surname>
+<cmdp:forename>Adelheid von</cmdp:forename></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>
+    Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen
+  </cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2018-04-10T14:02:09Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2018-04-10T14:02:09Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">19</cmdp:measure>
+        <cmdp:measure type="tokens">6070</cmdp:measure>
+        <cmdp:measure type="types">2091</cmdp:measure>
+        <cmdp:measure type="characters">46236</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:02:58Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/welczeck_frauenstimmrecht_1908</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/welczeck_frauenstimmrecht_1908</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/welczeck_frauenstimmrecht_1908</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/welczeck_frauenstimmrecht_1908</cmdp:idno>
+          <cmdp:idno type="DTADirName">welczeck_frauenstimmrecht_1908</cmdp:idno>
+          <cmdp:idno type="DTAID">32409</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32409-7</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MS">Welczeck, Adelheid von: Das Frauenstimmrecht in den verschiedenen Ländern. Gautzsch b. Leipzig, 1908 (= Kultur und Fortschritt, Bd. 135).</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Das Frauenstimmrecht in den verschiedenen Ländern</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Welczeck</cmdp:surname>
+<cmdp:forename>Adelheid von</cmdp:forename></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Gautzsch b. Leipzig</cmdp:pubPlace>
+            <cmdp:date type="publication">1908</cmdp:date>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="s" type="main">Kultur und Fortschritt</cmdp:title>
+              <cmdp:biblScope unit="volume">135</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Austrian Literature Online</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="URLImages">http://www.literature.at/alo?objid=13190</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: keine Angabe;
+    Druckfehler: dokumentiert;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: keine Angabe;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+_
+_
+Kultur und Fortschritt
+Neue Folge der Sammlung „Sozialer Fortschritt“
+Hefte für Volkswirtschaft, Sozialpolitik
+Frauenfrage, Rechtspflege und Kulturinteressen.
+No. 135.
+Das Frauenstimmrecht
+in den verschiedenen Ländern.
+Von
+Adelheid von Welczeck.
+1.-3. Tausend.
+GAUTZSCH b. Leipzig
+FELIX DIETRICH
+1908.
+I. Einleitung.
+Wenn man die Geschichte der deutschen Frauenbewegung mit der
+anderer Länder vergleicht, so ist es auffallend, daß Bestrebungen nach
+politischer Gleichberechtigung der Frau erst verhältnismäßig spät in die
+Erscheinung treten. Zwar hat schon Anfang der 40er Jahre eine verein-
+zelte Frau: Luise Otto in Poesie und Prosa die Forderung gleicher Men-
+schenrechte für das weibliche Geschlecht erhoben, insbesondere in der
+von ihr herausgegebenen Frauenzeitung, welche mit dem Motto erschien:
+„Dem Reich der Freiheit werb' ich Bürgerinnen.“ Es war jedoch vor-
+herrschend das Recht auf Arbeit und Erwerb, welches Luise Otto betonte
+und als Gründerin des Allgem. deutschen Frauenvereins (1865) mit
+Energie verfochten hat. Der Allgem. deutsche Frauenverein wurde der
+Ausgangspunkt für die Bestrebungen nach verbesserter Bildungsmög-
+lichkeit, erweiterter Berufstätigkeit und gemeinnütziger Arbeit für die
+Frauen, welche die 60er und 70er Jahre ganz beherrschen.
+Grundlegend für den Kampf um staatsbürgerliche Gleichberechti-
+gung der Frau ist Hedwig Dohms Werk: Der Frauen Natur und Recht
+(Anfang der 70er Jahre erschienen); hier wird zum ersten Male die Frage
+des Wahlrechts für Frauen behandelt, aber noch war die Zeit nicht ge-
+kommen, diesem Gedanken in weiteren Kreisen der Frauenwelt Eingang
+zu verschaffen; in dem heißen Ringen um die Existenz, in welches Tau-
+sende, ja Millionen von Frauen infolge der sozialen und wirtschaftlichen
+Verhältnisse sich gedrängt sahen, schienen sie vergessen zu haben, daß
+nur die Erlangung des Bürgerrechts und die Teilnahme an der Gesetz-
+gebung eine gründliche Verbesserung ihrer Lage herbeiführen könnte.
+Erst Anfang der 90er Jahre begannen fortschrittlich gesinnte Frauen
+unter Führung der Begründerin des Vereins Frauenwohl Berlin, Frau
+Minna Cauer, sich mit Fragen der Gesetzgebung und Sozialpolitik zu
+beschäftigen. Insbesondere wurde bei der Beratung des BGB, die recht-
+liche Lage der Frau zur Erörterung gestellt. Eine lebhafte Agitation
+von allen Frauenvereinen trat dabei in die Erscheinung. Eine Zusammen-
+stellung der Frauenforderungen wurde mit einer Petition dem Reichs-
+tage eingesendet.
+Die erste Volksversammlung bürgerlicher Frauen fand am 2. Dezem-
+ber 1894 statt, einberufen von Frau Minna Cauer. Frau Lily von Gy-
+zicki hielt einen Vortrag über die Bürgerpflicht der Frau, in welchem
+zum erstenmal von bürgerlicher Seite aus die Forderung des Frauen-
+stimmrechts in breiter Oeffentlichkeit erhoben wurde.
+Als im Jahre 1899 auf die Initiative des Vereins Frauenwohl-Berlin der
+Verband fortschrittlicher Frauenvereine gegründet wurde, nahm derselbe
+außer der Bildungsfrage, der Sittlichkeitsfrage und der Arbeiterinnen-
+frage auch die Forderung nach politischer Gleichberechtigung der Frau
+in sein Programm auf und hat dieselbe in energischer Weise verfochten.
+Gegen das Vereinsgesetz von 1850, welches in einer Reihe von
+Bundesstaaten die Frauen von der Zugehörigkeit zu politischen Vereinen
+ausschließt, wurden von allen Richtungen der bürgerlichen Frauenbe-
+wegung seit der Mitte der 90er Jahre fast alljährlich Protestkundgebungen
+veranstaltet; eine Fülle von Petitionen, welche die Beseitigung der ver-
+einsrechtlichen Beschränkungen fordern, wurden bei den gesetzgebenden
+Körperschaften eingereicht; so erwachten die deutschen Frauen allmäh-
+lich zu dem Bewußtsein, daß die Erlangung der staatsbürgerlichen
+Rechte für sie von wesentlicher Bedeutung ist. *)
+*) Siehe hierzu Heft 134 der gleichen Sammlung: Vereins- und Versammlungsrecht
+v. Dr. A. Elster.
+II. Der deutsche Verein für Frauenstimmrecht
+von 1902 bis zur Gründung des Weltbundes für
+Frauenstimmrecht am 4. Juni 1904.
+Die Unmöglichkeit in der Hauptstadt des Reiches oder überhaupt
+in Preußen eine Frauenorganisation mit politischen Zielen zu schaffen,
+führte die zweite Vorsitzende des Verbandes fortschrittlicher Frauen-
+vereine, Dr. jur. Anita Augspurg dazu, einen deutschen Ver-
+ein für Frauenstimmrecht mit dem Sitz in Hamburg zu gründen, da
+die Hamburgischen Gesetze die Zugehörigkeit von Frauen zu politischen
+Vereinen gestatten.
+Dr. Augspurg und Frau Cauer waren in Deutschland die ersten
+bürgerlichen Vorkämpferinnen für die politische Befreiung der Frau.
+Die von Frau Cauer im Jahre 1895 begründete Zeitschrift: „Die
+Frauenbewegung“ ist von den ersten Nummern an bis jetzt
+unermüdlich für die Forderung des Frauenstimmrechts eingetreten.
+So hat die Zeitschrift Pionierdienste getan für den deutschen Verein für
+Frauenstimmrecht, der im Anfang des Jahres 1902 ins Leben gerufen
+wurde. Außer Dr. Augspurg und Frau Cauer traten dem Vorstande bei:
+Lida-Gustava Heymann, Begründerin und Vorsitzende des Vereins
+Frauenwohl-Hamburg. Dr. phil. Käthe Schirmacher-Paris, Charlotte
+Engel-Reimers-Hamburg und Adelheid von Welczeck-Vegesack bei
+Bremen. Der deutsche Verein für Frauenstimmrecht (jetzt Verband für
+Frauenstimmrecht) verfolgt den Zweck für die deutschen Frauen die
+politische Gleichberechtigung zu erkämpfen und den Frauen die Aus-
+übung der politischen Rechte zu sichern, die Frauen derjenigen deutschen
+Länder, Gemeinden und Berufsklassen, welche im Besitze politischer
+oder sonstiger Stimmrechte sind, zur Ausübung derselben zu veranlassen.
+Der deutsche Verein für Frauenstimmrecht schloß sich bei seiner
+Gründung dem Verbande fortschrittlicher Frauenvereine und dem Bunde
+deutscher Frauenvereine an.
+Der Verein trat zum ersten Male in die Oeffentlichkeit in einer Mani-
+festationsversammlung in Berlin am 13. Februar 1902. Die Versammlung
+erklärte in einer Resolution die Ausübung des Frauenstimmrechts durch
+die Frauen vom ethischen und wirtschaftlichen, vom politischen und
+sozialen Standpunkt als eine unbedingte Notwendigkeit.
+Unmittelbar darauf faßte der Vorstand den Beschluß, eine Audienz
+beim Reichskanzler Grafen Bülow nachzusuchen; diese Audienz fand am
+20. März 1902 statt. Einladungen zur Teilnahme waren ergangen an die
+Bundesvereine, die Vereine des Verbandes fortschrittlicher Frauenver-
+eine, die Einzelmitglieder des deutschen Vereines für Frauenstimm-
+recht und an repräsentative Einzelpersonen.
+Es beteiligten sich an der Audienz 35 Frauen aus allen Teilen des
+deutschen Reiches, alle Berufe und Stände waren vertreten. In einer
+Vorbesprechung waren die Punkte bestimmt, welche dem Reichskanzler
+als die vorläufig dringendsten Wünsche der Frauenwelt vorgetragen wer-
+den sollten; diese Punkte wurden in einem Schriftstück niedergelegt,
+welches Dr. Augspurg mit einer kurzen Ansprache dem Reichskanzler
+überreichte.
+Das Schriftstück lautet folgendermaßen:
+Die Versammelten bitten im Namen vieler deutscher Frauen um die
+Vorlage eines Reichsgesetzes, dahin lautend:
+Die vereinsrechtlichen Beschränkungen der Frauen sind im allen
+deutschen Bundesstaaten aufgehoben.
+Sie bitten ferner um Aufhebung von Ziffer 6 des § 361 R. St. G. B.,
+dessen Wirkung ein unerträgliches Ausnahmegesetz für alle deutschen
+Frauen bedeutet; sie bitten endlich:
+Daß durch Reichsgesetz bestimmt werden möge, daß nach voll-
+giltig abgelegter Maturitätsprüfung das weibliche Geschlecht das gleiche
+Anrecht auf Immatrikulation an Hochschulen habe wie das männliche;
+daß bei der in Aussicht gestellten Reform des Mädchenschulwesens
+in Preußen eine Anzahl sachverständiger Frauen zur Mitarbeit herange-
+zogen werden;
+daß der privaten Initiative bei Reformversuchen für Mädchen-
+schulen durch Konzessionsversagung seitens des Kultusministeriums
+nicht hindernd in den Weg getreten wird;
+daß die Errichtung obligatorischer Fortbildungsschulen für Mädchen
+eingeleitet werde (siehe die „Frauenbewegung“ vom 1. April 1902).
+In den Jahren 1902 und 1903 veranstaltete der Verein noch mehrere
+öffentliche Versammlungen in Berlin, Hamburg, Frankfurt a. M. Insbe-
+sondere sind hervorzuheben die Versammlungen in Hamburg und Berlin
+bei Gelegenheit der Reichstagswahlen von 1903. In Hamburg referierte
+die zweite Vorsitzende des Vereins Lida Gustava Heymann über den
+deutschen Reichstag, die bevorstehenden Wahlen und die Beteiligung
+der Frauen, in Berlin die erste Vorsitzende Dr. jur. Augspurg über das-
+selbe Thema. Vertreter verschiedener politischer Parteien waren an-
+wesend und beteiligten sich an der Debatte. Obgleich Dr. Augspurg in
+ihrem Schlußwort ausdrücklich betonte, daß der deutsche Verein für
+Frauenstimmrecht keiner Partei angeschlossen sei, vielmehr über den
+Parteien stehe, so wurde dennoch von seiten der sozialdemokratischen
+Presse immer und immer wiederholt, daß der Verein Parteipolitik treibe.
+Dieser Vorwurf ist zurückgewiesen. Der Verein nimmt unterschiedslos
+alle Frauen auf, gleichviel welches ihre politischen Gesinnungen sein
+mögen und läßt seinen Mitgliedern durchaus freie Hand, sich an den-
+jenigen politischen Veranstaltungen zu beteiligen, welche ihren Ueber-
+zeugungen entsprechen.
+An die Behörden und gesetzgebenden Körperschaften wandte sich
+der Verein in seiner ersten Geschäftsperiode mit einer Reihe von
+Eingaben; an den Reichstag mit einer Petition betreffs einer den
+veränderten Bevölkerungsverhältnissen Rechnung tragenden Neuein-
+teilung der Wahlkreise, an den Hamburger Senat Wahlkreiseinteilung
+betreffend, an den Bundesrat betreffend Gleichstellung der Frauen
+bei den Kaufmannsgerichten, an die Kirchenbehörden der verschiede-
+nen Bundesstaaten betreffend das Recht der Selbstverwaltung der
+Frauen in kirchlichen Angelegenheiten usw.
+Zugleich war der Verein ununterbrochen bemüht das politische
+Interesse der Frauen durch Aufrufe und Anschreiben zu wecken und zu
+fördern. Unter anderem ergingen Anschreiben mit der Aufforderung die
+Frauen zur Ausübung ihrer Wahlrechte bei den Krankenkassen anzu-
+regen, zur Beteiligung an den Arbeiten bei den Gemeinde-, Landtags-
+und Reichstagswahlen – soweit die Vereinsgesetze das zulassen – usw.
+Die Versammlungen in Berlin und Hamburg erfreuten sich stets
+eines guten Besuches und regen Interesses von seiten des Publikums, man-
+che Provinzvereine zeigten sich aber wie so oft rückständig, die Frage des
+Frauenstimmrechts rief sogar dann und wann einen panischen Schrecken
+hervor.
+Zwar hatte der Bund deutscher Frauenvereine auf seiner General-
+versammlung in Wiesbaden im Oktober 1902 auf eine von fortschritt-
+licher Seite eingebrachte Interpellation folgende Resolution fast ein-
+stimmig angenommen:
+„Es ist dringend zu wünschen, daß die Bundesvereine das Verständ-
+nis für die Gedanken des Frauenstimmrechts nach Kräften fördern, weil
+alle Bestrebungen des Bundes erst durch das Frauenstimmrecht eines
+dauernden Erfolges sicher sind.“
+Trotzdem ist von seiten der Bundesvereine häufig die Behauptung
+aufgestellt worden, daß es ihren sonstigen Bestrebungen schaden würde,
+wenn sie öffentlich für das Frauenstimmrecht eintreten würden. Auch
+der Einwand, daß die Frauen nicht reif wären zur Ausübung ihrer staats-
+bürgerlichen Rechte, ist wunderlicher Weise oft von Frauen selbst er-
+hoben worden. Erst allmählich haben sich diese Befürchtungen und Be-
+denken verloren, die Ueberzeugung drang durch, daß nur die Erlangung
+des Frauenstimmrechts allen anderen Bestrebungen den nötigen Nach-
+druck verleihen kann, und daß die politische Reife, wo sie noch nicht
+vorhanden ist, am besten durch die Ausübung politischer Rechte erwor-
+ben werden dürfte.
+III. Die Frauenstimmrechtsbewegung des Aus-
+landes und der Weltbund für Frauenstimmrecht.
+Wesentlich früher als in Deutschland hat in Amerika und England
+die Frauenstimmrechtsbewegung begonnen. Schon am Ende des 18. Jahr-
+hunderts wurde den Frauen des Staates New Jersey in Amerika (1790)
+das Stimmrecht verliehen, doch soll dies auf einen Zufall zurückzuführen
+sein, auch wurde den Frauen dies Recht im Jahre 1807 wieder genommen.
+Die eigentliche amerikanische Stimmrechtsbewegung setzt mit dem
+Jahre 1848 ein, wo Lucretia Mott und Elizabeth Cady
+Stanton in Seneca Falls den ersten Kongreß für Frauen-
+rechte einberiefen, den die Welt gesehen hat. Mrs. Stanton hielt eine
+Ansprache, in welcher sie mit großer Beredsamkeit die Gründe für die
+intellektuelle und politische Gleichberechtigung der Frauen verfocht.
+Wenige Jahre darauf trat Susan B. Anthony in die Bewegung, die treue
+unermüdliche Vorkämpferin für Freiheit, Wahrheit und Recht. Die
+Namen Elizabeth Cady Stanton und Susan B. An-
+thony werden für den Befreiungskampf der Frauen der ganzen Welt
+unvergeßlich bleiben. Eine geradezu einzigartige Freundschaft hat
+diese beiden Frauen, welche sich aufs glücklichste ergänzten, durch ein
+Menschenalter verbunden. Während Mrs. Stanton, welche Mutter von
+7 Kindern war, in ihren kargen Mußestunden alle wichtigen Schrift-
+stücke verfaßte, wie die Eingaben über Mäßigkeit, Bekämpfung der
+Sklaverei, Erziehungsfragen usw., reiste Susan Anthony von Ort zu Ort,
+keine Entfernung, keine Beschwerde scheuend, um den Gedanken von
+der Befreiung der Frau bis in die entlegensten Winkel ihres großen
+Vaterlandes zu tragen. Die Erinnerungen an diese langjährige gemein-
+same Arbeit sind in einem umfangreichen Werke niedergelegt: The
+History of Woman Suffrage, ein herrliches Vermächtnis
+für die Nachwelt (The History of Womam Suffrage edited by Susan B.
+Anthony and Ida Husted Harper in four Volumes).
+Obschon es den beiden treuen Kämpferinnen nicht vergönnt gewesen
+ist, den vollen Sieg ihrer Bestrebungen zu sehen, so sind die Erfolge des
+Frauenstimmrechts in Amerika immerhin bedeutende. Vier Staaten der
+Union gaben den Frauen das volle politische Wahlrecht: Wyoming (1869)
+Colorado (1893) Idaho und Utah (1896). In einer Reihe von anderen
+Staaten wurde von den gesetzgebenden Körperschaften die Frage des
+Frauenstimmrechts zur Erörterung gestellt, so in Maine, Vermont,
+Oregon; in letzterem Staate wurde es mit nur geringer Majorität abge-
+lehnt.
+Viel erfolgreicher war das Vorgehen der Frauen auf dem Gebiete des
+Schulwahlrechts; dies wurde nach dem Vorgehen von Kansas (1874)
+allmählich in 25 Staaten eingeführt, Frauen sind jetzt in allen Stufen
+der Schulverwaltung zu finden als Bezirksinspektoren, Stadt- und Staats-
+schulräte usw.
+Die Wirkungen auf die Gesetzgebung derjenigen Staaten, in denen
+Frauen das Stimmrecht besitzen, sind äußerst segensreiche gewesen.
+So wurde in Wyoming, Idaho und Colorado das Schutzalter für Mädchen
+auf 18 Jahre erhöht, in Wyoming wurde die Kinderarbeit verboten, in
+Colorado eine strengere Durchführung der Kinderschutzgesetze erreicht,
+Anstalten für schwachsinnige Kinder wurden errichtet. Verschiedene
+Maßnahmen zum besten der öffentlichen Gesundheitspflege, vornehmlich
+in den Schulen, sind der Einwirkung der Frauen zu verdanken; Frauen
+sorgten für den Schutz der Wälder, Errichtung von öffentlichen Trink-
+brunnen, von Rauch verzehrenden Schornsteinen; der Verkauf von
+Tabak und Spirituosen an Minderjährige wurde gesetzlich geregelt, das
+Hazardspiel verboten.
+Die amerikanische Stimmrechtsbewegung hat eine feste Organi-
+sation in der National Woman Suffrage Association, (gegründet 1868)
+welche in fast allen Staaten Landesvereine (State-Associations) besitzt.
+Die derzeitige Vorsitzende ist die Methodistin Predigerin Rev. Annie
+Shaw, eine durch seltene Beredsamkeit ausgezeichnete Vorkämpferin
+der Frauenrechte.
+In England waren die Frauen im Besitze des politischen Wahl-
+rechts bis 1832, wo es ihnen durch die Reformakte genommen wurde.
+Die englische Frauenstimmrechtsbewegung setzt ziemlich zu derselben
+Zeit ein wie die amerikanische; die ersten Artikel über die Befreiung der
+Frau erschienen 1851 in der Westminster Review. Die erste Vorkämpfe-
+rin war Lydia Ernestine Becker, eine Frau von deutscher Abstammung.
+Bahnbrechend für die Bewegung wirkte das Erscheinen von John
+Stuart Mills berühmtem Buch „Die Hörigkeit der Frau“. (The sub-
+jection of Woman). Der Verfasser war es auch, welcher die erste Vorlage
+für das Frauenstimmrecht 1866 vor dem englischen Parlament vertrat.
+Im Jahre 1869 fand in London die erste öffentliche Versammlung statt,
+in der Millicent Fawcett, (welche noch heute der Bewegung angehört) die
+Forderung des Frauenstimmrechts vertrat. In der Diskussion sprachen
+12 Parlamentarier.
+Fast Jahr für Jahr haben die englischen Frauen Eingaben das Stimm-
+recht betreffend an das Parlament gerichtet; bei den Abstimmungen sind
+große Minoritäten für das Frauenstimmrecht eingetreten, ja am 3. Fe-
+bruar 1897 hat die Mehrheit des englischen Unterhauses in zweiter Lesung
+die Einführung des Frauenstimmrechts beschlossen, das Oberhaus
+schützte formelle Gründe vor, um nicht in die zweite Lesung einzutreten.
+In den 80er Jahren waren die Frauen insofern in die praktische
+Politik übergegangen, daß sie sich an den Vorarbeiten für die Wahl-
+kampagnen beteiligten. Zugleich bildeten sich drei große parteipoli-
+tische Frauenorganisationen Primrose League (konservativ) the Womens
+liberal Federation and the Womens liberal Unionists Association. Es
+läßt sich nicht verkennen, daß diese Parteibildungen die Wucht der
+englischen Stimmrechtsbewegung abgeschwächt haben, die sich erst
+neuerdings im Beginn dieses Jahrhunderts zu neuer Tatkraft aufgerafft
+hat.
+Die Dinge liegen insofern in England günstig, als Frauen seit mehr
+als hundert Jahren an der kommunalen Selbstverwaltung des vereinigten
+Königreiches beteiligt sind und sich in derselben aufs beste bewährt
+haben. Die Frauen sind wahlberechtigt und wählbar zu den Gemeinde-
+und Bezirksräten, zu den Armenräten, (von letzteren gab es 1904 unge-
+fähr 1000 weibliche), außerdem haben die Frauen das passive Wahlrecht
+zu den Stadt- und Grafschaftsräten. Eine Sonderstellung nimmt die
+kleine Insel Man ein, die eine von England unabhängige Verwaltung be-
+sitzt; dort wurde den Frauen im Jahre 1880 durch eine Wahlreformbill
+die volle politische Freiheit verliehen.
+Besonders weitgehender Rechte erfreuen sich die Frauen in den
+Australischen Kolonien; Neu-Seeland gab den Frauen das volle poli-
+tische Stimmrecht im Jahre 1893; jetzt besitzen es sämtliche australische
+Gebiete mit einziger Ausnahme von Viktoria. Die Frauen Australiens
+machen von ihrem Wahlrecht fleißig Gebrauch und haben bereits eine
+Reihe von gesetzgebrischen Maßnahmen zur Besserstellung ihres eigenen
+Geschlechtes, wie zur Förderung der Gesamtwohlfahrt durchgesetzt.
+Australische Staatsmänner haben sich sehr anerkennend über die günsti-
+gen Folgen des Frauenstimmrechts geäußert. *) In Neuseeland ist kürz-
+lich den Frauen auch das passive Wahlrecht für das Oberhaus, von wel-
+chem sie bisher ausgeschlossen waren, verliehen worden; bei der Ab-
+stimmung, welche darüber im Unterhause stattfand, stimmte der Pre-
+mierminister und zwei Staatsminister für diese Neuerung. (Jus Suf-
+fragii vom 15. September 1907).
+Eine ziemlich bevorzugte Stellung nehmen auch die Frauen der
+skandinavischen Länder ein; die Frauen Schwedens, insbesondere die
+Grundbesitzerinnen, haben seit alter Zeit das kommunale Wahlrecht,
+ebenso wie die Männer. Im Jahre 1862 wurde dies Wahlrecht auf alle
+Frauen ausgedehnt, welche zum mindesten ein Einkommen von 500 Kro-
+nen versteuern. Seit 1889 können Frauen zu Mitgliedern der Armen-
+kommissionen, sowie des Schulrats gewählt werden. Kürzlich wurde
+den Frauen auch das beschränkte politische Wahlrecht verliehen; es
+gelten dafür dieselben Bestimmungen wie für das kommunale Wahlrecht.
+In Norwegen erlangten die Frauen 1889 Anteil an der Schulverwal-
+tung, Frauen können das Amt eines Schulinspektors bekleiden, 1890 und
+1892 beschäftigte sich das Parlament mit der Frage des Frauenstimm-
+rechts, 1901 erhielten die Frauen, welche das 25. Lebensjahr vollendet
+haben und ein steuerbares Einkommen von durchschnittlich 400 Mark
+besitzen, das aktive und passive kommunale Wahlrecht, 1907 das poli-
+tische Wahlrecht unter denselben Bedingungen.
+Die dänischen Frauen haben sich wiederholt mit Eingaben um Ge-
+währung des Gemeindewahlrechts an die gesetzgebenden Körperschaften
+gewendet; die zweite Kammer „Folksthing“ hat siebenmal den betreffen-
+den Anträgen zugestimmt, doch ist die erste Kammer „Landsthing“
+diesen Beschlüssen nicht beigetreten.
+In Island erhielten die unverheirateten Frauen 1882 das Stimmrecht
+für kommunale Wahlen, 1886 für die Wahl der Geistlichen.
+Ueber den Sieg des Frauenstimmrechts in Finnland wird an anderer
+Stelle berichtet werden.
+Vergleichsweise war die Stimmrechtsbewegung in den Ländern
+romanischer Sprache, sowie in Oesterreich, der Schweiz, Holland und
+Rußland bisher noch wenig entwickelt. In Belgien haben die Frauen
+seit 1893 die Zulassung zur städtischen Armenpflege erlangt. In Frank-
+reich besteht erst seit kurzem ein Frauenstimmrechtsverein: Le Suffrage
+des Femmes. In der Schweiz haben sich neuerdings Stimmrechtsvereine
+in Genf und Lausanne gebildet. In Holland wurde 1890 anläßlich der
+Bewegung zur Einführung des allgemeinen Wahlrechts eine Agitation
+für das Frauenstimmrecht begonnen, welche anfänglich nur geringe Er-
+folge zeitigte. Neuerdings ist die Bewegung durch die rührige Tätigkeit
+des Frauenstimmrechtsvereins stark in Fluß gekommen. Gelegentlich
+der Revision der Verfassung ist im Oktober 1907 eine Regierungsvorlage
+erschienen, welche das aktive und passive Frauenwahlrecht in Aussicht
+stellt.
+Die Initiative zur Gründung eines Weltbundes für Frauenstimmrecht
+ist von Amerika ausgegangen. In der 34. Jahresversammlung des ameri-
+kanischen National-Verbandes für Frauenstimmrecht ergingen Einladungen
+*) Siehe hierzu Heft 1516 der gleichen Sammlung: Revers: Das politische Wahl-
+recht der Frau in Australien. .30 Pf.
+zu einer internationalen Frauenstimmrechtskonferenz an die Frauenorgani-
+sationen von 14 Ländern, verbunden mit der Aufforderung, einen Bericht
+über die Lage und die Rechte der Frauen in diesen Ländern zu geben.
+Diese Konferenz fand im Februar 1902 in Washington statt. Vertreten
+waren von Amerika außer den Vereinigten Staaten: Kanada, Mexiko,
+Süd-Amerika, von Europa: Belgien, Holland, Frankreich, England,
+Dänemark, Norwegen, Schweden, Deutschland, die Schweiz, Italien, die
+Türkei. Australien war ebenfalls vertreten. Von China, Japan und Per-
+sien wurden Berichte verlesen.
+Der deutsche Verein für Frauenstimmrecht war in Washington
+nicht vertreten (ein Begrüßungsschreiben des deutschen Vereins für
+Frauenstimmrecht hatte sich durch Zufall verspätet und konnte deshalb
+nicht verlesen worden) doch wurde seiner zweimal Erwähnung getan,
+einmal in einem Anschreiben, welches der Vorstand des Verbandes fort-
+schrittlicher Frauenvereine an den amerikanischen Nationalbund ge-
+richtet hatte, ferner in dem von der Vorsitzenden des Bundes deutscher
+Frauenvereine Frau Marie Stritt verfaßten Bericht über Deutschland,
+welcher von Frl. Antonie Stolle verlesen wurde.
+Die Absicht der Gründung eines Weltbundes für Frauenstimmrecht
+kam nicht zur Ausführung, wurde vielmehr auf das Jahr 1904 verschoben,
+wo die Tagung des Internationalen Frauenrates in Berlin bevorstand.
+Es wurde ein Internationales Frauenstimmrechts-Komitee gebildet, in
+welchem Amerika durch Susan Anthony und Mrs. Carrie Chapman Catt
+vertreten war. Wenige Monate darauf wurde auf Grund eines Ueberein-
+kommens mit der Präsidentin des Komitees Susan Anthony, von den
+Mitgliedern des deutschen Vereins für Frauenstimmrecht die Wahl der
+Vertreterinnen für Deutschland vollzogen; es wurden gewählt: Dr. Augs-
+purg, Frau Cauer, Lida-Gustava Heymann. Auf Wunsch der amerika-
+nischen Frauen übernahm Dr. Augspurg den Posten einer Vizepräsiden-
+tin des Internationalen Frauenstimmrechtskomitees.
+Die zweite Internationale Stimmrechtskonferenz wurde am 3. Juni
+1904 im Hotel Prinz Albrecht in Berlin unter dem Vorsitze von Susan
+Anthony eröffnet. Folgende Länder waren durch Delegierte vertreten:
+Vereinigte Staaten von Amerika, Deutschland, England, Holland, Däne-
+mark, Schweden, Norwegen, die Schweiz, Ungarn, Neuseeland.
+Die Delegierten von Deutschland waren: Dr. Augspurg, Frau Cauer,
+Lida-Gustava Heymann, Dr. Käthe Schirmacher, Adelheid von Wel-
+czeck, Martha Zietz.
+Dr. Augspurg begrüßte die Versammlung, und gab eine Uebersicht
+über die Entwicklung der Stimmrechtsbewegung in Deutschland seit der
+kurzen Zeit ihres Bestehens; waren auch damals die Erfolge noch geringe,
+so war dennoch bereits eine Schar von Frauen vorhanden, welche mit
+tiefem Verständnis und echter Begeisterung im Kampfe um ihre staats-
+bürgerlichen Rechte standen. Susan Anthony erwiderte mit warmen
+Worten und gab einen kurzen Rückblick auf ihre Lebensarbeit. Die
+geistige Frische, die unermüdliche Ausdauer, mit welcher die greise
+Führerin die Verhandlungen leitete, werden allen, welche den Vorzug
+hatten an der Konferenz teilzunehmen, ebenso unvergeßlich bleiben,
+wie die herzgewinnende Freundlichkeit der greisen Frau. Ihr zur Seite
+stand Mrs. Chapman Catt; sie überbrachte die Grüße der Schwestern
+jenseits des Ozeans und überreichte gleichsam als Symbol, einen Hammer
+aus den edlen Hölzern von Wyoming und dort gewonnenem Silber ge-
+fertigt. (Wyoming war der erste Staat der Welt, der den Frauen das
+Stimmrecht verliehen hatte; der Hammer ist für Amerika das Zeichen
+für die Leitung anstatt der Glocke.)
+Die Verhandlungen wurden in englischer, das Protokoll in englischer
+und deutscher Sprache geführt: Dr. phil. Käthe Schirmacher verwaltete
+das Amt als Dolmetscher mit seltener Gewandtheit. Zur Beratung kam
+zunächst das von dem internationalen Komitee entworfene Programm
+welches mit kleinen Abänderungen zur Annahme gelangte und folgender-
+maßen lautet:
+1. Männer und Frauen werden als gleichermaßen freie und selbst-
+ständige Glieder der menschlichen Gesellschaft geboren, gleich begabt mit
+Verstand und Fähigkeiten und gleich befugt zur ungehinderten Ausübung
+ihrer persönlichen Freiheit und Rechte.
+2. Die natürlichen Beziehungen zwischen den Geschlechtern bestehen
+in gegenseitiger Abhängigkeit und gemeinsamer Arbeit; jedwede Be-
+schränkung der Freiheit eines Geschlechts schädigt ganz unvermeidlich
+auch das andere und damit die ganze Menschheit.
+3. Alle Gesetze, Sitten und Gebräuche, die, in welchem Lande es
+auch sei, darauf hinzielen, der Frau eine abhängige Stellung zu geben,
+ihre Erziehung zu beschränken, die Entwicklung ihrer natürlichen Gaben
+zu hemmen, ihre Persönlichkeit unterzuordnen, haben, auf falschen Grund-
+sätzen beruhend, in der modernen Welt ein gekünsteltes und ungerechtes
+Verhältnis zwischen den Geschlechtern geschaffen.
+4. Selbstbestimmung in Haus und Staat ist das unveräußerliche
+Recht jedes normalen erwachsenen Menschen und der Ausschluß der
+Frauen von diesem Recht hat ihnen gegenüber zu sozialen, rechtlichen
+und wirtschaftlichen Ungerechtigkeiten geführt und gleichfalls dazu bei-
+getragen, die ökonomischen Notstände der ganzen Welt zu verschärfen.
+5. Jede Regierung, die ihren weiblichen Bürgern Steuern auferlegt
+und Gesetze vorschreibt, ohne ihnen dasselbe Recht der Mitbestimmung
+zu gewähren, das die männlichen Bürger besitzen, übt einen Mißbrauch
+der Gewalt, der mit einer gerechten Regierung unvereinbar ist.
+6. Das Stimmrecht ist das einzige Mittel zur Wahrung jener per-
+sönlichen Rechte auf Leben und Freiheit, wie sie die Amerikanische Un-
+abhängigkeitserklärung als unveräußerlich hingestellt hat und wie sie
+von allen modernen Verfassungen anerkannt werden. Darum müssen in
+Ländern mit konstitutioneller Regierungsform den Frauen alle poli-
+tischen Rechte und Privilegien verliehen werden.
+Nachdem auch die von dem Komitee vorgelegten Satzungen ange-
+nommen waren, vollzog sich am Nachmittage des 4. Juni die Gründung
+des Weltbundes für Frauenstimmrecht. „Die Frauenbewegung“ vom
+15. Juni 1904 sagt darüber: „Es war ein ergreifender Moment, als die
+Beitrittserklärung der verschiedenen Länder erfolgte und nach stattge-
+fundener Wahl des Vorstandes Miss Susan B. Anthony, die 84 jährige
+Greisin, nun auf das Werk ihres Lebens blicken konnte – den Zusammen-
+schluß der Frauen aus den verschiedenen Ländern durch ihren unent-
+wegten und mutigen Kampf erreicht zu haben. Wer diesen Moment mit
+erlebt hat, wird ihn nicht vergessen. Aufrecht stehend inmitten ihrer
+Gesinnungsgenossinnen, auf dem ehrwürdigen Gesichte eine tiefe Be-
+wegung, mit wenigen Worten, welche von innerer Ergriffenheit zeugten,
+für die brausenden Ovationen dankend, – was mochte durch die Seele
+dieser Frau gehen, die einst mit Steinen geworfen worden und nun, man
+kann wohl sagen, ein Weltall zu ihren Füßen sah.“ …
+Susan Anthony lehnte es wegen ihres hohen Alters ab den Vorsitz
+zu übernehmen und wurde zur Ehrenpräsidentin, Mrs. Chapman Catt
+einstimmig zur Vorsitzenden gewählt; Dr. jur. Augspurg wurde zur zwei-
+ten, Mrs. Fawcett-England zur dritten Vorsitzenden gewählt, zu sonstigen
+Vorstandsmitgliedern Mrs. Foster Avery-Vereinigte Staaten, Dr. phil. Käthe
+Schirmacher-Paris, Frl. Naber-Holland, Miß Rodger Canliffe-England.
+Folgende Länder schlossen sich dem Weltbunde an:
+Vereinigte Staaten von Amerika, Deutschland, England, Holland,
+Schweden, Norwegen, Viktoria (Australien).
+Somit war der feste Grund gelegt für eine einheitliche Entwicklung
+der Frauenstimmrechtsbewegung der ganzen Welt.
+Verschiedene Vorstandsmitglieder übernahmen die Propaganda in
+denjenigen Ländern, welche noch keine oder nur geringe Anfänge einer
+Stimmrechtsbewegung hatten. Größer als es die Tatkraft einzelner ver-
+mocht hätte, gestaltete sich der Einfluß der politischen Ereignisse auf
+die Frauenstimmrechtsbewegung, so daß bei der dritten Konferenz des
+Weltbundes, die vom 7.-11. August 1906 in Kopenhagen stattfand,
+wesentliche Fortschritte zu verzeichnen waren. Außer Kanada und
+Dänemark, welche sich inzwischen schon dem Weltbunde angeschlossen
+hatten, traten in Kopenhagen Rußland, Ungarn und Italien bei. So
+waren im ganzen 12 Nationen durch Delegierte vertreten:
+Vereinigte Staaten von Amerika, Australien, Kanada, Dänemark,
+Deutschland (vertreten durch die beiden Vorsitzenden Dr. jur. Anita
+Augspurg und Lida-Gustava Heymann und die Schriftführerin Adelheid
+von Welczeck.) England, Italien, Holland, Norwegen, Schweden, Ruß-
+land, Ungarn (inzwischen ist auch Finnland dem Weltbunde beigetreten).
+In Rußland trat inmitten der blutigen Wirren der Revolution eine
+Bewegung für die Befreiung der Frau zu Tage, welche sich schon lange
+im Geheimen vorbereitet hatte. Im Frühjahr 1905 wurde in Moskau ein
+Frauenverband für Frauenstimmrecht gegründet. Die Berichte der
+russischen Führerinnen, welche unter außerordentlichen Schwierigkeiten
+und Gefahren ihre Organisation ins Leben gerufen hatten, erregten in
+Kopenhagen lebhafte Teilnahme. Die große allgemeine Wahl-
+rechtsbewegung pflanzte sich von Rußland nach Oesterreich und Ungarn
+fort; hier galt es Rechte zu erkämpfen für beide Geschlechter, so gingen
+die Frauen gemeinsam mit den Männern vor.
+In Wien, Prag und Brünn fanden große Frauenversammlungen statt,
+eine Eingabe wurde an das Ministerium und das Abgeordnetenhaus ge-
+richtet. Allein die Engigkeit des österreichischen Vereinsgesetzes, wel-
+ches wie in Preußen, den Frauen die Zugehörigkeit zu politischen Vereinen
+verbietet, hemmte den weiteren Fortschritt der Bewegung; während die
+Männer das allgemeine Wahlrecht erhielten, blieben die Frauen unbe-
+rücksichtigt.
+Mit besonderer Tatkraft gingen die ungarischen Frauen vor; der
+Verein für Fraueninteressen trat energisch für die Forderung des Frauen-
+stimmrechts ein, gewann viele Anhänger und wußte einflußreiche Poli-
+tiker für die Frage des Frauenstimmrechts zu interessieren.
+Einen vollen Erfolg errangen die Frauen in Finnland; dort waren
+sie infolge der jahrhundertelangen Zugehörigkeit zu Schweden, bereits
+lange im Besitze des kommunalen Stimmrechts, außerdem war durch die
+gemeinsame Erziehung der Geschlechter Verständnis und Teilnahme
+für die Fragen des öffentlichen Lebens unter den finnischen Frauen in
+reichem Maß vorhanden; sie gingen Schulter an Schulter mit den Männern
+in den Befreiungskampf von dem russischen Joch. So wurde den Frauen
+Finnlands zugleich mit den Männern im Juni 1906 das allgemeine Wahl-
+recht verliehen. Die Freude darüber, daß zum ersten Male Frauen in
+Europa in den Vollbesitz ihrer staatsbürgerlichen Rechte gelangten, gab
+dem Kongreß in Kopenhagen eine besondere Weihe. Leider war es der
+treuen Vorkämpferin Susan Anthony nicht mehr vergönnt diesen Sieg
+der Gerechtigkeit mit zu erleben; wenige Monate vorher war sie aus die-
+sem Leben geschieden, ihr letzter Gedanke galt der heiligen Sache, für
+die sie alles eingesetzt; Reverend Anna Shaw, der es vergönnt gewesen
+die letzten Worte der Sterbenden zu vernehmen, überbrachte Segnungen
+und Grüße der Dahingeschiedenen bei der einfachen aber ergreifenden
+Gedenkfeier.
+Es würde zu weit führen hier auf die schier unerschöpfliche Fülle
+der Berichte einzugehen, welche den Fortschritt der Stimmrechtsbe-
+wegung in allen Ländern schilderten. Von den geschäftlichen Ver-
+handlungen der Konferenz sei nur erwähnt, daß die Gründung eines be-
+sonderen internationalen Organs für den Weltbund im Mittelpunkt
+stand; ein solches erscheint nunmehr in englischer Sprache (Jus Suffragii
+published by the International SuffrageAlliance Editor Martina Kramers
+92 Kruiskade Rotterdam). in Rotterdam unter der Leitung von
+Martina Kramers, Schriftführerin des Weltbundes, welche an Stelle von
+Frl. Naber inzwischen dem Vorstande kooptiert war.
+Es wurde ferner die Herausgabe eines Handbuchs für das Frauen-
+stimmrecht beschlossen, welches eine übersichtliche Zusammenstellung
+alles dessen bringen wird, was bisher erreicht wurde und was überhaupt
+auf diesem Gebiete geschehen ist. Mrs. Rachel Foster Avery und Mar-
+tina Kramers wurden mit dieser Arbeit betraut.
+So wurde durch die Kopenhagener Tagung das Band der Zusammen-
+gehörigkeit, welches die für ihre politischen Rechte kämpfenden Frauen
+der ganzen Welt umschließt, aufs neue gestärkt und gefestigt.
+IV. Die Entwicklung und Neuorganisation des
+deutschen Verbandes für Frauenstimmrecht im
+Oktober 1907.
+Die Gründung des Weltbundes hat die Veranlassung zur Umwand-
+lung des deutschen Vereins für Frauenstimmrecht in einen Verband
+gleichen Namens gegeben. Die Satzungen des Weltbundes haben zur
+Voraussetzung, daß die Stimmrechtsbewegung eines Landes durch einen
+Nationalverband vertreten ist, dem sich Einzelvereine als Zweige orga-
+nisch angliedern. Es war vorauszusehen, daß sich mit dem Wachsen
+der Bewegung in denjenigen deutschen Staaten, in welchen das Vereins-
+gesetz es zuläßt, Stimmrechtsvereine bilden würden, für deren Anschluß
+an den Weltbund der Nationalverband von vornherein der Mittler wer-
+den sollte. So entstand am 1. Oktober 1904 auf einer außerordent-
+lichen Generalversammlung in Hamburg der deutsche Verband
+für Frauenstimmrecht; im unmittelbaren Anschluß daran
+konstituierte sich als erster Zweigverein der Verein für Frauenstimm-
+recht-Hamburg. Einen Monat später, im November 1904, gründete
+Martha Zietz den Verein für Frauenstimmrecht-Bremen. Das Jahr 1905
+brachte eine stetige Entwicklung in stiller emsiger Arbeit. Größere
+Gruppen hatten sich allmählich in einer Reihe von Städten gebildet, so
+in Berlin, Frankfurt a. M., München, Danzig, Hannover u. a. Durch
+das Vereinsgesetz an einem eigentlichen Zusammenschluß verhindert,
+versuchten diese Gruppen durch Einrichtung von Diskussionsabenden
+ihre Mitglieder zu vereinigen und politisch zu schulen; auch größere
+öffentliche Propaganda-Versammlungen fanden wiederholt statt. Der
+Vorstand versandte einen Arbeitsplan, um für Beteiligung der Frauen
+an den Krankenkassen zu wirken. Dieser Anregung wurde mehrfach
+durch Vereine und Einzelpersonen Folge gegeben.
+Die Frage des kirchlichen Frauenstimmrechts erfuhr eine besondere
+Förderung durch die eifrige Tätigkeit des Vorstandsmitgliedes Frl.
+Martha Zietz. Im Herbst 1903 richtete Frl. Zietz im Namen des Vor-
+standes ein Anschreiben an die hervorragendsten Vertreter der
+theologischen Fakultäten beider Konfessionen mit der Anfrage, ob sich
+aus den Reden Jesu ein direktes Verbot der vollen Gleichberechtigung
+von Mann und Weib ableiten lasse und ob in den Verfassungen der christ-
+lichen Urgemeinden eine Spur eines Unterschiedes in den Rechten männ-
+licher und weiblicher Gemeindemitglieder nachweisbar sei.
+Ferner erging an eine Anzahl von Geistlichen, die im praktischen
+Leben stehen, die Anfrage:
+ob sie kirchliches Frauenstimmrecht vereinbar mit der christlichen
+Ethik halten und
+ob sie persönlich dasselbe für die Wiederbelebung des kirchlichen
+Interesses für wünschenswert halten.
+Die Umfrage ist von 78 protestantischen Professoren der Theologie
+und protestantischen Geistlichen, von 2 katholischen Professoren und
+einem katholischen Geistlichen beantwortet worden. Fast sämtliche
+Antworten lauteten günstig und zustimmend, nur eine verschwindende
+Minderheit äußerte sich ablehnend. Im großen und ganzen bedeutet
+das Urteil dieser Männer eine wesentliche Wandlung zu Gunsten der
+Frau. Die gesammelten Antworten wurden vom Vorstande in Form
+einer Broschüre herausgegeben: „Wie urteilen Theologen über das kirch-
+liche Stimmrecht der Frauen.?“
+Im Sommer 1905 bildete sich innerhalb des Verbandes eine Kom-
+mission für das kirchliche Frauenstimmrecht unter dem Vorsitz von Frl.
+Martha Zietz. Die Kommission, welcher auch mehrere Geistliche als
+Beirat angehören, hat durch ihre Propagandatätigkeit das Interesse für
+die Frage des kirchlichen Frauenstimmrechts in weitere Kreise getragen.
+Durch einen Antrag der Kommission veranlaßt, wurden Frauen in die
+Vorstände mehrerer kirchlicher Vereine gewählt.
+Die erste Generalversammlung des Verbandes fand am
+5. Oktober 1905 in Berlin statt (die Generalversammlung in Hamburg
+1903 war vom deutschen Verein für Frauenstimmrecht einberufen).
+Den Hauptvortrag hielt die 2. Vorsitzende des Verbandes Lida-Gustava
+Heymann über die Wichtigkeit der Beteiligung von Frauen an den Land-
+tags- und Kommunalwahlen. Dieser Vortrag war von großer Bedeutung
+dadurch, daß die Referentin auf Grund eigenster Erfahrung darlegen
+konnte, wie trotz der hemmenden Vereinsgesetze eine politische Be-
+tätigung der Frauen wohl möglich ist. Es hatte sich nämlich bei Ge-
+legenheit der Bayrischen Landtagswahlen im Sommer 1905 eine Anzahl
+von Frauen auf Veranlassung der beiden Vorsitzenden an den Vorarbei-
+ten zu den Wahlen durch Listenschreiben, Verteilung von Wahlzetteln,
+Flugblättern usw. eifrig beteiligt. Dies Vorgehen ist gewissermaßen
+vorbildlich geworden, indem sich Frauen in ähnlicher Weise wiederholt
+bei städtischen Wahlen, insbesondere aber bei den Reichstagswahlen
+1907 beteiligt haben.
+Die Gründung eines Frauenstimmrechtsfonds, zu welchem Mit-
+glieder und Freunde beisteuerten, versetzte den Vorstand in die Lage
+eine stärkere Propaganda in die Wege zu leiten. Die beiden Vorsitzenden
+und die Schriftführerin unternahmen wiederholt größere Vortragsreisen,
+welche dem Verbande viele neue Mitglieder zuführten und eine Reihe
+von Neugründungen von Vereinen und Ortsgruppen zur Folge hatten.
+Im März 1906 wurde von Dr. Augspurg der mitteldeutsche
+Verein für Frauenstimmrecht mit dem Sitz in Leipzig gegründet.
+Im Mai wurde nach einer Reihe von Vorträgen in den badischen
+Städten, von der Schriftführerin Adelheid von Welczeck der badische
+Verein für Frauenstimmrecht mit dem Sitz in Mannheim ge-
+gründet. Im November erfolgte in Stuttgart nach einem Vortrag
+der ersten Vorsitzenden die Gründung des württembergischen
+Vereins für Frauenstimmrecht mit dem Sitz in Stuttgart.
+Anfang des Jahres 1907 unternahm die 2. Vorsitzende eine ausgedehnte
+Propagandareise, welche sie durch Württemberg, Baden, die Rhein-
+provinz, Posen und Ostpreußen führte; in mehreren Städten wurden
+Ortsgruppen gegründet. Im Mai wurde von der 2, Vorsitzenden ein
+Verein für Frauenstimmrecht in Worms gegründet (im Novem-
+ber wurden von der Schriftführerin Vereine für Frauenstimmrecht in
+Mainz und Darmstadt gegründet, welche sich mit dem Wormser Verein
+zu einem Hessischen Landesverein für Frauenstimmrecht zusammen-
+geschlossen haben).
+Der Sächsische Verein für Frauenstimmrecht, welcher außerhalb
+des Verbandes im Februar 1906 von Frau Marie Stritt in Dresden gegrün-
+det wurde, hat sich nach der Neuorganisation des Verbandes demselben
+angeschlossen.
+Daß in weiteren Kreisen der deutschen Frauenwelt ein starkes
+politisches Interesse besteht, ist bei Gelegenheit der letzten Reichs-
+tagswahlen unzweideutig zu Tage getreten. Unmittelbar nach der Auf-
+lösung des Reichstags am 13. Dezember 1906 erging an die Zweigvereine,
+Ortsgruppen und Einzelmitglieder ein Anschreiben des Vorstandes mit
+der Aufforderung sich an den Vorarbeiten für die Reichstagswahlen zu
+beteiligen. Dieser Aufforderung wurde vielfach Folge geleistet, insbe-
+sondere in Süddeutschland war die Anteilnahme der Mitglieder eine sehr
+rege. In München, Stuttgart, Konstanz, Mannheim, Worms arbeiteten
+viele Frauen in den Wahlbureaus, besuchten die Wahlversammlungen
+und interpellierten die Kandidaten schriftlich und mündlich über ihre
+Stellungnahme zum Frauenstimmrecht.
+In Frankfurt a. M. bildete sich ein Frauenwahlkomitee, welches die
+Mitarbeit der Frauen in systematischer Weise leitete.
+Während sich in Frankfurt mehrere Kandidaten als Freunde des
+Frauenstimmrechts bekannt hatten, lagen die Verhältnisse in Nord- und
+Mitteldeutschland bedeutend weniger günstig; vielfach erhielten die
+Mitglieder auf ihre Anfragen an die Kandidaten über ihre Stellungnahme
+zum Frauenstimmrecht keine oder ablehnende Antwort. So mußten
+sich die Mitglieder vielfach darauf beschränken durch Besuch der Wahl-
+versammlungen zu den politischen Fragen Stellung zu nehmen. Immer-
+hin haben sich die Mitglieder in einer Anzahl von Städten aktiv an den
+Wahlarbeiten beteiligt, so in Danzig, Königsberg, Bromberg, Görlitz,
+Bunzlau, Hannover, Hamburg, Köln u.a.
+Die Mehrzahl dieser Frauen ist für liberale Kandidaten eingetreten,
+einige auch für sozialdemokratische Kandidaten.
+Der Vorstand des deutschen Verbandes hat an die verschiedenen
+politischen Parteien wiederholt das Gesuch gerichtet, das Frauenstimm-
+recht in ihr Parteiprogramm aufzunehmen, bisher ohne Erfolg, obgleich
+einzelne Abgeordnete sich, wie bereits erwähnt, durchaus zu gunsten des
+Frauenstimmrechts geäußert haben. So bleibt nach wie vor die so-
+zialdemokratische Partei die einzige, die programm-
+mäßig das Frauenstimmrecht vertritt.
+Jedenfalls unterliegt es keinem Zweifel, daß die öffentliche Meinung
+in bezug auf das Frauenstimmrecht in einer günstigen Wandlung be-
+griffen ist. Die Generalversammlung des deutschen Verbandes in Frank-
+furt im September dieses Jahres hat das auf das Schlagendste bewiesen.
+Die Teilnahme des Publikums an den Verhandlungen war eine ausser-
+ordentlich rege; von besonderem Interesse war das Referat der zweiten
+Vorsitzenden Lida-Gustava Heymann über das allgemeine, direkte und
+geheime Wahlrecht; die Vortragende wies den oft erhobenen Vorwurf
+der Verband sei für ein beschränktes Wahlrecht eingetreten, mit aller
+Entschiedenheit zurück; auch die Mitglieder erklärten sich in der Debatte
+durchaus für das allgemeine und gleiche Wahlrecht – diese Forderung
+wurde als Programmpunkt in die Satzungen des Verbandes aufgenom-
+men (der Verband besitzt jetzt ein eigenes Organ in der Zeitschrift für Frauenstimmrecht, herausgegeben von Dr. Augspurg.) *)
+Bedeutungsvoll waren die Verhandlungen über Neuorganisation
+des Verbandes, welche sich durch die fortschreitende Entwicklung der
+Zweigvereine als notwendig erwiesen hatte. Da die Zweigvereine vom
+Verbande aus gegründet wurden, so hatten sie zunächst dessen Satzungen
+als die ihrigen angenommen, auch waren sie in der Kassenführung von
+der Hauptkasse abhängig. Der Wunsch der Zweigvereine nach größerer
+Selbständigkeit gab dem Vorstande Veranlassung einen Satzungsentwurf
+vorzulegen, welcher zur Annahme gelangte und den Vereinen völlige
+Bewegungsfreiheit gewährt; sie werden fortan eigene Satzungen haben
+(dieselben dürfen mit den Satzungen des Verbandes nicht in Wider-
+spruch stehen) eigene Kassenführung und die selbständige Vertretung
+der Bewegung in den ihnen zugehörigen Gebieten. Als Grundlage der
+*) Verlag W. u. S. Loewenthal, Berlin, Grünstr. 4.
+Organisation ist die Einteilung nach Bundesstaaten des Deutschen Reiches
+gedacht; die in einem Bundesstaat vorhandenen Ortsvereine schließen
+sich zu Landesvereinen zusammen. In denjenigen Staaten, in welchen
+das Vereinsgesetz die Gründung von Stimmrechtsvereinen nicht zuläßt,
+wird die Organisation durch die Wahl von Vertrauenspersonen geregelt.
+Somit ist die feste Grundlage geschaffen für eine Bewegung, welche
+wie kaum eine andere berufen erscheint, das Kulturleben unseres Staates
+zu beeinflussen. Die deutsche Frau, welche bisher in unermüdlicher
+Arbeit und strenger Pflichterfüllung wesentlich zum Gedeihen unseres
+Volkes beigetragen hat, beginnt sich darauf zu besinnen, daß sie, die dem
+Staate seine Bürger schenkt, auch ihrerseits Bürgerrechte zu
+fordern hat. Die deutsche Frau erhebt ihre Stimme, weil sie fühlt, daß
+sie ein Recht hat gehört zu werden, wo über die Geschicke ihres Vater-
+landes, über das Wohl und Wehe ihres eigenen Geschlechtes und das
+ihrer Kinder entschieden wird; und sie wird nicht verstummen bis ihr
+dies Recht zu teil wird!
+Quellenmaterial:
+Handbuch der Frauenbewegung von Helene Lange und Gertrud Bäumer.
+Erster Teil.
+Der Linke Flügel von Else Lüders.
+Report of the International Woman Suffrage Alliance in Washington
+1902.
+Report of the International Woman Suffrage Alliance in Berlin 1904
+and Kopenhagen 1906.
+Die Frauenbewegung, alle Jahrgänge.
+Die Gleichheit, 16. Jahrgang 1906.
+Jus Suffragii, Jahrgang 1906/07.
+Verlag: Felix Dietrich, Gautzsch bei Leipzig, Kregelstraße 5.
+Druck: Fr. Andrä's Nachf., Leipzig.
+_
+_
+</text>
+  </TextCorpus>
+</D-Spin>

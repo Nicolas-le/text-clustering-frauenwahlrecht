@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/heymann_mitarbeit_1911</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-heymann_mitarbeit_1911.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/heymann_mitarbeit_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_mitarbeit_1911.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/heymann_mitarbeit_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_mitarbeit_1911.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/heymann_mitarbeit_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_mitarbeit_1911.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/heymann_mitarbeit_1911</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-heymann_mitarbeit_1911.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Wird die Mitarbeit der Frauen in den politischen Männerparteien das Frauenstimmrecht fördern?</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Heymann</cmdp:surname>
+<cmdp:forename>Lida Gustava</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118704524</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2017-06-02T14:25:14Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2017-06-02T14:25:14Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">16</cmdp:measure>
+        <cmdp:measure type="tokens">6808</cmdp:measure>
+        <cmdp:measure type="types">2089</cmdp:measure>
+        <cmdp:measure type="characters">49843</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T18:58:49Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/heymann_mitarbeit_1911</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/heymann_mitarbeit_1911</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/heymann_mitarbeit_1911</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/heymann_mitarbeit_1911</cmdp:idno>
+          <cmdp:idno type="DTADirName">heymann_mitarbeit_1911</cmdp:idno>
+          <cmdp:idno type="DTAID">32195</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32195-7</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Heymann, Lida Gustava: Wird die Mitarbeit der Frauen in den politischen Männerparteien das Frauenstimmrecht fördern? Gautzsch b. Leipzig, 1911.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Wird die Mitarbeit der Frauen in den politischen Männerparteien das Frauenstimmrecht fördern?</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Heymann</cmdp:surname>
+<cmdp:forename>Lida Gustava</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/118704524</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1"/>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Gautzsch b. Leipzig</cmdp:pubPlace>
+            <cmdp:date type="publication">1911</cmdp:date><cmdp:publisher><cmdp:name>Felix Dietrich</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Archiv der deutschen Frauenbewegung Kassel</cmdp:repository>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Antiqua</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                            <p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+                <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: dokumentiert;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: keine Angabe;
+                    Kolumnentitel: keine Angabe;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): als s transkribiert;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+                </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Kultur und Fortschritt
+Neue Folge der Sammlung „Sozialer Fortschritt“
+Hefte für Volkswirtschaft, Sozialpolitik,
+Frauenfrage, Rechtspflege und Kulturinteressen.
+No. 392.
+Wird die Mitarbeit der Frauen in
+den politischen Männerparteien
+das Frauenstimmrecht fördern?
+Von
+Lida Gustava Heymann
+(München).
+Herausgegeben vom
+Bayerischen Verein für Frauenstimmrecht.
+GAUTZSCH b. Leipzig
+FELIX DIETRICH
+1911.
+Fast in allen Ländern wo der Kampf um das Frauenstimmrecht
+geführt wird, wirft man in neuerer Zeit die Frage auf, ob die Mitarbeit
+der Frauen in den politischen Männerparteien dazu beiträgt, der poli-
+tischen Gleichberechtigung der Frau früher zum Siege zu verhelfen.
+Begeisterte Anhänger und energische Gegner sind bald zur Stelle und
+beide versuchen mit warmer Ueberzeugung und großer Schärfe Pro-
+paganda für ihre Ideen zu machen.
+Allerdings kommt diese Frage nicht für alle Anhänger des Frauen-
+stimmrechts in Betracht. Die weiblichen Mitglieder der sozialdemo-
+kratischen Partei z. B. erklären, daß ihr Parteiprogramm die Gleich-
+heit aller ohne Unterschied des Geschlechtes anstrebt. daß die Männer
+ihrer Partei für das Wahlrecht der Frau nicht erst durch die Frauen
+gewonnen zu werden brauchen, sondern daß das Parteiprogramm sie
+dazu verpflichtet. Theoretisch ist für sie die Frage somit erledigt. Die
+Majorität der sozialdemokratischen Frauen steht außerdem auf dem
+Boden des Klassenkampfes, nach ihrer Ansicht werden die Männer
+ihrer Klasse sie in ihren Forderungen tatkräftiger und wirksamer unter-
+stützen als die Frauen der sogenannten höheren Klassen. Die Praxis
+aber hat gelehrt, daß die sozialdemokratischen Frauen seitens der Männer
+ihrer Partei keineswegs immer Verständnis, geschweige denn Unter-
+stützung ihrer Forderungen fanden. Besonders die Wahlrechtskämpfe
+in Oesterreich, Belgien, Holland und Ungarn haben gezeigt, daß die
+sozialdemokratischen Männer, wie die Männer der übrigen Parteien,
+die Rechte der Frauen ohne Skrupel preisgeben, wenn für die Erlangung
+ihrer eigenen auch nur das Geringste zu befürchten steht. Wohl zogen
+die Frauen die logischen Konsequenzen aus solchem Verhalten, sie
+gründeten in vielen Ländern zur wirksameren Vertretung ihrer Forde-
+rungen Frauenorganisationen. Parteigeist, eiserne Parteidisziplin
+zwingen sie jedoch in die Reihen ihrer männlichen Parteigenossen und
+lassen die Frauen, besonders zu Wahlzeiten, erhebliche Arbeit, für die
+Männer leisten. Ob diese Arbeit das Frauenstimmrecht, oder andere
+Forderungen des weiblichen Geschlechts im Wesentlichen fördert, wird
+nicht in Erwägung gezogen.
+Es sei mir, ehe ich an die Erörterung der hier aufgestellten Frage
+gehe, eine persönliche Bemerkung gestattet. Für gewöhnlich ist es
+allerdings im höchsten Grade geschmacklos, wenn Verfasser gleich
+eingangs von ihrer eigenen Person reden müssen, aber unter Umständen
+wird es zur dringenden Notwendigkeit, nämlich dann, wenn durch eine
+derartige Bemerkung der Verdacht einer einseitigen Beurteilung ent-
+kräftet werden kann, wie hier der Fall ist. Daher erkläre ich vorweg,
+daß ich mich von begeisterter, tatkräftiger Anhängerschaft der Mit-
+arbeit der Frauen innerhalb der Parteien unter dem Eindrucke der von
+meinen Mitarbeiterinnen und mir gemachten Erfahrungen zur stärksten
+Gegnerin dieses Prinzips entwickelt habe und mich aus diesem Grunde
+besonders berufen fühle, das Für und Wider der Frage zu erörtern.
+Und nun zur Sache. Hören wir erst einmal die Anhänger, welche
+Gründe sie für die Mitarbeit ins Feld führen und welche Erfolge sie sich
+davon versprechen. Sie sagen, einerseits sollen sich die Frauen durch
+die Arbeit innerhalb der Parteien politische Kenntnisse aneignen, sich
+in politischen Fragen einarbeiten, andererseits werden die Männer
+durch die gemeinsame Arbeit zu der Ueberzeugung kommen, daß gerade
+Frauen imstande sind, im öffentlichen, im politischen Leben neue Werte
+zu schaffen und daß eine große Anzahl der Frauen heute bereits fähig
+ist, ein urteilskräftiges Wort im politischen Leben mitzureden. Die
+Männer werden, das die Folgerung der Anhänger, die logischen Konse-
+quenzen ziehen, sich zur Forderung des Frauenstimmrechts bekennen,
+tatkräftig für sie eintreten und somit der Sache zum Siege verhelfen.
+Man philosophiert weiter, Männer geben uns Frauen das Stimmrecht,
+ergo müssen sie in erster Linie für uns gewonnen werden.
+Es ist durchaus begreiflich, daß diese Behauptungen von Neulingen
+als „Binsenwahrheit“ akzeptiert werden, sie erscheinen, oberflächlich
+betrachtet, durchaus logisch, aber der Eingeweihte, der sich auf Grund
+eigner Erfahrungen sein Urteil gebildet hat, entzieht mit Leichtigkeit
+nicht nur diesen Behauptungen jeden praktischen Boden, ihm stehen
+außerdem eine große Anzahl von Gründen zu Gebote, die mit zwingender
+Notwendigkeit dartun, daß die Mitarbeit der Frauen innerhalb der
+politischen Männerparteien für die Erlangung des Frauenstimmrechts
+in höchsten Grade bedenklich ist, bedenklich auch für eine Anzahl von
+Frauen in bezug auf ihren späteren Eintritt in das politische Leben.
+Wir brauchen nämlich zur Lösung großer Kulturfragen Frauen mit ihren
+natürlichen, weiblichen, von keinem Parteigeist angekränkelten Instinkt.
+Auch die Gegner sind gleich den Anhängern der Ueberzeugung,
+daß es Pflicht der Frauen ist, besonders derjenigen, die für das Frauen-
+stimmrecht kämpfen, sich weitgehendste Kenntnisse der inneren und
+äußeren Politik anzueignen. aber sie bestreiten, daß dazu die Mitarbeit
+innerhalb der Parteien notwendig ist, oder daß diese dazu beiträgt,
+politisches Wissen zu vermitteln. Was lernen denn die Frauen innerhalb
+der Parteien? Wie man auf Grund des jesuitischen Wahlspruches:
+„Der Zweck heiligt das Mittel“ am wirksamsten Parteiinteressen ver-
+folgt und die der Gegner bekämpft. Diese Kenntnisse sind für uns
+Frauen, abgesehen davon, daß sie den anständigen Elementen unter
+uns einen unüberwindlichen Ekel gegen die Parteiarbeit der Männer
+einflößen, ohne jeden praktischen Wert für politisches Erkennen im
+allgemeinen und für die Bestrebungen des Frauenstimmrechts im be-
+sonderen. Ferner können die Frauen sich unter Umständen, voraus-
+gesetzt, daß sie in einer gutorganisierten. lebenskräftigen Partei arbeiten,
+eine gewisse Routine in bezug auf Organisation und Taktik erwerben,
+sie erhalten Einblick in Wahlagitation, Wahlarbeit und in den Wahl-
+prozeß selbst. Dinge, die sie teilweise in ihren Frauenorganisationen
+gerade so gut oder besser kennen gelernt haben, die sie, da die meisten
+Wahlen öffentlich vor sich gehen, auch als Außenstehende gewinnen
+können. Das aber hat alles nichts mit Politik zu tun. Um die zu erlernen,
+muß man sich mit der Geschichte der Völker aller Zeiten im allgemeinen
+und der seines eigenen Volkes im besonderen beschäftigen, muß man
+sich genaue Kenntnisse der Volkswirtschaft, aller Kulturbestrebungen
+und der bestehenden Staatseinrichtungen aneignen, muß man als Außen-
+stehender die Programme und das Verhalten nicht nur einer, sondern
+aller politischen Parteien innerhalb und außerhalb der Reichs- und
+Landtage genau prüfen und mit mehr Kritik verfolgen, als man der
+eigenen Partei angedeihen zu lassen pflegt, muß man die Tagespolitik
+in der Presse verschiedener Richtungen beobachten; das alles wird
+uns befähigen, politisch zu denken, uns ein politisches Urteil zu bilden,
+nicht aber die Mitarbeit in den politischen Männerparteien, die ledig-
+lich darauf hinausläuft, das politische Urteil gegen alles andere als den
+beschworenen Parteistandpunkt abzustumpfen und die Arbeitskraft
+der Frauen für männliche Parteiinteressen auszunutzen, ohne daß
+dabei der Sache des Frauenstimmrechts oder den Frauen selbst irgend
+ein Gewinn erwüchse.
+Zur richtigen Beurteilung der Sachlage ist es durchaus notwendig,
+die Arbeit, die von den Frauen in den Parteien geleistet wird, einmal
+näher zu beleuchten. Den Frauen, die als Neulinge in die Partei ein-
+treten und sich zur Arbeit melden, wird während und außerhalb der
+Wahlzeit, je nach ihren Fähigkeiten niedere oder höhere Propaganda-
+arbeit übertragen. Zur ersteren ist zu rechnen: Adressen schreiben,
+Flugblätter verteilen, Bureauarbeiten aller Art, Schlepperdienste zu
+Wahlzeiten usw., zu letzteren: Vorträge halten, Flugblätter verfassen,
+Uebertragung der Leitung ganzer Wahlkreise. Für bewährte Arbeits-
+kräfte bleibt der Lohn, so pflegen sich diese zu rühmen, nicht aus; man
+schickt sie als Delegierte auf Parteitage, sehr häufig aus dem Grunde,
+weil es an männlichen passenden Vertretern fehlt, oder man wählt
+Frauen in die verschiedenen Parteivorstände, überträgt ihnen sogar
+ein Amt, am liebsten natürlich ein recht mühevolles, um ihre Arbeits-
+kraft wiederum zu Parteizwecken auszunützen. In den Vorstands-
+sitzungen, auf den geschlossenen Delegiertenversammlungen werden
+mehr oder weniger nur Parteiangelegenheiten verhandelt, große, wich-
+tige, politische Fragen pflegen seitens aller Parteien in öffentlichen
+Versammlungen erörtert zu werden, wo der Zutritt Jedermann, auch
+den Frauen gestattet ist, wo jeder sich an der Debatte beteiligen kann.
+Von welcher Seite wir die Mitarbeit der Frau innerhalb der Parteien
+auch beleuchten, wir werden zu der Erkenntnis geführt, daß die Er-
+reichung politischer Kenntnisse, das Einarbeiten in die Politik auf andere
+Weise weit richtiger erfolgen kann. Wie aber steht es mit der Behauptung,
+daß die Männer durch die Zusammenarbeit mit den Frauen Anhänger
+des Frauenstimmrechts werden, weil sie sich von der politischen Reife
+der Frauen. von ihren Fähigkeiten, neue politische Werte zu schaffen,
+persönlich überzeugten? In dieser Allgemeinheit aufgestellt, entspricht
+die Behauptung keineswegs den Tatsachen. Wir wollen zwar unumwunden
+zugeben, daß hin und wieder ein Mann durch die Mitarbeit der Frauen,
+für unsere Sache gewonnen wird. Was aber besagt das! Die Majorität
+der Männer innerhalb der Parteien läßt sich die Arbeit der Frauen
+gnädigst gefallen und erklärt zum Schluß: „Ja, wenn alle Frauen wie
+Sie wären, wenn alle Frauen ihre politischen Fähigkeiten. ihre politische
+Urteilskraft besäßen, ja dann würde ich für das Frauenstimmrecht ein-
+treten, aber die große Masse der Frauen (und für diese dient ihm ge-
+wöhnlich seine eigene Frau zum Vorbilde) ist noch lange nicht reif.“
+Möglicherweise erklärt er auch unumwunden die Verallgemeinerung
+der politischen Betätigung der Frauen für ein allgemeines Unglück.
+Um die Männer grundsätzlich für das Frauenstimmrecht zu ge-
+winnen, um sie von der zwingenden Notwendigkeit dieser Forderung
+für jedes Kulturvolk zu überzeugen, gibt es andere und viel wirksamere
+Mittel als die Mitarbeit innerhalb der Parteien. In den meisten kon-
+stitutionellen Staaten haben die Frauen heute schon die Möglichkeit,
+im öffentlichen Leben in praktischer Arbeit gemeinsam mit dem Mann
+zu wirken, z. B. in der Armen- und Waisenpflege, in der Gewerbe- und
+Wohnungsinspektion. bei der Jugendfürsorge. in Vormundschaftsan-
+gelegenheiten usw. Zu allen wichtigen politischen Tagesfragen können
+die Frauen selbständig Stellung nehmen, um so ihr politisches Verständ-
+nis zu beweisen. Es stehen dem weiblichen Geschlecht heute schon
+Wahlrechte zu, durch deren Ausübung es Interesse für Gemeindeange-
+legenheiten und Selbstverwaltung dokumentieren kann, diese Wahl-
+rechte werden längst nicht genügend ausgeübt. Alle saumseligen
+Frauen zur Ausübung ihrer Wahlrechte zur Mitarbeit in der Gemeinde
+heranzuziehen, heißt der Sache des Frauenstimmrechts nach jeder
+Richtung hin einen größeren Dienst leisten, als in den politischen Männer-
+parteien mitarbeiten. Dessen mögen die Frauen eingedenk sein, die für eine
+Männerpartei am Wahltage treppauf, treppab unermüdlich Schlep-
+perdienste leisten, um die säumigen Männer zur Pflicht zu rufen: ihre
+Anstrengung auf das eigne Geschlecht zu verwenden, wäre ehrenvoller
+und instruktiver. Die Männer werden durch die praktische Arbeit der
+Frauen, durch ihre selbständige Stellungnahme zu politischen Tages-
+fragen, von deren Fähigkeiten für das öffentliche Leben viel eher über-
+zeugt, als durch propagandistische Parteiarbeit. Die Frauen aber
+lernen in dieser Arbeit die ungeheuren sozialen Mißstände kennen, die
+überall herrschen, sie drängen, unvoreingenommen durch Parteikon-
+venienzen und Parteiinteresse, voraussetzungslos und nach eigenem Ur-
+teil auf Abänderung, um zu erfahren, daß ihnen in den weitaus meisten
+Fällen die Möglichkeit dazu versagt ist, weil ihnen die politische Gleich-
+berechtigung mit dem Mann fehlt, das lehrt sie sofort die Wichtigkeit
+der Forderung des Frauenstimmrechts begreifen und für dieselbe ein-
+treten. Und last not least, diese Arbeit kommt der Allgemeinheit, nicht
+einseitigen Parteiinteressen zugute.
+Durch obige Darlegung ist deutlich dargetan, daß durch die Mit-
+arbeit der Frauen in den Parteien eine wirksame Förderung des Frauen-
+stimmrechts nicht erzielt wird, wohl aber sind mit ihr viele Nachteile
+verbunden, welche unserer Bewegung zum direkten Schaden gereichen.
+Für diese letztere Behauptung erbringe ich die Beweise. Für
+jede Bewegung, die etwas erreichen will, ist Konzentration erste Be-
+dingung und zwar Konzentration auf allen Gebieten. Mitarbeit inner
+halb der politischen Parteien aber bedeutet Zersplitterung nach jeder
+Richtung. Zersplitterung der pekuniären Mittel, Zersplitterung der
+Arbeitskräfte, beides Dinge, die keine Bewegung ohne Schaden zu
+nehmen, entbehren kann. In die Kassen der politischen Männerpar-
+teien fließen die Jahresbeiträge der weiblichen Mitglieder, seitens der
+Frauen werden, besonders zu Wahlzeiten, Gelder für die Parteien ge-
+sammelt, indeß fast alle Frauenstimmrechtsvereine an pekuniärem
+Mangel kranken. Während vorgebliche Anhängerinnen des Frauen-
+stimmrechts durch Vorträge den Parteien der Männer zu interessanten
+Versammlungen verhelfen, während sie sich zu Schlepperdiensten,
+Adressen schreiben, Flugblätter verteilen, hergeben und häufig sogar
+mißbrauchen lassen, fehlt es in der Frauenstimmrechtsbewegung an allen
+Ecken und Enden an Kräften, die aufklärende Propagandaarbeit leisten.
+Zur Ergänzung sei über den Mißbrauch von Frauenkräften für Partei-
+zwecke noch hinzugefügt, daß man täglich und zwar in einer großen
+Anzahl von Ländern, auch in Deutschland, erleben kann, daß die
+Frauen an Wahltagen in Winterkälte und Sommerhitze treppauf trepp-
+ab laufen, um säumige Wähler herbeizuschaffen, indeß die männlichen
+Wahlorganisatoren im schönsten Behagen in den Wirtschaften sitzen,
+„politisieren“ und trinken, trinken bis zur völligen Bewußtlosigkeit.
+Hiermit sind die schädigenden Einflüsse keineswegs erschöpft,
+die genannten bilden bei weitem den kleineren Teil des Uebels. viel
+schlimmer sind die moralischen Wirkungen der Parteiarbeit auf eine
+große Anzahl von Frauen selbst, nämlich auf die nicht selbständigen,
+nicht starken Charaktere. Das Verhalten dieser Frauen ließ die bekannte
+Engländerin, Mrs. Philipp Snowden auf dem Stockholmer Kongreß
+des Weltbundes für Frauenstimmrecht im Juni 1911 den Ausspruch
+tun: „The political women are the weakness of our movement“. Damit
+meinte sie nicht etwa, daß die Vertreterinnen des Frauenstimmrechts
+sich nicht mit Politik beschäftigen sollten, sondern daß die
+Frauen durch die Arbeit für die Parteien sich sehr leicht dazu verleiten
+ließen, das Parteiinteresse voran, sogar über die Forderung des Frauen-
+stimmrechts zu stellen, daß sie die Taktik derjenigen Männer nach-
+ahmen, die zwar auch für Frauenstimmrecht eintreten, es aber an dritte,
+vierte, anstatt an erste Stelle setzen. Es liegt klar auf der Hand, daß
+solche Frauen unsere Bewegung schwer schädigen. Wer ein großes
+Ziel vor Augen hat, wer sich die Zukunft erobern will, dessen Tun und
+Handeln muß mit brennendem Fanatismus nur für die eine Sache erfüllt
+sein, mit der ganzen Hingabe seiner Persönlichkeit muß er diese eine
+Forderung verfechten; nur dann wird er der Bewegung ein wahrer Führer
+sein, nur dann wird er die Masse gewinnen, nur dann wird er siegen.
+In allen Ländern, wo die Frauen das Stimmrecht erhielten, hat es
+sich gezeigt, daß sie als neues, verbesserndes Element in das politische
+Leben eingriffen, daß sie durch ihre sozialen, mütterlichen und natür-
+lichen Instinkte neue Werte zu schaffen imstande waren, daß sie in
+allen Lagen eine Politik der reinen Hand anstrebten. Diese wertvollen
+Eigenschaften werden bei starken, in sich gefestigten Charakteren
+durch nichts zu erschüttern sein, sie stumpfen aber ab bei schwachen
+abhängigen Frauen, bei Frauen, die gewohnheits- und traditionsgemäß
+die Männer als Wesen betrachten, die alles besser wissen und können,
+die darauf erzogen sind, die Autorität des Mannes unter allen Umständen
+anzuerkennen, sich seinen Anordnungen zu fügen. Solche Frauen
+gibt es leider bei uns in Deutschland in größerer Anzahl als in anderen
+Ländern, deshalb ist auch die Gefahr bei uns größer, daß die Frauen,
+noch ehe sie als Wahlberechtigte in das politische Leben hinaustreten,
+im Parteigetriebe ihr instinktives soziales Unterscheidungsvermögen
+abstumpfen. Die Bestrebungen der Frauenbewegung und besonders
+das Frauenstimmrecht können ohne Beteiligung der Frauen am poli-
+tischen Leben niemals erreicht werden, es besteht aber, wie die Erfahrung
+gelehrt hat, eine große Gefahr, sobald sie mit Parteipolitik verquickt
+werden. Frauenstimmrecht schafft die Basis, von der aus nicht nur der
+Emanzipationskampf des weiblichen Geschlechts, sondern auch alle
+Humanität und Kultur einzig vollendet wird, deshalb muß Frauenstimm-
+recht das Alpha und Omega aller unserer Forderungen sein und darf
+durch nichts verdrängt werden. Parteiinteressen gebieten aber den
+Männern und leider auch, vielen Frauen, falls sie sich einer Partei an-
+geschlossen haben, heute für und morgen gegen das Frauenstimmrecht
+zu sein. Die Konservativen sind für ein beschränktes Wahlrecht der
+Frauen immer zu haben, sind aber schärfste Gegner des durchaus anzu-
+strebenden allgemeinen gleichen Wahlrechtes der Frauen, weil, wie sie
+annehmen, dadurch ihre Partei geschwächt und die anderen gestärkt
+werden. Zu beweisen, daß gerade das Gegenteil der Fall sein wird, gehört
+nicht hierher. Sozialdemokraten hingegen bekämpfen prinzipiell jedes
+beschränkte Wahlrecht der Frau. Daß auch ein beschränktes Frauen-
+wahlrecht ein Schritt näher zur Gerechtigkeit ist, kommt für sie gar nicht
+in Betracht, daß es, wie andere Länder bewiesen haben, z. B. Norwegen,
+die erste Etappe zum allgemeinen Frauenwahlrecht ist, wird von ihnen
+trotz der Beweise einfach geleugnet. Daß unter Umständen in Ländern,
+wo die Frage des Frauenstimmrechts sehr kritisch geworden ist, eine
+Beteiligung der Frauen an Wahlagitationen im Interesse des Frauen-
+stimmrechts erforderlich wird, soll nicht bestritten werden, ebenso wie
+auch in normalen Zeiten aktive Stellungnahme der Frauen für oder
+wider bestimmte Ereignisse und Persönlichkeiten wünschenswert sein
+kann. Jede derartige Beteiligung soll aber stets mit besonderer Be-
+tonung als selbständige unabhängige Aktion der Frauen geschehen,
+das ist grundverschieden von der für gewöhnlich üblichen Mitarbeit
+der Frauen innerhalb der Parteien, die von diesen diktiert und diszipli-
+niert wird.
+In keinem Lande. wo Frauen heute das Stimmrecht haben, haben
+sie sich dasselbe auf Grund der in Parteien geleisteten Mitarbeit erobert.
+Frauenwahlrecht besteht in ganz Australien, in fünf Staaten Amerikas,
+nämlich Wyoming, Idaho, Utah, Colorado und Washington, in zwei
+Staaten Europas, in Finnland und Norwegen.
+Die australischen Frauen, die zum Bundesparlament wie zu den
+einzelnen Staatenparlamenten in den Jahren 1893/I908 stimmberechtigt
+wurden, haben sich vorher niemals wieder an Wahlagitationen noch aktiv
+innerhalb der politischen Männerparteien betätigt, wohl aber erklärten
+in einigen Staaten die Arbeiter, die in der Labourparty organisiert waren
+und die überall tatkräftig für das Frauenstimmrecht kämpften, nur
+dann im Kampfe für die politischen Rechte der Frau fortzufahren, wenn
+die Frauen sich bis zur Erlangung der Gleichberechtigung von jeder
+Parteipolitik fernhielten.
+In Amerika, wo jede Verfassungsänderung, also auch die Verleihung
+des Frauenstimmrechts durch Volkabstimmung erfolgt, das bedeutet
+nach Männerlogik: durch Abstimmung aller männlichen Individuen,
+wo also jede einzelne Männerstimme zählt, hat die Frage. ob es günstig
+sei, einzelne einflußreiche Männerparteien durch Mitarbeit für das
+Frauenstimmrecht zu gewinnen, die Frauen wenig beschäftigt, von
+einer bemerkenswerten Mitarbeit der Frauen innerhalb der Parteien
+kann aus Amerika nichts berichtet werden. Es ist aber vom höchsten
+Interesse, die Ansicht einer der bekanntesten amerikanischen Verfechte-
+rinnen des Frauenstimmrechts, Rev. Anna Shaw darüber zu hören.
+Sie äußerte sich auf den schon vorhin erwähnten Kongreß in Stock-
+holm, wie folgt: „We cradle and nurse them, (die Partei) we make them
+strong and healthy, and when they have grown up, they put us into the
+cradle.“ (Wir schaukeln sie in ihrer Wiege, wir füttern und peppeln sie,
+[die Partei] wir machen sie stark und lebensfähig und stehen sie hernach
+auf eignen Füßen, dann möchten sie uns in die Wiege legen.) Damit
+sprach sie der Parteiarbeit der Frauen die klarste und treffendste Kritik
+aus, aber zugleich ihr Todesurteil: Ausbeutung der Frauenkräfte im
+Interesse der Männerpartei, ohne den geringsten Gewinn für unsere
+Forderungen.
+Und nun zur alten Welt Europas. In Finnland erhielten die Frauen
+das Wahlrecht im Jahre 1905, sie eroberten es sich sozusagen in Zeiten
+der Revolution. Auch die Männer Finnlands hatten bis dahin ein stark
+eingeschränktes, auf dem Besitz ruhendes Wahlrecht. Finnland sah sich
+durch die Machtgelüste Rußlands bedroht, es war eine gefahrvolle,
+kritische, aber große Zeit, in der Männer und Frauen einmütig zusammen-
+standen gegen den gemeinsamen Feind, da schwiegen alle Parteifragen,
+man vergaß Klassenhaß, man vergaß Geschlechtsunterschiede. Große
+Zeiten zeugen große Taten, begeisterte Einmütigkeit gab dem finnischen
+Volke gleiche politische Rechte ohne Unterschied des Geschlechts. Die
+Frage, ob die Mitarbeit der Frauen in den Parteien erforderlich, trat
+gar nicht an die finnischen Frauen heran, sie hatten sich das Stimmrecht
+erobert, weil sie sich in großen Augenblicken stark gezeigt hatten, weil
+sie teilgenommen hatten am politischen, man merke wohl auf, nicht
+am parteipolitischen Leben. Ein Gleiches ist von Norwegen zu melden:
+auch dort errangen sich die Frauen die politische Gleichberechtigung,
+weil sie in großen, schweren Augenblicken politisches Verständnis für
+das Wohl und Wehe ihres Vaterlandes bewiesen hatten. Als die Tren-
+nung Norwegens von Schweden 1905 auf Grund einer Volksabstim-
+mung zur Entscheidung kommen sollte, da durften auch hier die Frauen
+sich nicht an der vom Staate vorgenommenen Abstimmung beteiligen,
+sie wurden eben nicht zum Volke gerechnet. sie aber fühlten sich als
+ein Teil desselben und wollten ihren Willen kundtun, so veranstalteten
+sie eine eigene Abstimmung: diese großartige, ohne jede Unterstützung
+durch einen staatlichen Apparat ausgeführte Tat, ihr dabei bewiesenes
+Verständnis und ihre Umsicht gaben den ersten Anstoß zur Eroberung
+politischer Rechte, die sie bereits im folgenden Jahre 1936 erhielten.
+In keinem Lande der Welt ist seit Jahrzehnten von den Frauen
+den Parteien so erhebliche Mitarbeit geleistet worden, wie in England.
+Die Primrose league und Women's liberal Federation, politische Partei-
+organisationen der Frauen, deren Mitglieder nach hunderttausend
+zählen, haben seit 56 Jahren besonders während Wahlzeiten eine der-
+artig tatkräftige Propaganda für die verschiedenen Parteien der Männer
+entfaltet, daß diesen in einigen Wahlkreisen tatsächlich nichts mehr zu
+tun übrig blieb. Es kam in England dahin, daß die Majorität der Mit-
+glieder des Unterhauses ihre Wahl der Agitationsarbeit von Frauen
+zu verdanken hatten. Diese Männer, die sich als sie die Hilfe der Frauen
+nicht entbehren konnten, mit tausend Schwüren mündlich und schrift-
+ich verpflichteten, für das Frauenstimmrecht im Unterhause einzu-
+treten, ließen sie in entscheidenden Momenten – und zwar als Regel –
+schamlos im Stich. Die Theorie hat also in England ein klägliches Fiasko
+erlitten und sollte allen Frauen als warnendes Mene Tekel dienen. Weisen
+wir Gegner der Mitarbeit nun auf England hin, so wird uns von Anhängern
+erwidert: „Ja. so etwas konnte bei den eigentümlichen parlamentarischen
+Gebräuchen in England geschehen, geschieht aber niemals bei uns.“ Ueber
+solchen Optimismus muß man tatsächlich lächeln. Aehnliche Vor-
+kommnisse, daß Männer ihre Gelöbnisse, selbst wenn sie auf Grund
+ihres Parteiprogramms verpflichtet waren, nicht hielten, haben wir
+in Oesterreich, haben wir in Holland seitens der sozialdemokratischen
+Partei erlebt, erleben wir sozusagen täglich bei den Männern der ganzen
+Welt. Prinzipien werden verleugnet, gemachte Versprechen haben
+keine bindende Kraft, gegebene Schwüre werden gebrochen im politischen
+Leben der Männer, wenn man der Partei Vorteile erringen oder so un-
+bequeme Gläubiger wie die Frauen beseitigen will. Männer aller Nationen,
+Männer aller Klassen, Männer aller Parteien bleiben sich darin völlig
+gleich. Und dennoch – wird man einwenden – müssen wir so oder
+so mit den Männern paktieren, denn sie sind es, die uns dermaleinst
+die politischen Rechte geben werden. Das aber ist eben nicht der Fall,
+das ist ein völliges Verkennen des Wesens der Geschichte. Nicht die
+Männer geben uns das Wahlrecht, sondern wir Frauen zwingen es dem
+Geiste unserer Zeit auf. Wir erobern, wir erkämpfen, wir erringen es
+uns selbst, – indem wir es fordern, fordern mit aller Macht, fordern
+mit allen Mitteln, die uns zu Gebote stehen. Nicht mit Heeresmacht,
+nicht mit Feuer und Schwert, dazu haben wir modernen Frauen zu viel
+Kultur, sondern mit zäher, durch nichts zu ermüdender Ausdauer, die
+ihre wirksamste Unterstützung durch die Entwicklung moderner Kultur-
+staaten erhält. Ebensowenig wie jemand erklären wird, England hätte
+die Emanzipation der Amerikaner aus freien Stücken anerkannt, Schwe-
+den hätte Norwegen 1905 seine Unabhängigkeit freiwillig zurückerstattet,
+oder die preußische Dynastie hätte freiwillig ihrem Volke eine Verfassung
+oktroyiert, ebensowenig kann jemand behaupten, die Männer gäben
+uns aus freier Initiative politische Gleichberechtigung. Auch hier gilt
+der Grundsatz und Ausnahmen bestätigen nur die Regel, wo immer
+den Frauen Rechte eingeräumt werden, werden die Männer durch die
+Frauen, durch die Entwicklung dazu gezwungen, ob sie wollen oder nicht,
+deshalb spielt die persönliche Stellungnahme des einzelnen Mannes
+auch gar nicht die große Rolle, die man ihr für gewöhnlich zuzuer-
+kennen pflegt, die Männer werden, wie gesagt, unwillkürlich dazu gezwungen.
+Kennen wir nicht, – wenn es sich um die Erweiterung von Frauen-
+rechten handelt, alle die Reden von Männern und Abgeordneten aller
+Weltteile, die sich gleichen wie ein Ei dem andern? Die Klage um das
+Schwinden der guten alten Zeit; der Ruin von Haus und Familie; der
+Verlust der Weiblichkeit usw. usw. Gibt es irgend eine neue Note in
+dieser alten Melodie – und haben sie die neue Zeit mit ihrem neuen
+Geiste aufzuhalten vermocht? Man kann aber häufig beobachten,
+daß die Konstatierung der Tatsache, daß wir Frauen uns unsere Rechte
+von der Zeit erobern, den Männern, selbst unsern politischen Freunden,
+höchst unangenehm klingt, sie verlieren dadurch den Nimbus
+gönnerhafter Macht; das darf uns jedoch nicht hindern, diese Wahrheit
+als eines unserer stärksten Argumente auszusprechen.
+Wie liegen die Dinge nun bei uns in Deutschland? Am 1. Januar
+1902 erfolgte durch Anita Augspurg die Gründung des Deutschen Ver-
+bandes für Frauenstimmrecht. Wohl waren vorher auch bei uns in
+Deutschland radikale Frauen in Wort und Schrift für Frauenstimm-
+recht eingetreten, aber von einer wirksamen Propaganda kann erst
+seit Bestehen der Organisation die Rede sein. Auch seitens der sozial-
+demokratischen Männer und Frauen, war, abgesehen davon, daß man
+endlich auf dem Erfurter Parteitag 1891 die politische Gleichberech-
+tigung ohne Unterschied des Geschlechts in das Programm aufgenommen
+hatte, nichts geschehen zur direkten Förderung des Frauenstimmrechts.
+Der Deutsche Verband für Frauenstimmrecht ist völlig neutral, er
+verfolgt keinerlei parteipolitische Tendenzen, seine Aufgabe besteht
+darin, allen Frauen das Stimmrecht zu erkämpfen, daraus ergibt sich,
+daß der Verband als solcher sich niemals am parteipolitischen
+Leben der Männer beteiligen kann, was ihn aber nicht verhindert,
+jederzeit zu allen großen politischen Fragen vom Standpunkt
+der Frau aus Stellung zu nehmen. Auf der III. Generalversammlung
+des Deutschen Verbandes 1909 in München, wurde die Frage: „Wird
+die Beteiligung der Frauen am politischen Parteileben der Männer
+das Frauenstimmrecht fördern“ durch Martha Zietz und Dr. jur.
+Anita Augspurg erörtert; erstere bejahte die Frage und bean-
+tragte Annahme folgender Resolution: „Die III. Generalversammlung
+des Deutschen Verbandes für Frauenstimmrecht bittet alle Mitglieder
+im Interesse einer möglichst schnellen Erlangung der politischen Gleich-
+berechtigung der Frauen, sich politisch zu betätigen und sich den ein-
+zelnen politischen Parteien anzuschließen“.
+Anita Augspurg sprach sich dagegen aus. Die von ihr vorgelegte
+Resolution lautete: „Die III. Generalversammlung des Deutschen Ver-
+bandes für Frauenstimmrecht empfiehlt zwar den Frauen das lebhafteste
+Interesse am politischen Leben zu unterhalten, zu betätigen und zu
+vertreten, sie empfiehlt aber die Mitarbeit in den politischen Parteien
+der Männer nur als individuelles Durchgangsstadium zur Gewinnung
+von Einsicht und Orientierung über die Details des politischen Partei-
+lebens. Die Förderung ihres eigenen Anspruches auf politische Gleich-
+berechtigung erwartet sie jedoch von der Beteiligung am Parteileben
+der Männer nicht“.
+Die Generalversammlung nahm mit einer ganz geringen Majorität
+die Resolution Zietz an. Unter denen, die 1909 für die Resolution
+Augspurg stimmten, gibt es heute viele, die auf Grund von gemachten
+Erfahrungen der Ueberzeugung sind, daß es durchaus nicht im Interesse
+unserer Sache liegt, den Frauen die Mitarbeit in den politischen Parteien
+der Männer zu empfehlen, selbst nicht als Durchgangsstadium. Es
+bleibt zu häufig nicht beim Durchgangsstadium, der unheilvolle Partei-
+geist ergreift vollständig Besitz von vielen Frauen, gibt sie nicht wieder
+frei und läßt sie Verrat an der Sache des Frauenstimmrechts üben.
+Bei dem neutralen Charakter, den der deutsche Verband satzungs-
+gemäß zu wahren hat, überläßt er seinen Mitgliedern, welche Stellung sie
+persönlich zu den verschiedenen Parteien nehmen wollen.
+Eine große Anzahl von Mitgliedern leisteten schon im Jahre 1903
+erhebliche Wahlarbeit. Als Aequivalent für dieselbe forderten die Frauen
+in Hamburg Aufnahme von weiblichen Mitgliedern in die Parteivereine.
+Trotzdem das Hamburger Vereinsgesetz keinerlei Beschränkung für
+Frauen kannte, war bisher diesen die Mitgliedschaft statutenmäßig
+versagt gewesen. Nur widerwillig bequemte sich die freisinnige Volks-
+partei in ihrer Not um Arbeitskräfte zur Aufnahme der Frauen und
+erkaufte sich dadurch die Bearbeitung eines ganzen Wahlkreises durch
+die Frauen.
+Weit wirksamer als 1903 aber war die Beteiligung der Frauen bei
+den Reichstagswahlen von 1907, wo in verschiedenen Teilen von Preußen,
+Oldenburg. Thüringen, Hamburg usw. erhebliche Wahlarbeit geleistet
+worden ist, aber nicht nur bei den Reichstagswahlen, auch bei den Land-
+tagswahlen, z. B. in Baden, Bayern und Preußen griffen die Frauen
+in Stadt und Land tatkräftig in die Wahlagitation ein. Diese Frauen
+gehörten, von wenigen Sozialdemokratinnen abgesehen, den links
+liberalen Parteien an. Was das Verhalten der Frauen zu den übrigen
+Parteien, dem Zentrum, den Konservativen und Nationalliberalen an-
+betrifft, so kann von einer Mitarbeit der Frauen nicht die Rede sein.
+Konservative Männer haben versucht, Frauen für das politische Leben
+zu gewinnen, aber über einige schüchterne Versuche, die an Unklarheit
+und Unsicherheit nichts zu wünschen übrig ließen, ist es nicht hinaus-
+gekommen. Im Rheinlande haben die Nationalliberalen einzelne Frauen
+zur Arbeit in die Vereine ihrer Partei herangezogen. Im August dieses
+Jahres wurde in Düsseldorf eine Zentrums-Frauenorganisation gegründet,
+die beschlossen hat, bei den bevorstehenden Reichstagswahlen für ihre
+Partei tatkräftig mitzuarbeiten. Das weitere bleibt also abzuwarten.
+Für Frauenstimmrecht tritt die Organisation nicht ein.
+Die nachstehenden Ausführungen beziehen sich also lediglich auf
+die Mitarbeit der Frauen bei den Linksliberalen. Wir erfuhren bereits,
+daß sich 2 Gruppen unter den liberalen Frauen bildeten, von denen die
+eine gegen, die andere für die Mitarbeit der Frauen innerhalb der poli-
+tischen Parteien waren. Schmählich wurden die letzteren getäuscht,
+als im Januar 1910 das bekannte Einigungsprogramm erschien.
+Das Programm der vereinigten Liberalen, denen sich die demokra-
+tische Vereinigung. die stets für die politische Gleichberechtigung der
+Frau eintrat, nicht anschloß, gedachte allerdings der Frauen, es sprach
+ihnen wesentlich Rechte zu, die sie sich längst erobert und im Besitz
+haben, aber die politische oder auch nur kommunale Gleichberechtigung
+war nicht aufgenommen. Die Stimmrechtsorganisationen kritisierten
+in öffentlichen Versammlungen dieses mit dem liberalen Grundsatz unver-
+einbare Programm und protestierten kräftig: die weiblichen Mitglieder
+der liberalen Parteien kämpften mit aller Energie für die Einfügung der
+Forderung des Frauenstimmrechts, einige drohten, falls ihrem Antrage
+nicht entsprochen würde, mit ihrem Austritt aus der Partei. Die Frauen
+ernteten für diese einzig gebotene Konsequenz Hohn und Spott der von
+den Männern bedienten Presse, die sich erdreistete, zu erklären, die
+Frauen hätten sich wie die ungezogenen Kinder betragen, die nicht
+mehr mitspielten, sobald ein Streit ausgebrochen sei. Diese liberalen
+Männer hatten noch nicht einmal den Grundgedanken des Liberalismus
+erfaßt, sie wußten nicht, daß den Frauen Selbstachtung verbietet,
+einer Partei anzugehören, die für die grundlegende Forderung aller
+Frauenbestrebungen nicht eintritt.
+Es ist zu bedauern, daß die Frauen ihrer Drohung die Tat nicht
+folgen ließen. Ihr späteres Verhalten hat bewiesen, in welch' unheil-
+vollem Maße diese Frauen vom Parteigeist beeinflußt sind, sie lassen sich
+vollständig beherrschen von dem unter den deutschen Männern leider
+üblichen liberalen Geiste, der sich in militärischer Submission alles bieten
+läßt. der in Devotion erstirbt, dient und weiter hofft. Die Frauen kehr-
+ten nach dieser kläglichen Behandlung nicht nur der Partei nicht den
+Rücken, sie bildeten sogar einen Arbeitsausschuß um den Liberalismus
+der Männer, der sie so schmählich im Stich gelassen hatte, wirksamer
+zu unterstützen. Bezeichnend dafür, wie der Parteigeist die Frauen
+durchdrungen hat, war der Aufruf dieser liberalen Frauen bei der Grün-
+dung des Ausschusses. In erster Linie trat man für die Stärkung des
+Liberalismus ein, dann erst gedachte man der „Forderung der poli-
+tischen Rechte“ der Frau.
+In welcher Art die Parteiarbeit seitens der weiblichen Mitglieder
+geschehen soll, darüber äußert sich ein Vorstandsmitglied des Arbeits-
+ausschusses im Berliner Tageblatt vom 14. Juli dieses Jahres, dort heißt es:
+„Der Arbeitsausschuß der weiblichen Mitglieder der Fortschrittlichen Volks-
+partei kann ja nicht in derselben Weise vorgehen, wie der Deutsche
+Verband für Frauenstimmrecht, denn die Partei hat sich programmatisch
+nicht für das Frauenstimmrecht erklärt; die weiblichen Mitglieder sind
+aber nur Parteimitglieder, sind durch das Programm gebunden, und
+wenn auch wohl unter diesen Frauen nicht eine einzige ist, deren poli-
+tische Ueberzeugung sich in § 8 mit der gedruckten Ueberzeugung der
+Partei deckt, so müssen sie doch bei der nächsten Reichstagswahl eben
+auch die Programmforderungen innehalten. Freilich nicht alle werden
+es über sich gewinnen, ihre ganze Arbeitskraft für einen Kandidaten ein-
+zusetzen, der sich wohl liberal nennt, dem aber der Gedanke an die poli-
+tische Gleichberechtigung der Frauen eine Gänsehaut verursacht; diese
+Frauen werden, so stark ihr politisches Gefühl auch sein mag, doch auch
+wenn sie Mitglied der Fortschrittlichen Volkspartei sind, nur für „Stimm-
+rechtsfreunde“ arbeiten. Der Arbeitsausschuß ist der Ansicht, daß sich
+die Frauen vor ihrer Entscheidung über die Wahlhilfe durch persönliche
+Rücksprache oder schriftliche Anfrage darüber zu unterrichten haben,
+welche Stellung der Kandidat zu den Frauenforderungen einnimmt.“
+Nach Aufzählung aller altbekannten Forderungen. die die Frauen-
+bewegung aller Schattierungen seit 60 Jahren aufgestellt hat, fährt die
+Verfasserin fort: „Zu allen diesen Frauenforderungen, wozu dann natür-
+lich noch diese oder jene, durch lokale Verhältnisse bedingte, hinzu-
+kommen, sollen sich die Kandidaten äußern. Die Frauen sollen
+aber nicht darauf festgelegt werden, nur solche Kandi-
+daten zu unterstützen, die uneingeschränkt für
+die Forderung des Frauenstimmrechts eintreten.
+Es ist den Frauen im einzelnen Fall zu überlassen, wie weit sie ihre Mit-
+arbeit von der Stellung des Kandidaten zu den Forderungen abhängig
+machen wollen. Der Ausschuß fürchtet, sonst manchen vom Stand-
+punkt der Fortschrittlichen Volkspartei aus wünschenswerten Kandi-
+daten nicht zum Siege verhelfen zu können.“
+Auch wir deutschen Frauen, die wir Frauenstimmrecht nicht dem
+Parteigeist und der Parteidisziplin unterordnen, rufen mit unsern eng-
+lischen Schwestern aus: „The political women are the weakness of our
+movement“.
+Selbstachtung hätte gefordert, daß die der Partei angehörigen
+Frauen, die nach ihrer jammervollen Niederlage in der Partei verblieben
+und den Arbeitsausschuß bildeten, es taten, um bei den kommenden
+Wahlen zu erklären, wir Frauen unterstützen keinen Kandidaten, mag
+er vom Parteistandpunkt der Männer aus noch so tauglich sein, der nicht
+jederzeit und überall für Frauenstimmrecht eintritt. Bei dieser charakter-
+losen Haltung können die Frauen sich allerdings nicht wundern, wenn
+der nächste Parteitag abermals ablehnt, das Frauenstimmrecht ins
+Programm aufzunehmen. „Warum sich mit einer Forderung belasten,
+die die Majorität der liberalen Wähler vor den Kopf stößt und der Partei
+keinen Gewinn bringt, denn den Frauen. deren Hilfe wir brauchen“.
+sagen sich die liberalen Männer, „können wir bieten was wir wollen;
+die bleiben uns treu, die dienen weiter, die besitzen die Engelsgeduld
+des untertänigen deutschen Weibes. von der wir fälschlich angenommen
+hatten, daß sie bereits der Vergangenheit angehörte“.
+Kläglicher als diese traurige Wahlparole des Arbeitsausschußes,
+ist das Vorgehen einiger liberaler Frauen in Hamburg, die sich Frauen-
+gruppe des Wahlvereins der fortschrittlichen Volkspartei nennen und
+an ihre Mitglieder am 27. Februar 1911 ein Schreiben zur Beteiligung
+bei Wahlen richteten, welches wörtlich den Passus enthält:
+„Während der Wahlzeit eifrige Mitarbeit; Besuch der Wahlversamm-
+lungen; Eingreifen in die Debatte; Stellungnahme zu allen politischen
+Fragen ohne Hervordrängen unserer speziellen politischen Forderungen.
+Nach den Wahlen bei jeder sich bietenden Gelegenheit unsere Forder-
+ungen vorbringen, zu dem Zweck Verfolgen des politischen Lebens hier
+und im Reich.“
+Aus diesen Worten spricht bereits ganz derselbe Geist. der die Partei-
+politik der Männer beherrscht, nämlich um des Stimmenfangs willen
+Gesinnung. Charakter und Grundsätze verleugnen. Es mußte uns mit
+banger Sorge erfüllen, wenn es sich hier nicht eben um eine ganz kleine
+Zahl von Frauen handelte, die wenig Einfluß haben und hoffentlich
+auch niemals Einfluß gewinnen werden. Diese vereinzelt dastehenden
+Beispiele sollen uns jedenfalls den Glauben nicht rauben, daß die Majori-
+tät der deutschen Frauen das politische Leben veredelnd beeinflussen
+und nach Möglichkeit Unehrenhaftigkeit fern halten wird, wie die Frauen
+der anderen Nationen es taten, sobald sie im politischen Leben mit-
+wirkten. Das aber muß ausgesprochen werden, daß diese Symptome
+als eine Warnung vor der Beteiligung an der Parteipolitik der Männer
+zu betrachten sind.
+Die liberalen Parteien haben auch in Deutschland Frauen als Dele-
+gierte auf die Parteitage entsandt und zu Vorstandsmitgliedern gewählt.
+Naive Gemüter erachten das als ungeheuren Fortschritt und können
+das große Entgegenkommen seitens der Männer nicht genug rühmen.
+„Man nimmt uns überall mit offnen Armen auf“, wird wiederholt erklärt.
+Daß dieses vielgerühmte Entgegenkommen nur dann anzutreffen ist,
+wenn man auf das Ausbeuten der Arbeitskraft der Frau für Partei-
+zwecke spekuliert. wird dabei völlig übersehen. Wie es sonst mit dem
+Entgegenkommen bestellt ist, darüber gibt uns ein männliches Mitglied
+der fortschrittlichen Volkspartei, Herr Voss, in der Zeitschrift für Frauen-
+stimmrecht vom 1. August Aufklärung, er schreibt: „Welchem Wider-
+stand der Vorstand der weiblichen Mitglieder der Partei seitens der ge-
+schäftsführenden Personen des Vorstandes (also der Männer) aus-
+gesetzt gewesen ist, das entzieht sich zwar der allgemeinen Kenntnis,
+ist aber für Eingeweihte ein betrübendes Zeichen für den Mangel an
+Entgegenkommen sowohl als auch an Verständnis, das man für die Be-
+deutung der Frauenbestrebungen hat, ganz zu schweigen von dem
+Widerspruch, der für eine echt liberale Weltanschauung in solchem
+Verhalten liegt.“ So also sieht es hinter den Kulissen aus. Mit den letzten
+Worten trifft Herr Voss den Nagel auf den Kopf, ein Mensch der sich
+liberal nennt und nicht für das Frauenstimmrecht eintritt, ist einfach
+nicht liberal, das kann den Männern der fortschrittlichen Volkspartei
+seitens der Frauen nicht oft genug gesagt werden. Das Verhalten der
+liberalen Männer den Frauen gegenüber ist trotz der Mitarbeit der
+Frauen nach wie vor das Gleiche geblieben. In erster Linie stehen die
+Interessen der Partei, dann kommen die Interessen der Männer im all-
+gemeinen, dann kommt eine lange Strecke garnichts – und dann
+kommen die Interessen der Frauen immer noch nicht. Wenige
+weiße Raben wie Potthoff und von Gerlach haben von jeher zu den
+überzeugten Anhängern des Frauenstimmrechts gezählt. sie sind aber
+nicht erst durch die Mitarbeit der Frauen gewonnen worden: wie
+sich die Majorität zum Frauenstimmrecht stellt, haben die Verhand-
+lungen beim Einigungsprogramm bewiesen, beweisen die Reden und
+Abstimmungen der liberalen Männer in den Parlamenten, beweisen ihre
+Ausführungen in der Presse.
+Dr. Pachnicke schrieb in der Vossischen-Zeitung vom 7. August
+1910 einen Leitartikel über Frauenstimmrecht, worin er sich als schärfster
+Gegner desselben kennzeichnet. Seine Ausführungen zeugen von einer
+Unkenntnis der Sache, die bei einem so alten Parlamentarier zum min-
+desten erstaunen muß, er operiert mit den abgeschmacktesten Argu-
+menten, die längst durch Tatsachen widerlegt sind und die uns heutzu-
+tage kaum noch in den kleinen Städten Deutschlands in öffentlichen Ver-
+sammlungen, wo wir das Frauenstimmrecht erörtern, von Lokalphilistern
+entgegengehalten werden. Seine Ausführungen beweisen, daß es der Mit-
+arbeit der Frauen nicht einmal gelungen ist, diesen Führer der Liberalen
+über die einfachsten Grundlagen der Forderung des Frauenstimmrechts
+zu orientieren. Dr. Pachnicke wird bei den kommenden Reichstags-
+wahlen wieder kandidieren, denn vom Standpunkte der fortschritt-
+lichen Volkspartei aus, ist er ein anerkannt „wünschenswerter“ Kann-
+didat. – Also herbei ihr Mitglieder des weiblichen Arbeitsausschusses,
+die ihr vorgebt, für Frauenstimmrecht zu kämpfen, hebt den liberalen
+Heros Pachnicke auf euren Schild, sammelt Geld, leistet Schlepparbeit,
+erniedrigt euch zu jedem Dienst für den Liberalismus, übt Verrat an den
+politischen Forderungen eures eignen Geschlechtes – hofft weiter –
+und seid gewiß, der wohlberechtigte Lohn für so viel Treue kann nicht
+ausbleiben. – liberale Männer werden euch weiter an der Nase herum-
+führen.
+Pachnicke würdig zur Seite steht das liberale Mitglied des preußischen
+Abgeordnetenhauses Hoff, der bei einer Kommissionsberatung, als es
+sich um die Behandlung einer vom preußischen Landesverein für Frauen-
+stimmrecht eingereichten Petition, betreffend das allgemeine Wahlrecht
+für Männer und Frauen in Preußen handelte, für Uebergang zur Tages-
+ordnung stimmte.
+In welcher Weise liberale Männer, die erklären für Frauenstimm-
+recht zu sein, unsere Sache vertreten, dafür einige Beweise. Herr
+Rosenow, Mitglied der fortschrittlichen Volkspartei, beantragte im
+Plenum des preußischen Abgeordnetenhauses am 11. Mai 1911, die oben
+angeführte Petition der Regierung als Material zu überweisen. aber nur
+hinsichtlich der Demokratisierung des Wahlrechtes für Männer, denn
+er sagte: „Wir meinen, wir haben zunächst ausgiebig zu tun, das all-
+gemeine, gleiche, direkte und geheime Wahlrecht für Männer in Preußen
+durchzusetzen und daß wir uns zunächst auf diese Aufgabe beschränken,
+um darauf weiterzubauen nach der Richtung, die wir allerdings auch
+für berechtigt halten, der Einführung der Rechte der Frauen in der
+Politik. Wir haben in unserem Programm festgelegt, daß die Rechte
+der Frauen im Erwerbsleben usw. ausgebaut werden, daß überall da,
+wo die Frauen ein volles Recht haben, sich zu betätigen, bei der Wahl
+für Kaufmanns- und Gewerbegerichte die Frauen zugelassen werden.
+An diesem Punkte halten wir durchaus fest. Was das Frauenstimm-
+recht im Staate und im Reiche betrifft, so sind wir der Meinung, daß
+die Frau allerdings an politischen Kräften soviel in sich birgt, daß sie
+zunächst diese Kräfte ausüben sollte, den Männern zu helfen,
+die das allgemeine, gleiche, geheime und direkte Wahlrecht in Preußen er-
+zielen. Wo ich überall mit Frauen in politischen Versammlungen
+zusammenkomme, lege ich ihnen nahe, daß sie ihre Werbekraft und
+die überzeugende Rede, die sie vielfach haben, dazu anwenden mögen,
+für die Männer das allgemeine, gleiche, direkte und geheime Wahlrecht
+zu erreichen. Werden wir das haben, dann werden wir an den Aus-
+bau der Rechte der Frauen herangehen können; nach welcher Richtung,
+kann ich im Augenblick namens meiner Freunde allerdings nicht sagen.“
+Werden nun die Mitglieder des weiblichen Arbeitsausschusses
+sich mit aller Energie für Herrn Rosenow einsetzen, der doch jedenfalls
+bei den kommenden Reichstagswahlen als Kandidat aufgestellt wird;
+werden sie ihre von Herrn Rosenow so freundlich anerkannte Werbe-
+kraft und überzeugende Redegabe für ihn in Anwendung bringen? Das
+würde diesen logischen und zielbewußten Verfechter des Frauenstimm-
+rechts den Frauen sicher verpflichten, sie könnten dann auf einen libe-
+ralen Mann mehr zählen. der im entscheidenden Moment ein „entschei-
+dendes Wort“ redet, das sie auf eine ferne Zukunft vertröstet. – Selbst
+Naumann hat sich bei den Verhandlungen der Elsaß-Lothringischen
+Verfassungsfrage, als er für Frauenstimmrecht eintreten wollte, als
+jämmerlicher Verfechter unserer Sache gezeigt, seine Ausführungen
+lösten lediglich allgemeine Heiterkeit aus. Er sagte: „Zunächst melden
+sich auch hier, wie sonst in neuerer Zeit, die Frauen und fragen, ob sie
+nicht auch Menschen sind, ob sie dem Staat keine greifbaren und not-
+wendigen Dienste leisten (Heiterkeit), ob sie nicht selber an Rechten
+interessiert sind. Ich meinerseits kann den Frauen nur antworten:
+Ihr habt recht, es scheint mir aber, daß ihr bis zu den Frauen und Töchtern
+der Mitglieder des Bundesrats noch nicht hinreichend vorgedrungen
+seid (Heiterkeit), um hoffen zu können, daß ihr jetzt schon in die staats-
+bürgerliche Gleichheit mit aufgenommen werdet.“ Beweisen diese
+Kautschuksprüche, beweist das Verhalten der Männer aller Parteien
+nicht, daß auf sie sobald es sich um Frauenrecht handelt kein Verlaß
+ist ? Warum, so fragt man unwillkürlich, ziehen nicht alle deutschen
+Frauen aus den bei uns und in anderen Ländern gemachten Erfahrungen
+die Konsequenz sich fern zu halten von aller Parteiarbeit und alle Kraft
+auf die Forderung des Frauenstimmrechts zu konzentrieren? Und die
+Antwort wird lauten, weil sie sich an den Erfahrungen anderer nicht
+genügen lassen, sie wollen ihre eignen erleben. Das ist begreiflich, kann
+aber unter Umständen, wie oben dargetan. unheilvolle Folgen für die
+Sache des Frauenstimmrechts haben. Deßhalb müssen wir denen die
+politische Befreiung der Frauen alles gilt, mit aller Macht dahin streben,
+daß sich die Zahl der Anhänger der Mitarbeit der Frauen in politischen
+Männerparteien von Jahr zu Jahr verringere, die Zahl ihrer Gegner stetig
+wachse und unserer Sache solche Vertreter erstehen, denen das Frauen-
+stimmrecht Alpha und Omega aller Forderungen ist, die es mit zäher
+Ausdauer, eiserner Energie und idealem Fanatismus jederzeit und überall
+vertreten und keinem Parteigeist, keiner Parteidisziplin unterordnen.
+Gelingt das, dann dürfen wir froh in die Zukunft schauen, dann werden
+wir siegen und uns das Frauenstimmrecht erobern.
+Verlaß ist nur auf unsere eigne Kraft!
+Verlag: Felix Dietrich, Gautzsch bei Leipzig, Kregelstraße 5.
+Druck: Fr. Andrä’s Nachf. (M. Dietrich) Leipzig.
+</text>
+  </TextCorpus>
+</D-Spin>

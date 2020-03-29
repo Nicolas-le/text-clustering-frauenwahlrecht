@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/langemann_frauenstimmrecht_1913</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-langemann_frauenstimmrecht_1913.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/langemann_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-langemann_frauenstimmrecht_1913.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/langemann_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-langemann_frauenstimmrecht_1913.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/langemann_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-langemann_frauenstimmrecht_1913.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/langemann_frauenstimmrecht_1913</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-langemann_frauenstimmrecht_1913.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Frauenstimmrecht und seine Bekämpfung</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Langemann</cmdp:surname>
+<cmdp:forename>Ludwig</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1055119302</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2018-02-05T14:39:49Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2018-02-05T14:39:49Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">28</cmdp:measure>
+        <cmdp:measure type="tokens">9002</cmdp:measure>
+        <cmdp:measure type="types">2879</cmdp:measure>
+        <cmdp:measure type="characters">66677</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:43Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/langemann_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/langemann_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/langemann_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/langemann_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="DTADirName">langemann_frauenstimmrecht_1913</cmdp:idno>
+          <cmdp:idno type="DTAID">32408</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32408-4</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="MS">Langemann, Ludwig: Das Frauenstimmrecht und seine Bekämpfung. Berlin, [1913] (= Schriften des Deutschen Bundes zur Bekämpfung der Frauenemanzipation, Bd. 4).</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Das Frauenstimmrecht und seine Bekämpfung</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Langemann</cmdp:surname>
+<cmdp:forename>Ludwig</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1055119302</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1">1</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1913</cmdp:date><cmdp:publisher><cmdp:name>Buchhandlung Fr. Zillessen</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+          <cmdp:seriesStmt>
+            <cmdp:title level="s" type="main">Schriften des Deutschen Bundes zur Bekämpfung der Frauenemanzipation</cmdp:title>
+              <cmdp:biblScope unit="volume">4</cmdp:biblScope>
+          </cmdp:seriesStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Staatsbibliothek zu Berlin</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">4576/4-4</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+            <p>
+    Bogensignaturen: gekennzeichnet;
+    Druckfehler: keine Angabe;
+    fremdsprachliches Material: keine Angabe;
+    Geminations-/Abkürzungsstriche: keine Angabe;
+    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+    i/j in Fraktur: keine Angabe;
+    I/J in Fraktur: wie Vorlage;
+    Kolumnentitel: keine Angabe;
+    Kustoden: keine Angabe;
+    langes s (ſ): als s transkribiert;
+    Normalisierungen: keine Angabe;
+    rundes r (&#xa75b;): keine Angabe;
+    Seitenumbrüche markiert: ja;
+    Silbentrennung: wie Vorlage;
+    u/v bzw. U/V: keine Angabe;
+    Vokale mit übergest. e: keine Angabe;
+    Vollständigkeit: vollständig erfasst;
+    Zeichensetzung: wie Vorlage;
+    Zeilenumbrüche markiert: ja;
+</p>            
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Schriften des Deutschen Bundes zur Bekämpfung
+der Frauenemanzipation.
+Nr. 4.
+Das Frauenstimmrecht und
+seine Bekämpfung.
+Von
+Professor Dr. Langemann.
+_______________
+Berlin C. 19
+Verlag der Buchhandlung Fr. Zillessen.
+1. Die Entwicklung der Frauenstimmrechtsbewegung
+in Deutschland seit 1904.
+Die Frauenstimmrechtsforderung ist kein deutsches Gewächs,
+sie stammt aus dem Auslande und ist besonders durch die inter-
+nationalen Frauenkongresse bei uns eingeschmuggelt worden. Jn den
+Programmen der deutschen Frauenbewegung fand sich zwar schon
+seit Jahren die Forderung nach politischen Frauenrechten; aber
+die ersten Führerinnen hatten zunächst Wichtigeres zu tun und
+überließen darum die Stimmrechtsforderung zunächst den weniger
+bedeutenden Radikalen. Der eigentliche Ausgangspunkt der
+modernen deutschen Frauenstimmrechtsbewegung ist der Ber-
+liner internationale Frauenkongreß von 1904. Die damalige
+höfliche und liebenswürdige Behandlung der internationalen
+Damen seitens der preußischen Regierung, die in einem großen
+Fest beim Reichskanzler, dem Fürsten von Bülow, ihren Gipfel-
+punkt fand, hat nicht wenig dazu beigetragen, unsern zu jener
+Zeit noch vereinzelten und verschämten Stimmrechtlerinnen Mut
+zu machen, offen mit ihren Forderungen herauszurücken. Die
+nächsten Wirkungen zeigten sich auf dem anscheinend friedlichen
+Gebiete der Frauenbildungsfrage, bei deren Bearbeitung sich die
+heute bereits radikalen, damals gemäßigten Führerinnen einer
+klugen politischen Zurückhaltung befleißigten, durch welche sie sich
+wiederum die Hilfe der höchsten Regierungsgewalten sicherten.
+Die Reform der höheren Mädchenbildung und die allgemeine
+Zulassung der Frauen zu den Universitätsstudien und damit im
+Prinzip zu allen Männerberufen war die Frucht dieser feinen und
+verschlagenen Taktik.
+Jn demselben ominösen Jahre 1908 aber, welches diesen Er-
+folg brachte, überreichte die Regierung der radikalen Frauen-
+2
+bewegung noch ein weit wertvolleres Geschenk durch das neue
+Reichsvereinsgesetz, welches die Zulassung der Frauen zu den
+politischen Vereinen aussprach. Dieses Zugeständnis war ent-
+scheidend für die weitere Entwicklung und führte direkt auf den
+Weg, den bisher alle Frauenstimmrechtsländer gegangen sind,
+und den auch wir gehen werden, wenn wir nicht, wie Lucia
+Dora Frost sagt, die Richtung unserer Frauenpolitik um 180° ver-
+schieben. War vor dem Jahre 1908 die radikale Frauenbewegung
+in ihrem Vorwärtskommen auf das Wohlwollen der Regierung
+angewiesen, so fand sie nach Erlaß des Vereinsgesetzes einen
+festen Halt an den Parteien und konnte jetzt der Regierung als
+selbständige Macht entgegentreten. Am auffälligsten trat dieser
+Umschwung zur Unbescheidenheit in dem anmaßlichen Protest
+gegen die Königsberger Kaiserrede von 1910 hervor, in welcher
+sich der Kaiser gegen die Politisierung der Frau aussprach. Nach
+dem Jahre 1908 begann das bekannte Spiel der politischen Par-
+teien mit der Frauenbewegung, ein Spiel der Katze mit der
+Maus, bei welcher die Parteien die wenig beneidenswerte Rolle
+der Maus übernehmen, die schließlich gefressen wird. – Wer
+sich an einem klassischen Beispiel davon überzeugen will, wie
+dieses Spiel gesetzmäßig verläuft, der sehe nach England hin.
+Seit 40 Jahren haben dort die Politiker beider Parteien es für
+eine besonders schlaue Taktik gehalten, wenn sie sich bei den
+Wahlen der Hilfe politisch interessierter Frauen bedienten. Man
+hielt die Sache für harmlos und war auch gern bereit, den
+Damen als Gegengabe kleinere und größere Geschenke zu machen.
+Die Frauen erhielten sämtliche Bildungs- und Erwerbs-
+möglichkeiten, sie durften auch Rechtsanwälte, Bürgermeister und
+Prediger werden; man gab ihnen das kirchliche und ein be-
+schränktes Gemeindewahlrecht und stellte ihnen auch bei Gelegen-
+heit das staatliche Stimmrecht in Aussicht, ohne zunächst an die
+Einlösung des Wechsels zu denken. Die Eifersucht der Parteien
+und die fortschreitende Feminisierung der ganzen Nation führte
+schließlich zu den Frauenstimmrechtsanträgen im Parlament, bis
+denn auch die Regierung selbst durch den Druck der Parteien ge-
+nötigt wurde, sich ernstlich mit der Frage zu befassen. – Nun
+begann ein gänzlich unwürdiges Spiel der Verschleppung und
+Vereitlung, und durch allerlei Kniffe wußte man es stets zu ver-
+hindern, daß die Frauenstimmrechtsbill über die zweite Lesung
+hinauskam. Man sieht, die Furcht vor dem Frauenstimmrecht
+war schließlich bei allen Parteien gleich groß; sobald die Katze
+wirklich Ernst machte, wußte die Maus zu entschlüpfen. Diesem
+schlimmen Spiel haben die fenstereinschlagenden und brand-
+stiftenden Suffragetten ein plötzliches Ende bereitet. Sie nötigen
+durch den Hungerstreik den Staat, ihre Schandtaten ungestraft
+zu lassen und zwingen ihn, der sie so lange zum besten hatte, zur
+wohlverdienten und, wie ich glaube, unabwendbaren Kapitulation.
+Ein höchst widerwärtiger Abschluß eines unwürdigen Spiels,
+dessen Wiederholung in etwas rascherem Verlauf auch in den
+nordischen Staaten in ähnlicher Weise zu beobachten ist. Zum
+Schluß pflegt man dann aus der Not eine Tugend zu machen.
+Wie man hört, ist man in den nordischen Ländern schon soweit
+gediehen, daß manche konservativen Redner im Parlament keine
+wichtigere Aufgabe kennen, als sich von dem „schrecklichen“ Ver-
+dachte zu reinigen, daß sie früher Gegner des Frauenstimmrechts
+gewesen seien.
+Und nun die Moral dieser Geschichte! – Wir in Deutsch-
+land erleben – darüber wollen wir uns doch nicht hinwegtäuschen
+– einen ganz ähnlichen Entwicklungsgang wie die Engländer
+und die Nordstaaten. – Selbst bei der internationalen Sozial-
+demokratie hat es recht lange gedauert, bis der männliche
+Jnstinkt und die gesunde Vernunft der Parteidoktrin von
+der allgemeinen Gleichheit, der Parteileidenschaft und dem
+Hunger nach politischer Macht erlagen. Jn einer ganzen Reihe
+von Ländern, in Belgien, Holland, England, Norwegen, Oester-
+reich-Ungarn haben die Sozialisten früher gegen die Ausdehnung
+des allgemeinen Wahlrechts auf das weibliche Geschlecht ge-
+stimmt. Von der Sozialdemokratie griff die feministische Er-
+krankung über auf die bürgerlichen Parteien, die genau wie in
+England auf die weibliche Hilfe bei den Wahlen eifersüchtig
+wurden. Damals bildete sich zuerst bei der demokratischen Ver-
+einigung und später bei der fortschrittlichen Volkspartei die neue
+sozialdemokratische Abart des Liberalismus aus, die ein Eugen
+Richter noch nicht kannte, die sich aber jetzt auf dem Mann-
+heimer Parteitage von 1912 als der rechte Bruder der radikalen
+Frauenbewegung erkannt hat und das arme bis dahin ver-
+stoßene Schwesterchen Frauenbewegung nun in das Vaterhaus
+aufnimmt. Man spricht einfach einem jeden Liberalen von
+seiten der Frauenbewegung den Liberalismus so lange ab, bis er
+sich zum Frauenstimmrecht bekannt hat. – Diese Methode, die
+einmal von einer Frauenrechtlerin sehr passend die „Häkel-
+methode“ genannt wurde, hat sich bei Sozialdemokraten und
+Fortschrittsleuten ausgezeichnet bewährt und wird augenblicklich
+bei den Nationalliberalen ausprobiert. – Als atavistische Reste
+dieser Entwicklung der Parteileitung der Fortschrittspartei stehen
+einige veraltete zurückgebliebene Demokraten wie Conrad Hans-
+2*
+mann da, welche die Politisierung der Frau entschieden ab-
+lehnen und gar zu bezweifeln wagen, daß es sich bei der Frauen-
+stimmrechtsforderung überhaupt um eine demokratische Forde-
+rung handle. Hausmann behauptet, daß heute noch 65 pCt. aller
+fortschrittlichen Männer und 95 pCt. aller Frauen entschiedene
+Gegner des Frauenstimmrechts seien. Aber über solche reak-
+tionären Anwandlungen geht es mit Hurra hinweg; das Ver-
+hängnis nimmt seinen Lauf.
+Den mit der fortschrittlichen Volkspartei von den Reichs-
+tagswahlen her verbündeten Nationalliberalen ließen die
+„schönen“ Erfolge jener mit der Frauenpartei keine Ruhe. Jns-
+besondere die süddeutsche Führung schwimmt bereits ganz in dem-
+selben Fahrwasser. Jn der Landesversammlung nationalliberaler
+Frauen in Karlsruhe (19. November 1912) entbot der Chef der
+nationalliberalen Partei Badens, Geheimrat Rebmann, den
+Damen den Gruß der Partei. Nach der Badischen Presse vom
+30. November 1912 sagte er dem Sinne nach unter anderem
+folgendes: „Wenn ich es heute namens der Partei übernommen
+habe, die Versammlung zu begrüßen, so weiß ich wohl genau wie
+Sie selbst, daß nicht alle Parteimitglieder geschlossen hinter mir
+stehen. Sie haben schon öfter gehört, daß nur ein Teil der
+Partei soweit ist, daß er die Teilnahme der Frauen am politi-
+schen Leben begrüßt. Aber das Umdenken ist auch hier
+schon im Gange. Wir haben diesen Vorgang nicht nur bei
+unserer Partei, sondern auch bei andern Parteien ist der Ge-
+danke, daß die Frau sich am politischen Leben beteiligen soll, auf
+Widerspruch gestoßen. Daß es auf diesem Gebiete vorwärts geht,
+ergibt sich auch daraus, daß die Gesetzgebung sich der Frau nicht
+nur im passiven Sinne angenommen, sondern ihr auch eine aktive
+Rolle zugewiesen hat; ich erinnere nur an das Versicherungs-
+gesetz.“ – Man könnte sich ja damit trösten, daß in diesen Worten
+vom Stimmrecht der Frau kaum die Rede ist, aber aus dem Zu-
+sammenhange geht deutlich hervor, worauf sich dieses „Umdenken“
+bezieht, nämlich auf die auch in der fortschrittlichen Volkspartei
+zutage getretene Wandlung in der Stellung zum Frauenstimm-
+recht. Herr Rebmann verständigte sich sehr gut mit den Damen,
+wenn er auch das entscheidende Wort „Stimmrecht“ nicht aus-
+sprach. Frau Jellinek zeigte, daß sie ihn verstanden hatte. Sie
+erklärte, daß die Frau die Partei braucht, daß
+aber auch die Partei die Frau notwendig habe;
+der Kuhhandel ist perfekt.
+Herr Bassermann, der Führer der Partei, dessen Gattin mit
+der bekannten Stimmrechtlerin Frau Steinmann-Bonn in Weimar
+die nationalliberalen Frauen repräsentierte, hat aus seiner Be-
+günstigung der politischen Frauenrechte niemals ein Hehl gemacht.
+Schon im Frühling 1912 hielt er im Reichstage eine Rede, in
+der er ausdrücklich betonte, daß die Regierung die Frauenrechte
+erweitern und den Frauen nach einander alle Türen öffnen
+müsse. Auch er geht mit Vorliebe um das Wort Stimmrecht
+herum, aber jeder versteht, was gemeint ist. Verschiedene
+nationalliberale Zeitungen, deren Namen ich auf
+Wunsch nennen kann, weisen gegen das Frauen-
+stimmrecht gerichtete Artikel von Parteiange-
+hörigen unter Hinweis auf die abweichende
+Stellung der Parteileitung zurück. Die Kandi-
+datur von Traub, der sich offen zum Frauenstimmrecht bekannt
+hat, wurde ohne Einschränkung von der Partei empfohlen. –
+Aber die Medaille hat auch eine Kehrseite. Am 10. De-
+zember 1912 sprach in Kiel der Generalsekretär der national-
+liberalen Partei in Hamburg über die politische Lage. Einem
+Diskussionsredner gegenüber, der auf die auch der national-
+liberalen Partei drohende Umgarnung seitens der Frauen-
+bewegung hinwies, erklärte der Herr Generalsekretär, daß er ein
+Gegner des Frauenstimmrechts sei mit dem ausdrücklichen Zu-
+satze, daß auch die Führer der Partei nicht für das Frauenstimm-
+recht einträten. – „Die Botschaft hör' ich wohl, allein mir fehlt
+der Glaube!“
+Eine schlechte Zensur, die von dieser Seite kommend wohl
+mehr als Belobigung zu werten ist, erhält auch der national-
+liberale Verein für Altona-Ottensen vom „Vorwärts“, der ihm
+Rückständigkeit vorwirft. Ein Herr Dr. R. hielt in Altona einen
+Vortrag und empfahl bei aller Ablehnung der radikalen Frauen-
+forderungen die Aufnahme der nationalliberalen Frauen in den
+Verein. Charakteristisch ist u. a. folgendes Wort des Vor-
+tragenden: „Die Frauen stehen vor der Tür; öffnen wir ihnen
+nicht, so gehen sie ein Haus weiter zu den Freisinnigen.“ Dieses
+eine Wort spricht Bände. Es sind also garnicht nationalliberale
+Frauen, die um Einlaß bitten, um der Partei zu dienen, sondern
+es sind Frauenrechtlerinnen, welche die Partei für sich ein-
+fangen wollen, und eventuell, wenn das nicht gelingen sollte, auch
+in das nächste Haus einbrechen. Nach kurzer Beratung beschloß
+der Altonaer Verein: Frauen werden in den nationalliberalen
+Verein nicht aufgenommen. Begründung: Es besteht die Be-
+fürchtung, daß dann zahlreiche nationalliberale Männer aus-
+treten würden. Ein getreues Spiegelbild der Haltung der
+nationalliberalen Partei in der Frauenfrage gab auch die
+Frauenstimmrecht 3
+Stellung der Partei bei Gelegenheit der Stimmrechtsdebatte im
+Landtage. Der Abg. Hausmann erklärte, daß die Wahlrechts-
+frage der Frau in absehbarer Zeit aktuell werden könne, aber
+er bestritt, daß der Zeitpunkt schon da sei, an sie heranzutreten. Re-
+sultat: Man richtet sich auf alle Möglichkeiten ein und dokumen-
+tiert sich so als verschämten guten Freund einer schlechten Sache.
+Was am wunderbarsten anmutet, ist, daß die Parteiführer so
+mangelhaft unterrichtet sind, daß sie durch das Vergrößerungsglas
+der feministischen Presse eine ungeheure Macht im bürgerlichen
+Frauenstimmrechtslager zu erblicken glauben, von der die Parteien
+neues Heil zu erwarten hätten, während das ganze Häufchen zur
+Zeit 10000 Frauen zählt. Allerdings verfügen diese über die
+Lungenkräfte von Millionen und sind bei weiterem Wachstum
+imstande, die ganze norddeutsche nationalliberale Wählerschaft zu
+zersprengen. Es sind nicht die Freunde der Volkspartei, die ihr
+die weiblichen Mitglieder gönnen und wünschen; die zersetzende
+Wirkung kann nicht ausbleiben. Die sämtlichen bürgerlichen
+Parteien außer etwa der Zentrumspartei werden von dem
+Techtelmechtel keinerlei Vorteil haben, die Gewinnenden sind allein
+die Rechtlerinnen, die Sozialdemokraten und die Zentrumsleute.
+Das Zentrum müßte seiner ganzen Natur und Weltanschau-
+ung nach als eine auf eine feste Autorität sich stützende Partei der
+entschiedenste Gegner aller Frauenemanzipation sein. Die der
+atheistischen Sozialdemokratie entspringenden frauenrechtlerischen
+Tendenzen richten sich allein auf das diesseitige Glück des Jndi-
+viduums und insonderheit einer möglichst großen Zahl weiblicher
+Jndividuen, auf ein „Glück“, das besonders in wirtschaftlicher und
+persönlicher Unabhängigkeit gesehen wird. Solche Bestrebungen
+stehen im schroffsten Gegensatz zu der katholisch-christlichen Welt-
+anschauung, welche das diesseitige Leben nur als einen Durch-
+gang zu dem Frieden des Jenseits betrachtet und strenge Pflicht-
+erfüllung und Unterordnung unter göttliche und menschliche Auto-
+rität und Geringachtung irdischen Wohllebens von ihren An-
+hängern erwartet. Und von keiner Seite droht dieser Welt-
+anschauung eine größere Gefahr als von der radikalen Frauen-
+bewegung, die den christlichen Familiengeist verdirbt und die
+väterliche und damit die priesterliche und göttliche Autorität unter-
+gräbt. – Aber das Zentrum ist eine politische Partei, und als
+solche rechnet es mit allen realen Möglichkeiten. Jedenfalls hat es
+den seit 1908 auftauchenden Gedanken, die Frauen zur Mitarbeit
+in der Politik heranzuziehen, mit Feuereifer aufgegriffen, und die
+hohen geistlichen Würdenträger werden in ihren öffentlichen
+Aeußerungen über die politische Frauenbewegung immer liebens-
+würdiger und entgegenkommender. Sehr bezeichnend ist in dieser
+Beziehung die Rede des Bischofs Faulhaber in Straßburg bei
+Gelegenheit der Tagung des Katholischen Frauenbundes. Der
+geistliche Herr hob hier mit Nachdruck hervor, daß vom Stand-
+punkte der katholischen Dogmatik eine Ablehnung des Frauen-
+stimmrechts nicht begründet werden könne. – Die „Kölnische
+Volkszeitung“ besprach am 21. August 1912 den Deutschen Bund
+zur Bekämpfung der Frauenemanzipation, den sie als katholische
+Zeitung nach Kräften unterstützen sollte, in wenig freundlicher
+Weise. Das Schlußwort des Artikels lautet: „Also schulen wir
+unsere Frauen und Töchter, denn die objektive Wahrscheinlichkeit
+ist vorhanden, daß früher oder später das Frauenstimmrecht
+kommt, unbekümmert um unsere Zu- oder Abneigung!“ – Zwar
+hat der Abgeordnete Trimborn bei der Debatte im Abgeordneten-
+hause über das kommunale Wahlrecht sich ziemlich kühl ausge-
+sprochen mit dem Hinweis darauf, daß die Frauen selbst das
+Stimmrecht nicht haben wollten. Jndessen hört man auch hier
+nicht ein entschiedenes „Niemals!“ sondern das ominöse „Noch
+nicht“ herausklingen, das die Brücken nicht abbricht. Das Zen¬
+trum und die katholischen Vereine stehen also in der Frauen-
+frage im ganzen auf dem abwartenden Standpunkte, den zur
+Zeit die nationalliberale Partei einnimmt, der aber bei Bedarf
+jederzeit bereit ist, sich in einen direkt stimmrechtlerischen zu ver-
+wandeln. Die einzige Partei, welche heute noch mit prinzipieller
+Entschiedenheit die Politisierung der Frau ablehnt, ist die konser-
+vative. Der Abgeordnete Stroßer erklärte im Landtage in der
+Debatte zum kommunalen Frauenstimmrecht, daß seine politischen
+Freunde das politische Wahlrecht der Frau unter keinen Um-
+ständen wünschten; die jetzigen Forderungen seien nur eine Vor-
+stufe dazu. Und doch gibt es auch unter den Konservativen weite
+Kreise, welche so lange mit der sogenannten gemäßigten Frauen-
+bewegung, insbesondere dem Deutsch-evangelischen Frauenbunde
+zusammengearbeitet haben, daß sie jetzt, wo die gesamte Frauen-
+bewegung unter Führung der Radikalen die große Schwenkung
+zum Frauenstimmrecht ausführt, zunächst noch nicht imstande
+sind, sich energisch aus der Umklammerung des Bundes deutscher
+Frauenvereine loszureißen. – Die der Frauenbewegung
+auch im jetzigen Stadium noch immer bewiesene
+Sympathie fürstlicher Damen erschwert diese
+durchaus notwendige reinliche Scheidung der
+Geister in allerstärkstem Maße. – Die Hillebrand'sche
+Verteidigung des Deutsch-evangelischen Frauenbundes in der
+Kreuzzeitung beweist, daß es leider auch auf konservativer Seite
+3*
+Leute genug gibt, die eine prinzipielle Bekämpfung der radikalen
+Frauenbewegung nicht wünschen, sondern sogar bereit sind, durch
+Annahme des kirchlichen und kommunalen Wahlrechts sich auf die
+schiefe Ebene zu begeben, die unrettbar in den Abgrund führt.
+Jch gehe nun mit einem kurzen Wort auf die weibliche Taktik
+und den Entwicklungsgang der Stimmrechtsforderung ein. Wie
+planmäßig und konzentriert die Frauenbewegung zu Werke geht,
+kann man bei den neuerlichen Petitionsstürmen um das Wahlrecht
+studieren. Jn den verschiedensten deutschen Landesteilen wurde
+gleichzeitig das kommunale und kirchliche Wahlrecht in Angriff
+genommen. Der Versuch im fortschrittlichen Lande Oldenburg,
+das kommunale Wahlrecht zu erobern, scheiterte nur am Ein-
+spruche der Regierung. Darnach kamen Preußen und Sachsen an
+die Reihe; zunächst ohne Erfolg. Jn den Provinzialsynoden ver-
+suchte man gleichzeitig, das kirchliche Stimmrecht zu gewinnen,
+eine Pionier- und Minierarbeit, bei der leider von den liberalen
+Geistlichen und der kirchlich-liberalen Presse kräftige Mithilfe ge-
+leistet wird. Die Resultate sind ungleich; die schleswig-holstei-
+nische Synode hat glücklicherweise die Forderung glatt abgelehnt,
+in andern Bezirken dagegen sind die Aussichten bessere. Jmmer-
+hin bereiten die Damen mit echt weiblicher Willenszähigkeit nach
+jedem Fehlschlage die neue Petition vor, um die Männer schließ-
+lich zu ermüden und ihren Willen durchzusetzen. Jnteressant ist
+die Harmlosigkeit, mit der die konfessionellen Verbände, der evan-
+gelische und der katholische Frauenbund, die politische Natur des
+kommunalen Wahlrechts einfach wegleugnen und dieses Recht ge-
+wissermaßen als eine notwendige Erweiterung des kirchlichen
+Stimmrechts hinstellen, das den Frauen bei ihrer sozialen und
+charitativen Tätigkeit als Waisen- und Armenpflegerinnen un-
+umgänglich nötig sei. – Nimmt man hinzu, daß die Führerinnen
+der konfessionellen Verbände das politische Wahlrecht nicht prin-
+zipiell zurückweisen, sondern es aus taktischen Gründen vorläufig
+ablehnen, dafür einzutreten, so erkennt man, daß die Differenz
+zwischen ihnen und den radikaleren Gruppen im wesentlichen eben
+in der Taktik liegt, und daß die Taktik der sogenannten „Ge-
+mäßigten“ entschieden die illoyalere und gefährlichere ist.
+Daß es den Führerinnen der Frauenverbände ursprünglich
+gemäßigter Richtung nicht leicht wird, ihre Heerscharen, die sie
+einst unter dem Banner friedlicher, charitativer, unpolitischer
+Frauenarbeit sammelten, jetzt bei der neuen Fahne mit der Jn-
+schrift „Frauenstimmrecht“ festzuhalten, das ist aus den ver-
+schiedensten Anzeichen zu schließen. Eine hannöversche Dame,
+Gattin eines Geistlichen, erzählte dem Verfasser kürzlich, daß sie
+zwar immer eine eifrige Anhängerin des Deutsch-evangelischen
+Frauenbundes gewesen sei, aber eine an sie gelangte Petition für
+das kirchliche Frauenstimmrecht habe sie nicht unterschrieben. Also
+schon beim kirchlichen Stimmrecht machen die Damen teilweise
+nicht mehr mit. Wie werden sie sich erst zu dem kommunalen
+und staatlichen stellen! – Weiter hörte ich folgendes: Jn einer
+Stadt im mittleren Deutschland besteht ein Frauenverein von etwa
+400 Mitgliedern. Eines Tages erschienen zwei große Stimm-
+rechtsdamen und hielten einen Vortrag. Resultat: Ein Viertel
+der Damen trat sofort aus, eine große Zahl ist noch schwankend.
+Also so ganz sicher begründet ist das Solidaritätsgefühl innerhalb
+der einzelnen Gruppen nicht, wie manche Führerinnen das glauben
+machen möchten.
+Von Zeit zu Zeit veranstalten sie einmal eine größere Probe-
+mobilmachung, um den inneren Zusammenhang zu prüfen und
+zu stärken oder einen besonders kräftigen Druck auf die öffentliche
+Meinung oder die Regierung auszuüben. Eine derartige Uebung
+war auch der Kasseler Frauenkongreß von 1907, der besonders der
+Durchsetzung der Mädchenschulreform dienen sollte und tatsächlich
+diente. Die Vorbereitung auf die Politisierung der Frau und
+die Stimmrechtsforderung haben die Berliner Ausstellung und der
+Frauenkongreß von 1912 besorgen müssen. Es ist hochbedauerlich,
+daß unsere Regierungsgewalten, welche doch die eigentlichen Geg-
+ner dieser ultrademokratischen Bewegung sein müßten, es sich
+nicht nehmen lassen, solchen Veranstaltungen internationaler Her-
+kunft durch ihre Anwesenheit und Protektion zu hohem Glanze
+und großer Wirkung zu verhelfen, obgleich doch die Zusammen-
+hänge nicht gar so schwer zu erkennen sind. Das Frauenstimm-
+recht hat, wie Prof. Sigismund an dem Beispiel der amerikani-
+schen Staaten nachweist, seine Wurzeln nicht in der Begeisterung
+für die „gute Sache“, sondern in männlicher politischer Selbst-
+sucht und Schwäche; man könnte hinzusetzen: und in weiblicher
+Eitelkeit. Wenn Lucia Dora Trost recht behält, daß
+unsere Frauenbewegung eine „königlich-preu-
+ßische“ ist, dann wird sie zum unvermeidlichen
+Verhängnis, dem Preußen und Deutschland
+ebenso verfallen werden, wie die nordischen
+Länder.
+Noch ein Wort über die radikalen Frauenstimmrechts-
+organisationen. Es würde sich kaum verlohnen, auf diese Ver-
+bände mit ihren etwa insgesamt 10000 Stimmrechtlerinnen über-
+haupt hier einzugehen, wenn diese Gruppen nicht durch die kurz-
+sichtige und selbstmörderische Politik der bürgerlichen Parteien den
+Rechtlerinnen gegenüber eine Bedeutung erlangt hätten, die in
+einem geradezu lächerlichen Verhältnis zu ihrer zahlenmäßigen
+Macht steht. – Wenn in letzterer Zeit die Beiratskonferenz des
+Deutschen Verbandes für Frauenstimmrecht seinen § 3, der ein
+gleiches, geheimes und direktes Wahlrecht für alle Frauen
+fordert, abzuändern vorschlägt und auf die Form bringen will
+„ein gleiches Wahlrecht für alle Frauen“, so hat das seine guten
+taktischen Gründe. Diesem Verbande, der unter Frau Cauers
+Führung stand und dessen Organ die von Dr. An. Augsburg re-
+digierte Zeitschrift „Frauenstimmrecht“ ist, stehen drei andere
+Verbände gegenüber, der Frauenstimmrechtsverband für West-
+deutschland, der Schlesische Verband für Frauenstimmrecht und der
+Norddeutsche Verband für Frauenstimmrecht. Manche Mitglieder
+des Deutschen Verbandes für Frauenstimmrecht haben wohl be-
+fürchtet, daß seine sozialdemokratische Forderung des gleichen, ge-
+heimen und direkten Wahlrechts für alle Frauen ihn bei den ge-
+mäßigten politischen Parteien als Bundesgenossen gänzlich un-
+möglich machen würde gegenüber den zuletzt genannten Ver-
+bänden, deren meist nationalliberale Führerinnen die weniger
+radikale Forderung auf das gleiche Wahlrecht mit den Männern
+erheben. – Es würde sehr irrig sein, aus dieser Zersplitterung
+der wenigen Stimmrechtlerinnen auf einen Auflösungsprozeß
+schließen zu wollen. Auch hier verfolgt die radikale Frauen-
+bewegung den richtigen Grundsatz: Getrennt marschieren und ver-
+eint schlagen. Die gemäßigten Verbände betreiben eben den
+Stimmenfang bei den gemäßigten Parteien, die radikalen bei den
+Linksparteien. Das Endziel ist bei allen das gleiche, nämlich
+das des berühmten, vorläufig beiseite gestellten § 3. Es ist nur
+sehr die Frage, ob unsere in Frauenfragen etwas begriffsstutzigen
+gemäßigten Politiker rechtzeitig dahinterkommen werden.
+Der Totaleindruck vom heutigen Stande der Frauenstimm-
+rechtsbewegung ist für den Gegner ein durchaus trüber, und die
+Siegeszuversicht der Rechtlerinnen ist leider allzu begreiflich.
+Unsere Hoffnung für die Zukunft ruht vor allem auf der jetzt
+endlich organisierten Aufklärungsarbeit, welche die Massen auf
+unsere Seite führen und damit den Regierungen den Rücken
+stärken wird, um den selbstsüchtigen Treibereien der politischen
+Parteien einen unerschütterlichen Widerstand entgegen setzen zu
+können. Die Stellungnahme der Regierungen
+entscheidet alles; beim parlamentarischen Regiment in
+Deutschland würde heute schon unser Schicksal entschieden sein.
+Der nächste Abschnitt wird darzulegen versuchen, aus welchen
+ethischen und nationalen Gründen alle Kraft daran gesetzt werden
+muß, das Frauenstimmrecht abzuwehren, warum seine Ein-
+führung geradezu als ein nationales Unglück anzusehen wäre.
+2. Kritik des Frauenstimmrechts.
+Wir fragen zunächst: Wie stehen die deutschen Frauen selbst
+zu der Forderung des Frauenstimmrechts? – Jn Deutschland ist
+zur Zeit die Frauenstimmrechtsbewegung in der Hauptsache noch
+auf die am meisten interessierten ledigen Erwerbenden beschränkt,
+es ist vor der Hand nur eine sehr geringe Zahl wirklicher Frauen,
+der Ehefrauen und Mütter, welche mitmachen. So soll es in
+Schleswig-Holstein zur Zeit ganze 170 organi-
+sierte Stimmrechtlerinnen geben. Bei Gelegenheit
+einer Vereinsversammlung berichtete eine der Vorstandsdamen
+selbst, daß unter den Frauen noch sehr wenig Sinn und Opfer-
+freudigkeit für das Stimmrecht bestände. Manche bäten, ihnen
+doch das Stimmrechtsblatt nicht durch die Post zuzuschicken, da der
+Postbote immer so schlechte Witze mache. – Man sieht, wie sich
+unsere Frauen heute der Stimmrechtlerei noch schämen. Aber
+derartige Anwandlungen werden, wie die Erfahrung lehrt, schnell
+überwunden und bieten keine Gewähr dafür, daß die Frauen nicht durch
+die Macht der Suggestion in Kürze zu den in Mode gekommenen
+Stimmrechtsforderungen bekehrt werden, wie man das in Amerika
+gegenwärtig erlebt; denn es ist bekanntlich nichts so töricht, was
+von der Mode nicht in Flor gebracht werden könnte. – Die ledigen
+Frauen hoffen zunächst mit Hilfe des Stimmrechts eine noch
+sicherere Position im wirtschaftlichen Konkurrenzkampfe zu er-
+ringen. Da aber die einseitige Betonung dieser Jnteressen für
+sich allein ohne Wirkung bleibt auf den ideal und philosophisch
+angelegten Deutschen, so führt man Gründe ethischer und natio-
+naler Art für seine Forderungen ins Feld. Man gibt vor, zu
+der Erkenntnis gekommen zu sein, daß zur vollen Entfaltung
+auch der weiblichen Persönlichkeit eine gleichberechtigte Teil-
+nahme am Staatsleben gehöre, und weiter, daß unserem Staats-
+leben der Einfluß der Mütterlichkeit dringend notwendig sei. Wir
+fragen erstaunt: Waren denn alle die Milliarden deutscher Frauen
+und Mütter, deren treuer Arbeit in Haus und Familie das deutsche
+Volk seine Kulturblüte zum größten Teile verdankt, etwa keine
+vollwertigen Persönlichkeiten? Bestand nicht gerade der höchste Wert
+dieser Persönlichkeiten in der bewußten Selbstbeschränkung, mit der
+sie sich auf diejenigen Aufgaben zurückzogen, die ihnen als den
+Müttern der neuen Generation zukamen, und für welche sie ge-
+eignet waren? Haben sie auf diese Weise nicht einen unendlich viel
+größeren und segensreicheren politischen Einfluß auf ihr Volk
+und seine Kultur ausgeübt, als wenn man sie schon vor Jahr-
+zehnten ihrem eigentlichen Wirkungskreise entfremdet und
+in die Politik hineingestoßen hätte! – Gerade in der Arbeitsteilung
+sieht man doch im heutigen Kulturleben die sicherste Bürgschaft
+für den Fortschritt; warum will man denn das biologische Grund-
+gesetz der Arbeitsteilung der Geschlechter umstoßen und aus der
+guten Hausfrau und Mutter eine schlechte Politikerin machen,
+die ihr Hauswesen vernachlässigt, und aus dem willensstarken,
+wehrfreudigen Manne einen Weiberknecht, der nicht mehr imstande
+ist, den Staat auszubauen und Heim und Vaterland zu vertei-
+digen? – Jm häuslichen und Familienleben liegen nicht nur die
+Aufgaben der Frau, dort allein kann sie ihre weibliche Persönlich-
+keit voll entfalten und den rechtmäßigen großen Einfluß auf
+das Volksleben und indirekt auf das Staatsleben gewinnen, den
+wir bisher an der deutschen Frau so hoch eingeschätzt haben. Das
+politische Leben beruht auf dem Egoismus der Stände und dem
+daraus hervorwachsenden politischen Kampfe, das Wesen der
+Frau, der deutschen Frau, ist das Gegenstück zum Egoismus, der
+Altruismus, die Sorge für die anderen, darum eignet sie sich
+nicht für das politische Leben und würde in ihm ihre besten
+Eigenschaften, ihr Herz, einbüßen.
+Bisher steht die Frau außerhalb der politischen Parteien
+und hat die Möglichkeit, unsere Kulturverhältnisse ohne die Vor-
+eingenommenheit des Parteigängers nach nationalen und ethischen
+Gesichtspunkten zu beurteilen und zu beeinflussen. Wir haben
+Preß- und Redefreiheit, Versammlungs- und Petitionsfreiheit
+auch für das weibliche Geschlecht, und Tausende von Frauen
+haben durch Kongresse, Resolutionen, Petitionen und durch di-
+rekte Fühlungnahme mit den Behörden heute bereits einen so
+großen Einfluß auf die Regierungen und Parlamente gewonnen,
+daß diese ihnen oft schon mehr zu Willen sind, als sich das mit
+einer gesunden Entwicklung verträgt. Fräulein Paula Müller,
+die Vorsitzende des Deutsch-evangelischen Frauenbundes, stellt im
+Novemberheft der „Frau“ 1912 in ihrem Zusammenstoß mit
+Fräulein Helene Lange folgendes fest: „Einige Frauen haben
+auf die Gestaltung der Mädchenschulreform einen größeren Ein-
+fluß als Sachverständige ausgeübt, als es ein oder zwei weibliche
+Abgeordnete hätten tun können. Und weil mir die heutige Ver-
+tretung der Fraueninteressen am Herzen liegt, so glaube ich, daß
+wir mehr dadurch gewinnen, wenn wir die kommissarische Ver-
+wendung der Frauenkraft, die Einstellung weiblicher Hilfsar-
+beiter in diesem oder jenem Dezernat befürworten, die ohne Ver-
+fassungsänderung möglich ist, als daß wir Forderungen erheben,
+die eine solche zur Voraussetzung haben.“ Der Einfluß der
+Frauenbewegung in unserem sozialen Leben ist nicht nur auf
+dem Schulgebiete sondern auf allen Gebieten, wo Frauen ernstlich
+mitarbeiten, ein so großer, daß es, wie auch Frl. Müller einsieht,
+sehr fraglich ist, ob durch Einführung des Frauenstimmrechts der
+rechtmäßige, gute Fraueneinfluß auf das politische Leben eine
+Verstärkung erfahren würde. Der in die Parteibataillone ein-
+gereihte Staatsbürger verliert gewissermaßen seine politische
+Persönlichkeit, sein eigenes freies Urteil und sinkt herab auf den
+Wert einer Nummer, die an sich von unendlicher Bedeutungs-
+losigkeit nur noch ein willenloses Atom der in den Händen der
+Führer befindlichen Masse vorstellt. Und wo bleibt der Einfluß
+der Minderheiten, deren Wille im Parlament überhaupt nicht zur
+Geltung kommt? – Die Parteityrannei veranlaßt nicht wenige
+unserer besten Männer, sich von der offiziellen Politik fernzuhalten
+und freiwillig die Vorzugsstellung der Frauen einzunehmen, denen
+niemand den indirekten, aber oft sehr großen Einfluß der eigenen
+objektiven Meinungsäußerung rauben kann.
+Die Schliche und Kniffe, die Roheiten und Kämpfe des po-
+litischen Lebens können nur verderblich auf die Lauterkeit der
+weiblichen Einzelpersönlichkeit wirken. Die englischen Suffra-
+gettes liefern dafür den besten Beweis. Darum hat Professor
+Delbrück recht, wenn er sagt: „Welch eine verhängnisvolle Jllu-
+sion, daß unsere Frauenrechtlerinnen sich einbilden, ihr Geschlecht
+zu heben, indem sie ihm die Arena der Politik eröffnen!“
+Mit der Vervollkommnung der weiblichen Einzelpersönlichkeit
+durch die politische Tätigkeit ist es ein für allemal nichts, und
+es fragt sich nun weiter: „Welche Wandlungen werden die Frauen
+als Gattinnen und Mütter, werden Ehe und Familie durch das
+Frauenstimmrecht erfahren?“ –
+Die natürliche instinktive Abneigung der Frauen und
+Mütter gegen die von den Ledigen aufgebrachte Stimmrechts-
+forderung ist im Grunde schon ein vernichtendes Urteil. Die
+Hausfrauen sehen an dem Beispiel ihrer Gatten, welche beson-
+dere Belastung die durch ihren Beruf schon stark beanspruchten
+Männer sich auferlegen müssen, wenn sie sich aktiv an der poli-
+tischen Tätigkeit beteiligen wollen, welche Summe von Zeit und
+Kraft sie ihrer Familie entziehen müssen, um ihre Schuldigkeit
+als Staatsbürger voll zu erfüllen. Da erfaßt die Frau ein berech-
+tigtes Grauen vor einem künftigen Zustande, wo beide, Mann
+und Frau, die Familie im Stich lassen und in die politischen Ver-
+sammlungen gehen. Was sollte da aus der leiblichen und geistigen
+Pflege unserer Kinder werden, welche gründliche Zerstörung
+deutschen Familienlebens müßte die Folge sein! – Da hilft auch
+die Ausrede nichts, daß ja keine Frau gezwungen würde, am
+politischen Leben teilzunehmen. Wenn einmal das Frauenstimm-
+recht eingeführt ist – das bezeugen heute schon die dänischen Fa-
+milienmütter – dann werden die Hausfrauen schon durch die
+Unmöglichkeit, den radikalen Ledigen das ganze politische Feld
+zu überlassen, gezwungen, ihren Widerwillen zu überwinden und
+zum Wahllokal zu gehen. – Vermutlich würden die meisten Ehe-
+frauen sich in ihren politischen Meinungen denen der Männer
+anschließen, und es würde dann beim Frauenstimmrecht nichts
+weiter herauskommen als eine Verdopplung der Stimmen, die
+besonders den radikalen Parteien zugute käme, die ihrer Frauen
+ganz sicher sind. Oder aber die Frauen sind echte Rechtlerinnen
+von eigener Ueberzeugung, und dann werden sie den ehelichen
+Frieden in der stärksten Weise stören. – Man erkennt: Eine
+normale Ehefrau konnte unmöglich auf den Gedanken des Frauen-
+stimmrechts kommen, er konnte nur dem Kopfe der selbständigen
+Ledigen entspringen. Von dem gewaltigen politischen Einfluß,
+welchen die Ehefrauen und Mütter durch ihre erziehliche
+Einwirkung auf die heranwachsende Generation ausüben, von
+der wahren, echten Mütterlichkeit im Staatsleben erzählt uns in
+ergreifender Weise das Erhebungsjahr 1813, dessen Jubelfeier
+wir begehen. Aus 15jährigen Knaben machte die hinreißende
+vaterländische Glut tapferer preußischer und deutscher Mütter
+über Nacht Männer und Helden, die freudig hinauszogen in
+Kampf und Tod fürs Vaterland. Dieser Art von Müttern
+wünschte Bismarck einst einen größeren politischen Einfluß; an
+das Frauenstimmrecht hat er bei ihnen gewiß nicht gedacht.
+Es erhebt sich weiter die Frage: Wie ist das Frauenstimm-
+recht vom Standpunkte der Kirche, der Gemeinde und des Staates
+zu beurteilen? – Es gibt heute unter uns schon zahlreiche Geist-
+liche und Laien, die sich von einer Teilnahme der Frauen an den
+kirchlichen Wahlen viel Gutes für die Kirche versprechen und vor
+allem der Meinung sind, daß es ein Gebot der Gerechtigkeit sei,
+den Frauen als den fleißigsten Kirchgängern auch die entsprechenden
+kirchlichen Rechte zu gewähren. Allgemein ist dazu zunächst zu
+sagen: Wenn der Persönlichkeitswert des einzelnen und die Jdee
+der Gerechtigkeit für alle Staatsangehörigen die politische Betä-
+tigung und das Stimmrecht erforderte, so würde es z. B. von
+seiten des Staates eine schreiende Ungerechtigkeit sein, daß er
+seinen Offizieren, die als Persönlichkeiten in allgemeiner höchster
+Wertschätzung stehen, dieses Menschenrecht vorenthält und sie so,
+wie die Frauenrechtlerinnen sich auszudrücken pflegen, zu Bürgern
+zweiter Klasse macht. Aehnlich könnte man im Hinblick auf die
+farbige Bevölkerung unserer Kolonien argumentieren. Es ist
+eben immer wieder zu betonen, daß das Prinzip der formalen Ge-
+rechtigkeit und des Persönlichkeitswertes in Stimmrechtsfragen
+nicht von entscheidender Bedeutung ist, sondern vielmehr die Frage
+nach der Zweckmäßigkeit und den Konsequenzen für das Staats-
+leben. – Wenden wir uns nun zum kirchlichen Stimmrecht! Zu-
+nächst ist zu betonen, daß es nicht die wirklich stillen kirchlichen
+Frauen sind, von denen die Forderung des kirchlichen Wahl-
+rechts erhoben wird. Es sind gerade im Gegenteil solche Frauen,
+die großenteils sich um die Kirche wenig kümmern und das kirch-
+liche Stimmrecht nur als Vorstufe zu weiteren Rechten betrachten.
+– Sie wissen recht wohl, daß auch die kirchlichen Wahlen, besonders
+in den Städten, zu elenden Parteikämpfen politischer Natur ent-
+artet sind. – Leider hat sich, wie schon oben bemerkt, die liberale
+Theologie des kirchlichen Frauen-Stimmrechts und des Frauen-
+Stimmrechts überhaupt freundlich angenommen, weil sie von den
+radikalen Stimmrechtlerinnen eine Stärkung des kirchlichen Libe-
+ralismus erwartet. Jn der Landeskirchlichen Rundschau schreibt
+eine Frau zu diesem Thema: „Warum wollen denn eigentlich die
+Frauenrechtlerinnen kirchliche Rechte? Warum auch die Radikalen
+unter ihnen, die in der Kirche doch nur eine Einrichtung sehen, die
+sich längst überlebt hat, und die je eher, desto lieber eigentlich auf-
+gelöst werden müßte? – Sie wollen sie, weil es für sie die erste
+Stufe bedeutet zur Erlangung weiterer Rechte, und hat man sich
+daran gewöhnt, sie solche ausüben zu sehen, so wird man bald
+nichts mehr darin finden, daß sie das kommunale Wahlrecht er-
+streben. Und von diesem bis zum politischen, dem höchsten Ziel
+und Wunsch jeder Frauenrechtlerin, kann es dann nicht mehr gar
+so weit sein.“ – Wir sahen schon oben, daß die konfessionellen
+Frauenvereine, wenigstens in ihren Führerinnen, diesen Ent-
+wicklungsgang bereits zurückgelegt und den einen Fuß schon auf
+die letzte Stufe gesetzt haben, indem sie zwar zunächst das poli-
+tische Stimmrecht nicht fordern, es aber auch nicht prinzipiell
+ablehnen. Man sei nun Gegner oder Freund des kirchlichen
+Frauenstimmrechts, ganz zu verwerfen ist jedenfalls die Stellung-
+nahme eines bekannten Theologen, der seinen Uebergang in das
+Stimmrechtslager damit begründet, daß ihm, dem früheren Geg-
+ner, von den verschiedensten Seiten das Stimmrecht nicht nur als
+diskutabel, sondern als unvermeidlich bezeichnet sei; auch müsse
+er sich sagen, es kommt, du magst dazu stehen, wie du willst, und
+so habe er sich entschlossen, seinen Einspruch fallen zu lassen. Das
+nennt man zu Deutsch: sich ins Unvermeidliche schicken, d. h. die
+bessere Ueberzeugung aus oppurtunistischen Motiven aufgeben.
+Daß das kirchliche Frauenstimmrecht von den meisten seiner Be-
+fürworter als die erste Staffel zur Erreichung der vollen Gleich-
+berechtigung angesehen wird, dafür spricht schon die Entwicklung
+des Deutsch-evangelischen Frauenbundes, der im verflossenen
+Jahre zum ersten Male ernstlich auch mit der Forderung des
+kommunalen Wahlrechts hervorgetreten ist, als man des kirch-
+lichen so ziemlich sicher zu sein glaubte und den Anschluß beim
+Bunde deutscher Frauenvereine nicht verpassen wollte. Man be-
+gründet das neue Verlangen damit, daß die im Gemeindedienst
+als Armen- und Waisenpflegerinnen oder sonst tätigen Frauen
+ihre Pflichten besser erfüllen könnten, wenn sie zur Teilnahme an
+den Kommunalwahlen zugelassen würden. Frau von Meerheimb
+hat in der Versammlung des Bundes zur Bekämpfung der Frauen-
+emanzipation in Berlin am 3. November 1912 diese Ansicht auf
+Grund eigener Erfahrungen schlagend widerlegt. Auch hier
+kommt es darauf hinaus, daß nach dem von Fräulein Lange ge-
+gebenen Rezept die Frauen die Pflichten aufsuchen, um damit
+einen Anspruch auf die damit zusammenhängenden Rechte zu ge-
+winnen. Es dürfte vielleicht an der Zeit sein, diese egoistischen
+ungerufenen Helfer einfach zurückzuweisen, da eine Arbeit, welche
+aus solchen Motiven heraus übernommen wird, unmöglich eine
+gesegnete sein kann. Um die Forderung des kommunalen Wahl-
+rechts in milderem Lichte erscheinen zu lassen, behaupten die Füh-
+rerinnen des Deutsch-evangelischen Frauenbundes, das kommu-
+nale Wahlrecht sei kein politisches. Wer aber die Kommunal-
+wahlen aus eigener Praxis kennt, bezweifelt keinen Augenblick
+deren politischen Charakter. Wer weiter bedenkt, daß unter allen
+Parteien die Sozialdemokratie allein das Frauenstimmrecht
+unbedingt fordert und ihrer Frauenbataillone vollkommen sicher
+ist, und daß andererseits die radikale Frauenbewegung mit der
+Sozialdemokratie auf das lebhafteste sympathisiert, wie das ihre
+Presse stets von neuem beweist, dem wird die außerordentliche
+Gefahr zum Bewußtsein kommen, die darin liegt, daß das kommu-
+nale Wahlrecht der Frauen wahrscheinlich in aller Kürze sämt-
+liche Stadtvertretungen in sozialdemokratische Hände bringen
+würde. Dieser Gefahr gegenüber treten sogar die mutmaßlichen
+Störungen im Familienleben in zweite Linie zurück. Wer diese
+Zusammenhänge durchdenkt, wundert sich nicht mehr über die
+Massenversammlungen der Sozialdemokratie zugunsten des
+Frauenstimmrechts und über den in ihrer Presse immer heftiger
+erschallenden brutalen Ruf: Her mit dem Frauenstimmrecht! –
+Daß das kommunale Wahlrecht die unmittelbare Vorfrucht des
+politischen sein würde, ergibt sich mit Sicherheit aus der Ent-
+wicklung der Stimmrechtsbewegung in andern Ländern. Noch
+kürzlich hat der dänische Premierminister die Forderung des po-
+litischen Frauenstimmrechts damit begründet, daß es eine Sinn-
+losigkeit sei, Personen, die bereits im Besitz des kommunalen Wahl-
+rechts seien, das politische Wahlrecht vorzuenthalten. Wer diese
+Dinge übersieht, muß sich höchlichst erstaunen, daß freikonservative
+Abgeordnete in den Frauenstimmrechtsvereinen das politische
+Frauenstimmrecht bekämpfen und zugleich das kommunale in
+Aussicht stellen. Diese Ergüsse werden dann auch von den Damen
+mit Schmunzeln entgegengenommen, ihnen sind die Zusammen-
+hänge besser bekannt als jenen sich konservativ nennenden Herren.
+Daß das Suffragettentum in England trotz seiner verbrecherischen
+Ausschreitungen schließlich den Sieg erringen wird, ist darum sehr
+wahrscheinlich, weil ein großer Teil der englischen Frauen schon
+seit längerer Zeit das Gemeindewahlrecht besitzt, wodurch ganz im
+Sinne des dänischen Premierministers ein ständiger Druck in der
+Richtung auf die Ergänzung durch das politische Wahlrecht ausge-
+übt wird.
+Wie würde der Staat selbst – so fragen wir weiter – durch
+die Einführung des Frauenstimmrechts beeinflußt werden, wie
+stände es um seine Großmachts- und Weltstellung? – Es be-
+steht kein Zweifel darüber, daß der Feminismus durchaus
+wesensverwandt ist mit der Friedensbewegung, dem Antimilitaris-
+mus und dadurch mit der Sozialdemokratie. Die nationalen
+Kräfte würden in den Zeiten des Frauenstimmrechts noch viel
+stärker als heute von jenen unreifen kosmopolitischen, internatio-
+nalen Jdeen paralysiert werden; eine Großmachts- und Weltmachts-
+politik ist unter der Herrschaft des Frauenstimmrechts ebenso
+wenig möglich, wie unter der des Proletariats, am wenigsten
+bei uns in Deutschland, wo beide gemeinsam uns das Mark aus-
+saugen würden. – Aehnliche Gedankengänge sind es auch, welche
+den liberalen englischen Premierminister Asquith zu einem er-
+bitterten Gegner des Frauenstimmrechts machen. Es geht dabei,
+wie man nun allmählich erkennt, um nichts Geringeres als um
+Englands Weltmachtstellung.
+Jch füge ein Wort von Wolfgang Eisenhart in der liberalen
+Münchener Allgemeinen Zeitung hinzu:
+„Man sehe sich doch auch einmal das Problem der Frauen-
+frage vom Standpunkte des Staates an! Würde dieser durch das
+Eindringen der Frauen in die obrigkeitlichen Aemter oder gar
+durch deren Beteiligung an der Politik, dank dem auch ihnen ver-
+liehenen Wahlrechte, gewinnen an Kraft und Festigkeit, an Macht und
+Autorität? Würde seine Politik gegen das Ausland durch die Be-
+teiligung der Frauen am öffentlichen Leben kraftvoller, ent-
+schlossener, schneidiger werden? Man klagt so oft, daß unsere
+Politik der nachbismarckischen Zeit es gegen die Feinde im Aus-
+lande wie im Jnlande an bewußter Kraft, an Entschlossenheit und
+Schneidigkeit fehlen lasse, daß sie zu vieles hinnehme, wo sie
+mutig reagieren sollte. Würden diese Uebelstände beseitigt werden,
+wenn die Frauen sich an der Politik beteiligten? Würde nicht viel-
+mehr ihr Einfluß ein schwächliches Bestreben bedeuten, den Frieden
+um jeden Preis aufrecht zu erhalten? Die Politik am aller-
+meisten kann nur geführt werden mit männlichen Mitteln, mit
+männlichem Scharfsinn und männlicher Entschlußkraft, mit jenem
+den Frauen fernliegenden, weit ausholenden konstruktiven Sinne,
+der mit einer weiten Zukunft rechnet, endlich aber auch in den
+entscheidenden Stunden des Völkerlebens mit jenem kühnen
+männlichen Wagemute, wie ihn ein Friedrich der Große und Bis-
+marck besaß, vor dem aber eine Frau immer wieder zurückschrecken
+wird.“
+Man mag der logischen Gründe gegen das Frauenstimm-
+recht noch so viele beibringen, seine Anhänger werden nicht so bald
+überzeugt werden, weil sie in ihrem Raisonnement von ganz an-
+dern Gefühlsgrundlagen ausgehen. Darum gibt es auch im letzten
+Grunde, wie in allen Parteifragen, keine andere wirkliche Ent-
+scheidung als die durch die Erfahrung. – Wir fragen darum: Wie
+hat sich das Frauenstimmrecht da, wo es besteht, bewährt? – Man
+sollte denken, da müßte es ein Leichtes sein, zu einem festen und
+sicheren Resultate zu kommen. Aber auch an dieser Stelle sind die
+Frauen durch ihre Presseherrschaft im Vorteil; die für sie gün-
+stigen Urteile laufen durch Hunderte von Zeitungen, während die
+abträglichen schnell abgetan oder totgeschwiegen werden. Einige
+Beispiele mögen hier genügen. Jm vorigen Jahre veröffentlichte
+ich in den „Hamburger Nachrichten“ die Uebersetzung eines
+Briefes, den Lady Glasgow an den Herausgeber der Times ge-
+richtet hatte. Diese Dame, die Gattin desjenigen Gouverneurs
+von Neuseeland, der seinerzeit die Frauenstimmrechtsbill unter-
+schrieben und eingeführt hat, bezeugte in ihrem Briefe, daß viele
+bedeutende Frauen und Männer in Neuseeland, die beim Zu-
+standekommen jenes Gesetzes eifrig mitgewirkt hätten, heute mit
+Freuden bereit wären, dieselbe Arbeit noch einmal aufzuwenden,
+damit das Gesetz wieder aufgehoben würde. Lady Glasgow über-
+gab diesen Brief der Öffentlichkeit, um ihr Vaterland England
+vor dem Schicksale Neuseelands zu bewahren, und wir Deutschen
+hätten wohl allen Grund, aus solchen ernsten Warnungen unsere
+Lehren zu ziehen. Aber dieses doch gewiß nicht uninteressante
+Schreiben ist von der deutschen Presse sorgfältig totgeschwiegen;
+einige Zeitungen, denen ich es zusandte, haben es mir unbenutzt
+zurückgegeben.
+Etwas größere Beachtung haben späterhin die in der Lon-
+doner Zeitschrift „Nineteenth Century and After“ von Mrs.
+Edith Sellers veröffentlichten Beobachtungen aus Finnland ge-
+funden. Ueber die Erkundigungen, die sie bei Männern und
+Frauen Finnlands eingezogen hat, bemerkt sie folgendes:
+„Nach dem Urteil dieser Männer und Frauen aus Stadt
+und Land und aus den verschiedenen Kreisen des Volkes hat,
+seitdem das Frauenstimmrecht in Kraft getreten, ein recht großer
+Teil der in den Städten Finnlands wohnenden Frauen viel von
+dem eingebüßt, was man natürliches Gefühl für Vernunft und
+Billigkeit nennen könnte. Sie sind jetzt so hitzig auf ihre Rechte
+versessen, daß sie gar zu leicht vergessen, daß andere Leute auch
+Rechte und daß sie selbst auch Pflichten haben. Sie haben auch
+an innerem Gleichgewicht verloren; die Politik ist ihr ein und
+alles, und sie haben für keinen anderen Gedanken Raum, abge-
+sehen etwa von der Frauenbewegung. Glücklich scheinen sie sich
+nur noch in der Volksversammlung zu fühlen, wenn sie politischen
+Erörterungen lauschen oder, noch besser, sie selbst vortragen
+können. Keine politische Frage ist so verwickelt, daß sie nicht im
+Handumdrehen mit ihr fertig würden; sie finden im Augenblick
+Lösungen für Fragen, über die Staatsmänner jahrelang umsonst
+nachgedacht haben. Bei der geringsten Herausforderung unter-
+nehmen sie Vortragsreisen durch das Land.
+Sie haben viel mehr Lust dazu, draußen in der Welt als im
+Hause zu wirken; das häusliche Leben hat tatsächlich alle An-
+ziehungskraft für sie verloren. Lieber arbeiten sie den ganzen
+Tag auf einem Bureau, als daß sie ein paar Stunden darauf ver-
+wenden, ihr eigenes Haus in Ordnung zu bringen. Einige von
+ihnen gehen so weit, zu behaupten, daß es sich für sie als Voll-
+bürgerinnen besser zieme, Eisenbahnfahrkarten auszugeben als
+ihrer Kinder zu warten. Denn Kinder gelten in diesen Kreisen
+heutigentags nicht viel; vielmehr gewinnt die Ansicht schnell an
+Boden, sobald die Kinder geboren seien, liege es dem Staate und
+nicht den Müttern ob, sich um sie zu kümmern. Es gibt keine
+Arbeit außer dem Hause, die sie nicht, selbst für Hungerlohn oder
+ganz umsonst, zu übernehmen bereit sind. Sie gönnen sich tat-
+sächlich niemals Ruhe, sondern sind früh und spät unterwegs,
+natürlich zum Schaden ihrer Nerven und damit ihrer Gesund-
+heit und vieler anderen Dinge.“
+Es sei hinzugefügt, daß die Mehrzahl der im finnischen
+Landtage sitzenden weiblichen Abgeordneten Sozialistinnen sind,
+ein deutlicher Hinweis darauf, welche Partei auch bei uns den
+Vorteil des Frauenstimmrechts einheimsen würde. Wer sich für
+die im einzelnen in der Stimmrechtsfrage im Auslande gemachten
+Erfahrungen interessiert, der findet das Gesuchte in einem Aufsatze
+von Professor Sigismund in der Februar-Nummer des Monats-
+blattes, welches der Bund zur Bekämpfung der Frauenemanzi-
+pation herausgibt.
+Ein drittes Dokument gegen das Frauenstimmrecht möchte
+ich noch erwähnen, das einen besonders starken Eindruck zu
+machen geeignet ist. Eine Dame aus Colorado, Mrs. Francis
+Goddard, veröffentlichte in „Ladies Home Journal“ folgende Er-
+klärung:
+„Jch habe mein Stimmrecht seit 1893 ausgeübt; ich bin als
+Delegierte auf Stadt- und Staats-Konventionen geschickt worden
+und war Mitglied des republikanischen Staatskomitees meines Be-
+zirks. Jahrelang glaubte ich an das Frauenstimmrecht und habe
+Tag und Nacht dafür gearbeitet und würde mein Unrecht gut
+machen, wenn ich es noch könnte. Die Frauen haben in Colorado
+kein Gesetz veranlaßt, das irgendwie einen Vorteil für die Frauen
+und Kinder bietet. Was die wahlberechtigten Frauen selbst an-
+geht, so habe ich eine Unmenge von Frauen gekannt, die in einem
+Jahre für die republikanische und im nächsten Jahre für die de-
+mokratische Partei arbeiteten, indem sie erklärten, daß die demo-
+kratische besser bezahle. Das ganze Frauenstimmrecht ist ein
+Fehlschlag. Es hat im Staate Colorado nichts Gutes geschaffen,
+auch für die Frauen nicht. Das Beste wäre für beide, wenn das
+Gesetz morgen abgeschafft würde.“ Zahlreiche Lobeshymnen auf
+das Frauenstimmrecht, die von Politikern ausgehen, die nach Ein-
+führung desselben von den weiblichen Wählern abhängig sind,
+wiegt ein einziges solch reuevolles Bekenntnis einer früheren
+Stimmrechtlerin wie Mrs. Goddard auf. Der nachdenkliche
+Deutsche darf an solchen Zeugnissen nicht achtlos vorübergehen ;
+diese Gedankenlosigkeit könnte ihm teuer zu stehen kommen und
+ihm später ähnliche Seufzer auspressen wie jener amerikanischen
+Dame, die den Mut hatte, ihren Jrrtum einzugestehen und ihr
+eigenes Lebenswerk zu verwünschen.
+3. Der Kampf gegen das Frauenstimmrecht.
+Jch glaube nachgewiesen zu haben, daß das Frauenstimm-
+recht für jedes Land und besonders für Preußen und Deutsch-
+land ein nationales Unglück bedeutet, und komme nun zu der
+Frage: Wie ist das heranrückende Frauenstimmrecht zu bekämpfen,
+und wie ist die irregeleitete Frauenbewegung in richtige Bahnen
+zurückzuführen? –
+Was den ersten Teil dieser Frage betrifft, so stehen sich da
+zwei Meinungen gegenüber, eine optimistische und eine pessi-
+mistische. Die Optimisten – im allgemeinen diejenigen, die sich
+um die bisherige Entwicklung wenig gekümmert haben – sagen
+uns: Was wollt ihr denn eigentlich? Bei uns in Deutschland
+existiert diese Gefahr ja doch kaum, wir sind doch nicht in England.
+Die paar Wahlweiber werden doch nicht unsere gesamten Verhält-
+nisse auf den Kopf stellen können! Das deutsche Volk in seiner Ge-
+samtheit denkt garnicht an das Frauenstimmrecht. Die andern,
+die Pessimisten, die man auch die Wissenden nennen könnte, sagen
+im Gegensatz dazu: Es ist nichts mehr zu retten; diese große
+internationale Bewegung ist euch bereits über den Kopf gewachsen,
+der ganze feminine Zeitgeist, die Regierungen, die Volksver-
+tretungen, die Jnteressen der Väter und Brüder erwerbstätiger
+Mädchen, die Mädchenschulleute, die Vertreter der Universitäten,
+der demokratische Zug der Zeit, alles begünstigt diese Entwick-
+lung, der ihr ohnmächtig erliegen müßt. Beide extreme Mei-
+nungen enthalten etwas Richtiges. Die Pessimisten haben recht
+darin, daß die heutige Gefahr bereits ungeheuer groß ist; die Ent-
+wicklung in den nordischen Ländern und in England zeigt das
+mit erschreckender Deutlichkeit. Unsere Rechtlerinnen befinden sich
+denn auch trotz ihrer winzigen Zahl in einem förmlichen Sieges-
+taumel. Jm „Frauenstimmrecht“, dem Organ des Deutschen Ver-
+bandes für Frauenstimmrecht, heißt es im Februarheft 1913: „Die
+Stimmrechtsbewegung der Frauen hat unbestreitbar einen ge-
+waltigen Höhepunkt erreicht. Sie steht nahe vor dem Siege auf
+der ganzen Linie.“ Die Siegesgewißheit gründet sich aber weni-
+ger auf das Bewußtsein von der Güte der eigenen Sache und des
+Vollgefühls der Kraft als auf das Vertrauen in die Saum-
+seligkeit der Gegner und auf die politischen Parteien, welche seit
+der Zulassung der Frauen zu den politischen Vereinen den Versuch
+unternehmen, sie vor den Parteiwagen zu spannen, und denen all-
+mählich die Zügel aus den Händen gleiten. Um die Posse fertig
+zu machen, hat sich jetzt auch in Deutschland eine der inter-
+nationalen Männerliga für Frauenstimmrecht angeschlossene Ver-
+einigung deutscher Männer aufgetan, die sich die Verweiberung
+des deutschen Volkes als Ziel gesteckt hat. Der Pessimismus ist
+also nur allzu berechtigt. Aber die Wahrheit liegt schließlich doch
+auch hier in der Mitte. Auch die Optimisten haben recht, wenn
+sie darauf Hinweisen, daß das deutsche Volk und vor allem seine
+Frauen von Emanzipation und Frauenstimmrecht im Grunde
+nichts wissen wollen. Zwar wurden die Millionen von stillen
+Frauen im Lande bisher in den Versammlungen nicht gehört und
+meldeten sich in der Presse nicht zum Worte. Aber an diesem
+Punkte muß der Hebel angesetzt werden. Es gilt die großen
+Scharen der Optimisten und Lauen unter den Männern und
+Frauen aufzuklären über die gewaltige Größe der Gefahr und sie
+zu sammeln zu einem mächtigen Heere, das sich der kleinen aber
+stark gerüsteten und siegesfreudigen Armee der Rechtlerinnen
+entgegengestellt und sie zurückwirft über die Grenzen, welche der
+Frauenbewegung im Jnteresse der Volkswohlfahrt für ewige
+Zeiten angewiesen bleiben müssen. Diese Aufklärungs- und
+Sammlungsarbeit ist bei der fortgeschrittenen feministischen Ver-
+seuchung keine leichte Sache – darin bin ich Pessimist – aber da-
+neben denke ich optimistisch genug, dem deutschen Volke noch so viel
+Manneskraft zuzutrauen, daß es sich dieser großen Aufgabe schließ-
+lich gewachsen zeigen wird. Käthe Sturmfels darf nicht recht be-
+halten, wenn sie sagt: „Es ist wie ein Hohn, daß das männlichste
+Volk dieser Erde, das deutsche, die Schmach erlebt, von seinen
+Weibern dem Verfall entgegengeführt zu werden. Denn wenn
+auch alle europäischen Völker am Weibe kranken, so sicher und so
+bald wie das deutsche wird keins am Weibe verkommen.“ Diese
+furchtbare Prophezeiung darf und soll nicht in
+Erfüllung gehen! – Den Gebildeten und Führenden im
+Volksleben, vor allem den Regierungen und Volksvertretungen
+muß dieses anklagende Wort so lange in den Ohren klingen, bis
+sie den verhängnisvollen Optimismus der Nichtsahnenden und
+den Pessimismus der Wissenden abschütteln. Sie müssen die Ge-
+fahr gründlich studieren und ihr voll und bewußt ins Auge sehen
+lernen, um ihr mit Kraft und Erfolg begegnen zu können. Den
+Freunden der sog. gemäßigten Frauenbewegung, die heute be-
+sonders von den konfessionellen Frauenverbänden repräsentiert
+wird, muß die verhängnisvolle Umwälzung zum Bewußtsein
+kommen, die in der beginnenden Politisierung der Frau liegt,
+welche der Bund deutscher Frauenvereine neuerdings auf seine
+Fahne geschrieben hat. Jnsbesondere sind die Angehörigen der
+gemäßigten Parteien davon zu überzeugen, daß das Frauen-
+stimmrecht als ultrademokratische Forderung die so viel und mit
+Recht gefürchtete Demokratisierung unseres politischen Lebens mit
+einem Schlage zur Wirklichkeit machen würde, und daß es be-
+kanntlich ein „Zurück“ auf diesem Wege zum Abgrund nicht gibt.
+– Wie soll dieses Ziel erreicht werden? – Die radikale Frauen-
+bewegung kann nur mit ihren eigenen Waffen geschlagen werden.
+Wir müssen in ausdauernder, geduldiger Arbeit die Presse und die
+öffentliche Meinung zurückgewinnen. Wir dürfen dessen gewiß
+sein, daß wir die Sache der Vernunft und der nationalen Wohl-
+fahrt verfechten. Tun wir unsere Schuldigkeit, dann wird sich
+der alte treue deutsche Familien- und Volksgeist, dessen Jdeale
+wir verfechten, auf unsere Seite stellen und uns den Sieg er-
+ringen.
+Als Wähler haben wir den Parteiführern und Abgeordneten,
+die aus Parteiegoismus, ohne zu wissen, was sie tun, das frevle
+Spiel mit den Frauenrechtlerinnen begonnen haben, zu der Ein-
+sicht zu verhelfen, daß jede bürgerliche Partei, welche
+die sozialdemokratische Frauenstimmrechts-
+forderung vertritt, damit ihr eigenes Grab
+gräbt, weil sie sich dadurch mit der Mehrzahl der eigenen
+Wähler in Widerspruch setzt und damit Uneinigkeit und Er-
+bitterung in den eigenen Reihen schafft und den internationalen
+Feinden der nationalen Entwicklung neues Wasser auf ihre
+Mühlen trägt. Die Parteihäupter müssen erkennen, daß die
+Frauenstimmrechtsforderung die giftigste Blüte am Baume des
+Demokratismus ist, und daß alle bürgerlichen Parteien in ihrem
+eigensten Jnteresse wohl daran tun, die Frucht, an der sie zu
+Grunde gehen müßten, nicht zur Reife kommen zu lassen.
+Die Regierungen müssen die Gefahren erkennen, welche die
+zunehmende Politisierung der Frau für den Staat heraufbeschwört,
+und sich denselben bewußt und konsequent entgegenstemmen. –
+Es ist hier mit aller Energie darauf hinzuweisen, daß man nicht
+ein Freund der Emanzipation und ein Gegner der Politisierung
+der Frau sein kann. Die vollzogene Emanzipation hat als not-
+wendige Konsequenz die Politisierung. Darum dürfen wir nicht,
+wie in Norwegen, den Frauen sämtliche Studien, Examina und
+Staatsämter freigeben, sondern müssen sie nach wie vor auf die
+innerhalb der weiblichen Sphäre liegenden Berufsarten ver-
+weisen, zu denen ich auch die der Oberlehrerin und Aerztin rechne.
+Ausgeschlossen bleibe die Frau von allen Aemtern, die ihr staat-
+liche Hoheitsrechte, ein Recht der Herrschaft und Disziplinar-
+gewalt über den Mann verleihen würden. – Nachdem man in
+England weibliche Bürgermeister zugelassen hat, wird man dort
+dem politischen Frauenstimmrecht schwerlich entgehen.
+Die Frauenrechtlerinnen haben seit Jahr und Tag in Ver-
+sammlungen und Kongressen die hochtönendsten Reden gehalten
+über die gewaltige Mission der Frauenbewegung auf den Gebieten
+der Volkswohlfahrtspflege. Es soll nicht geleugnet werden, daß
+die alte gesunde Frauenbewegung sich durch selbstlose treue Hilfs-
+arbeit auf diesem Felde große Verdienste erworben hat. Aber auf
+einigen Gebieten tritt neuerdings der alte politische Pferdefuß um
+so stärker hervor. Jch erinnere beispielsweise an die Frage der
+weiblichen Schöffen, an den Eifer der radikalen Frauenbewegung,
+sich der weiblichen Jugendpflege und damit der Jugend zu be-
+mächtigen, und schließlich die Stellung zur Antialkoholbewegung.
+Diese letztere versucht man ganz besonders im frauenrechtlerischen
+Sinne auszunützen. Und leider Gottes sind viele Temperenzler,
+besonders die vom „Vortrupp“, schon der Meinung, daß wir ohne
+Frauenstimmrecht in Deutschland des Alkohols nicht Herr werden
+würden. Das wäre allerdings das traurigste Zeugnis, das die
+deutschen Männer sich selbst ausstellen könnten, wenn sie, um den
+einen Herrn loszuwerden, sich dafür einen schlimmeren ein-
+tauschen und sich unter die Fuchtel der Frauen begeben müßten,
+wenn die Alkoholherrschaft nur durch die Weiberherrschaft be-
+seitigt werden könnte. – Jene alkoholfeindlichen, frauenfreund-
+lichen Herren mögen sich überlegen, daß nur der Mann selbst diesen
+Kampf durchführen kann und in Deutschland schon führt. Sie
+mögen vor allem bedenken, daß das Frauenstimmrecht, wie die
+Stimmrechtsländer Australien, Neuseeland und die amerikanischen
+Staaten beweisen, überhaupt keinerlei Erfolge im Kampfe gegen
+den Alkohol aufzuweisen hat. Jn Neuseeland z. B. stieg seit der
+Zeit des Frauenstimmrechts von 1893-1910 die Zahl der Be-
+strafungen wegen Trunkenheit um 53 pCt., während sie in der-
+selben Zeit in Großbritannien um 19 pCt. abnahm. – Jnsbe-
+sondere ist bei uns in Deutschland dahin zu wirken, daß der Ver-
+ein gegen den Mißbrauch der geistigen Getränke, dem Tausende
+von Männern angehören, sich nicht zum Vorspann für die politi-
+schen Frauenbestrebungen mißbrauchen läßt, und daß er die Ver-
+bindung mit dem Bunde deutscher Frauenvereine, der das Frauen-
+stimmrecht erstrebt, aufhebt. Den Mitgliedern des Bundes gegen
+die Frauenemanzipation ist jedenfalls heute die Mitgliedschaft in
+jenem Verein unmöglich gemacht, und sie täten wohl daran, einen
+Männerverein dieser Art zu begründen.
+Man hat dem Bunde zur Bekämpfung der Frauenemanzi-
+pation in letzterer Zeit häufig den Vorwurf gemacht, es fehle ihm
+an positiven Zielen, er betone der Frauenbewegung gegenüber zu
+sehr die Negation, den Kampf. Dabei enthält unser Programm
+die Zusage, daß wir die Bestrebungen einer gesunden unpolitischen
+Frauenbewegung unterstützen wollen. Aber man versteht unter
+den positiven Leistungen noch etwas Besonderes, das in den
+Worten des Programms nicht ausdrücklich enthalten ist, nämlich
+die Verstärkung des guten, berechtigten Fraueneinflusses
+im Staatsleben, etwa durch kommissarische Heranziehung der Frauen-
+organisationen zu Gutachten bei solchen Gesetzesvorlagen, welche
+die Frauen besonders nahe angehen. Wir würden gerne bereit
+sein, einer solchen Verwendung der Frauenkraft im Staatsleben
+das Wort zu reden, wenn man uns die Sicherheit gäbe, daß diese
+Arbeit solchen Frauenorganisationen anvertraut würde, die in der
+Tat ganz frei von stimmrechtlerischen Elementen sind. Andern-
+falls würde bei einem solchen Entgegenkommen der Bock zum
+Gärtner gemacht; wir würden unsere eigenen Totengräber
+werden und der Frauenemanzipation zu einem raschen Siege
+verhelfen.
+Noch ein Wort über unsern Bund. Zwar sind wir noch eine
+verhältnismäßig kleine Schar, und die Gegnerinnen prophezeien
+uns mit anmaßlicher Sicherheit den baldigen Untergang, oder
+was sie noch lieber tun, sie begrüßen unser Erscheinen als ein
+freudiges Ereignis, nur geeignet, die Zahl ihrer Anhänger zu ver-
+stärken. Aber einen wie großen Ansporn zu verdoppelten An-
+strengungen unser Bund den Gegnerinnen auch gegeben haben
+mag, weite Kreise sind auch in unserem Sinne erweckt worden
+und fangen an, die Lage zu überdenken, die Gefahr zu erkennen
+und sich am Kampfe zu beteiligen. Jn diesem Sinne ist es auch
+ein Vorteil für den Bund, daß sich eine christlich-nationale Gruppe
+dem Bunde angegliedert hat. Während der Bund seine Ziele
+unter religiös-neutraler Flagge, auf ethisch-nationaler Grund-
+lage erstrebt, verfolgt die christlich-nationale Gruppe denselben
+Zweck unter stärkerer Betonung der christlichen Weltanschauung.
+Auf diese Weise ist es dem Bunde möglich, alle Kreise an sich her-
+anzuziehen und in gemeinsamer Arbeit, so Gott will, den Feind
+niederzuringen. – Wir hoffen in diesem schweren Kampfe vor
+allem auf die Umsicht und Voraussicht der Regierungen. Für eine
+Regierung, welche die radikale Frauenbewegung wirklich erkannt
+hat in ihrem Wesen und ihren Konsequenzen, welche sich davon
+überzeugt hat, daß diese ultrademokratische Entwicklung geeignet
+ist, unser Volksleben an der Wurzel zu treffen, Deutschlands
+Groß- und Weltmachtsstellung und damit seine Zukunft zu ver-
+nichten, für diese gibt es heute kaum eine wichtigere Aufgabe als
+hier energisch einzugreifen und der Bewegung ein kategorisches
+Halt zuzurufen. – Das Schicksal der englischen Regierung, die
+Jahrzehnte lang mit der Frauenbewegung ihre Kompromisse ge-
+schlossen hat und ihr jetzt auf Gnade und Ungnade verfallen zu
+sein scheint, kann unsern Regierungen und Parteien noch als
+rechtzeitig erschienenes Menetekel von Nutzen sein und ihnen
+zeigen, wie die Frauenbewegung nicht behandelt werden muß.
+Man sieht an dem englischen Beispiel, wie schwer es für vornehme
+und ritterlich denkende Staatsmänner ist, den Ränken und
+Schlichen unverantwortlicher Politikerinnen gewachsen zu bleiben.
+Es ist scharfe Aufmerksamkeit und fester Wille nötig, um nicht
+bei beständiger Liebenswürdigkeit und Nachgiebigkeit schließlich
+Positionen aufzugeben, die das Schlachtfeld beherrschen und dem
+Gegner den Sieg verbürgen. Jch möchte das vorhin zitierte Wort
+von Käthe Sturmfels umprägen und sagen: Wenn auch alle
+europäischen Völker am Weibe verkommen sollten, das deutsche
+Volk, das männlichste Volk der Erde, an dessen Wesen noch die Welt
+genesen soll, muß im heiligsten Jnteresse der Menschheit vor
+diesem Schicksal bewahrt werden. – Das walte Gott!
+Buchdruckerei Gutenberg (Fr. Zillessen), Berlin C. 19, Wallstr. 1718.
+</text>
+  </TextCorpus>
+</D-Spin>

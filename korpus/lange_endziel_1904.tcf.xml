@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<D-Spin xmlns="http://www.dspin.de/data" version="0.4">
+  <MetaData xmlns="http://www.dspin.de/data/metadata">
+    <source>
+      
+<cmd:CMD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:cmd="http://www.clarin.eu/cmd/1"
+         xmlns:cmdp="http://www.clarin.eu/cmd/1/profiles/clarin.eu:cr1:p_1381926654438"
+         xsi:schemaLocation="http://www.clarin.eu/cmd/1 http://www.deutschestextarchiv.de/rem/cmdi_teiHeader.xsd"
+         CMDVersion="1.2">
+  <cmd:Header>
+    <cmd:MdCreator>Deutsches Textarchiv</cmd:MdCreator>
+    <cmd:MdCreationDate>2020-03-29</cmd:MdCreationDate>
+    <cmd:MdSelfLink>http://www.deutschestextarchiv.de/api/cmdi/lange_endziel_1904</cmd:MdSelfLink>
+    <cmd:MdProfile>clarin.eu:cr1:p_1381926654438</cmd:MdProfile>
+    <cmd:MdCollectionDisplayName>Deutsches Textarchiv (1600–1900)</cmd:MdCollectionDisplayName>
+  </cmd:Header>
+  <cmd:Resources>
+    <cmd:ResourceProxyList>
+      <cmd:ResourceProxy id="dta-lange_endziel_1904.xml">
+        <cmd:ResourceType mimetype="application/xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_xml/lange_endziel_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_endziel_1904.xhtml">
+        <cmd:ResourceType mimetype="application/xhtml+xml">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_html/lange_endziel_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_endziel_1904.text">
+        <cmd:ResourceType mimetype="text/plain">Resource</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/book/download_txt/lange_endziel_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_endziel_1904.landing_page">
+        <cmd:ResourceType>LandingPage</cmd:ResourceType>
+        <cmd:ResourceRef>http://www.deutschestextarchiv.de/lange_endziel_1904</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+      <cmd:ResourceProxy id="dta-lange_endziel_1904.search">
+        <cmd:ResourceType mimetype="application/sru+xml">SearchService</cmd:ResourceType>
+        <cmd:ResourceRef>http://dspin.dwds.de:8088/ddc-sru/dta/</cmd:ResourceRef>
+      </cmd:ResourceProxy>
+    </cmd:ResourceProxyList>
+    <cmd:JournalFileProxyList></cmd:JournalFileProxyList>
+    <cmd:ResourceRelationList>
+    </cmd:ResourceRelationList>
+  </cmd:Resources>
+  <cmd:Components>
+      <cmdp:teiHeader>
+    <cmdp:fileDesc>
+      <cmdp:titleStmt>
+        <cmdp:title type="main">Das Endziel der Frauenbewegung</cmdp:title>
+        <cmdp:title type="sub">Rede gehalten auf dem Internationalen Frauenkongreß zu Berlin</cmdp:title>
+        <cmdp:author>
+          <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:author>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Geyken</cmdp:surname>
+<cmdp:forename>Alexander</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/115266127</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Haaf</cmdp:surname>
+<cmdp:forename>Susanne</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1018099549</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Jurish</cmdp:surname>
+<cmdp:forename>Bryan</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/1019062681</cmdp:idno></cmdp:idno></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Boenig</cmdp:surname>
+<cmdp:forename>Matthias</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Thomas</cmdp:surname>
+<cmdp:forename>Christian</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+        <cmdp:editor>
+          <cmdp:persName><cmdp:surname>Wiegand</cmdp:surname>
+<cmdp:forename>Frank</cmdp:forename></cmdp:persName>
+        </cmdp:editor>
+          <cmdp:respStmt>
+  <cmdp:orgName><cmdp:orgName>Texte der ersten Frauenbewegung, betreut von Anna Pfundt und Thomas Gloning, JLU Gießen</cmdp:orgName></cmdp:orgName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bereitstellung der Texttranskription.</cmdp:note>
+    <cmdp:note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</cmdp:note>
+    <cmdp:date type="importDTA">2015-11-05T13:58:55Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+<cmdp:respStmt>
+  <cmdp:persName><cmdp:surname>Pfundt</cmdp:surname>
+<cmdp:forename>Anna</cmdp:forename></cmdp:persName>
+  <cmdp:resp>
+    <cmdp:note type="remarkResponsibility">Bearbeitung der digitalen Edition.</cmdp:note>
+    <cmdp:date type="importDTA">2015-11-05T13:58:55Z</cmdp:date>
+  </cmdp:resp>
+</cmdp:respStmt>
+        <cmdp:respStmt>
+          <cmdp:orgName><cmdp:orgName>CLARIN-D</cmdp:orgName></cmdp:orgName>
+          <cmdp:resp>
+            <cmdp:note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</cmdp:note>
+            <cmdp:ref target="https://clarin.bbaw.de"/>
+          </cmdp:resp>
+        </cmdp:respStmt>
+      </cmdp:titleStmt>
+      <cmdp:editionStmt><cmdp:edition>Vollständige digitalisierte Ausgabe.</cmdp:edition></cmdp:editionStmt>
+      <cmdp:extent>
+        <cmdp:measure type="images">16</cmdp:measure>
+        <cmdp:measure type="tokens">4404</cmdp:measure>
+        <cmdp:measure type="types">1616</cmdp:measure>
+        <cmdp:measure type="characters">31265</cmdp:measure>
+      </cmdp:extent>
+      <cmdp:publicationStmt>
+        
+        <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+        <cmdp:date type="publication">2020-03-29T19:00:20Z</cmdp:date><cmdp:publisher>
+          <cmdp:email>dta@bbaw.de</cmdp:email>
+          <cmdp:orgName><cmdp:orgName role="project">Deutsches Textarchiv</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</cmdp:orgName>
+<cmdp:orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</cmdp:orgName></cmdp:orgName>
+          <cmdp:address>
+            <cmdp:addrLine>Jägerstr. 22/23, 10117 Berlin</cmdp:addrLine>
+            <cmdp:country>Germany</cmdp:country>
+          </cmdp:address>
+        </cmdp:publisher>
+        <cmdp:availability>
+            <cmdp:licence target="http://creativecommons.org/licenses/by-nc/3.0/de/"><cmdp:p>Distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported (German) License.</cmdp:p></cmdp:licence>
+        </cmdp:availability>
+        <cmdp:idno>
+          <cmdp:idno type="URLWeb">http://www.deutschestextarchiv.de/lange_endziel_1904</cmdp:idno>
+          <cmdp:idno type="URLXML">http://www.deutschestextarchiv.de/book/download_xml/lange_endziel_1904</cmdp:idno>
+          <cmdp:idno type="URLHTML">http://www.deutschestextarchiv.de/book/download_html/lange_endziel_1904</cmdp:idno>
+          <cmdp:idno type="URLText">http://www.deutschestextarchiv.de/book/download_text/lange_endziel_1904</cmdp:idno>
+          <cmdp:idno type="DTADirName">lange_endziel_1904</cmdp:idno>
+          <cmdp:idno type="DTAID">32196</cmdp:idno>
+          <cmdp:idno type="URN">urn:nbn:de:kobv:b4-32196-2</cmdp:idno>
+        </cmdp:idno>
+      </cmdp:publicationStmt>
+      <cmdp:sourceDesc>
+        <cmdp:bibl type="M">Lange, Helene: Das Endziel der Frauenbewegung. Berlin, 1904.</cmdp:bibl>
+        <cmdp:biblFull>
+          <cmdp:titleStmt>
+          <cmdp:title level="m" type="main">Das Endziel der Frauenbewegung</cmdp:title>
+          <cmdp:title level="m" type="sub">Rede gehalten auf dem Internationalen Frauenkongreß zu Berlin</cmdp:title>
+            <cmdp:author>
+              <cmdp:persName><cmdp:surname>Lange</cmdp:surname>
+<cmdp:forename>Helene</cmdp:forename>
+<cmdp:idno><cmdp:idno type="PND">http://d-nb.info/gnd/11856935X</cmdp:idno></cmdp:idno></cmdp:persName>
+            </cmdp:author>
+          </cmdp:titleStmt>
+          <cmdp:editionStmt>
+            <cmdp:edition n="1">1</cmdp:edition>
+          </cmdp:editionStmt>
+          <cmdp:publicationStmt>
+              
+              <cmdp:pubPlace>Berlin</cmdp:pubPlace>
+            <cmdp:date type="publication">1904</cmdp:date><cmdp:publisher><cmdp:name>W. Mosler Buchdruckerei</cmdp:name></cmdp:publisher>
+          </cmdp:publicationStmt>
+        </cmdp:biblFull>
+        <cmdp:msDesc>
+          <cmdp:msIdentifier>
+  <cmdp:repository>Stadt- und Universitätsbibliothek Frankfurt/Main</cmdp:repository>
+  <cmdp:idno>
+    <cmdp:idno type="shelfmark">K 41/458</cmdp:idno>
+  </cmdp:idno>
+</cmdp:msIdentifier>
+          <cmdp:physDesc>
+            <cmdp:typeDesc>
+              <cmdp:p>Fraktur</cmdp:p>
+            </cmdp:typeDesc>
+          </cmdp:physDesc>
+        </cmdp:msDesc>
+      </cmdp:sourceDesc>
+    </cmdp:fileDesc>
+    <cmdp:encodingDesc>
+      <cmdp:editorialDecl>
+        <cmdp:p>
+          <![CDATA[
+                            <p>Verfahren der Texterfassung: OCR mit Nachkorrektur.</p>
+                <p>
+                    Bogensignaturen: keine Angabe;
+                    Druckfehler: keine Angabe;
+                    fremdsprachliches Material: keine Angabe;
+                    Geminations-/Abkürzungsstriche: keine Angabe;
+                    Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): wie Vorlage;
+                    i/j in Fraktur: keine Angabe;
+                    I/J in Fraktur: wie Vorlage;
+                    Kolumnentitel: keine Angabe;
+                    Kustoden: keine Angabe;
+                    langes s (ſ): als s transkribiert;
+                    Normalisierungen: keine Angabe;
+                    rundes r (&#xa75b;): keine Angabe;
+                    Seitenumbrüche markiert: ja;
+                    Silbentrennung: wie Vorlage;
+                    u/v bzw. U/V: keine Angabe;
+                    Vokale mit übergest. e: keine Angabe;
+                    Vollständigkeit: vollständig erfasst;
+                    Zeichensetzung: wie Vorlage;
+                    Zeilenumbrüche markiert: ja;
+                </p>
+          ]]>
+        </cmdp:p>
+      </cmdp:editorialDecl>
+      
+    </cmdp:encodingDesc>
+    <cmdp:profileDesc><cmdp:abstract><cmdp:p>Historical German text source (16th—19th c.) digitized for the Deutsches Textarchiv (German Text Archive) collection according to the TEI-P5 guidelines.</cmdp:p></cmdp:abstract>
+      <cmdp:langUsage>
+        <cmdp:language ident="deu">German</cmdp:language>
+      </cmdp:langUsage>
+      <cmdp:textClass>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Gesellschaft</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">ready</cmdp:classCode>
+        <cmdp:classCode scheme="http://www.deutschestextarchiv.de/doku/klassifikation#DTACorpus">tdef</cmdp:classCode>
+      </cmdp:textClass><cmdp:textDesc><cmdp:channel mode="w">printed text</cmdp:channel></cmdp:textDesc>
+    </cmdp:profileDesc>
+  </cmdp:teiHeader>
+  </cmd:Components>
+</cmd:CMD>
+
+    </source>
+  </MetaData>
+  <TextCorpus xmlns="http://www.dspin.de/data/textcorpus" lang="de">
+    <text>
+Das Endziel
+der
+Frauenbewegung
+Rede
+gehalten
+auf dem Jnternationalen Frauenkongreß zu Berlin
+Von
+Helene Lange
+Separatabdruck aus der Monatsschrift »Die Frau«
+Heft 12. Elfter Jahrgang (1903/1904)
+Preis 40 Pfennige
+Berlin 1904
+W. Moeser Buchdruckerei
+Stallschreiberstraße 34. 35
+Man hat in den Kreisen der Frauenbewegung selbst in den
+letzten Jahren öfter die Ansicht ausgesprochen, daß in der allgemeinen
+theoretischen Erörterung der Frauenfrage nun genug geschehen sei,
+und daß es jetzt nur darauf ankommen müsse, ihre Spezialgebiete
+mit Sachkunde und Energie zu bearbeiten, im einzelnen zu verwirk-
+lichen, was man im großen erreichen will. Jn dieser Ansicht liegt
+zweifellos ein Stück Wahrheit. Aber sie hat auch ihr Bedenkliches.
+Je mehr die Arbeit der Frauenbewegung sich spezialisiert, je mehr
+ihre Trägerinnen sich auf Einzelgebiete verteilen, um so größer ist
+die Gefahr, daß sie die Fühlung unter einander verlieren, und daß
+das, was schließlich im einzelnen geleistet wird, doch dem Ganzen
+nicht mehr dient. Darum, meine ich, ist es immer wieder not-
+wendig, die breite Fülle unserer Einzelarbeit durch die Jdeen zu-
+sammenzufassen, die in der Frauenbewegung einen einheitlichen geschicht-
+lichen Werdeprozeß erkennen lassen. Und ein Augenblick, wie der
+heutige, da das imposante Bild dieser Leistungen in buntem Wechsel
+an uns vorübergezogen ist, legt es uns besonders nahe, ehe wir
+uns trennen, noch einmal still zu stehen und zu fragen: Wohin führt
+all dies Schaffen und Ringen, was ist das Endziel der Frauen-
+bewegung?
+Die besonderen wirtschaftlichen und sozialen Verhältnisse, unter
+denen sich die Frauenbewegung bei uns und in manchen anderen
+Ländern entwickelt hat, verleiten heute dazu, sie lediglich auf wirtschaft-
+liche Ursachen zurückzuführen und sie nur im Zusammenhang mit
+diesen Ursachen zu erfassen. Jm Hinblick auf das Endziel der Frauen-
+bewegung würde sich aus dieser rein materialistischen Betrachtung
+der Schluß ergeben – ein Schluß, der in der Tat vielfach gezogen
+wird –, daß mit der wirtschaftlichen Frauennot, gleichviel, wie sie
+beseitigt wird, auch Frauenbewegung und Frauenfrage aus der Welt
+geschafft wären, eine Auffassung, aus der heraus man sogar das
+drastische Mittel der Zwangsheiraten plausibel zu machen gesucht hat.
+Diese Auffassung schaltet die geistigen Ursachen der Bewegung
+einfach aus. Wie sehr aber diese Ursachen mitgesprochen haben,
+weiß jeder, der die Entwicklung der Frauenbewegung aus dem Ge-
+dankenkreis ihrer ersten Vertreter und Vertreterinnen bis in die
+Gegenwart hinein verfolgt hat. Läßt sich doch überdies geschichtlich
+leicht nachweisen, daß ohne diese Ursachen ans der bloßen wirtschaft-
+lichen Frauennot keine Frauenbewegung wird.
+Jn seiner Studie über die Frauenfrage im Mittelalter weist
+einer unserer bedeutendsten Nationalökonomen, Karl Bücher, nach,
+daß das deutsche Mittelalter unter einer wirtschaftlichen Frauennot
+litt, die viel weitgreifender und trostloser gewesen zu sein scheint,
+als die des 19. Jahrhunderts. Jn den Städten, von denen
+statistische Angaben erhalten sind, zählte man durchschnittlich
+1200 Frauen auf 1000 Männer. Die vielen Unversorgten, Über-
+flüssigen aber fanden schon damals nur zum kleinen Teil in der
+Hauswirtschaft ein Unterkommen. Die Gewerbe sträubten sich gegen
+die weibliche Arbeit. Das Kloster wurde doch nur von verhältnis-
+mäßig wenigen Frauen aufgesucht, und dasselbe gilt von den
+Beghinenhäusern, einer Art weiblicher Hausgenossenschaft, zu der sich
+die notleidenden und heimatlosen Frauen damals zusammenschlossen.
+So finden wir denn Tausende von Frauen als „Fahrende“ auf den
+Landstraßen oder als die unglücklichen Jnsassen der städtischen Frauen-
+häuser. Was sie da hineintrieb, dafür haben wir ein ergreifendes
+Zeugnis in der Geschichte jenes Predigers Rudolf, der im 13. Jahr-
+hundert sein Leben der Rettungsarbeit unter diesen Unglücklichen
+widmete. Es wird uns berichtet, daß sie ihm antworteten: „Herr,
+wir sind arm und schwach, wir können uns auf keine andere Weise
+ernähren; gebt uns Wasser und Brot, bann wollen wir euch gern
+folgen“.
+Also eine Frauennot mit all jenen furchtbaren Folgen für
+Familie und öffentliche Sittlichkeit – und doch keine Frauen-
+bewegung. Es genügt zur Erklärung dieser Tatsache nicht, auf die
+Atomisierung der Frauen unter den alten Formen des wirtschaftlichen
+und sozialen Lebens hinzuweisen, auf die Schwierigkeit, miteinander
+Fühlung zu gewinnen, das Einzelschicksal als ein Massenschicksal
+kennen zu lernen, die allgemeinen Ursachen dafür zu suchen und ihnen
+gemeinsam entgegenzuarbeiten. Wo es sich um die wirtschaftliche
+Notwehr handelt, haben wir ja solche Gemeinschaftsbildungen; aber
+niemals geht das, was diese bezwecken, wofür sie unter Umständen
+kämpfen, über die wirtschaftliche Notwehr hinaus, niemals erfassen
+die Frauen ihre Lage unter dem Gesichtspunkt einer prinzipiellen Kritik
+an der Verteilung von Existenzmöglichkeiten und Rechten unter die
+Geschlechter, einer Kritik, die notwendig über das wirtschaftliche Ge-
+biet hinaus auf andere Lebensverhältnisse hinübergegriffen hätte. Es
+fehlt das geistige Moment, das diese rein wirtschaftlichen Kämpfe
+erst zur Frauenbewegung im modernen Sinn gemacht hätte.
+Und auch das ändert an dieser Tatsache nichts, daß auch in
+früheren Jahrhunderten hier und da einmal eine starke weibliche
+Jndividualität den für ihr Geschlecht gültigen Normen ihr instinktives
+Selbstbewußtsein entgegensetzt. Jch erinnere nur an die hübsche
+Hochzeitsszene in dem alten Spielmannsroman von Knodlieb. Der
+Bräutigam reicht der Braut auf der Schwertspitze den Ring und
+spricht dazu: „Wie der Ring den Finger von allen Seiten umfaßt,
+so verpflichte ich dich zu fester und unwandelbarer Treue, die du mir
+bewahren mußt oder das Leben lassen.“ Die Braut aber antwortete:
+„Was dem einen recht ist, ist dem andern billig. Warum soll ich
+dir bessere Treue bewahren als du mir? Adam hatte nur eine
+Eva, so soll der Mann nur ein Weib haben. Du läßt dich mit
+Buhlerinnen ein und willst doch nicht, daß ich eine sei. Jch werde
+mich hüten, auf diese Bedingung einzugehen. Geh', leb' wohl und
+sei so liederlich, wie du willst, aber ohne mich.“ Da mußte er
+denn wohl nachgeben und sagte: „Wenn ich es jemals wieder tue,
+so will ich die Güter verlieren, die ich dir geben werde, und du
+sollst Macht haben, mich zu enthaupten.“ – „Unter dieser Be-
+dingung“, antwortete sie, „wollen wir uns offen und ehrlich ver-
+binden.“
+Jst es nicht, als hörten wir Svava in Björnsons „Handschuh“?
+Und doch ist hier eine weite Kluft. Denn aus der Frau der Spiel-
+mannsdichtung spricht nicht das Geschlecht, sondern die einzelne
+Jndividualität, die im Bewußtsein ihres besonderen Wertes ihre
+eigenen Bedingungen stellt. Es wäre ungeschichtlich gedacht, wenn
+man in ihrem kecken und klugen Vorbeugen gegen ihr wohlbekannte
+Gefahren eine bewußte Kritik an den Einrichtungen sehen wollte, die
+die Lage ihres Geschlechtes bestimmten. Zu einer solchen Kritik fehlen,
+wie schon gesagt, dem Mittelalter die geistigen Vorbedingungen.
+Worin bestehen diese geistigen Vorbedingungen, und wie kam
+es dazu, daß sie auf die Auffassung der Frauenfrage einwirkten?
+Das kann uns erst klar werden, wenn wir die Frauenbewegung
+im Zusammenhang der menschlichen Geistesgeschichte betrachten,
+wenn wir festzustellen suchen, wie die Frauenfrage sich hineinschob
+in die Reihe der großen Probleme, die das menschliche Denken im
+Lauf seiner notwendigen Entwicklung nacheinander aufgeworfen und
+zu bewältigen gesucht hat.
+Bei dem ersten Schritt von dem naiven, dumpfen Hinnehmen
+der gegebenen Verhältnisse und Lebensumstände zu einem kritischen
+Erfassen der Wirklichkeit wandte sich die Reflexion zunächst den
+weitesten, allgemeinsten Fragen zu: den letzten Ursachen der Er-
+scheinungswelt, dem Zusammenhang der kosmischen Vorgänge.
+Der zweite Schritt führte dann dazu, die historisch gewordenen
+Formen des Gemeinschaftslebens, die ihrer Natur nach so viel
+komplizierter, regelloser und willkürlicher zu sein schienen, durch das
+Denken ordnenden Prinzipien zu unterwerfen. Vor diesem Schritt,
+den Plato für die Antike getan hat, bleibt der Mensch des Mittelalters
+stehen. Er vermag noch nicht den Gegensatz von Jndividuum und
+Gesellschaft zu erfassen, er gelangt noch nicht zu einem Standpunkt,
+von dem aus die Frage nach der Vernunftgemäßheit der gesellschaft-
+lichen Einrichtungen gestellt werden kann, die Frage: leistet die Gesell-
+schaft in ihrer augenblicklichen Verfassung dem einzelnen, was er
+beanspruchen darf, und wie müßte sie beschaffen sein, damit dies
+geleistet wird? Erst die Renaissance hat diese Frage von neuem –
+für die germanischen Völker zum erstenmal – gestellt, und die französische
+Revolution ist der große Protest des zur Kritik erwachten bürgerlichen
+Bewußtseins gegen staatliche Einrichtungen, die ihren Wert vor dieser
+Kritik nicht zu erweisen vermochten.
+Und nun erst konnte ein dritter Schritt geschehen. Das denkende
+Bewußtsein, das erst das Verhältnis des Menschen zum Kosmos,
+dann zu dem engeren Kreis der ihn umgebenden staatlichen Ordnung
+betrachtet hatte, wandte sich nun den innersten Beziehungen zu, in
+denen der Mensch sich fand: dem Verhältnis der Geschlechter innerhalb
+der sozialen Ordnung.
+Es ist natürlich, daß dieses erst auf einer späten Entwicklungsstufe
+des menschlichen Denkens zum Problem werden konnte. Hier schien
+durch die Natur selbst alles so durchaus bestimmt. Das Jnstinkt-
+leben, das persönliche Empfinden hatte an diesen ursprünglichsten
+sozialen Beziehungen einen so entscheidenden Anteil, daß sie sich als
+Problem des Denkens zunächst gar nicht darboten. Und vor allem,
+das praktische Jnteresse, das der stärkste Antrieb zur Kritik der staat-
+lichen Ordnung gewesen war, das Gefühl der Unbefriedigung, sprach
+bei dem, der bis dahin allein den Träger des denkenden Bewußt-
+seins darstellte, beim Mann nicht mit. Er empfand sein Verhältnis
+zur Frau als so durchaus befriedigend, daß ihm nicht im ent-
+ferntesten der Gedanke aufsteigen konnte, auch hier sei ein Problem,
+auch hier etwas, was einer Kritik nach den neu gewonnenen sozial-
+ethischen Maßstäben nicht stand hielt. Und so stellt denn auch Rousseau,
+als er seinen Staatsbau nach Vernunftprinzipien aufführt, das Ver-
+hältnis der Geschlechter einfach unter die Formel: La femme est
+faite spécialement pour plaire á l'homme. Daß diese Formel mit
+den Grundlagen seiner Gesellschaftstheorie in klaffendem Widerspruch
+steht, übersieht er. Mit dem Jnstinkt des Besitzenden hält er seine
+Prinzipien von diesem Gebiet fern. Nur die Frauen selbst konnten
+sie auf ihre eigene Stellung in der Gesellschaft anwenden. Denn nur
+für sie bedeutete das herrschende System, wie für den tiers état
+im Staat, Druck und Einengung. Von ihrer Seite mußte die Kritik
+einsetzen. Mary Wolstonecraft tat diesen Schritt mit den Waffen
+des Jean Jacques selbst. Aus seinen Voraussetzungen zog sie die
+Schlüsse für ihr eigenes Geschlecht.
+Fassen wir nun zusammen, was diese Betrachtungen klar gemacht
+haben: Jm Mittelalter haben wir Frauenfrage und Frauennot, aber
+keine Frauenbewegung, weil der geistige Unterbau dafür noch nicht
+vorhanden ist, weil dem menschlichen Denken auf seinem Wege von
+außen nach innen die gesellschaftliche Stellung der Geschlechter zu-
+einander noch nicht zum Problem geworden war. Wir haben eine
+Frauenbewegung im 19. Jahrhundert, weil diese Vorbedingungen jetzt
+erfüllt sind, weil aus der vorangegangenen Kritik der Gesellschaft die
+Maßstäbe für die moderne Gestaltung der Frauenfrage gewonnen sind.
+Jn der Formulierung des 19. Jahrhunderts heißt nun die Frauen-
+frage nicht: wie sind diese oder jene Gruppen von Frauen, die
+unsere wirtschaftlichen Verhältnisse um ihre Existenzmöglichkeiten ge-
+bracht haben, zu versorgen? sondern: wie ist die Lage der Frau in
+ihren wirtschaftlichen und sozialen Beziehungen in Einklang zu bringen
+mit dem Selbstbewußtsein der vollgiltigen sittlichen Persönlichkeit, das
+den eigentlichen Jnhalt der Menschenwürde ausmacht?
+Die Frauen der Revolution, wie Olympe de Gouges und Mary
+Wolstonecraft, die in der Sprache der Zeit die „Menschenrechte“ für
+die Frau forderten, dachten sich die Erfüllung ihrer Forderung leicht.
+Brauchte doch der Mann nur die Rechte, die er selbst errang, auch
+der Frau zu gewähren. Was dieser begrifflich so leicht aufzustellenden
+Lösung tatsächlich im Wege stand, war jenen Jdealistinnen nicht klar.
+Es lag in dem, was Burke damals der aus die Menschenrechte
+gerichteten Geistesbewegung entgegenhielt: daß die gesellschaftliche
+Ordnung nicht allein auf die Vernunft gegründet werden müsse,
+sondern auf die menschliche Natur, von der die Vernunft nur
+ein sehr kleiner Teil sei. Und wenn irgend eine soziale Reform
+mit der Natur des Menschen zu rechnen hatte, so war es diese, die
+in die persönlichsten, mit dem Jnstinktleben am engsten verbundenen
+menschlichen Beziehungen eingreifen mußte. Und eben hier lagen die
+stärksten widerstrebenden Mächte. Gewiß war der Gedanke sehr plausibel,
+daß der Mann die Frau zur gleichberechtigten Bürgerin machen
+könne, wenn er nur wolle. Aber es gehörte mehr geschichtlicher
+Sinn dazu, als jene Zeit besaß, um zu begreifen, daß er es noch
+gar nicht wollen konnte.
+Jahrhunderte hindurch hatte die geistige Persönlichkeit der Frau –
+immer von einzelnen feinen und hochstehenden Naturen abgesehen –
+für den Mann keine entscheidende Rolle gespielt. Sein persönliches
+Verhältnis zu ihr erhielt seine Färbung durchaus durch die Vor-
+herrschaft des Jnstinktlebens. Dem geistlich gerichteten Asketen erschien
+das Weib als das sündige Gefäß; dem, der sich unbefangen zu
+seiner Menschlichkeit bekannte, immer doch vor allem als Geschlechts-
+wesen, dessen Bestimmung in ihm ihren Mittelpunkt hatte. Auf der
+einen Seite fragte man, ob sie eine Seele haben könne, auf der
+andern Seite brachte der Sprichwörterschatz der Völker in unendlichen
+Wendungen lange Haare und kurzen Verstand zusammen. Wie sollte
+man dazu kommen, der Frau plötzlich eine soziale Stellung zu geben,
+als sei ihre geistige Persönlichkeit dem Manne in jeder Hinsicht eben-
+bürtig? So mächtig sich der voraussetzungslose Nationalismus gezeigt
+hatte, als er die Jahrhunderte alten feudalen Herrschafts- und Dienst-
+verhältnisse in Trümmer schlug – hier konnte ihm kein rascher Sieg
+zufallen. Er konnte nicht mehr als einen Umbildungsprozeß einleiten,
+der dieses letzte Stück Jnstinktleben allmählich vergeistigte.
+Und so beginnt der Kampf, vielleicht der tiefgreifendste, den die
+Menschheit gekannt hat. Es gibt kaum ein Lebensgebiet, das er in
+seinem Verlauf nicht berührt hätte.
+Zunächst waren es die wirtschaftlichen Umwälzungen, die diesem
+Kampf einen breiten Schauplatz gaben. Sie schufen wieder eine
+Frauennot, die wirtschaftliche Frauenfrage des 19. Jahrhunderts.
+Und damit wurde der Kampf der Geister in den Lüften übertäubt
+durch den rasch entbrennenden Konkurrenzkampf auf heiß umstrittener
+Erde, in dem alle jene ideellen Ansprüche sich zu sehr realen Forde-
+rungen verdichten mußten.
+Es war selbstverständlich, daß sich hier, wo es um das nackte
+Dasein ging, die Gegensätze ungeheuer verschärften. Massen von
+Frauen waren plötzlich, auch ohne ihren Willen, in das öffentliche
+Leben hinausgedrängt, sie hatten den wirtschaftlichen Mächten ihr
+tägliches Brot abzuringen wie der Mann. Das Leben legte ihnen
+seine Lasten und Pflichten auf, ohne Rücksicht auf ihr Geschlecht;
+wollten sie nicht unterliegen, so mußten sie die gleichen Mittel haben,
+diese Lasten zu bewältigen: Bildungs- und Berufsfreiheit, und schließlich
+die öffentlichen Rechte, die im modernen Staatsleben mehr und mehr
+auch das Mittel wirtschaftlicher Selbstbehauptung wurden. So prägte
+das moderne wirtschaftliche Leben die allgemeinen Prinzipien, die seit
+Olympe de Gouges und Mary Wolstonecraft aufgestellt waren, in
+einzelne praktische Forderungen um, und teilte ihnen etwas von der
+mechanischen Wucht realer wirtschaftlicher Notwendigkeiten mit.
+Es war gewiß nicht zu verwundern, daß der Mann gewöhnlichen
+Schlages, der diesen Ansprüchen der Frauen aus seinem eigenen,
+durch die Vorgänge im Wirtschaftsleben selbst arg bedrängten und
+erschütterten Berufsgebiet begegnete, nur an die Wahrung seines
+Besitzstandes dachte und sich zu allen Mitteln wirtschaftlicher Notwehr
+berechtigt glaubte. Aber es mußte aufs tiefste erbittern, wenn die
+Frauen auch da nur auf Geringschätzung und ironische Abwehr
+stießen, wo ein objektives, über persönlichen Jnteressen stehendes
+Verständnis für ihre Lage zu erwarten gewesen wäre. Auch die
+Wissenschaft sprach von der „Weiberemanzipation“, die aus dem
+„Schlamm der Überbildung“ ausgestiegen sei, und schlug mit dem
+Hinweis auf den bekannten Fehlbestand von 8 Lot Hirngewicht vor
+den Frauen die Tür zu.
+Diese zuerst unüberwindliche Opposition im Zusammenhang mit
+den so schwierigen und vieldeutigen wirtschaftlichen Verhältnissen ließ
+auch das eigentliche Wesen der Frauenbewegung nicht immer rein
+hervortreten. Übersehen wir sie in ihren ersten Anfängen, so erscheint
+sie uns selbst noch vielfach ihres Weges nicht sicher. Jhr Programm
+entwickelt sich im Kampf, und es leidet an den Einseitigkeiten eines
+Kampfprogramms. Man erfaßte wirtschaftlich mechanische Vorgänge,
+wie sie z. B. die Regelung der Frauenlöhne bestimmten, als per-
+sönliche Ungerechtigkeiten, man täuschte sich dilettantisch über das
+Gewicht männlicher Kulturleistungen; man übersah, von einzelnen
+starken Jndividualitäten auf die Allgemeinheit schließend, wie weit
+der Frau in ihrer Bestimmtheit durch die Mutterschaft für die
+Erfüllung voller männlicher Berufssphären Schranken gesetzt waren,
+und hielt an dem Dogma der vollen Berufsfreiheit auch gegenüber
+den dringendsten Forderungen des Arbeiterinnenschutzes fest. Man
+setzte überhaupt die Männerleistung als absoluten Maßstab und über-
+sah, daß das stärkste Argument für die Ansprüche der Frauen die
+Eigenart ihrer Leistungen ist.
+Nicht minder scharfe Formen nahm der Kampf an, als er
+aus dem engeren Kreis der einzelnen Berufsgebiete auf den weiteren
+des Staatslebens hinaustrat. Die Frauen sahen und sehen alle Tage,
+wie einzig der seine Ansprüche durchsetzt, der die Hand auf die
+Klinke der Gesetzgebung zu legen vermag, und so wird auch von
+der wirtschaftlichen Seite her eine Forderung bekräftigt, die in
+Ländern mit ausgeprägt demokratischem Bewußtsein schon im Anfang
+der Bewegung praktisch verfolgt wurde.
+Der wirtschaftliche und der sozialpolitische Jnhalt ihres Pro-
+gramms machte die Frauenbewegung zur Massenbewegung, nötigte
+sie, sich Schlagworte zu prägen, Organisationen zu schaffen, und
+sammelte eine Gefolgschaft von Tausenden um ihre Fahnen. Es liegt
+etwas Jmposantes in der unbeirrten Überzeugtheit, die sich in ein-
+drucksvollen Massenkundgebungen gegen Jahrtausende alte rechtliche
+und sittliche Begriffe wendet und mit der Zuversicht jenes alten
+„Gott will es!“ der Kreuzfahrer das Land der Zukunft sucht. Daß
+dabei zugleich eine gewisse Senkung des Niveaus eintreten muß, daß
+das Gold in kleine gangbare Münzen umgeprägt wurde und nicht
+eben die feinsten Naturen zuweilen im Vordergrund standen, das ist
+eine Erscheinung, welche die Frauenbewegung mit jeder anderen
+Massenbewegung teilt.
+An diesem Punkt aber hat sich eine Reaktion entwickelt, die in
+dem letzten Jahrzehnt das vielgestaltige Gewirr des Kampfes mit
+neuen Tendenzen durchkreuzt hat. Es ist jener ästhetische Jndividua-
+lismus, wie ihn Ellen Key in die Frauenbewegung eingeführt hat. So
+lange diese Jndividualistinnen dem großen sozialen Kampf gewisser-
+maßen vom Bagagewagen aus zusehen und über die Häßlichkeiten
+darin etwas preziös die Nase rümpfen, haben sie für die Frauen-
+bewegung wenig zu bedeuten. Sie sollten ihr unbefriedigtes ästhetisches
+Empfinden, das sich von der „Frauensache“ verletzt abwendet, mit
+dem Wort Hölderlins zum Schweigen bringen: Wie kann
+man die Schönheit seiner Haltung wahren, wenn man im Ge-
+dränge steht?
+Aber diese Richtung, die auch der Frauenbewegung mit den
+Forderungen der „Lebenskunst“, des schönen Egoismus, gegenübertritt,
+droht doch, den Mittelpunkt ihres ganzen Programms zu verschieben,
+indem sie das individualistische Prinzip da an die Stelle des sozialen
+setzt, wo es am verhängnisvollsten werden muß, auf dem Gebiet der
+sexuellen Sittlichkeit. Denn geht die Frauenbewegung ihrem Ursprung
+und ihrem ganzen Wesen nach darauf hinaus, das Verhältnis der
+Geschlechter durch die Betonung der geistigen Persönlichkeit der
+Frau neuen sittlichen Anschauungen zu unterwerfen, so muß sie auf
+dieses Gebiet schließlich ihren schärfsten Nachdruck legen, wie sie hier
+dem schärfsten Widerstand begegnen muß. Es ist eine Lebensfrage
+für sie, ob hier an Stelle der Rücksicht auf die Gesamtheit ein
+individuelles Sichausleben eingesetzt wird, ob man hier über dem
+zum modernen Schlagwort gewordenen „Schrei nach dem Kinde“
+das Kind selbst und seine Entwicklungsmöglichkeiten vergißt. Und
+eben darum muß die Frauenbewegung auch innerhalb ihrer eigenen
+Reihen den Kampf aufnehmen gegen alle, die das Vorrecht des
+Jnstinkts, das sie beim Manne bekämpft, bei der Frau wieder pro-
+klamieren wollen.
+So wogt der Kampf hin und her, auf den verschiedensten Ge-
+bieten, so drängt die Bewegung vorwärts, nicht immer den inneren
+Gesetzen ihres Fortschrittes folgend, nicht immer die Sterne im Auge,
+die ihr die Richtung geben müssen, auch darin keine Ausnahme von
+den allgemeinen menschlichen Gesetzen. Auch von diesem Kampf gilt
+das Wort des Dichters:
+Wer in der Sonne kämpft, ein Sohn der Erde,
+Und feurig geißelt das Gespann der Pferde,
+Wer brünstig ringt nach eines Zieles Ferne,
+Von Staub umwölkt – wie glaubte der die Sterne?
+Doch, so heißt es weiter:
+Doch das Gespann erlahmt, die Pfade dunkeln,
+Die ew'gen Lichter fangen an zu funkeln.
+Die heiligen Gesetze werden sichtbar,
+Das Kampfgeschrei verstummt – der Tag ist richtbar.
+Die Zeit ist nicht fern, da auch unser Tag richtbar sein wird.
+Schon sehen auch wir durch das Staubgewölk die ewigen Lichter
+funkeln. Und schon ist es uns möglich, die Formel zu finden, in
+der das in der Frauenfrage gestellte Problem sich lösen wird.
+Man hat wohl gemeint, diese Lösung sei mit dem Tage gegeben,
+der die volle Rechtsgleichheit der Geschlechter bringt. Jch kann in
+dieser Rechtsgleichheit nichts weiter erblicken als eine – und nicht
+einmal die einzige –notwendige Voraussetzung für das Ziel,
+keineswegs das Ziel selbst. Sie ist die Schale, nicht der Kern;
+sie schafft der Frau nur einen Raum, und es kommt darauf an, wie
+sie ihn ausfüllt. Und dieses „Wie“ kann nur aus der Verpflichtung
+abgeleitet werden, die allein dem Menschenleben Sinn und Würde
+gibt: die sittlichen Gesetze der eigenen Persönlichkeit in
+Lebensformen zum Ausdruck zu bringen.
+Auf die Frauen angewandt bedeutet das nichts anderes, als
+die volle Wirkung ihres Frauentums, ihrer Eigenart, auf alle Lebens-
+äußerungen der Gesamtheit. Nicht darauf kommt es an, daß ihnen
+hier und da ein Teilgebiet der Manneswelt freigegeben wird, nicht
+darauf, ob sie diesen oder jenen Beruf ausüben oder nicht, sondern
+auf etwas viel Größeres und zugleich Jnnerlicheres: darauf, daß die
+Frau aus der Welt des Mannes eine Welt schafft, die das Gepräge
+beider Geschlechter trägt. Die Frau will nicht nur äußerlich die
+gleichen Möglichkeiten haben, zu wirken, am Leben teilzunehmen,
+sondern sie will in dies Leben ihre eigenen Werte tragen, sie
+will dadurch eine neue soziale und sittliche Gesamtanschauung
+schaffen, in der ihre Maßstäbe dieselbe Geltung haben wie die des
+Mannes.
+Jn der Empfindung dafür, daß dies, die Verwertung der eigen-
+artigen Frauenkraft für die Kultur, die letzte Aufgabe der Frauen-
+bewegung sei, liegt das Berechtigte und Fruchtbare jener vorhin
+gekennzeichneten individualistischen Richtung. Nur muß sie sich hüten,
+ihre Forderungen utopistisch auf Gebiete anzuwenden, die unter der
+Herrschaft volkswirtschaftlicher Notwendigkeit stehen. Sie kann weder
+mechanisch bestimmte Gebiete der Erwerbstätigkeit für die Frau
+vorbehalten oder sperren, noch darf sie vergessen, daß unsere heutigen
+Verhältnisse nur sehr wenigen Menschen das Glück gewähren, in
+ihrem Beruf ihre Persönlichkeit zum Ausdruck zu bringen, so sehr
+das natürlich eine Forderung feinster menschlicher Kultur wäre.
+Angesichts unserer modernen Arbeitszerlegung ist es eine unberechtigte
+Einseitigkeit, über „mißbrauchte Frauenkraft“ überall da zu klagen,
+wo die Frau im Beruf nicht ihre besondere Kraft verwerten
+kann. Mit dem gleichen Recht kann man von „mißbrauchter
+Männerkraft“ reden. Aus einer großen amerikanischen Schweine-
+schlächterei wird berichtet, daß ein Mann dort seit 38 Jahren
+nichts tut, als täglich mit demselben Handgriff zahllose Male die
+an ihm auf einem Triebrad vorbeigeführten Tiere töten. Das
+ist ein besonders krasses, aber für das Wesen der industriellen Arbeit
+doch typisches Beispiel. Wenn so das Leben von Millionen von
+Arbeitern sich um einen und denselben Handgriff dreht, so kann
+die Frau nicht erwarten, davon eine Ausnahme zu machen. Ob
+und wie diese Zustände zu ändern sind, ob der größte Teil der
+Menschheit dauernd darauf verzichten muß, in der Berufsarbeit
+zugleich die volle innere Befriedigung zu finden, kann niemand
+voraussagen. Einstweilen aber darf man nicht für die arbeitende
+Frau Jdeale aufstellen, die auch für den Mann unter den heutigen
+wirtschaftlichen Verhältnissen gar nicht verwirklicht werden können.
+Deshalb bleibt es natürlich doch mit die wichtigste sozialpolitische
+Aufgabe, durch einen den Verhältnissen vorsichtig angepaßten
+Arbeiterinnenschutz die Frau aus der ungeheuren Tretmühle der
+Jndustrie für ihren Mutterberuf zurückzugewinnen. Sonst würde
+hier allmählich ein Stück weiblichen Einflusses verloren gehen, das
+an keiner andern Stelle zu ersetzen, auf keine andere Weise wieder
+einzubringen wäre.
+Da aber, wo die Arbeit noch Persönlichkeitsausdruck sein kann,
+wo wirklich geistige und seelische Werte in ihr Leben gewinnen können,
+wo es sich um den Aufbau der Kultur im eigentlichen Sinne handelt,
+soll das weibliche Prinzip überall neben das männliche treten.
+Wäre die Welt des Mannes die beste der Welten, erfüllte sie tat-
+sächlich, wenigstens in ihren großen Richtlinien, ein sittliches Jdeal,
+so könnte man diesen Anspruch der Frauen bestreiten. Aber wenn
+die gewaltige wissenschaftliche und technische Kultur unserer Zeit als
+spezifische Leistung des Mannes anerkannt werden muß, so tragen
+doch auch die großen sozialen Mißstände, die mit dieser Kultur empor-
+gewachsen sind, ebenso sein Gepräge. Und vieles von dem, was diesen
+sozialen Mißständen zugrunde liegt, hat seinen natürlichen Gegner
+in der Frau. Nicht ihr entspricht es, daß immer noch das Faustrecht
+zwischen den Völkern herrscht, wenn auch unter rechtlichen Formen;
+nicht sie ist verantwortlich, wenn Verwahrlosung und Alkohol die
+Gefängnisse füllen und der Staat das sittliche Bewußtsein der
+männlichen Jugend vergiftet durch das von ihm geduldete und unter-
+stützte Laster. Mit dem Männerstaat sind diese Zustände zu furcht-
+baren Schäden erwachsen, die jetzt als dunkle Probleme der Kultur-
+menschheit schier unlösbare Aufgaben stellen.
+Nicht als ob von dem Tage an, wo dem öffentlichen Einfluß
+der Frauen kein äußeres Hindernis mehr entgegensteht, diese Auf-
+gaben sofort gelöst sein würden. Die Frau hat unter Druck und
+Verwahrlosung so manche Eigenschaft in sich groß werden lassen, die
+erst unter der Verantwortlichkeit des öffentlichen Lebens allmählich ver-
+schwinden muß. Auch sind die Kräfte, die hier ins Spiel kommen,
+zu fein, zu innerlich, um äußere Einrichtungen schnell umzubilden,
+die ihnen mit der ganzen Wucht Jahrtausende alter Überlieferungen
+gegenüberstehen. Und dennoch ist in diesen Kräften ein Korrektiv von
+höchster Bedeutung gegeben. Und so sicher, wie im organischen Leben
+neue Kräfte neue Lebensformen schaffen, wird der Einfluß der zum
+Selbstbewußtsein, zum Glauben an sich erwachten Frau andere, ihr
+gemäßere soziale Verhältnisse zu schaffen vermögen. Vielleicht sehr
+langsam – nicht durch wenige äußere Siege der organisierten Frauen-
+bewegung, sondern durch die von innen heraus still und allmählich
+wachsende Macht eines neuen Willens. Je stärker er wird, um so
+weniger wird er des äußeren Kampfes bedürfen, um sich durchzusetzen.
+Den Menschen selbst unbewußt, in jenem heimlichen Spiel geistiger
+Kräfte, das hinter jedem Werturteil, hinter jeder Willensäußerung
+und jedem Glaubenssatz der Menschheit steht, wird dieser neue Frauen-
+wille wirksam werden. Wie weit es ihm gelingen wird, sich in den
+sozialen Lebensformen der Zukunft zur Geltung zu bringen, und wie
+diese Lebensformen beschaffen sein werden, das können wir jetzt nicht
+voraussagen. Aus einer ernsthaften Betrachtung solcher Probleme
+müssen alle billigen Zukunfts-Utopien ausscheiden, um so mehr, als
+unter dem langsamen Einfluß dieser Kräfte selbst sich allmählich die
+Maßstäbe ändern werden, die die jetzige Generation allzu eilfertig
+mit der Gehirnwage in der Hand bestimmt hat. Aber der Richtung,
+in der sich der Einfluß der Frau auf das Kulturleben äußern wird,
+ist sich die Frauengenration der Gegenwart schon bewußt. Er wird
+in die große Gesellschaftsordnung noch einmal alle die Kräfte ein-
+führen, die den geistig-sittlichen Untergrund der Familie gebildet
+haben: die seine menschliche Rücksicht auf den andern, gleichviel ob
+er stark oder schwach, ob er geistig reich oder arm ist, die liebevolle
+Achtung vor dem Einzelleben überhaupt, die geistigere Auffassung
+des sexuellen Lebens und das immer gegenwärtige Bewußtsein, daß
+wir hier im Dienst der Zukunft stehen und der kommenden Generation
+verantwortlich sind.
+Diese Kräfte werden denen des Mannes zur Seite treten, nicht
+an ihre Stelle. Nur ein ganz unpsychologisches und ungezügeltes
+Denken konnte darauf verfallen, die Maßstäbe des Mannes durch
+die der Frau verdrängen und in der Frau ein neues „führendes
+Geschlecht“ an den Platz des alten setzen zu wollen. Nicht um eine
+neue Majorisierung der einen durch die andern handelt es sich, sondern
+um die Verschmelzung der mit den beiden Geschlechtern gegebenen
+geistigen Welten. Vielleicht wird diese Verschmelzung den geistigen
+Faktor in der Menschheitsentwicklung so stark machen helfen, daß er
+den wirtschaftlich-mechanischen Triebkräften die Wage zu halten
+vermag. Vielleicht könnte so die gewaltige Einbuße an allgemeiner
+persönlicher Kultur, mit der unsere mächtige äußere Entwicklung
+erkauft worden ist, wenigstens zum Teil wieder eingebracht und der
+den materiellen Fortschritt beherrschenden Maschine der Mensch
+wieder entrissen werden.
+Diese Vereinigung der beiden geistigen Welten zu einer sozialen
+Gesamtanschauung, in der keine etwas von ihrer Kraft einbüßt, das ist
+das Endziel der Frauenbewegung. Wenn es erreicht ist, so
+wird es kein führendes Geschlecht mehr geben, sondern nur noch
+führende Persönlichkeiten.
+</text>
+  </TextCorpus>
+</D-Spin>
