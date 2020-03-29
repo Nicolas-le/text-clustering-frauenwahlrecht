@@ -48,7 +48,8 @@ def createVector(documents):
 
 def euclideanDistance(documents):
     """
-    Calculates the euclidean distance between the document vectors
+    Calculates the euclidean distance between the document vectors.
+    creates list of edges aka. distances : (document,document,distance)
     :param documents:
     :return:
     """
@@ -68,25 +69,40 @@ def euclideanDistance(documents):
             dist = numpy.linalg.norm(a-b)
 
             distances.append((document,doc,dist*10))
+            """    
+            check if distance makes sense        
+            print("Doc1: " +documents[document].title + " - " + documents[document].author)
+            for i in documents[document].features:
+                if i == "coOccurencesFrauen":
+                    continue
+                print(i)
+                print(documents[document].features[i])
+            print()
+            print("Doc2: " +documents[doc].title + " - " + documents[doc].author)
+            for i in documents[doc].features:
+                if i == "coOccurencesFrauen":
+                    continue
+                print(i)
+                print(documents[doc].features[i])
+            print()
+            print("Distance: " + str(dist*10))
 
-    #quick view onto the distances
-    for i in distances:
-        print(i)
+            print("-"*50)"""
 
     createGraph(distances)
 
 
 def createGraph(distances):
     """
-    Creating networkx graph out of the distances as weights of the edgeas
+    Creating networkx graph out of the distances as weights of the edges
     :param distances:  a list of tuples (text,text,distance)
     :return:
     """
     GTMP = nx.Graph()
-    e = distances
-    GTMP.add_weighted_edges_from(e)
+    GTMP.add_weighted_edges_from(distances)
 
-    printGraph(GTMP)
+    #printGraph(GTMP)
+    nx.write_gml(GTMP,"graph.gml")
 
 def printGraph(G):
     """
