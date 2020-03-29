@@ -7,6 +7,7 @@
 import glob
 import os
 from bs4 import BeautifulSoup as bs
+import numpy
 
 class text:
     title = ""
@@ -14,6 +15,8 @@ class text:
     year = 0
     text = ""
     publisher = ""
+    vector = ()
+    features = {}
 
 
     def __init__(self,file):
@@ -23,8 +26,8 @@ class text:
         self.year = info[2]
         self.publisher = info[3]
         self.text = info[4]
-
-
+        self.vector = ()
+        self.features = {}
 
 def infoExtraction(file):
     """
