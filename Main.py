@@ -8,61 +8,94 @@ from featureExtraction import tdIdf
 from featureExtraction import coOccurrence
 from featureExtraction import stylometry
 from featureExtraction import sentimentAnalysis
+from featureExtraction import vectorAnalysis
 
 
 
 def printAllInfo(documents):
+    """
+    Function to print all collected information with the use of extraction functions.
+    Used as a blueprint for later db or csv writers.
+    :param documents: documents = {filename: object with extracted info}
+    :return:
+    """
     td_idf = tdIdf.getTFIDF(documents)
 
-    for file in documents:
+    for document in documents:
         #print basic info
         printHelper("Basic Info")
         print("Title: ")
-        print(documents[file].title)
+        print(documents[document].title)
         print("Author: ")
-        print(documents[file].author)
+        print(documents[document].author)
         print("Year of the publication: ")
-        print(documents[file].year)
+        print(documents[document].year)
         print("Publisher: ")
-        print(documents[file].publisher)
+        print(documents[document].publisher)
 
         #get cooccurences of a specific word
         printHelper("Cooccurrences of word")
-        word = "Frauen"
-        range = 5
-        print("word: "+ word +" range: "+ str(range))
-        coOccurences = coOccurrence.coOccurrences(documents[file], word, range)
-        print(coOccurences)
+
+        print(documents[document].features["coOccurencesFrauen"])
 
         #sentiment analysis
         printHelper("SentimentAnalysis:")
         print("Sentiment around cooccurrences: ")
-        print(sentimentAnalysis.sentAnalysis(coOccurences,True))
+        print(documents[document].features["sentCooc"])
         print("Sentiment of whole text: ")
-        print(sentimentAnalysis.sentAnalysis(documents[file].text,False))
+        print(documents[document].features["sentText"])
 
         #tdIdf
-        printHelper("TD-IDF of Frauen")
-        print(td_idf[file].get("Frauen")) #get returns None if word is not in file
+        printHelper("TD-IDF")
+        print("Frauen:")
+        print(documents[document].features["tdIdfFrauen"]) #get returns None if word is not in document
+        print("Wahlrecht:")
+        print(documents[document].features["tdIdfWahlrecht"])
 
         #stylometry
         printHelper("Stylometry")
         print("Average word length: ")
-        print(stylometry.averageWordLength(documents[file]))
+        print(documents[document].features["styloWordLength"])
 
 def printHelper(specification):
+    """
+    Prints a header.
+    :param specification: the string which should be printed in the header
+    :return:
+    """
     print()
     print("#"*50)
     print(specification)
     print("#"*50)
     print()
 
+def featureExtraction(documents):
+
+    td_idf = tdIdf.getTFIDF(documents)
+    word = "Frauen"
+    range = 5
+
+    for document in documents:
+        documents[document].features["coOccurencesFrauen"] = coOccurrence.coOccurrences(documents[document], word, range)
+        documents[document].features["sentCooc"] = sentimentAnalysis.sentAnalysis(documents[document].features["coOccurencesFrauen"],True)
+        documents[document].features["sentText"] = sentimentAnalysis.sentAnalysis(documents[document].text,False)
+        documents[document].features["tdIdfFrauen"] = td_idf[document].get("Frauen")
+        documents[document].features["tdIdfWahlrecht"] = td_idf[document].get("Wahlrecht")
+        documents[document].features["styloWordLength"] = stylometry.averageWordLength(documents[document])
+
+
+
+
+
 if __name__ == '__main__':
 
     dataPath = "korpus/"
     documents = textProcessing.getAllTexts(dataPath) #documents = {filename: object with extracted info}
 
+    featureExtraction(documents)
     printAllInfo(documents)
+
+    vectorAnalysis.createVector(documents)
 
 
 
