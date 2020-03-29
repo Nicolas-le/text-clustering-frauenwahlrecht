@@ -5,7 +5,6 @@
 """
 import numpy
 import networkx as nx
-import matplotlib.pyplot as plt
 
 def createVector(documents):
     """
@@ -68,7 +67,7 @@ def euclideanDistance(documents):
 
             dist = numpy.linalg.norm(a-b)
 
-            distances.append((document,doc,dist*10))
+            distances.append((documents[document].author,documents[doc].author,dist*10))
             """    
             check if distance makes sense        
             print("Doc1: " +documents[document].title + " - " + documents[document].author)
@@ -104,33 +103,4 @@ def createGraph(distances):
     #printGraph(GTMP)
     nx.write_gml(GTMP,"graph.gml")
 
-def printGraph(G):
-    """
-    Quick graph printer. Will be removed later
-    :param G: networkx graph
-    :return:
-    """
-
-    elarge = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] > 10]
-    emedium = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] > 5 < 10]
-    esmall = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] <= 5]
-    etiny = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] == 1]
-
-
-    pos = nx.circular_layout(G)
-
-    nx.draw_networkx_nodes(G, pos, node_size=300)
-
-    # edges
-    nx.draw_networkx_edges(G, pos, edgelist=elarge, width=5)
-    nx.draw_networkx_edges(G, pos, edgelist=esmall, width=1,edge_color='r')
-    nx.draw_networkx_edges(G, pos, edgelist=emedium, width=3)
-    nx.draw_networkx_edges(G, pos, edgelist=etiny, width=1,style='dashed',edge_color='b')
-
-
-    # labels
-    nx.draw_networkx_labels(G, pos, font_size=10, font_family='sans-serif')
-
-    #plt.savefig('graph.png',dpi=300,format = 'png',bbox_inches = 'tight',pad_inches = 0.3)
-    plt.show()
 
