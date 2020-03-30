@@ -9,6 +9,7 @@ from featureExtraction import coOccurrence
 from featureExtraction import stylometry
 from featureExtraction import sentimentAnalysis
 from featureExtraction import vectorAnalysis
+from featureExtraction import graphAnalysis
 
 
 
@@ -89,7 +90,6 @@ def featureExtraction(documents):
 
 
 
-
 if __name__ == '__main__':
 
     dataPath = "korpus/"
@@ -97,9 +97,12 @@ if __name__ == '__main__':
 
     featureExtraction(documents)
     vectorAnalysis.createVector(documents)
-    vectorAnalysis.euclideanDistance(documents)
+    distances = vectorAnalysis.euclideanDistance(documents)
+    graph = graphAnalysis.createGraph(distances)
+    graphAnalysis.writeGraphToJson(graph)
 
-    printAllInfo(documents)
+
+    #printAllInfo(documents)
 
 
 
