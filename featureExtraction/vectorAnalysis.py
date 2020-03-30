@@ -4,7 +4,7 @@
 
 """
 import numpy
-import networkx as nx
+
 
 def createVector(documents):
     """
@@ -41,7 +41,8 @@ def createVector(documents):
 
         documentVector[6] = documents[document].features["styloWordLength"]
 
-        documents[document].vector = tuple(documentVector)
+        #documents[document].vector = tuple(documentVector)
+        documents[document].vector = documentVector
 
 
 
@@ -88,19 +89,8 @@ def euclideanDistance(documents):
 
             print("-"*50)"""
 
-    createGraph(distances)
+    return distances
 
 
-def createGraph(distances):
-    """
-    Creating networkx graph out of the distances as weights of the edges
-    :param distances:  a list of tuples (text,text,distance)
-    :return:
-    """
-    GTMP = nx.Graph()
-    GTMP.add_weighted_edges_from(distances)
-
-    #printGraph(GTMP)
-    nx.write_gml(GTMP,"graph.gml")
 
 
