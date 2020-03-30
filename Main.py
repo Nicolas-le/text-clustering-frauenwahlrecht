@@ -12,7 +12,6 @@ from featureExtraction import vectorAnalysis
 from featureExtraction import graphAnalysis
 
 
-
 def printAllInfo(documents):
     """
     Function to print all collected information with the use of extraction functions.
@@ -89,7 +88,6 @@ def featureExtraction(documents):
         documents[document].features["styloWordLength"] = stylometry.averageWordLength(documents[document])
 
 
-
 if __name__ == '__main__':
 
     dataPath = "korpus/"
@@ -101,8 +99,7 @@ if __name__ == '__main__':
     graph = graphAnalysis.createGraph(distances)
     graphAnalysis.writeGraphToJson(graph)
 
-
-    #printAllInfo(documents)
+    printAllInfo(documents)
 
 
 

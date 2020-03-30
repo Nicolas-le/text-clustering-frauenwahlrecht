@@ -41,8 +41,8 @@ def createVector(documents):
 
         documentVector[6] = documents[document].features["styloWordLength"]
 
-        #documents[document].vector = tuple(documentVector)
-        documents[document].vector = documentVector
+        documents[document].vector = tuple(documentVector)
+        #documents[document].vector = documentVector
 
 
 
@@ -68,7 +68,9 @@ def euclideanDistance(documents):
 
             dist = numpy.linalg.norm(a-b)
 
-            distances.append((documents[document].author,documents[doc].author,dist*10))
+            #only really close distances
+            if dist*10 < 2:
+                distances.append((documents[document].author,documents[doc].author,dist*10))
             """    
             check if distance makes sense        
             print("Doc1: " +documents[document].title + " - " + documents[document].author)
