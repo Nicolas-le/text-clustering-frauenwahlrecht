@@ -2,8 +2,6 @@
 
 --> work in progress
 
-Die Forschung findet im Rahmen eines kulturwissenschaftlichen Projektes an der Universität Leipzig statt. In Teil A der Forschung soll in der Metaebene über den Einfluss von computer-basierten Methoden des "Natural Language Processing" auf Wissensgewinnung und die Wissensgeschichte gesprochen werden. In Teil B wird sich einer angewandten Forschung gewidmet.
-
 ## Projektkonzept
 
 **Fragestellung:**
@@ -30,7 +28,7 @@ verschiedene Herangehensweisen
   * Kookkurrenzanalyse
 
 Kookkurrenz um Begriffe wie Fraue, Frauenwahlrecht, ...
-Auf diese Kookkurrenzen - Sentiment-Analyse - Topic Modelling
+Auf diese Kookkurrenzen - Sentiment-Analyse
 
   * Topic Modelling
 
