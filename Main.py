@@ -34,15 +34,41 @@ def printAllInfo(documents):
         print(documents[document].publisher)
 
         #get cooccurences of a specific word
-        printHelper("Cooccurrences of word")
+        printHelper("Cooccurrences of  word || range = 5 ")
 
-        print(documents[document].features["coOccurencesFrauen"])
+        print("word = Frauen\n")
+        if not documents[document].features["coOccurencesFrauen"]:
+            print("Word doesn't appear in this document.")
+        else:
+            for line in documents[document].features["coOccurencesFrauen"]:
+                print(line)
+
+
+        print("\nword = Wahlrecht\n")
+
+        if not documents[document].features["coOccurencesWahlrecht"]:
+            print("Word doesn't appear in this document.")
+        else:
+            for line in documents[document].features["coOccurencesWahlrecht"]:
+                print(line)
+
+        print("\nword = Sozialismus\n")
+
+        if not documents[document].features["coOccurencesSozialismus"]:
+            print("Word doesn't appear in this document.")
+        else:
+            for line in documents[document].features["coOccurencesSozialismus"]:
+                print(line)
 
         #sentiment analysis
         printHelper("SentimentAnalysis:")
-        print("Sentiment around cooccurrences: ")
-        print(documents[document].features["sentCooc"])
-        print("Sentiment of whole text: ")
+        print("Sentiment around cooccurrences of word - Frauen -: ")
+        print(documents[document].features["sentCoocFrauen"])
+        print("\nSentiment around cooccurrences of word - Wahlrecht -: ")
+        print(documents[document].features["sentCoocWahlrecht"])
+        print("\nSentiment around cooccurrences of word - Sozialismus -: ")
+        print(documents[document].features["sentCoocSozialismus"])
+        print("\nSentiment of whole text: ")
         print(documents[document].features["sentText"])
 
         #tdIdf
@@ -76,12 +102,18 @@ def printHelper(specification):
 def featureExtraction(documents):
 
     td_idf = tdIdf.getTFIDF(documents)
-    word = "Frauen"
     range = 5
 
     for document in documents:
-        documents[document].features["coOccurencesFrauen"] = coOccurrence.coOccurrences(documents[document], word, range)
-        documents[document].features["sentCooc"] = sentimentAnalysis.sentAnalysis(documents[document].features["coOccurencesFrauen"],True)
+        documents[document].features["coOccurencesFrauen"] = coOccurrence.coOccurrences(documents[document], "Frauen", range)
+        documents[document].features["sentCoocFrauen"] = sentimentAnalysis.sentAnalysis(documents[document].features["coOccurencesFrauen"],True)
+
+        documents[document].features["coOccurencesWahlrecht"] = coOccurrence.coOccurrences(documents[document], "Wahlrecht", range)
+        documents[document].features["sentCoocWahlrecht"] = sentimentAnalysis.sentAnalysis(documents[document].features["coOccurencesWahlrecht"],True)
+
+        documents[document].features["coOccurencesSozialismus"] = coOccurrence.coOccurrences(documents[document], "Sozialismus", range)
+        documents[document].features["sentCoocSozialismus"] = sentimentAnalysis.sentAnalysis(documents[document].features["coOccurencesSozialismus"],True)
+
         documents[document].features["sentText"] = sentimentAnalysis.sentAnalysis(documents[document].text,False)
         documents[document].features["tdIdfFrauen"] = td_idf[document].get("Frauen")
         documents[document].features["tdIdfWahlrecht"] = td_idf[document].get("Wahlrecht")
@@ -97,7 +129,7 @@ if __name__ == '__main__':
     vectorAnalysis.createVector(documents)
     distances = vectorAnalysis.euclideanDistance(documents)
     graph = graphAnalysis.createGraph(distances)
-    graphAnalysis.writeGraphToJson(graph)
+    #graphAnalysis.writeGraphToJson(graph)
 
     printAllInfo(documents)
 
