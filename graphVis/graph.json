@@ -7,52 +7,28 @@
             "id": "Dohm, Hedwig"
         },
         {
-            "id": "Bruhns, Julius"
-        },
-        {
-            "id": "Wegner, Marie"
-        },
-        {
             "id": "Lange, Helene"
-        },
-        {
-            "id": "Martin, Marie"
-        },
-        {
-            "id": "Hasenclever, Juliette"
-        },
-        {
-            "id": "Breitscheid, Tony"
-        },
-        {
-            "id": "Zietz, Luise"
-        },
-        {
-            "id": "Geyken, Alexander"
         },
         {
             "id": "Gizycki, Lily von"
         },
         {
-            "id": "Blacker, Carola"
+            "id": "Goldschmidt, Henriette"
         },
         {
-            "id": "Zepler, Wally"
+            "id": "Lewald, Fanny"
         },
         {
-            "id": "Langemann, Ludwig"
+            "id": "Bruhns, Julius"
         },
         {
-            "id": "Freudenberg, Ika"
+            "id": "Zietz, Luise"
         },
         {
-            "id": "Bebel, August"
+            "id": "Wegner, Marie"
         },
         {
             "id": "Luxemburg, Rosa"
-        },
-        {
-            "id": "Ledermann, Frieda"
         },
         {
             "id": "Walter, Marie"
@@ -61,19 +37,13 @@
             "id": "Zetkin, Clara"
         },
         {
-            "id": "Goldschmidt, Henriette"
+            "id": "Welczeck, Adelheid von"
         },
         {
             "id": "Heymann, Lida Gustava"
         },
         {
             "id": "Steinbach, H."
-        },
-        {
-            "id": "Kr\u00fcger, Elsa"
-        },
-        {
-            "id": "Kirchhoff, Auguste"
         },
         {
             "id": "Bohrer, Bertha"
@@ -88,809 +58,155 @@
             "id": "Lischnewska, Maria"
         },
         {
-            "id": "L\u00fcders, Else"
-        },
-        {
-            "id": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "id": "Lindemann, Anna"
-        },
-        {
-            "id": "Bahnson, Minna"
-        },
-        {
-            "id": "Perlen, Frida"
-        },
-        {
-            "id": "Welczeck, Adelheid von"
-        },
-        {
-            "id": "Pappenheim, Bertha"
-        },
-        {
-            "id": "Lewald, Fanny"
-        },
-        {
-            "id": "Meisel-He\u00df, Grete"
-        },
-        {
-            "id": "B\u00e4umer, Gertrud"
-        },
-        {
             "id": "Krukenberg, Elsbeth"
         },
         {
-            "id": "Baader, Ottilie"
+            "id": "Langemann, Ludwig"
         },
         {
-            "id": "Wulff, Frida"
-        },
-        {
-            "id": "Alapin, Simon"
-        },
-        {
-            "id": "Hilty, Carl"
-        },
-        {
-            "id": "Dullo, Alice"
-        },
-        {
-            "id": "Ichenhaeuser, Eliza"
-        },
-        {
-            "id": "Kautsky, Karl"
-        },
-        {
-            "id": "Hanna, Gertrud"
+            "id": "Bebel, August"
         },
         {
             "id": "Reeves, William Pember"
         },
         {
             "id": "D\u00fchring, Eugen"
+        },
+        {
+            "id": "Martin, Marie"
+        },
+        {
+            "id": "Breitscheid, Tony"
+        },
+        {
+            "id": "Kr\u00fcger, Elsa"
+        },
+        {
+            "id": "Bahnson, Minna"
+        },
+        {
+            "id": "Hilty, Carl"
+        },
+        {
+            "id": "Meisel-He\u00df, Grete"
+        },
+        {
+            "id": "Ichenhaeuser, Eliza"
+        },
+        {
+            "id": "Hasenclever, Juliette"
+        },
+        {
+            "id": "B\u00e4umer, Gertrud"
+        },
+        {
+            "id": "Freudenberg, Ika"
+        },
+        {
+            "id": "Kirchhoff, Auguste"
+        },
+        {
+            "id": "Geyken, Alexander"
+        },
+        {
+            "id": "Blacker, Carola"
+        },
+        {
+            "id": "Zepler, Wally"
+        },
+        {
+            "id": "L\u00fcders, Else"
+        },
+        {
+            "id": "Perlen, Frida"
+        },
+        {
+            "id": "Ledermann, Frieda"
+        },
+        {
+            "id": "Lindemann, Anna"
         }
     ],
     "links": [
         {
-            "weight": 7.601133166545252,
-            "source": "Dohm, Hedwig",
-            "target": "Bruhns, Julius"
-        },
-        {
-            "weight": 7.314316212982908,
-            "source": "Dohm, Hedwig",
-            "target": "Wegner, Marie"
-        },
-        {
-            "weight": 2.7856792694397834,
+            "weight": 1.677349858115211,
             "source": "Dohm, Hedwig",
             "target": "Lange, Helene"
         },
         {
-            "weight": 2.354316235396746,
-            "source": "Dohm, Hedwig",
-            "target": "Martin, Marie"
-        },
-        {
-            "weight": 2.361663801419512,
-            "source": "Dohm, Hedwig",
-            "target": "Hasenclever, Juliette"
-        },
-        {
-            "weight": 2.847890155173735,
-            "source": "Dohm, Hedwig",
-            "target": "Breitscheid, Tony"
-        },
-        {
-            "weight": 6.007695000634561,
-            "source": "Dohm, Hedwig",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 8.338033667037209,
-            "source": "Dohm, Hedwig",
-            "target": "Geyken, Alexander"
-        },
-        {
-            "weight": 2.008805735868621,
+            "weight": 1.3711897580842083,
             "source": "Dohm, Hedwig",
             "target": "Gizycki, Lily von"
         },
         {
-            "weight": 3.5544720856912115,
-            "source": "Dohm, Hedwig",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 4.570519422469307,
-            "source": "Dohm, Hedwig",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 4.616046070361151,
-            "source": "Dohm, Hedwig",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 4.081944204327318,
-            "source": "Dohm, Hedwig",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 3.547349202422973,
-            "source": "Dohm, Hedwig",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 7.625752618592593,
-            "source": "Dohm, Hedwig",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 9.759850761564566,
-            "source": "Dohm, Hedwig",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 6.463898539845182,
-            "source": "Dohm, Hedwig",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 6.461561822311594,
-            "source": "Dohm, Hedwig",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 2.2127260394601995,
+            "weight": 0.9684950640206157,
             "source": "Dohm, Hedwig",
             "target": "Goldschmidt, Henriette"
         },
         {
-            "weight": 4.710664767602143,
+            "weight": 1.474642334767431,
             "source": "Dohm, Hedwig",
-            "target": "Heymann, Lida Gustava"
+            "target": "Lewald, Fanny"
         },
         {
-            "weight": 3.346990902734936,
-            "source": "Dohm, Hedwig",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 2.1666828920322887,
-            "source": "Dohm, Hedwig",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 6.560260257744591,
-            "source": "Dohm, Hedwig",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 5.119243111629892,
-            "source": "Dohm, Hedwig",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 4.317716549907141,
-            "source": "Dohm, Hedwig",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 5.198267632063515,
-            "source": "Dohm, Hedwig",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 4.578944975156415,
-            "source": "Dohm, Hedwig",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 5.163733971146228,
-            "source": "Dohm, Hedwig",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 13.853582291286203,
-            "source": "Dohm, Hedwig",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 6.988007934336985,
-            "source": "Dohm, Hedwig",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 2.0617020347175066,
+            "weight": 1.0425403454097402,
             "source": "Dohm, Hedwig",
             "target": "Dohm, Hedwig"
         },
         {
-            "weight": 2.8424646800451923,
+            "weight": 1.38736343259918,
             "source": "Dohm, Hedwig",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 7.594550682430152,
-            "source": "Dohm, Hedwig",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 7.183313799924854,
-            "source": "Dohm, Hedwig",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 6.207162130479133,
-            "source": "Dohm, Hedwig",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 2.1860034782534554,
-            "source": "Dohm, Hedwig",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.117403715838256,
-            "source": "Dohm, Hedwig",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 3.1316467340757677,
-            "source": "Dohm, Hedwig",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.9189714359075807,
-            "source": "Dohm, Hedwig",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 9.743909344696617,
-            "source": "Dohm, Hedwig",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.740210334157437,
-            "source": "Dohm, Hedwig",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 8.51919308654503,
-            "source": "Dohm, Hedwig",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.254857410250377,
-            "source": "Dohm, Hedwig",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.341393620368853,
-            "source": "Dohm, Hedwig",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.6358655855530815,
-            "source": "Dohm, Hedwig",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 10.9868083882113,
-            "source": "Dohm, Hedwig",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 17.564408095613175,
-            "source": "Dohm, Hedwig",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.520877011985448,
-            "source": "Dohm, Hedwig",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 5.120977606828649,
-            "source": "Dohm, Hedwig",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 1.5762253247613456,
-            "source": "Bruhns, Julius",
-            "target": "Wegner, Marie"
-        },
-        {
-            "weight": 8.052924334780574,
-            "source": "Bruhns, Julius",
-            "target": "Lange, Helene"
-        },
-        {
-            "weight": 6.230712833280493,
-            "source": "Bruhns, Julius",
             "target": "Martin, Marie"
         },
         {
-            "weight": 7.220985075122909,
-            "source": "Bruhns, Julius",
-            "target": "Hasenclever, Juliette"
-        },
-        {
-            "weight": 5.571946127749675,
-            "source": "Bruhns, Julius",
+            "weight": 1.7464578187117459,
+            "source": "Dohm, Hedwig",
             "target": "Breitscheid, Tony"
         },
         {
-            "weight": 2.8536874391278024,
-            "source": "Bruhns, Julius",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 2.0798605455958032,
-            "source": "Bruhns, Julius",
+            "weight": 1.951391275001642,
+            "source": "Dohm, Hedwig",
             "target": "Geyken, Alexander"
         },
         {
-            "weight": 7.928621737537637,
-            "source": "Bruhns, Julius",
-            "target": "Gizycki, Lily von"
-        },
-        {
-            "weight": 4.879144476966931,
-            "source": "Bruhns, Julius",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 8.864724165648983,
-            "source": "Bruhns, Julius",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 3.698486742334754,
-            "source": "Bruhns, Julius",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 5.134167641867592,
-            "source": "Bruhns, Julius",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 4.196805000807961,
-            "source": "Bruhns, Julius",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 1.7218396677516443,
-            "source": "Bruhns, Julius",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 2.715129999497335,
-            "source": "Bruhns, Julius",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 1.2735386664284212,
-            "source": "Bruhns, Julius",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 3.4767408846935743,
-            "source": "Bruhns, Julius",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 5.6814127814023285,
-            "source": "Bruhns, Julius",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.9588047818148935,
-            "source": "Bruhns, Julius",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 4.53264467440137,
-            "source": "Bruhns, Julius",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 5.871442031675599,
-            "source": "Bruhns, Julius",
+            "weight": 0.9407468712591603,
+            "source": "Dohm, Hedwig",
             "target": "Kr\u00fcger, Elsa"
         },
         {
-            "weight": 2.1621168275058498,
-            "source": "Bruhns, Julius",
+            "weight": 1.7165486822769211,
+            "source": "Dohm, Hedwig",
             "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 3.028404625801369,
-            "source": "Bruhns, Julius",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 3.80140442766766,
-            "source": "Bruhns, Julius",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.1216588778428305,
-            "source": "Bruhns, Julius",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 3.7606111497306594,
-            "source": "Bruhns, Julius",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 6.144146585509933,
-            "source": "Bruhns, Julius",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 6.259608084850257,
-            "source": "Bruhns, Julius",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.4057531764459292,
-            "source": "Bruhns, Julius",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 5.8757413705407755,
-            "source": "Bruhns, Julius",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 2.5019440754143396,
-            "source": "Bruhns, Julius",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 1.6490724564431183,
-            "source": "Bruhns, Julius",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.688195308069256,
-            "source": "Bruhns, Julius",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 9.44905340989661,
-            "source": "Bruhns, Julius",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 6.072419601445081,
-            "source": "Bruhns, Julius",
+            "weight": 1.6743491784233884,
+            "source": "Dohm, Hedwig",
             "target": "Meisel-He\u00df, Grete"
         },
         {
-            "weight": 6.66411801143904,
-            "source": "Bruhns, Julius",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.9473620486401146,
-            "source": "Bruhns, Julius",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 3.0856431970096705,
-            "source": "Bruhns, Julius",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.568963123265597,
-            "source": "Bruhns, Julius",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 2.6728355915602213,
-            "source": "Bruhns, Julius",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 5.684789142617504,
-            "source": "Bruhns, Julius",
+            "weight": 1.7518547357497662,
+            "source": "Dohm, Hedwig",
             "target": "Hilty, Carl"
         },
         {
-            "weight": 6.517561646984422,
-            "source": "Bruhns, Julius",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.744925264670272,
-            "source": "Bruhns, Julius",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.726586802793287,
-            "source": "Bruhns, Julius",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 11.877330116698053,
-            "source": "Bruhns, Julius",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.797460555025501,
-            "source": "Bruhns, Julius",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.587370154332605,
-            "source": "Bruhns, Julius",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 7.996919454527567,
-            "source": "Wegner, Marie",
-            "target": "Lange, Helene"
-        },
-        {
-            "weight": 6.249817859797622,
-            "source": "Wegner, Marie",
-            "target": "Martin, Marie"
-        },
-        {
-            "weight": 6.825909761260633,
-            "source": "Wegner, Marie",
-            "target": "Hasenclever, Juliette"
-        },
-        {
-            "weight": 5.748729975558078,
-            "source": "Wegner, Marie",
-            "target": "Breitscheid, Tony"
-        },
-        {
-            "weight": 3.193578475243282,
-            "source": "Wegner, Marie",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 3.1042223967570104,
-            "source": "Wegner, Marie",
-            "target": "Geyken, Alexander"
-        },
-        {
-            "weight": 7.862940547574079,
-            "source": "Wegner, Marie",
-            "target": "Gizycki, Lily von"
-        },
-        {
-            "weight": 4.46806261015446,
-            "source": "Wegner, Marie",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 8.951781855423832,
-            "source": "Wegner, Marie",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 4.022071785150124,
-            "source": "Wegner, Marie",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 5.451313845009329,
-            "source": "Wegner, Marie",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 3.2003103928411027,
-            "source": "Wegner, Marie",
-            "target": "Wegner, Marie"
-        },
-        {
-            "weight": 4.056447538591131,
-            "source": "Wegner, Marie",
+            "weight": 1.9317114665326318,
+            "source": "Dohm, Hedwig",
             "target": "Bebel, August"
         },
         {
-            "weight": 1.9609724105297752,
-            "source": "Wegner, Marie",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 3.593157024565187,
-            "source": "Wegner, Marie",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 1.6266931812549523,
-            "source": "Wegner, Marie",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 4.058170470574778,
-            "source": "Wegner, Marie",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 5.545150883061856,
-            "source": "Wegner, Marie",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.908399235511458,
-            "source": "Wegner, Marie",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 4.076640580908177,
-            "source": "Wegner, Marie",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 5.86134853090935,
-            "source": "Wegner, Marie",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 1.7317708656421225,
-            "source": "Wegner, Marie",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 2.982537683581288,
-            "source": "Wegner, Marie",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 3.8564200641216773,
-            "source": "Wegner, Marie",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.2096006370557424,
-            "source": "Wegner, Marie",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 4.037984231630679,
-            "source": "Wegner, Marie",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 6.784719134850209,
-            "source": "Wegner, Marie",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 6.837548582457929,
-            "source": "Wegner, Marie",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 3.5615082112149437,
-            "source": "Wegner, Marie",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 6.1420702062057515,
-            "source": "Wegner, Marie",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 3.1976465821291535,
-            "source": "Wegner, Marie",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.3830050081120726,
-            "source": "Wegner, Marie",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 6.359840255034048,
-            "source": "Wegner, Marie",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 9.299085410894554,
-            "source": "Wegner, Marie",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 5.956825329450087,
-            "source": "Wegner, Marie",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 6.079282350746248,
-            "source": "Wegner, Marie",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.8556167655735587,
-            "source": "Wegner, Marie",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 2.687216066615375,
-            "source": "Wegner, Marie",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.70479237736131,
-            "source": "Wegner, Marie",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 3.0172633535162445,
-            "source": "Wegner, Marie",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 5.845042616752918,
-            "source": "Wegner, Marie",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 6.685088719030703,
-            "source": "Wegner, Marie",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.727633289462511,
-            "source": "Wegner, Marie",
+            "weight": 1.6619218507972853,
+            "source": "Dohm, Hedwig",
             "target": "Ichenhaeuser, Eliza"
         },
         {
-            "weight": 10.170037754479562,
-            "source": "Wegner, Marie",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 12.588549086205962,
-            "source": "Wegner, Marie",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.0001848777131706,
-            "source": "Wegner, Marie",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.9009915313197587,
-            "source": "Wegner, Marie",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.104364687233067,
+            "weight": 1.7552224557731466,
             "source": "Lange, Helene",
             "target": "Martin, Marie"
         },
         {
-            "weight": 4.810591567012618,
-            "source": "Lange, Helene",
-            "target": "Hasenclever, Juliette"
-        },
-        {
-            "weight": 3.0924692275172823,
+            "weight": 1.7602383268748105,
             "source": "Lange, Helene",
             "target": "Breitscheid, Tony"
-        },
-        {
-            "weight": 5.724737811155787,
-            "source": "Lange, Helene",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 8.425331700124742,
-            "source": "Lange, Helene",
-            "target": "Geyken, Alexander"
         },
         {
             "weight": 1.0688400753212024,
@@ -898,7 +214,42 @@
             "target": "Gizycki, Lily von"
         },
         {
-            "weight": 5.4698736305478315,
+            "weight": 1.8870824376551916,
+            "source": "Lange, Helene",
+            "target": "Lange, Helene"
+        },
+        {
+            "weight": 1.6767668377588816,
+            "source": "Lange, Helene",
+            "target": "Goldschmidt, Henriette"
+        },
+        {
+            "weight": 1.8631870555962318,
+            "source": "Lange, Helene",
+            "target": "Kr\u00fcger, Elsa"
+        },
+        {
+            "weight": 1.946549639485904,
+            "source": "Lange, Helene",
+            "target": "Bahnson, Minna"
+        },
+        {
+            "weight": 1.4978247225799204,
+            "source": "Lange, Helene",
+            "target": "Hilty, Carl"
+        },
+        {
+            "weight": 1.6239385887197968,
+            "source": "Lange, Helene",
+            "target": "Hasenclever, Juliette"
+        },
+        {
+            "weight": 1.74504920260765,
+            "source": "Lange, Helene",
+            "target": "Geyken, Alexander"
+        },
+        {
+            "weight": 1.3457409295240155,
             "source": "Lange, Helene",
             "target": "Blacker, Carola"
         },
@@ -908,884 +259,129 @@
             "target": "Zepler, Wally"
         },
         {
-            "weight": 4.51180679569185,
-            "source": "Lange, Helene",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 3.2953506069251404,
+            "weight": 1.80527759941672,
             "source": "Lange, Helene",
             "target": "Freudenberg, Ika"
         },
         {
-            "weight": 4.315383093749649,
-            "source": "Lange, Helene",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 7.613129347065007,
-            "source": "Lange, Helene",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 1.8870824376551916,
-            "source": "Lange, Helene",
-            "target": "Lange, Helene"
-        },
-        {
-            "weight": 9.659785633656213,
-            "source": "Lange, Helene",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 6.833976835171195,
-            "source": "Lange, Helene",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 5.841793306254922,
-            "source": "Lange, Helene",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 3.013865937662052,
-            "source": "Lange, Helene",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 5.258855811116987,
-            "source": "Lange, Helene",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 4.699759433868761,
-            "source": "Lange, Helene",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 2.545281916651238,
-            "source": "Lange, Helene",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 7.69232940299862,
-            "source": "Lange, Helene",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 5.20029928297073,
-            "source": "Lange, Helene",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 5.406240760341442,
-            "source": "Lange, Helene",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 5.344796626845106,
-            "source": "Lange, Helene",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 4.3892113227670535,
-            "source": "Lange, Helene",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.7745790003453283,
-            "source": "Lange, Helene",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 14.150720964242252,
-            "source": "Lange, Helene",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 6.792794771957898,
-            "source": "Lange, Helene",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.3726839647236995,
-            "source": "Lange, Helene",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 7.288402776447612,
-            "source": "Lange, Helene",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 7.121351264949234,
-            "source": "Lange, Helene",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 6.792575200642194,
-            "source": "Lange, Helene",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 2.6232435124018934,
-            "source": "Lange, Helene",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.9364523551708794,
-            "source": "Lange, Helene",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.687599228322857,
+            "weight": 1.3460826026024988,
             "source": "Lange, Helene",
             "target": "B\u00e4umer, Gertrud"
         },
         {
-            "weight": 4.201902735590004,
+            "weight": 1.4270073673520178,
             "source": "Lange, Helene",
-            "target": "Krukenberg, Elsbeth"
+            "target": "Meisel-He\u00df, Grete"
         },
         {
-            "weight": 10.641719402767976,
-            "source": "Lange, Helene",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 5.075259087110505,
-            "source": "Lange, Helene",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 9.66747336427528,
-            "source": "Lange, Helene",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.4732779779959024,
-            "source": "Lange, Helene",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.378634816816328,
-            "source": "Lange, Helene",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.3412206010282985,
+            "weight": 1.8178373055089438,
             "source": "Lange, Helene",
             "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.70349803563533,
-            "source": "Lange, Helene",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 16.25595202119036,
-            "source": "Lange, Helene",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.298250106989196,
-            "source": "Lange, Helene",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 5.571283504940797,
-            "source": "Lange, Helene",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.602016511170497,
-            "source": "Martin, Marie",
-            "target": "Hasenclever, Juliette"
-        },
-        {
-            "weight": 1.587583964486475,
-            "source": "Martin, Marie",
-            "target": "Breitscheid, Tony"
-        },
-        {
-            "weight": 4.315332123409857,
-            "source": "Martin, Marie",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 6.859956680992823,
-            "source": "Martin, Marie",
-            "target": "Geyken, Alexander"
         },
         {
             "weight": 1.9824955561048476,
-            "source": "Martin, Marie",
-            "target": "Gizycki, Lily von"
+            "source": "Gizycki, Lily von",
+            "target": "Martin, Marie"
         },
         {
-            "weight": 3.6841024076116757,
-            "source": "Martin, Marie",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 3.6162780504952545,
-            "source": "Martin, Marie",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 2.9239471812100426,
-            "source": "Martin, Marie",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 2.1493622858101684,
-            "source": "Martin, Marie",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 2.6355954092624945,
-            "source": "Martin, Marie",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 6.037394016098833,
-            "source": "Martin, Marie",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 8.120781492061347,
-            "source": "Martin, Marie",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 5.064820941886106,
-            "source": "Martin, Marie",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 4.6383094750192,
-            "source": "Martin, Marie",
-            "target": "Zetkin, Clara"
+            "weight": 1.8580243432477348,
+            "source": "Gizycki, Lily von",
+            "target": "Goldschmidt, Henriette"
         },
         {
             "weight": 1.660036981781046,
-            "source": "Martin, Marie",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 3.434711302343297,
-            "source": "Martin, Marie",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 3.0254191474565655,
-            "source": "Martin, Marie",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 0.842427832887645,
-            "source": "Martin, Marie",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 5.846622853695553,
-            "source": "Martin, Marie",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 3.6443035997572233,
-            "source": "Martin, Marie",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 3.6797412304388635,
-            "source": "Martin, Marie",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.5090644008978296,
-            "source": "Martin, Marie",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.679944819519196,
-            "source": "Martin, Marie",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.028229765046944,
-            "source": "Martin, Marie",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 12.409419810182262,
-            "source": "Martin, Marie",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 5.130565465375158,
-            "source": "Martin, Marie",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 1.5674732547828494,
-            "source": "Martin, Marie",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.896475390900703,
-            "source": "Martin, Marie",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 5.5077544196445105,
-            "source": "Martin, Marie",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.938318945380119,
-            "source": "Martin, Marie",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 3.434150009170269,
-            "source": "Martin, Marie",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 1.1436788158233824,
-            "source": "Martin, Marie",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 4.3940568600716094,
-            "source": "Martin, Marie",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.4287248486724375,
-            "source": "Martin, Marie",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.823333841469116,
-            "source": "Martin, Marie",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.417533300173857,
-            "source": "Martin, Marie",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 7.662014041058702,
-            "source": "Martin, Marie",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.0254069576114535,
-            "source": "Martin, Marie",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.461668870925168,
-            "source": "Martin, Marie",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.8635183037776057,
-            "source": "Martin, Marie",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.986500002186279,
-            "source": "Martin, Marie",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.49980932722141,
-            "source": "Martin, Marie",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.6692640007391963,
-            "source": "Martin, Marie",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.7144155522758453,
-            "source": "Martin, Marie",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.8118826328436612,
-            "source": "Hasenclever, Juliette",
-            "target": "Breitscheid, Tony"
-        },
-        {
-            "weight": 6.487829613145339,
-            "source": "Hasenclever, Juliette",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 8.445815605314987,
-            "source": "Hasenclever, Juliette",
-            "target": "Geyken, Alexander"
-        },
-        {
-            "weight": 4.216930352285345,
-            "source": "Hasenclever, Juliette",
-            "target": "Gizycki, Lily von"
-        },
-        {
-            "weight": 2.543005057181911,
-            "source": "Hasenclever, Juliette",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 6.680628143654151,
-            "source": "Hasenclever, Juliette",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 5.242665777861507,
-            "source": "Hasenclever, Juliette",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 5.272657122117854,
-            "source": "Hasenclever, Juliette",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 3.9731728849525014,
-            "source": "Hasenclever, Juliette",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 7.5834608879214365,
-            "source": "Hasenclever, Juliette",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 9.743116619354636,
-            "source": "Hasenclever, Juliette",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 6.289483483517369,
-            "source": "Hasenclever, Juliette",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 7.1871126975813375,
-            "source": "Hasenclever, Juliette",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 3.4061096925304635,
-            "source": "Hasenclever, Juliette",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 4.657376185655046,
-            "source": "Hasenclever, Juliette",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 3.1123582378771015,
-            "source": "Hasenclever, Juliette",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 3.3748263050738574,
-            "source": "Hasenclever, Juliette",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 5.90482735723141,
-            "source": "Hasenclever, Juliette",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 5.480409255678406,
-            "source": "Hasenclever, Juliette",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 4.303014167817178,
-            "source": "Hasenclever, Juliette",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 5.121704280118554,
-            "source": "Hasenclever, Juliette",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 5.08812725256668,
-            "source": "Hasenclever, Juliette",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 6.37652120290377,
-            "source": "Hasenclever, Juliette",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 13.260332565269188,
-            "source": "Hasenclever, Juliette",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 7.168861887660062,
-            "source": "Hasenclever, Juliette",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.448538541303674,
-            "source": "Hasenclever, Juliette",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 7.975135548752567,
-            "source": "Hasenclever, Juliette",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 7.2712338036925885,
-            "source": "Hasenclever, Juliette",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.355196981135232,
-            "source": "Hasenclever, Juliette",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 3.9214950044883268,
-            "source": "Hasenclever, Juliette",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.6136486176700044,
-            "source": "Hasenclever, Juliette",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 1.8482306110949374,
-            "source": "Hasenclever, Juliette",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 4.3047334777616895,
-            "source": "Hasenclever, Juliette",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.92865346020073,
-            "source": "Hasenclever, Juliette",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 2.6584229017092547,
-            "source": "Hasenclever, Juliette",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 7.4976943411858485,
-            "source": "Hasenclever, Juliette",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.437582517219413,
-            "source": "Hasenclever, Juliette",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 6.886791718995273,
-            "source": "Hasenclever, Juliette",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.550474453393721,
-            "source": "Hasenclever, Juliette",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 12.42337244565597,
-            "source": "Hasenclever, Juliette",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 18.188593247905732,
-            "source": "Hasenclever, Juliette",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 5.051347887645113,
-            "source": "Hasenclever, Juliette",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 5.0753613023794255,
-            "source": "Hasenclever, Juliette",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.7832732907981015,
-            "source": "Breitscheid, Tony",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 6.069420686363005,
-            "source": "Breitscheid, Tony",
-            "target": "Geyken, Alexander"
-        },
-        {
-            "weight": 2.710137491349996,
-            "source": "Breitscheid, Tony",
-            "target": "Gizycki, Lily von"
-        },
-        {
-            "weight": 3.2752860099541925,
-            "source": "Breitscheid, Tony",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 4.274274010838446,
-            "source": "Breitscheid, Tony",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 2.2878250108135214,
-            "source": "Breitscheid, Tony",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 1.7804181472070986,
-            "source": "Breitscheid, Tony",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 1.9929259994915005,
-            "source": "Breitscheid, Tony",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 5.651787439670737,
-            "source": "Breitscheid, Tony",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 7.497690981356459,
-            "source": "Breitscheid, Tony",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 4.487763225806401,
-            "source": "Breitscheid, Tony",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 4.088095565250469,
-            "source": "Breitscheid, Tony",
-            "target": "Zetkin, Clara"
+            "source": "Goldschmidt, Henriette",
+            "target": "Martin, Marie"
         },
         {
             "weight": 1.3568273072858814,
-            "source": "Breitscheid, Tony",
-            "target": "Goldschmidt, Henriette"
+            "source": "Goldschmidt, Henriette",
+            "target": "Breitscheid, Tony"
         },
         {
-            "weight": 2.865912803136219,
-            "source": "Breitscheid, Tony",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 2.584174989403296,
-            "source": "Breitscheid, Tony",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 1.0364171733719085,
-            "source": "Breitscheid, Tony",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 5.086731543714652,
-            "source": "Breitscheid, Tony",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 3.2046151275124544,
-            "source": "Breitscheid, Tony",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 2.577182299478497,
-            "source": "Breitscheid, Tony",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.489497629606857,
-            "source": "Breitscheid, Tony",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.4757184453324492,
-            "source": "Breitscheid, Tony",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.0881553373836472,
-            "source": "Breitscheid, Tony",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 11.705062053869753,
-            "source": "Breitscheid, Tony",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 4.5896412178197235,
-            "source": "Breitscheid, Tony",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 1.4800358686726491,
-            "source": "Breitscheid, Tony",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.345830540263815,
-            "source": "Breitscheid, Tony",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 5.035384200786877,
-            "source": "Breitscheid, Tony",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.852913012305938,
-            "source": "Breitscheid, Tony",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 4.171284548329293,
-            "source": "Breitscheid, Tony",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 1.982287347663175,
-            "source": "Breitscheid, Tony",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 4.177351982293659,
-            "source": "Breitscheid, Tony",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.2788203202006416,
-            "source": "Breitscheid, Tony",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.201467914281876,
-            "source": "Breitscheid, Tony",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.5313657438437533,
-            "source": "Breitscheid, Tony",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 6.916809895049557,
-            "source": "Breitscheid, Tony",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.4845042142969231,
-            "source": "Breitscheid, Tony",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.812994756733966,
-            "source": "Breitscheid, Tony",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.9076474096784268,
-            "source": "Breitscheid, Tony",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.245606436435098,
-            "source": "Breitscheid, Tony",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.18945515357807,
-            "source": "Breitscheid, Tony",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.3414166713393625,
-            "source": "Breitscheid, Tony",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.003797715314681,
-            "source": "Breitscheid, Tony",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.9064325279279912,
-            "source": "Zietz, Luise",
+            "weight": 1.475817069778727,
+            "source": "Goldschmidt, Henriette",
             "target": "Geyken, Alexander"
         },
         {
-            "weight": 5.762333289710877,
-            "source": "Zietz, Luise",
-            "target": "Gizycki, Lily von"
-        },
-        {
-            "weight": 4.61216426008847,
-            "source": "Zietz, Luise",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 6.222818893096985,
-            "source": "Zietz, Luise",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 1.6043509938804217,
-            "source": "Zietz, Luise",
+            "weight": 1.9188296876379147,
+            "source": "Goldschmidt, Henriette",
             "target": "Langemann, Ludwig"
         },
         {
-            "weight": 2.738385401129511,
-            "source": "Zietz, Luise",
-            "target": "Freudenberg, Ika"
+            "weight": 0.8777195446566912,
+            "source": "Goldschmidt, Henriette",
+            "target": "Kr\u00fcger, Elsa"
         },
         {
-            "weight": 2.735502786600051,
-            "source": "Zietz, Luise",
+            "weight": 1.4217005321233958,
+            "source": "Goldschmidt, Henriette",
+            "target": "Goldschmidt, Henriette"
+        },
+        {
+            "weight": 1.964523291201142,
+            "source": "Goldschmidt, Henriette",
+            "target": "Heymann, Lida Gustava"
+        },
+        {
+            "weight": 1.092044251654546,
+            "source": "Goldschmidt, Henriette",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.8743266122554774,
+            "source": "Goldschmidt, Henriette",
+            "target": "Meisel-He\u00df, Grete"
+        },
+        {
+            "weight": 1.8971449344251106,
+            "source": "Goldschmidt, Henriette",
+            "target": "Hilty, Carl"
+        },
+        {
+            "weight": 1.5244516178756295,
+            "source": "Goldschmidt, Henriette",
             "target": "Bebel, August"
         },
         {
-            "weight": 2.2043473784874785,
-            "source": "Zietz, Luise",
+            "weight": 1.7607972917212864,
+            "source": "Goldschmidt, Henriette",
+            "target": "Ichenhaeuser, Eliza"
+        },
+        {
+            "weight": 1.5452769126556376,
+            "source": "Bruhns, Julius",
+            "target": "Zietz, Luise"
+        },
+        {
+            "weight": 1.5762253247613456,
+            "source": "Bruhns, Julius",
+            "target": "Wegner, Marie"
+        },
+        {
+            "weight": 1.7218396677516443,
+            "source": "Bruhns, Julius",
             "target": "Luxemburg, Rosa"
         },
         {
-            "weight": 3.9767217122414165,
+            "weight": 1.2735386664284212,
+            "source": "Bruhns, Julius",
+            "target": "Walter, Marie"
+        },
+        {
+            "weight": 1.9282267866094362,
+            "source": "Bruhns, Julius",
+            "target": "Zetkin, Clara"
+        },
+        {
+            "weight": 1.6490724564431183,
+            "source": "Bruhns, Julius",
+            "target": "Welczeck, Adelheid von"
+        },
+        {
+            "weight": 1.2604500511255157,
             "source": "Zietz, Luise",
-            "target": "Ledermann, Frieda"
+            "target": "Wegner, Marie"
         },
         {
             "weight": 1.8272050200167587,
@@ -1793,34 +389,14 @@
             "target": "Walter, Marie"
         },
         {
+            "weight": 1.1495269251336522,
+            "source": "Zietz, Luise",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
             "weight": 1.0461167489754972,
             "source": "Zietz, Luise",
             "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 3.8860237398668493,
-            "source": "Zietz, Luise",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.0252454548674135,
-            "source": "Zietz, Luise",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 3.627279638186528,
-            "source": "Zietz, Luise",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 4.032902015776757,
-            "source": "Zietz, Luise",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 3.581624172802018,
-            "source": "Zietz, Luise",
-            "target": "Kirchhoff, Auguste"
         },
         {
             "weight": 1.1078450347222941,
@@ -1828,44 +404,9 @@
             "target": "Bohrer, Bertha"
         },
         {
-            "weight": 2.77413648846069,
-            "source": "Zietz, Luise",
-            "target": "Zietz, Luise"
-        },
-        {
-            "weight": 3.122740157227919,
-            "source": "Zietz, Luise",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 2.258211831735933,
-            "source": "Zietz, Luise",
-            "target": "Walcker, Karl"
-        },
-        {
             "weight": 1.845730963628848,
             "source": "Zietz, Luise",
             "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.9967801768277655,
-            "source": "Zietz, Luise",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 8.542943598780036,
-            "source": "Zietz, Luise",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.0405687352257558,
-            "source": "Zietz, Luise",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 4.473356244630891,
-            "source": "Zietz, Luise",
-            "target": "Bahnson, Minna"
         },
         {
             "weight": 1.7098486613950943,
@@ -1878,69 +419,9 @@
             "target": "Welczeck, Adelheid von"
         },
         {
-            "weight": 5.876641081969034,
+            "weight": 1.6043509938804217,
             "source": "Zietz, Luise",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 7.600840302940871,
-            "source": "Zietz, Luise",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 4.608257284404667,
-            "source": "Zietz, Luise",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 6.209830051683447,
-            "source": "Zietz, Luise",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.288773525281963,
-            "source": "Zietz, Luise",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 5.61078266129967,
-            "source": "Zietz, Luise",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.060598214067195,
-            "source": "Zietz, Luise",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.276607604612481,
-            "source": "Zietz, Luise",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.5259010989746202,
-            "source": "Zietz, Luise",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.7462933916816725,
-            "source": "Zietz, Luise",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.539231971435945,
-            "source": "Zietz, Luise",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 7.547481582570528,
-            "source": "Zietz, Luise",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 11.81003505486903,
-            "source": "Zietz, Luise",
-            "target": "Hanna, Gertrud"
+            "target": "Langemann, Ludwig"
         },
         {
             "weight": 1.7204702096642397,
@@ -1953,1319 +434,74 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 8.299473130059773,
-            "source": "Geyken, Alexander",
-            "target": "Gizycki, Lily von"
+            "weight": 0.5788331780055662,
+            "source": "Wegner, Marie",
+            "target": "Heymann, Lida Gustava"
         },
         {
-            "weight": 6.112711894825667,
-            "source": "Geyken, Alexander",
-            "target": "Blacker, Carola"
+            "weight": 1.300807478673903,
+            "source": "Wegner, Marie",
+            "target": "Steinbach, H."
         },
         {
-            "weight": 8.853108527436635,
-            "source": "Geyken, Alexander",
-            "target": "Zepler, Wally"
+            "weight": 1.4875091040284474,
+            "source": "Wegner, Marie",
+            "target": "Bohrer, Bertha"
         },
         {
-            "weight": 3.9696519649561965,
-            "source": "Geyken, Alexander",
+            "weight": 1.543052224447563,
+            "source": "Wegner, Marie",
+            "target": "Heyde, Ludwig"
+        },
+        {
+            "weight": 1.7975398150345425,
+            "source": "Wegner, Marie",
+            "target": "Walcker, Karl"
+        },
+        {
+            "weight": 1.8128469444611888,
+            "source": "Wegner, Marie",
+            "target": "Lischnewska, Maria"
+        },
+        {
+            "weight": 1.1024893953353838,
+            "source": "Wegner, Marie",
+            "target": "Krukenberg, Elsbeth"
+        },
+        {
+            "weight": 1.7784127260623908,
+            "source": "Wegner, Marie",
             "target": "Langemann, Ludwig"
         },
         {
-            "weight": 5.226315976008867,
-            "source": "Geyken, Alexander",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 4.824256283147956,
-            "source": "Geyken, Alexander",
+            "weight": 1.0856785750173648,
+            "source": "Wegner, Marie",
             "target": "Bebel, August"
         },
         {
-            "weight": 2.416836837437523,
-            "source": "Geyken, Alexander",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 1.894686266594606,
-            "source": "Geyken, Alexander",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 2.5063433256354912,
-            "source": "Geyken, Alexander",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 2.932311959808041,
-            "source": "Geyken, Alexander",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 6.195440108927474,
-            "source": "Geyken, Alexander",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 3.9892684274387955,
-            "source": "Geyken, Alexander",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 5.596717113008901,
-            "source": "Geyken, Alexander",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 6.456962828252465,
-            "source": "Geyken, Alexander",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 10.117684754539942,
-            "source": "Geyken, Alexander",
-            "target": "Geyken, Alexander"
-        },
-        {
-            "weight": 3.504515646407022,
-            "source": "Geyken, Alexander",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 3.5675078954316106,
-            "source": "Geyken, Alexander",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 4.448746912587026,
-            "source": "Geyken, Alexander",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 4.2811992050066845,
-            "source": "Geyken, Alexander",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 4.292800299419825,
-            "source": "Geyken, Alexander",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 6.078200273792533,
-            "source": "Geyken, Alexander",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 6.179880088785794,
-            "source": "Geyken, Alexander",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.396057468842735,
-            "source": "Geyken, Alexander",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 6.539165350027183,
-            "source": "Geyken, Alexander",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 1.64046854464748,
-            "source": "Geyken, Alexander",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 1.9617887180523663,
-            "source": "Geyken, Alexander",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 6.936499537680762,
-            "source": "Geyken, Alexander",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 10.078342560361422,
-            "source": "Geyken, Alexander",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 7.013900484546687,
-            "source": "Geyken, Alexander",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 7.796825013839191,
-            "source": "Geyken, Alexander",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 4.71544203993937,
-            "source": "Geyken, Alexander",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 4.147998568510739,
-            "source": "Geyken, Alexander",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 7.832335724223603,
-            "source": "Geyken, Alexander",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.080488550473422,
-            "source": "Geyken, Alexander",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 6.138781909967529,
-            "source": "Geyken, Alexander",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 6.381282138411313,
-            "source": "Geyken, Alexander",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 5.228234779212691,
-            "source": "Geyken, Alexander",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.92732455603564,
-            "source": "Geyken, Alexander",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 10.64002661380444,
-            "source": "Geyken, Alexander",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.3577538570376895,
-            "source": "Geyken, Alexander",
+            "weight": 1.697686658976951,
+            "source": "Wegner, Marie",
             "target": "Reeves, William Pember"
         },
         {
-            "weight": 3.518882178535147,
-            "source": "Geyken, Alexander",
+            "weight": 1.1527782084551779,
+            "source": "Wegner, Marie",
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 4.922296062244132,
-            "source": "Gizycki, Lily von",
-            "target": "Blacker, Carola"
-        },
-        {
-            "weight": 2.612750079109367,
-            "source": "Gizycki, Lily von",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 4.39460505889926,
-            "source": "Gizycki, Lily von",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 3.2917293782499253,
-            "source": "Gizycki, Lily von",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 3.9440284452738457,
-            "source": "Gizycki, Lily von",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 7.682111608521906,
-            "source": "Gizycki, Lily von",
+            "weight": 1.9609724105297752,
+            "source": "Wegner, Marie",
             "target": "Luxemburg, Rosa"
         },
         {
-            "weight": 9.684432340093958,
-            "source": "Gizycki, Lily von",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 6.731991283341737,
-            "source": "Gizycki, Lily von",
+            "weight": 1.6266931812549523,
+            "source": "Wegner, Marie",
             "target": "Walter, Marie"
         },
         {
-            "weight": 5.923628190862815,
-            "source": "Gizycki, Lily von",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 2.476614313015148,
-            "source": "Gizycki, Lily von",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 5.087545824975085,
-            "source": "Gizycki, Lily von",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 4.312804101991466,
-            "source": "Gizycki, Lily von",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 2.142201372087114,
-            "source": "Gizycki, Lily von",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 7.345401890853705,
-            "source": "Gizycki, Lily von",
+            "weight": 1.7317708656421225,
+            "source": "Wegner, Marie",
             "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 5.145543861469828,
-            "source": "Gizycki, Lily von",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 4.911946706482803,
-            "source": "Gizycki, Lily von",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 5.381801441468613,
-            "source": "Gizycki, Lily von",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 4.382323247553328,
-            "source": "Gizycki, Lily von",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.9733342251494768,
-            "source": "Gizycki, Lily von",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 14.112887441514212,
-            "source": "Gizycki, Lily von",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 6.778363470891408,
-            "source": "Gizycki, Lily von",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 2.940029145238192,
-            "source": "Gizycki, Lily von",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 7.322778225837939,
-            "source": "Gizycki, Lily von",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 7.138832652467668,
-            "source": "Gizycki, Lily von",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 6.638661972298609,
-            "source": "Gizycki, Lily von",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 2.1281307348675256,
-            "source": "Gizycki, Lily von",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.6889430298878656,
-            "source": "Gizycki, Lily von",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 4.975738716875029,
-            "source": "Gizycki, Lily von",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 4.083643014072001,
-            "source": "Gizycki, Lily von",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 10.444755057516362,
-            "source": "Gizycki, Lily von",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.708262010008612,
-            "source": "Gizycki, Lily von",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 9.332744668220398,
-            "source": "Gizycki, Lily von",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.55340671195985,
-            "source": "Gizycki, Lily von",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.969934182339075,
-            "source": "Gizycki, Lily von",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.3419810960653464,
-            "source": "Gizycki, Lily von",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.456569562708268,
-            "source": "Gizycki, Lily von",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 16.6790333954702,
-            "source": "Gizycki, Lily von",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.323633078031179,
-            "source": "Gizycki, Lily von",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 5.388883486308888,
-            "source": "Gizycki, Lily von",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 7.06323563050307,
-            "source": "Blacker, Carola",
-            "target": "Zepler, Wally"
-        },
-        {
-            "weight": 3.6494658620287184,
-            "source": "Blacker, Carola",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 4.343833072123101,
-            "source": "Blacker, Carola",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 2.298667607257573,
-            "source": "Blacker, Carola",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 5.449348390527634,
-            "source": "Blacker, Carola",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 7.44204535095728,
-            "source": "Blacker, Carola",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 4.044200528610994,
-            "source": "Blacker, Carola",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 5.421699010351729,
-            "source": "Blacker, Carola",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 2.813396289997339,
-            "source": "Blacker, Carola",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.6688937198244744,
-            "source": "Blacker, Carola",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 1.3848686808514785,
-            "source": "Blacker, Carola",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 3.1336091785083147,
-            "source": "Blacker, Carola",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 3.3870200898300222,
-            "source": "Blacker, Carola",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 3.606746727048671,
-            "source": "Blacker, Carola",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 2.2142793898324684,
-            "source": "Blacker, Carola",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.512373059294066,
-            "source": "Blacker, Carola",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 3.651463833946545,
-            "source": "Blacker, Carola",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 5.790716072176117,
-            "source": "Blacker, Carola",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 10.883434943076383,
-            "source": "Blacker, Carola",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 5.236741193968912,
-            "source": "Blacker, Carola",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.2761522185198944,
-            "source": "Blacker, Carola",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.878039315284891,
-            "source": "Blacker, Carola",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 5.15045310051097,
-            "source": "Blacker, Carola",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.846864112622691,
-            "source": "Blacker, Carola",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 5.624514485454302,
-            "source": "Blacker, Carola",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.8924538585762365,
-            "source": "Blacker, Carola",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 1.8697447616581715,
-            "source": "Blacker, Carola",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.8233427557948683,
-            "source": "Blacker, Carola",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 6.51671723814521,
-            "source": "Blacker, Carola",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.308255868535621,
-            "source": "Blacker, Carola",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.1573709367577525,
-            "source": "Blacker, Carola",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.026456206030393,
-            "source": "Blacker, Carola",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 6.2815828296328045,
-            "source": "Blacker, Carola",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.5256898609307283,
-            "source": "Blacker, Carola",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 11.538959703895777,
-            "source": "Blacker, Carola",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 16.24586826317161,
-            "source": "Blacker, Carola",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.630034946844556,
-            "source": "Blacker, Carola",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.040869380328133,
-            "source": "Blacker, Carola",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 5.248731056517753,
-            "source": "Zepler, Wally",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 3.837096596215039,
-            "source": "Zepler, Wally",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 5.480238793900019,
-            "source": "Zepler, Wally",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 8.2265431687653,
-            "source": "Zepler, Wally",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 10.016804759426833,
-            "source": "Zepler, Wally",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 7.677101458756682,
-            "source": "Zepler, Wally",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 6.040489432417333,
-            "source": "Zepler, Wally",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 4.364093912544063,
-            "source": "Zepler, Wally",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 6.342531303730174,
-            "source": "Zepler, Wally",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 6.146007679318758,
-            "source": "Zepler, Wally",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 3.9913036323869906,
-            "source": "Zepler, Wally",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 8.8062711578168,
-            "source": "Zepler, Wally",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 5.999412529979095,
-            "source": "Zepler, Wally",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 6.535787662377249,
-            "source": "Zepler, Wally",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 6.369978179351924,
-            "source": "Zepler, Wally",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 5.227190598094378,
-            "source": "Zepler, Wally",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.8332409873597593,
-            "source": "Zepler, Wally",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 14.68213271959083,
-            "source": "Zepler, Wally",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 7.295148769275351,
-            "source": "Zepler, Wally",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 4.729777127308042,
-            "source": "Zepler, Wally",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 7.596796443676412,
-            "source": "Zepler, Wally",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 7.691437172022858,
-            "source": "Zepler, Wally",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 8.021521832305986,
-            "source": "Zepler, Wally",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 4.1001705354357885,
-            "source": "Zepler, Wally",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 4.645492072537679,
-            "source": "Zepler, Wally",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 7.413548827864352,
-            "source": "Zepler, Wally",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 5.312881209661146,
-            "source": "Zepler, Wally",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 11.594896378121078,
-            "source": "Zepler, Wally",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.724268295347907,
-            "source": "Zepler, Wally",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 10.778508206462101,
-            "source": "Zepler, Wally",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.504887614005886,
-            "source": "Zepler, Wally",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 2.9605782451711598,
-            "source": "Zepler, Wally",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.305387085796249,
-            "source": "Zepler, Wally",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 7.49447236661941,
-            "source": "Zepler, Wally",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.63012346355394,
-            "source": "Zepler, Wally",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 5.13217327271453,
-            "source": "Zepler, Wally",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 6.550980609042201,
-            "source": "Zepler, Wally",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 1.476483147412966,
-            "source": "Langemann, Ludwig",
-            "target": "Freudenberg, Ika"
-        },
-        {
-            "weight": 1.5844764120581765,
-            "source": "Langemann, Ludwig",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 3.545191444836737,
-            "source": "Langemann, Ludwig",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 5.329342198466317,
-            "source": "Langemann, Ludwig",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 2.5730534323542016,
-            "source": "Langemann, Ludwig",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 1.9854875867928279,
-            "source": "Langemann, Ludwig",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 2.4926456433815796,
-            "source": "Langemann, Ludwig",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 1.5829508143155295,
-            "source": "Langemann, Ludwig",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 2.7436516007662655,
-            "source": "Langemann, Ludwig",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 2.562048808352095,
-            "source": "Langemann, Ludwig",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 3.8031462583861035,
-            "source": "Langemann, Ludwig",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 1.2757628567284682,
-            "source": "Langemann, Ludwig",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 2.206532356023194,
-            "source": "Langemann, Ludwig",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 2.084270233279038,
-            "source": "Langemann, Ludwig",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 0.8591738384645686,
-            "source": "Langemann, Ludwig",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.0047248303229916,
-            "source": "Langemann, Ludwig",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 9.750929084698027,
-            "source": "Langemann, Ludwig",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.5727285379271887,
-            "source": "Langemann, Ludwig",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 2.9211927794897536,
-            "source": "Langemann, Ludwig",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 3.092025397004172,
-            "source": "Langemann, Ludwig",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.8447127984388443,
-            "source": "Langemann, Ludwig",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.020380401132733,
-            "source": "Langemann, Ludwig",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 6.171782839920597,
-            "source": "Langemann, Ludwig",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 3.2767486095448706,
-            "source": "Langemann, Ludwig",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.147576327233484,
-            "source": "Langemann, Ludwig",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 1.3060128415115542,
-            "source": "Langemann, Ludwig",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 6.513442815928329,
-            "source": "Langemann, Ludwig",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 1.003523648571621,
-            "source": "Langemann, Ludwig",
-            "target": "Langemann, Ludwig"
-        },
-        {
-            "weight": 4.782185691756114,
-            "source": "Langemann, Ludwig",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.6105272547283755,
-            "source": "Langemann, Ludwig",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.2087296650289643,
-            "source": "Langemann, Ludwig",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.3769250935576207,
-            "source": "Langemann, Ludwig",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.4099678063647267,
-            "source": "Langemann, Ludwig",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.137359751708344,
-            "source": "Langemann, Ludwig",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.158258662405565,
-            "source": "Langemann, Ludwig",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 0.8332380125706722,
-            "source": "Langemann, Ludwig",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 1.471532151907424,
-            "source": "Langemann, Ludwig",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.2990360277665687,
-            "source": "Freudenberg, Ika",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 4.815361237509099,
-            "source": "Freudenberg, Ika",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 6.54171059240523,
-            "source": "Freudenberg, Ika",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 4.015104446900437,
-            "source": "Freudenberg, Ika",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 2.7247577486477113,
-            "source": "Freudenberg, Ika",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 2.2117420165352013,
-            "source": "Freudenberg, Ika",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.8387800811194026,
-            "source": "Freudenberg, Ika",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 3.401597883679703,
-            "source": "Freudenberg, Ika",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 1.9963973942371738,
-            "source": "Freudenberg, Ika",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 5.219007515042476,
-            "source": "Freudenberg, Ika",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 2.5369905638963237,
-            "source": "Freudenberg, Ika",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 3.161896590003876,
-            "source": "Freudenberg, Ika",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.0756146776423874,
-            "source": "Freudenberg, Ika",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 1.6656337992968797,
-            "source": "Freudenberg, Ika",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 1.974531238814875,
-            "source": "Freudenberg, Ika",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 11.071623243753468,
-            "source": "Freudenberg, Ika",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 3.6478312328941738,
-            "source": "Freudenberg, Ika",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 2.513467486271738,
-            "source": "Freudenberg, Ika",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 4.19032848300287,
-            "source": "Freudenberg, Ika",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 4.125894252208696,
-            "source": "Freudenberg, Ika",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.37429183269592,
-            "source": "Freudenberg, Ika",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 5.220822996919473,
-            "source": "Freudenberg, Ika",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.9684853189890203,
-            "source": "Freudenberg, Ika",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.509788149734437,
-            "source": "Freudenberg, Ika",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.0671080717906447,
-            "source": "Freudenberg, Ika",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 7.9815705990715315,
-            "source": "Freudenberg, Ika",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.803291282737253,
-            "source": "Freudenberg, Ika",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 7.02658843210928,
-            "source": "Freudenberg, Ika",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.2378201981644648,
-            "source": "Freudenberg, Ika",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 2.381971377847549,
-            "source": "Freudenberg, Ika",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.3105024341614826,
-            "source": "Freudenberg, Ika",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 7.616826283319486,
-            "source": "Freudenberg, Ika",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.651392632648726,
-            "source": "Freudenberg, Ika",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 1.6160373959530185,
-            "source": "Freudenberg, Ika",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.8470426982824897,
-            "source": "Freudenberg, Ika",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 4.288140253917368,
-            "source": "Bebel, August",
-            "target": "Luxemburg, Rosa"
-        },
-        {
-            "weight": 6.2672415463372815,
-            "source": "Bebel, August",
-            "target": "Ledermann, Frieda"
-        },
-        {
-            "weight": 3.0469789483455894,
-            "source": "Bebel, August",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 3.3772214083480376,
-            "source": "Bebel, August",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 1.5244516178756295,
-            "source": "Bebel, August",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 1.4693495816042101,
-            "source": "Bebel, August",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 1.359618207185106,
-            "source": "Bebel, August",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 1.9895769219968573,
-            "source": "Bebel, August",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 3.430910161541105,
-            "source": "Bebel, August",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 1.8087823345793268,
-            "source": "Bebel, August",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 1.3932571796199182,
-            "source": "Bebel, August",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 2.5182263368591813,
-            "source": "Bebel, August",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 1.8674766779214946,
-            "source": "Bebel, August",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 4.056295888819171,
-            "source": "Bebel, August",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 10.418019255628597,
-            "source": "Bebel, August",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 3.8205776708727877,
-            "source": "Bebel, August",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 2.6485485946440552,
-            "source": "Bebel, August",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 4.204186032311968,
-            "source": "Bebel, August",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 3.7939750376211467,
-            "source": "Bebel, August",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.205208852039708,
-            "source": "Bebel, August",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 5.4515494681535115,
-            "source": "Bebel, August",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.5967758968250445,
-            "source": "Bebel, August",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 3.623540247599645,
-            "source": "Bebel, August",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 1.1351811987270901,
-            "source": "Bebel, August",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 6.544526168458682,
-            "source": "Bebel, August",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.2039140724876685,
-            "source": "Bebel, August",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.557719494934315,
-            "source": "Bebel, August",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.4544215208800484,
-            "source": "Bebel, August",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.589098281003932,
-            "source": "Bebel, August",
-            "target": "Bebel, August"
-        },
-        {
-            "weight": 4.228538902167244,
-            "source": "Bebel, August",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.5932844153026657,
-            "source": "Bebel, August",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.423795058772539,
-            "source": "Bebel, August",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 14.515542275919257,
-            "source": "Bebel, August",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 1.7773597366994762,
-            "source": "Bebel, August",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 1.8232001295434137,
-            "source": "Bebel, August",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.5267317045598805,
-            "source": "Luxemburg, Rosa",
-            "target": "Ledermann, Frieda"
         },
         {
             "weight": 1.5556160399856456,
@@ -3273,74 +509,9 @@
             "target": "Walter, Marie"
         },
         {
-            "weight": 2.79785905533684,
+            "weight": 1.5877649183788958,
             "source": "Luxemburg, Rosa",
             "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 5.658871991701513,
-            "source": "Luxemburg, Rosa",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 3.080993461591761,
-            "source": "Luxemburg, Rosa",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 4.738414194116446,
-            "source": "Luxemburg, Rosa",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 5.809674536242312,
-            "source": "Luxemburg, Rosa",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 3.2705772723320115,
-            "source": "Luxemburg, Rosa",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 2.616761064543674,
-            "source": "Luxemburg, Rosa",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 4.407296141667054,
-            "source": "Luxemburg, Rosa",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 2.854729599828726,
-            "source": "Luxemburg, Rosa",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 3.4749760331719335,
-            "source": "Luxemburg, Rosa",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 5.8228785629687,
-            "source": "Luxemburg, Rosa",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 6.720152061046988,
-            "source": "Luxemburg, Rosa",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.4537534267027454,
-            "source": "Luxemburg, Rosa",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 6.092219251928805,
-            "source": "Luxemburg, Rosa",
-            "target": "Bahnson, Minna"
         },
         {
             "weight": 1.7488606284409638,
@@ -3353,269 +524,9 @@
             "target": "Welczeck, Adelheid von"
         },
         {
-            "weight": 6.364152617143574,
-            "source": "Luxemburg, Rosa",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 9.366411310955069,
-            "source": "Luxemburg, Rosa",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 6.044015636325839,
-            "source": "Luxemburg, Rosa",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 7.168071247753253,
-            "source": "Luxemburg, Rosa",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.7440680802246336,
-            "source": "Luxemburg, Rosa",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 3.9218259315620863,
-            "source": "Luxemburg, Rosa",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 7.074970439446267,
-            "source": "Luxemburg, Rosa",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.274476102088306,
-            "source": "Luxemburg, Rosa",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 5.379461637874654,
-            "source": "Luxemburg, Rosa",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.589033061488103,
-            "source": "Luxemburg, Rosa",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.3429167613038615,
-            "source": "Luxemburg, Rosa",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.357632765429246,
-            "source": "Luxemburg, Rosa",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 10.983573059250018,
-            "source": "Luxemburg, Rosa",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.4580788694605173,
-            "source": "Luxemburg, Rosa",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.909710427578969,
-            "source": "Luxemburg, Rosa",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.4648480608030936,
-            "source": "Ledermann, Frieda",
-            "target": "Walter, Marie"
-        },
-        {
-            "weight": 4.012515105685773,
-            "source": "Ledermann, Frieda",
-            "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 7.658443160023483,
-            "source": "Ledermann, Frieda",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 5.179364459370691,
-            "source": "Ledermann, Frieda",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 6.882369196082819,
-            "source": "Ledermann, Frieda",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 7.8365974426466725,
-            "source": "Ledermann, Frieda",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 4.609718103826145,
-            "source": "Ledermann, Frieda",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 4.7240478389819165,
-            "source": "Ledermann, Frieda",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 6.028115431666246,
-            "source": "Ledermann, Frieda",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 5.104406565285825,
-            "source": "Ledermann, Frieda",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 5.4540676163118595,
-            "source": "Ledermann, Frieda",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 7.218713306640206,
-            "source": "Ledermann, Frieda",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 4.788646064888097,
-            "source": "Ledermann, Frieda",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 3.3671041193057922,
-            "source": "Ledermann, Frieda",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 7.9314275027390515,
-            "source": "Ledermann, Frieda",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 2.4761619623917555,
-            "source": "Ledermann, Frieda",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.6557468530784116,
-            "source": "Ledermann, Frieda",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 7.770971542902284,
-            "source": "Ledermann, Frieda",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 11.467662774576153,
-            "source": "Ledermann, Frieda",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 8.23523469413959,
-            "source": "Ledermann, Frieda",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 9.186071818167374,
-            "source": "Ledermann, Frieda",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 5.9200214527779185,
-            "source": "Ledermann, Frieda",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 3.9327843584316713,
-            "source": "Ledermann, Frieda",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 8.9983629781213,
-            "source": "Ledermann, Frieda",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.629301698852453,
-            "source": "Ledermann, Frieda",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 7.358472362598533,
-            "source": "Ledermann, Frieda",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 7.283243452888238,
-            "source": "Ledermann, Frieda",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 6.437768785692498,
-            "source": "Ledermann, Frieda",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.83342718804675,
-            "source": "Ledermann, Frieda",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 9.288725140236451,
-            "source": "Ledermann, Frieda",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 5.49137146746898,
-            "source": "Ledermann, Frieda",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 4.780342982115777,
-            "source": "Ledermann, Frieda",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.6735226890769876,
+            "weight": 1.4711867984709903,
             "source": "Walter, Marie",
             "target": "Zetkin, Clara"
-        },
-        {
-            "weight": 4.5131211266779765,
-            "source": "Walter, Marie",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 1.7961019124536106,
-            "source": "Walter, Marie",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 3.468621678578694,
-            "source": "Walter, Marie",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 4.710871563118693,
-            "source": "Walter, Marie",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 2.074827922101692,
-            "source": "Walter, Marie",
-            "target": "Kirchhoff, Auguste"
         },
         {
             "weight": 1.7731409741222501,
@@ -3623,119 +534,9 @@
             "target": "Bohrer, Bertha"
         },
         {
-            "weight": 2.9396896165453423,
-            "source": "Walter, Marie",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 2.080443153317921,
-            "source": "Walter, Marie",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.6178105879167664,
-            "source": "Walter, Marie",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 5.221702828847329,
-            "source": "Walter, Marie",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 7.451879953536917,
-            "source": "Walter, Marie",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.108118824906237,
-            "source": "Walter, Marie",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 4.886406886156348,
-            "source": "Walter, Marie",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 2.20410685294358,
-            "source": "Walter, Marie",
-            "target": "Perlen, Frida"
-        },
-        {
             "weight": 1.2632582203963474,
             "source": "Walter, Marie",
             "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.357968228080692,
-            "source": "Walter, Marie",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 8.298147665113563,
-            "source": "Walter, Marie",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 4.957018948635062,
-            "source": "Walter, Marie",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.81551548393496,
-            "source": "Walter, Marie",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.7219797340445147,
-            "source": "Walter, Marie",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 4.008530758109467,
-            "source": "Walter, Marie",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 5.812125167838355,
-            "source": "Walter, Marie",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 3.5337141362421964,
-            "source": "Walter, Marie",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.521276094789741,
-            "source": "Walter, Marie",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.3994508897568325,
-            "source": "Walter, Marie",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.5089056920369393,
-            "source": "Walter, Marie",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.106155813477578,
-            "source": "Walter, Marie",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 12.292831127749668,
-            "source": "Walter, Marie",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.61423338524796,
-            "source": "Walter, Marie",
-            "target": "Reeves, William Pember"
         },
         {
             "weight": 1.5331596539221999,
@@ -3743,59 +544,9 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 4.312587153021244,
-            "source": "Zetkin, Clara",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.9276502210615574,
-            "source": "Zetkin, Clara",
+            "weight": 1.7961019124536106,
+            "source": "Walter, Marie",
             "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 4.4533728061787,
-            "source": "Zetkin, Clara",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 4.404189682796561,
-            "source": "Zetkin, Clara",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 4.417030922686583,
-            "source": "Zetkin, Clara",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 2.0277631242740286,
-            "source": "Zetkin, Clara",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 3.740958758870523,
-            "source": "Zetkin, Clara",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.0408072939232174,
-            "source": "Zetkin, Clara",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.30909363529542,
-            "source": "Zetkin, Clara",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.638569121083002,
-            "source": "Zetkin, Clara",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 8.724514634413156,
-            "source": "Zetkin, Clara",
-            "target": "Gr\u00fcnberg, Helene"
         },
         {
             "weight": 1.627599752950857,
@@ -3803,14 +554,9 @@
             "target": "Zetkin, Clara"
         },
         {
-            "weight": 2.0469657008079674,
+            "weight": 1.1341557682726564,
             "source": "Zetkin, Clara",
             "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 4.775934434348826,
-            "source": "Zetkin, Clara",
-            "target": "Bahnson, Minna"
         },
         {
             "weight": 1.6215349331560482,
@@ -3818,247 +564,52 @@
             "target": "Perlen, Frida"
         },
         {
-            "weight": 2.0840088584858933,
+            "weight": 0.6481286986825492,
             "source": "Zetkin, Clara",
             "target": "Welczeck, Adelheid von"
         },
         {
-            "weight": 6.277716961901839,
+            "weight": 1.8596674891560772,
             "source": "Zetkin, Clara",
-            "target": "Pappenheim, Bertha"
+            "target": "Geyken, Alexander"
         },
         {
-            "weight": 7.878095502192251,
+            "weight": 1.9854875867928279,
             "source": "Zetkin, Clara",
-            "target": "Lewald, Fanny"
+            "target": "Langemann, Ludwig"
         },
         {
-            "weight": 5.135815474229817,
-            "source": "Zetkin, Clara",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 6.971887923223738,
-            "source": "Zetkin, Clara",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.989195498781971,
-            "source": "Zetkin, Clara",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 6.281603620057914,
-            "source": "Zetkin, Clara",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.61807315911857,
-            "source": "Zetkin, Clara",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.932888512836232,
-            "source": "Zetkin, Clara",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.7336732865649696,
-            "source": "Zetkin, Clara",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.465395909582355,
-            "source": "Zetkin, Clara",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.9669747038455396,
-            "source": "Zetkin, Clara",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 6.844320285919724,
-            "source": "Zetkin, Clara",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 11.232063021253394,
-            "source": "Zetkin, Clara",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.269623187739159,
-            "source": "Zetkin, Clara",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.6464620846898605,
-            "source": "Zetkin, Clara",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.8451064447346797,
-            "source": "Goldschmidt, Henriette",
-            "target": "Heymann, Lida Gustava"
-        },
-        {
-            "weight": 2.0503031506053455,
-            "source": "Goldschmidt, Henriette",
-            "target": "Steinbach, H."
-        },
-        {
-            "weight": 0.8777195446566912,
-            "source": "Goldschmidt, Henriette",
-            "target": "Kr\u00fcger, Elsa"
-        },
-        {
-            "weight": 4.8926530032352495,
-            "source": "Goldschmidt, Henriette",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 3.0704003944788925,
-            "source": "Goldschmidt, Henriette",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 1.4217005321233958,
-            "source": "Goldschmidt, Henriette",
-            "target": "Goldschmidt, Henriette"
-        },
-        {
-            "weight": 2.520088126538394,
-            "source": "Goldschmidt, Henriette",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.5517942389307118,
-            "source": "Goldschmidt, Henriette",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.654649167208618,
-            "source": "Goldschmidt, Henriette",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.8088834875685764,
-            "source": "Goldschmidt, Henriette",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 11.908568641918782,
-            "source": "Goldschmidt, Henriette",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 4.972023480230848,
-            "source": "Goldschmidt, Henriette",
+            "weight": 1.5110287114266692,
+            "source": "Welczeck, Adelheid von",
             "target": "Lindemann, Anna"
         },
         {
-            "weight": 2.0613697340396007,
-            "source": "Goldschmidt, Henriette",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.442079206820952,
-            "source": "Goldschmidt, Henriette",
+            "weight": 1.1718886715367358,
+            "source": "Welczeck, Adelheid von",
             "target": "Perlen, Frida"
         },
         {
-            "weight": 5.136976360109871,
-            "source": "Goldschmidt, Henriette",
-            "target": "Welczeck, Adelheid von"
+            "weight": 1.9617887180523663,
+            "source": "Welczeck, Adelheid von",
+            "target": "Geyken, Alexander"
         },
         {
-            "weight": 5.55759754823883,
-            "source": "Goldschmidt, Henriette",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 3.9890547917030634,
-            "source": "Goldschmidt, Henriette",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 1.8743266122554774,
-            "source": "Goldschmidt, Henriette",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 3.466220433375219,
-            "source": "Goldschmidt, Henriette",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.0503383351329436,
-            "source": "Goldschmidt, Henriette",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.051091029109736,
-            "source": "Goldschmidt, Henriette",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.9408628017857246,
-            "source": "Goldschmidt, Henriette",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 6.9691624734215445,
-            "source": "Goldschmidt, Henriette",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.8971449344251106,
-            "source": "Goldschmidt, Henriette",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.9568851949116346,
-            "source": "Goldschmidt, Henriette",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.7607972917212864,
-            "source": "Goldschmidt, Henriette",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.539308585566216,
-            "source": "Goldschmidt, Henriette",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.500250100421917,
-            "source": "Goldschmidt, Henriette",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.5705692718810624,
-            "source": "Goldschmidt, Henriette",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.1858159608735024,
-            "source": "Goldschmidt, Henriette",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 1.8399566633878126,
+            "weight": 1.9697409992955022,
             "source": "Heymann, Lida Gustava",
-            "target": "Steinbach, H."
+            "target": "Breitscheid, Tony"
         },
         {
-            "weight": 3.0232105449555347,
+            "weight": 1.5829508143155295,
             "source": "Heymann, Lida Gustava",
-            "target": "Kr\u00fcger, Elsa"
+            "target": "Langemann, Ludwig"
         },
         {
-            "weight": 2.615189742449357,
+            "weight": 1.8427464618147789,
+            "source": "Heymann, Lida Gustava",
+            "target": "Freudenberg, Ika"
+        },
+        {
+            "weight": 1.9403225562787894,
             "source": "Heymann, Lida Gustava",
             "target": "Kirchhoff, Auguste"
         },
@@ -4078,64 +629,9 @@
             "target": "Heyde, Ludwig"
         },
         {
-            "weight": 1.4864077837176155,
-            "source": "Heymann, Lida Gustava",
-            "target": "Walcker, Karl"
-        },
-        {
             "weight": 1.6036437900112512,
             "source": "Heymann, Lida Gustava",
             "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 4.351190612684681,
-            "source": "Heymann, Lida Gustava",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 9.189676319474213,
-            "source": "Heymann, Lida Gustava",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.927478124446066,
-            "source": "Heymann, Lida Gustava",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.35373069297656,
-            "source": "Heymann, Lida Gustava",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 3.3935923164415724,
-            "source": "Heymann, Lida Gustava",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.6953367903764858,
-            "source": "Heymann, Lida Gustava",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.727496421188165,
-            "source": "Heymann, Lida Gustava",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 6.54725639138859,
-            "source": "Heymann, Lida Gustava",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 3.2528027909599055,
-            "source": "Heymann, Lida Gustava",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 4.3751309241094205,
-            "source": "Heymann, Lida Gustava",
-            "target": "B\u00e4umer, Gertrud"
         },
         {
             "weight": 1.2048426238325662,
@@ -4143,44 +639,14 @@
             "target": "Krukenberg, Elsbeth"
         },
         {
-            "weight": 5.44440154507955,
+            "weight": 1.4693495816042101,
             "source": "Heymann, Lida Gustava",
-            "target": "Baader, Ottilie"
+            "target": "Bebel, August"
         },
         {
-            "weight": 4.398346591374379,
-            "source": "Heymann, Lida Gustava",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.560045941960428,
-            "source": "Heymann, Lida Gustava",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.052178820573947,
-            "source": "Heymann, Lida Gustava",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 4.551553186076019,
-            "source": "Heymann, Lida Gustava",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.09109732329587,
+            "weight": 1.7651110226907885,
             "source": "Heymann, Lida Gustava",
             "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.215694345903506,
-            "source": "Heymann, Lida Gustava",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.652793911506201,
-            "source": "Heymann, Lida Gustava",
-            "target": "Hanna, Gertrud"
         },
         {
             "weight": 1.4631464122689541,
@@ -4193,19 +659,34 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 2.4542100521297536,
-            "source": "Steinbach, H.",
+            "weight": 1.8399566633878126,
+            "source": "Heymann, Lida Gustava",
+            "target": "Steinbach, H."
+        },
+        {
+            "weight": 1.8816567973403657,
+            "source": "Heymann, Lida Gustava",
             "target": "Kr\u00fcger, Elsa"
         },
         {
-            "weight": 3.351334924561764,
-            "source": "Steinbach, H.",
-            "target": "Kirchhoff, Auguste"
+            "weight": 1.629518054931081,
+            "source": "Heymann, Lida Gustava",
+            "target": "Meisel-He\u00df, Grete"
         },
         {
-            "weight": 2.5873755448749494,
+            "weight": 1.4864077837176155,
+            "source": "Heymann, Lida Gustava",
+            "target": "Walcker, Karl"
+        },
+        {
+            "weight": 1.8675828124594138,
             "source": "Steinbach, H.",
-            "target": "Bohrer, Bertha"
+            "target": "Geyken, Alexander"
+        },
+        {
+            "weight": 1.3848686808514785,
+            "source": "Steinbach, H.",
+            "target": "Blacker, Carola"
         },
         {
             "weight": 1.8507964193438153,
@@ -4213,384 +694,24 @@
             "target": "Heyde, Ludwig"
         },
         {
-            "weight": 2.8531799461642278,
-            "source": "Steinbach, H.",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.8008653653347872,
-            "source": "Steinbach, H.",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 5.0911809947929925,
-            "source": "Steinbach, H.",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 10.68642167017946,
-            "source": "Steinbach, H.",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 4.6966215648287974,
-            "source": "Steinbach, H.",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.0884281168044296,
-            "source": "Steinbach, H.",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.084305385165406,
-            "source": "Steinbach, H.",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 4.469527322587187,
-            "source": "Steinbach, H.",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.2182305450227515,
-            "source": "Steinbach, H.",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 5.396951190010823,
-            "source": "Steinbach, H.",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.490088462116182,
-            "source": "Steinbach, H.",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 2.6668158594041773,
-            "source": "Steinbach, H.",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
             "weight": 1.8488267201409878,
             "source": "Steinbach, H.",
             "target": "Krukenberg, Elsbeth"
         },
         {
-            "weight": 6.463965315301787,
+            "weight": 1.359618207185106,
             "source": "Steinbach, H.",
-            "target": "Baader, Ottilie"
+            "target": "Bebel, August"
         },
         {
-            "weight": 3.806005390405568,
-            "source": "Steinbach, H.",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.485098453040641,
-            "source": "Steinbach, H.",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.1638219223730206,
-            "source": "Steinbach, H.",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.128169777777903,
-            "source": "Steinbach, H.",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.4490262520272505,
-            "source": "Steinbach, H.",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 10.367135855856006,
-            "source": "Steinbach, H.",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.379781776152061,
-            "source": "Steinbach, H.",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.6293980362318665,
-            "source": "Steinbach, H.",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.3997165957813267,
-            "source": "Steinbach, H.",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 5.2988987043994875,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 3.295676510685878,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 2.9654533236169507,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.4348123228995786,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 2.528180622037399,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 3.278441737139675,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 12.096134820264622,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 4.934155583809832,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 1.447281899604991,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.619540284307477,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 5.258386643339393,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.0436227004990855,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 3.6397228259110213,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 1.2946228511447404,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 3.8625508824314436,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.1218128618458225,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.396581279765169,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.4550457503683827,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 7.211414722135188,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.269550298170887,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.707099355466013,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 1.68205555946526,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.294552781150466,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.496223085583603,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.4802423749924825,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.308682797679957,
-            "source": "Kr\u00fcger, Elsa",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.123815136801309,
-            "source": "Kirchhoff, Auguste",
-            "target": "Bohrer, Bertha"
-        },
-        {
-            "weight": 2.742579539254282,
-            "source": "Kirchhoff, Auguste",
-            "target": "Heyde, Ludwig"
-        },
-        {
-            "weight": 3.4734969084163474,
-            "source": "Kirchhoff, Auguste",
-            "target": "Walcker, Karl"
-        },
-        {
-            "weight": 4.002500817583082,
-            "source": "Kirchhoff, Auguste",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 6.6458387228842675,
-            "source": "Kirchhoff, Auguste",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 7.655987479353224,
-            "source": "Kirchhoff, Auguste",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 3.8419347144033282,
-            "source": "Kirchhoff, Auguste",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 4.385997269011369,
-            "source": "Kirchhoff, Auguste",
-            "target": "Kirchhoff, Auguste"
-        },
-        {
-            "weight": 5.432436259565575,
-            "source": "Kirchhoff, Auguste",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 3.924277350395347,
-            "source": "Kirchhoff, Auguste",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 3.2029801979507027,
-            "source": "Kirchhoff, Auguste",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.849040008118393,
-            "source": "Kirchhoff, Auguste",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 8.617715032600614,
-            "source": "Kirchhoff, Auguste",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 5.454546047663827,
-            "source": "Kirchhoff, Auguste",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 4.949733766118872,
-            "source": "Kirchhoff, Auguste",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.663795665458661,
-            "source": "Kirchhoff, Auguste",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 3.3260883036012,
-            "source": "Kirchhoff, Auguste",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 5.894319263022036,
-            "source": "Kirchhoff, Auguste",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 2.478859039058746,
-            "source": "Kirchhoff, Auguste",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 5.586050025374385,
-            "source": "Kirchhoff, Auguste",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 6.95017415972287,
-            "source": "Kirchhoff, Auguste",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.593288240360081,
-            "source": "Kirchhoff, Auguste",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 11.069990710734707,
-            "source": "Kirchhoff, Auguste",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.82457330202762,
-            "source": "Kirchhoff, Auguste",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.9813696753485317,
-            "source": "Kirchhoff, Auguste",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.553219702273553,
-            "source": "Kirchhoff, Auguste",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.4323605210531474,
+            "weight": 1.2757628567284682,
             "source": "Bohrer, Bertha",
-            "target": "Heyde, Ludwig"
+            "target": "Langemann, Ludwig"
+        },
+        {
+            "weight": 1.6042642665786166,
+            "source": "Bohrer, Bertha",
+            "target": "Kirchhoff, Auguste"
         },
         {
             "weight": 1.7130083475321034,
@@ -4603,99 +724,19 @@
             "target": "Lischnewska, Maria"
         },
         {
-            "weight": 4.098096107603315,
-            "source": "Bohrer, Bertha",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 9.085456606909727,
-            "source": "Bohrer, Bertha",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.6411638649894535,
-            "source": "Bohrer, Bertha",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.8554075866052795,
-            "source": "Bohrer, Bertha",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 2.6166539836313145,
-            "source": "Bohrer, Bertha",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.1959733020222925,
-            "source": "Bohrer, Bertha",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.5283727099475035,
-            "source": "Bohrer, Bertha",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 6.861265638364889,
-            "source": "Bohrer, Bertha",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 3.7644650918673976,
-            "source": "Bohrer, Bertha",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.166250691718792,
-            "source": "Bohrer, Bertha",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
             "weight": 1.3549356202848337,
             "source": "Bohrer, Bertha",
             "target": "Krukenberg, Elsbeth"
         },
         {
-            "weight": 5.596906068967055,
+            "weight": 1.8087823345793268,
             "source": "Bohrer, Bertha",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 5.314513813773606,
-            "source": "Bohrer, Bertha",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.110510424455237,
-            "source": "Bohrer, Bertha",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.0493552371659933,
-            "source": "Bohrer, Bertha",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.8495596723152388,
-            "source": "Bohrer, Bertha",
-            "target": "Dullo, Alice"
+            "target": "Bebel, August"
         },
         {
             "weight": 1.8830097524998965,
             "source": "Bohrer, Bertha",
             "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.27664850693196,
-            "source": "Bohrer, Bertha",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 12.829964563646758,
-            "source": "Bohrer, Bertha",
-            "target": "Hanna, Gertrud"
         },
         {
             "weight": 1.2519513229305643,
@@ -4708,114 +749,14 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 3.1201879848352467,
+            "weight": 1.8492080366614403,
             "source": "Heyde, Ludwig",
-            "target": "Walcker, Karl"
+            "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 2.685212227248927,
+            "weight": 1.3932571796199182,
             "source": "Heyde, Ludwig",
-            "target": "Lischnewska, Maria"
-        },
-        {
-            "weight": 4.7341088866552745,
-            "source": "Heyde, Ludwig",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 9.851528979903527,
-            "source": "Heyde, Ludwig",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 3.8005584477561376,
-            "source": "Heyde, Ludwig",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.158913633454752,
-            "source": "Heyde, Ludwig",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 4.298199809848355,
-            "source": "Heyde, Ludwig",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 3.8677719563810924,
-            "source": "Heyde, Ludwig",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.097968417429245,
-            "source": "Heyde, Ludwig",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 6.2318080354453045,
-            "source": "Heyde, Ludwig",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 3.505240432944758,
-            "source": "Heyde, Ludwig",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 3.654873073605902,
-            "source": "Heyde, Ludwig",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.251373831070603,
-            "source": "Heyde, Ludwig",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 6.007016484484749,
-            "source": "Heyde, Ludwig",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.344483684372067,
-            "source": "Heyde, Ludwig",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.7228184218378235,
-            "source": "Heyde, Ludwig",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.491575553266795,
-            "source": "Heyde, Ludwig",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.3069197448431,
-            "source": "Heyde, Ludwig",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.8280846913520286,
-            "source": "Heyde, Ludwig",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 10.258238459071393,
-            "source": "Heyde, Ludwig",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 14.656158152903469,
-            "source": "Heyde, Ludwig",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.607012787567226,
-            "source": "Heyde, Ludwig",
-            "target": "Reeves, William Pember"
+            "target": "Bebel, August"
         },
         {
             "weight": 1.7938266280202118,
@@ -4828,99 +769,9 @@
             "target": "Lischnewska, Maria"
         },
         {
-            "weight": 4.0791699722377235,
-            "source": "Walcker, Karl",
-            "target": "L\u00fcders, Else"
-        },
-        {
-            "weight": 9.117064372320701,
-            "source": "Walcker, Karl",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 2.65016126536332,
-            "source": "Walcker, Karl",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.566278636835155,
-            "source": "Walcker, Karl",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 3.4121156590704906,
-            "source": "Walcker, Karl",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.5299029174810634,
-            "source": "Walcker, Karl",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.24597731722284,
-            "source": "Walcker, Karl",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 6.823079461681916,
-            "source": "Walcker, Karl",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 3.353244077430641,
-            "source": "Walcker, Karl",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.214991585879979,
-            "source": "Walcker, Karl",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
             "weight": 1.5659103504508463,
             "source": "Walcker, Karl",
             "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 5.705110470278369,
-            "source": "Walcker, Karl",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.424687913366684,
-            "source": "Walcker, Karl",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.911284872228467,
-            "source": "Walcker, Karl",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 3.0837467405362147,
-            "source": "Walcker, Karl",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 4.361774682251446,
-            "source": "Walcker, Karl",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.2990441838150026,
-            "source": "Walcker, Karl",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.647762330660681,
-            "source": "Walcker, Karl",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.178245492646411,
-            "source": "Walcker, Karl",
-            "target": "Hanna, Gertrud"
         },
         {
             "weight": 1.577410858308571,
@@ -4933,54 +784,19 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 2.883821494991567,
+            "weight": 0.8591738384645686,
             "source": "Lischnewska, Maria",
-            "target": "L\u00fcders, Else"
+            "target": "Langemann, Ludwig"
         },
         {
-            "weight": 9.822103704458248,
+            "weight": 1.6656337992968797,
             "source": "Lischnewska, Maria",
-            "target": "Gr\u00fcnberg, Helene"
+            "target": "Freudenberg, Ika"
         },
         {
-            "weight": 2.566446631385525,
+            "weight": 1.2922203831860042,
             "source": "Lischnewska, Maria",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 2.7895592032645427,
-            "source": "Lischnewska, Maria",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 3.294690987445251,
-            "source": "Lischnewska, Maria",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 2.846699243748544,
-            "source": "Lischnewska, Maria",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.5885458978709535,
-            "source": "Lischnewska, Maria",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 6.079373026121062,
-            "source": "Lischnewska, Maria",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 2.9543482325608834,
-            "source": "Lischnewska, Maria",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.197296355119358,
-            "source": "Lischnewska, Maria",
-            "target": "B\u00e4umer, Gertrud"
+            "target": "Kirchhoff, Auguste"
         },
         {
             "weight": 1.0415711255772393,
@@ -4988,44 +804,14 @@
             "target": "Krukenberg, Elsbeth"
         },
         {
-            "weight": 6.579820056773194,
+            "weight": 1.8674766779214946,
             "source": "Lischnewska, Maria",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.461212397834782,
-            "source": "Lischnewska, Maria",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.676018125366945,
-            "source": "Lischnewska, Maria",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.006107539769849,
-            "source": "Lischnewska, Maria",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.303680467815373,
-            "source": "Lischnewska, Maria",
-            "target": "Dullo, Alice"
+            "target": "Bebel, August"
         },
         {
             "weight": 1.2551117091894595,
             "source": "Lischnewska, Maria",
             "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.035145316044304,
-            "source": "Lischnewska, Maria",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.191777311592084,
-            "source": "Lischnewska, Maria",
-            "target": "Hanna, Gertrud"
         },
         {
             "weight": 0.5537092318376385,
@@ -5038,819 +824,24 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 11.674500589490398,
-            "source": "L\u00fcders, Else",
-            "target": "Gr\u00fcnberg, Helene"
-        },
-        {
-            "weight": 4.083851440567077,
-            "source": "L\u00fcders, Else",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 3.0761214409772415,
-            "source": "L\u00fcders, Else",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 5.043791956894107,
-            "source": "L\u00fcders, Else",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 5.032488755891213,
-            "source": "L\u00fcders, Else",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 5.198507058255835,
-            "source": "L\u00fcders, Else",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 5.697568847198808,
-            "source": "L\u00fcders, Else",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 3.938449857212787,
-            "source": "L\u00fcders, Else",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 6.967311064212086,
-            "source": "L\u00fcders, Else",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.629281167178233,
-            "source": "L\u00fcders, Else",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 9.170166587269545,
-            "source": "L\u00fcders, Else",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 5.232980270167699,
-            "source": "L\u00fcders, Else",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 8.017034750825102,
-            "source": "L\u00fcders, Else",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.2803138989147738,
-            "source": "L\u00fcders, Else",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 2.7609966878057444,
-            "source": "L\u00fcders, Else",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.994935073971451,
-            "source": "L\u00fcders, Else",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 7.069176411103583,
-            "source": "L\u00fcders, Else",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.448569258171325,
-            "source": "L\u00fcders, Else",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.0513203974172356,
-            "source": "L\u00fcders, Else",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 4.173769971274478,
-            "source": "L\u00fcders, Else",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 7.654967750922843,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Lindemann, Anna"
-        },
-        {
-            "weight": 11.986554101365375,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 7.2237340982166796,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 7.093999089642381,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 10.696710947571999,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 15.686436022267177,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 12.27443831537954,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 12.554076083706736,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 10.155339954692524,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 4.954497224070376,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 12.385983810981669,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 6.205978047154529,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 11.759712634186759,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 11.978786245641551,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 10.861639387686186,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 12.887892819316345,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 9.820874052379432,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 9.858709386024206,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 8.80409193356302,
-            "source": "Gr\u00fcnberg, Helene",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 4.766845755050599,
-            "source": "Lindemann, Anna",
-            "target": "Bahnson, Minna"
-        },
-        {
-            "weight": 1.8817532223875364,
-            "source": "Lindemann, Anna",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 1.5110287114266692,
-            "source": "Lindemann, Anna",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 4.978031046442592,
-            "source": "Lindemann, Anna",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 8.487898629598797,
-            "source": "Lindemann, Anna",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 5.342521655572829,
-            "source": "Lindemann, Anna",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 7.025205351182439,
-            "source": "Lindemann, Anna",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.3409402692958015,
-            "source": "Lindemann, Anna",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 5.416623249955476,
-            "source": "Lindemann, Anna",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.076631098425336,
-            "source": "Lindemann, Anna",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.586768327310443,
-            "source": "Lindemann, Anna",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.378493936164195,
-            "source": "Lindemann, Anna",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 4.930120510550452,
-            "source": "Lindemann, Anna",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.7570979292568722,
-            "source": "Lindemann, Anna",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.046797217990573,
-            "source": "Lindemann, Anna",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 11.347963661522282,
-            "source": "Lindemann, Anna",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.777570856857225,
-            "source": "Lindemann, Anna",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.3549116452873156,
-            "source": "Lindemann, Anna",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 5.891614931186725,
-            "source": "Bahnson, Minna",
-            "target": "Perlen, Frida"
-        },
-        {
-            "weight": 5.426838286704058,
-            "source": "Bahnson, Minna",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 3.883807159532522,
-            "source": "Bahnson, Minna",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 3.997450236853204,
-            "source": "Bahnson, Minna",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 1.6511915956499859,
-            "source": "Bahnson, Minna",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 4.177604208423201,
-            "source": "Bahnson, Minna",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.6989421828707845,
-            "source": "Bahnson, Minna",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.500928485511087,
-            "source": "Bahnson, Minna",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 2.5528776503889854,
-            "source": "Bahnson, Minna",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 6.937740804315347,
-            "source": "Bahnson, Minna",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.89586639527175,
-            "source": "Bahnson, Minna",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 4.496136582859355,
-            "source": "Bahnson, Minna",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.5602465281546802,
-            "source": "Bahnson, Minna",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.797316195909156,
-            "source": "Bahnson, Minna",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.684088438908121,
-            "source": "Bahnson, Minna",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.912118289506527,
-            "source": "Bahnson, Minna",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.4141553646702527,
-            "source": "Bahnson, Minna",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 1.1718886715367358,
-            "source": "Perlen, Frida",
-            "target": "Welczeck, Adelheid von"
-        },
-        {
-            "weight": 6.709088128141074,
-            "source": "Perlen, Frida",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 9.205981788036077,
-            "source": "Perlen, Frida",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 6.186578988303252,
-            "source": "Perlen, Frida",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 7.546387854740633,
-            "source": "Perlen, Frida",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.829330960214495,
-            "source": "Perlen, Frida",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 5.008296817746859,
-            "source": "Perlen, Frida",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 7.404227517551153,
-            "source": "Perlen, Frida",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.0508236129226525,
-            "source": "Perlen, Frida",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 5.088394258772588,
-            "source": "Perlen, Frida",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 4.934486609017172,
-            "source": "Perlen, Frida",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.15629444086616,
-            "source": "Perlen, Frida",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 7.523787244436758,
-            "source": "Perlen, Frida",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 10.434269702189969,
-            "source": "Perlen, Frida",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.3287016622069747,
-            "source": "Perlen, Frida",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.0479741578585173,
-            "source": "Perlen, Frida",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 5.843619048415688,
-            "source": "Welczeck, Adelheid von",
-            "target": "Pappenheim, Bertha"
-        },
-        {
-            "weight": 8.871241340878267,
-            "source": "Welczeck, Adelheid von",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 5.608525254806413,
-            "source": "Welczeck, Adelheid von",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 6.909223775889448,
-            "source": "Welczeck, Adelheid von",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 3.2949472926589967,
-            "source": "Welczeck, Adelheid von",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 4.416922936653325,
-            "source": "Welczeck, Adelheid von",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 6.61208437342332,
-            "source": "Welczeck, Adelheid von",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 4.25689491812804,
-            "source": "Welczeck, Adelheid von",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.801719348881884,
-            "source": "Welczeck, Adelheid von",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.125358596769183,
-            "source": "Welczeck, Adelheid von",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 3.8475933998676077,
-            "source": "Welczeck, Adelheid von",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.148760570722015,
-            "source": "Welczeck, Adelheid von",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 11.120111304202965,
-            "source": "Welczeck, Adelheid von",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.9092475481540325,
-            "source": "Welczeck, Adelheid von",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 2.3545103337099675,
-            "source": "Welczeck, Adelheid von",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 7.181933229737586,
-            "source": "Pappenheim, Bertha",
-            "target": "Lewald, Fanny"
-        },
-        {
-            "weight": 4.4837851267704005,
-            "source": "Pappenheim, Bertha",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 6.178620281725741,
-            "source": "Pappenheim, Bertha",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 4.8255319679860005,
-            "source": "Pappenheim, Bertha",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 7.961504217358717,
-            "source": "Pappenheim, Bertha",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 2.8951863929819543,
-            "source": "Pappenheim, Bertha",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 5.948102919514642,
-            "source": "Pappenheim, Bertha",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.969235174955509,
-            "source": "Pappenheim, Bertha",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 7.105625550748488,
-            "source": "Pappenheim, Bertha",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 5.267002242704827,
-            "source": "Pappenheim, Bertha",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 11.22805305627929,
-            "source": "Pappenheim, Bertha",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 15.537844655338994,
-            "source": "Pappenheim, Bertha",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.809652678489382,
-            "source": "Pappenheim, Bertha",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 4.495511222607054,
-            "source": "Pappenheim, Bertha",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.555432766537086,
-            "source": "Lewald, Fanny",
-            "target": "Meisel-He\u00df, Grete"
-        },
-        {
-            "weight": 5.102113578404701,
-            "source": "Lewald, Fanny",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 5.6510812164207405,
-            "source": "Lewald, Fanny",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 11.7889817546179,
-            "source": "Lewald, Fanny",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 4.734117433779442,
-            "source": "Lewald, Fanny",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 10.478725872233227,
-            "source": "Lewald, Fanny",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 4.287089228378147,
-            "source": "Lewald, Fanny",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 5.952224473730533,
-            "source": "Lewald, Fanny",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 5.115481492695377,
-            "source": "Lewald, Fanny",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 11.297558972171274,
-            "source": "Lewald, Fanny",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 18.694973715233168,
-            "source": "Lewald, Fanny",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 6.0277414112946515,
-            "source": "Lewald, Fanny",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 6.89026987288298,
-            "source": "Lewald, Fanny",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 3.5645147639358274,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "B\u00e4umer, Gertrud"
-        },
-        {
-            "weight": 2.436290994911209,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 8.445803741123596,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 2.5888305554925894,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 7.197767662667971,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 1.9345311196257375,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 4.422078958347405,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 2.320200980919731,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 9.876932821790076,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 16.03212645994654,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 2.941344933630139,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.618915166007471,
-            "source": "Meisel-He\u00df, Grete",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 4.286038817073865,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Krukenberg, Elsbeth"
-        },
-        {
-            "weight": 7.9815864437164485,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Baader, Ottilie"
-        },
-        {
-            "weight": 3.9386338849724103,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Wulff, Frida"
-        },
-        {
-            "weight": 6.71173229840659,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 5.021734103061977,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 7.272283520104654,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.722006514606039,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 12.778330021855545,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 17.94102379747287,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 5.139769577542271,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 4.807589858998527,
-            "source": "B\u00e4umer, Gertrud",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 6.468455284027663,
+            "weight": 1.3060128415115542,
             "source": "Krukenberg, Elsbeth",
-            "target": "Baader, Ottilie"
+            "target": "Langemann, Ludwig"
         },
         {
-            "weight": 4.160966565817155,
+            "weight": 1.8215898899464902,
             "source": "Krukenberg, Elsbeth",
-            "target": "Wulff, Frida"
+            "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 5.611382286162442,
+            "weight": 1.1351811987270901,
             "source": "Krukenberg, Elsbeth",
-            "target": "Alapin, Simon"
-        },
-        {
-            "weight": 2.0748794338470473,
-            "source": "Krukenberg, Elsbeth",
-            "target": "Hilty, Carl"
-        },
-        {
-            "weight": 3.6984754828131945,
-            "source": "Krukenberg, Elsbeth",
-            "target": "Dullo, Alice"
+            "target": "Bebel, August"
         },
         {
             "weight": 1.0317115173914415,
             "source": "Krukenberg, Elsbeth",
             "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 8.731229054314527,
-            "source": "Krukenberg, Elsbeth",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 13.938152675361232,
-            "source": "Krukenberg, Elsbeth",
-            "target": "Hanna, Gertrud"
         },
         {
             "weight": 0.9983677053939916,
@@ -5863,129 +854,244 @@
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 8.725397514630767,
-            "source": "Baader, Ottilie",
-            "target": "Wulff, Frida"
+            "weight": 1.991617150956337,
+            "source": "Langemann, Ludwig",
+            "target": "Martin, Marie"
         },
         {
-            "weight": 2.602922568653026,
-            "source": "Baader, Ottilie",
-            "target": "Alapin, Simon"
+            "weight": 1.5143795141205088,
+            "source": "Langemann, Ludwig",
+            "target": "Breitscheid, Tony"
         },
         {
-            "weight": 8.436794472149911,
-            "source": "Baader, Ottilie",
+            "weight": 1.476483147412966,
+            "source": "Langemann, Ludwig",
+            "target": "Freudenberg, Ika"
+        },
+        {
+            "weight": 1.7321223572675413,
+            "source": "Langemann, Ludwig",
+            "target": "Kr\u00fcger, Elsa"
+        },
+        {
+            "weight": 1.7980143914917215,
+            "source": "Langemann, Ludwig",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.003523648571621,
+            "source": "Langemann, Ludwig",
+            "target": "Langemann, Ludwig"
+        },
+        {
+            "weight": 1.2419409052891055,
+            "source": "Langemann, Ludwig",
             "target": "Hilty, Carl"
         },
         {
-            "weight": 9.260626981583451,
-            "source": "Baader, Ottilie",
-            "target": "Dullo, Alice"
+            "weight": 1.5844764120581765,
+            "source": "Langemann, Ludwig",
+            "target": "Bebel, August"
         },
         {
-            "weight": 7.367330702138134,
-            "source": "Baader, Ottilie",
+            "weight": 1.4099678063647267,
+            "source": "Langemann, Ludwig",
             "target": "Ichenhaeuser, Eliza"
         },
         {
-            "weight": 12.118839908996982,
-            "source": "Baader, Ottilie",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 12.606964427944717,
-            "source": "Baader, Ottilie",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 6.580713054996465,
-            "source": "Baader, Ottilie",
+            "weight": 0.8332380125706722,
+            "source": "Langemann, Ludwig",
             "target": "Reeves, William Pember"
         },
         {
-            "weight": 5.304159325410027,
-            "source": "Baader, Ottilie",
+            "weight": 1.471532151907424,
+            "source": "Langemann, Ludwig",
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 6.893512829528912,
-            "source": "Wulff, Frida",
-            "target": "Alapin, Simon"
+            "weight": 1.9929259994915005,
+            "source": "Bebel, August",
+            "target": "Breitscheid, Tony"
         },
         {
-            "weight": 3.984016804477722,
-            "source": "Wulff, Frida",
+            "weight": 1.936978544459933,
+            "source": "Bebel, August",
+            "target": "Geyken, Alexander"
+        },
+        {
+            "weight": 1.9895769219968573,
+            "source": "Bebel, August",
+            "target": "Kr\u00fcger, Elsa"
+        },
+        {
+            "weight": 1.2312590811896598,
+            "source": "Bebel, August",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.5932844153026657,
+            "source": "Bebel, August",
+            "target": "Ichenhaeuser, Eliza"
+        },
+        {
+            "weight": 1.7773597366994762,
+            "source": "Bebel, August",
+            "target": "Reeves, William Pember"
+        },
+        {
+            "weight": 1.8232001295434137,
+            "source": "Bebel, August",
+            "target": "D\u00fchring, Eugen"
+        },
+        {
+            "weight": 1.6160373959530185,
+            "source": "Reeves, William Pember",
+            "target": "Freudenberg, Ika"
+        },
+        {
+            "weight": 1.1025056722123765,
+            "source": "Reeves, William Pember",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.9543395730417776,
+            "source": "Reeves, William Pember",
             "target": "Hilty, Carl"
         },
         {
-            "weight": 6.595920820943969,
-            "source": "Wulff, Frida",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 4.436559550828233,
-            "source": "Wulff, Frida",
+            "weight": 1.1074629755292569,
+            "source": "Reeves, William Pember",
             "target": "Ichenhaeuser, Eliza"
         },
         {
-            "weight": 11.704174616725862,
-            "source": "Wulff, Frida",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 17.159629792579526,
-            "source": "Wulff, Frida",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 4.537915469467209,
-            "source": "Wulff, Frida",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 4.52405384036995,
-            "source": "Wulff, Frida",
+            "weight": 1.5561387648485288,
+            "source": "Reeves, William Pember",
             "target": "D\u00fchring, Eugen"
         },
         {
-            "weight": 7.384901868095108,
-            "source": "Alapin, Simon",
+            "weight": 1.587583964486475,
+            "source": "Martin, Marie",
+            "target": "Breitscheid, Tony"
+        },
+        {
+            "weight": 0.842427832887645,
+            "source": "Martin, Marie",
+            "target": "Kr\u00fcger, Elsa"
+        },
+        {
+            "weight": 1.5674732547828494,
+            "source": "Martin, Marie",
+            "target": "Bahnson, Minna"
+        },
+        {
+            "weight": 1.1436788158233824,
+            "source": "Martin, Marie",
+            "target": "Meisel-He\u00df, Grete"
+        },
+        {
+            "weight": 1.0254069576114535,
+            "source": "Martin, Marie",
             "target": "Hilty, Carl"
         },
         {
-            "weight": 8.808797256599856,
-            "source": "Alapin, Simon",
-            "target": "Dullo, Alice"
-        },
-        {
-            "weight": 6.566747642705666,
-            "source": "Alapin, Simon",
+            "weight": 1.8635183037776057,
+            "source": "Martin, Marie",
             "target": "Ichenhaeuser, Eliza"
         },
         {
-            "weight": 12.358778523599824,
-            "source": "Alapin, Simon",
-            "target": "Kautsky, Karl"
+            "weight": 1.7804181472070986,
+            "source": "Breitscheid, Tony",
+            "target": "Freudenberg, Ika"
         },
         {
-            "weight": 13.747741288219897,
-            "source": "Alapin, Simon",
-            "target": "Hanna, Gertrud"
+            "weight": 1.0364171733719085,
+            "source": "Breitscheid, Tony",
+            "target": "Kr\u00fcger, Elsa"
         },
         {
-            "weight": 5.764813417684859,
-            "source": "Alapin, Simon",
-            "target": "Reeves, William Pember"
+            "weight": 1.4800358686726491,
+            "source": "Breitscheid, Tony",
+            "target": "Bahnson, Minna"
         },
         {
-            "weight": 4.261088528473102,
-            "source": "Alapin, Simon",
-            "target": "D\u00fchring, Eugen"
+            "weight": 0.9661481168542081,
+            "source": "Breitscheid, Tony",
+            "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 2.675486748518586,
+            "weight": 1.982287347663175,
+            "source": "Breitscheid, Tony",
+            "target": "Meisel-He\u00df, Grete"
+        },
+        {
+            "weight": 1.4845042142969231,
+            "source": "Breitscheid, Tony",
+            "target": "Hilty, Carl"
+        },
+        {
+            "weight": 1.9076474096784268,
+            "source": "Breitscheid, Tony",
+            "target": "Ichenhaeuser, Eliza"
+        },
+        {
+            "weight": 1.9963973942371738,
+            "source": "Kr\u00fcger, Elsa",
+            "target": "Freudenberg, Ika"
+        },
+        {
+            "weight": 1.447281899604991,
+            "source": "Kr\u00fcger, Elsa",
+            "target": "Bahnson, Minna"
+        },
+        {
+            "weight": 1.2956507018532863,
+            "source": "Kr\u00fcger, Elsa",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.2946228511447404,
+            "source": "Kr\u00fcger, Elsa",
+            "target": "Meisel-He\u00df, Grete"
+        },
+        {
+            "weight": 1.269550298170887,
+            "source": "Kr\u00fcger, Elsa",
+            "target": "Hilty, Carl"
+        },
+        {
+            "weight": 1.68205555946526,
+            "source": "Kr\u00fcger, Elsa",
+            "target": "Ichenhaeuser, Eliza"
+        },
+        {
+            "weight": 1.7710135969724947,
+            "source": "Bahnson, Minna",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.6511915956499859,
+            "source": "Bahnson, Minna",
+            "target": "Meisel-He\u00df, Grete"
+        },
+        {
+            "weight": 1.89586639527175,
+            "source": "Bahnson, Minna",
+            "target": "Hilty, Carl"
+        },
+        {
+            "weight": 1.2378201981644648,
             "source": "Hilty, Carl",
-            "target": "Dullo, Alice"
+            "target": "Freudenberg, Ika"
+        },
+        {
+            "weight": 1.8719563959973744,
+            "source": "Hilty, Carl",
+            "target": "Kirchhoff, Auguste"
+        },
+        {
+            "weight": 1.9345311196257375,
+            "source": "Hilty, Carl",
+            "target": "Meisel-He\u00df, Grete"
         },
         {
             "weight": 1.2846690471996522,
@@ -5993,99 +1099,74 @@
             "target": "Ichenhaeuser, Eliza"
         },
         {
-            "weight": 8.13367322036339,
-            "source": "Hilty, Carl",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 14.535574913918392,
-            "source": "Hilty, Carl",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 1.9543395730417776,
-            "source": "Hilty, Carl",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 3.232139144030933,
-            "source": "Hilty, Carl",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 2.7789638319181735,
-            "source": "Dullo, Alice",
-            "target": "Ichenhaeuser, Eliza"
-        },
-        {
-            "weight": 5.668512531250989,
-            "source": "Dullo, Alice",
-            "target": "Kautsky, Karl"
-        },
-        {
-            "weight": 12.936099980145343,
-            "source": "Dullo, Alice",
-            "target": "Hanna, Gertrud"
-        },
-        {
-            "weight": 3.179540962311742,
-            "source": "Dullo, Alice",
-            "target": "Reeves, William Pember"
-        },
-        {
-            "weight": 4.675231553072815,
-            "source": "Dullo, Alice",
-            "target": "D\u00fchring, Eugen"
-        },
-        {
-            "weight": 8.09931522666443,
+            "weight": 1.3105024341614826,
             "source": "Ichenhaeuser, Eliza",
-            "target": "Kautsky, Karl"
+            "target": "Freudenberg, Ika"
         },
         {
-            "weight": 13.95195438957192,
+            "weight": 1.714763961011088,
             "source": "Ichenhaeuser, Eliza",
-            "target": "Hanna, Gertrud"
+            "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 1.1074629755292569,
-            "source": "Ichenhaeuser, Eliza",
-            "target": "Reeves, William Pember"
+            "weight": 1.8482306110949374,
+            "source": "Hasenclever, Juliette",
+            "target": "B\u00e4umer, Gertrud"
         },
         {
-            "weight": 2.393559424899855,
-            "source": "Ichenhaeuser, Eliza",
-            "target": "D\u00fchring, Eugen"
+            "weight": 1.8697447616581715,
+            "source": "B\u00e4umer, Gertrud",
+            "target": "Blacker, Carola"
         },
         {
-            "weight": 9.390277460880526,
-            "source": "Kautsky, Karl",
-            "target": "Hanna, Gertrud"
+            "weight": 1.7786007691166972,
+            "source": "Freudenberg, Ika",
+            "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 7.982597915909004,
-            "source": "Kautsky, Karl",
-            "target": "Reeves, William Pember"
+            "weight": 1.974531238814875,
+            "source": "Freudenberg, Ika",
+            "target": "L\u00fcders, Else"
         },
         {
-            "weight": 9.133376187250295,
-            "source": "Kautsky, Karl",
-            "target": "D\u00fchring, Eugen"
+            "weight": 1.8990271140416861,
+            "source": "Kirchhoff, Auguste",
+            "target": "Geyken, Alexander"
         },
         {
-            "weight": 13.216221775781714,
-            "source": "Hanna, Gertrud",
-            "target": "Reeves, William Pember"
+            "weight": 1.7106269487791568,
+            "source": "Kirchhoff, Auguste",
+            "target": "Kirchhoff, Auguste"
         },
         {
-            "weight": 13.301898229387714,
-            "source": "Hanna, Gertrud",
-            "target": "D\u00fchring, Eugen"
+            "weight": 1.6370491437386212,
+            "source": "Kirchhoff, Auguste",
+            "target": "Perlen, Frida"
         },
         {
-            "weight": 1.5561387648485288,
-            "source": "Reeves, William Pember",
-            "target": "D\u00fchring, Eugen"
+            "weight": 1.9031003867426866,
+            "source": "Geyken, Alexander",
+            "target": "Blacker, Carola"
+        },
+        {
+            "weight": 1.912469254142549,
+            "source": "Geyken, Alexander",
+            "target": "Zepler, Wally"
+        },
+        {
+            "weight": 1.894686266594606,
+            "source": "Geyken, Alexander",
+            "target": "Ledermann, Frieda"
+        },
+        {
+            "weight": 1.64046854464748,
+            "source": "Geyken, Alexander",
+            "target": "Perlen, Frida"
+        },
+        {
+            "weight": 1.8817532223875364,
+            "source": "Perlen, Frida",
+            "target": "Lindemann, Anna"
         }
     ]
 }
